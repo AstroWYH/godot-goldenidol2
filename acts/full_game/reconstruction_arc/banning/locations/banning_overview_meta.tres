@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=3 format=4 uid="uid://d3q5uxljty8o7"]
+
+[ext_resource type="Texture2D" uid="uid://bb6k1prwm3dje" path="res://acts/full_game/reconstruction_arc/banning/assets/harmony_location.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+location_id = 2
+path = "res://acts/full_game/reconstruction_arc/banning/locations/banning_overview.tscn"
+background = ExtResource("1")
+audio_side_effect = 0
+music_layers = []
+ambience_layers = []
+music_layer_ids = [0]

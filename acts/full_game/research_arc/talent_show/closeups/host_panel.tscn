@@ -1,0 +1,333 @@
+[gd_scene load_steps=50 format=4 uid="uid://blwrieu101d8g"]
+
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="1"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
+[ext_resource type="Texture2D" uid="uid://rnegqyo3v4dc" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b52mptsd1rgyq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://crn7rm0v0akyf" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d2mq686dmpnju" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dke2d4tbhaydp" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://l1jpo45o5o7f" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://reyqjovg5wkw" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d3ihfyp1x3mvw" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://battu7xw3ax38" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bjl2pe7qjnrwr" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://vt24xuxmv8c2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dkculedo551ox" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://wlttatg5yhgq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bcwx2j2u8dkj4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b5ye57hiv2r57" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://jyficiv8u3pf" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bg3itl2chc3aj" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cddacw3sm51t1" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://c87bgboeqmkxg" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://qqgrgstewe6w" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://baxry0smv7rtl" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://beg10xjur2sa" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://hpeatr3ao81j" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ba6vt1j3tjt4o" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://67qn1yf3cqu5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dresn8h7530v4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://r6ahfxot7kvm" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://db27vdvkwonjh" path="res://acts/full_game/research_arc/talent_show/assets/portraits/producer/producer_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://b43287j1fidhs" path="res://shared/assets/papers/SmallNote_V2_ICO.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bwqg46qli81hb" path="res://shared/assets/papers/starnote.png" id="32"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="33"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="34"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c27l418e2rfxo" path="res://shared/assets/papers/stardust_logo.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vvcok"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_ykbi0"]
+script = ExtResource("34")
+linked_item_ref_id = 247
+
+[sub_resource type="Resource" id="Resource_6tmxp"]
+script = ExtResource("34")
+linked_item_ref_id = 242
+
+[sub_resource type="Resource" id="Resource_8reok"]
+script = ExtResource("34")
+linked_item_ref_id = 243
+
+[sub_resource type="Resource" id="Resource_5733d"]
+script = ExtResource("34")
+linked_item_ref_id = 239
+
+[sub_resource type="Resource" id="Resource_odg2f"]
+script = ExtResource("34")
+linked_item_ref_id = 240
+
+[sub_resource type="Resource" id="Resource_38p8m"]
+script = ExtResource("34")
+linked_item_ref_id = 237
+
+[sub_resource type="Resource" id="Resource_k35y0"]
+script = ExtResource("34")
+linked_item_ref_id = 238
+
+[sub_resource type="Resource" id="Resource_rpxy2"]
+script = ExtResource("34")
+linked_item_ref_id = 244
+
+[sub_resource type="Resource" id="Resource_4g02t"]
+script = ExtResource("34")
+linked_item_ref_id = 245
+
+[sub_resource type="Resource" id="Resource_ol3ro"]
+script = ExtResource("34")
+linked_item_ref_id = 278
+
+[sub_resource type="Resource" id="Resource_6dt2l"]
+script = ExtResource("34")
+linked_item_ref_id = 234
+
+[node name="HostPanel" type="Panel"]
+offset_left = -384.0
+offset_top = 1205.0
+offset_right = 331.0
+offset_bottom = 1686.0
+
+[node name="HostText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 487.0
+offset_bottom = 144.0
+theme = ExtResource("1")
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_DANTE_SPEECH"
+autowrap_mode = 3
+
+[node name="Producer" type="AnimatedSprite2D" parent="."]
+position = Vector2(188, 295)
+sprite_frames = SubResource("SpriteFrames_vvcok")
+autoplay = "default"
+frame_progress = 0.6911190152168274
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.74902, 0.698039, 0.560784, 1)
+position = Vector2(558, 349)
+texture = ExtResource("31")
+
+[node name="Starnote" type="Sprite2D" parent="."]
+position = Vector2(573, 146)
+texture = ExtResource("32")
+
+[node name="ContestantListSpot" parent="." instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 464.0
+offset_top = 31.0
+offset_right = -27.0
+offset_bottom = -249.0
+hotspot_id = "C9S"
+unlocked_item_ref_id = 246
+extra_items_unlocked = [SubResource("Resource_ykbi0"), SubResource("Resource_6tmxp"), SubResource("Resource_8reok"), SubResource("Resource_5733d"), SubResource("Resource_odg2f"), SubResource("Resource_38p8m"), SubResource("Resource_k35y0"), SubResource("Resource_rpxy2"), SubResource("Resource_4g02t"), SubResource("Resource_ol3ro"), SubResource("Resource_6dt2l")]
+
+[node name="ContestantListPanel" type="Panel" parent="ContestantListSpot"]
+layout_mode = 0
+offset_left = 300.0
+offset_top = -69.0
+offset_right = 758.0
+offset_bottom = 478.0
+
+[node name="TextureRect2" type="TextureRect" parent="ContestantListSpot/ContestantListPanel"]
+modulate = Color(0.98, 0.996667, 1, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 9.0
+offset_right = 446.0
+offset_bottom = 530.0
+texture = ExtResource("35")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="ContestantListSpot/ContestantListPanel/TextureRect2"]
+modulate = Color(0.4958, 0.620643, 0.67, 0.415686)
+position = Vector2(343, 76)
+texture = ExtResource("36")
+
+[node name="Sprite2D7" type="Sprite2D" parent="ContestantListSpot/ContestantListPanel/TextureRect2"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(179, 418)
+rotation = 6.356349945068359
+scale = Vector2(0.933489, 1.41891)
+texture = ExtResource("37")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D8" type="Sprite2D" parent="ContestantListSpot/ContestantListPanel/TextureRect2"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(265, 211)
+rotation = 3.3884201049804688
+scale = Vector2(0.933489, 1.41891)
+texture = ExtResource("37")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 10.15, 454, 219.45)
+
+[node name="ContestantListText" type="Label" parent="ContestantListSpot/ContestantListPanel"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 31.0
+offset_right = 426.0
+offset_bottom = 503.0
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_DANTE_CONTESTANT_LIST"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="AngryNoteSpot" parent="." instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 486.0
+offset_top = 256.0
+offset_right = -84.0
+offset_bottom = -46.0
+hotspot_id = "0jx"
+
+[node name="AngryNotePanel" type="Panel" parent="AngryNoteSpot"]
+layout_mode = 0
+offset_left = -99.0
+offset_top = 321.0
+offset_right = 433.0
+offset_bottom = 868.0
+
+[node name="TextureRect" type="TextureRect" parent="AngryNoteSpot/AngryNotePanel"]
+modulate = Color(0.701961, 0.654902, 0.52549, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 520.0
+offset_bottom = 529.0
+texture = ExtResource("35")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D9" type="Sprite2D" parent="AngryNoteSpot/AngryNotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.956863)
+position = Vector2(115, 190)
+rotation = -0.20996099710464478
+scale = Vector2(1.05484, 1.05489)
+skew = 0.006075140088796616
+texture = ExtResource("37")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 382.5, 454, 222.2)
+
+[node name="Sprite2D8" type="Sprite2D" parent="AngryNoteSpot/AngryNotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(327, 291)
+rotation = 1.577839970588684
+scale = Vector2(0.833055, 1.26625)
+texture = ExtResource("37")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 10.15, 454, 219.45)
+
+[node name="AngryNoteText" type="Label" parent="AngryNoteSpot/AngryNotePanel"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 58.0
+offset_right = 505.0
+offset_bottom = 468.0
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_DANTE_LETTER_FROM_CAM"
+autowrap_mode = 3

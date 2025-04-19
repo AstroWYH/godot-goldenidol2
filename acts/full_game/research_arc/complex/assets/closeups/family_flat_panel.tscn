@@ -1,0 +1,984 @@
+[gd_scene load_steps=210 format=4 uid="uid://dr7eoyh0srwvg"]
+
+[ext_resource type="Texture2D" uid="uid://iv56vmt34rtc" path="res://acts/full_game/research_arc/complex/assets/closeups/01_a4_winthorp.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bfu26kpcqstv" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c31c1arrykqby" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bl717mjwr5fbw" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c8hk2ajnsjg0q" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bxsw5ejjjs2yv" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dhhfkauh5mpx7" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://de50tdnw4g1ul" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://n1cbl7vkx1pp" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c5r1yu7y2i3uj" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bc3g4jkoorb0f" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ct1vhdbpl6plg" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ntgb1t2tf6gt" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://w578gyx7yf15" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://d2h1mdhtxc2wj" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bpupcjea2bn7a" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://biuliic7g0mds" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cxteo6d4d5dxu" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cp6qko5fmnbuw" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://nfnnbcb36dct" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dxp857qmey4x5" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ccqw7a3owb2g6" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dm5t3ns8rfxcv" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://jjt2dvm3lgfe" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ban60a8mkurq2" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://de3w4h2adydjd" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00000.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://gvgr3hg6ijtd" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00001.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bde6fywrfusws" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00002.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ghr5lalojlfh" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00003.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b8tbnpq51esqt" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00004.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://ddwsmse5oqu0q" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00005.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://c7csefkkt4y6y" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00006.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://b33jiyd4gdfww" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00007.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://busaed01vm77m" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00008.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bw626ehj1y1j7" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00009.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://blrrd5wc7t8do" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00010.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://m8r18ys71638" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00011.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cyrc5idgdehc3" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00012.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cauboegnwfywi" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00013.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cdti3lahuad01" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00014.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://duapcqx0bgpj0" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00015.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://jmny6htihkum" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00016.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://d1j8r8gl1m2rd" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00017.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cd5ptltgi1pjo" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00018.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dk1wx3bd6i657" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00019.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cinsdn1x6st4i" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00020.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dw88vcrg6diww" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00021.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://fm0mdp7beu84" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00022.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dxx40jvcfq3ka" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00023.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bvkqth30f0q33" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00024.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://48jvdsjixfwg" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00025.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://gs8sgul2vmh4" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00026.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://dceke8el65d1x" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00027.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://dl5otw5nsg3qj" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00028.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://c36qagqp7pvt2" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00029.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://b81fsev1njxqy" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00030.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://da71v36hotrim" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00031.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://b77g8wog4w4uq" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00032.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://dvdba2fcf2dyu" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00033.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://ne6bew3kbx3a" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00034.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://dwds458dur01y" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00035.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bgge3i186kvjv" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00036.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://mqnuash8xhsd" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00037.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://cdiyjqi3wdo86" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00038.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://cc8cd25dvdn7n" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00039.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bh8fm8p22tgi2" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00040.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://0unh4yeprtuv" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00041.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://7fe62qidayrp" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00042.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://120qfy3qbful" path="res://acts/full_game/research_arc/complex/assets/animations/BabyMama/BabyMama_00043.png" id="69"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="70"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="71"]
+[ext_resource type="Texture2D" uid="uid://bpopufvjvmgll" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_000.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://kdsqbbsfwb50" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_001.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://dsah3lid6uv1s" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_002.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://cg2e0ajkbxngp" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_003.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://vhfw2alfmyry" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_004.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://bfymcsrhan0lc" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_005.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://bes3m5wx4mtfn" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_006.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://edugdyhfvwur" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_007.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cnccrgxjjvwk3" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_008.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://bf2nrb6r3jtc" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_009.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://cb5fr2wnmf6ps" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_010.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://1dtpta86flhf" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_011.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://cqvpi2e0117oo" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_012.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://048tikr5pan" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_013.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://cbima72rnbl5" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_014.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://b15umewsuxh22" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_015.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dyhdmrpaycanv" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_016.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://dggmyoyimlh7c" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_017.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bcm2uo8hln1b7" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_018.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://dihrnitpwmelb" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_019.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://bbuwxsn7njind" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_020.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://d3i4c8vtxev8s" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_021.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://77gllju65pk2" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_022.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://chmyib0nlleyo" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_023.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://bfqoarjosvvml" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_024.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://c6h3pkaxwaiyv" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_025.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://4ylegstakwhg" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_026.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://d324y6fmeluue" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_027.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://csg2s24mm7j6m" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_028.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://6gflhugik6dg" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_029.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cwjphstpne2vp" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_030.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bbsilx8j2jlpi" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_031.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://cjy4xmrl6rbd" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_032.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://bm504o6tced3h" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_033.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://ck2xh0u1pocg2" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_034.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://b6akn5nkkntyq" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_035.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://bqwccu1aa1ect" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_036.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://w2wt082i0ne2" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_037.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://c8uxakn60qvau" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_038.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://cg3usjyjspqh3" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_039.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://bpx0oyt3wjj02" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_040.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://dgfv6gqvopl6t" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_041.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://cmk6snii2n0gy" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_042.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://cagj6ipjdss1v" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_043.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://mli6oafw8qnw" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_044.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://vuchl6d6u6sp" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_045.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://plrqcseesrnl" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_046.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://lcb50hqt8dja" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_047.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://c6ndctxkdj423" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_048.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://qspo80bud4uf" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_049.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://b154qaxr3k2c4" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_050.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://t6dmlot5hbvv" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_051.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://bbf8jyst1xdsk" path="res://acts/full_game/research_arc/complex/assets/portraits/constance/x_constance_052.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="127"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="128"]
+[ext_resource type="Texture2D" uid="uid://dux1evq6aehd1" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00000.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://bamdpsli3o77l" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00001.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://d1o2bru82lyf0" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00002.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://csmpgur2w5gm6" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00003.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://c644dfm0dntll" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00004.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://b8dhgpvub8ua5" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00005.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://calr1flywbelh" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00006.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://cc3kmcj8xa5hw" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00007.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://cfwa4fedorwcb" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00008.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://cqu7l1onfi4ll" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00009.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://bw3bqsxmcqcag" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00010.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://m7nt11ma87pt" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00011.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://bwjnc7eitpr5" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00012.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://58k5avyeyv6f" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00013.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://b2i7qjayp8odg" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00014.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://7kdtih5462ic" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00015.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://da4dv3uhw5f8f" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00016.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://cjhmbl4l77cxx" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00017.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://derc41aeiwmi4" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00018.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://btkbschoh7wp6" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00019.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://d266ab2fcx1a2" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00020.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://cw6y8tctm7cd6" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00021.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://bqh36cdgrtvi3" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00022.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://bbjbduoa4xget" path="res://acts/full_game/research_arc/complex/assets/portraits/baby_patience/BabyPortrait_00023.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://cov2hpk5ohq82" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_000.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://cxqga7d2stjgv" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_001.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://lyhvn57ob0k" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_002.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://wtvm6hdinndb" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_003.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://cc80cycyjb3sd" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_004.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://dhchaefp6lums" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_005.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://bkn2sqvhcx3tx" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_006.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://5xxewnv76k06" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_007.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://0mtr6glva64e" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_008.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://cku3etg0lsdrj" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_009.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://buomb7q32lofy" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_010.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://c5d0gojl54hlb" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_011.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://dske5nmv0oqlo" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_012.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://b0nq0s5rapweh" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_013.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://b2tmnnqwvy0pl" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_014.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://bixp4loxksa3e" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_015.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://bveg1tym0nwpd" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_016.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://dwxnhlyju4d2a" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_017.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://bvsobdyvd6rso" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_018.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://xoupn0ip6p54" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_019.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://j0mgt2i4p2r" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_020.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://cosygo7inx1ws" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_021.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://cbfp04r4ilwhn" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_022.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://c0ayl5ldjw46o" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_023.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://cywehhv6wmeyj" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_024.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://f842dd4xor6r" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_025.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://b0rii81souft4" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_026.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://dceauvkot6h24" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_027.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://dd4mv45lxmivb" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_028.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://cpxvkq4hx3xld" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_029.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://cuqaehb7trsdo" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_030.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://ck0i4r086g5ye" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_031.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://b8dtau17f44pp" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_032.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://rx5b38ntl10e" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_033.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://2q1jg13vj37a" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_034.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://ddjpp30cdo1y5" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_035.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://bkixm8oye58do" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_036.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://dcxpp61mk2t5k" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_037.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://dbd61dyixhim1" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_038.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://natle3032al" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_039.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://htboqgihjgeq" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_040.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://bpuv7vt447jd7" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_041.png" id="194"]
+[ext_resource type="Texture2D" uid="uid://cbme0yy0o3mja" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_042.png" id="195"]
+[ext_resource type="Texture2D" uid="uid://diaefgkab1dh2" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_043.png" id="196"]
+[ext_resource type="Texture2D" uid="uid://b5y4rnbc8s1tn" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_044.png" id="197"]
+[ext_resource type="Texture2D" uid="uid://cmonw853wkf1e" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_045.png" id="198"]
+[ext_resource type="Texture2D" uid="uid://cxfdfdmauhlcs" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_046.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://ovgj062sggrc" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_047.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://ckxlb1y2ccnom" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_048.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://dawj5fxhwnesd" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_049.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://bg78w73b86r8o" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_050.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://fjvc5tdrwgqv" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_051.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://cd4svf7qbfx4w" path="res://acts/full_game/research_arc/complex/assets/portraits/patience/x_patience_052.png" id="205"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_70wf1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_aouku"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tunoa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_656fu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}],
+"loop": true,
+"name": &"LoopNew",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="FamilyFlatPanel" type="Panel"]
+offset_right = 922.0
+offset_bottom = 528.0
+
+[node name="01A4Winthorp" type="Sprite2D" parent="."]
+position = Vector2(12, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="Baby" type="AnimatedSprite2D" parent="01A4Winthorp"]
+position = Vector2(300, 293)
+sprite_frames = SubResource("SpriteFrames_70wf1")
+autoplay = "default"
+frame_progress = 0.15835300087928772
+
+[node name="Mama" type="AnimatedSprite2D" parent="01A4Winthorp"]
+position = Vector2(434, 251)
+sprite_frames = SubResource("SpriteFrames_aouku")
+autoplay = "default"
+frame_progress = 0.5985720157623291
+
+[node name="ConstanceSpot" parent="." instance=ExtResource("70")]
+layout_mode = 1
+offset_left = 403.0
+offset_top = 135.0
+offset_right = -443.0
+offset_bottom = -133.0
+hotspot_id = "vSW"
+unlocked_character_ref_id = 102
+unlocked_item_ref_id = 730
+
+[node name="ConstancePanel" type="Panel" parent="ConstanceSpot"]
+layout_mode = 0
+offset_left = -117.0
+offset_top = -780.0
+offset_right = 719.0
+offset_bottom = -274.0
+
+[node name="ConstanceSpeech" type="Label" parent="ConstanceSpot/ConstancePanel"]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 131.0
+offset_right = 799.0
+offset_bottom = 433.0
+theme = ExtResource("71")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_CONSTANCE_SPEECH"
+autowrap_mode = 3
+
+[node name="XConstance" type="AnimatedSprite2D" parent="ConstanceSpot/ConstancePanel"]
+position = Vector2(222, 249)
+scale = Vector2(1.07, 1)
+sprite_frames = SubResource("SpriteFrames_tunoa")
+autoplay = "default"
+frame_progress = 0.5564990043640137
+
+[node name="FridgeNoteSpot" parent="." instance=ExtResource("70")]
+layout_mode = 1
+offset_left = 697.0
+offset_top = 115.0
+offset_right = -142.0
+offset_bottom = -265.0
+hotspot_id = "vSW"
+
+[node name="FridgeNotePanel" type="Panel" parent="FridgeNoteSpot"]
+layout_mode = 0
+offset_left = 252.0
+offset_top = -26.0
+offset_right = 599.0
+offset_bottom = 301.0
+
+[node name="Sprite2D" type="TextureRect" parent="FridgeNoteSpot/FridgeNotePanel"]
+modulate = Color(0.482353, 0.713726, 0.72549, 1)
+clip_children = 2
+layout_mode = 0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 336.0
+offset_bottom = 314.0
+texture = ExtResource("125")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="FridgeNoteSpot/FridgeNotePanel/Sprite2D"]
+position = Vector2(126, 20)
+rotation = 3.138849973678589
+texture = ExtResource("126")
+region_enabled = true
+region_rect = Rect2(114.26, 96.6527, 49.177, 39.9563)
+
+[node name="Sprite2D" type="Sprite2D" parent="FridgeNoteSpot/FridgeNotePanel/Sprite2D/Sprite2D"]
+position = Vector2(-50.3172, -158.132)
+rotation = 3.1421799659729004
+scale = Vector2(0.930079, 1)
+texture = ExtResource("127")
+region_enabled = true
+region_rect = Rect2(216.812, 5.84944, 379.02, 227.601)
+
+[node name="FridgeNoteText" type="Label" parent="FridgeNoteSpot/FridgeNotePanel"]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 19.0
+offset_right = 325.0
+offset_bottom = 305.0
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_fonts/font = ExtResource("128")
+theme_override_font_sizes/font_size = 24
+text = "COMPLEX_FRIDGE_NOTE"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="PatienceSpot" parent="." instance=ExtResource("70")]
+layout_mode = 1
+offset_left = 282.0
+offset_top = 213.0
+offset_right = -568.0
+offset_bottom = -176.0
+hotspot_id = "vSW"
+unlocked_character_ref_id = 101
+
+[node name="PatiencePanel" type="Panel" parent="PatienceSpot"]
+layout_mode = 0
+offset_left = -670.0
+offset_top = -677.0
+offset_right = -90.0
+offset_bottom = -352.0
+
+[node name="XPatience" type="AnimatedSprite2D" parent="PatienceSpot/PatiencePanel"]
+position = Vector2(304, 212)
+scale = Vector2(0.782808, 0.782808)
+sprite_frames = SubResource("SpriteFrames_656fu")
+animation = &"LoopNew"
+autoplay = "LoopNew"
+frame_progress = 0.7352060079574585
+
+[node name="PatienceSpeech" type="Label" parent="PatienceSpot/PatiencePanel"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 39.0
+offset_right = 563.0
+offset_bottom = 141.0
+theme = ExtResource("71")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_PATIENCE_SPEECH"
+autowrap_mode = 3

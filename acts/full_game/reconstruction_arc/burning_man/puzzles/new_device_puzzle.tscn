@@ -1,0 +1,151 @@
+[gd_scene load_steps=14 format=4 uid="uid://8oqqoipyvygh"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://b2oum3u8snuyu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzle/devicepuzzle.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://qup4revhx7eg" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/new_device_puzzle_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://de7tori4yt0g0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzle/deviceeugene.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dbrjqgnrgoouj" path="res://shared/assets/portraits/jacknovak.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b53r7nlm3g7t3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzle/devicetim.png" id="9"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="10"]
+[ext_resource type="Texture2D" uid="uid://dfwdm1fd7v7k8" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzle/devicemarie.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cad1qjckb8rlc" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzle/devicenathan.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://d215g27t3a7ij" path="res://shared/assets/portraits/professor.png" id="13"]
+
+[node name="PicturePuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_left = 475.0
+offset_top = 200.0
+offset_right = 1393.0
+offset_bottom = 814.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 0
+offset_left = -4.0
+offset_right = 905.0
+offset_bottom = 594.0
+mouse_filter = 1
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(324, 293)
+texture = ExtResource("2")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("3")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("4")]
+layout_mode = 1
+puzzle_meta = ExtResource("5")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("6")]
+layout_mode = 1
+offset_right = -849.0
+offset_bottom = -758.0
+
+[node name="Container" type="Control" parent="PuzzleGroup/Puzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 26.0
+offset_top = 101.0
+offset_right = 26.0
+offset_bottom = 101.0
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 13.0
+offset_top = 339.0
+offset_right = 113.0
+offset_bottom = 439.0
+texture = ExtResource("7")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 492.0
+offset_top = 41.0
+offset_right = 592.0
+offset_bottom = 141.0
+texture = ExtResource("8")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 161.0
+offset_top = 414.0
+offset_right = 261.0
+offset_bottom = 514.0
+texture = ExtResource("9")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 323.0
+offset_top = 41.0
+offset_right = 423.0
+offset_bottom = 141.0
+texture = ExtResource("7")
+
+[node name="Inventory" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("10")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 14.0
+offset_top = 105.0
+offset_right = 14.0
+offset_bottom = 105.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = 646.0
+offset_top = 41.0
+offset_right = 850.0
+offset_bottom = 349.0
+columns = 2
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("7")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("12")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("8")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="4"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("9")
+
+[node name="6" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("13")
+
+[editable path="Frame"]

@@ -1,0 +1,258 @@
+[gd_scene load_steps=39 format=4 uid="uid://dso47okslq21g"]
+
+[ext_resource type="Texture2D" uid="uid://d0rr1mjguejcs" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c8nv7pufqgb25" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://crbh3mk8wpbv0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://0y12rqdlwly4" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bu6dimbtdg1e4" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cdb4kdxvu63u6" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dvky4hbmedpe" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c66ewko3y0ouy" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bnqrrekgmk8yi" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dwx2nrwyltb50" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://4xh5envo85wo" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://clpowt2aeewt3" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dg4yo78gcd4r0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cv174es1bsysi" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://diblwbaah7rdg" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://7smequtynkga" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://caats3j1w3rpu" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d2bpdf0l2jass" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bg2o8vn3gdbim" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dni2tqm1o3psx" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://b5enxltm1wj0w" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://be2e7m5114imi" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://guj81vtg1jjk" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b18devmbqgwi" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dg52kyute6q4e" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ch3s3ipc05s32" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dm0gomeegntmb" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bwwjiik5yex4j" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ckobb0a3101qd" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ddc1bf8pjhv2h" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+[ext_resource type="Texture2D" uid="uid://cvla56b1n2ryt" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/newspapersmall.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://8dbexm3a71bl" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/ring.png" id="33"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="34"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="35"]
+[ext_resource type="Texture2D" uid="uid://t1r4rj41alos" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/newspaper.png" id="36"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7mdj7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="OdettaPanel" type="Panel"]
+offset_left = 753.0
+offset_top = -702.0
+offset_right = 1637.0
+offset_bottom = -116.0
+
+[node name="OdettaSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(175, 357)
+sprite_frames = SubResource("SpriteFrames_7mdj7")
+autoplay = "default"
+frame_progress = 0.9733899831771851
+flip_h = true
+
+[node name="OdettaSpeechLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 32.0
+offset_right = 693.0
+offset_bottom = 134.0
+theme = ExtResource("31")
+text = "NEIGHBORHOOD_YARDS_ODETTA_SPEECH"
+autowrap_mode = 2
+
+[node name="PaperSmallSprite" type="Sprite2D" parent="."]
+position = Vector2(717, 336)
+texture = ExtResource("32")
+
+[node name="RingSpriteTobias" type="Sprite2D" parent="."]
+position = Vector2(471, 200)
+texture = ExtResource("33")
+
+[node name="DialogueTobiasLabel2" type="Label" parent="RingSpriteTobias"]
+offset_left = -14.0
+offset_top = 22.0
+offset_right = 59.0
+offset_bottom = 52.0
+rotation = 0.3406060039997101
+theme = ExtResource("34")
+theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
+theme_override_font_sizes/font_size = 20
+text = "NEIGHBORHOOD_ODETTA_RING1"
+
+[node name="DialogueTobiasLabel3" type="Label" parent="RingSpriteTobias"]
+offset_left = 22.0
+offset_top = 33.0
+offset_right = 95.0
+offset_bottom = 63.0
+rotation = -1.1375999450683594
+theme = ExtResource("34")
+theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
+theme_override_font_sizes/font_size = 20
+text = "NEIGHBORHOOD_ODETTA_RING2"
+
+[node name="PaperSpot" parent="." instance=ExtResource("35")]
+layout_mode = 1
+offset_left = 576.0
+offset_top = 87.0
+offset_right = -21.0
+offset_bottom = -43.0
+hotspot_id = "fZ7"
+unlocked_item_ref_id = 878
+
+[node name="PaperPanel" type="Panel" parent="PaperSpot"]
+layout_mode = 0
+offset_left = 499.0
+offset_top = -238.0
+offset_right = 1075.0
+offset_bottom = 600.0
+
+[node name="PaperSprite" type="Sprite2D" parent="PaperSpot/PaperPanel"]
+position = Vector2(287, 413)
+texture = ExtResource("36")
+
+[node name="LabelPaper" type="Label" parent="PaperSpot/PaperPanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 12.0
+offset_right = 565.0
+offset_bottom = 90.0
+theme = ExtResource("37")
+theme_override_colors/font_color = Color(0.164706, 0.196078, 0.192157, 1)
+theme_override_font_sizes/font_size = 22
+text = "NEIGHBORHOOD_ODETTA_NEWSPAPER1"
+horizontal_alignment = 1
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="LabelPaper2" type="Label" parent="PaperSpot/PaperPanel"]
+layout_mode = 0
+offset_left = 317.0
+offset_top = 326.0
+offset_right = 544.0
+offset_bottom = 456.0
+theme = ExtResource("37")
+theme_override_colors/font_color = Color(0.164706, 0.196078, 0.192157, 1)
+theme_override_font_sizes/font_size = 22
+text = "NEIGHBORHOOD_ODETTA_NEWSPAPER2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelPaper3" type="Label" parent="PaperSpot/PaperPanel"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 723.0
+offset_right = 642.0
+offset_bottom = 822.0
+theme = ExtResource("34")
+theme_override_colors/font_color = Color(0.164706, 0.196078, 0.192157, 1)
+text = "NEIGHBORHOOD_ODETTA_NEWSPAPER_FOOTER"
+vertical_alignment = 2
+
+[node name="RingSpot" parent="." instance=ExtResource("35")]
+layout_mode = 1
+offset_left = 381.0
+offset_top = 112.0
+offset_right = -342.0
+offset_bottom = -305.0
+hotspot_id = "16P"
+text = "NEIGHBORHOOD_RING_TOOLTIP"

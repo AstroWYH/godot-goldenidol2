@@ -1,0 +1,343 @@
+[gd_scene load_steps=60 format=4 uid="uid://dus7kk5wf76dj"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://ctywtf5ycb63x" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cii66q7um0xwn" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://pw42soipq6f3" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_3.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://de5dfidxh2tu0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_4.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dlyepcuusqdqb" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_5.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dsf16o5scvl70" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_6.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://55n6n0dbywis" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_7.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://nsgo4lnvi1ht" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_8.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://11p140bsdvb1" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_9.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dxyf1tfr7lvn6" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_10.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://diuypggg7g5y8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_11.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://1wfnwgcqjb2g" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_12.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://by37fipla4ui" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_13.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bfg4oedd1w7dk" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_14.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cyelkdmvvybcs" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_15.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cjw048qdb388d" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_16.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://8oujyc6j8lot" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_17.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dnt0b3sbglkys" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_18.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://igs2rllreod" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_19.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dm6qf5d0h1p2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_20.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cid8w1frsew8d" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_21.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://ces3owj3h032s" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_22.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://pwo8bj3id6e8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_23.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://rr4fjtotcy7m" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_24.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b2c1teyhbi7d6" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_25.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cfvbvghpwerxg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_26.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c3kdmjnikxnfp" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_27.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ct0ocmdh1crkp" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_28.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cy3llnwqoqico" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_29.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dv8ygx4c3pi1r" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_30.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bdjxvjse26xw8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_31.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cxms1j7fmu0ot" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_32.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dac4jv3gyht8l" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_33.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dbk1jaj6f0rld" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_34.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://b2csvxkgjnvbn" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_35.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://diimshutk4xvp" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_36.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://d38mem3ef3qc4" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_37.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://t773bgkbsv7j" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_38.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dyuu6r7txjqge" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_39.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://b1ogqqdvqijgi" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_40.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b5w5xsf45qbia" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_41.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bvum2f5xiklxk" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_42.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cnuy42d6wgrb7" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_43.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dnwnl3i0ugra0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_44.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cr62y52pym1ha" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_45.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bofcri22ckntd" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_46.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://c0bs43x4df306" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_47.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://3h688liykuw8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_48.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://duvmhyrdu4ydr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_49.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://by8lvsnuiaoy5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_50.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://ci6mf7u25pmk6" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/chip.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://rd7ryh58wyxb" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/uncle_old.png" id="53"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="54"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="55"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="56"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="57"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u8cd6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_t2qug"]
+script = ExtResource("56")
+linked_item_ref_id = 200
+
+[node name="CousinPanel" type="Panel"]
+offset_left = 306.0
+offset_top = -1327.0
+offset_right = 963.0
+offset_bottom = -833.0
+
+[node name="CousinSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 25.0
+offset_right = 485.0
+offset_bottom = 124.0
+theme = ExtResource("1")
+text = "EVICTION_ALEX_SPEECH"
+autowrap_mode = 3
+
+[node name="CousinSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(353, 255)
+sprite_frames = SubResource("SpriteFrames_u8cd6")
+autoplay = "default"
+frame_progress = 0.08006680011749268
+
+[node name="ChipSprite" type="Sprite2D" parent="."]
+position = Vector2(205, 141)
+scale = Vector2(0.0980396, 0.0980396)
+texture = ExtResource("52")
+
+[node name="ProgrammeSprite" type="Sprite2D" parent="."]
+position = Vector2(90, 253)
+scale = Vector2(0.198235, 0.198235)
+texture = ExtResource("53")
+
+[node name="ChipSpot" parent="." instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 172.0
+offset_top = 90.0
+offset_right = -419.0
+offset_bottom = -268.0
+hotspot_id = "drJ"
+
+[node name="ChipPanel" type="Panel" parent="ChipSpot"]
+layout_mode = 0
+offset_left = 322.0
+offset_top = -388.0
+offset_right = 547.0
+offset_bottom = -161.0
+
+[node name="ChipSprite" type="Sprite2D" parent="ChipSpot/ChipPanel"]
+position = Vector2(113, 113)
+scale = Vector2(0.512515, 0.512515)
+texture = ExtResource("52")
+
+[node name="ChipLabel" type="Label" parent="ChipSpot/ChipPanel"]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 23.0
+offset_right = 171.0
+offset_bottom = 155.0
+theme = ExtResource("55")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_BADGE_1DAY"
+autowrap_mode = 3
+
+[node name="ProgrammeSpot" parent="." instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 47.0
+offset_top = 199.0
+offset_right = -523.0
+offset_bottom = -135.0
+hotspot_id = "l5q"
+unlocked_item_ref_id = 222
+extra_items_unlocked = [SubResource("Resource_t2qug")]
+
+[node name="ProgrammePanel" type="Panel" parent="ProgrammeSpot"]
+layout_mode = 0
+offset_left = -218.0
+offset_top = -997.0
+offset_right = 367.0
+offset_bottom = -270.0
+
+[node name="ProgrammeSprite" type="Sprite2D" parent="ProgrammeSpot/ProgrammePanel"]
+position = Vector2(292.955, 358.93)
+scale = Vector2(1.34193, 1.34193)
+texture = ExtResource("53")
+
+[node name="ProgrammeLabel1" type="Label" parent="ProgrammeSpot/ProgrammePanel"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 38.0
+offset_right = 558.0
+offset_bottom = 124.0
+theme = ExtResource("57")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_FUNERAL_PHOTO_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgrammeLabel2" type="Label" parent="ProgrammeSpot/ProgrammePanel"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 440.0
+offset_right = 553.0
+offset_bottom = 540.0
+theme = ExtResource("55")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_FUNERAL_PHOTO_FOOTER"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ProgrammeLabel3" type="Label" parent="ProgrammeSpot/ProgrammePanel"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 606.0
+offset_right = 531.0
+offset_bottom = 690.0
+rotation = -0.11202099919319153
+theme = ExtResource("55")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_FUNERAL_PHOTO_COMMENT"
+horizontal_alignment = 1
+autowrap_mode = 3

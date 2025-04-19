@@ -1,0 +1,468 @@
+[gd_scene load_steps=106 format=4 uid="uid://buab3x8x2tl5d"]
+
+[ext_resource type="Texture2D" uid="uid://dk4l7d0fctrlg" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/girltree.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://btcgplq4602xy" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (1).png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dqs5hno5r3bky" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (2).png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b5dutwwkbrxdj" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (3).png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cvboxc87178f2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (4).png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bawd00aky7pdv" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (5).png" id="6"]
+[ext_resource type="Texture2D" uid="uid://h0gi6bcx40yf" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (6).png" id="7"]
+[ext_resource type="Texture2D" uid="uid://jprccmemt0rs" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (7).png" id="8"]
+[ext_resource type="Texture2D" uid="uid://doh5yx13ffutg" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (8).png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cltiyc1hdjoag" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (9).png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dllgcdincv5hs" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (10).png" id="11"]
+[ext_resource type="Texture2D" uid="uid://fffj4ap0td6k" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (11).png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bq1yvw55mqhs5" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (12).png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bicvy41maohqj" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (13).png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c43d7c24sjpiq" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (14).png" id="15"]
+[ext_resource type="Texture2D" uid="uid://hbk8gvoop1je" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (15).png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dbkclmpmuj667" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (16).png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d3uasp7t24vd2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (17).png" id="18"]
+[ext_resource type="Texture2D" uid="uid://drlfdh5b03358" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (18).png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dlxmqqchpln6x" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (19).png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bm5n6sr3b1g3d" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (20).png" id="21"]
+[ext_resource type="Texture2D" uid="uid://crll3l3m4sybp" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (21).png" id="22"]
+[ext_resource type="Texture2D" uid="uid://chod7vjfsskcc" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (22).png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cqimbxn20v8j5" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (23).png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dalg4p265x0ur" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (24).png" id="25"]
+[ext_resource type="Texture2D" uid="uid://brvr0vnsgxmfe" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (25).png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bh02nl6j0yohg" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (26).png" id="27"]
+[ext_resource type="Texture2D" uid="uid://ketuehg4ntvo" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (27).png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cgk0xms3avlnr" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (28).png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dh8ulf6buy23j" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (29).png" id="30"]
+[ext_resource type="Texture2D" uid="uid://pr3eeoy2ldtd" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (30).png" id="31"]
+[ext_resource type="Texture2D" uid="uid://be727565du0kb" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (31).png" id="32"]
+[ext_resource type="Texture2D" uid="uid://ced0d26gol8d5" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (32).png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dvd78yr32uyxu" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (33).png" id="34"]
+[ext_resource type="Texture2D" uid="uid://7b05uf1aem2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (34).png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dd5huub01lcav" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (35).png" id="36"]
+[ext_resource type="Texture2D" uid="uid://b56d4e3fcdpwu" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (36).png" id="37"]
+[ext_resource type="Texture2D" uid="uid://rgxuoydjmcva" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (37).png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cy1x4dsmq0usi" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (38).png" id="39"]
+[ext_resource type="Texture2D" uid="uid://vm4q7hl8ebpx" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (39).png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dk728e6h6g8wl" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (40).png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bdc5qfnpa68je" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (41).png" id="42"]
+[ext_resource type="Texture2D" uid="uid://c6w17xje2q6a4" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (42).png" id="43"]
+[ext_resource type="Texture2D" uid="uid://crwhsogl22vg8" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (43).png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dwf508rnh758n" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (44).png" id="45"]
+[ext_resource type="Texture2D" uid="uid://ccblr20kc3mi" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (45).png" id="46"]
+[ext_resource type="Texture2D" uid="uid://chrrk5jme0uaw" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (46).png" id="47"]
+[ext_resource type="Texture2D" uid="uid://dthc4h2fwgxst" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (47).png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bj457yyig2sxh" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (48).png" id="49"]
+[ext_resource type="Texture2D" uid="uid://b14csydxhh1p5" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (49).png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bblh4eepmtxyq" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (50).png" id="51"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="52"]
+[ext_resource type="Texture2D" uid="uid://ubk577whjm2k" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_000.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://s5qdmp2jxynj" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_001.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://vyw7gxupa5gm" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_002.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://jqop7kmjuhn1" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_003.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bo717obrle72a" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_004.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://celj85jt2dmwc" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_005.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://cmrot1vqjv0vs" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_006.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://dik0qjl0p8mfb" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_007.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://caqequowfgl8d" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_008.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://yc4v8m1ct4eh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_009.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://n28o4pxi4yf" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_010.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://c7vxtmxr8amvd" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_011.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dfe2nvmg3p2ve" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_012.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cwbblxym3oid5" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_013.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://cjm6ilhl1nb5n" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_014.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://baa75ap5bj1qw" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_015.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://cv4jc7652h47" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_016.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://cpp8xegug11ap" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_017.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://cyfqfvpg1pnbo" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_018.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://mdseibugwx5y" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_019.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://bor02q15qvvo0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_020.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://ceqj2wqd2lnw7" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_021.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://c122m2a1ltqeo" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_022.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://cew487obikytr" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_023.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://cfavf8whe46d" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_024.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://c75rip43kitbh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_025.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://d3uwcm5cfb1o5" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_026.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://csxbbkme5ql2e" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_027.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://cl1p7en4y01ut" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_028.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://c6kafqxj7sgye" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_029.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://c5ms20pexc8wq" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_030.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://c68ig3i03t011" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_031.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://dq6fqgctlr174" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_032.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://gybndlxdd82w" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_033.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://csmu76py74pdu" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_034.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dinp60n5kusvm" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_035.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://cictvbh73gka8" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_036.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://dw5xvkdgjpi54" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_037.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://t1fmuof3q8ap" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_038.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://dq53qogs616g0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_039.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://cm7t35ud5hqgc" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_040.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://dv4wnfbxjj76n" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_041.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://c4a8cx2i7o4eb" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_042.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://djodecnbdm2rj" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_043.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://cka5jb4qge8xe" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_044.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://dyv44yq57kllh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_045.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://r7xcfnrbhcrh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_046.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://bwmehh85d3jkm" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_047.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://dgo3fgukv2jif" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_048.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://b6mm85eemtpw6" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/girl/girl_049.png" id="102"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="103"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pthbj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6tvax"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="AndiPanel" type="Panel"]
+offset_left = 506.0
+offset_top = -141.0
+offset_right = 1419.0
+offset_bottom = 690.0
+
+[node name="AndiSprite" type="Sprite2D" parent="."]
+position = Vector2(455, 419)
+texture = ExtResource("1")
+
+[node name="AnimatedAndiSprite2D" type="AnimatedSprite2D" parent="AndiSprite"]
+position = Vector2(98, 0)
+sprite_frames = SubResource("SpriteFrames_pthbj")
+autoplay = "default"
+frame_progress = 0.2657029926776886
+
+[node name="GirlsSpot" parent="." instance=ExtResource("52")]
+layout_mode = 1
+offset_left = 339.0
+offset_top = 105.0
+offset_right = -211.0
+offset_bottom = -95.0
+hotspot_id = "L6f"
+
+[node name="AndiCloseupPanel" type="Panel" parent="GirlsSpot"]
+layout_mode = 0
+offset_left = 864.0
+offset_top = 184.0
+offset_right = 1603.0
+offset_bottom = 744.0
+
+[node name="AndiCloseupSprite" type="AnimatedSprite2D" parent="GirlsSpot/AndiCloseupPanel"]
+position = Vector2(238, 357)
+sprite_frames = SubResource("SpriteFrames_6tvax")
+autoplay = "default"
+frame_progress = 0.6264669895172119
+
+[node name="AndiSpeechLabel" type="Label" parent="GirlsSpot/AndiCloseupPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 21.0
+offset_right = 729.0
+offset_bottom = 125.0
+theme = ExtResource("103")
+text = "NEIGHBORHOOD_HILL_ANDI_SPEECH"
+autowrap_mode = 3

@@ -1,0 +1,201 @@
+[gd_scene load_steps=8 format=4 uid="uid://b8rmhgjvhcvb2"]
+
+[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cs5u74adjmxnp" path="res://acts/full_game/colecting_parts_arc/retreat/assets/sketches/snippets/encyclopedia/photo_lazarus.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://3wvncgieogod" path="res://acts/full_game/colecting_parts_arc/retreat/assets/sketches/snippets/encyclopedia/photo_idol.png" id="4"]
+[ext_resource type="FontFile" uid="uid://hp3750m8e3nq" path="res://addons/gdUnit4/src/update/assets/fonts/static/RobotoMono-Italic.ttf" id="5"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="6"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="7"]
+
+[node name="Control" type="ColorRect"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.294118, 0.294118, 0.294118, 0.301961)
+script = ExtResource("1")
+
+[node name="EncyclopediaPanel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 779.0
+offset_top = 164.0
+offset_right = 1855.0
+offset_bottom = 872.0
+
+[node name="EncyclopediaSprite" type="Sprite2D" parent="EncyclopediaPanel"]
+position = Vector2(533, 362)
+texture = ExtResource("2")
+
+[node name="PhotoSprite" type="Sprite2D" parent="EncyclopediaPanel"]
+position = Vector2(420, 150)
+scale = Vector2(0.605739, 0.605739)
+texture = ExtResource("3")
+
+[node name="PhotoSprite2" type="Sprite2D" parent="EncyclopediaPanel"]
+position = Vector2(868.253, 150.084)
+scale = Vector2(0.344249, 0.344249)
+texture = ExtResource("4")
+
+[node name="UnderlinesSprite" type="Sprite2D" parent="EncyclopediaPanel"]
+position = Vector2(667, 522)
+
+[node name="EncyclopediaLabel 1" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 66.0
+offset_top = 51.0
+offset_right = 499.0
+offset_bottom = 122.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("5")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]Encyclopedia Mystica[/center]
+"
+
+[node name="EncyclopediaLabel 2" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 51.0
+offset_right = 953.0
+offset_bottom = 122.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("5")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]Encyclopedia Mystica[/center]
+"
+
+[node name="EncyclopediaLabel3" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 85.0
+offset_top = 84.0
+offset_right = 161.0
+offset_bottom = 218.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 100
+bbcode_enabled = true
+text = "[b]H[/b]"
+
+[node name="EncyclopediaLabel4" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 114.0
+offset_right = 328.0
+offset_bottom = 197.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[b]LAZARUS HERST[/b]"
+
+[node name="EncyclopediaLabel5" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 224.0
+offset_right = 488.0
+offset_bottom = 602.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "Lazarus Herst was the leader of the puritanical Order Party, which governed Albion from 1792 to 1795.
+ 
+Some claim he used a mystical artefact (see 'Golden Idol') to seize power. Nowadays, though, this is known to be a myth."
+
+[node name="EncyclopediaLabel6" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 543.0
+offset_top = 84.0
+offset_right = 619.0
+offset_bottom = 218.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 100
+bbcode_enabled = true
+text = "[b]I[/b]"
+
+[node name="EncyclopediaLabel7" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 637.0
+offset_top = 114.0
+offset_right = 786.0
+offset_bottom = 197.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[b]GOLDEN IDOL[/b]"
+
+[node name="EncyclopediaLabel8" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 541.0
+offset_top = 224.0
+offset_right = 946.0
+offset_bottom = 720.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "The Golden Idol is a fictional artefact said to have derived from ancient Lemuria.
+ 
+Believers make contradictory claims about the idol's supposed function. One popular theory is that it granted eternal life.
+ 
+However, modern historians agree that the idol never existed, and scientists have shown that such functionality is impossible."
+
+[node name="EncyclopediaLabel9" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 333.0
+offset_top = 590.0
+offset_right = 494.0
+offset_bottom = 628.0
+rotation = -0.17438000440597534
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.698039, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "Not this one!"
+
+[node name="EncyclopediaLabel10" type="RichTextLabel" parent="EncyclopediaPanel"]
+layout_mode = 0
+offset_left = 79.0
+offset_top = 593.0
+offset_right = 417.0
+offset_bottom = 670.0
+rotation = -0.17438000440597534
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.698039, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "No one thinks this anymore!"
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

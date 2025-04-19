@@ -1,0 +1,110 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=4 uid="uid://b1vlb76i3rffm"]
+
+[ext_resource type="Texture2D" uid="uid://h8thhyvfa1w6" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cjy2xi8sm5b2w" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c46fgk12xnqvm" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bivml07s2o7mt" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://qx88gfwvj6p4" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://w4y0j83ustuv" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dq6mg7oa2ujpl" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://oep4pkqeihei" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://btjs2702bbiit" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://0rtnf8i74tgi" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://0simc2ixynbr" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dcpbglc3kfs6t" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c0ec5ikuhdb0t" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://by78lrl2xb805" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bkphqvk0xmpfe" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cttv5olgtlth0" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cm8l4li7eiota" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://l0367om5ylyv" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://ejf41nmoqsov" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://2j8dufy4ndmr" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cspqycnc2mulm" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://d4iy44tw0ae6r" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cet3u1pf2a32w" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bor62x0ksggfb" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bwmme0xmkxfb" path="res://acts/full_game/hubbackgrounds/assets/burninbw/concludion_024.png" id="25"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]

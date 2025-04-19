@@ -1,0 +1,179 @@
+[gd_scene load_steps=39 format=4 uid="uid://c465u4d667jt7"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://bcvs41321j8oc" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dwpsdx6kdwmv4" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b1t68sjo7qtnn" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://6t0yj8qevejk" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://g4mk3y3fr770" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://38gq3njguxdb" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://mt0620kw6yac" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bmrocj1qh77yh" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bkx2r22w00oq4" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b38ipn612at87" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dj5yygr1fa2tp" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://crq2niykbj5kk" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cul4hufnwjjjn" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bmnsq5abt33sh" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c82kyqy656l7i" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cp2u2a8yder7i" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dwdnh4qrxdety" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://ph03i3vucwv2" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cg5dorxskm3hc" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://tidivet2816u" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bxg8nl2suvpvr" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dgqmxxlsbwev0" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cnwpivx4beyd8" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b3hjak03njy00" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b7xxwxo7yljr2" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://ds0brmbescyg8" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dkg2e8grxkal8" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://3fhenml4anco" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ijbhf7de4rc2" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://b3dujiyopbwcu" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bf363fn37706w" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bgtob33mt8y6g" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://jbdyfqim4w6h" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://csoj141lt84i0" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://s5o6wl0e4m5t" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://clscle5880obs" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00035.png" id="37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f6edd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[node name="SpenderPanel" type="Panel"]
+offset_left = 478.0
+offset_top = -902.0
+offset_right = 1109.0
+offset_bottom = -373.0
+
+[node name="SpenderSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 25.0
+offset_right = 618.0
+offset_bottom = 223.0
+theme = ExtResource("1")
+text = "EVICTION_TIM_SPEECH"
+autowrap_mode = 3
+
+[node name="SpenderSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(448, 339)
+scale = Vector2(0.819048, 0.819048)
+sprite_frames = SubResource("SpriteFrames_f6edd")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.503836989402771

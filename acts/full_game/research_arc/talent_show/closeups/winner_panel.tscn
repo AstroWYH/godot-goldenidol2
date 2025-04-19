@@ -1,0 +1,234 @@
+[gd_scene load_steps=45 format=4 uid="uid://7gsm8gg0wpxy"]
+
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bydepnr3tg41m" path="res://acts/full_game/research_arc/talent_show/assets/closeups/wristband.png" id="2"]
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="3"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="4"]
+[ext_resource type="Texture2D" uid="uid://djjwsiei02ubp" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://0ecokei6awvk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ds3pw8udaawdl" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c304q07njk1wx" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://22sfr4r65osd" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://chmaks3qg8c8l" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://o5bd0tvss5a6" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cq73fimfb68uj" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://m5idlkcjpgwn" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dxt2gkuu440xr" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://nyf3vts1kh8u" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bgcmi167od23j" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://chqfn2l84yss4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://wbsa66y5150r" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c5dsdx54ogany" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://rfy6hbmogbg6" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bu0r1jwb2jygk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bxgy1rhe201hu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dj5mt1wkl5qg0" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://d4d5jnn3r60mj" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://drggq4q74kwbl" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ds47i4y1jublh" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://boqgimvwa87xr" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c18f15r62f2k5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bvp0m4mppvg0e" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d2t42xsbwja7e" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://d3xybo5h8rh1t" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dy0lob1u5vqi0" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dum6kbt53vilu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c67a608bls4jt" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b5mykfjshhfma" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c85ix1jf1aw2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://br104v0ut8tje" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cu08ietfvjv6c" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://g3tjwx4q7qct" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bws75l7qirhix" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_035.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://d3wcrwopompas" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_036.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c5lb32bf7qosu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/dancer/dancerportrait_037.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bv8nj5xpotgd6" path="res://acts/full_game/research_arc/talent_show/assets/closeups/check.png" id="43"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v3qw2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="WinnerPanel" type="Panel"]
+offset_left = -1866.0
+offset_top = -517.0
+offset_right = -949.0
+offset_bottom = 91.0
+
+[node name="WristbandSpot" parent="." instance=ExtResource("1")]
+layout_mode = 1
+offset_left = 538.0
+offset_top = 394.0
+offset_right = -180.0
+offset_bottom = -50.0
+hotspot_id = "Cvz"
+text = "SHOW_WRISTBAND_TOOLTIP"
+
+[node name="Wristband" type="Sprite2D" parent="WristbandSpot"]
+position = Vector2(118, 102)
+texture = ExtResource("2")
+
+[node name="WinnerText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 32.0
+offset_right = 729.0
+offset_bottom = 111.0
+theme = ExtResource("3")
+theme_override_fonts/font = ExtResource("4")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_ATHARV_SPEECH"
+autowrap_mode = 3
+
+[node name="Winner" type="AnimatedSprite2D" parent="."]
+position = Vector2(243, 363)
+sprite_frames = SubResource("SpriteFrames_v3qw2")
+autoplay = "default"
+frame_progress = 0.45127299427986145
+
+[node name="check" type="Sprite2D" parent="."]
+position = Vector2(676, 252)
+texture = ExtResource("43")
+
+[node name="CheckText2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 552.0
+offset_top = 162.0
+offset_right = 852.0
+offset_bottom = 279.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.803922, 0.207843, 0.207843, 1)
+theme_override_font_sizes/font_size = 28
+text = "SHOW_CHECK_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="CheckText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 514.0
+offset_top = 222.0
+offset_right = 872.0
+offset_bottom = 339.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.352941, 0.447059, 0.427451, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_CHECK_BODY"
+horizontal_alignment = 1
+autowrap_mode = 3

@@ -1,0 +1,110 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=4 uid="uid://8ivu4jgih5hh"]
+
+[ext_resource type="Texture2D" uid="uid://dhf3ub7tlgehi" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dybri6vo4kv5k" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cyfvgou7a0cje" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cy8dh0r0r21cf" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c8nl70tbqiwqe" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bttuei5r3f7o3" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ctg5176bbeddm" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cv7n3wa7g0fch" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dpqtbtd55btjd" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c8dfuoed6qstu" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bxpyuqj6jdf4t" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://t3enbnv3malg" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dw7ihgiajcdc5" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bsy1hqn0vsli0" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bbl3oysatscr2" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://xws81dly4fj1" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dc74irmk2fxde" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bl5k1jq8jhyee" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bkv3k81ab8hwa" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c71n017hexdjp" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://lqq5l6u46ay6" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cy2p786bgpg1o" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://begh44i5wwk8f" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://wqoc7dc4aslf" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dh3a68hbr2xhx" path="res://acts/full_game/hubbackgrounds/assets/evictionbw/concludion_024.png" id="25"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]

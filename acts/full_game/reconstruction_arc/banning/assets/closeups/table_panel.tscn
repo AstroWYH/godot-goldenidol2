@@ -1,0 +1,112 @@
+[gd_scene load_steps=7 format=4 uid="uid://nl7hnu8equpk"]
+
+[ext_resource type="Texture2D" uid="uid://bvlm3ne0q6ct2" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/chairs.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="4"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="5"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
+
+[node name="TablePanel" type="Panel"]
+offset_left = -1248.0
+offset_top = -252.0
+offset_right = -432.0
+offset_bottom = 365.0
+
+[node name="TableSprite" type="Sprite2D" parent="."]
+position = Vector2(410, 305)
+texture = ExtResource("1")
+
+[node name="FlyerSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 707.0
+offset_top = 193.0
+offset_right = -51.0
+offset_bottom = -349.0
+hotspot_id = "ytV"
+unlocked_item_ref_id = 852
+
+[node name="FlyerPanel" type="Panel" parent="FlyerSpot"]
+layout_mode = 0
+offset_left = -1230.0
+offset_top = -177.0
+offset_right = -771.0
+offset_bottom = 253.0
+
+[node name="TextureRect" type="TextureRect" parent="FlyerSpot/FlyerPanel"]
+modulate = Color(0.747384, 0.817226, 0.367621, 1)
+layout_mode = 0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 447.0
+offset_bottom = 416.0
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="FlyerSpot/FlyerPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(227.328, 203.463)
+rotation = -1.5852400064468384
+scale = Vector2(0.941788, 0.946844)
+skew = 9.83477002591826e-05
+texture = ExtResource("4")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D7" type="Sprite2D" parent="FlyerSpot/FlyerPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(217, 245)
+rotation = 6.265870094299316
+scale = Vector2(0.964917, 0.98127)
+texture = ExtResource("4")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Label" type="Label" parent="FlyerSpot/FlyerPanel"]
+layout_mode = 0
+offset_left = 95.0
+offset_top = 41.0
+offset_right = 348.0
+offset_bottom = 113.0
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.0519513, 0.197389, 0.350077, 1)
+text = "NEIGHBORHOOD_PAMFLET_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="FlyerSpot/FlyerPanel"]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 154.0
+offset_right = 389.0
+offset_bottom = 312.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.0519513, 0.197389, 0.350077, 1)
+text = "NEIGHBORHOOD_PAMFLET_BODY"
+autowrap_mode = 3
+
+[node name="glassSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 309.0
+offset_top = 258.0
+offset_right = -457.0
+offset_bottom = -309.0
+hotspot_id = "sk1"
+text = "NEIGHBORHOOD_GLASS_TOOLTIP"
+unlocked_item_ref_id = 840
+
+[node name="Highlighter" parent="glassSpot/Indicators" index="0"]
+modulate = Color(0.258824, 0.282353, 0.262745, 1)
+
+[node name="ribbonSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 442.0
+offset_top = 188.0
+offset_right = -267.0
+offset_bottom = -343.0
+hotspot_id = "wMu"
+text = "NEIGHBORHOOD_SPOOL_TOOLTIP"
+unlocked_item_ref_id = 844
+
+[editable path="glassSpot"]

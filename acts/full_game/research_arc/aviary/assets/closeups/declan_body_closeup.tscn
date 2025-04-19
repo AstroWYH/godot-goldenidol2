@@ -1,0 +1,95 @@
+[gd_scene load_steps=9 format=4 uid="uid://pmfew2sajf0u"]
+
+[ext_resource type="Texture2D" uid="uid://bseocwatxj7la" path="res://acts/full_game/research_arc/aviary/assets/Declan.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://sj7ogobf3cn7" path="res://acts/full_game/research_arc/aviary/assets/closeups/yellowseeds.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dodiqrgbiimqj" path="res://acts/full_game/research_arc/aviary/assets/closeups/aviarykey.png" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+[ext_resource type="Texture2D" uid="uid://ciwj07e0citwj" path="res://acts/full_game/research_arc/aviary/assets/closeups/incubatorkey.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bykbupwuu7n68" path="res://acts/full_game/research_arc/aviary/assets/closeups/form.png" id="6"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="7"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="8"]
+
+[node name="DeclanBodyCloseup" type="Panel"]
+offset_left = -354.0
+offset_top = 1020.0
+offset_right = 453.0
+offset_bottom = 1617.0
+mouse_filter = 2
+
+[node name="DeclanCloseupBody" type="Sprite2D" parent="."]
+position = Vector2(548, 356)
+texture = ExtResource("1")
+
+[node name="SpriteDeclanSeeds" type="Sprite2D" parent="."]
+position = Vector2(544, 123)
+texture = ExtResource("2")
+
+[node name="SpriteDeclanKey1" type="Sprite2D" parent="."]
+position = Vector2(362, 170)
+texture = ExtResource("3")
+
+[node name="LabelDeclanKey1" type="Label" parent="SpriteDeclanKey1"]
+offset_left = -58.0
+offset_top = 35.0
+offset_right = 91.0
+offset_bottom = 76.0
+rotation = -0.08039569854736328
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 20
+text = "AVIARY_KEY_LABEL"
+autowrap_mode = 2
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(134, 122)
+texture = ExtResource("5")
+
+[node name="LabelDeclanKey2" type="Label" parent="Sprite2D4"]
+offset_left = -51.0
+offset_top = 6.0
+offset_right = 102.0
+offset_bottom = 64.0
+rotation = -0.08039569854736328
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 20
+text = "AVIARY_INCUBATOR_KEY_LABEL"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(162, 404)
+texture = ExtResource("6")
+
+[node name="LabelOPIG" type="Label" parent="."]
+layout_mode = 0
+offset_left = 77.0
+offset_top = 287.0
+offset_right = 259.0
+offset_bottom = 420.0
+theme_override_colors/font_color = Color(0.211765, 0.141176, 0.0431373, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 24
+text = "OPIG_LABEL"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelVolunteerForm" type="Label" parent="."]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 326.0
+offset_right = 251.0
+offset_bottom = 459.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.211765, 0.141176, 0.0431373, 1)
+theme_override_font_sizes/font_size = 20
+text = "AVIARY_VOLUNTEER_FORM_LABEL"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="GrouseKillSpot" parent="." instance=ExtResource("8")]
+layout_mode = 1
+offset_left = 403.0
+offset_top = 241.0
+offset_right = -149.0
+offset_bottom = -67.0
+hotspot_id = "4x8"
+text = "AVIARY_DECLAN_TOOLTIP"

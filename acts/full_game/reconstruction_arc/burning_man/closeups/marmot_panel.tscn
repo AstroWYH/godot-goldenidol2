@@ -1,0 +1,234 @@
+[gd_scene load_steps=53 format=4 uid="uid://dj51mn6s2fjk2"]
+
+[ext_resource type="Texture2D" uid="uid://laghbwcq5vfn" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://wmseuot104sb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://clbuiv78yfvdk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bfjm3y5tanb16" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://fg3s4e4v7ddf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bq3lawqaby7ry" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c0cs42v6xlr1y" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cv3gcv5x2hjnn" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://manmhb0vtjc2" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bopyjwxflxb8l" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://m81irod1fx3r" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cbc6ib7lrk4mi" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cogdauupdi4kl" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://blxhdaiigjpac" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dfncmce4qqq7l" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dw72f26b3kqvt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bbcy0l303grot" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bohlfptn42qtt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cdbb8w0jdyaxk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bxc7mss1pftvf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ucmiu8l123bx" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://d3oolo3iyqd3a" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dadhu6siu7vf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cv57xwh0viqck" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c5i8ntjtsrb32" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://gm0xi4mbk8cw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dsq77p6m4j04a" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://h8ar6ms5kkt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cqrphs3cr4cib" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://p3xs5nmm062u" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://csv7cxle2hwyw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://f5u7xwi8k3gk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://b0aqp2n360d4" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bt4fcctgv6o7p" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dje44uyr5if5q" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://2muhgannwqr2" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bbb5pbw6fxtgu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://jjramlve338r" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://mopq1wppdnu6" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://b26sbow6r2hoo" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bdwh08utbuoqc" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c7cw0hd7xqhos" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://d12mwkqv7qaet" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dwej84p77t2kk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://ckcqrmknlh0on" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dlaux5y1g774u" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://b5560nlnd5y0g" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://b38nrw77jw6fx" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dpdmist0xc8ft" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cr2nmb1nw26qf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_049.png" id="50"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="51"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n8dig"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="MarmotPanel" type="Panel"]
+offset_left = 1342.0
+offset_top = 1050.0
+offset_right = 2029.0
+offset_bottom = 1579.0
+
+[node name="MarmotSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(224, 301)
+sprite_frames = SubResource("SpriteFrames_n8dig")
+autoplay = "default"
+frame = 27
+frame_progress = 0.44302400946617126
+
+[node name="MarmotLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 33.0
+offset_right = 699.0
+offset_bottom = 131.0
+theme = ExtResource("51")
+text = "BURNING_LAB_EUGENE_SPEECH"
+autowrap_mode = 3

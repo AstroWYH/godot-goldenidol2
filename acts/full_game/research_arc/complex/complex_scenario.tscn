@@ -1,0 +1,61 @@
+[gd_scene load_steps=11 format=4]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://b2th3gl4sgv2e" path="res://acts/full_game/research_arc/complex/Puzzle/complex_photo_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://culjinbi0n488" path="res://acts/full_game/research_arc/complex/Puzzle/complex_portraits.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://dtpefotaswjrx" path="res://acts/full_game/research_arc/complex/Puzzle/complex_apartments.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://ckf351ftf5dqu" path="res://acts/full_game/research_arc/complex/Puzzle/complex_scroll_puzzleV2.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://kr20s8d33dru" path="res://acts/full_game/research_arc/hub/puzzles/trials_arc_symbols_puzzle.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://ct1mqq6cwwx3o" path="res://acts/full_game/research_arc/hub/puzzles/transfer_puzzle_v2.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://dyj1rk4iquifa" path="res://acts/full_game/research_arc/complex/complex_scenario_meta.tres" id="9"]
+[ext_resource type="PackedScene" uid="uid://mkn5bgi17nlu" path="res://shared/ui/diagnostics/diagnostics.tscn" id="10"]
+
+[node name="ComplexScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PhotosPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1025.0
+offset_top = 121.0
+offset_right = 1825.0
+offset_bottom = 782.0
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 920.0
+offset_top = 224.0
+offset_right = 1853.0
+offset_bottom = 717.0
+is_win_condition = false
+
+[node name="ResidentsPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 992.0
+offset_top = 114.0
+offset_right = 1928.0
+offset_bottom = 913.0
+scale = Vector2(0.805546, 0.761814)
+is_win_condition = false
+
+[node name="ScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 956.0
+offset_top = 132.0
+offset_right = 1793.0
+offset_bottom = 710.0
+
+[node name="TrialsArcSymbolsPuzzle" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 1081.0
+offset_top = 113.0
+offset_right = 1673.0
+offset_bottom = 777.0
+
+[node name="TransferPuzzle" parent="ThinkingLayer" instance=ExtResource("7")]
+offset_left = 916.0
+offset_top = 19.0
+offset_right = 1876.0
+offset_bottom = 947.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("8")]
+scenario_meta = ExtResource("9")
+thinking_layer = NodePath("../ThinkingLayer")
+
+[node name="Diagnostics" parent="." instance=ExtResource("10")]

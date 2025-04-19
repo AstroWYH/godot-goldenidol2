@@ -1,0 +1,1108 @@
+[gd_scene load_steps=259 format=4 uid="uid://c11ar2l2f43ua"]
+
+[ext_resource type="Texture2D" uid="uid://b0gp67bxxcp4k" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b_roof.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://4bepru6subjd" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b_roof_char.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dbp40jbs0yrf0" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b_rooffront.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://nnls6jg5cf57" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00000.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://csqc46w8mwvad" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00001.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b6gr45bf77xxc" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00002.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://di2ec6mwtj26f" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00003.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dvi3lkvxpsxuw" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00004.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dmiuv0sffa4hc" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00005.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://smd0hp8akbjv" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00006.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://catg73fiaw7wf" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00007.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dabnf5pe2ff0r" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00008.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b36wmnycrax7u" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00009.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b8yy8vlo2s52d" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00010.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bw1axuo2vy7jm" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00011.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bqkrn6wo571gl" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00012.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bt40uigjr8cd4" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00013.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://enu85c48ttvf" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00014.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c0u1uqq6do2mg" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00015.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://oxmv2b56vj7v" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00016.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ro4322f0tarn" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00017.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://jcbegvjx58ld" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00018.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b31tw3cuekynx" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00019.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dtst47felc2rn" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00020.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://i1ppk33dgpit" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00021.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dwaef4nsn6v3q" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00022.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://kg7yu3qhpbd7" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00023.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://yoikvlmjv24t" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00024.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://jap586qhwwj2" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00025.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://comsnxyqg7kjf" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00026.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dtsodwbohcrna" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00027.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://d1kem8hy6en0h" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00028.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cfo8dn0cvomhe" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00029.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dwyir68fyo3gh" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00030.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cjh2dwsgyqgp7" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00031.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bg26pp8uj0ll4" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00032.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bwxp2oelw7enx" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00033.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://7jvk4fdvtlen" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00034.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bve41uoooyri6" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00035.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://c7v68nc6voqev" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00036.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cuqexrusxqlmq" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00037.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bisawuw8y10en" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00038.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cn3tudx2mi45g" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00039.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://c3c2qtuux3k0k" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00040.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://jn61bi3m6gnt" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00041.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dh7maykohrgw6" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00042.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://ciovdtbibqpe4" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00043.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cvcqx037jfa0e" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00044.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://p7xv2jhv3qwv" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00045.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cplfxq75b2tmf" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00046.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bgtsr7o4wwivu" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00047.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bdc1s0bbppx5x" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00048.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://b34eyysvnvav0" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00049.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bupqeyracf8ai" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00050.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://dhnlwrxfomttp" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00051.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://cyajsnq7dr2ch" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00052.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://c85cjcufrf5dx" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00053.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dvh45lq13efli" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00054.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://cpnlalqbhsjk0" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00055.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://yra1twhq2kn6" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00056.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://2v6fdxiguhya" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00057.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bvgh1cx8x73r5" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00058.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dfmrg656xgon0" path="res://acts/full_game/research_arc/complex/assets/animations/SmokeBackground/SmokeBG_00059.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://b5yklyvmt2slt" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00000.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://gq1dkc0o8wph" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00001.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cwmq2o1qlsfry" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00002.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://dc46vmqa33xkm" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00003.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://dmhsxjmvestp7" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00004.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://brtte3vn7ftvb" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00005.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://bx257h11o6rk0" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00006.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://bkv33o2hw8b65" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00007.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://b0g0fliycdjus" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00008.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dckxdhg1u6bch" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00009.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://rgwp3e1lo22f" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00010.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://xjbpg8nes6kq" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00011.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://bccqsr0qdex0n" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00012.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://brulk1y4i88um" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00013.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://db225q0h6r3hv" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00014.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://csmcqnr3q5w6g" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00015.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://me2xp7exwvb2" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00016.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://dl48ml0l1ggpy" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00017.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://rj22xjlck6wb" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00018.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://bd6rsfcmtp4mj" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00019.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://bw3cwdm68haps" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00020.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://c8ntk3kwxrlec" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00021.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://cwakeevxrgk2c" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00022.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://c5rfq1jcjb4o2" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00023.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dthul12xjw5nl" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00024.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://dx47ko1as64gb" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00025.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://xbko4fpod2pg" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00026.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://dlg1etnymba3u" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00027.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://b1bx1gu8qfac0" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00028.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dobjuon2vfhj6" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00029.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://dbj3okiku0pym" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00030.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://bmiyfurg8vqc" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00031.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://b0n547tsvtuyt" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00032.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://dsby6modlsqy7" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00033.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://bo6aq15l476yt" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00034.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://dupgjkl3rgmit" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00035.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://die1k47onjjsn" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00036.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://cpcekrjiqg420" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00037.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://478aiyrrkfas" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00038.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bw1bxdfqxhsvs" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00039.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://bem0fw1an03l6" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00040.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://dx17bx2062lx8" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00041.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://cvafyag37h8c7" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00042.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://cona2x8rutgkg" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00043.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://dlayd51kc22pn" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00044.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://b2bc66jj124qu" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00045.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://dovkpg3fqowak" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00046.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://caxnrnwams3cw" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00047.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://by5vmjha5knb4" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00048.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://dwcaidiel41ie" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00049.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://ccbhpwcvhvmy5" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00050.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://bqw1q8prcxosc" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00051.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://bv8cvvmebif4x" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00052.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://c4ru23r0lmaad" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00053.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://bo24fsj1gd3" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00054.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://rp2241nayp2j" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00055.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://dv1ry6o1t0shm" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00056.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://cvm6pb5gw1h3t" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00057.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://bced3d5uvdf3g" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00058.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://knadb6w6fivy" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00059.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://k6xt5odiehm3" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00060.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://hnndoc8yu3gq" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00061.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://dhfrwi43x2tpl" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00062.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://gw806wtphpmx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00063.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://bs50ql34fbpsj" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00064.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://brshi4t6336s1" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00065.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://ctid5fmt80ppx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00066.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://blsugod0803he" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00067.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://ttp61fmrgobt" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00068.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://dog457shm74up" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00069.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://dnoscjkmbq3id" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00070.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://dfyhhhlnx6yh7" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00071.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://cubtvk14vq2b1" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00072.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://cajegduepe4lx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00073.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://b7xim46iwqlx2" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00074.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://cuoaachdkpig1" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00075.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://ci5m2p1yu23to" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00076.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://88k4rcrr4bo3" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00077.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://c0fhvau1ahn8a" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00078.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://dmo3ux1issopw" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00079.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://jv1galigk0rc" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00080.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://byc2se6r4rqtr" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00081.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://c15jj3ro6oc0r" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00082.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://dvg010v0o1chd" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00083.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://cuok6lor2qqut" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00084.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://jusiax43woea" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00085.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://bq54x5x6o3oe0" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00086.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://c2aauy8mx654q" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00087.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://1ne5qnyrts1f" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00088.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://b4xhbnt8vxl6y" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00089.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://b6byfn0xmehej" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00090.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://bealqvdaydygi" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00091.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://bnfj1wxbpisq8" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00092.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://d1no3a1mskk88" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00093.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://t7gykj4nrano" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00094.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://bhvy3me3t1w4t" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00095.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://cnq8dbei45p8l" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00096.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://bqkcypkn4ns6u" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00097.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://cd7xbeii4a3te" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00098.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://dw8s3kwimq7om" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00099.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://bmb2llena1a76" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00100.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://dr2bay0fe8024" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00101.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://cn7vob8m6f4e6" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00102.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://cm4etvt0ftypf" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00103.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://bqvbo435fvu28" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00104.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://ctjqo2q2pvgvx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00105.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://u81glneus3jf" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00106.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://4hnoamuqubn7" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00107.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://b0kyrmhqgpw1b" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00108.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://dr1ui16o4tfwh" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00109.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://bhc4ytcok30r8" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00110.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://ddqt3jhkpmefc" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00111.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://b4gl2yjj3isv6" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00112.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://dv72ec31di47f" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00113.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://b22ofkx52howt" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00114.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://divydwsaqna6q" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00115.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://dvl2jlanttgkc" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00116.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://dtjs62hg1t10w" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00117.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://dn4jtysl0iudy" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00118.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://iqm7hpkvtmmr" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00119.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://dguxhxshryu4v" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00120.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://byfgl42ch6bdg" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00121.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://k0uas5rq2ep4" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00122.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://cfpnrfynwv13l" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00123.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://b8syocwfpsuvm" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00124.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://cl3pe1rgufwro" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00125.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://t0xh5g0dl5uv" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00126.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://bf3a7satoq8kp" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00127.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://b6jmp2iubme8x" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00128.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://dw8jb8luq8dgx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00129.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://0ahrxbhpcwjs" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00130.png" id="194"]
+[ext_resource type="Texture2D" uid="uid://dimoa677d8usx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00131.png" id="195"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="196"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="197"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="198"]
+[ext_resource type="Texture2D" uid="uid://dkaaxbx5nswnw" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_cigarettes.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://bj1r07p0jwi5i" path="res://acts/full_game/research_arc/complex/assets/closeups/wristbandsabrina.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://7i772tdc2w2y" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_000.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://6cd18ejrk4lg" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_001.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://cgotb8o83ftis" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_002.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://5tcjrjmd2gwo" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_003.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://ufm5x8r5fkmw" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_004.png" id="205"]
+[ext_resource type="Texture2D" uid="uid://2j0425mjll4m" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_005.png" id="206"]
+[ext_resource type="Texture2D" uid="uid://ckv1wk5avd7gs" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_006.png" id="207"]
+[ext_resource type="Texture2D" uid="uid://ygbjlxw85osu" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_007.png" id="208"]
+[ext_resource type="Texture2D" uid="uid://pfvynghongp1" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_008.png" id="209"]
+[ext_resource type="Texture2D" uid="uid://bfxmk52sbl0pi" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_009.png" id="210"]
+[ext_resource type="Texture2D" uid="uid://c40co3y8hpldn" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_010.png" id="211"]
+[ext_resource type="Texture2D" uid="uid://cx53fam3pggrd" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_011.png" id="212"]
+[ext_resource type="Texture2D" uid="uid://dyy7hdfls6nyj" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_012.png" id="213"]
+[ext_resource type="Texture2D" uid="uid://bgp0dny4c680v" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_013.png" id="214"]
+[ext_resource type="Texture2D" uid="uid://b2b61r6rhj2w3" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_014.png" id="215"]
+[ext_resource type="Texture2D" uid="uid://cvdfaodghv8i1" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_015.png" id="216"]
+[ext_resource type="Texture2D" uid="uid://c5nak5bt6e83l" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_016.png" id="217"]
+[ext_resource type="Texture2D" uid="uid://dw7lwwb51s0bj" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_017.png" id="218"]
+[ext_resource type="Texture2D" uid="uid://uag7tyxvmedg" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_018.png" id="219"]
+[ext_resource type="Texture2D" uid="uid://d1h1yy8ta4ngs" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_019.png" id="220"]
+[ext_resource type="Texture2D" uid="uid://dq8yyuhjyx4ir" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_020.png" id="221"]
+[ext_resource type="Texture2D" uid="uid://88jprikedlk5" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_021.png" id="222"]
+[ext_resource type="Texture2D" uid="uid://bilnkxohtvdca" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_022.png" id="223"]
+[ext_resource type="Texture2D" uid="uid://bc8xapgm014cu" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_023.png" id="224"]
+[ext_resource type="Texture2D" uid="uid://cw8h3uc88metu" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_024.png" id="225"]
+[ext_resource type="Texture2D" uid="uid://b8vb7qdx8co7n" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_025.png" id="226"]
+[ext_resource type="Texture2D" uid="uid://ckhivr7r2ksqw" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_026.png" id="227"]
+[ext_resource type="Texture2D" uid="uid://d3yjrp742g735" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_027.png" id="228"]
+[ext_resource type="Texture2D" uid="uid://c2lfkpthnt647" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_028.png" id="229"]
+[ext_resource type="Texture2D" uid="uid://cobck8u7blcs4" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_029.png" id="230"]
+[ext_resource type="Texture2D" uid="uid://b6jvyrtfl1xni" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_030.png" id="231"]
+[ext_resource type="Texture2D" uid="uid://cc8g3jil3gu0t" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_031.png" id="232"]
+[ext_resource type="Texture2D" uid="uid://bp2bp82327vtb" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_032.png" id="233"]
+[ext_resource type="Texture2D" uid="uid://d2husae281jgy" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_033.png" id="234"]
+[ext_resource type="Texture2D" uid="uid://brio3nvhhr66p" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_034.png" id="235"]
+[ext_resource type="Texture2D" uid="uid://bccnrtcs8y306" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_035.png" id="236"]
+[ext_resource type="Texture2D" uid="uid://dc6cvieewt26y" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_036.png" id="237"]
+[ext_resource type="Texture2D" uid="uid://djlvorw1qlcuq" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_037.png" id="238"]
+[ext_resource type="Texture2D" uid="uid://dg2nctw4e7k60" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_038.png" id="239"]
+[ext_resource type="Texture2D" uid="uid://dw72dsx20cy10" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_039.png" id="240"]
+[ext_resource type="Texture2D" uid="uid://6loh21teseab" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_040.png" id="241"]
+[ext_resource type="Texture2D" uid="uid://bopv8asu4s4nj" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_041.png" id="242"]
+[ext_resource type="Texture2D" uid="uid://phi0hkjrcds8" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_042.png" id="243"]
+[ext_resource type="Texture2D" uid="uid://b4srf7y772i3w" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_043.png" id="244"]
+[ext_resource type="Texture2D" uid="uid://cudtmcb4oguij" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_044.png" id="245"]
+[ext_resource type="Texture2D" uid="uid://do28gq2stwhxj" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_045.png" id="246"]
+[ext_resource type="Texture2D" uid="uid://dg3cp5qa4tj7k" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_046.png" id="247"]
+[ext_resource type="Texture2D" uid="uid://7454r1l5k6pl" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_047.png" id="248"]
+[ext_resource type="Texture2D" uid="uid://0p5tsjoufgfm" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_048.png" id="249"]
+[ext_resource type="Texture2D" uid="uid://cxqbnyxg0efut" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_049.png" id="250"]
+[ext_resource type="Texture2D" uid="uid://cnpatylahs1mc" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_050.png" id="251"]
+[ext_resource type="Texture2D" uid="uid://dh3vibmsc0jt5" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_051.png" id="252"]
+[ext_resource type="Texture2D" uid="uid://gkl6cm1sucac" path="res://acts/full_game/research_arc/complex/assets/portraits/knox/x_knox_052.png" id="253"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4xf5g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4pjg8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}],
+"loop": true,
+"name": &"loop",
+"speed": 20.0
+}]
+
+[sub_resource type="Resource" id="Resource_cvj6n"]
+script = ExtResource("197")
+linked_item_ref_id = 712
+
+[sub_resource type="Resource" id="Resource_mkqqb"]
+script = ExtResource("197")
+linked_item_ref_id = 710
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ybgoo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="RoofPanel" type="Panel"]
+offset_left = -205.0
+offset_top = -1179.0
+offset_right = 721.0
+offset_bottom = -547.0
+
+[node name="EvBRoof" type="Sprite2D" parent="."]
+position = Vector2(13, 9)
+texture = ExtResource("1")
+centered = false
+
+[node name="Sprite2D2" type="Sprite2D" parent="EvBRoof"]
+position = Vector2(191, 353)
+scale = Vector2(0.451736, 0.451736)
+texture = ExtResource("2")
+
+[node name="Sprite2D" type="Sprite2D" parent="EvBRoof"]
+texture = ExtResource("3")
+centered = false
+
+[node name="Smoke" type="AnimatedSprite2D" parent="EvBRoof"]
+position = Vector2(99, 144)
+sprite_frames = SubResource("SpriteFrames_4xf5g")
+autoplay = "default"
+frame_progress = 0.613349974155426
+
+[node name="Smoke3" type="AnimatedSprite2D" parent="EvBRoof"]
+position = Vector2(656, 160)
+sprite_frames = SubResource("SpriteFrames_4xf5g")
+autoplay = "default"
+frame_progress = 0.7250059843063354
+
+[node name="AnimatedSabrinaSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(211, 259)
+scale = Vector2(0.451736, 0.451736)
+sprite_frames = SubResource("SpriteFrames_4pjg8")
+animation = &"loop"
+autoplay = "loop"
+frame_progress = 0.13425500690937042
+
+[node name="SabrinaSpot" parent="." instance=ExtResource("196")]
+layout_mode = 1
+offset_left = 308.0
+offset_top = 302.0
+offset_right = -793.0
+offset_bottom = -263.0
+hotspot_id = "Zwz"
+unlocked_character_ref_id = 107
+unlocked_item_ref_id = 732
+extra_items_unlocked = [SubResource("Resource_cvj6n"), SubResource("Resource_mkqqb")]
+
+[node name="SabrinaPanel" type="Panel" parent="SabrinaSpot"]
+layout_mode = 0
+offset_left = -172.0
+offset_top = -960.0
+offset_right = 708.0
+offset_bottom = -471.0
+
+[node name="SabrinaDialogue" type="Label" parent="SabrinaSpot/SabrinaPanel"]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 38.0
+offset_right = 862.0
+offset_bottom = 175.0
+theme = ExtResource("198")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_SABRINA_SPEECH"
+autowrap_mode = 2
+
+[node name="YCigarettes" type="Sprite2D" parent="SabrinaSpot/SabrinaPanel"]
+position = Vector2(728.5, 316)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("199")
+
+[node name="YWristband" type="Sprite2D" parent="SabrinaSpot/SabrinaPanel"]
+position = Vector2(524.5, 323)
+scale = Vector2(0.729167, 0.729167)
+texture = ExtResource("200")
+
+[node name="KnoxPortrait" type="AnimatedSprite2D" parent="SabrinaSpot/SabrinaPanel"]
+position = Vector2(239.5, 251)
+sprite_frames = SubResource("SpriteFrames_ybgoo")
+autoplay = "default"
+frame = 23
+frame_progress = 0.7168809771537781

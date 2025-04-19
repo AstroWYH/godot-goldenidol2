@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://eny73an3xjyi"]
+
+[ext_resource type="Texture2D" uid="uid://cmaa3xc6aee8o" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/bushes.png" id="1"]
+
+[node name="HedgePanel" type="Panel"]
+offset_left = -379.0
+offset_top = -1222.0
+offset_right = 141.0
+offset_bottom = -699.0
+
+[node name="HedgeSprite" type="Sprite2D" parent="."]
+position = Vector2(259, 257)
+texture = ExtResource("1")

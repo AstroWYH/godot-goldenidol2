@@ -1,0 +1,181 @@
+[gd_scene load_steps=36 format=4 uid="uid://dv8b88yg2ls5p"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://bad2j54ylu042" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cnm3q8eoy3ibt" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c7tmr4tlbqkj8" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://hithrll0u0y3" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dhkicsc8rsxct" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b7522eoorkqt0" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://db36un8ggtqsu" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://eyvgy24508hx" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://s3dt43ujbdw2" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b70xc3yjf6ln3" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cq2f77ow50ly4" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://vg8ejvsrgp2v" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://d01o83nf0oklu" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b0t4r4rv1yym6" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dri4wmrcbvkj1" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://btdbd7hiarvlx" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b13yb3x2apvqq" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dwteu6pyqm8wq" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://d34awgasi6d67" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://caob5otfrxq64" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c8hgxfm6yyhm3" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b08rywraj5i85" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://xxcc4obcwr6v" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://uu4pr02utdir" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b2ekbw2lr01ko" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://csgr5gralmnhu" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cq3chet0v7sau" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://x7ffj6iwok2c" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dmiyawqjs4yvn" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://biheta7cpbcyf" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dj83esxd38j7q" path="res://acts/full_game/research_arc/aviary/assets/closeups/whiteseeds.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dodiqrgbiimqj" path="res://acts/full_game/research_arc/aviary/assets/closeups/aviarykey.png" id="33"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="34"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1ersw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="AstorCloseup" type="Panel"]
+offset_left = 667.0
+offset_top = 214.0
+offset_right = 1602.0
+offset_bottom = 738.0
+mouse_filter = 2
+
+[node name="AstorSpeechLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.03743299841880798
+anchor_top = 0.005725190043449402
+anchor_right = 0.03743299841880798
+anchor_bottom = 0.005725190043449402
+offset_left = 20.0
+offset_top = 23.0
+offset_right = 620.0
+offset_bottom = 56.0
+theme = ExtResource("1")
+text = "AVIARY_CRYSTAL_SPEECH"
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true
+
+[node name="AstorCloseupBody" type="AnimatedSprite2D" parent="."]
+position = Vector2(384, 283)
+sprite_frames = SubResource("SpriteFrames_1ersw")
+autoplay = "default"
+frame_progress = 0.0711354985833168
+
+[node name="AstorSeedsSprite2D" type="Sprite2D" parent="."]
+position = Vector2(826, 111)
+texture = ExtResource("32")
+
+[node name="AstorKeySprite2D2" type="Sprite2D" parent="."]
+position = Vector2(638, 105)
+texture = ExtResource("33")
+
+[node name="AstorKeyLabel" type="Label" parent="AstorKeySprite2D2"]
+offset_left = -57.0
+offset_top = 37.0
+offset_right = 201.0
+offset_bottom = 78.0
+rotation = -0.08039569854736328
+theme = ExtResource("34")
+theme_override_font_sizes/font_size = 20
+text = "AVIARY_KEY_LABEL"

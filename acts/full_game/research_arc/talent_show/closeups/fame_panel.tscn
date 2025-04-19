@@ -1,0 +1,228 @@
+[gd_scene load_steps=16 format=4 uid="uid://cta8hdtoxvdhs"]
+
+[ext_resource type="Texture2D" uid="uid://b8s64wv7jk72c" path="res://acts/full_game/research_arc/talent_show/assets/closeups/halloffame.png" id="1"]
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="8"]
+
+[sub_resource type="Resource" id="Resource_jem7o"]
+script = ExtResource("5")
+linked_item_ref_id = 262
+
+[sub_resource type="Resource" id="Resource_uajmg"]
+script = ExtResource("5")
+linked_item_ref_id = 276
+
+[sub_resource type="Resource" id="Resource_anpy6"]
+script = ExtResource("5")
+linked_item_ref_id = 260
+
+[sub_resource type="Resource" id="Resource_efuos"]
+script = ExtResource("5")
+linked_item_ref_id = 1073
+
+[sub_resource type="Resource" id="Resource_n45u7"]
+script = ExtResource("5")
+linked_item_ref_id = 271
+
+[sub_resource type="Resource" id="Resource_yero8"]
+script = ExtResource("5")
+linked_item_ref_id = 235
+
+[sub_resource type="Resource" id="Resource_yjgv3"]
+script = ExtResource("5")
+linked_item_ref_id = 236
+
+[node name="FamePanel" type="Panel"]
+offset_left = 1552.0
+offset_top = -654.0
+offset_right = 2466.0
+offset_bottom = 177.0
+
+[node name="HallOfFame" type="Sprite2D" parent="."]
+position = Vector2(455, 413)
+texture = ExtResource("1")
+
+[node name="TitleFameText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 114.0
+offset_top = 66.0
+offset_right = 693.0
+offset_bottom = 101.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 28
+text = "SHOW_POSTER_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SubtitleFameText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 106.0
+offset_right = 739.0
+offset_bottom = 182.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_POSTER_SUBTITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HostNoteYear1" type="Label" parent="."]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 179.0
+offset_right = 150.0
+offset_bottom = 227.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "1969"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HostNoteYear2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 229.0
+offset_top = 184.0
+offset_right = 325.0
+offset_bottom = 232.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "1970"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HostNoteYear3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 446.0
+offset_top = 178.0
+offset_right = 542.0
+offset_bottom = 226.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "1971"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HostNoteYear4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 639.0
+offset_right = 204.0
+offset_bottom = 687.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "1972"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HostNoteYear5" type="Label" parent="."]
+layout_mode = 0
+offset_left = 308.0
+offset_top = 639.0
+offset_right = 404.0
+offset_bottom = 687.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "1973"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HostNoteYear6" type="Label" parent="."]
+layout_mode = 0
+offset_left = 542.0
+offset_top = 629.0
+offset_right = 638.0
+offset_bottom = 677.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "1974"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="HallOfFameSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 698.0
+offset_top = 545.0
+offset_right = -66.0
+offset_bottom = -23.0
+hotspot_id = "A79"
+extra_items_unlocked = [SubResource("Resource_jem7o"), SubResource("Resource_uajmg"), SubResource("Resource_anpy6"), SubResource("Resource_efuos"), SubResource("Resource_n45u7"), SubResource("Resource_yero8"), SubResource("Resource_yjgv3")]
+
+[node name="FamePanel" type="Panel" parent="HallOfFameSpot"]
+layout_mode = 0
+offset_left = 251.0
+offset_top = -215.0
+offset_right = 729.0
+offset_bottom = 346.0
+
+[node name="TextureRect" type="TextureRect" parent="HallOfFameSpot/FamePanel"]
+modulate = Color(0.640027, 0.732592, 0.706452, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 466.0
+offset_bottom = 544.0
+texture = ExtResource("6")
+stretch_mode = 1
+
+[node name="Sprite2D7" type="Sprite2D" parent="HallOfFameSpot/FamePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(186, 386)
+rotation = 6.077070236206055
+scale = Vector2(0.933489, 1.41891)
+texture = ExtResource("7")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D8" type="Sprite2D" parent="HallOfFameSpot/FamePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(265, 211)
+rotation = 3.3884201049804688
+scale = Vector2(0.933489, 1.41891)
+texture = ExtResource("7")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 10.15, 454, 219.45)
+
+[node name="Sprite2D7" type="Sprite2D" parent="HallOfFameSpot/FamePanel"]
+modulate = Color(0.93, 0.2046, 0.22878, 1)
+position = Vector2(52, 25)
+scale = Vector2(0.807298, 0.873487)
+texture = ExtResource("8")
+region_enabled = true
+region_rect = Rect2(94.45, 93.8, 95.15, 43)
+
+[node name="Sprite2D8" type="Sprite2D" parent="HallOfFameSpot/FamePanel"]
+modulate = Color(0.928924, 0.135489, 0.161395, 1)
+position = Vector2(323, 27)
+rotation = 3.141590118408203
+scale = Vector2(0.807298, 0.873487)
+texture = ExtResource("8")
+region_enabled = true
+region_rect = Rect2(94.45, 93.8, 95.15, 43)
+
+[node name="HostNoteText" type="Label" parent="HallOfFameSpot/FamePanel"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 70.0
+offset_right = 449.0
+offset_bottom = 532.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_DANTE_NOTE"
+autowrap_mode = 3

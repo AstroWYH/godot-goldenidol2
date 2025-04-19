@@ -1,0 +1,332 @@
+[gd_scene load_steps=54 format=4 uid="uid://bwl28a0sp0x2i"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://cxmq3fr1uubhc" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://nm8y4fsn6wg2" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b1dgq2d6377ff" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ck2v5wux7ybso" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://biayrt0hixkd5" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ciuhu4yqhwk7q" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bukpptyufggxu" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://da2wy8yxt0n2p" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://olvn338fowxe" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cr6ld50u0fyix" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bjv6cv2rf28ns" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cx3obkxpi73dr" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bahdhs2lesudi" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b5s6ko5jkugd0" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cbxr478dyk1xx" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b0vuqnpusvuhh" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bxtric1ioqyef" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dert7qluugbim" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cs28d47851au4" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://st3ptpu0o486" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://de27s0w2tw4p0" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://4jqco37hes0u" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://5pmfqghhgwxc" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bhnle45y4mowj" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://sdd8sek7n2ry" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://d3br27lipdy5k" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cltdvyhg88jgr" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cn3kx842d31ac" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cc08c0xxu0a4n" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://ddsmi2e58113u" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://chbay60ple8hj" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://4p3htbr7i34" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://h68nlt8gib3" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c346r24kgjn2l" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://xdsqacuyxneb" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dc5vmtwgtr1o7" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://i8fauyu16r24" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/pen_blue.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="39"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="40"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="41"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="43"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="44"]
+[ext_resource type="Texture2D" uid="uid://bmvac3rog86dm" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/rorschach1blue2.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dhloxbbewhl1p" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/underlines.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://rebf2netvyu4" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/arrow.png" id="47"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wnne5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_fe63o"]
+script = ExtResource("41")
+linked_item_ref_id = 282
+
+[sub_resource type="Resource" id="Resource_3pbt1"]
+script = ExtResource("41")
+linked_item_ref_id = 192
+
+[sub_resource type="Resource" id="Resource_14pcl"]
+script = ExtResource("41")
+linked_item_ref_id = 188
+
+[sub_resource type="Resource" id="Resource_4d8kf"]
+script = ExtResource("41")
+linked_item_ref_id = 105
+
+[sub_resource type="Resource" id="Resource_4ert2"]
+script = ExtResource("41")
+linked_item_ref_id = 106
+
+[node name="WestlakePanel" type="Panel"]
+offset_left = 1060.0
+offset_top = -879.0
+offset_right = 1732.0
+offset_bottom = -369.0
+
+[node name="WestlakeSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 25.0
+offset_right = 633.0
+offset_bottom = 157.0
+theme = ExtResource("1")
+text = "EVICTION_MARIE_SPEECH"
+autowrap_mode = 3
+
+[node name="WestlakeSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(447, 287)
+sprite_frames = SubResource("SpriteFrames_wnne5")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.05435609817504883
+
+[node name="PenSprite" type="Sprite2D" parent="."]
+position = Vector2(114.333, 216)
+scale = Vector2(0.566667, 0.566667)
+texture = ExtResource("38")
+
+[node name="MemoSprite" type="Sprite2D" parent="."]
+position = Vector2(238.5, 346)
+scale = Vector2(1.22656, 1)
+texture = ExtResource("39")
+
+[node name="MemoSpot" parent="." instance=ExtResource("40")]
+layout_mode = 1
+offset_left = 180.0
+offset_top = 263.0
+offset_right = -377.0
+offset_bottom = -99.0
+hotspot_id = "xmi"
+unlocked_item_ref_id = 281
+extra_items_unlocked = [SubResource("Resource_fe63o"), SubResource("Resource_3pbt1"), SubResource("Resource_14pcl"), SubResource("Resource_4d8kf"), SubResource("Resource_4ert2")]
+
+[node name="MemoPanel" type="Panel" parent="MemoSpot"]
+layout_mode = 0
+offset_left = -174.0
+offset_top = -1157.0
+offset_right = 559.0
+offset_bottom = -347.0
+
+[node name="LessonColorRect" type="TextureRect" parent="MemoSpot/MemoPanel"]
+modulate = Color(0.894118, 0.921569, 0.721569, 1)
+layout_mode = 0
+offset_left = 13.0
+offset_top = 7.0
+offset_right = 724.0
+offset_bottom = 791.0
+rotation = 0.0016687499592080712
+texture = ExtResource("42")
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="MemoSpot/MemoPanel/LessonColorRect"]
+position = Vector2(355.006, 545.403)
+rotation = -0.04556480050086975
+scale = Vector2(1.55852, 1.29318)
+skew = 0.02675269916653633
+texture = ExtResource("43")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D7" type="Sprite2D" parent="MemoSpot/MemoPanel/LessonColorRect"]
+position = Vector2(361.131, 273.069)
+rotation = 3.1338798999786377
+scale = Vector2(1.58636, 1.13671)
+texture = ExtResource("43")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="MemoText1" type="RichTextLabel" parent="MemoSpot/MemoPanel"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 21.0
+offset_right = 699.0
+offset_bottom = 732.0
+mouse_filter = 1
+theme = ExtResource("44")
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_font_sizes/normal_font_size = 23
+bbcode_enabled = true
+text = "EVICTION_MARIE_LETTER"
+
+[node name="MemoText3" type="RichTextLabel" parent="MemoSpot/MemoPanel"]
+layout_mode = 0
+offset_left = 406.0
+offset_top = 664.0
+offset_right = 685.0
+offset_bottom = 768.0
+rotation = -0.34906598925590515
+mouse_filter = 1
+theme = ExtResource("44")
+theme_override_colors/default_color = Color(0, 0, 0.545098, 1)
+bbcode_enabled = true
+text = "EVICTION_MARIE_LETTER_COMMENT1"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="MemoText4" type="RichTextLabel" parent="MemoSpot/MemoPanel"]
+layout_mode = 0
+offset_left = 414.0
+offset_top = 602.0
+offset_right = 621.0
+offset_bottom = 663.0
+rotation = -0.34906598925590515
+mouse_filter = 1
+theme = ExtResource("44")
+theme_override_colors/default_color = Color(0, 0, 0.545098, 1)
+bbcode_enabled = true
+text = "EVICTION_MARIE_LETTER_COMMENT2"
+autowrap_mode = 2
+
+[node name="RorschachSprite1" type="Sprite2D" parent="MemoSpot/MemoPanel"]
+position = Vector2(376, 644)
+rotation = -0.34906598925590515
+scale = Vector2(0.460884, 0.460884)
+texture = ExtResource("45")
+
+[node name="UnderlinesSprite" type="Sprite2D" parent="MemoSpot/MemoPanel"]
+visible = false
+position = Vector2(387.391, 464.5)
+scale = Vector2(1.42286, 1.42286)
+texture = ExtResource("46")
+
+[node name="ArrowSprite" type="Sprite2D" parent="MemoSpot/MemoPanel"]
+position = Vector2(581, 531)
+scale = Vector2(1.42286, 1.42286)
+texture = ExtResource("47")
+
+[node name="PenSpot" parent="." instance=ExtResource("40")]
+layout_mode = 1
+offset_left = 56.33340072631836
+offset_top = 177.0
+offset_right = -489.6669921875
+offset_bottom = -255.0
+hotspot_id = "YHx"
+text = "EVICTION_BLUE_PEN_TOOLTIP"
+unlocked_item_ref_id = 210

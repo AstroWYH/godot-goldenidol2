@@ -1,0 +1,181 @@
+[gd_scene load_steps=5 format=4 uid="uid://dhvccih47uamt"]
+
+[ext_resource type="Texture2D" uid="uid://cfls7jas80k3b" path="res://acts/full_game/research_arc/talent_show/assets/closeups/scoreboard.png" id="1"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
+[ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="3"]
+
+[sub_resource type="Theme" id="Theme_iphuj"]
+
+[node name="ScoreboardPanel" type="Panel"]
+offset_left = -456.0
+offset_top = -1071.0
+offset_right = 165.0
+offset_bottom = -446.0
+
+[node name="ScoreboardWithTape" type="Sprite2D" parent="."]
+position = Vector2(310, 308)
+texture = ExtResource("1")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 75.0
+offset_right = 568.0
+offset_bottom = 158.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_font_sizes/font_size = 40
+text = "SHOW_BILLBOARD_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="1stPlace" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 170.0
+offset_right = 132.0
+offset_bottom = 650.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "SHOW_BILLBOARD_1"
+autowrap_mode = 2
+
+[node name="2stPlace" type="Label" parent="."]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 227.0
+offset_right = 132.0
+offset_bottom = 707.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "SHOW_BILLBOARD_2"
+autowrap_mode = 2
+
+[node name="3stPlace" type="Label" parent="."]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 285.0
+offset_right = 135.0
+offset_bottom = 765.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "SHOW_BILLBOARD_3"
+autowrap_mode = 2
+
+[node name="ScoreboardTextBehind" type="Label" parent="."]
+layout_mode = 0
+offset_left = 161.0
+offset_top = 165.0
+offset_right = 528.0
+offset_bottom = 240.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0.47451, 0.509804, 0.105882, 1)
+theme_override_constants/line_spacing = -14
+theme_override_font_sizes/font_size = 26
+text = "SHOW_BILLBOARD_BEHIND"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ScoreboardTextFront" type="Label" parent="."]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 176.0
+offset_right = 521.0
+offset_bottom = 229.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_BILLBOARD_SHOW_1"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ScoreboardTextPuppeteer" type="Label" parent="."]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 227.0
+offset_right = 521.0
+offset_bottom = 279.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_BILLBOARD_SHOW_2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Ballerina" type="Label" parent="."]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 343.0
+offset_right = 534.0
+offset_bottom = 397.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "SHOW_BILLBOARD_SHOW_4"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="ScoreboardTextVlad" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 167.0
+offset_top = 342.0
+offset_right = 514.0
+offset_bottom = 395.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = -10
+theme_override_font_sizes/font_size = 20
+text = "‘The Pauper’s Waltz’, from La Femme Ennuyeuse"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ScoreboardTextMusician" type="Label" parent="."]
+layout_mode = 0
+offset_left = 158.0
+offset_top = 402.0
+offset_right = 516.0
+offset_bottom = 459.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_BILLBOARD_SHOW_5"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="ScoreboardTextJuggler" type="Label" parent="."]
+layout_mode = 0
+offset_left = 156.0
+offset_top = 287.0
+offset_right = 523.0
+offset_bottom = 336.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_BILLBOARD_SHOW_3"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="ScoreboardTextMagician" type="Label" parent="."]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 458.0
+offset_right = 529.0
+offset_bottom = 508.0
+theme = SubResource("Theme_iphuj")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+text = "SHOW_BILLBOARD_SHOW_6"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

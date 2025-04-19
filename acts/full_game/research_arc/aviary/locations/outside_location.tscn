@@ -1,0 +1,2367 @@
+[gd_scene load_steps=470 format=4 uid="uid://bj0nec5c3e7x3"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://kato6vnma3bn" path="res://acts/full_game/research_arc/aviary/locations/outside_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://bgxwvtykpkdyk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bhhv1xmofvci0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c4v52ic2dsjoq" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d2qimdxyqnheo" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://q2w0trtom43s" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cen6grxen8fmp" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://rq5mjcxndn2k" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c6653p5pc7011" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cru7h3iy5iwkt" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://debssbdt1ogci" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bv8u2bcjp62sd" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bmixyot2kto0c" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bxftojb3ec3sq" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b2b2ix6vnpjj0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bb68mly0dlkgn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ch3lqd0y1t6in" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://2ul8u81wph8b" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b8y67p0nd4lt6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dxp2ont84wrdy" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b3ksl45rhgyjk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bcucfte0udqf0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c2x78tet5osew" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://d0d5nrtrow3so" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bhee3urgngot6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bm28ipld8b3w4" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cxol4d71e5n5m" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bi72lbkmm48d0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ttwkxycqmwve" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://kim0oyv2c30c" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bs2uflkcdlgpo" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://btchdjb8jbqen" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_000.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bbi7eb5qqvmx1" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_001.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c5koou5csikqy" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_002.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://ddf4jtrbih0w6" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_003.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://b3tk13bsrwn4i" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_004.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://1vyqv2djcbkg" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_005.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://favkglo4btb1" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_006.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ofgxfjgcabjq" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_007.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://5vimgq5v0hm8" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_008.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://yqsgt5cl2mmc" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_009.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://crsg6cb700qkm" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_010.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://v3nxmytultw0" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_011.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://c86u02efiapko" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_012.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dwvcptn262mm6" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_013.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bkt1fxf1rdjev" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_014.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://1gv5yxrsut8f" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_015.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bgfv5pentm7qh" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_016.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bdku2caiehg24" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_017.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://sb3s5v7vaer8" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_018.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dsygluidsmak0" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_019.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://brv31tb3t0keh" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_020.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://dbavqf6q3oia2" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_021.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://b8e65qnp0g7at" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_022.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://b3f85oy0yw6a8" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_023.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://cvhtxvjs77riq" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_024.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://t22q46i683kk" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_025.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://boxn7pyydb4mm" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_026.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://bmafjfuhh5je6" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_027.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://dhrwudxtf77t1" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_028.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://cihpxhutvmqgw" path="res://acts/full_game/research_arc/aviary/assets/animations/woman/girl_029.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://c2yavlr2frgg6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_000.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://c11tcavgiio8t" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_001.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://o7644ky7k5ks" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_002.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://di25jxgrseclm" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_003.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://cpprgqvnak0gi" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_004.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://b13wwly50kf1i" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_005.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://cpu4qhhjdg0xj" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_006.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://7jcbctjvjcpn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_007.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://yp2hbyq2jjpn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_008.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://cqdog4eql8pmm" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_009.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://cdg6sle77d72g" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_010.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://cltjl3te0tai7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_011.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://cewep845resq0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_012.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://7f3pg5e6k2sn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_013.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://eved4ybycnae" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_014.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://lk02xl40gvku" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_015.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://cxmet4epyu4tc" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_016.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://b8lndolo1w4nn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_017.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://d3bw84xbj14ja" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_018.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://brn31tirscxgx" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_019.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://jqopdg5cr7id" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_020.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://dit1yxk8dia8e" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_021.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://k2wt16qt2plk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_022.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://76iywygxarte" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_023.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://cp542x114hnvv" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_024.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dj2eis3n3bl58" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_025.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://seo4trj6aqb7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_026.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://ob4767cks7s6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_027.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://c4e3lphobpsik" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_028.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://cbiewxiiw1100" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_029.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dnja586x3im74" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_030.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://bqfgbkm78stc6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_031.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://b5k0me2trxyjj" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_032.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://n47636mh4drd" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_033.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bk44cf2mf0qjb" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_034.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://dbjls5fnusog6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_035.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://dx3fs0l036ip5" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_036.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://blp0svjrv2b7k" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_037.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://dkhf7tb11g8wt" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_038.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://dwpydd0ged4i7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_039.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bdfewyflytnid" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_040.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://cwqe0fomm0eb8" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_041.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://el7vxe08t8cp" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_042.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://cj55gb2iuksdt" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_043.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://fe78pgu2pk60" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_044.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://d0et3idrme2gx" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_045.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://cr1ksf1h2si4p" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_046.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://wvcqpcl4fw4t" path="res://acts/full_game/research_arc/aviary/assets/animations/bird1/bird1_047.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://gml5h4ta4c6c" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_000.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://bbhednarjfkdk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_001.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://dy36o3ftgsabn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_002.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://l8p2buynt6oi" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_003.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://b2s8vm58hubh1" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_004.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://b1k15qi1lflgt" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_005.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://cwcp56grhvlp1" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_006.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://d2r6ab6n5taol" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_007.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://b1i2y5sq770to" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_008.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://mmoladd5g01f" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_009.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://cydbpwkhdtftq" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_010.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://c8agqij0ommmu" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_011.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://c1p1fgp3e04r7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_012.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://bpa3reptbjvh5" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_013.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://djilsdfp3mpdw" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_014.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://dpurdclde4r8v" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_015.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://cx8qniaktw4rn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_016.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://dmw8ye4olflj5" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_017.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://cnscdre70j2ya" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_018.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://bc34xjuwskbnk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_019.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://dxhe7n2g4p5ow" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_020.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://dvshq8xa7l0vd" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_021.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://cjpwti8jqgwop" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_022.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://buv3oacxt2dd1" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_023.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://bsh5fbejq4con" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_024.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://hm0ljopb5c7e" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_025.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://eulgnlhftvh3" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_026.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://cy7gb5h14mlx1" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_027.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://b1j5f5w1awp2y" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_028.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://pmijyi68ivqf" path="res://acts/full_game/research_arc/aviary/assets/animations/bird4/bird4_029.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://c5dy64b7wba4y" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_000.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://b643f3arftdqy" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_001.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://ba3eyuc17dt4p" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_002.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://b3dau84rvsnao" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_003.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://dkqpfgnrmd70f" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_004.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://2swtt5qugdh2" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_005.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://bexshu5rfmtl8" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_006.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://ccepo4s5b4pm6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_007.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://12oke5m5okxn" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_008.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://dbhofqct8uybv" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_009.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://fpit030pl1bb" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_010.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://b0xx8kvxe73u0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_011.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://c4vws3lkk2ptq" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_012.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://c5ct4npy27b6s" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_013.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://dqdg801e1wcua" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_014.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://d1wv1r8lj56gv" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_015.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://dnkqvhukhvk03" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_016.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://dm3gkmsxynu0g" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_017.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://bke277d21g43w" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_018.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://8cfx76ulp6y2" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_019.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://c62ylcxmo0dj7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_020.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://b2ivxot0rec7v" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_021.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://c3gcru2ip0xtr" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_022.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://vknulflslf15" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_023.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://dcah3pyvaw463" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_024.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://c44aao1aj4mmk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_025.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://cef3i5xs3pii7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_026.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://3w0acxud20mu" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_027.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://dfq15cn541hu3" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_028.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://fgr4i4ynk4ul" path="res://acts/full_game/research_arc/aviary/assets/animations/bird5/birdb_029.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://bacoxoega55sn" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_000.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://deidxuesm4k5w" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_001.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://ddf05fwha0vin" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_002.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://cs26f7bklxbjd" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_003.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://t7igfbll04vp" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_004.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://dyitsvbfl2855" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_005.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://cxgqjck77dvm7" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_006.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://ckhokqrpryavu" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_007.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://bxnro08onc8fs" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_008.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://c338ixrv00466" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_009.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://d187jmgdqw8cy" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_010.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://fsnooofiylue" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_011.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://br8321sqelqfa" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_012.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://d2d8k6pj3gukm" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_013.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://c3liji70ndik1" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_014.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://qadkhgd1nqtq" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_015.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://doc102srgdljx" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_016.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://busnv86tt0olf" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_017.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://cycvav2f5suj5" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_018.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://2cfrilrwhvgo" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_019.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://cvgn2i3fw0jnm" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_020.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://bqd0ucxjbh7ul" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_021.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://cohibqnejye2p" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_022.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://cptr0cx24346a" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_023.png" id="194"]
+[ext_resource type="Texture2D" uid="uid://dhmcnhu44psh7" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_024.png" id="195"]
+[ext_resource type="Texture2D" uid="uid://dc16b338nkxmh" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_025.png" id="196"]
+[ext_resource type="Texture2D" uid="uid://ccd0gfpk2cesd" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_026.png" id="197"]
+[ext_resource type="Texture2D" uid="uid://clhb066li1jjb" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_027.png" id="198"]
+[ext_resource type="Texture2D" uid="uid://djt38xaowpoul" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_028.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://dwvwfb26fysg0" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_029.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://b1ol0npb5t17i" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_030.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://c53uh1gic420x" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_031.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://dct2npm3l1s8n" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_032.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://cd6rm0ak2s2t7" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_033.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://ieue1yiagbe8" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_034.png" id="205"]
+[ext_resource type="Texture2D" uid="uid://c0pv18soueh7d" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_035.png" id="206"]
+[ext_resource type="Texture2D" uid="uid://ddxwgmjigblar" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_036.png" id="207"]
+[ext_resource type="Texture2D" uid="uid://cv3m25ie5h4ey" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_037.png" id="208"]
+[ext_resource type="Texture2D" uid="uid://dj6nisaajeujc" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_038.png" id="209"]
+[ext_resource type="Texture2D" uid="uid://b5isswaxpcfv2" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_039.png" id="210"]
+[ext_resource type="Texture2D" uid="uid://dtg826tm6g6os" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_040.png" id="211"]
+[ext_resource type="Texture2D" uid="uid://tmmt2a1pmpmb" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_041.png" id="212"]
+[ext_resource type="Texture2D" uid="uid://bt2i6rem1ucp5" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_042.png" id="213"]
+[ext_resource type="Texture2D" uid="uid://bo26grpsqnn87" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_043.png" id="214"]
+[ext_resource type="Texture2D" uid="uid://d3p5yedpob0dp" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_044.png" id="215"]
+[ext_resource type="Texture2D" uid="uid://b3rytklno1qnu" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_045.png" id="216"]
+[ext_resource type="Texture2D" uid="uid://cl3dypu2q2544" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_046.png" id="217"]
+[ext_resource type="Texture2D" uid="uid://djb2d5bjxqeen" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_047.png" id="218"]
+[ext_resource type="Texture2D" uid="uid://6bt0caas4gwn" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_048.png" id="219"]
+[ext_resource type="Texture2D" uid="uid://i38dn5is6dmu" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_049.png" id="220"]
+[ext_resource type="Texture2D" uid="uid://dc4n2qx6sccmg" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_050.png" id="221"]
+[ext_resource type="Texture2D" uid="uid://bcc6ndl3l3b87" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_051.png" id="222"]
+[ext_resource type="Texture2D" uid="uid://cg267delusr0" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_052.png" id="223"]
+[ext_resource type="Texture2D" uid="uid://cep1fkv27u6ol" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_053.png" id="224"]
+[ext_resource type="Texture2D" uid="uid://bhc1xrusetmx2" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_054.png" id="225"]
+[ext_resource type="Texture2D" uid="uid://dkoo0lwqhgmrj" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_055.png" id="226"]
+[ext_resource type="Texture2D" uid="uid://bgk46xtweqqs3" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_056.png" id="227"]
+[ext_resource type="Texture2D" uid="uid://p6f5vmpubea5" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_057.png" id="228"]
+[ext_resource type="Texture2D" uid="uid://bchvd20sqcpa6" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_058.png" id="229"]
+[ext_resource type="Texture2D" uid="uid://vyf80e16pgtm" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_059.png" id="230"]
+[ext_resource type="Texture2D" uid="uid://cpcn4fp8dcbuo" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_060.png" id="231"]
+[ext_resource type="Texture2D" uid="uid://ccc73gbmf2fpc" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_061.png" id="232"]
+[ext_resource type="Texture2D" uid="uid://c6cus5kv1ee81" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_062.png" id="233"]
+[ext_resource type="Texture2D" uid="uid://bfkirmg0xpsr5" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_063.png" id="234"]
+[ext_resource type="Texture2D" uid="uid://bsq8g3siivbq1" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_064.png" id="235"]
+[ext_resource type="Texture2D" uid="uid://6c82tmdtvjdb" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_065.png" id="236"]
+[ext_resource type="Texture2D" uid="uid://1wyq11c6odal" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_066.png" id="237"]
+[ext_resource type="Texture2D" uid="uid://0yy1s5jmvdtf" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_067.png" id="238"]
+[ext_resource type="Texture2D" uid="uid://d4k83lfm7o1pw" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_068.png" id="239"]
+[ext_resource type="Texture2D" uid="uid://dqg2ygtihcfkm" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_069.png" id="240"]
+[ext_resource type="Texture2D" uid="uid://bd7tuo860rej8" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_070.png" id="241"]
+[ext_resource type="Texture2D" uid="uid://b5tdqiao7uph" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_071.png" id="242"]
+[ext_resource type="Texture2D" uid="uid://cv0jvkya7xkft" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_072.png" id="243"]
+[ext_resource type="Texture2D" uid="uid://by7i4kktehuwu" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_073.png" id="244"]
+[ext_resource type="Texture2D" uid="uid://cl5vxjhh5ts2g" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_074.png" id="245"]
+[ext_resource type="Texture2D" uid="uid://b68wurxl7bosr" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_075.png" id="246"]
+[ext_resource type="Texture2D" uid="uid://co64ph3i8v8xl" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_076.png" id="247"]
+[ext_resource type="Texture2D" uid="uid://bquyx152xwsmy" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_077.png" id="248"]
+[ext_resource type="Texture2D" uid="uid://cegjnu8v1gmo1" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_078.png" id="249"]
+[ext_resource type="Texture2D" uid="uid://cp5r6o4tatsj8" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_079.png" id="250"]
+[ext_resource type="Texture2D" uid="uid://rgnh5pv72qab" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_080.png" id="251"]
+[ext_resource type="Texture2D" uid="uid://dkq7aw1tnicdf" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_081.png" id="252"]
+[ext_resource type="Texture2D" uid="uid://cjlq7skpn2w6j" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_082.png" id="253"]
+[ext_resource type="Texture2D" uid="uid://cdm5w2qfwpc7q" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_083.png" id="254"]
+[ext_resource type="Texture2D" uid="uid://dwc41vjtck7gx" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_084.png" id="255"]
+[ext_resource type="Texture2D" uid="uid://ux2i0dr1isab" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_085.png" id="256"]
+[ext_resource type="Texture2D" uid="uid://coqqqb18eplw7" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_086.png" id="257"]
+[ext_resource type="Texture2D" uid="uid://r4txabwr5nur" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_087.png" id="258"]
+[ext_resource type="Texture2D" uid="uid://b5cympr0r5m33" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_088.png" id="259"]
+[ext_resource type="Texture2D" uid="uid://cygwobqsqvg8g" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_089.png" id="260"]
+[ext_resource type="Texture2D" uid="uid://df2a120fjhbme" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_090.png" id="261"]
+[ext_resource type="Texture2D" uid="uid://xntveji7w1w1" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_091.png" id="262"]
+[ext_resource type="Texture2D" uid="uid://bm4gcoclqapmv" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_092.png" id="263"]
+[ext_resource type="Texture2D" uid="uid://caty23aaxw3e1" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_093.png" id="264"]
+[ext_resource type="Texture2D" uid="uid://b7fqufp1kjs6p" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_094.png" id="265"]
+[ext_resource type="Texture2D" uid="uid://bo6hvfa44w77" path="res://acts/full_game/research_arc/aviary/assets/animations/redbreasted/redbreasted_095.png" id="266"]
+[ext_resource type="Texture2D" uid="uid://bdt02tc7dxbl6" path="res://acts/full_game/research_arc/aviary/assets/figures.png" id="267"]
+[ext_resource type="Texture2D" uid="uid://beo73vpc8tdlq" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_000.png" id="268"]
+[ext_resource type="Texture2D" uid="uid://bmyv4m5uqxebo" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_001.png" id="269"]
+[ext_resource type="Texture2D" uid="uid://dmhldl11lwxs5" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_002.png" id="270"]
+[ext_resource type="Texture2D" uid="uid://duo6ubp8bg4b5" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_003.png" id="271"]
+[ext_resource type="Texture2D" uid="uid://bq0ac7ponhfl" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_004.png" id="272"]
+[ext_resource type="Texture2D" uid="uid://bo6tic8ionvbo" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_005.png" id="273"]
+[ext_resource type="Texture2D" uid="uid://gtuu3536roqs" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_006.png" id="274"]
+[ext_resource type="Texture2D" uid="uid://c34ih1t1airkl" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_007.png" id="275"]
+[ext_resource type="Texture2D" uid="uid://cp6bmkjs4n63d" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_008.png" id="276"]
+[ext_resource type="Texture2D" uid="uid://bsfhq0bxjgn4w" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_009.png" id="277"]
+[ext_resource type="Texture2D" uid="uid://b05q0n88yttot" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_010.png" id="278"]
+[ext_resource type="Texture2D" uid="uid://cingup2i4h3oy" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_011.png" id="279"]
+[ext_resource type="Texture2D" uid="uid://bv85170ai5hgt" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_012.png" id="280"]
+[ext_resource type="Texture2D" uid="uid://cc1rqqc3vcs56" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_013.png" id="281"]
+[ext_resource type="Texture2D" uid="uid://c6ffatkjctkb7" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_014.png" id="282"]
+[ext_resource type="Texture2D" uid="uid://dgcj81ph6geo" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_015.png" id="283"]
+[ext_resource type="Texture2D" uid="uid://eju6hxvowgxb" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_016.png" id="284"]
+[ext_resource type="Texture2D" uid="uid://b4xemhha8gvi4" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_017.png" id="285"]
+[ext_resource type="Texture2D" uid="uid://cq1crtx3a5lm3" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_018.png" id="286"]
+[ext_resource type="Texture2D" uid="uid://du5e5i6awopp6" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_019.png" id="287"]
+[ext_resource type="Texture2D" uid="uid://bkiygmbu52gag" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_020.png" id="288"]
+[ext_resource type="Texture2D" uid="uid://8wel6qyfj40s" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_021.png" id="289"]
+[ext_resource type="Texture2D" uid="uid://crsqxntj7q5wo" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_022.png" id="290"]
+[ext_resource type="Texture2D" uid="uid://dvytnyt6hds2j" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_023.png" id="291"]
+[ext_resource type="Texture2D" uid="uid://47qvkw3blc5p" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_024.png" id="292"]
+[ext_resource type="Texture2D" uid="uid://cgt8qqhw5lyiq" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_025.png" id="293"]
+[ext_resource type="Texture2D" uid="uid://utf2pd0qqr48" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_026.png" id="294"]
+[ext_resource type="Texture2D" uid="uid://b2jf7wpso73o1" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_027.png" id="295"]
+[ext_resource type="Texture2D" uid="uid://b81org8pi4pa2" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_028.png" id="296"]
+[ext_resource type="Texture2D" uid="uid://c6fsta0imgfwm" path="res://acts/full_game/research_arc/aviary/assets/animations/bird6/birda_029.png" id="297"]
+[ext_resource type="Texture2D" uid="uid://xa84cn70chhx" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_000.png" id="298"]
+[ext_resource type="Texture2D" uid="uid://n323j080qifm" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_001.png" id="299"]
+[ext_resource type="Texture2D" uid="uid://bh5nmrlp5njgb" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_002.png" id="300"]
+[ext_resource type="Texture2D" uid="uid://deopomv17aa5e" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_003.png" id="301"]
+[ext_resource type="Texture2D" uid="uid://cubxdev5fy3x7" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_004.png" id="302"]
+[ext_resource type="Texture2D" uid="uid://bs5waxvoj4uba" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_005.png" id="303"]
+[ext_resource type="Texture2D" uid="uid://cnhshhqamidb8" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_006.png" id="304"]
+[ext_resource type="Texture2D" uid="uid://cqu3r43sgd4ab" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_007.png" id="305"]
+[ext_resource type="Texture2D" uid="uid://bud1ibyya5xlc" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_008.png" id="306"]
+[ext_resource type="Texture2D" uid="uid://wybqkek21sr8" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_009.png" id="307"]
+[ext_resource type="Texture2D" uid="uid://cy46q7ppvl3en" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_010.png" id="308"]
+[ext_resource type="Texture2D" uid="uid://bn8c1gun7hbur" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_011.png" id="309"]
+[ext_resource type="Texture2D" uid="uid://50ayg5gmwjs6" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_012.png" id="310"]
+[ext_resource type="Texture2D" uid="uid://dr5mwejrhv24c" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_013.png" id="311"]
+[ext_resource type="Texture2D" uid="uid://08fnv47swg6x" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_014.png" id="312"]
+[ext_resource type="Texture2D" uid="uid://u2hiscus26ff" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_015.png" id="313"]
+[ext_resource type="Texture2D" uid="uid://bhgq7d3ovinye" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_016.png" id="314"]
+[ext_resource type="Texture2D" uid="uid://c6gk0xvsliavg" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_017.png" id="315"]
+[ext_resource type="Texture2D" uid="uid://1yb67sx7lp4t" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_018.png" id="316"]
+[ext_resource type="Texture2D" uid="uid://bufwdxdysidrt" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_019.png" id="317"]
+[ext_resource type="Texture2D" uid="uid://0h5ayin6suwp" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_020.png" id="318"]
+[ext_resource type="Texture2D" uid="uid://b6q15po3y0ivm" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_021.png" id="319"]
+[ext_resource type="Texture2D" uid="uid://c32746wqmbcd" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_022.png" id="320"]
+[ext_resource type="Texture2D" uid="uid://beay4eka5suw1" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_023.png" id="321"]
+[ext_resource type="Texture2D" uid="uid://2dt424m6o6x" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_024.png" id="322"]
+[ext_resource type="Texture2D" uid="uid://br28yvofksjlg" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_025.png" id="323"]
+[ext_resource type="Texture2D" uid="uid://cwaomqbk5bjv8" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_026.png" id="324"]
+[ext_resource type="Texture2D" uid="uid://bguutg6eoy1hi" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_027.png" id="325"]
+[ext_resource type="Texture2D" uid="uid://03fgfm5o680j" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_028.png" id="326"]
+[ext_resource type="Texture2D" uid="uid://ha5ptnwm7gn5" path="res://acts/full_game/research_arc/aviary/assets/animations/birdwrist/birdwristband_029.png" id="327"]
+[ext_resource type="Texture2D" uid="uid://ccfh4fhu5h0jd" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_000.png" id="328"]
+[ext_resource type="Texture2D" uid="uid://w5quuphusxc7" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_001.png" id="329"]
+[ext_resource type="Texture2D" uid="uid://my6sr7c3rjok" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_002.png" id="330"]
+[ext_resource type="Texture2D" uid="uid://pr6sgcwbai5s" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_003.png" id="331"]
+[ext_resource type="Texture2D" uid="uid://blaxnau8eq5ar" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_004.png" id="332"]
+[ext_resource type="Texture2D" uid="uid://c7qw1qdk3twwd" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_005.png" id="333"]
+[ext_resource type="Texture2D" uid="uid://dwti2y2w7xqgx" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_006.png" id="334"]
+[ext_resource type="Texture2D" uid="uid://cyoiepr6q40do" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_007.png" id="335"]
+[ext_resource type="Texture2D" uid="uid://d1j2ksuuj5rof" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_008.png" id="336"]
+[ext_resource type="Texture2D" uid="uid://fsp1o7jnwbo2" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_009.png" id="337"]
+[ext_resource type="Texture2D" uid="uid://c27vtu0eh6p53" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_010.png" id="338"]
+[ext_resource type="Texture2D" uid="uid://dh6ubsjjqmch0" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_011.png" id="339"]
+[ext_resource type="Texture2D" uid="uid://b05n7sks3ux1" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_012.png" id="340"]
+[ext_resource type="Texture2D" uid="uid://c75imnp8uxu08" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_013.png" id="341"]
+[ext_resource type="Texture2D" uid="uid://wkcdl2u23m2p" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_014.png" id="342"]
+[ext_resource type="Texture2D" uid="uid://bs73cpujxtauj" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_015.png" id="343"]
+[ext_resource type="Texture2D" uid="uid://di564hvyi6ow0" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_016.png" id="344"]
+[ext_resource type="Texture2D" uid="uid://d2edyla4dscpg" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_017.png" id="345"]
+[ext_resource type="Texture2D" uid="uid://ci5foakhsjcoy" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_018.png" id="346"]
+[ext_resource type="Texture2D" uid="uid://cjan27o7woo15" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_019.png" id="347"]
+[ext_resource type="Texture2D" uid="uid://djgol17w8qq8u" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_020.png" id="348"]
+[ext_resource type="Texture2D" uid="uid://dw65g84krd3xh" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_021.png" id="349"]
+[ext_resource type="Texture2D" uid="uid://cbsx458q5hfth" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_022.png" id="350"]
+[ext_resource type="Texture2D" uid="uid://b7gtejxns14pk" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_023.png" id="351"]
+[ext_resource type="Texture2D" uid="uid://hw6c1k4hwpjb" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_024.png" id="352"]
+[ext_resource type="Texture2D" uid="uid://bs8lbm26sd37l" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_025.png" id="353"]
+[ext_resource type="Texture2D" uid="uid://2nwhgwv8jw1c" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_026.png" id="354"]
+[ext_resource type="Texture2D" uid="uid://r5dgs6eip8j0" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_027.png" id="355"]
+[ext_resource type="Texture2D" uid="uid://cmr377tb172c7" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_028.png" id="356"]
+[ext_resource type="Texture2D" uid="uid://bfccnuqkgjy5a" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_029.png" id="357"]
+[ext_resource type="Texture2D" uid="uid://baqt88xvlcy03" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_030.png" id="358"]
+[ext_resource type="Texture2D" uid="uid://cdkd8b8v4kak4" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_031.png" id="359"]
+[ext_resource type="Texture2D" uid="uid://cc425yvxaeoql" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_032.png" id="360"]
+[ext_resource type="Texture2D" uid="uid://cwuh41yciu8qw" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_033.png" id="361"]
+[ext_resource type="Texture2D" uid="uid://bdvnycgb77qn3" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_034.png" id="362"]
+[ext_resource type="Texture2D" uid="uid://tpm0oryem1jm" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_035.png" id="363"]
+[ext_resource type="Texture2D" uid="uid://cqhcpt3q7i0hi" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_036.png" id="364"]
+[ext_resource type="Texture2D" uid="uid://cqngabb4su0jf" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_037.png" id="365"]
+[ext_resource type="Texture2D" uid="uid://rvfegd0a86ds" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_038.png" id="366"]
+[ext_resource type="Texture2D" uid="uid://dscltoui0svis" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_039.png" id="367"]
+[ext_resource type="Texture2D" uid="uid://bjw0j67x0rgj5" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_040.png" id="368"]
+[ext_resource type="Texture2D" uid="uid://c0kk440hcjfag" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_041.png" id="369"]
+[ext_resource type="Texture2D" uid="uid://by4vsgpq6clr5" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_042.png" id="370"]
+[ext_resource type="Texture2D" uid="uid://b7tyl3rb85s80" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_043.png" id="371"]
+[ext_resource type="Texture2D" uid="uid://dh0ja12cf864s" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_044.png" id="372"]
+[ext_resource type="Texture2D" uid="uid://dqp1nbuemr8hh" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_045.png" id="373"]
+[ext_resource type="Texture2D" uid="uid://cvubxp6kfbjaa" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_046.png" id="374"]
+[ext_resource type="Texture2D" uid="uid://not3288bo6ui" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_047.png" id="375"]
+[ext_resource type="Texture2D" uid="uid://c7ukl58l0j3pt" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_048.png" id="376"]
+[ext_resource type="Texture2D" uid="uid://qu1l20f0j8xe" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_049.png" id="377"]
+[ext_resource type="Texture2D" uid="uid://bd8cqo2v7roct" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_050.png" id="378"]
+[ext_resource type="Texture2D" uid="uid://bxt3mleepdvqh" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_051.png" id="379"]
+[ext_resource type="Texture2D" uid="uid://81xdiv6q44nl" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_052.png" id="380"]
+[ext_resource type="Texture2D" uid="uid://ck4limb8otjki" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_053.png" id="381"]
+[ext_resource type="Texture2D" uid="uid://dkxb0ksfk02do" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_054.png" id="382"]
+[ext_resource type="Texture2D" uid="uid://l7ndwrt4nxti" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_055.png" id="383"]
+[ext_resource type="Texture2D" uid="uid://in4bllxf0jdw" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_056.png" id="384"]
+[ext_resource type="Texture2D" uid="uid://cw6tv8vxmi1dv" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_057.png" id="385"]
+[ext_resource type="Texture2D" uid="uid://k81u432qdet2" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_058.png" id="386"]
+[ext_resource type="Texture2D" uid="uid://co1sjtr135f0i" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_059.png" id="387"]
+[ext_resource type="Texture2D" uid="uid://djkng0nrijgm3" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_060.png" id="388"]
+[ext_resource type="Texture2D" uid="uid://6gsqa6awro20" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_061.png" id="389"]
+[ext_resource type="Texture2D" uid="uid://djgjly5qti5md" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_062.png" id="390"]
+[ext_resource type="Texture2D" uid="uid://dr6wp0klp7bms" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_063.png" id="391"]
+[ext_resource type="Texture2D" uid="uid://bahqnd6iqrqcn" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_064.png" id="392"]
+[ext_resource type="Texture2D" uid="uid://8dx5j2jt0tm1" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_065.png" id="393"]
+[ext_resource type="Texture2D" uid="uid://cysrgwx4pt57h" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_066.png" id="394"]
+[ext_resource type="Texture2D" uid="uid://vvt1c2igako4" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_067.png" id="395"]
+[ext_resource type="Texture2D" uid="uid://d0lyoaqngctcb" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_068.png" id="396"]
+[ext_resource type="Texture2D" uid="uid://cn0mn7qvfakqu" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_069.png" id="397"]
+[ext_resource type="Texture2D" uid="uid://bh6jo4r4b777g" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_070.png" id="398"]
+[ext_resource type="Texture2D" uid="uid://bhkwvjeueyamd" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_071.png" id="399"]
+[ext_resource type="Texture2D" uid="uid://cywile6t0mml1" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_072.png" id="400"]
+[ext_resource type="Texture2D" uid="uid://iaryi1i76gv" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_073.png" id="401"]
+[ext_resource type="Texture2D" uid="uid://f82se4mn24sb" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_074.png" id="402"]
+[ext_resource type="Texture2D" uid="uid://pex5hhrp864g" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_075.png" id="403"]
+[ext_resource type="Texture2D" uid="uid://dfj2q5uomfxt2" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_076.png" id="404"]
+[ext_resource type="Texture2D" uid="uid://dmwlk4bf4ugcs" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_077.png" id="405"]
+[ext_resource type="Texture2D" uid="uid://ugbkc5mxxm3d" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_078.png" id="406"]
+[ext_resource type="Texture2D" uid="uid://qih4ace61rkv" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_079.png" id="407"]
+[ext_resource type="Texture2D" uid="uid://bqia2o67ta1h7" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_080.png" id="408"]
+[ext_resource type="Texture2D" uid="uid://1mqrwmemi0ri" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_081.png" id="409"]
+[ext_resource type="Texture2D" uid="uid://c7ukec7sbyvfy" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_082.png" id="410"]
+[ext_resource type="Texture2D" uid="uid://cpsc8iqs6qnk7" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_083.png" id="411"]
+[ext_resource type="Texture2D" uid="uid://d0yu33ilpbutr" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_084.png" id="412"]
+[ext_resource type="Texture2D" uid="uid://c15kv2h213mj" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_085.png" id="413"]
+[ext_resource type="Texture2D" uid="uid://cncuaaig8j6n0" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_086.png" id="414"]
+[ext_resource type="Texture2D" uid="uid://vrsd1yxmkr2a" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_087.png" id="415"]
+[ext_resource type="Texture2D" uid="uid://bqbaejgk40d1f" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_088.png" id="416"]
+[ext_resource type="Texture2D" uid="uid://buuu6ulxot8lc" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_089.png" id="417"]
+[ext_resource type="Texture2D" uid="uid://3tdq1ld3eex2" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_090.png" id="418"]
+[ext_resource type="Texture2D" uid="uid://dmppbioenre5x" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_091.png" id="419"]
+[ext_resource type="Texture2D" uid="uid://cwvhqevwo5ol2" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_092.png" id="420"]
+[ext_resource type="Texture2D" uid="uid://ccefpdxpr357s" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_093.png" id="421"]
+[ext_resource type="Texture2D" uid="uid://e315try656ek" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_094.png" id="422"]
+[ext_resource type="Texture2D" uid="uid://de2di8unhint0" path="res://acts/full_game/research_arc/aviary/assets/animations/grouse/maskedgrouse_095.png" id="423"]
+[ext_resource type="Texture2D" uid="uid://do5p1lr20ocda" path="res://acts/full_game/research_arc/aviary/assets/bush2.png" id="424"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="425"]
+[ext_resource type="PackedScene" uid="uid://2gtenkv7rlvm" path="res://acts/full_game/research_arc/aviary/assets/closeups/incubation_closeup.tscn" id="426"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="427"]
+[ext_resource type="Texture2D" uid="uid://bxrpn5phv7elr" path="res://acts/full_game/research_arc/aviary/assets/scrapbgright.png" id="428"]
+[ext_resource type="Texture2D" uid="uid://q5omwuj35cxc" path="res://acts/full_game/research_arc/aviary/assets/pictogram3.png" id="429"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="430"]
+[ext_resource type="Texture2D" uid="uid://c4rae036itks7" path="res://acts/full_game/research_arc/aviary/assets/scrapbgleft.png" id="431"]
+[ext_resource type="Texture2D" uid="uid://cdkw6l7h8qh5x" path="res://acts/full_game/research_arc/aviary/assets/pictogram4.png" id="432"]
+[ext_resource type="Texture2D" uid="uid://dfj6bnk7k5bj2" path="res://acts/full_game/research_arc/aviary/assets/pictogram5.png" id="433"]
+[ext_resource type="Resource" uid="uid://bpc68jm3kpt64" path="res://acts/full_game/research_arc/aviary/puzzles/trigger_puzzle_meta.tres" id="434"]
+[ext_resource type="Texture2D" uid="uid://byfwqabtknhca" path="res://acts/full_game/research_arc/aviary/assets/closeups/nest.png" id="435"]
+[ext_resource type="Texture2D" uid="uid://b0j2xmwg6ipbo" path="res://acts/full_game/research_arc/aviary/assets/closeups/shoe.png" id="436"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_segment_unlock.gd" id="437"]
+[ext_resource type="Texture2D" uid="uid://dwy43qgu22ldi" path="res://acts/full_game/research_arc/aviary/assets/closeups/wristband.png" id="438"]
+[ext_resource type="Resource" uid="uid://b7t67nyu1kuma" path="res://acts/full_game/research_arc/aviary/locations/inside_meta.tres" id="439"]
+[ext_resource type="Texture2D" uid="uid://cmj4pdb6dqo7v" path="res://acts/full_game/research_arc/aviary/assets/pictogram1.png" id="440"]
+[ext_resource type="Texture2D" uid="uid://m4w0ybo423fb" path="res://acts/full_game/research_arc/aviary/assets/pictogram2.png" id="441"]
+[ext_resource type="Texture2D" uid="uid://cior1jqfde0u" path="res://acts/full_game/research_arc/aviary/assets/scrapbgripped.png" id="442"]
+[ext_resource type="PackedScene" uid="uid://dv8b88yg2ls5p" path="res://acts/full_game/research_arc/aviary/assets/closeups/astor_closeup.tscn" id="443"]
+
+[sub_resource type="Gradient" id="Gradient_rxhy5"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_rrrqe"]
+gradient = SubResource("Gradient_rxhy5")
+fill = 1
+fill_from = Vector2(0.496732, 0.490196)
+fill_to = Vector2(0.856209, 0.130719)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xadmu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nw1iw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7235l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yovxp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5jbfb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qic4x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ot1bk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("268")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_aekyj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("298")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_inkoh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("328")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374")
+}, {
+"duration": 1.0,
+"texture": ExtResource("375")
+}, {
+"duration": 1.0,
+"texture": ExtResource("376")
+}, {
+"duration": 1.0,
+"texture": ExtResource("377")
+}, {
+"duration": 1.0,
+"texture": ExtResource("378")
+}, {
+"duration": 1.0,
+"texture": ExtResource("379")
+}, {
+"duration": 1.0,
+"texture": ExtResource("380")
+}, {
+"duration": 1.0,
+"texture": ExtResource("381")
+}, {
+"duration": 1.0,
+"texture": ExtResource("382")
+}, {
+"duration": 1.0,
+"texture": ExtResource("383")
+}, {
+"duration": 1.0,
+"texture": ExtResource("384")
+}, {
+"duration": 1.0,
+"texture": ExtResource("385")
+}, {
+"duration": 1.0,
+"texture": ExtResource("386")
+}, {
+"duration": 1.0,
+"texture": ExtResource("387")
+}, {
+"duration": 1.0,
+"texture": ExtResource("388")
+}, {
+"duration": 1.0,
+"texture": ExtResource("389")
+}, {
+"duration": 1.0,
+"texture": ExtResource("390")
+}, {
+"duration": 1.0,
+"texture": ExtResource("391")
+}, {
+"duration": 1.0,
+"texture": ExtResource("392")
+}, {
+"duration": 1.0,
+"texture": ExtResource("393")
+}, {
+"duration": 1.0,
+"texture": ExtResource("394")
+}, {
+"duration": 1.0,
+"texture": ExtResource("395")
+}, {
+"duration": 1.0,
+"texture": ExtResource("396")
+}, {
+"duration": 1.0,
+"texture": ExtResource("397")
+}, {
+"duration": 1.0,
+"texture": ExtResource("398")
+}, {
+"duration": 1.0,
+"texture": ExtResource("399")
+}, {
+"duration": 1.0,
+"texture": ExtResource("400")
+}, {
+"duration": 1.0,
+"texture": ExtResource("401")
+}, {
+"duration": 1.0,
+"texture": ExtResource("402")
+}, {
+"duration": 1.0,
+"texture": ExtResource("403")
+}, {
+"duration": 1.0,
+"texture": ExtResource("404")
+}, {
+"duration": 1.0,
+"texture": ExtResource("405")
+}, {
+"duration": 1.0,
+"texture": ExtResource("406")
+}, {
+"duration": 1.0,
+"texture": ExtResource("407")
+}, {
+"duration": 1.0,
+"texture": ExtResource("408")
+}, {
+"duration": 1.0,
+"texture": ExtResource("409")
+}, {
+"duration": 1.0,
+"texture": ExtResource("410")
+}, {
+"duration": 1.0,
+"texture": ExtResource("411")
+}, {
+"duration": 1.0,
+"texture": ExtResource("412")
+}, {
+"duration": 1.0,
+"texture": ExtResource("413")
+}, {
+"duration": 1.0,
+"texture": ExtResource("414")
+}, {
+"duration": 1.0,
+"texture": ExtResource("415")
+}, {
+"duration": 1.0,
+"texture": ExtResource("416")
+}, {
+"duration": 1.0,
+"texture": ExtResource("417")
+}, {
+"duration": 1.0,
+"texture": ExtResource("418")
+}, {
+"duration": 1.0,
+"texture": ExtResource("419")
+}, {
+"duration": 1.0,
+"texture": ExtResource("420")
+}, {
+"duration": 1.0,
+"texture": ExtResource("421")
+}, {
+"duration": 1.0,
+"texture": ExtResource("422")
+}, {
+"duration": 1.0,
+"texture": ExtResource("423")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_5456j"]
+script = ExtResource("427")
+linked_item_ref_id = 463
+
+[sub_resource type="Resource" id="Resource_kl0rj"]
+script = ExtResource("427")
+linked_item_ref_id = 487
+
+[sub_resource type="Resource" id="Resource_50mbr"]
+script = ExtResource("427")
+linked_item_ref_id = 475
+
+[sub_resource type="Resource" id="Resource_d81qe"]
+script = ExtResource("427")
+linked_item_ref_id = 471
+
+[sub_resource type="Resource" id="Resource_qq4a3"]
+script = ExtResource("427")
+linked_item_ref_id = 470
+
+[sub_resource type="Resource" id="Resource_5eijh"]
+script = ExtResource("427")
+linked_item_ref_id = 488
+
+[sub_resource type="Resource" id="Resource_gwbq5"]
+script = ExtResource("427")
+linked_item_ref_id = 1012
+
+[sub_resource type="Resource" id="Resource_gqbx8"]
+script = ExtResource("437")
+puzzle_meta = ExtResource("434")
+segment_indices = [0]
+
+[sub_resource type="Resource" id="Resource_v2dew"]
+script = ExtResource("427")
+linked_item_ref_id = 465
+
+[sub_resource type="Resource" id="Resource_3xs4j"]
+script = ExtResource("427")
+linked_item_ref_id = 263
+
+[sub_resource type="Resource" id="Resource_733ul"]
+script = ExtResource("427")
+linked_item_ref_id = 481
+
+[sub_resource type="Resource" id="Resource_83p72"]
+script = ExtResource("427")
+linked_item_ref_id = 482
+
+[sub_resource type="Resource" id="Resource_74i3u"]
+script = ExtResource("427")
+linked_item_ref_id = 476
+
+[sub_resource type="Resource" id="Resource_f3s2x"]
+script = ExtResource("427")
+linked_item_ref_id = 466
+
+[sub_resource type="Resource" id="Resource_8hkct"]
+script = ExtResource("427")
+linked_item_ref_id = 489
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+visible = false
+position = Vector2(936, 613)
+scale = Vector2(39.1484, 24.7422)
+range_z_max = 0
+range_layer_max = 1
+texture = SubResource("GradientTexture2D_rrrqe")
+texture_scale = 0.800000011920929
+
+[node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="."]
+position = Vector2(980, 224)
+sprite_frames = SubResource("SpriteFrames_xadmu")
+autoplay = "default"
+frame = 10
+
+[node name="AnimatedSprite2D9" type="AnimatedSprite2D" parent="."]
+position = Vector2(1749.19, 547.099)
+sprite_frames = SubResource("SpriteFrames_nw1iw")
+autoplay = "default"
+frame_progress = 0.8278319835662842
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(668, 145)
+sprite_frames = SubResource("SpriteFrames_7235l")
+autoplay = "default"
+frame_progress = 0.8920549750328064
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(1137, 703)
+sprite_frames = SubResource("SpriteFrames_yovxp")
+autoplay = "default"
+frame = 6
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(1410, 506)
+sprite_frames = SubResource("SpriteFrames_5jbfb")
+autoplay = "default"
+frame = 15
+
+[node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="."]
+position = Vector2(675, 649)
+sprite_frames = SubResource("SpriteFrames_qic4x")
+autoplay = "default"
+frame_progress = 0.25311198830604553
+
+[node name="Background2" type="Sprite2D" parent="."]
+position = Vector2(462, 661)
+texture = ExtResource("267")
+centered = false
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+z_index = 1
+position = Vector2(1467, 460)
+sprite_frames = SubResource("SpriteFrames_ot1bk")
+autoplay = "default"
+frame_progress = 0.9547989964485168
+
+[node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="."]
+position = Vector2(992, 548)
+sprite_frames = SubResource("SpriteFrames_aekyj")
+autoplay = "default"
+frame = 20
+
+[node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="."]
+position = Vector2(174, 401)
+sprite_frames = SubResource("SpriteFrames_inkoh")
+autoplay = "default"
+frame_progress = 0.20182399451732635
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(918, 797)
+texture = ExtResource("424")
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FlowerSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 535.0
+offset_top = 76.0
+offset_right = 731.0
+offset_bottom = 147.0
+hotspot_id = "sf7"
+text = "AVIARY_BIRD_TOOLTIP"
+unlocked_character_ref_id = 76
+
+[node name="ParrotSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 972.0
+offset_top = 33.0
+offset_right = 1168.0
+offset_bottom = 133.0
+hotspot_id = "pHj"
+text = "AVIARY_LORY_TOOLTIP_1"
+
+[node name="Parrot2Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 746.0
+offset_top = 247.0
+offset_right = 968.0
+offset_bottom = 340.0
+hotspot_id = "z0y"
+text = "AVIARY_LORY_TOOLTIP_2"
+unlocked_character_ref_id = 75
+
+[node name="IncubationSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 407.0
+offset_top = 293.0
+offset_right = 484.0
+offset_bottom = 429.0
+hotspot_id = "bTK"
+
+[node name="IncubationCloseup" parent="Hotspots/IncubationSpot" instance=ExtResource("426")]
+layout_mode = 0
+offset_left = -445.0
+offset_top = -1303.0
+offset_right = 518.0
+offset_bottom = -704.0
+
+[node name="GrouseSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 106.0
+offset_top = 322.0
+offset_right = 180.0
+offset_bottom = 448.0
+hotspot_id = "Xc1"
+text = "AVIARY_BIRD_TOOLTIP"
+unlocked_character_ref_id = 74
+
+[node name="Page3Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 187.0
+offset_top = 517.0
+offset_right = 210.0
+offset_bottom = 564.0
+hotspot_id = "Pbz"
+unlocked_item_ref_id = 462
+extra_items_unlocked = [SubResource("Resource_5456j"), SubResource("Resource_kl0rj"), SubResource("Resource_50mbr")]
+
+[node name="Page3Panel" type="Panel" parent="Hotspots/Page3Spot"]
+layout_mode = 0
+offset_left = -849.0
+offset_top = -258.0
+offset_right = -546.0
+offset_bottom = 276.0
+
+[node name="Sprite2D3" type="Sprite2D" parent="Hotspots/Page3Spot/Page3Panel"]
+position = Vector2(150, 263)
+texture = ExtResource("428")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/Page3Spot/Page3Panel/Sprite2D3"]
+position = Vector2(-16, 159)
+texture = ExtResource("429")
+
+[node name="Label3" type="Label" parent="Hotspots/Page3Spot/Page3Panel"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 33.0
+offset_right = 285.0
+offset_bottom = 352.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "AVIARY_HERON_PAGE_2"
+autowrap_mode = 3
+
+[node name="Label4" type="Label" parent="Hotspots/Page3Spot/Page3Panel"]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 472.0
+offset_right = 272.0
+offset_bottom = 505.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+text = "NUMBER_2"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="Page5Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 63.0
+offset_top = 696.0
+offset_right = 94.0
+offset_bottom = 750.0
+hotspot_id = "Z3d"
+unlocked_item_ref_id = 468
+extra_items_unlocked = [SubResource("Resource_d81qe")]
+
+[node name="Page5Panel" type="Panel" parent="Hotspots/Page5Spot"]
+layout_mode = 0
+offset_left = -657.0
+offset_top = 98.0
+offset_right = -359.0
+offset_bottom = 632.0
+
+[node name="Page6" type="Sprite2D" parent="Hotspots/Page5Spot/Page5Panel"]
+position = Vector2(149, 260.5)
+texture = ExtResource("431")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/Page5Spot/Page5Panel/Page6"]
+position = Vector2(7, 188.5)
+texture = ExtResource("432")
+
+[node name="Label2" type="Label" parent="Hotspots/Page5Spot/Page5Panel"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 27.0
+offset_right = 268.0
+offset_bottom = 391.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "AVIARY_HERON_PAGE_1"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="HeronSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 543.0
+offset_top = 551.0
+offset_right = 777.0
+offset_bottom = 669.0
+focus_neighbor_bottom = NodePath("../DeclanBodySpot")
+hotspot_id = "7Y-"
+text = "AVIARY_BIRD_TOOLTIP"
+unlocked_character_ref_id = 73
+
+[node name="Page6Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 132.0
+offset_top = 824.0
+offset_right = 173.0
+offset_bottom = 895.0
+hotspot_id = "MhB"
+unlocked_item_ref_id = 469
+extra_items_unlocked = [SubResource("Resource_qq4a3"), SubResource("Resource_5eijh"), SubResource("Resource_gwbq5")]
+
+[node name="Page6Panel" type="Panel" parent="Hotspots/Page6Spot"]
+layout_mode = 0
+offset_left = -486.0
+offset_top = 597.0
+offset_right = -186.0
+offset_bottom = 1138.0
+
+[node name="Page6" type="Sprite2D" parent="Hotspots/Page6Spot/Page6Panel"]
+position = Vector2(149, 260.5)
+texture = ExtResource("431")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/Page6Spot/Page6Panel/Page6"]
+position = Vector2(0, 190.5)
+texture = ExtResource("433")
+
+[node name="Label" type="Label" parent="Hotspots/Page6Spot/Page6Panel"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 32.0
+offset_right = 272.0
+offset_bottom = 411.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "AVIARY_LORY_PAGE_1"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="DeclanBodySpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 565.0
+offset_top = 814.0
+offset_right = 726.0
+offset_bottom = 928.0
+focus_neighbor_top = NodePath("../HeronSpot")
+focus_neighbor_right = NodePath("../BushSpot")
+hotspot_id = "1Ef"
+unlocked_character_ref_id = 67
+
+[node name="DeclanBodyCloseup" parent="Hotspots/DeclanBodySpot" instance_placeholder="res://acts/full_game/research_arc/aviary/assets/closeups/declan_body_closeup.tscn"]
+layout_mode = 0
+offset_left = -448.0
+offset_top = 1096.0
+offset_right = 359.0
+offset_bottom = 1693.0
+
+[node name="BushSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 834.0
+offset_top = 767.0
+offset_right = 955.0
+offset_bottom = 852.0
+focus_neighbor_left = NodePath("../DeclanBodySpot")
+hotspot_id = "3Cw"
+unlocked_item_ref_id = 479
+unlocked_puzzles = [ExtResource("434")]
+
+[node name="BushCloseup" type="Panel" parent="Hotspots/BushSpot"]
+layout_mode = 0
+offset_left = -626.0
+offset_top = 685.0
+offset_right = -207.0
+offset_bottom = 1105.0
+mouse_filter = 2
+
+[node name="Nest" type="Sprite2D" parent="Hotspots/BushSpot/BushCloseup"]
+position = Vector2(210, 213)
+texture = ExtResource("435")
+
+[node name="ShoeSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1100.0
+offset_top = 791.0
+offset_right = 1143.0
+offset_bottom = 848.0
+hotspot_id = "mMl"
+
+[node name="ShoesCloseup" type="Panel" parent="Hotspots/ShoeSpot"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 512.0
+offset_right = 433.0
+offset_bottom = 753.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/ShoeSpot/ShoesCloseup"]
+position = Vector2(214, 119)
+texture = ExtResource("436")
+
+[node name="BraceletSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1105.0
+offset_top = 377.0
+offset_right = 1141.0
+offset_bottom = 418.0
+hotspot_id = "4vY"
+unlocked_item_ref_id = 477
+unlocked_puzzle_segments = [SubResource("Resource_gqbx8")]
+
+[node name="BraceletCloseup" type="Panel" parent="Hotspots/BraceletSpot"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 1363.0
+offset_right = 256.0
+offset_bottom = 1561.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/BraceletSpot/BraceletCloseup"]
+position = Vector2(123, 105)
+texture = ExtResource("438")
+
+[node name="OfficeSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1215.0
+offset_top = 379.0
+offset_right = 1394.0
+offset_bottom = 424.0
+hotspot_id = "Y0K"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("439")
+
+[node name="HeraldSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1280.0
+offset_top = 564.0
+offset_right = 1484.0
+offset_bottom = 738.0
+hotspot_id = "Gmp"
+text = "AVIARY_BIRD_TOOLTIP"
+unlocked_character_ref_id = 77
+
+[node name="Page4Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1352.0
+offset_top = 905.0
+offset_right = 1399.0
+offset_bottom = 940.0
+hotspot_id = "42s"
+unlocked_item_ref_id = 464
+extra_items_unlocked = [SubResource("Resource_v2dew"), SubResource("Resource_3xs4j"), SubResource("Resource_733ul"), SubResource("Resource_83p72"), SubResource("Resource_74i3u")]
+
+[node name="Page4Panel" type="Panel" parent="Hotspots/Page4Spot"]
+layout_mode = 0
+offset_left = 842.0
+offset_top = 1060.0
+offset_right = 1150.0
+offset_bottom = 1594.0
+
+[node name="Sprite2D2" type="Sprite2D" parent="Hotspots/Page4Spot/Page4Panel"]
+position = Vector2(150, 257)
+texture = ExtResource("428")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/Page4Spot/Page4Panel/Sprite2D2"]
+position = Vector2(0, 151)
+texture = ExtResource("440")
+
+[node name="Label2" type="Label" parent="Hotspots/Page4Spot/Page4Panel"]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 22.0
+offset_right = 284.0
+offset_bottom = 385.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "AVIARY_LORY_PAGE_2"
+autowrap_mode = 3
+
+[node name="Label3" type="Label" parent="Hotspots/Page4Spot/Page4Panel"]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 461.0
+offset_right = 260.0
+offset_bottom = 494.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+text = "NUMBER_3"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="Page1Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1499.0
+offset_top = 899.0
+offset_right = 1549.0
+offset_bottom = 948.0
+hotspot_id = "YJU"
+unlocked_item_ref_id = 467
+extra_items_unlocked = [SubResource("Resource_f3s2x")]
+
+[node name="Page1Panel" type="Panel" parent="Hotspots/Page1Spot"]
+layout_mode = 0
+offset_left = 723.0
+offset_top = 431.0
+offset_right = 1022.0
+offset_bottom = 961.0
+
+[node name="Pg1" type="Sprite2D" parent="Hotspots/Page1Spot/Page1Panel"]
+position = Vector2(150, 255)
+texture = ExtResource("431")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/Page1Spot/Page1Panel/Pg1"]
+position = Vector2(64, 173)
+texture = ExtResource("441")
+
+[node name="Label3" type="Label" parent="Hotspots/Page1Spot/Page1Panel"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 26.0
+offset_right = 275.0
+offset_bottom = 365.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "AVIARY_GUIDE_PAGE_1"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="Page2Spot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1719.0
+offset_top = 892.0
+offset_right = 1752.0
+offset_bottom = 933.0
+hotspot_id = "ioF"
+unlocked_item_ref_id = 461
+extra_items_unlocked = [SubResource("Resource_8hkct")]
+
+[node name="Page2Panel" type="Panel" parent="Hotspots/Page2Spot"]
+layout_mode = 0
+offset_left = 496.0
+offset_top = -870.0
+offset_right = 799.0
+offset_bottom = -337.0
+
+[node name="Sprite2D4" type="Sprite2D" parent="Hotspots/Page2Spot/Page2Panel"]
+position = Vector2(151, 259)
+texture = ExtResource("442")
+
+[node name="Label4" type="Label" parent="Hotspots/Page2Spot/Page2Panel"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 33.0
+offset_right = 283.0
+offset_bottom = 360.0
+theme = ExtResource("430")
+theme_override_colors/font_color = Color(0.113725, 0.0627451, 0.27451, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "AVIARY_GUIDE_PAGE_2"
+autowrap_mode = 3
+
+[node name="AstorSpot" parent="Hotspots" instance=ExtResource("425")]
+layout_mode = 1
+offset_left = 1646.0
+offset_top = 304.0
+offset_right = 1856.0
+offset_bottom = 732.0
+hotspot_id = "h6v"
+unlocked_character_ref_id = 66
+unlocked_item_ref_id = 457
+
+[node name="AstorCloseup" parent="Hotspots/AstorSpot" instance=ExtResource("443")]
+layout_mode = 0
+offset_left = 892.0
+offset_top = 216.0
+offset_right = 1827.0
+offset_bottom = 740.0

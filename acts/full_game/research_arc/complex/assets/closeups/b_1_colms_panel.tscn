@@ -1,0 +1,725 @@
+[gd_scene load_steps=74 format=4 uid="uid://c8apymnp3seox"]
+
+[ext_resource type="Texture2D" uid="uid://dg1jr0kl143m8" path="res://acts/full_game/research_arc/complex/assets/closeups/08_b1_colm.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dxx1hu3kiksho" path="res://shared/ui/voice_message_anim/voice_message_anim_00002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bagdqoge7p0mg" path="res://shared/ui/voice_message_anim/voice_message_anim_00003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cni8bdk2v2j4e" path="res://shared/ui/voice_message_anim/voice_message_anim_00004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://csyvilbdr1osj" path="res://shared/ui/voice_message_anim/voice_message_anim_00005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dodocjbp64ccj" path="res://shared/ui/voice_message_anim/voice_message_anim_00006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dv56jinvacc8v" path="res://shared/ui/voice_message_anim/voice_message_anim_00007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bnfmqmgjecl44" path="res://shared/ui/voice_message_anim/voice_message_anim_00008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ysc8dm0l5x7q" path="res://shared/ui/voice_message_anim/voice_message_anim_00009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://rdu4of0uyl06" path="res://shared/ui/voice_message_anim/voice_message_anim_00010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ciptmlrrwk7m7" path="res://shared/ui/voice_message_anim/voice_message_anim_00011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://727yia43tpex" path="res://shared/ui/voice_message_anim/voice_message_anim_00012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://8f4ymq475sd" path="res://shared/ui/voice_message_anim/voice_message_anim_00013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b2e56yvd8vq5k" path="res://shared/ui/voice_message_anim/voice_message_anim_00014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cxx6lqkyneq58" path="res://shared/ui/voice_message_anim/voice_message_anim_00015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://d08vumfmdryvj" path="res://shared/ui/voice_message_anim/voice_message_anim_00016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://0h458m2bi1xh" path="res://shared/ui/voice_message_anim/voice_message_anim_00017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://pd2i3jp667h1" path="res://shared/ui/voice_message_anim/voice_message_anim_00018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cjhad2w42mcvt" path="res://shared/ui/voice_message_anim/voice_message_anim_00019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://lnc236l87fa7" path="res://shared/ui/voice_message_anim/voice_message_anim_00020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dx5g2mekuk402" path="res://shared/ui/voice_message_anim/voice_message_anim_00021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://felvb1ob8lw6" path="res://shared/ui/voice_message_anim/voice_message_anim_00022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cjsms1luuom1f" path="res://shared/ui/voice_message_anim/voice_message_anim_00023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://d1s0umr2npcui" path="res://shared/ui/voice_message_anim/voice_message_anim_00024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bv6a3oomcqu21" path="res://shared/ui/voice_message_anim/voice_message_anim_00025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bx0j6ra2wy8wl" path="res://shared/ui/voice_message_anim/voice_message_anim_00026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bvjpat2ioxos5" path="res://shared/ui/voice_message_anim/voice_message_anim_00027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://d1cw6m5r6phe6" path="res://shared/ui/voice_message_anim/voice_message_anim_00028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://clrdwo8nqwv6h" path="res://shared/ui/voice_message_anim/voice_message_anim_00029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://i2fau01g21xj" path="res://shared/ui/voice_message_anim/voice_message_anim_00030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dtum55xtk5ops" path="res://shared/ui/voice_message_anim/voice_message_anim_00031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://nwn7of6t26cf" path="res://shared/ui/voice_message_anim/voice_message_anim_00032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://j0pdqtymxl8p" path="res://shared/ui/voice_message_anim/voice_message_anim_00033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dssehcfpiash6" path="res://shared/ui/voice_message_anim/voice_message_anim_00034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cvmtu1fto2rbv" path="res://shared/ui/voice_message_anim/voice_message_anim_00035.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://corvigpih3tkw" path="res://shared/ui/voice_message_anim/voice_message_anim_00036.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dwa0jjdxvgovb" path="res://shared/ui/voice_message_anim/voice_message_anim_00037.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dqf6heceyrpfa" path="res://shared/ui/voice_message_anim/voice_message_anim_00038.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dxcmjq8wj6j4v" path="res://shared/ui/voice_message_anim/voice_message_anim_00039.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://baare5p1y33i2" path="res://shared/ui/voice_message_anim/voice_message_anim_00040.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cjwy58chrsyb2" path="res://shared/ui/voice_message_anim/voice_message_anim_00041.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dnyeb1objeccs" path="res://shared/ui/voice_message_anim/voice_message_anim_00042.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://datnqqvo26x8a" path="res://shared/ui/voice_message_anim/voice_message_anim_00043.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dsbls5oby71uv" path="res://shared/ui/voice_message_anim/voice_message_anim_00044.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://c86djkrtkwovx" path="res://shared/ui/voice_message_anim/voice_message_anim_00045.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://no6seixhlsun" path="res://shared/ui/voice_message_anim/voice_message_anim_00046.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://ccck5f5t31ig5" path="res://shared/ui/voice_message_anim/voice_message_anim_00047.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://behwt3kaydtbp" path="res://shared/ui/voice_message_anim/voice_message_anim_00048.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cshi3gwhswkit" path="res://shared/ui/voice_message_anim/voice_message_anim_00049.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://dkn63phkfq01e" path="res://shared/ui/voice_message_anim/voice_message_anim_00050.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://dp10jrd1aypd7" path="res://shared/ui/voice_message_anim/voice_message_anim_00051.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://b5hd177xm6sk6" path="res://shared/ui/voice_message_anim/voice_message_anim_00052.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dv2hcr1nr8wiy" path="res://shared/ui/voice_message_anim/voice_message_anim_00053.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://2ajixuabbwd4" path="res://shared/ui/misc/message_tape.png" id="59"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="60"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="61"]
+[ext_resource type="Texture2D" uid="uid://gacxrkcseosp" path="res://acts/full_game/research_arc/complex/assets/closeups/y_mindboard.png" id="62"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="63"]
+[ext_resource type="Texture2D" uid="uid://h7u5kmyc7qy0" path="res://acts/full_game/research_arc/complex/assets/closeups/y_mindboardstrings.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://d2vpk2n0q2pcd" path="res://acts/full_game/research_arc/complex/assets/y_notebook.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="68"]
+
+[sub_resource type="Resource" id="Resource_mttvx"]
+script = ExtResource("3")
+linked_item_ref_id = 658
+
+[sub_resource type="Resource" id="Resource_7ra1p"]
+script = ExtResource("3")
+linked_item_ref_id = 707
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r156o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_4bhel"]
+script = ExtResource("3")
+linked_item_ref_id = 709
+
+[sub_resource type="Resource" id="Resource_8wipm"]
+script = ExtResource("3")
+linked_item_ref_id = 529
+
+[node name="B1ColmsPanel" type="Panel"]
+offset_left = 1143.0
+offset_top = 831.0
+offset_right = 2062.0
+offset_bottom = 1396.0
+
+[node name="08B1Colms" type="Sprite2D" parent="."]
+position = Vector2(8, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="PhoneSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 88.0
+offset_top = 260.0
+offset_right = -781.0
+offset_bottom = -255.0
+hotspot_id = "4xB"
+unlocked_item_ref_id = 719
+extra_items_unlocked = [SubResource("Resource_mttvx"), SubResource("Resource_7ra1p")]
+
+[node name="PhonePanel" type="Panel" parent="PhoneSpot2"]
+layout_mode = 0
+offset_left = 863.0
+offset_top = 566.0
+offset_right = 1506.0
+offset_bottom = 1074.0
+
+[node name="Message_BG" type="TextureRect" parent="PhoneSpot2/PhonePanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 13.0
+offset_top = 7.0
+offset_right = -10.0
+offset_bottom = -18.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0016687499592080712
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="PhoneSpot2/PhonePanel/Message_BG"]
+modulate = Color(0.53, 0.475145, 0.4081, 1)
+position = Vector2(313.822, 418.971)
+sprite_frames = SubResource("SpriteFrames_r156o")
+autoplay = "default"
+frame_progress = 0.6917009949684143
+
+[node name="MessageTape" type="Sprite2D" parent="PhoneSpot2/PhonePanel/Message_BG"]
+position = Vector2(513.822, 422.971)
+scale = Vector2(0.675676, 0.675676)
+texture = ExtResource("59")
+
+[node name="PhoneMessageText" type="RichTextLabel" parent="PhoneSpot2/PhonePanel"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 29.0
+offset_right = 620.0
+offset_bottom = 367.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("60")
+theme_override_fonts/bold_font = ExtResource("61")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "COMPLEX_LAVONA_PHONE_MESSAGE"
+autowrap_mode = 2
+
+[node name="RedStringsSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 353.0
+offset_top = 180.0
+offset_right = -494.0
+offset_bottom = -335.0
+hotspot_id = "cB1"
+unlocked_item_ref_id = 746
+extra_items_unlocked = [SubResource("Resource_4bhel")]
+
+[node name="RedStringPanel" type="Panel" parent="RedStringsSpot"]
+layout_mode = 0
+offset_left = -385.0
+offset_top = 661.0
+offset_right = 483.0
+offset_bottom = 1192.0
+
+[node name="YMindboard" type="Sprite2D" parent="RedStringsSpot/RedStringPanel"]
+position = Vector2(10, 7)
+texture = ExtResource("62")
+centered = false
+
+[node name="Node2D" type="Node2D" parent="RedStringsSpot/RedStringPanel/YMindboard"]
+position = Vector2(-9, -9)
+scale = Vector2(0.55, 0.55)
+
+[node name="MindBoardText" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 616.0
+offset_top = 262.0
+offset_right = 1017.0
+offset_bottom = 554.0
+rotation = -0.03051760047674179
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.697972, 0.242714, 0.148505, 1)
+theme_override_font_sizes/font_size = 40
+text = "COMPLEX_STRINGBOARD_LABEL_6"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText2" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 1041.8199462890625
+offset_top = 89.0907974243164
+offset_right = 1223.8199462890625
+offset_bottom = 229.09100341796875
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 27
+text = "COMPLEX_STRINGBOARD_LABEL_7"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText3" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 1029.0
+offset_top = 158.0
+offset_right = 1223.0
+offset_bottom = 292.0
+rotation = 0.04501520097255707
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 22
+text = "COMPLEX_STRINGBOARD_LABEL_8"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+uppercase = true
+
+[node name="MindBoardText4" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 1269.0899658203125
+offset_top = 40.0
+offset_right = 1433.0899658203125
+offset_bottom = 183.0
+rotation = 0.03793049976229668
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 28
+text = "COMPLEX_STRINGBOARD_LABEL_9"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText6" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 1040.0
+offset_top = 612.7269897460938
+offset_right = 1304.0
+offset_bottom = 780.7269897460938
+rotation = 0.040449999272823334
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.541013, 0.355864, 0.121936, 1)
+theme_override_font_sizes/font_size = 36
+text = "COMPLEX_STRINGBOARD_LABEL_11"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+uppercase = true
+
+[node name="MindBoardText8" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 243.63600158691406
+offset_top = 676.364013671875
+offset_right = 490.635986328125
+offset_bottom = 789.364013671875
+rotation = -0.08993449807167053
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 25
+text = "COMPLEX_STRINGBOARD_LABEL_5"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText10" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 389.09100341796875
+offset_top = 272.72698974609375
+offset_right = 567.0910034179688
+offset_bottom = 368.72698974609375
+rotation = 0.059341199696063995
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 25
+text = "COMPLEX_STRINGBOARD_LABEL_4"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MindBoardText11" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 204.0
+offset_top = 74.0
+offset_right = 517.0
+offset_bottom = 271.0
+rotation = -0.08726649731397629
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.697972, 0.242714, 0.148505, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_STRINGBOARD_LABEL_3"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText7" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 1218.1800537109375
+offset_top = 832.7269897460938
+offset_right = 1491.1800537109375
+offset_bottom = 929.7269897460938
+rotation = -0.132764995098114
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_STRINGBOARD_LABEL_12"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText5" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 1114.550048828125
+offset_top = 360.0
+offset_right = 1422.550048828125
+offset_bottom = 510.0
+rotation = -0.06698810309171677
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 32
+text = "COMPLEX_STRINGBOARD_LABEL_10"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
+offset_left = 52.72740173339844
+offset_top = 392.72698974609375
+offset_right = 259.72698974609375
+offset_bottom = 610.7269897460938
+rotation = -0.09828119724988937
+
+[node name="MindBoardText9" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 27
+text = "COMPLEX_STRINGBOARD_LABEL_1"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardText12" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("63")
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_STRINGBOARD_LABEL_2"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="MindBoardStrings" type="Sprite2D" parent="RedStringsSpot/RedStringPanel/YMindboard"]
+position = Vector2(-7, -1)
+texture = ExtResource("64")
+centered = false
+
+[node name="DiarySpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 584.0
+offset_top = 361.0
+offset_right = -285.0
+offset_bottom = -154.0
+hotspot_id = "iPT"
+
+[node name="DiaryPanel1" type="Panel" parent="DiarySpot"]
+layout_mode = 0
+offset_left = 422.0
+offset_top = -202.0
+offset_right = 867.0
+offset_bottom = 269.0
+
+[node name="DiarylPlaceholder" type="Sprite2D" parent="DiarySpot/DiaryPanel1"]
+position = Vector2(227, 255)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("65")
+
+[node name="DiaryBookmarkRed" parent="DiarySpot/DiaryPanel1" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 312.0
+offset_top = 125.0
+offset_right = -83.0
+offset_bottom = -296.0
+hotspot_id = "e-G"
+unlocked_item_ref_id = 725
+extra_items_unlocked = [SubResource("Resource_8wipm")]
+
+[node name="DiaryPanel" type="Panel" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed"]
+layout_mode = 0
+offset_left = 369.0
+offset_top = -856.0
+offset_right = 1162.0
+offset_bottom = -295.0
+
+[node name="Sprite2D2" type="TextureRect" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel"]
+modulate = Color(0.800129, 0.746767, 0.66716, 1)
+clip_children = 2
+layout_mode = 0
+offset_left = 13.0
+offset_top = 8.0
+offset_right = 781.0
+offset_bottom = 545.0
+texture = ExtResource("66")
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel/Sprite2D2"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(233, 219)
+rotation = 3.1215500831604004
+texture = ExtResource("67")
+region_enabled = true
+region_rect = Rect2(132.587, 0, 467.413, 380.606)
+
+[node name="Sprite2D2" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel/Sprite2D2"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(323, 529)
+rotation = 0.04605599865317345
+texture = ExtResource("67")
+region_enabled = true
+region_rect = Rect2(132.587, 237.11, 467.413, 143.496)
+
+[node name="Sprite2D3" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel"]
+modulate = Color(0.867511, 0.6341, 0.736408, 1)
+position = Vector2(749, 139)
+texture = ExtResource("68")
+region_enabled = true
+region_rect = Rect2(191.048, 80.4665, 63.4888, 105.408)
+
+[node name="DiaryText" type="RichTextLabel" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 19.0
+offset_right = 740.0
+offset_bottom = 517.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_fonts/normal_font = ExtResource("60")
+theme_override_fonts/bold_font = ExtResource("61")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "COMPLEX_DIARY_1"
+autowrap_mode = 2
+
+[node name="DiaryBookmarkYellow" parent="DiarySpot/DiaryPanel1" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 325.0
+offset_top = 208.0
+offset_right = -70.0
+offset_bottom = -213.0
+hotspot_id = "e-G"
+
+[node name="DiaryPanel2" type="Panel" parent="DiarySpot/DiaryPanel1/DiaryBookmarkYellow"]
+layout_mode = 0
+offset_left = 360.0
+offset_top = -347.0
+offset_right = 1148.0
+offset_bottom = 64.0
+
+[node name="Sprite2D2" type="TextureRect" parent="DiarySpot/DiaryPanel1/DiaryBookmarkYellow/DiaryPanel2"]
+modulate = Color(0.800129, 0.746767, 0.66716, 1)
+clip_children = 2
+layout_mode = 0
+offset_left = 13.0
+offset_top = 8.0
+offset_right = 774.0
+offset_bottom = 395.0
+texture = ExtResource("66")
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkYellow/DiaryPanel2/Sprite2D2"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(426.25, 278)
+scale = Vector2(1.43148, 1)
+texture = ExtResource("67")
+region_enabled = true
+region_rect = Rect2(132.587, 0, 467.413, 380.606)
+
+[node name="Sprite2D3" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkYellow/DiaryPanel2"]
+modulate = Color(0.905882, 0.72549, 0.239216, 1)
+position = Vector2(742, 203)
+rotation = 3.141590118408203
+texture = ExtResource("68")
+region_enabled = true
+region_rect = Rect2(0.727264, 80.4665, 62.3967, 105.408)
+
+[node name="DiaryText2" type="RichTextLabel" parent="DiarySpot/DiaryPanel1/DiaryBookmarkYellow/DiaryPanel2"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 21.0
+offset_right = 730.0
+offset_bottom = 387.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_fonts/normal_font = ExtResource("60")
+theme_override_fonts/bold_font = ExtResource("61")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "COMPLEX_DIARY_2"
+
+[node name="DiaryBookmarkGreen" parent="DiarySpot/DiaryPanel1" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 334.0
+offset_top = 265.0
+offset_right = -61.0
+offset_bottom = -156.0
+hotspot_id = "FZQ"
+
+[node name="DiaryPanel3" type="Panel" parent="DiarySpot/DiaryPanel1/DiaryBookmarkGreen"]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 32.0
+offset_right = 1135.0
+offset_bottom = 477.0
+
+[node name="Sprite2D2" type="TextureRect" parent="DiarySpot/DiaryPanel1/DiaryBookmarkGreen/DiaryPanel3"]
+modulate = Color(0.800129, 0.746767, 0.66716, 1)
+clip_children = 2
+layout_mode = 0
+offset_left = 13.0
+offset_top = 8.0
+offset_right = 762.0
+offset_bottom = 430.0
+texture = ExtResource("66")
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkGreen/DiaryPanel3/Sprite2D2"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(233, 264)
+rotation = 3.1215500831604004
+texture = ExtResource("67")
+region_enabled = true
+region_rect = Rect2(132.587, 0, 467.413, 380.606)
+
+[node name="Sprite2D3" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkGreen/DiaryPanel3"]
+modulate = Color(0.498039, 0.662745, 0.329412, 1)
+position = Vector2(731, 312)
+scale = Vector2(1, -1)
+texture = ExtResource("68")
+region_enabled = true
+region_rect = Rect2(191.048, 80.4665, 63.4888, 105.408)
+
+[node name="DiaryText3" type="RichTextLabel" parent="DiarySpot/DiaryPanel1/DiaryBookmarkGreen/DiaryPanel3"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 17.0
+offset_right = 729.0
+offset_bottom = 419.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_fonts/normal_font = ExtResource("60")
+theme_override_fonts/bold_font = ExtResource("61")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "COMPLEX_DIARY_3"

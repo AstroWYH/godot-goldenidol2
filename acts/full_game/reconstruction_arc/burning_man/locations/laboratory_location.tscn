@@ -1,0 +1,389 @@
+[gd_scene load_steps=42 format=4 uid="uid://brck8l4jefgpx"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://dpdyftjwfmich" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://cpxm3kh7wapid" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://o37yajmmrnb5" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://7myphbii05gk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bfwnigkegkrn1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b6xfmt21ox6li" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cskflw0qpstcs" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_6.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cqjw4ka6k803l" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_7.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dlngayk7mj2ur" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_8.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bx4r1hufu3wej" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_9.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cynaf453nu2pl" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_10.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://djf8ebu1bjjil" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_11.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://drvitbvxdm55d" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_12.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bhpnc4t4gmnxs" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_13.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b8i60hlm84aet" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_14.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b5w45hhbm6uk2" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_15.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dmacs2osonnxe" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_16.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cfpay8yvd67h3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_17.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bex14muqsljpi" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_18.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://2fcdwalgl74w" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_19.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://brf0fiexscreo" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_20.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bnbfj7rtqqa0q" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_21.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://byeht74e74bns" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_22.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bd6r73as0qe0s" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_23.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://212n64qmjkbo" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_24.png" id="26"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="27"]
+[ext_resource type="Resource" uid="uid://cs3qk40s86fm5" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_right_location_meta.tres" id="28"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="29"]
+[ext_resource type="PackedScene" uid="uid://bb7a8jwsirfc" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/posters_panel.tscn" id="30"]
+[ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="31"]
+[ext_resource type="Texture2D" uid="uid://1bvyy17mgtpl" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/pen.png" id="32"]
+[ext_resource type="PackedScene" uid="uid://bqj1iqe37vd07" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/oriel_locker_panel.tscn" id="33"]
+[ext_resource type="PackedScene" uid="uid://hkb058soe7qs" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/marmot_locker_panel.tscn" id="34"]
+[ext_resource type="PackedScene" uid="uid://kh4mcvjbar8m" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/jack_locker_panel.tscn" id="35"]
+[ext_resource type="PackedScene" uid="uid://btw40kov0hhrm" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/westlake_locker_panel.tscn" id="36"]
+[ext_resource type="PackedScene" uid="uid://d1rl5c7u3jpff" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/bin_panel.tscn" id="37"]
+[ext_resource type="PackedScene" uid="uid://d20pes7js3i02" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/janitor_cart_panel.tscn" id="38"]
+[ext_resource type="PackedScene" uid="uid://d3n5742oyc6fj" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/historian_panel.tscn" id="39"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_twedo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_fccw6"]
+script = ExtResource("29")
+linked_item_ref_id = 375
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1404, 555)
+sprite_frames = SubResource("SpriteFrames_twedo")
+autoplay = "default"
+frame_progress = 0.47784799337387085
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ToLabRightSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 1504.0
+offset_top = 245.0
+offset_right = 1579.0
+offset_bottom = 644.0
+hotspot_id = "Ydt"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("28")
+transition = 1
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/ToLabRightSpot" index="0"]
+offset_left = 3.5
+offset_top = 47.0
+offset_right = 3.5
+offset_bottom = 47.0
+
+[node name="Highlighter" parent="Hotspots/ToLabRightSpot/Indicators" index="0"]
+rotation = -1.6344499588012695
+animation = &"location"
+
+[node name="CorkBoardSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 70.0
+offset_top = 371.0
+offset_right = 278.0
+offset_bottom = 510.0
+hotspot_id = "uXm"
+unlocked_item_ref_id = 449
+extra_items_unlocked = [SubResource("Resource_fccw6")]
+
+[node name="PostersPanel" parent="Hotspots/CorkBoardSpot" instance=ExtResource("30")]
+layout_mode = 0
+offset_left = 1121.0
+offset_top = -1476.0
+offset_right = 1951.0
+offset_bottom = -846.0
+
+[node name="BlottingPaperSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 337.0
+offset_top = 622.0
+offset_right = 356.0
+offset_bottom = 636.0
+hotspot_id = "1d6"
+unlocked_character_ref_id = 63
+unlocked_puzzles = [ExtResource("31")]
+
+[node name="Highlighter" parent="Hotspots/BlottingPaperSpot/Indicators" index="0"]
+position = Vector2(4, -13)
+scale = Vector2(0.508065, 0.5)
+
+[node name="FocusIndicator" parent="Hotspots/BlottingPaperSpot/Indicators" index="1"]
+position = Vector2(3, -6)
+
+[node name="BlottingPaperPanel" type="Panel" parent="Hotspots/BlottingPaperSpot"]
+layout_mode = 0
+offset_left = -1116.0
+offset_top = -697.0
+offset_right = -622.0
+offset_bottom = -283.0
+
+[node name="BlottingPaperSprite" type="Sprite2D" parent="Hotspots/BlottingPaperSpot/BlottingPaperPanel"]
+position = Vector2(247, 202)
+texture = ExtResource("32")
+
+[node name="OrielLockerSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 441.0
+offset_top = 314.0
+offset_right = 514.0
+offset_bottom = 587.0
+hotspot_id = "g1p"
+
+[node name="Indicators" parent="Hotspots/OrielLockerSpot" index="0"]
+offset_left = 16.5
+offset_top = 131.0
+offset_right = 16.5
+offset_bottom = 131.0
+
+[node name="Highlighter" parent="Hotspots/OrielLockerSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="OrielLockerPanel" parent="Hotspots/OrielLockerSpot" instance=ExtResource("33")]
+layout_mode = 0
+offset_left = -911.0
+offset_top = -1483.0
+offset_right = -401.0
+offset_bottom = -704.0
+
+[node name="MarmotLockerSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 588.0
+offset_top = 326.0
+offset_right = 636.0
+offset_bottom = 692.0
+hotspot_id = "EMt"
+
+[node name="Indicators" parent="Hotspots/MarmotLockerSpot" index="0"]
+offset_top = 114.0
+offset_bottom = 114.0
+
+[node name="Highlighter" parent="Hotspots/MarmotLockerSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="MarmotLockerPanel" parent="Hotspots/MarmotLockerSpot" instance=ExtResource("34")]
+layout_mode = 0
+offset_left = -1670.0
+offset_top = 1045.0
+offset_right = -1148.0
+offset_bottom = 1815.0
+
+[node name="JackLockerSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 704.0
+offset_top = 313.0
+offset_right = 735.0
+offset_bottom = 584.0
+hotspot_id = "Onc"
+
+[node name="Indicators" parent="Hotspots/JackLockerSpot" index="0"]
+offset_top = 122.0
+offset_bottom = 122.0
+
+[node name="Highlighter" parent="Hotspots/JackLockerSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="JackLockerPanel" parent="Hotspots/JackLockerSpot" instance=ExtResource("35")]
+layout_mode = 0
+offset_left = 1981.0
+offset_top = -962.0
+offset_right = 2510.0
+offset_bottom = -171.0
+
+[node name="WestlakeLockerSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 804.0
+offset_top = 319.0
+offset_right = 844.0
+offset_bottom = 593.0
+hotspot_id = "ufz"
+
+[node name="Indicators" parent="Hotspots/WestlakeLockerSpot" index="0"]
+offset_top = 111.0
+offset_bottom = 111.0
+
+[node name="Highlighter" parent="Hotspots/WestlakeLockerSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="WestlakeLockerPanel" parent="Hotspots/WestlakeLockerSpot" instance=ExtResource("36")]
+layout_mode = 0
+offset_left = 1959.0
+offset_top = 813.0
+offset_right = 2506.0
+offset_bottom = 1618.0
+
+[node name="BinSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 666.0
+offset_top = 760.0
+offset_right = 778.0
+offset_bottom = 966.0
+hotspot_id = "60V"
+unlocked_item_ref_id = 384
+
+[node name="BinPanel" parent="Hotspots/BinSpot" instance=ExtResource("37")]
+layout_mode = 0
+offset_left = 98.0
+offset_top = 765.0
+offset_right = 574.0
+offset_bottom = 1168.0
+
+[node name="HarmonyJunkSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 874.0
+offset_top = 793.0
+offset_right = 1426.0
+offset_bottom = 1016.0
+hotspot_id = "8bq"
+text = "BURNING_STORAGE_TOOLTIP"
+
+[node name="Indicators" parent="Hotspots/HarmonyJunkSpot" index="0"]
+offset_left = 66.0
+offset_top = 55.0
+offset_right = 66.0
+offset_bottom = 55.0
+
+[node name="JanitorCartSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 1159.0
+offset_top = 465.0
+offset_right = 1262.0
+offset_bottom = 648.0
+hotspot_id = "h48"
+
+[node name="Indicators" parent="Hotspots/JanitorCartSpot" index="0"]
+offset_top = 81.0
+offset_bottom = 81.0
+
+[node name="Highlighter" parent="Hotspots/JanitorCartSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="JanitorCartPanel" parent="Hotspots/JanitorCartSpot" instance=ExtResource("38")]
+layout_mode = 0
+offset_left = 1389.0
+offset_top = -84.0
+offset_right = 1944.0
+offset_bottom = 321.0
+
+[node name="HistorianOrielSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 1334.0
+offset_top = 340.0
+offset_right = 1406.0
+offset_bottom = 741.0
+scale = Vector2(1.00456, 1)
+hotspot_id = "Sjo"
+unlocked_character_ref_id = 127
+unlocked_item_ref_id = 372
+
+[node name="Indicators" parent="Hotspots/HistorianOrielSpot" index="0"]
+offset_left = -26.136199951171875
+offset_top = 142.0
+offset_right = -26.136199951171875
+offset_bottom = 142.0
+
+[node name="Highlighter" parent="Hotspots/HistorianOrielSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="HistorianOrielPanel" parent="Hotspots/HistorianOrielSpot" instance=ExtResource("39")]
+layout_mode = 0
+offset_left = 2077.530029296875
+offset_top = -34.0
+offset_right = 2886.530029296875
+offset_bottom = 508.0
+
+[editable path="Hotspots/ToLabRightSpot"]
+[editable path="Hotspots/BlottingPaperSpot"]
+[editable path="Hotspots/OrielLockerSpot"]
+[editable path="Hotspots/MarmotLockerSpot"]
+[editable path="Hotspots/JackLockerSpot"]
+[editable path="Hotspots/WestlakeLockerSpot"]
+[editable path="Hotspots/HarmonyJunkSpot"]
+[editable path="Hotspots/JanitorCartSpot"]
+[editable path="Hotspots/HistorianOrielSpot"]

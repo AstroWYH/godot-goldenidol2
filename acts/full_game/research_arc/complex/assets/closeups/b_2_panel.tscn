@@ -1,0 +1,745 @@
+[gd_scene load_steps=147 format=4 uid="uid://ctdsb76ojw3q"]
+
+[ext_resource type="Texture2D" uid="uid://cbbkkdai36xyc" path="res://acts/full_game/research_arc/complex/assets/closeups/07_b2_knox.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dvf2wm6bwvxyc" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://mk6i77m2gttf" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://g7ck4yjtnejd" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bc5kvsmratcd6" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://clvn47iyeg3fn" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://3xhvvdie8luw" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b6i5sntcset73" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://5v288tqohum7" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cvh0rbqa50v60" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://m85dus428jnj" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://be037xa3lo4ss" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cv705w6pbsy0u" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c0yv5oy4g3ne3" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b0ubfhq4dthct" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://3xbt8bseo862" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://c67ah8vcofsrf" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cxlgxpxd7sypm" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cv8yynqco5yda" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bpwgqtvvaoa05" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ch1n0ib8ilgbh" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dytobf1bf5h7n" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bhdxopuo310vy" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://woda21jnslhf" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://7o0wjsaypk50" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cf64ho5wfmvuc" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dgv2uspi18o3x" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://3sye8w613br0" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dnpffyhgoqkkm" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cctpon530l1b" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://b8656r035q276" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bo5vrbern2e1o" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://t45q2mg755oj" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://qdo6mijuqjcu" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cjfqwq385m6so" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://iy0vw7thf0rg" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bu2nnmkelutwv" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c6luyshi85t38" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://iew4np2tst0f" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bqhr52id5nj4o" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dtt1n6b7lfocg" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://cepp11mfsnqbr" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bbrm21p83ddhs" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://blr6v514fny2n" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://fykxhnl51tq2" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://d2jk6vgdtmebp" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://t51bql4tfgbk" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://dqoa7gxg3gu7c" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bvjgoersqfj68" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00047.png" id="49"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="50"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="51"]
+[ext_resource type="Texture2D" uid="uid://cgvtigfpga2rw" path="res://acts/full_game/research_arc/complex/assets/closeups/wristbandjane.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://buivnr7anhrw0" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_000.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://ce3j3yx5sj7ic" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_001.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://t26080b2befk" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_002.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://c23chfcqy1muy" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_003.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bqnvfx8gh44pb" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_004.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://ctawevtnjf1rg" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_005.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://bpvqin34i34le" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_006.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://drb0ru2nbbc3f" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_007.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://de77myn4xg0ye" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_008.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://b6jxnjhcw7qto" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_009.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://cykk3h43nkay" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_010.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://ckb8kqgln7vam" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_011.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://bshweapkogtgj" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_012.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://ngnkwvxxfb3j" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_013.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://ds5n3ws0rkxnf" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_014.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://cjofe20icw3hd" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_015.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bqj6n2gr7yuat" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_016.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://bpemjwi6cnhe8" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_017.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://bmq0peo3mswrh" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_018.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://dr1v1fuw27msp" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_019.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://cwnitmnkeuw5g" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_020.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://dymkx81j54hkp" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_021.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://m5nq28caq415" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_022.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://btp6h4xd8clk0" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_023.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://tvq56vcsepg" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_024.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://depmlwxw1fyaj" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_025.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://brlk6oggcbw7s" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_026.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cn4l3llc071fw" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_027.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://cs4yyujmn1f82" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_028.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://d1jyael6uj1hl" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_029.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://b3n0obpteg47t" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_030.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://ckdga7uth6v1e" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_031.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://b1jx83solucw0" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_032.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://b2cl34fthvx8c" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_033.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://csjsyqa7sg8pv" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_034.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://7ksy34857ahw" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_035.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://dxtg4rx3dpa3m" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_036.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://mlwba56rdg4e" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_037.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://j0fu5w3sqdu4" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_038.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://bwsin2u81lfpi" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_039.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://bdyog3lqgs2h0" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_040.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://cbnsnro00vbvu" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_041.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://bs1v8xanmnlkp" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_042.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://etqwfp6hf2yv" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_043.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://cucvsk0jc1f3l" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_044.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://bd7hkc80rcmvq" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_045.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://sekxyi62jdw3" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_046.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://cwfdnunwjl8q1" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_047.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://ce4wao5d8gvos" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_048.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://c8mq8ovqb6qde" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_049.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://c7rbn0wf3rg7f" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_050.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://csasa3yuy6ut4" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_051.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://4tvqccoi7vwt" path="res://acts/full_game/research_arc/complex/assets/portraits/jane/x_jane_052.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://xwolxktiswmc" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_wine.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://ckdc20k63c48d" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00000.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://cl61rhpkaglcw" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00001.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://3jsdjeectgve" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00002.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://cwg5tqh4sqcrw" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00003.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://c0410wyvqxm5c" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00004.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://dk4lk2al87y0y" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00005.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://cph688cv4u11w" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00006.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://cpueuqnbmss2q" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00007.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://si24a5n4k0yc" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00008.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://b20sn24213hky" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00009.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://chesxyfg13yg" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00010.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://cvq4u7mb2n1xg" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00011.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://is8y6hve0sdm" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00012.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://bi7m1nb8fyvnc" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00013.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://bnrm8rxl38wed" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00014.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://b2qe2jl3xduee" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00015.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://bixlbqhrc82am" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00016.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://bvy13ue1gp7sy" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00017.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://3xn5vsys6wbe" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00018.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://b514bgkqpelod" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00019.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://dq278j2k3s33x" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00020.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://iq3ag81kcv5p" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00021.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://fo87g0fpeckg" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00022.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://bcl6jh28avtpi" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00023.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://31opiib1sl4s" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00024.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://bgoulhf4jrhkb" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00025.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://cspmlmjdqpiar" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00026.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://cq3y0cnlyf1ai" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00027.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://dpkqvcoga46lr" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00028.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://c6h2tnhdmggns" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00029.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://laembbkbibny" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00030.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://ca2hmnmtw1pmt" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00031.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://cb38n4ph10d0x" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00032.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://dqeasssxk3a7" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00033.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://0ljhf2gvgj6n" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00034.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://brsw6cmnbab47" path="res://acts/full_game/research_arc/complex/assets/portraits/Kai/Kai_00035.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://dndok2x7p0clx" path="res://acts/full_game/research_arc/complex/assets/closeups/y_doorframe.png" id="143"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l6fb7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n63l3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eh8sa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="B2Panel" type="Panel"]
+offset_right = 925.0
+offset_bottom = 609.0
+
+[node name="07B2Knox" type="Sprite2D" parent="."]
+position = Vector2(14, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="Teenagers" type="AnimatedSprite2D" parent="07B2Knox"]
+position = Vector2(299, 278)
+sprite_frames = SubResource("SpriteFrames_l6fb7")
+autoplay = "default"
+frame_progress = 0.42362600564956665
+
+[node name="JaneSpot" parent="." instance=ExtResource("50")]
+layout_mode = 1
+offset_left = 237.0
+offset_top = 240.0
+offset_right = -638.0
+offset_bottom = -319.0
+hotspot_id = "0dA"
+unlocked_character_ref_id = 108
+
+[node name="JanePanel" type="Panel" parent="JaneSpot"]
+layout_mode = 0
+offset_left = 733.0
+offset_top = -540.0
+offset_right = 1544.0
+offset_bottom = -36.0
+
+[node name="JaneSpeech" type="Label" parent="JaneSpot/JanePanel"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 31.0
+offset_right = 717.0
+offset_bottom = 89.0
+theme = ExtResource("51")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_JANE_SPEECH"
+autowrap_mode = 3
+
+[node name="YWristband2" type="Sprite2D" parent="JaneSpot/JanePanel"]
+position = Vector2(656, 328)
+scale = Vector2(0.665429, 0.665429)
+texture = ExtResource("52")
+
+[node name="XJane" type="AnimatedSprite2D" parent="JaneSpot/JanePanel"]
+position = Vector2(198, 286)
+sprite_frames = SubResource("SpriteFrames_n63l3")
+autoplay = "default"
+frame_progress = 0.834551990032196
+
+[node name="YWine" type="Sprite2D" parent="JaneSpot/JanePanel"]
+position = Vector2(496, 259)
+rotation = 0.40985599160194397
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("106")
+
+[node name="WineSpot" parent="JaneSpot/JanePanel" instance=ExtResource("50")]
+layout_mode = 1
+offset_left = 405.0
+offset_top = 155.0
+offset_right = -245.0
+offset_bottom = -162.0
+hotspot_id = "0OF"
+text = "COMPLEX_WINE_TOOLTIP"
+
+[node name="KaiSpot" parent="." instance=ExtResource("50")]
+layout_mode = 1
+offset_left = 381.0
+offset_top = 293.0
+offset_right = -494.0
+offset_bottom = -266.0
+hotspot_id = "qjl"
+unlocked_character_ref_id = 106
+
+[node name="KaiPanel" type="Panel" parent="KaiSpot"]
+layout_mode = 0
+offset_left = 607.0
+offset_top = -73.0
+offset_right = 1199.0
+offset_bottom = 333.0
+
+[node name="KaiSpeech" type="Label" parent="KaiSpot/KaiPanel"]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 37.0
+offset_right = 556.0
+offset_bottom = 104.0
+theme = ExtResource("51")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_KAI_SPEECH"
+autowrap_mode = 3
+
+[node name="Kai" type="AnimatedSprite2D" parent="KaiSpot/KaiPanel"]
+position = Vector2(392, 215)
+sprite_frames = SubResource("SpriteFrames_eh8sa")
+autoplay = "default"
+frame_progress = 0.7302659749984741
+
+[node name="DoorframeSpot" parent="." instance=ExtResource("50")]
+layout_mode = 1
+offset_left = 675.0
+offset_top = 179.0
+offset_right = -185.0
+offset_bottom = -265.0
+hotspot_id = "E-Y"
+unlocked_item_ref_id = 731
+
+[node name="DoorframePanel" type="Panel" parent="DoorframeSpot"]
+layout_mode = 0
+offset_left = 1225.0
+offset_top = -290.0
+offset_right = 1700.0
+offset_bottom = 331.0
+
+[node name="DoorFrame" type="Sprite2D" parent="DoorframeSpot/DoorframePanel"]
+position = Vector2(7, 4)
+texture = ExtResource("143")
+centered = false
+
+[node name="DoorframeText" type="Label" parent="DoorframeSpot/DoorframePanel"]
+layout_mode = 0
+offset_left = -61.0
+offset_top = 222.0
+offset_right = 210.0
+offset_bottom = 289.0
+theme = ExtResource("51")
+theme_override_colors/font_color = Color(0.25098, 0.239216, 0.2, 1)
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_MOM_HEIGHT"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DoorframeSpot/DoorframePanel"]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 295.0
+offset_right = 208.0
+offset_bottom = 444.0
+alignment = 2
+
+[node name="DoorframeText2" type="Label" parent="DoorframeSpot/DoorframePanel/VBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("51")
+theme_override_colors/font_color = Color(0.25098, 0.239216, 0.2, 1)
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_JANE_HEIGHT"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="DoorframeText3" type="Label" parent="DoorframeSpot/DoorframePanel/VBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("51")
+theme_override_colors/font_color = Color(0.25098, 0.239216, 0.2, 1)
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_JANE_HEIGHT_2"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3

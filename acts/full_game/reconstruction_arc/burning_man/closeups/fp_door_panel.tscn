@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://dlh5wtdedc0lq"]
+
+[ext_resource type="Texture2D" uid="uid://m46rtg8bocy7" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/hand.png" id="1"]
+
+[node name="FPDoorPanel" type="Panel"]
+offset_left = -1661.0
+offset_top = 162.0
+offset_right = -1069.0
+offset_bottom = 733.0
+
+[node name="FPDoorSprite" type="Sprite2D" parent="."]
+position = Vector2(295, 282)
+texture = ExtResource("1")

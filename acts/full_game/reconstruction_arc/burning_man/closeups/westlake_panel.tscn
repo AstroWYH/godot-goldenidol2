@@ -1,0 +1,256 @@
+[gd_scene load_steps=54 format=4 uid="uid://ygyjjr1gadbo"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://hgc65mi6cy1y" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d2m616gnpd760" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://rp1k1p5227u8" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c5f5ps7utnvb8" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b8gerblt2biya" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cqcd2nvoc1may" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cfwynrgp6qd0i" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bi4vsa1tuuckf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://craftvpf8jc4u" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://pym1o26l5jnw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c7ubp52mg47pn" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c4h68asn2npoq" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://crp8dw885cd7c" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cyh8v3c0yhk8y" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://hw1qkw4kfqj3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dtc7usfy4sxx0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://1cafs02012gw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dck4gtumrxhuh" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://7x5pxs8nxv8v" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dy2xsxbog1xh5" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c7e4oi1kbi3m4" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bhkdckv6oo5gw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dan5732ea4m8u" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://5dx5paf0hvui" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://vv5poovt0c4" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c4wtwwnerkisy" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cnfpyihfgrxt1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ca5ar0n7011eo" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bndsxkko0hyxr" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bef3vqj18tel6" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bm3ypn25bn3yv" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://buy7iw2ap4aww" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://f1083w3v2rv5" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cvpd2gm0rwqyg" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cqcwt4kxtr0m7" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://qogslobor331" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bks0n8lvl4mg8" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://mjvbwo3hj0cf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://deacfcf02t1e1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://3vpus7sva6dt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dh67y7i2otv6i" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dhdykwy37akny" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://c8d6phonnxby" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cdi5gkdesuqpt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bcqq0hblxxamm" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dlakk8ke6s0a3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bndkvbhoeuuq4" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://ddwqpiw8jhu2d" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://dew2c0e2gf86o" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/badge3.png" id="50"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="51"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="52"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fpdep"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[node name="WestlakePanel" type="Panel"]
+offset_left = -1099.0
+offset_top = 969.0
+offset_right = -287.0
+offset_bottom = 1535.0
+
+[node name="Westlake" type="Label" parent="."]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 22.0
+offset_right = 684.0
+offset_bottom = 181.0
+theme = ExtResource("1")
+text = "BURNING_LAB_MARIE_SPEECH"
+autowrap_mode = 3
+
+[node name="WestlakeSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(570, 337)
+sprite_frames = SubResource("SpriteFrames_fpdep")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame = 15
+frame_progress = 0.26529601216316223
+
+[node name="westlakeCardSprite" type="Sprite2D" parent="."]
+position = Vector2(188, 331)
+texture = ExtResource("50")
+
+[node name="LabelCardW" type="Label" parent="westlakeCardSprite"]
+offset_left = -144.0
+offset_top = 43.0
+offset_right = 154.0
+offset_bottom = 73.0
+theme = ExtResource("51")
+theme_override_colors/font_color = Color(0.168627, 0.235294, 0.196078, 1)
+text = "LAB_CARD_LABEL"
+metadata/_edit_use_anchors_ = true
+
+[node name="LabelLabW" type="Label" parent="westlakeCardSprite"]
+offset_left = -145.0
+offset_top = -78.0
+offset_right = 153.0
+offset_bottom = -13.0
+theme = ExtResource("52")
+theme_override_colors/font_color = Color(0.168627, 0.235294, 0.196078, 1)
+theme_override_font_sizes/font_size = 20
+text = "LAB_CARD"
+autowrap_mode = 3
+metadata/_edit_use_anchors_ = true

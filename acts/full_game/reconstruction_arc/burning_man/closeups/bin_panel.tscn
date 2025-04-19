@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=4 uid="uid://d1rl5c7u3jpff"]
+
+[ext_resource type="Texture2D" uid="uid://c3t3d11x2ux8p" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/trash.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://cvf6y6d7adcol" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/bottlefingerprint.png" id="5"]
+
+[node name="BinPanel" type="Panel"]
+offset_left = -217.0
+offset_top = 607.0
+offset_right = 259.0
+offset_bottom = 1010.0
+
+[node name="BinSprite" type="Sprite2D" parent="."]
+position = Vector2(239, 197)
+texture = ExtResource("1")
+
+[node name="LabelBin" type="Label" parent="BinSprite"]
+offset_left = -99.0
+offset_top = -45.0
+offset_right = 3.0
+offset_bottom = 22.0
+rotation = 0.39116400480270386
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.0823529, 0.0627451, 0.054902, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 14
+text = "BURNING_BIN_WHISKEY_LABEL"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="WhiskySpot" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 102.0
+offset_top = 89.0
+offset_right = -174.0
+offset_bottom = -60.0
+hotspot_id = "H9C"
+unlocked_character_ref_id = 64
+unlocked_puzzles = [ExtResource("4")]
+
+[node name="WhiskyPanel" type="Panel" parent="WhiskySpot"]
+layout_mode = 0
+offset_left = -676.0
+offset_top = -71.0
+offset_right = -165.0
+offset_bottom = 448.0
+
+[node name="WhiskySprite" type="Sprite2D" parent="WhiskySpot/WhiskyPanel"]
+position = Vector2(255, 254)
+texture = ExtResource("5")

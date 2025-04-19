@@ -1,0 +1,826 @@
+[gd_scene load_steps=144 format=4 uid="uid://crh66qe3ahy7t"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://cs3qk40s86fm5" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_right_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://buvc87amucdmx" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bp7wu4ew6jxlf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bl88qtg5hrxfd" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dnml60jmsqx42" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://3y03gpo32w8t" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cad8c3fvw000g" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://wxjcjd5k86ms" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://br8y34r3lt4sx" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://1bqls7mbfyfn" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_1.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bnotao6vqcp66" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_2.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dyhu07mx2t8ub" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_3.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cny0h3unt800x" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_4.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://puyn1qp2uh4i" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_5.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ddbttyqmj4ins" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_6.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d30pmws34x43v" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_7.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cys0wcydip6lu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_8.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bua7ugrucimbu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_9.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://1fgive034xsb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_10.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://2ihj6usfdolv" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_11.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bau4avnuv7bau" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_12.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cu6udl5vt5teh" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_13.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b1x0ssgtjq3ei" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_14.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://jf4xgd80xpv7" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_15.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ct7ogk0e6ooy8" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_16.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://b3s4i70n00i67" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_17.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://5w6x6uvxcqxt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_18.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b2o8o8if8jccj" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_19.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d0yqplqk14ejj" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_20.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cajojca0narhh" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_21.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dp4oyu7wcr142" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_22.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cnyg5cmjdsyt0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_23.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dblatvhfssiyc" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_24.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://favyswieri5h" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_25.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://wb8wbri8kmv5" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_26.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bj8h7kkimbqsw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_27.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://md6nl4v67v3h" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_28.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dwq0wkqekuwud" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_29.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://b6i4epd7rcavb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_30.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://djfsux4bd2k2c" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_31.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bejkuf1wmtjfk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_32.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://ce5kcbd8aai11" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_33.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://c1yscdinyvkv" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_34.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://caqbf6d3mkbtx" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_35.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bvvb3llotqat5" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/woman/ar_woman_36.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dcce87y7rqvkb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00000.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://ptgr3w5aq8du" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00001.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://c3nx1n0lqqicm" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00002.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://blqcjrv0swu5q" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00003.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cj5quu0bobsm0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00004.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bc5bds8nlsaid" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00005.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cp118wgqg4uxk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00006.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bqd7ag7pcjqt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00007.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://brutwha5dxyuy" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00008.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://b86hrqtchkqvp" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00009.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://dojnwx8tcx568" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00010.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://cmcy4g2qk50xs" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00011.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://djquoya5by5ey" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00012.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://cmvh6802bglw1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00013.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://cld4ynbfljfyh" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00014.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bv8fu6l4kelm3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00015.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dcd5rvf2jl7cw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00016.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://brx0d3lv01tk0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00017.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://btylipvi3vpf3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00018.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://biexulor36lqb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00019.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://b4n2xqg3voo1u" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/jacknovak/jack_00020.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://sm5ek7gv67gc" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_1.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://d2um3yjfi7qbf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_2.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://cp5ugi7ec2fc1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_3.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://c4b6kdbvstppf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_4.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://brn6xsrorakwe" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_5.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://ulhdrlapwtdk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_6.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://clxnkmox4d5e1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_7.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://baoyos75u80if" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_8.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://bui8fl5kbp6ea" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_9.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://ty3gfbbe48ya" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_10.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://dsjgk125a0ot" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_11.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://cpc5nr3hr5nw7" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_12.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://5kvj2ni72sm2" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_13.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://c25lhqasn8nmf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_14.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://ctxxgkjd18e12" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_15.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://vr6nkatk8d2w" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_16.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://ch24jtenvie63" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_17.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://40f4qpvg5ukk" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_18.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://b3kg36da76pjt" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_19.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://dd5g7ejeths0f" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_20.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://y3s1hyqvf7u6" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_21.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://cgfave1jh17ri" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_22.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://c53xlqeyvrof1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_23.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://cwwdqteut5yuj" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/man/ar_man_24.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://br185vom08ktj" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00000.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://f2j0a0b8cd2e" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00001.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://bxkig0v6cmlgi" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00002.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://bxaxhyafmi3dl" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00003.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://x2e7i33a8ggs" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00004.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://c6drdj5yw27vb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00005.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://ddbkuulshngii" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00006.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://b5nyn1y42gm4n" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00007.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://dyoh36aqtst6r" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00008.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://bphhxbh32uiwm" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00009.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://bk2y5tclporgv" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00010.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bkf5c60nnipyv" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00011.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://b0bt5xtero1b1" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00012.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://b0vdaouwrvwvs" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00013.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://cipsb75xfiesc" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00014.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://br40p33kdhsb6" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00015.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://cdg7fw7mtwums" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00016.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://bib5wuwudowgy" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00017.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://cmcqfxxxhlclu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00018.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://b6qgda2oup52m" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00019.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://dvwltgpb8f80c" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00020.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://buooig0hxna7" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00021.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://c4kmj3dlhc6ru" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00022.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://dq3t65050x6hb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00023.png" id="115"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="116"]
+[ext_resource type="Resource" uid="uid://dpdyftjwfmich" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_location_meta.tres" id="117"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="118"]
+[ext_resource type="PackedScene" uid="uid://2234xn41xj7b" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/nathan_panel.tscn" id="119"]
+[ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="120"]
+[ext_resource type="PackedScene" uid="uid://dlh5wtdedc0lq" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/fp_door_panel.tscn" id="121"]
+[ext_resource type="Resource" uid="uid://qup4revhx7eg" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/new_device_puzzle_meta.tres" id="122"]
+[ext_resource type="PackedScene" uid="uid://cjnbk76k5r3vy" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/device_panel.tscn" id="123"]
+[ext_resource type="PackedScene" uid="uid://2rm1ngm4hbl2" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/jack_panel.tscn" id="124"]
+[ext_resource type="PackedScene" uid="uid://ngfhbmvq4ril" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/work_notes_panel.tscn" id="125"]
+[ext_resource type="PackedScene" uid="uid://dj51mn6s2fjk2" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/marmot_panel.tscn" id="126"]
+[ext_resource type="PackedScene" uid="uid://dmuuj8tbpnsdv" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/flask_panel.tscn" id="127"]
+[ext_resource type="PackedScene" uid="uid://cawv44ptyxgii" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/spender_panel.tscn" id="128"]
+[ext_resource type="PackedScene" uid="uid://ygyjjr1gadbo" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/westlake_panel.tscn" id="129"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d1ylt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pqpi6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_70xht"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_omsia"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_urw2x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_ad83c"]
+script = ExtResource("118")
+linked_item_ref_id = 189
+
+[sub_resource type="Resource" id="Resource_wf8p2"]
+script = ExtResource("118")
+linked_item_ref_id = 401
+
+[sub_resource type="Resource" id="Resource_3jv6b"]
+script = ExtResource("118")
+linked_item_ref_id = 380
+
+[sub_resource type="Resource" id="Resource_261ls"]
+script = ExtResource("118")
+linked_item_ref_id = 82
+
+[sub_resource type="Resource" id="Resource_lntj7"]
+script = ExtResource("118")
+linked_item_ref_id = 369
+
+[sub_resource type="Resource" id="Resource_jddw4"]
+script = ExtResource("118")
+linked_item_ref_id = 388
+
+[sub_resource type="Resource" id="Resource_wafba"]
+script = ExtResource("118")
+linked_item_ref_id = 397
+
+[sub_resource type="Resource" id="Resource_ldgwu"]
+script = ExtResource("118")
+linked_item_ref_id = 378
+
+[sub_resource type="Resource" id="Resource_d8xvj"]
+script = ExtResource("118")
+linked_item_ref_id = 372
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(997, 322)
+sprite_frames = SubResource("SpriteFrames_d1ylt")
+autoplay = "default"
+frame_progress = 0.4369269907474518
+centered = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1816, 772)
+sprite_frames = SubResource("SpriteFrames_pqpi6")
+autoplay = "default"
+frame_progress = 0.5176939964294434
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+position = Vector2(907, 494)
+sprite_frames = SubResource("SpriteFrames_70xht")
+autoplay = "default"
+frame = 12
+frame_progress = 0.5500320196151733
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(1400, 828)
+sprite_frames = SubResource("SpriteFrames_omsia")
+autoplay = "default"
+frame_progress = 0.29891300201416016
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(410, 776)
+sprite_frames = SubResource("SpriteFrames_urw2x")
+autoplay = "default"
+frame = 20
+frame_progress = 0.6022779941558838
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ToEntrywaySpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 1.0
+offset_top = 351.0
+offset_right = 94.0
+offset_bottom = 1037.0
+hotspot_id = "Rtd"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("117")
+transition = 2
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/ToEntrywaySpot" index="0"]
+offset_left = -6.5
+offset_top = 310.0
+offset_right = -6.5
+offset_bottom = 310.0
+
+[node name="Highlighter" parent="Hotspots/ToEntrywaySpot/Indicators" index="0"]
+rotation = 1.5556299686431885
+animation = &"location"
+
+[node name="NathanSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 252.0
+offset_top = 310.0
+offset_right = 443.0
+offset_bottom = 1185.0
+hotspot_id = "Aib"
+unlocked_character_ref_id = 43
+unlocked_item_ref_id = 191
+extra_items_unlocked = [SubResource("Resource_ad83c"), SubResource("Resource_wf8p2")]
+
+[node name="Indicators" parent="Hotspots/NathanSpot" index="0"]
+offset_left = -18.5
+offset_top = 29.0
+offset_right = -18.5
+offset_bottom = 29.0
+
+[node name="Highlighter" parent="Hotspots/NathanSpot/Indicators" index="0"]
+modulate = Color(0.0745098, 0.160784, 0.184314, 1)
+
+[node name="NathanPanel" parent="Hotspots/NathanSpot" instance=ExtResource("119")]
+layout_mode = 0
+offset_left = -1226.0
+offset_top = -435.0
+offset_right = -575.0
+offset_bottom = 75.0
+
+[node name="FPDoorSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 150.0
+offset_top = 420.0
+offset_right = 181.0
+offset_bottom = 518.0
+hotspot_id = "3xL"
+unlocked_character_ref_id = 60
+unlocked_puzzles = [ExtResource("120")]
+
+[node name="FPDoorPanel" parent="Hotspots/FPDoorSpot" instance=ExtResource("121")]
+layout_mode = 0
+offset_left = -1343.0
+offset_top = 310.0
+offset_right = -752.0
+offset_bottom = 881.0
+
+[node name="DeviceSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 550.0
+offset_top = 227.0
+offset_right = 761.0
+offset_bottom = 391.0
+hotspot_id = "mG4"
+unlocked_item_ref_id = 379
+extra_items_unlocked = [SubResource("Resource_3jv6b")]
+unlocked_puzzles = [ExtResource("122")]
+
+[node name="Indicators" parent="Hotspots/DeviceSpot" index="0"]
+offset_left = 17.5
+offset_top = 37.0
+offset_right = 17.5
+offset_bottom = 37.0
+
+[node name="Highlighter" parent="Hotspots/DeviceSpot/Indicators" index="0"]
+modulate = Color(0.0666667, 0.14902, 0.172549, 1)
+
+[node name="DevicePanel" parent="Hotspots/DeviceSpot" instance=ExtResource("123")]
+layout_mode = 0
+offset_left = 3464.0
+offset_top = -638.0
+offset_right = 4221.0
+offset_bottom = 192.0
+
+[node name="JackSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 827.0
+offset_top = 270.0
+offset_right = 963.0
+offset_bottom = 727.0
+hotspot_id = "J0k"
+unlocked_character_ref_id = 128
+unlocked_item_ref_id = 372
+
+[node name="Indicators" parent="Hotspots/JackSpot" index="0"]
+offset_left = 1.0
+offset_top = 59.0
+offset_right = 1.0
+offset_bottom = 59.0
+
+[node name="Highlighter" parent="Hotspots/JackSpot/Indicators" index="0"]
+modulate = Color(0.0588235, 0.141176, 0.164706, 1)
+
+[node name="JackPanel" parent="Hotspots/JackSpot" instance=ExtResource("124")]
+layout_mode = 0
+offset_left = -182.0
+offset_top = -1297.0
+offset_right = 618.0
+offset_bottom = -702.0
+
+[node name="WorkNotesSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 935.0
+offset_top = 162.0
+offset_right = 983.0
+offset_bottom = 192.0
+hotspot_id = "dvn"
+unlocked_item_ref_id = 280
+extra_items_unlocked = [SubResource("Resource_261ls"), SubResource("Resource_lntj7"), SubResource("Resource_jddw4"), SubResource("Resource_wafba"), SubResource("Resource_ldgwu")]
+
+[node name="Highlighter" parent="Hotspots/WorkNotesSpot/Indicators" index="0"]
+modulate = Color(0.0745098, 0.160784, 0.184314, 1)
+
+[node name="WorkNotesPanel" parent="Hotspots/WorkNotesSpot" instance=ExtResource("125")]
+layout_mode = 0
+offset_left = -2004.0
+offset_top = -1380.0
+offset_right = -1058.0
+offset_bottom = -657.0
+
+[node name="MarmotSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 1120.0
+offset_top = 286.0
+offset_right = 1242.0
+offset_bottom = 671.0
+hotspot_id = "J_M"
+unlocked_character_ref_id = 44
+unlocked_item_ref_id = 156
+
+[node name="Indicators" parent="Hotspots/MarmotSpot" index="0"]
+offset_left = 58.0
+offset_top = 37.0
+offset_right = 58.0
+offset_bottom = 37.0
+
+[node name="MarmotPanel" parent="Hotspots/MarmotSpot" instance=ExtResource("126")]
+layout_mode = 0
+offset_left = 1080.0
+offset_top = -1215.0
+offset_right = 1767.0
+offset_bottom = -686.0
+
+[node name="FlaskSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 1170.0
+offset_top = 128.0
+offset_right = 1195.0
+offset_bottom = 170.0
+hotspot_id = "f1X"
+unlocked_character_ref_id = 59
+unlocked_puzzles = [ExtResource("120")]
+
+[node name="Highlighter" parent="Hotspots/FlaskSpot/Indicators" index="0"]
+modulate = Color(0.0980392, 0.227451, 0.278431, 1)
+
+[node name="FlaskPanel" parent="Hotspots/FlaskSpot" instance=ExtResource("127")]
+layout_mode = 0
+offset_left = 1322.0
+offset_top = 171.0
+offset_right = 1804.0
+offset_bottom = 750.0
+
+[node name="SpenderSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 1342.0
+offset_top = 353.0
+offset_right = 1573.0
+offset_bottom = 1046.0
+hotspot_id = "SLL"
+unlocked_character_ref_id = 28
+unlocked_item_ref_id = 385
+
+[node name="Indicators" parent="Hotspots/SpenderSpot" index="0"]
+offset_left = 10.5
+offset_top = 32.0
+offset_right = 10.5
+offset_bottom = 32.0
+
+[node name="SpenderPanel" parent="Hotspots/SpenderSpot" instance=ExtResource("128")]
+layout_mode = 0
+offset_left = 1076.0
+offset_top = 795.0
+offset_right = 1832.0
+offset_bottom = 1340.0
+
+[node name="WestlakeSpot" parent="Hotspots" instance=ExtResource("116")]
+layout_mode = 1
+offset_left = 1704.0
+offset_top = 344.0
+offset_right = 1872.0
+offset_bottom = 1056.0
+hotspot_id = "yNh"
+unlocked_character_ref_id = 29
+unlocked_item_ref_id = 398
+extra_items_unlocked = [SubResource("Resource_d8xvj")]
+
+[node name="Highlighter" parent="Hotspots/WestlakeSpot/Indicators" index="0"]
+scale = Vector2(0.508065, 0.5)
+
+[node name="WestlakePanel" parent="Hotspots/WestlakeSpot" instance=ExtResource("129")]
+layout_mode = 0
+offset_left = 1732.0
+offset_top = 399.0
+offset_right = 2544.0
+offset_bottom = 965.0
+
+[editable path="Hotspots/ToEntrywaySpot"]
+[editable path="Hotspots/NathanSpot"]
+[editable path="Hotspots/DeviceSpot"]
+[editable path="Hotspots/JackSpot"]
+[editable path="Hotspots/WorkNotesSpot"]
+[editable path="Hotspots/MarmotSpot"]
+[editable path="Hotspots/FlaskSpot"]
+[editable path="Hotspots/SpenderSpot"]
+[editable path="Hotspots/WestlakeSpot"]

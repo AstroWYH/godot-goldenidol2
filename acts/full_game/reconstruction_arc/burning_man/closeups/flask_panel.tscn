@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://dmuuj8tbpnsdv"]
+
+[ext_resource type="Texture2D" uid="uid://b6fqrdvrojuqp" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/burka-export.png" id="1"]
+
+[node name="FlaskPanel" type="Panel"]
+offset_left = 1049.0
+offset_top = -136.0
+offset_right = 1531.0
+offset_bottom = 443.0
+
+[node name="FlaskSprite" type="Sprite2D" parent="."]
+position = Vector2(257, 276)
+texture = ExtResource("1")

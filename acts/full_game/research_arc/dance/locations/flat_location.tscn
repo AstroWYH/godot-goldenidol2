@@ -1,0 +1,565 @@
+[gd_scene load_steps=125 format=4 uid="uid://03himo2c23la"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://cc2x2k0r8j8s3" path="res://acts/full_game/research_arc/dance/locations/flat_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://dkq4aaari5sc8" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d18dodp5jo0fm" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c1n0trnlcvyk2" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bg43h1drqgcij" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b7njftkf366bt" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://be25124xkt5x5" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bm3x6b5f8l3ky" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ctnxmx4ehgwts" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dwtx83hpvsrae" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://da6yiigv6ys6j" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dgee4bg8jk1w5" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://chbkh2fcm4wfi" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://qv8hb1xnqwac" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://wk4b4em121ly" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ddwgkqs61cw7g" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://di5kpfa4nwavm" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bwhmybtgykg77" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://t6l61jt124mt" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://tvt5jhsv1cq5" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://8ksuxsvi4c67" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://ch8kkfpmetgyk" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ce1t8om0bpgdb" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bcbp177ow5no8" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bjkbxwu0md72a" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c3ch7nvetrijc" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://juglvh4ku4l5" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://177ij8mel1hy" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://c4ibrys2pklba" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://b0f056x75yp1i" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cpl7gv4uy3tsr" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dxpa8uxxyba27" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_030.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cwrl4w7ijp78j" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_031.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dr8huj4oau6d0" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_032.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://da52tkbe0818m" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_033.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://cv4lhbrr680a0" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_034.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://citkmdien6axg" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_035.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://b8vlo4iesf5xe" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_036.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dwmqboihu14ds" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_037.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bvsqsc27akrtu" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_038.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c3cx2qnx36nrt" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_039.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://l1mmyro1ctgy" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_040.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dcwq7v8tfuf3k" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_041.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://b00wok2mau5dt" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_042.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cf8bdmblg18lw" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_043.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://ctptih21i486l" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_044.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cxo3yad1835jg" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_000.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cfemd1xx1bnx0" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_001.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bbb3gn6vu48hh" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_002.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://iqiy0xbv6ftf" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_003.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://0ierovga28" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_004.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://c5whbbosxoe7m" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_005.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://dmn660v8et6po" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_006.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://brqggi8mdj3wu" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_007.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bffd14y16vilq" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_008.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://dmetqu1dnn6q2" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_009.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://cbyd7vrp7njpo" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_010.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://chate1s3twlw8" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_011.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://3aedebjmrjl2" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_012.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://cbupwguavxggr" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_013.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bdwv5hghlvcyq" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_014.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://bumcb4e5myeml" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_015.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://byuhwc170nq88" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_016.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://byrwomj40lpfl" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_017.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cjakmmv6g50dh" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_018.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://kc5tikstfv8n" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_019.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://c2qoxoyj80fag" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_020.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bskowmhjqww45" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_021.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://ba8lvkwt7io5j" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_022.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://tq5wi3sqy3s8" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_023.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://iryuag2gl6y4" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_024.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://5pdgxn3ac51d" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_025.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://by1cw7ft7flfl" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_026.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://6m3gmm4el2i7" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_027.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://d3l1qwsgawv54" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_028.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://d2lhx2k4rgjno" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_029.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://bj6o4ee01svh5" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_030.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://dyaufp2f2x8sg" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_031.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://d3hhhh18bgjse" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_032.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://fvy21jphdtsa" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_033.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://canejos88gtid" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_034.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://bm1ppod2a2a6n" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_035.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://ccmii0uj6qm5q" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_036.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://b5ykb8x213xdw" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_037.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://c6jsrc6dvo67v" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_038.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://baqdacstx0wwu" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_039.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dsqxad72rw4us" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_040.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://b4yggu5w0c6yb" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_041.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bd14ws2isk4a2" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_042.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://8j5txbhes5ja" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_043.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://dc65vs1sa8cqt" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_044.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://cwab7fqfo8e3g" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_045.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://cbq6ft8i6a5lv" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_046.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://ntyo3tr1adk2" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_047.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://bjrrxqqph4ljn" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_048.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://cnsg1qsgh4cmi" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_049.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://cfacjr75xq8i0" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_050.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://dy8twrau8n3u3" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_051.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://jos62s18ogm0" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_052.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://bul5ioxixpua1" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_053.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cjq3sc28mv6cx" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_054.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://cktr3765apkp1" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_055.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://dfvmn5vwojigx" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_056.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://ccvydwkng02ja" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_057.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://l5vi2rva1wjj" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_058.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://dlet0b30igluo" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_059.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://bg845x5k1317v" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_060.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://bvhg2473wmjft" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_061.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://btggumhxqda1h" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_062.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://bxlg4cm3dgmri" path="res://acts/full_game/research_arc/dance/assets/animations/dancesmall/dancesmall_063.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://dgcqbvdqruwp2" path="res://acts/full_game/research_arc/dance/assets/animations/magnetophone/frame0000.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://djpxmnt1tv4th" path="res://acts/full_game/research_arc/dance/assets/animations/magnetophone/frame0001.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://bj4mg1a3d4d3d" path="res://acts/full_game/research_arc/dance/assets/animations/magnetophone/frame0002.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://b0l0idjfki82o" path="res://acts/full_game/research_arc/dance/assets/animations/magnetophone/frame0003.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://nwwbr8004swn" path="res://acts/full_game/research_arc/dance/assets/animations/magnetophone/frame0004.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://c6oyede235yv4" path="res://acts/full_game/research_arc/dance/assets/animations/magnetophone/frame0005.png" id="117"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="118"]
+[ext_resource type="PackedScene" uid="uid://do3pna7urcqkl" path="res://acts/full_game/research_arc/dance/assets/closeups/tv_panel.tscn" id="119"]
+[ext_resource type="PackedScene" uid="uid://ch8cjuwim5bf8" path="res://acts/full_game/research_arc/dance/assets/closeups/book_panel.tscn" id="120"]
+[ext_resource type="PackedScene" uid="uid://befuk2nr6fvdq" path="res://acts/full_game/research_arc/dance/assets/closeups/moumaati_panel.tscn" id="121"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xk57c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_68abs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yw8nf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSpriteMoumaati" type="AnimatedSprite2D" parent="."]
+position = Vector2(1293, 662)
+sprite_frames = SubResource("SpriteFrames_xk57c")
+autoplay = "default"
+frame_progress = 0.9418110251426697
+
+[node name="AnimatedSpriteTV" type="AnimatedSprite2D" parent="."]
+position = Vector2(329, 553)
+sprite_frames = SubResource("SpriteFrames_68abs")
+autoplay = "default"
+frame_progress = 0.5518860220909119
+
+[node name="AnimatedSpriteSound" type="AnimatedSprite2D" parent="."]
+position = Vector2(683, 435)
+sprite_frames = SubResource("SpriteFrames_yw8nf")
+autoplay = "default"
+frame_progress = 0.486175000667572
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TVSpot" parent="Hotspots" instance=ExtResource("118")]
+layout_mode = 1
+offset_left = 190.0
+offset_top = 352.0
+offset_right = 459.0
+offset_bottom = 644.0
+hotspot_id = "dLt"
+
+[node name="TVPanel" parent="Hotspots/TVSpot" instance=ExtResource("119")]
+layout_mode = 0
+offset_left = -1464.0
+offset_top = 18.0
+offset_right = -714.0
+offset_bottom = 594.0
+
+[node name="BookSpot" parent="Hotspots" instance=ExtResource("118")]
+layout_mode = 1
+offset_left = 953.0
+offset_top = 695.0
+offset_right = 1132.0
+offset_bottom = 794.0
+hotspot_id = "-E7"
+
+[node name="BookPanel" parent="Hotspots/BookSpot" instance=ExtResource("120")]
+layout_mode = 0
+offset_left = 1382.0
+offset_top = 64.0
+offset_right = 1954.0
+offset_bottom = 778.0
+
+[node name="MoumaatiSpot" parent="Hotspots" instance=ExtResource("118")]
+layout_mode = 1
+offset_left = 1185.0
+offset_top = 362.0
+offset_right = 1394.0
+offset_bottom = 590.0
+hotspot_id = "D9u"
+
+[node name="MoumaatiPanel" parent="Hotspots/MoumaatiSpot" instance=ExtResource("121")]
+layout_mode = 0
+offset_left = 1282.0
+offset_top = -683.0
+offset_right = 2053.0
+offset_bottom = -191.0

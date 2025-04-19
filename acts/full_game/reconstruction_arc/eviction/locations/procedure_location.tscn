@@ -1,0 +1,731 @@
+[gd_scene load_steps=146 format=4 uid="uid://b5dppcjmp5d8l"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://glvb4ru0fxk2" path="res://acts/full_game/reconstruction_arc/eviction/locations/procedure_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://7wi1eiytlcb0" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dlt2llkdli0ol" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cqelyuge37f83" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://joiw5ykgpucv" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bjln4ntt1174b" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cjnmq7v6tdcdx" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c4be6ad2x33vu" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://700xkejs8knw" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cy3shehbsfavp" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dfp7rqak7sy32" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dhim1kqifcp4u" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cha3nbthh244h" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dgi64ay4sasl1" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bmonidpdytnrd" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://c5resxxtsnvnj" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d0c8waxh6f85w" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dnpatthoerrvv" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://qlfn386jmnc3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bwgtni8vy6jsy" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dyb6cbnvvimqs" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://brkkvhf8c56jc" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bf1eb24ofmsmv" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://clxguef6xixy1" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ctsn8cpofcp21" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bup6i5m8a1dx1" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dku2kxyag1xuu" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://chfn8p32a6at2" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://t2mds84roayg" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://csx57tc87urn4" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://buvdde86qe4s5" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bnipoan2kwi5o" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00030.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c7icjdmte7c3a" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00031.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bc6s21w1hjyq7" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00032.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c5hoouwwamqu4" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00033.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://becuhwep7nlqa" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00034.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bg00shcougmq0" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00035.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://k1oryh7csm28" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_000.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ca5b6arlpynor" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_001.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dgsxe7o6vuhoq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_002.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bj2q15clfhns3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_003.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://du1g77qfpfhcy" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_004.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://df21mumlyvxp7" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_005.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://do1bqli0mk6d3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_006.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cw2qvjswq636w" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_007.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dj6an8a8xivdi" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_008.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cwmqq74lpuq2v" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_009.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bvsfjpagf6qvn" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_010.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bkt2erh8vydm8" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_011.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://dgcjumo2xsupa" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_012.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://c2ickqok72wjw" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_013.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://jqodbvi6uulm" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_014.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bw5hijxusjk8i" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_015.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://dpq7o0if2j6fx" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_016.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://cskrncidj0eek" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_017.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://cwul80hbiil0t" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_018.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://bpb0nyhvnrsux" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_019.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://lxdldt66l7xl" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_020.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://d3d4i7cgch3jq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_021.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://co8q0fk2qn7j1" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_022.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://sbcsokxfu0eu" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_023.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://cgldlf4d45q3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_024.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://dk7g0yqvj07je" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_025.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dwgpi263hxhp3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_026.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://c5r0yasd2jik7" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_027.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://by804mf2skgnj" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_028.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://c5qteermvxgqh" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_029.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://c4higyb4a77s" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_030.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://d1p8uycjthgab" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_031.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://ce1gi67jvs454" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_032.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://qh7oqsqmxx03" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_033.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dvam1ir61452n" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_034.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://conr1pyi5sbtq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_035.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://bfton1if0vqmw" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_036.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://ddu8dbo3ns3i8" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_037.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://ductbg3xd6uw5" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_038.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://cn8c016w8cal1" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_039.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://wg6smjfy1rij" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_040.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://d318nhfw1w8pm" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_041.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://bm40um65efepx" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/woman/woman_042.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://dss3dpcnshjyy" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_1.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://bacwfi0hmxmtd" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_2.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://efhcwabndi2m" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_3.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://cuudp72qvb2fl" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_4.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://cvpo0gdgswttk" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_5.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://byfwll8kk3har" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_6.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dsto6yl8di064" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_7.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://t7j5ldytv8sr" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_8.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bnde8gkltv0un" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_9.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://b44hnl07a4umg" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_10.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://byoep1ged2tif" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_11.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://b2bnpvvd0msu3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_12.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://c5qgr6uibum8c" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_13.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://ds1feojlycwh4" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_14.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://d2jocghody82n" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_15.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bbx20jxlbjlxo" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_16.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://b1ooenwx4oh4e" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_17.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://rl5w877nrs2b" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_18.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://b6lusgrh0mwdl" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_19.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://cg7t6mpquqq0e" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_20.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cpppljpceg61f" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_21.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://dqdnsfgenrwxq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_22.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://d1hr82kul1gq6" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_23.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://byih7jis0lwu1" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_24.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://di4ihyjimdtbl" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_25.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://djlj2n26ix4r4" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_26.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://df475dsj34x0k" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_27.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://cx0is7wcfyr17" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_28.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://cvnpfs1ke2s8" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_29.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://dcwtwwwut5srw" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_30.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://dsymjaops8it2" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_31.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://boibgjsjdl24a" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_32.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://c1c6mkqeqvcpo" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_33.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://dxrr7r1hgadf7" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_34.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://dv20gm8tvwlcn" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_35.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://ckrwad0urb7t8" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_36.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://b38mdcbns1ts5" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_37.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://bdnj0vwmb1uxv" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_38.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://ccurwmj5xc3dq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_39.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://cg056qody63cp" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_40.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://cjgs5n6ve52vq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_41.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://43nxp6pbt5u4" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_42.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://btuvo2smf7o7c" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_43.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://cmftpo7ondkv3" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_44.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://bbakw3hatc512" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_45.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://gf181nfk7by" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_46.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://bu0s2110ej618" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_47.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://byr3cdd0fgnmg" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_48.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://bokvaa1va3ss4" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_49.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://de5c20oedmf2d" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/tasered/tasered_50.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://oar3mp2gmjet" path="res://acts/full_game/reconstruction_arc/eviction/assets/light.png" id="132"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="133"]
+[ext_resource type="Resource" uid="uid://07ml3up4ixkc" path="res://acts/full_game/reconstruction_arc/eviction/locations/collectors_location_meta.tres" id="134"]
+[ext_resource type="PackedScene" uid="uid://dnxuacfaeiu6x" path="res://acts/full_game/reconstruction_arc/eviction/closeups/plaque_panel2.tscn" id="135"]
+[ext_resource type="PackedScene" uid="uid://i3fntucv1qak" path="res://acts/full_game/reconstruction_arc/eviction/closeups/security_stabbed_panel.tscn" id="136"]
+[ext_resource type="PackedScene" uid="uid://b7yepidwnlqvx" path="res://acts/full_game/reconstruction_arc/eviction/closeups/security_tending_panel.tscn" id="137"]
+[ext_resource type="PackedScene" uid="uid://dqyn7xtpy45r8" path="res://acts/full_game/reconstruction_arc/eviction/closeups/tag_panel2.tscn" id="138"]
+[ext_resource type="PackedScene" uid="uid://dus7kk5wf76dj" path="res://acts/full_game/reconstruction_arc/eviction/closeups/cousin_panel.tscn" id="139"]
+[ext_resource type="PackedScene" uid="uid://bd2ucnrgt4gvr" path="res://acts/full_game/reconstruction_arc/eviction/closeups/charlie_panel.tscn" id="140"]
+[ext_resource type="PackedScene" uid="uid://b75hjwu75rhyy" path="res://acts/full_game/reconstruction_arc/eviction/closeups/machine_panel.tscn" id="141"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2kh2v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ghico"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cnp3a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ik57x"]
+blend_mode = 1
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Guards" type="AnimatedSprite2D" parent="."]
+position = Vector2(470, 660)
+sprite_frames = SubResource("SpriteFrames_2kh2v")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.8835520148277283
+
+[node name="Charlie" type="AnimatedSprite2D" parent="."]
+position = Vector2(1398, 572)
+sprite_frames = SubResource("SpriteFrames_ghico")
+autoplay = "default"
+frame_progress = 0.5794209837913513
+
+[node name="Chair" type="AnimatedSprite2D" parent="."]
+position = Vector2(1124, 680)
+sprite_frames = SubResource("SpriteFrames_cnp3a")
+autoplay = "default"
+frame_progress = 0.4618780016899109
+
+[node name="Light" type="Sprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_ik57x")
+position = Vector2(1272, 396)
+texture = ExtResource("132")
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ToCollectorSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 14.0
+offset_top = 505.0
+offset_right = 140.0
+offset_bottom = 1016.0
+hotspot_id = "3JF"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("134")
+transition = 2
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/ToCollectorSpot" index="0"]
+offset_left = -49.0
+offset_top = 292.0
+offset_right = -49.0
+offset_bottom = 292.0
+
+[node name="Highlighter" parent="Hotspots/ToCollectorSpot/Indicators" index="0"]
+rotation = 1.5454800128936768
+
+[node name="FocusIndicator" parent="Hotspots/ToCollectorSpot/Indicators" index="1"]
+scale = Vector2(0.873872, 0.970018)
+
+[node name="PlaqueSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 38.0
+offset_top = 240.0
+offset_right = 172.0
+offset_bottom = 425.0
+hotspot_id = "5QL"
+unlocked_item_ref_id = 204
+
+[node name="PlaquePanel" parent="Hotspots/PlaqueSpot" instance=ExtResource("135")]
+layout_mode = 0
+offset_left = 1052.0
+offset_top = 1188.0
+offset_right = 1645.0
+offset_bottom = 1803.0
+
+[node name="SecurityStabbedSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 261.0
+offset_top = 504.0
+offset_right = 377.0
+offset_bottom = 794.0
+hotspot_id = "T2D"
+unlocked_character_ref_id = 31
+
+[node name="SecurityStabbedPanel" parent="Hotspots/SecurityStabbedSpot" instance=ExtResource("136")]
+layout_mode = 0
+offset_left = -1276.0
+offset_top = 424.0
+offset_right = -568.0
+offset_bottom = 1042.0
+
+[node name="SecurityTendingSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 433.0
+offset_top = 464.0
+offset_right = 604.0
+offset_bottom = 765.0
+hotspot_id = "USl"
+unlocked_character_ref_id = 32
+unlocked_item_ref_id = 195
+
+[node name="SecurityTendingPanel" parent="Hotspots/SecurityTendingSpot" instance=ExtResource("137")]
+layout_mode = 0
+offset_left = -1476.0
+offset_top = -367.0
+offset_right = -711.0
+offset_bottom = 208.0
+
+[node name="TagSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 929.0
+offset_top = 633.0
+offset_right = 959.0
+offset_bottom = 676.0
+hotspot_id = "bTf"
+unlocked_item_ref_id = 196
+
+[node name="TagPanel" parent="Hotspots/TagSpot" instance=ExtResource("138")]
+layout_mode = 0
+offset_left = 1552.0
+offset_top = 620.0
+offset_right = 1890.0
+offset_bottom = 880.0
+
+[node name="AlexSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 1015.0
+offset_top = 548.0
+offset_right = 1254.0
+offset_bottom = 824.0
+hotspot_id = "uFW"
+unlocked_character_ref_id = 33
+
+[node name="AlexPanel" parent="Hotspots/AlexSpot" instance=ExtResource("139")]
+layout_mode = 0
+offset_left = -133.0
+offset_top = -1313.0
+offset_right = 524.0
+offset_bottom = -819.0
+
+[node name="CharlieSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 1314.0
+offset_top = 399.0
+offset_right = 1529.0
+offset_bottom = 688.0
+hotspot_id = "oAK"
+unlocked_character_ref_id = 34
+
+[node name="CharliePanel" parent="Hotspots/CharlieSpot" instance=ExtResource("140")]
+layout_mode = 0
+offset_left = 1256.0
+offset_top = -388.0
+offset_right = 2015.0
+offset_bottom = 135.0
+
+[node name="MachineSpot" parent="Hotspots" instance=ExtResource("133")]
+layout_mode = 1
+offset_left = 1693.0
+offset_top = 583.0
+offset_right = 1754.0
+offset_bottom = 681.0
+hotspot_id = "t8O"
+unlocked_item_ref_id = 154
+
+[node name="MachinePanel" parent="Hotspots/MachineSpot" instance=ExtResource("141")]
+layout_mode = 0
+offset_left = 1588.0
+offset_top = 232.0
+offset_right = 2166.0
+offset_bottom = 1054.0
+
+[editable path="Hotspots/ToCollectorSpot"]

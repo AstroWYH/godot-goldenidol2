@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=4 uid="uid://dw1iqtbywpfa1"]
+
+[ext_resource type="Texture2D" uid="uid://baxdrch0620kr" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/harmonylogo2.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+
+[node name="PlaquePanel" type="Panel"]
+offset_left = 1115.0
+offset_top = 416.0
+offset_right = 1705.0
+offset_bottom = 1028.0
+
+[node name="PlaqueSprite" type="Sprite2D" parent="."]
+position = Vector2(295.385, 302.611)
+scale = Vector2(1.13846, 1.13846)
+texture = ExtResource("1")
+
+[node name="PlaqueLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 499.0
+offset_right = 543.0
+offset_bottom = 574.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_ENLIGHTMENT_PLAQUE_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

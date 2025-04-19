@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=3 format=4 uid="uid://dhulntym655ly"]
+
+[ext_resource type="Texture2D" uid="uid://d35sstayvw4lx" path="res://shared/ui/Icons/ICO_0011_ShowChart.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+puzzle_id = 623
+puzzle_name = "SHOW_RANKING_PUZZLE_NAME"
+puzzle_icon = ExtResource("1")
+arc_puzzle = false
+locked_by_default = true
+hide_card_when_locked = false
+unlocks_puzzles_on_solve = []
+unlocks_segments_on_solve = []
+escalate_music_on_solve = false
+escalation_level = 0
+segmentation_mode = 0
+specified_segments = []

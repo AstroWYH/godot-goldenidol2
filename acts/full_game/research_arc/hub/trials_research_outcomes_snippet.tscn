@@ -1,0 +1,701 @@
+[gd_scene load_steps=10 format=4 uid="uid://bjhwmql85v2ac"]
+
+[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cnsh4p6njlwg7" path="res://acts/full_game/research_arc/hub/assets/line.png" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+[ext_resource type="Texture2D" uid="uid://dcey2y26nlep1" path="res://acts/full_game/colecting_parts_arc/hub/assets/tape_player.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ceyt4nro3mbnj" path="res://shared/assets/papers/VoiceMessage_V2.png" id="6"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="7"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="8"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="9"]
+
+[node name="Control" type="ColorRect"]
+offset_left = 33.0
+offset_top = 24.0
+offset_right = 1953.0
+offset_bottom = 1104.0
+color = Color(0.294118, 0.294118, 0.294118, 0.301961)
+script = ExtResource("1")
+
+[node name="NameContestPanel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 952.0
+offset_top = -2.0
+offset_right = 1878.0
+offset_bottom = 698.0
+
+[node name="Paper" type="TextureRect" parent="NameContestPanel"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 6.0
+offset_right = 913.0
+offset_bottom = 682.0
+rotation = 0.0025487400125712156
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="line" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 686)
+texture = ExtResource("3")
+
+[node name="line2" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 737)
+texture = ExtResource("3")
+
+[node name="line3" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 627)
+texture = ExtResource("3")
+
+[node name="line4" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 574)
+texture = ExtResource("3")
+
+[node name="line5" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 468)
+texture = ExtResource("3")
+
+[node name="line6" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 519)
+texture = ExtResource("3")
+
+[node name="line7" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 409)
+texture = ExtResource("3")
+
+[node name="line8" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 356)
+texture = ExtResource("3")
+
+[node name="line9" type="Sprite2D" parent="NameContestPanel"]
+visible = false
+position = Vector2(633, 294)
+texture = ExtResource("3")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NameContestPanel"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 28.0
+offset_right = 893.0
+offset_bottom = 503.0
+theme_override_constants/separation = 0
+
+[node name="Title" type="Label" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 40
+text = "TRIALS_SUBJECT_SNIPPET_TITLE"
+
+[node name="Legends" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/Legends"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_SUBJECTS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/Legends"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_AGE"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/Legends"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_SEX"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/Legends"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_HAIR"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/Legends"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_HEIGHT"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/Legends"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_NOTES"
+
+[node name="Divider" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="35" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/35"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "35"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/35"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "39"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/35"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_M"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/35"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_BLACK"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/35"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_35"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/35"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+
+[node name="Divider2" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="36" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/36"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "36"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/36"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "22"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/36"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_F"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/36"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_BROWN"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/36"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_36"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/36"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+
+[node name="Divider3" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="37" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/37"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "37"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/37"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "23"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/37"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_M"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/37"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_RED"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/37"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_37"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/37"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_NO_SHOW"
+
+[node name="Divider4" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="38" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/38"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "38"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/38"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "77"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/38"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_M"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/38"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_NONE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/38"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_38"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/38"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+
+[node name="Divider5" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="39" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/39"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "39"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/39"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "51"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/39"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_M"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/39"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_GRAY"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/39"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_39"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/39"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_NO_SHOW"
+
+[node name="Divider6" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="40" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/40"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "40"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/40"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "26"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/40"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_F"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/40"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_BLACK"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/40"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_40"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/40"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+
+[node name="Divider7" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="41" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/41"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "41"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/41"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "43"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/41"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_F"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/41"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_BROWN"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/41"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_41"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/41"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+
+[node name="Divider8" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="42" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/42"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "42"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/42"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "15"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/42"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_F"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/42"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_BLONDE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/42"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_42"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/42"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_PARENTAL"
+
+[node name="Divider9" type="ColorRect" parent="NameContestPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 2)
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="43" type="HBoxContainer" parent="NameContestPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubjectNo" type="Label" parent="NameContestPanel/VBoxContainer/43"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "43"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Age" type="Label" parent="NameContestPanel/VBoxContainer/43"]
+custom_minimum_size = Vector2(80, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "30"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Gender" type="Label" parent="NameContestPanel/VBoxContainer/43"]
+custom_minimum_size = Vector2(110, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_M"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Hair" type="Label" parent="NameContestPanel/VBoxContainer/43"]
+custom_minimum_size = Vector2(120, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_NONE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Height" type="Label" parent="NameContestPanel/VBoxContainer/43"]
+custom_minimum_size = Vector2(100, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "HEIGHT_43"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Note" type="Label" parent="NameContestPanel/VBoxContainer/43"]
+custom_minimum_size = Vector2(50, 30)
+layout_mode = 2
+theme = ExtResource("4")
+text = "TRIALS_L_NO_SHOW"
+
+[node name="TapePlayerSprite" type="Sprite2D" parent="NameContestPanel"]
+position = Vector2(755.002, 689.925)
+scale = Vector2(0.84975, 0.84975)
+texture = ExtResource("5")
+
+[node name="Sprite2D" type="Sprite2D" parent="NameContestPanel"]
+position = Vector2(257.001, 720)
+rotation = -1.5707999467849731
+scale = Vector2(0.729764, 1)
+texture = ExtResource("6")
+
+[node name="CallLabel" type="RichTextLabel" parent="NameContestPanel"]
+layout_mode = 0
+offset_left = -97.00019836425781
+offset_top = 527.0
+offset_right = 462.0
+offset_bottom = 910.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("7")
+theme_override_fonts/bold_font = ExtResource("8")
+theme_override_font_sizes/normal_font_size = 22
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "ARC_NAMING_SNIPPET"
+scroll_active = false
+
+[node name="TapeLabel1" type="Label" parent="NameContestPanel"]
+layout_mode = 0
+offset_left = 648.0
+offset_top = 582.0
+offset_right = 851.0
+offset_bottom = 615.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "TRIALS_AUDIO_SNIPPET_TAPE_LABEL_SPLIT1"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="TapeLabel2" type="Label" parent="NameContestPanel"]
+layout_mode = 0
+offset_left = 648.0
+offset_top = 662.0
+offset_right = 859.0
+offset_bottom = 695.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "TRIALS_AUDIO_SNIPPET_TAPE_LABEL_SPLIT2"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

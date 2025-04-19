@@ -1,0 +1,743 @@
+[gd_scene load_steps=161 format=4 uid="uid://dp7g37qk6byy2"]
+
+[ext_resource type="Texture2D" uid="uid://8wb3sbri6q4s" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b0_laundry.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dayyqup17422q" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cfckt8p83fkv0" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bdvbyuc01dm1v" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bsreq5axuvgyh" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://chbufoowryafj" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c35adp8c0rvat" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c7w0yeahxiimm" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b3kuxylijfbmb" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b6634uetiwxpo" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bi81256j82sfx" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dgsmpyumbnqo" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://byiaaa02aj7rs" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ck6oufpu371wi" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dhwksoqpv53f6" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cevdachl411d8" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://6hvak5qdeevg" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b3fglh2i0mpec" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://nk1hgilf3ab" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bhqbj3ma7qrch" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bdj7aox02kpjw" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://0hvoyhlgn2ki" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://d4hqod1eqqo1w" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://rb2ejbt25pw4" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cd7yqxvlrsonh" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://r2smnxqpyr4p" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://455ekbfa1ndi" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bvxefvmddccmd" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://5ggxpdrmscxe" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://c3yb5m501wt3m" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dwxhqlyfoshrq" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://c7k136mvgxtt0" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://lhkqtqf4boiu" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://b1vs35fefbopy" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bv3bhdyq6ar77" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dwrta3uu5ibr2" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://r723jsd8841f" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bmvngfsaql758" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://c53t6mf7oyssl" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://q38jtj7wouk4" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bi5txr05pw1rq" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b1hsg5ss33si3" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://0gwmiy08pmkv" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cythy7xa7stho" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://rdmhamw1mvxf" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cy8lkavutr0di" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dpc2fgweuibgj" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://det2l36mo7ley" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cgsvqi2qry3e" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://byn5813snddx0" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://hon64dp6eivn" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00049.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://wd472uq4q41n" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00050.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cfdcate33mca1" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00051.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bfpqjidg85mlg" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00052.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://bye2luh0bors3" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00053.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://cuqxkmjt1nutk" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00054.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://djxk5ap47swf0" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00055.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://cyswoyohc3as0" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00056.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://b5abq1yp35d1e" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00057.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://cqyrofwo5xxcs" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00058.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://61r3qu52mb5p" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00059.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://c48xmg05y01qx" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00060.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://bqhilunhwpri2" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00061.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://bxbm575vds0yl" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00062.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://bunuc5f2wtbeo" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00063.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bsx720fpebl5x" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00064.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://0b3ydcs4pg70" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00065.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://cbm4gjsnwevwa" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00066.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bukc8nqjygpe7" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00067.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://hwxpjricm5ak" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00068.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://dpucq2bmn4ydo" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00069.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://bmmlgcwthfpub" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00070.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://c8ifgmn0yv75l" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00071.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://cm3bsxo1cnvfj" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00072.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://c8s3a7njwkwfq" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00073.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://dkvkaup8o5luh" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00074.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://beoy4jjg0rdv0" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00075.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://bt8yuclrtwlaa" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00076.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://cs8dq6p6eo2u5" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00077.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://dvsnayqun0exu" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00078.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://jt6tola6mt4u" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00079.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://befe2haoa4ltk" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00080.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://cy2ibhg8nbgvo" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00081.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://chbtfdjb6jbjt" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00082.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://ctw7eql2efmbv" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00083.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://bf1i2vookvdrh" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00084.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://br3f1xwv02k50" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00085.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dqsjkehxalkar" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00086.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://hoiq4ov87qqe" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00087.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://xdvstc0hlbtx" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00088.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://5gnlb10fnt2t" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00089.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://dcvkcoc3m2ust" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00090.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://chv221xf0nrwx" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00091.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://dc77jm2a6m588" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00092.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://2ui1jckfiaun" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00093.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://ovtdaafopnqg" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00094.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://ctaq81cg5j7e4" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00095.png" id="97"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="98"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="99"]
+[ext_resource type="Texture2D" uid="uid://o770e5dg5sqs" path="res://acts/full_game/research_arc/complex/assets/closeups/y_detergent.png" id="100"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="101"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="102"]
+[ext_resource type="Texture2D" uid="uid://sr52beyhkowy" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_000.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://c82k0sfwrba77" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_001.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://5wq46ichblu2" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_002.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://cht6f2rdr11c8" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_003.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://dp5rwq7hloled" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_004.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://5mxbd5fodtni" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_005.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://bb0ehm0sduvk8" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_006.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://brj0lc6e1ro0c" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_007.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://cm52mgr58vfuh" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_008.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://dsjv11q82m4a4" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_009.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://dbaqndefvglyy" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_010.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://bms01d87pxqwx" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_011.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://5ca1dmiprkfv" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_012.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://bi7ay4mq1bgr" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_013.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://l50v2358243o" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_014.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://cmqjapyg1s8h1" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_015.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://bbkuwwb11bqpl" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_016.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://c1yrmt8rmj0l0" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_017.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://co1hc1e6duvui" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_018.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://vf0nrr3klww0" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_019.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://vi25dfkw4ysy" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_020.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://71io6l5dek8h" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_021.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://t0w8e4jogu7s" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_022.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://dhtl0a0jwc5am" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_023.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://ch1wenxunfkra" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_024.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://dicaf8h2tonv8" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_025.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://d2ba65mr3wjwk" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_026.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://c1ch0cnctyytg" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_027.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://cpkvwhljiulor" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_028.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://d13gxmlcakw5f" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_029.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://dr1v7s8cbx3up" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_030.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://c421gwcg12nfp" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_031.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://uw2iliw8y6ws" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_032.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://dy7grvmgxsqms" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_033.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://chwlw4gctd1q3" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_034.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://2jx7bcfssopf" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_035.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://wbyagk7cnv3a" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_036.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://bkdbj1yooa8a5" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_037.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://c1phb8jg4dihp" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_038.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://car8hype4wyff" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_039.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://4jkwfg4kb6h0" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_040.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://bu4lq4n26bjsw" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_041.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://dojuovnweayex" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_042.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://erwjmbpdsnj0" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_043.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://cavl5b58cu125" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_044.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://bvbexao56rvgs" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_045.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://mjt1xqwxtwnv" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_046.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://cv2b25ex47n55" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_047.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://dkjj7gxjbodw8" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_048.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://dfdhft5gh5cvg" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_049.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://dgk8n7ui7j7aq" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_050.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://dcy77ltsredwj" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_051.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://c30t2llhbaanf" path="res://acts/full_game/research_arc/complex/assets/portraits/ernest/x_earnest_052.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://bm3tfubebmwk6" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_switchblade.png" id="156"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0klqi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}],
+"loop": true,
+"name": &"Loop",
+"speed": 20.0
+}]
+
+[sub_resource type="Resource" id="Resource_02nqj"]
+script = ExtResource("99")
+linked_item_ref_id = 728
+
+[sub_resource type="Resource" id="Resource_cddt7"]
+script = ExtResource("99")
+linked_item_ref_id = 220
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_txcur"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="LaundryRoomPanel" type="Panel"]
+offset_right = 824.0
+offset_bottom = 497.0
+
+[node name="EvB0Laundry" type="Sprite2D" parent="."]
+position = Vector2(13, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(453, 258)
+sprite_frames = SubResource("SpriteFrames_0klqi")
+animation = &"Loop"
+autoplay = "Loop"
+frame_progress = 0.6271200180053711
+
+[node name="EarnestSpot" parent="." instance=ExtResource("98")]
+layout_mode = 1
+offset_left = 412.0
+offset_top = 99.0
+offset_right = -277.0
+offset_bottom = -122.0
+hotspot_id = "5Ij"
+unlocked_character_ref_id = 103
+unlocked_item_ref_id = 727
+extra_items_unlocked = [SubResource("Resource_02nqj"), SubResource("Resource_cddt7")]
+
+[node name="Indicators" parent="EarnestSpot" index="0"]
+offset_left = 41.5
+offset_top = 58.0
+offset_right = 41.5
+offset_bottom = 58.0
+
+[node name="EarnestPanel" type="Panel" parent="EarnestSpot"]
+layout_mode = 0
+offset_left = -389.0
+offset_top = 406.0
+offset_right = 392.0
+offset_bottom = 831.0
+
+[node name="YDetergent" type="Sprite2D" parent="EarnestSpot/EarnestPanel"]
+position = Vector2(633, 239.423)
+texture = ExtResource("100")
+
+[node name="EarnestSpeech" type="Label" parent="EarnestSpot/EarnestPanel"]
+layout_mode = 0
+offset_left = 362.0
+offset_top = 30.0
+offset_right = 705.0
+offset_bottom = 74.0
+theme = ExtResource("101")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_EARNEST_SPEECH"
+autowrap_mode = 3
+
+[node name="DetergentText" type="Label" parent="EarnestSpot/EarnestPanel"]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 111.4229965209961
+offset_right = 674.0
+offset_bottom = 246.42300415039063
+rotation = -0.14612600207328796
+theme = ExtResource("102")
+theme_override_colors/font_color = Color(0, 0.25098, 0.258824, 1)
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_DETERGENT_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="DetergentText2" type="Label" parent="EarnestSpot/EarnestPanel"]
+layout_mode = 0
+offset_left = 534.0
+offset_top = 270.0
+offset_right = 685.0
+offset_bottom = 372.0
+rotation = 0.0008807179983705282
+theme = ExtResource("101")
+theme_override_colors/font_color = Color(0, 0.301769, 0.310914, 1)
+theme_override_font_sizes/font_size = 16
+text = "COMPLEX_DETERGENT_BODY"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="XEarnest" type="AnimatedSprite2D" parent="EarnestSpot/EarnestPanel"]
+position = Vector2(231, 197)
+sprite_frames = SubResource("SpriteFrames_txcur")
+autoplay = "default"
+frame_progress = 0.16281799972057343
+
+[node name="YSwitchblade" type="Sprite2D" parent="EarnestSpot/EarnestPanel"]
+position = Vector2(426.622, 239.398)
+rotation = -1.3788100481033325
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("156")
+
+[node name="EarnestKnife" type="Label" parent="EarnestSpot/EarnestPanel"]
+layout_mode = 0
+offset_left = 398.0
+offset_top = 130.0
+offset_right = 757.0
+offset_bottom = 174.0
+rotation = 1.1093800067901611
+scale = Vector2(1, 1.00141)
+theme = ExtResource("101")
+theme_override_colors/font_color = Color(0.215686, 0.372549, 0.490196, 1)
+theme_override_font_sizes/font_size = 20
+text = "COMPLEX_EARNEST_KNIFE_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[editable path="EarnestSpot"]

@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="ArcMeta" load_steps=8 format=4 uid="uid://batbrd70tgo1f"]
+
+[ext_resource type="AudioStream" uid="uid://b13tosh30506" path="res://shared/assets/sfx/ambiences/tv_static_ambience.ogg" id="1"]
+[ext_resource type="Resource" uid="uid://epxthf5y62as" path="res://shared/ui/hints/hint_library/3_machine/4_machine_1.tres" id="2"]
+[ext_resource type="Resource" uid="uid://dp2euy7tgrlt1" path="res://shared/ui/hints/hint_library/3_machine/4_machine_2.tres" id="3"]
+[ext_resource type="Resource" uid="uid://3bdwgcboaa11" path="res://shared/ui/hints/hint_library/3_machine/4_machine_3.tres" id="4"]
+[ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="5"]
+[ext_resource type="Texture2D" uid="uid://cppb3rly018ph" path="res://shared/ui/hints/hint_illustrations/chapter_03_the_machine.png" id="6"]
+[ext_resource type="Script" path="res://shared/resources/arc_meta.gd" id="7"]
+
+[resource]
+script = ExtResource("7")
+id = 3
+header_label = "CHAPTER_3_INTRO_HEADER"
+name = "CHAPTER_3_INTRO_TITLE"
+description = "CHAPTER_3_INTRO_DESCRIPTION"
+hub_scene_path = "res://acts/full_game/reconstruction_arc/hub/machine_arc_hub.tscn"
+achievement_id = 14
+music_layers = [ExtResource("5")]
+ambience_layers = [ExtResource("1")]
+picture = ExtResource("6")
+hint_meta_list = [ExtResource("2"), ExtResource("3"), ExtResource("4")]
+autoload_intermission_path = ""

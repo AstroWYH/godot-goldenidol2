@@ -1,0 +1,167 @@
+[gd_scene load_steps=9 format=4 uid="uid://kh4mcvjbar8m"]
+
+[ext_resource type="Texture2D" uid="uid://dqbgkwiktpwly" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf02.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://dudiy7t5wjfio" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/coat.png" id="3"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://dhl2ipj0v4w37" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/photos.png" id="6"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="7"]
+
+[sub_resource type="Resource" id="Resource_me51l"]
+script = ExtResource("5")
+linked_item_ref_id = 374
+
+[node name="JackLockerPanel" type="Panel"]
+offset_left = 426.0
+offset_top = -1750.0
+offset_right = 955.0
+offset_bottom = -981.0
+
+[node name="JackLockerSprite" type="Sprite2D" parent="."]
+position = Vector2(261, 381)
+texture = ExtResource("1")
+
+[node name="LabelJackSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 214.0
+offset_top = 190.0
+offset_right = -178.0
+offset_bottom = -489.0
+scale = Vector2(0.942876, 0.95548)
+hotspot_id = "rIP"
+unlocked_item_ref_id = 491
+
+[node name="LabelJackPanel" type="Panel" parent="LabelJackSpot"]
+layout_mode = 0
+offset_left = 382.0
+offset_top = -138.0
+offset_right = 878.0
+offset_bottom = 587.0
+
+[node name="LabelTagSprite" type="Sprite2D" parent="LabelJackSpot/LabelJackPanel"]
+position = Vector2(246.682, 359.453)
+texture = ExtResource("3")
+
+[node name="LabelTag" type="Label" parent="LabelJackSpot/LabelJackPanel"]
+layout_mode = 0
+offset_left = 179.97799682617188
+offset_top = 217.5240020751953
+offset_right = 425.9779968261719
+offset_bottom = 262.52398681640625
+rotation = 1.105780005455017
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.294118, 0.133333, 0.0980392, 1)
+text = "JACK_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PolaroidsSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 357.0
+offset_top = 327.0
+offset_right = -85.0
+offset_bottom = -318.0
+hotspot_id = "AOI"
+unlocked_item_ref_id = 373
+extra_items_unlocked = [SubResource("Resource_me51l")]
+
+[node name="Indicators" parent="PolaroidsSpot" index="0"]
+offset_left = -4.5
+offset_top = 28.0
+offset_right = -4.5
+offset_bottom = 28.0
+
+[node name="PolaroidsPanel" type="Panel" parent="PolaroidsSpot"]
+layout_mode = 0
+offset_left = 207.0
+offset_top = -1026.0
+offset_right = 830.0
+offset_bottom = -305.0
+
+[node name="PolaroidsSprite" type="Sprite2D" parent="PolaroidsSpot/PolaroidsPanel"]
+position = Vector2(309, 354)
+texture = ExtResource("6")
+
+[node name="Label" type="Label" parent="PolaroidsSpot/PolaroidsPanel"]
+layout_mode = 0
+offset_left = 189.0
+offset_top = 59.0
+offset_right = 533.0
+offset_bottom = 117.0
+theme = ExtResource("7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "BURNING_LOCKERS_PHOTOGRAPHS1"
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="PolaroidsSpot/PolaroidsPanel"]
+layout_mode = 0
+offset_left = 198.0
+offset_top = 602.0
+offset_right = 567.0
+offset_bottom = 666.0
+theme = ExtResource("7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "BURNING_LOCKERS_PHOTOGRAPHS2"
+autowrap_mode = 3
+
+[node name="Label3" type="Label" parent="PolaroidsSpot/PolaroidsPanel"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 422.0
+offset_right = 298.0
+offset_bottom = 454.0
+rotation = 0.08726649731397629
+theme = ExtResource("7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "BURNING_LOCKERS_PHOTOGRAPHS3"
+
+[node name="BookChemistry" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 356.0
+offset_top = 177.0
+offset_right = -117.0
+offset_bottom = -505.0
+hotspot_id = "2vm"
+text = "BURNING_LOCKERS_CHEMISTRY_BOOK_TOOLTIP"
+
+[node name="Indicators" parent="BookChemistry" index="0"]
+offset_left = -8.0
+offset_top = 81.0
+offset_right = -8.0
+offset_bottom = 81.0
+
+[node name="Highlighter" parent="BookChemistry/Indicators" index="0"]
+position = Vector2(18.5, -56)
+
+[node name="FocusIndicator" parent="BookChemistry/Indicators" index="1"]
+position = Vector2(17.5, -55)
+
+[node name="BookMechanical" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 423.0
+offset_top = 185.0
+offset_right = -45.0
+offset_bottom = -504.0
+hotspot_id = "GPI"
+text = "BURNING_LOCKERS_MECHANICAL_BOOK_TOOLTIP"
+
+[node name="Indicators" parent="BookMechanical" index="0"]
+offset_left = -20.5
+offset_top = 91.0
+offset_right = -20.5
+offset_bottom = 91.0
+
+[node name="Highlighter" parent="BookMechanical/Indicators" index="0"]
+position = Vector2(18.5, -56)
+
+[node name="FocusIndicator" parent="BookMechanical/Indicators" index="1"]
+position = Vector2(17.5, -55)
+
+[editable path="PolaroidsSpot"]
+[editable path="BookChemistry"]
+[editable path="BookMechanical"]

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://jv1aevvpviao"]
+
+[ext_resource type="Texture2D" uid="uid://ds0nk5dt1dsd4" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/wheel.png" id="1"]
+
+[node name="WheelPanel" type="Panel"]
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 629.0
+offset_bottom = 426.0
+
+[node name="WheelSprite" type="Sprite2D" parent="."]
+position = Vector2(314, 206)
+texture = ExtResource("1")

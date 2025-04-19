@@ -1,0 +1,154 @@
+[gd_scene load_steps=8 format=4 uid="uid://bsn0vgy017457"]
+
+[ext_resource type="Texture2D" uid="uid://dmnasdt7mm6pw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf04.png" id="1"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://bkek2w8frm3je" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/friends.png" id="5"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
+[ext_resource type="Texture2D" uid="uid://dc5f32e3l6ycd" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/harmony.png" id="7"]
+
+[node name="MarmotLockerPanel" type="Panel"]
+offset_left = -2571.0
+offset_top = -323.0
+offset_right = -2049.0
+offset_bottom = 447.0
+
+[node name="MarmotLockerSprite" type="Sprite2D" parent="."]
+position = Vector2(252, 355)
+texture = ExtResource("1")
+
+[node name="FaxLabel" type="Label" parent="MarmotLockerSprite"]
+offset_left = -168.0
+offset_top = 51.0
+offset_right = 10.0
+offset_bottom = 116.0
+rotation = -1.4327399730682373
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.8, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 15
+text = "BURNING_LOCKERS_BE_READY_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="BookMakeFriendsSpot" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 200.0
+offset_top = 149.0
+offset_right = -252.0
+offset_bottom = -508.0
+hotspot_id = "J5S"
+unlocked_character_ref_id = 61
+unlocked_item_ref_id = 395
+unlocked_puzzles = [ExtResource("4")]
+
+[node name="BookMakeFriendsPanel" type="Panel" parent="BookMakeFriendsSpot"]
+layout_mode = 0
+offset_left = -231.0
+offset_top = -968.0
+offset_right = 218.0
+offset_bottom = -302.0
+
+[node name="BookMakeFriendsSprite" type="Sprite2D" parent="BookMakeFriendsSpot/BookMakeFriendsPanel"]
+position = Vector2(227, 330)
+texture = ExtResource("5")
+
+[node name="SubtitleMakeFriendsLabel" type="Label" parent="BookMakeFriendsSpot/BookMakeFriendsPanel/BookMakeFriendsSprite"]
+offset_left = -199.0
+offset_top = 159.0
+offset_right = 134.0
+offset_bottom = 246.0
+rotation = 0.0044905999675393105
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.8, 0.694118, 0.160784, 1)
+theme_override_constants/line_spacing = -6
+theme_override_font_sizes/font_size = 24
+text = "BURNING_LOCKERS_MAKE_FRIENDS_AUTHOR_SUBTITLE"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="AuthorMakeFriendsLabel" type="Label" parent="BookMakeFriendsSpot/BookMakeFriendsPanel/BookMakeFriendsSprite"]
+offset_left = -269.0
+offset_top = -232.0
+offset_right = -104.0
+offset_bottom = -67.0
+rotation = -0.7379059791564941
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.933333, 0.886275, 0.8, 1)
+theme_override_constants/line_spacing = -6
+text = "BURNING_LOCKERS_MAKE_FRIENDS_AUTHOR"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="TitleMakeFriendsLabel" type="Label" parent="BookMakeFriendsSpot/BookMakeFriendsPanel/BookMakeFriendsSprite"]
+offset_left = -195.0
+offset_top = -81.0
+offset_right = 130.0
+offset_bottom = 64.0
+rotation = -0.7439510226249695
+scale = Vector2(1.00418, 1.00497)
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.160784, 0.294118, 0.458824, 1)
+theme_override_constants/line_spacing = -3
+theme_override_font_sizes/font_size = 32
+text = "BURNING_LOCKERS_MAKE_FRIENDS_AUTHOR_TITLE"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="FPBookSpot" parent="BookMakeFriendsSpot/BookMakeFriendsPanel" instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 265.0
+offset_top = 356.0
+offset_right = -70.0
+offset_bottom = -149.0
+hotspot_id = "WVW"
+text = "BURNING_LOCKERS_MAKE_FRIENDS_POWDER_TOOLTIP"
+
+[node name="HarmonyBrochureSpot" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 371.0
+offset_top = 363.0
+offset_right = -82.0
+offset_bottom = -287.0
+hotspot_id = "XW8"
+unlocked_item_ref_id = 402
+
+[node name="HarmonyBrochurePanel" type="Panel" parent="HarmonyBrochureSpot"]
+layout_mode = 0
+offset_left = -902.0
+offset_top = -756.0
+offset_right = -475.0
+offset_bottom = -139.0
+
+[node name="HarmonyBrochureSprite" type="Sprite2D" parent="HarmonyBrochureSpot/HarmonyBrochurePanel"]
+position = Vector2(215, 306)
+texture = ExtResource("7")
+
+[node name="TitleBrochureLabel" type="Label" parent="HarmonyBrochureSpot/HarmonyBrochurePanel"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 77.0
+offset_right = 376.0
+offset_bottom = 186.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.219608, 0.219608, 0.219608, 1)
+text = "BURNING_LOCKERS_HARMONY_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SubtitleBrochureLabel" type="Label" parent="HarmonyBrochureSpot/HarmonyBrochurePanel"]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 410.0
+offset_right = 346.0
+offset_bottom = 564.0
+scale = Vector2(1.02722, 0.982602)
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.501491, 0.215051, 0.333199, 1)
+text = "BURNING_LOCKERS_HARMONY_SUBTITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

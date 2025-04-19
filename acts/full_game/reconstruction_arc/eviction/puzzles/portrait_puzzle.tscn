@@ -1,0 +1,99 @@
+[gd_scene load_steps=9 format=4 uid="uid://dpavyvc5brhsu"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dioppstaxf134" path="res://shared/ui/portrait_puzzle/portrait_puzzle.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://df3xm460xobku" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/portrait_puzzle_meta.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://btemkxm05phja" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://dx8yqj8u3kqjb" path="res://shared/assets/portraits/collector.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c1rfx7kt7v2rh" path="res://shared/assets/portraits/manager.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c1kjntnyt3e46" path="res://shared/assets/portraits/marie_beach.png" id="8"]
+
+[node name="PortraitPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_left = 1276.0
+offset_top = 204.0
+offset_right = 1858.0
+offset_bottom = 702.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+offset_left = -4.0
+offset_bottom = 19.0
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" parent="Frame/MarginContainer" index="1"]
+visible = true
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = 8.0
+offset_top = 11.0
+offset_right = 8.0
+offset_bottom = 164.0
+mouse_filter = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+puzzle_meta = ExtResource("4")
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle" index="1"]
+layout_mode = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 4
+
+[node name="Tesa" parent="PuzzleGroup/Puzzle/GridContainer" index="0" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 133
+custom_portrait = ExtResource("6")
+
+[node name="Tim" parent="PuzzleGroup/Puzzle/GridContainer" index="1" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 131
+custom_portrait = ExtResource("7")
+
+[node name="Marie" parent="PuzzleGroup/Puzzle/GridContainer" index="2" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 132
+custom_portrait = ExtResource("8")
+
+[node name="Ashley" parent="PuzzleGroup/Puzzle/GridContainer" index="3" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 30
+
+[node name="Bruce" parent="PuzzleGroup/Puzzle/GridContainer" index="4" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 31
+
+[node name="Billy" parent="PuzzleGroup/Puzzle/GridContainer" index="5" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 32
+
+[node name="Alex" parent="PuzzleGroup/Puzzle/GridContainer" index="6" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 33
+
+[node name="Charlie" parent="PuzzleGroup/Puzzle/GridContainer" index="7" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 34
+
+[editable path="Frame"]

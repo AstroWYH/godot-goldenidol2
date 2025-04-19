@@ -1,0 +1,55 @@
+[gd_scene load_steps=11 format=4 uid="uid://81o5nb1haii2"]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://dpavyvc5brhsu" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/portrait_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://cy1eci4sgjvls" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/symbols_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://gvyyno5x3v33" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/scroll_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://lmspiqvgad8r" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/motive_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://crb44a5wb88e5" path="res://acts/full_game/reconstruction_arc/hub/puzzles/org_chart_puzzle.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://dbjcie02ttgko" path="res://acts/full_game/reconstruction_arc/hub/puzzles/machine_arc_scroll_puzzle.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://csc2qttlw0es4" path="res://acts/full_game/reconstruction_arc/hub/puzzles/machine_arc_scroll_puzzle_2.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="9"]
+[ext_resource type="Resource" uid="uid://bsvsdu2sjmjwd" path="res://acts/full_game/reconstruction_arc/eviction/eviction_scenario_meta.tres" id="10"]
+
+[node name="EvictionScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1153.0
+offset_top = 255.0
+offset_right = 1735.0
+offset_bottom = 750.0
+
+[node name="SymbolsPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1120.0
+offset_top = 168.0
+offset_right = 1765.0
+offset_bottom = 811.0
+
+[node name="ScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 1048.0
+offset_top = 71.0
+offset_right = 1882.0
+offset_bottom = 959.0
+
+[node name="MotivePuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 476.0
+offset_top = 92.0
+offset_right = 1453.0
+offset_bottom = 745.0
+is_win_condition = true
+
+[node name="PicturePuzzle2" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 987.0
+offset_top = 55.0
+offset_right = 1868.0
+offset_bottom = 904.0
+
+[node name="IntroArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("7")]
+
+[node name="IntroArcScrollPuzzle2" parent="ThinkingLayer" instance=ExtResource("8")]
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("9")]
+scenario_meta = ExtResource("10")
+thinking_layer = NodePath("../ThinkingLayer")

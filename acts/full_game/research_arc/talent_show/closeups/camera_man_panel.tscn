@@ -1,0 +1,325 @@
+[gd_scene load_steps=64 format=4 uid="uid://b3mcnl116e6sg"]
+
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="1"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="4"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="5"]
+[ext_resource type="FontFile" uid="uid://cnrsmyjdnlikm" path="res://addons/gdUnit4/src/update/assets/fonts/static/RobotoMono-BoldItalic.ttf" id="6"]
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="7"]
+[ext_resource type="Texture2D" uid="uid://bhbt0prjj7rec" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00000.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://coi0tt8xwrbjx" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00001.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ks73ekq75qtl" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00002.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d0qgl3c22xbs7" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00003.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://d4akwyxb8354u" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00004.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c225fmhfvrup" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00005.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dq8rwelq42a5x" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00006.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bsaedmynb5jhh" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00007.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://u2csswg7837x" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00008.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bp7h0ekxdy1ga" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00009.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dijqjg3h5m7n" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00010.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c75amnlv4n8fi" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00011.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://boh2kxjag2oi7" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00012.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://c5dtrm50w4qy6" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00013.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dydp23abk14su" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00014.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://6f0b0q553aek" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00015.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c7bjh0togxok8" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00016.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cg7uj38i012s" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00017.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://d33gvrrm1kup0" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00018.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://djiq8inwnevqk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00019.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://vlqqbscsw25c" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00020.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c7xjtds648brd" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00021.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://blnnf2thoa8o3" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00022.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://8vpptve1lfsu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00023.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://b3wryu8yhf0ma" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00024.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c5ri7vhc4dfph" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00025.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://d2yaatixcng06" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00026.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://0b6tlgulxwws" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00027.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c4dygqikxe7a2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00028.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://mcnoll5jy3in" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00029.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dhicqshooqefk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00030.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bc60k4ixhtu3l" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00031.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://8qfuh8r3xp6e" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00032.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bccs4kuwvaywt" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00033.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b8hp45sbe7o2g" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00034.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://lwt3w41shm7d" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00035.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dref5qout1ol8" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00036.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://pklgl21khuva" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00037.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://8t6ukfosqhq2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00038.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://c13n3q5jsrxpe" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00039.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://dnhqcpwsa5iw3" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00040.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://b2deq48ru5t5t" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00041.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://v4g5u5hh7m02" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00042.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://l7w2uilitb10" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00043.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dsdewxpq0m4uf" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00044.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://3xtvumefbl64" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00045.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://dgvknl0efvb0k" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00046.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://btdxdc1821ipu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/cameraman/cameramanportrait_00047.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://b43287j1fidhs" path="res://shared/assets/papers/SmallNote_V2_ICO.png" id="56"]
+
+[sub_resource type="Resource" id="Resource_g31xg"]
+script = ExtResource("2")
+linked_item_ref_id = 266
+
+[sub_resource type="Resource" id="Resource_adavx"]
+script = ExtResource("2")
+linked_item_ref_id = 277
+
+[sub_resource type="Resource" id="Resource_x2mvc"]
+script = ExtResource("2")
+linked_item_ref_id = 248
+
+[sub_resource type="Resource" id="Resource_tgle4"]
+script = ExtResource("2")
+linked_item_ref_id = 265
+
+[sub_resource type="Resource" id="Resource_trv3v"]
+script = ExtResource("2")
+linked_item_ref_id = 252
+
+[sub_resource type="Resource" id="Resource_j1b5r"]
+script = ExtResource("2")
+linked_item_ref_id = 268
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mtpux"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="CameraManPanel" type="Panel"]
+offset_left = 9.0
+offset_top = 514.0
+offset_right = 812.0
+offset_bottom = 1029.0
+
+[node name="BlooperNoteSpot" parent="." instance=ExtResource("1")]
+layout_mode = 1
+offset_left = 511.0
+offset_top = 255.0
+offset_right = -75.0
+offset_bottom = -83.0
+hotspot_id = "M-G"
+extra_items_unlocked = [SubResource("Resource_g31xg"), SubResource("Resource_adavx"), SubResource("Resource_x2mvc"), SubResource("Resource_tgle4"), SubResource("Resource_trv3v"), SubResource("Resource_j1b5r")]
+
+[node name="BlooperNotePanel" type="Panel" parent="BlooperNoteSpot"]
+layout_mode = 0
+offset_left = -77.0
+offset_top = 291.0
+offset_right = 441.0
+offset_bottom = 879.0
+
+[node name="TextureRect" type="TextureRect" parent="BlooperNoteSpot/BlooperNotePanel"]
+modulate = Color(0.701961, 0.654902, 0.52549, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 505.0
+offset_bottom = 572.0
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D9" type="Sprite2D" parent="BlooperNoteSpot/BlooperNotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.956863)
+position = Vector2(115, 190)
+rotation = -0.20996099710464478
+scale = Vector2(1.05484, 1.05489)
+skew = 0.006075140088796616
+texture = ExtResource("4")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 382.5, 454, 222.2)
+
+[node name="Sprite2D8" type="Sprite2D" parent="BlooperNoteSpot/BlooperNotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(359, 337)
+rotation = 1.577839970588684
+scale = Vector2(0.833055, 1.26625)
+texture = ExtResource("4")
+offset = Vector2(45.6914, 6.36548)
+region_enabled = true
+region_rect = Rect2(142, 10.15, 454, 219.45)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="BlooperNoteSpot/BlooperNotePanel"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 27.0
+offset_right = 489.0
+offset_bottom = 556.0
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_fonts/normal_font = ExtResource("5")
+theme_override_fonts/bold_font = ExtResource("6")
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "SHOW_MITCHELL_NOTES"
+autowrap_mode = 2
+
+[node name="CameraManText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 419.0
+offset_top = 51.0
+offset_right = 777.0
+offset_bottom = 285.0
+theme = ExtResource("7")
+theme_override_fonts/font = ExtResource("5")
+theme_override_font_sizes/font_size = 26
+text = "SHOW_MITCHELL_SPEECH"
+autowrap_mode = 3
+
+[node name="Cameraman" type="AnimatedSprite2D" parent="."]
+position = Vector2(213, 272)
+sprite_frames = SubResource("SpriteFrames_mtpux")
+autoplay = "default"
+frame_progress = 0.46493101119995117
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.741176, 0.690196, 0.552941, 1)
+position = Vector2(624, 351)
+texture = ExtResource("56")

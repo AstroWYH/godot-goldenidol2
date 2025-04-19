@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=4 uid="uid://bgce3fy0lt4lr"]
+
+[ext_resource type="Texture2D" uid="uid://cbxcprhnmn541" path="res://acts/full_game/research_arc/aviary/assets/closeups/lockermoore.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://bj0jemrqe6nyk" path="res://acts/full_game/research_arc/aviary/assets/closeups/crystalpgoto.png" id="4"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
+
+[sub_resource type="Resource" id="Resource_4f3lg"]
+script = ExtResource("3")
+linked_item_ref_id = 484
+
+[node name="MooreLocker" type="Panel"]
+offset_left = -671.0
+offset_top = -1120.0
+offset_right = -165.0
+offset_bottom = -410.0
+
+[node name="Calendar" type="Sprite2D" parent="."]
+position = Vector2(257, 346)
+texture = ExtResource("1")
+
+[node name="PhotoSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 57.0
+offset_top = 179.0
+offset_right = -347.0
+offset_bottom = -390.0
+hotspot_id = "mtc"
+unlocked_item_ref_id = 460
+extra_items_unlocked = [SubResource("Resource_4f3lg")]
+
+[node name="MooreLockerPhoto" type="Panel" parent="PhotoSpot"]
+layout_mode = 0
+offset_left = -211.0
+offset_top = -843.0
+offset_right = 509.0
+offset_bottom = -266.0
+
+[node name="Calendar" type="Sprite2D" parent="PhotoSpot/MooreLockerPhoto"]
+position = Vector2(359, 283)
+texture = ExtResource("4")
+
+[node name="LabelLoveOfLife" type="Label" parent="PhotoSpot/MooreLockerPhoto/Calendar"]
+offset_left = -332.0
+offset_top = 218.0
+offset_right = -113.0
+offset_bottom = 319.0
+rotation = -0.20681700110435486
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.239216, 0.196078, 0.180392, 1)
+theme_override_font_sizes/font_size = 26
+text = "AVIARY_PHOTO_LABEL"
+horizontal_alignment = 1
+autowrap_mode = 3

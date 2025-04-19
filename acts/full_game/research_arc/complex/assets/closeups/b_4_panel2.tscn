@@ -1,0 +1,256 @@
+[gd_scene load_steps=18 format=4 uid="uid://dob41mbls8ywc"]
+
+[ext_resource type="Texture2D" uid="uid://dn8iic25l4h3n" path="res://acts/full_game/research_arc/complex/assets/closeups/06_b3_bird.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="5"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cng0xh7bb6wi2" path="res://shared/assets/papers/PostitNote_V2.png" id="8"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="9"]
+[ext_resource type="Texture2D" uid="uid://coj7c8h2elu8c" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_books1.png" id="10"]
+
+[sub_resource type="Resource" id="Resource_ycm8e"]
+script = ExtResource("3")
+linked_item_ref_id = 729
+
+[sub_resource type="Resource" id="Resource_p6pej"]
+script = ExtResource("3")
+linked_item_ref_id = 1081
+
+[sub_resource type="Resource" id="Resource_mx2wx"]
+script = ExtResource("3")
+linked_item_ref_id = 1075
+
+[sub_resource type="Resource" id="Resource_080dy"]
+script = ExtResource("3")
+linked_item_ref_id = 1076
+
+[sub_resource type="Resource" id="Resource_cnghd"]
+script = ExtResource("3")
+linked_item_ref_id = 1077
+
+[sub_resource type="Resource" id="Resource_0o4hk"]
+script = ExtResource("3")
+linked_item_ref_id = 1074
+
+[sub_resource type="Resource" id="Resource_pjtwx"]
+script = ExtResource("3")
+linked_item_ref_id = 724
+
+[node name="B4Panel" type="Panel"]
+offset_left = 1163.0
+offset_top = -559.0
+offset_right = 2085.0
+offset_bottom = 28.0
+
+[node name="06B3Cheyenne" type="Sprite2D" parent="."]
+position = Vector2(12, 9)
+texture = ExtResource("1")
+centered = false
+
+[node name="CheyenneScheduleSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 368.0
+offset_top = 148.0
+offset_right = -450.0
+offset_bottom = -375.0
+hotspot_id = "DuS"
+unlocked_item_ref_id = 706
+extra_items_unlocked = [SubResource("Resource_ycm8e"), SubResource("Resource_p6pej"), SubResource("Resource_mx2wx"), SubResource("Resource_080dy"), SubResource("Resource_cnghd"), SubResource("Resource_0o4hk")]
+
+[node name="CheyenneSchedulePanel" type="Panel" parent="CheyenneScheduleSpot"]
+layout_mode = 0
+offset_left = -240.0
+offset_top = -666.0
+offset_right = 383.0
+offset_bottom = -166.0
+
+[node name="Sprite2D" type="TextureRect" parent="CheyenneScheduleSpot/CheyenneSchedulePanel"]
+modulate = Color(0.662745, 0.643137, 0.584314, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 611.0
+offset_bottom = 483.0
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="CheyenneScheduleSpot/CheyenneSchedulePanel/Sprite2D"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(169.139, 291)
+rotation = 3.1215500831604004
+scale = Vector2(0.721913, 0.721913)
+texture = ExtResource("5")
+region_enabled = true
+region_rect = Rect2(132.587, 0, 467.413, 380.606)
+
+[node name="Sprite2D2" type="Sprite2D" parent="CheyenneScheduleSpot/CheyenneSchedulePanel/Sprite2D"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(419, 239)
+rotation = 0.03368400037288666
+scale = Vector2(0.721913, 0.721913)
+texture = ExtResource("5")
+region_enabled = true
+region_rect = Rect2(132.587, 219, 467.413, 161.606)
+
+[node name="ScheduleText" type="RichTextLabel" parent="CheyenneScheduleSpot/CheyenneSchedulePanel"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 34.0
+offset_right = 583.0
+offset_bottom = 470.0
+mouse_filter = 1
+theme = ExtResource("6")
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "COMPLEX_CHEYENNE_TIMETABLE"
+
+[node name="CheyenneLetterSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 392.0
+offset_top = 262.0
+offset_right = -423.0
+offset_bottom = -266.0
+hotspot_id = "DuS"
+unlocked_item_ref_id = 1074
+extra_items_unlocked = [SubResource("Resource_pjtwx")]
+
+[node name="Indicators" parent="CheyenneLetterSpot" index="0"]
+offset_left = -20.5
+offset_top = 60.0
+offset_right = -20.5
+offset_bottom = 60.0
+
+[node name="FocusGrabber" parent="CheyenneLetterSpot/Indicators" index="2"]
+offset_left = -20.0
+offset_right = 25.0
+
+[node name="CheyenneLetterPanel" type="Panel" parent="CheyenneLetterSpot"]
+layout_mode = 0
+offset_left = 586.0
+offset_top = -503.0
+offset_right = 1189.0
+offset_bottom = -63.0
+
+[node name="Sprite2D" type="TextureRect" parent="CheyenneLetterSpot/CheyenneLetterPanel"]
+modulate = Color(0.880678, 0.862999, 0.806743, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 590.0
+offset_bottom = 424.0
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="CheyenneLetterSpot/CheyenneLetterPanel/Sprite2D"]
+modulate = Color(1, 1, 1, 0.631373)
+position = Vector2(301, 202)
+rotation = 0.17294900119304657
+scale = Vector2(1.09446, 0.96072)
+texture = ExtResource("5")
+region_enabled = true
+region_rect = Rect2(132.587, 0, 467.413, 380.606)
+
+[node name="PostitNoteV2" type="Sprite2D" parent="CheyenneLetterSpot/CheyenneLetterPanel"]
+position = Vector2(505.772, 337.636)
+rotation = 0.03665189817547798
+scale = Vector2(0.419399, 0.419399)
+texture = ExtResource("8")
+
+[node name="LetterText" type="Label" parent="CheyenneLetterSpot/CheyenneLetterPanel"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 26.0
+offset_right = 425.0
+offset_bottom = 412.0
+theme_override_colors/font_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_fonts/font = ExtResource("9")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_CHEYENNE_WALL_NOTE_1"
+autowrap_mode = 2
+
+[node name="PostItText" type="Label" parent="CheyenneLetterSpot/CheyenneLetterPanel"]
+layout_mode = 0
+offset_left = 445.0
+offset_top = 257.0
+offset_right = 579.0
+offset_bottom = 409.0
+rotation = 0.07525189965963364
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_fonts/font = ExtResource("9")
+text = "COMPLEX_CHEYENNE_WALL_NOTE_2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+clip_text = true
+
+[node name="BooksSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 428.0
+offset_top = 331.0
+offset_right = -374.0
+offset_bottom = -206.0
+hotspot_id = "DuS"
+
+[node name="Indicators" parent="BooksSpot" index="0"]
+offset_left = 20.0
+offset_top = 46.0
+offset_right = 20.0
+offset_bottom = 46.0
+
+[node name="BooksPanel" type="Panel" parent="BooksSpot"]
+layout_mode = 0
+offset_left = 548.0
+offset_top = -47.0
+offset_right = 1074.0
+offset_bottom = 305.0
+
+[node name="YBooks1" type="Sprite2D" parent="BooksSpot/BooksPanel"]
+position = Vector2(263, 161)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10")
+
+[node name="SkewText2" type="Node2D" parent="BooksSpot/BooksPanel"]
+position = Vector2(49, 131)
+rotation = 0.034906599670648575
+skew = -0.23561899363994598
+
+[node name="BookTitleText2" type="Label" parent="BooksSpot/BooksPanel/SkewText2"]
+offset_left = 2.0154199600219727
+offset_top = -0.07178559899330139
+offset_right = 250.01499938964844
+offset_bottom = 45.928199768066406
+rotation = 0.19621700048446655
+theme_override_colors/font_color = Color(0.077911, 0.184461, 0.0956906, 1)
+theme_override_font_sizes/font_size = 18
+text = "COMPLEX_BOOK_TITLE_1"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="SkewText3" type="Node2D" parent="BooksSpot/BooksPanel"]
+position = Vector2(54, 225)
+rotation = -0.022689299657940865
+skew = -0.14137199521064758
+
+[node name="BookTitleText1" type="Label" parent="BooksSpot/BooksPanel/SkewText3"]
+offset_left = -2.494570016860962
+offset_top = -3.098210096359253
+offset_right = 263.5050048828125
+offset_bottom = 45.901798248291016
+rotation = 0.11125499755144119
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.0116357, 0.128258, 0.2041, 1)
+theme_override_font_sizes/font_size = 18
+text = "COMPLEX_BOOK_TITLE_2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[editable path="CheyenneLetterSpot"]
+[editable path="BooksSpot"]

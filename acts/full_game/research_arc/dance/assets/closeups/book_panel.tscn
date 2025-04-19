@@ -1,0 +1,507 @@
+[gd_scene load_steps=33 format=4 uid="uid://ch8cjuwim5bf8"]
+
+[ext_resource type="Texture2D" uid="uid://c7u86lls5h05q" path="res://acts/full_game/research_arc/dance/assets/closeups/cover.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://dclt4t67c0tua" path="res://acts/full_game/research_arc/dance/assets/closeups/moves01.png" id="4"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
+[ext_resource type="Texture2D" uid="uid://cm348qi4b3s8d" path="res://acts/full_game/research_arc/dance/assets/closeups/moves02.png" id="6"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="7"]
+[ext_resource type="Texture2D" uid="uid://bv742jbl3kgmo" path="res://acts/full_game/research_arc/dance/assets/closeups/moves03.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://wux55wdhb8sv" path="res://acts/full_game/research_arc/dance/assets/closeups/moves04.png" id="9"]
+
+[sub_resource type="Resource" id="Resource_atr4b"]
+script = ExtResource("3")
+linked_item_ref_id = 409
+
+[sub_resource type="Resource" id="Resource_igsab"]
+script = ExtResource("3")
+linked_item_ref_id = 410
+
+[sub_resource type="Resource" id="Resource_32b7x"]
+script = ExtResource("3")
+linked_item_ref_id = 411
+
+[sub_resource type="Resource" id="Resource_kb0yi"]
+script = ExtResource("3")
+linked_item_ref_id = 412
+
+[sub_resource type="Resource" id="Resource_ocm5f"]
+script = ExtResource("3")
+linked_item_ref_id = 413
+
+[sub_resource type="Resource" id="Resource_thhgj"]
+script = ExtResource("3")
+linked_item_ref_id = 414
+
+[sub_resource type="Resource" id="Resource_8y8cu"]
+script = ExtResource("3")
+linked_item_ref_id = 415
+
+[sub_resource type="Resource" id="Resource_hnr1y"]
+script = ExtResource("3")
+linked_item_ref_id = 416
+
+[sub_resource type="Resource" id="Resource_xxren"]
+script = ExtResource("3")
+linked_item_ref_id = 417
+
+[sub_resource type="Resource" id="Resource_qov7w"]
+script = ExtResource("3")
+linked_item_ref_id = 418
+
+[sub_resource type="Resource" id="Resource_u35y3"]
+script = ExtResource("3")
+linked_item_ref_id = 419
+
+[sub_resource type="Resource" id="Resource_372sn"]
+script = ExtResource("3")
+linked_item_ref_id = 420
+
+[sub_resource type="Resource" id="Resource_mo4f7"]
+script = ExtResource("3")
+linked_item_ref_id = 421
+
+[sub_resource type="Resource" id="Resource_c1q83"]
+script = ExtResource("3")
+linked_item_ref_id = 423
+
+[sub_resource type="Resource" id="Resource_7yima"]
+script = ExtResource("3")
+linked_item_ref_id = 424
+
+[sub_resource type="Resource" id="Resource_mb14g"]
+script = ExtResource("3")
+linked_item_ref_id = 425
+
+[sub_resource type="Resource" id="Resource_8iokt"]
+script = ExtResource("3")
+linked_item_ref_id = 426
+
+[sub_resource type="Resource" id="Resource_8dts7"]
+script = ExtResource("3")
+linked_item_ref_id = 427
+
+[sub_resource type="Resource" id="Resource_c1rqw"]
+script = ExtResource("3")
+linked_item_ref_id = 429
+
+[sub_resource type="Resource" id="Resource_2iccn"]
+script = ExtResource("3")
+linked_item_ref_id = 430
+
+[sub_resource type="Resource" id="Resource_jjdqb"]
+script = ExtResource("3")
+linked_item_ref_id = 431
+
+[sub_resource type="Resource" id="Resource_axvi1"]
+script = ExtResource("3")
+linked_item_ref_id = 432
+
+[sub_resource type="Resource" id="Resource_xmahb"]
+script = ExtResource("3")
+linked_item_ref_id = 434
+
+[node name="BookPanel" type="Panel"]
+offset_left = -525.0
+offset_top = 733.0
+offset_right = 47.0
+offset_bottom = 1447.0
+scale = Vector2(0.696278, 0.720036)
+
+[node name="BookCover" type="Sprite2D" parent="."]
+position = Vector2(318.838, 347.205)
+texture = ExtResource("1")
+
+[node name="BookmarkTriangleSpot" parent="BookCover" instance=ExtResource("2")]
+offset_left = 164.0
+offset_top = -228.0
+offset_right = -282.0
+offset_bottom = -754.0
+hotspot_id = "D8M"
+unlocked_item_ref_id = 408
+extra_items_unlocked = [SubResource("Resource_atr4b"), SubResource("Resource_igsab"), SubResource("Resource_32b7x"), SubResource("Resource_kb0yi"), SubResource("Resource_ocm5f"), SubResource("Resource_thhgj"), SubResource("Resource_8y8cu"), SubResource("Resource_hnr1y"), SubResource("Resource_xxren"), SubResource("Resource_qov7w"), SubResource("Resource_u35y3"), SubResource("Resource_372sn"), SubResource("Resource_mo4f7")]
+
+[node name="ObjectsPagePanel1" type="Panel" parent="BookCover/BookmarkTriangleSpot"]
+layout_mode = 0
+offset_left = 1125.7099609375
+offset_top = -281.6969909667969
+offset_right = 2024.7099609375
+offset_bottom = 327.3030090332031
+scale = Vector2(0.696278, 0.720036)
+
+[node name="pageObjectsCreatures" type="Sprite2D" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1"]
+position = Vector2(456.072, 292.142)
+texture = ExtResource("4")
+
+[node name="LabelFood" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = -334.3659973144531
+offset_top = -45.25279998779297
+offset_right = -91.36589813232422
+offset_bottom = 20.74720001220703
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_FOOD"
+autowrap_mode = 3
+
+[node name="LabelDoor" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = -123.97100067138672
+offset_top = -45.252899169921875
+offset_right = 72.02890014648438
+offset_bottom = 20.747100830078125
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_DOOR"
+autowrap_mode = 3
+
+[node name="LabelKey" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = -334.3659973144531
+offset_top = 170.77499389648438
+offset_right = -160.36599731445313
+offset_bottom = 236.77499389648438
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_KEY"
+autowrap_mode = 3
+
+[node name="LabelMachine" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = -159.03700256347656
+offset_top = 170.77499389648438
+offset_right = 137.96299743652344
+offset_bottom = 236.77499389648438
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_MACHINE"
+autowrap_mode = 3
+
+[node name="LabelSpider" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = 38.9817008972168
+offset_top = -263.2090148925781
+offset_right = 252.98199462890625
+offset_bottom = -164.20899963378906
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_SPIDER"
+autowrap_mode = 3
+
+[node name="LabelFool" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = 234.93800354003906
+offset_top = -247.7790069580078
+offset_right = 428.93798828125
+offset_bottom = -181.7790069580078
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_FOOL"
+autowrap_mode = 3
+
+[node name="LabelForbidden" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = 55.483299255371094
+offset_top = 178.49000549316406
+offset_right = 319.4830017089844
+offset_bottom = 244.49000549316406
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_FORBIDDEN"
+autowrap_mode = 3
+
+[node name="LabelVampire" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = 201.9340057373047
+offset_top = -10.534099578857422
+offset_right = 425.9339904785156
+offset_bottom = 22.465900421142578
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_VAMPIRE"
+autowrap_mode = 3
+
+[node name="LabelTitleObjects" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
+offset_left = 34.856300354003906
+offset_top = -72.25630187988281
+offset_right = 496.8559875488281
+offset_bottom = 14.74370002746582
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.886275, 0.121569, 0.215686, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_OBJECTS_CREATURES"
+autowrap_mode = 3
+
+[node name="PageActionSpot" parent="BookCover" instance=ExtResource("2")]
+offset_left = 171.0
+offset_top = -137.0
+offset_right = -292.0
+offset_bottom = -661.0
+hotspot_id = "QNx"
+unlocked_item_ref_id = 422
+extra_items_unlocked = [SubResource("Resource_c1q83"), SubResource("Resource_7yima"), SubResource("Resource_mb14g"), SubResource("Resource_8iokt"), SubResource("Resource_8dts7")]
+
+[node name="PageActionPanel" type="Panel" parent="BookCover/PageActionSpot"]
+layout_mode = 0
+offset_left = 2017.780029296875
+offset_top = -617.1290283203125
+offset_right = 2929.780029296875
+offset_bottom = -8.12926959991455
+scale = Vector2(0.696278, 0.720036)
+
+[node name="PageAction" type="Sprite2D" parent="BookCover/PageActionSpot/PageActionPanel"]
+position = Vector2(457.392, 301.529)
+texture = ExtResource("6")
+
+[node name="LabelActionTitle" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = -369.0
+offset_top = -43.0
+offset_right = -8.0
+offset_bottom = 30.0
+theme_override_colors/font_color = Color(0.886275, 0.121569, 0.215686, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 32
+text = "DANCE_ACTIONS"
+autowrap_mode = 2
+
+[node name="LabelBuild" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = -418.1990051269531
+offset_top = -268.739013671875
+offset_right = -164.19900512695313
+offset_bottom = -202.73899841308594
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_BUILD"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="LabelBeware" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = -183.0
+offset_top = -257.0
+offset_right = -6.0
+offset_bottom = -199.0
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_BEWARE"
+horizontal_alignment = 1
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="LabelShout" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = -376.94500732421875
+offset_top = 176.8179931640625
+offset_right = -179.94500732421875
+offset_bottom = 209.8179931640625
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_SHOUT"
+horizontal_alignment = 1
+
+[node name="LabelShut" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = -302.68798828125
+offset_top = 134.38400268554688
+offset_right = -96.6884994506836
+offset_bottom = 182.38400268554688
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_SHUT"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="LabelGive" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = 33.530601501464844
+offset_top = 176.8179931640625
+offset_right = 204.531005859375
+offset_bottom = 209.8179931640625
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_GIVE"
+autowrap_mode = 3
+
+[node name="LabelSteal" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = 212.98399353027344
+offset_top = 178.7469940185547
+offset_right = 428.9840087890625
+offset_bottom = 211.7469940185547
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 22
+text = "DANCE_STEAL"
+autowrap_mode = 3
+
+[node name="LabelForExample" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
+offset_left = 38.676998138427734
+offset_top = -213.6490020751953
+offset_right = 351.677001953125
+offset_bottom = 64.35140228271484
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_font_sizes/font_size = 24
+text = "DANCE_BOOK_BODY_1"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="GesturePageSpot" parent="BookCover" instance=ExtResource("2")]
+offset_left = 157.0
+offset_top = -12.0
+offset_right = -292.0
+offset_bottom = -519.0
+hotspot_id = "Uzy"
+unlocked_item_ref_id = 428
+extra_items_unlocked = [SubResource("Resource_c1rqw"), SubResource("Resource_2iccn"), SubResource("Resource_jjdqb"), SubResource("Resource_axvi1")]
+
+[node name="GesturePagePanel" type="Panel" parent="BookCover/GesturePageSpot"]
+layout_mode = 0
+offset_left = 2886.0
+offset_top = -846.0
+offset_right = 3785.0
+offset_bottom = -228.0
+scale = Vector2(0.696278, 0.720036)
+
+[node name="PageGesture" type="Sprite2D" parent="BookCover/GesturePageSpot/GesturePagePanel"]
+position = Vector2(451.232, 304.286)
+texture = ExtResource("8")
+
+[node name="LabelPhilo" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = -370.3210144042969
+offset_top = -256.468994140625
+offset_right = -34.320499420166016
+offset_bottom = -28.4689998626709
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+text = "DANCE_BOOK_BODY_2"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelTwoFingers" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = -374.0
+offset_top = 58.0
+offset_right = -5.0
+offset_bottom = 336.0
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+text = "DANCE_BOOK_BODY_3"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelKnowledge" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = 256.7380065917969
+offset_top = -196.67599487304688
+offset_right = 594.7379760742188
+offset_bottom = 81.32420349121094
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_KNOWLEDGE"
+autowrap_mode = 2
+
+[node name="LabelObedience" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = -25.85070037841797
+offset_top = -161.95700073242188
+offset_right = 136.1490020751953
+offset_bottom = -96.95680236816406
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_OBEDIENCE"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="LabelEvil" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = -14.75629997253418
+offset_top = -7.213500022888184
+offset_right = 120.24400329589844
+offset_bottom = 34.7864990234375
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_EVIL"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="LabelStrenght" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = -27.914600372314453
+offset_top = 48.28450012207031
+offset_right = 107.08599853515625
+offset_bottom = 90.28450012207031
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_STRENGTH"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="LabelCuriosity" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
+offset_left = -25.852500915527344
+offset_top = 110.00700378417969
+offset_right = 109.14800262451172
+offset_bottom = 152.00599670410156
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_CURIOSITY"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="StancesPageSpot" parent="BookCover" instance=ExtResource("2")]
+offset_left = 164.0
+offset_top = 94.0
+offset_right = -306.0
+offset_bottom = -415.0
+hotspot_id = "Kf3"
+unlocked_item_ref_id = 433
+extra_items_unlocked = [SubResource("Resource_xmahb")]
+
+[node name="StancesPagePanel" type="Panel" parent="BookCover/StancesPageSpot"]
+layout_mode = 0
+offset_left = 3638.0
+offset_top = -1082.0
+offset_right = 4595.0
+offset_bottom = -457.0
+scale = Vector2(0.696278, 0.720036)
+
+[node name="PageStances" type="Sprite2D" parent="BookCover/StancesPageSpot/StancesPagePanel"]
+position = Vector2(480.24, 307.523)
+scale = Vector2(1.045, 1)
+texture = ExtResource("9")
+
+[node name="LabelStancesBody" type="Label" parent="BookCover/StancesPageSpot/StancesPagePanel/PageStances"]
+offset_left = -357.4100036621094
+offset_top = -223.8209991455078
+offset_right = -46.40950012207031
+offset_bottom = 200.1790008544922
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_BOOK_BODY_4"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelOneFoot" type="Label" parent="BookCover/StancesPageSpot/StancesPagePanel/PageStances"]
+offset_left = 29.0
+offset_top = -199.0
+offset_right = 361.0
+offset_bottom = -25.0
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_BOOK_BODY_5"
+autowrap_mode = 3
+
+[node name="LabelCrossLeg" type="Label" parent="BookCover/StancesPageSpot/StancesPagePanel/PageStances"]
+offset_left = 16.0
+offset_top = 87.0
+offset_right = 368.0
+offset_bottom = 203.0
+theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
+theme_override_fonts/font = ExtResource("7")
+theme_override_font_sizes/font_size = 22
+text = "DANCE_BOOK_BODY_6"
+horizontal_alignment = 1
+autowrap_mode = 3

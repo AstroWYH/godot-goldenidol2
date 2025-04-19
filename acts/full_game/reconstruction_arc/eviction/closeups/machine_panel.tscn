@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=4 uid="uid://b75hjwu75rhyy"]
+
+[ext_resource type="Shader" path="res://shared/shaders/shadow.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://h8hv3lpml7et" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/reader.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dkhuskk4kc5kc" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/reader_frame.png" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cxatj"]
+shader = ExtResource("1")
+shader_parameter/wave_freq = 2.0
+shader_parameter/wave_count = 7.0
+shader_parameter/color = Color(1, 1, 1, 1)
+
+[node name="MachinePanel" type="Panel"]
+offset_left = 563.0
+offset_top = 400.0
+offset_right = 1141.0
+offset_bottom = 1222.0
+
+[node name="MachineSprite" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_cxatj")
+position = Vector2(289, 408)
+texture = ExtResource("2")
+
+[node name="ReaderFrame" type="Sprite2D" parent="."]
+position = Vector2(289, 408)
+texture = ExtResource("3")
+
+[node name="MachineLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 119.0
+offset_top = 14.0
+offset_right = 464.0
+offset_bottom = 55.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.423529, 0.521569, 0.490196, 1)
+text = "EVICTION_MACHINE_LABEL"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="MachineLabel2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 769.0
+offset_right = 553.0
+offset_bottom = 804.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.423529, 0.521569, 0.490196, 1)
+text = "EVICTION_MACHINE_LABEL2"
+horizontal_alignment = 1
+autowrap_mode = 3

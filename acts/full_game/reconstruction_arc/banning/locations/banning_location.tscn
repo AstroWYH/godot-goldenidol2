@@ -1,0 +1,376 @@
+[gd_scene load_steps=53 format=4 uid="uid://cqx2qmiln477v"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://dvlhqchfcdpva" path="res://acts/full_game/reconstruction_arc/banning/locations/banning_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://ovn68rin4ann" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cx00y01snjf53" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cpo78f4bwvqo0" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cia7v2k2bjs5t" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://1arpqultsngb" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cu341lcn5h84l" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://e2m5snr3ww1b" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://fxtemkq4ccsd" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cp6pbuoejptwf" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bsnqyhrba4o4w" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://7vxqvnh0qxaf" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dvgd46phqgwno" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dcs1j4c8hwepj" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b6ebp1lyv33q6" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b31hnygg7pi7g" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bgwcscih23s6n" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dgng4e3useyjo" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://fmpml5d4nv2m" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ccup8xc1xgwwv" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c5jslyivv0icf" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cgw4x1vxvlmuq" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://caqdsvy6c86n" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dl6fyksjfhvmb" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c322ullxxwf3d" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bsekpe5arb4qs" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c17n4vs7inh06" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bnhblxbjbacld" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://1fsp6n18h43r" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bof1mafr4jqmf" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cb30qy3l0464s" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_029.png" id="32"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="33"]
+[ext_resource type="PackedScene" uid="uid://nl7hnu8equpk" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/table_panel.tscn" id="34"]
+[ext_resource type="Resource" uid="uid://d3q5uxljty8o7" path="res://acts/full_game/reconstruction_arc/banning/locations/banning_overview_meta.tres" id="35"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="36"]
+[ext_resource type="PackedScene" uid="uid://bb662laygwbf2" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/notes_panel.tscn" id="37"]
+[ext_resource type="PackedScene" uid="uid://jv1aevvpviao" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/wheel_panel.tscn" id="38"]
+[ext_resource type="PackedScene" uid="uid://eny73an3xjyi" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/hedge_panel.tscn" id="39"]
+[ext_resource type="PackedScene" uid="uid://bn18otpqow83n" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/bbq_panel.tscn" id="40"]
+[ext_resource type="Resource" uid="uid://dvo0tb6yq46n1" path="res://acts/full_game/reconstruction_arc/banning/puzzles/picture_puzzle_meta.tres" id="41"]
+[ext_resource type="PackedScene" uid="uid://d23rqkbh6iqml" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/tobias_panel.tscn" id="42"]
+[ext_resource type="PackedScene" uid="uid://dihtxufoq6cbr" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/corbyn_panel.tscn" id="43"]
+[ext_resource type="PackedScene" uid="uid://c3ggkyr128fb6" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/ice_panel.tscn" id="44"]
+[ext_resource type="PackedScene" uid="uid://bu3cqux25gwk3" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/jeffrey_panel.tscn" id="45"]
+[ext_resource type="PackedScene" uid="uid://dso47okslq21g" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/odetta_panel.tscn" id="46"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lpceu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_cjcmn"]
+script = ExtResource("36")
+linked_item_ref_id = 831
+
+[sub_resource type="Resource" id="Resource_qtds8"]
+script = ExtResource("36")
+linked_item_ref_id = 830
+
+[sub_resource type="Resource" id="Resource_si5mq"]
+script = ExtResource("36")
+linked_item_ref_id = 846
+
+[sub_resource type="Resource" id="Resource_woddo"]
+script = ExtResource("36")
+linked_item_ref_id = 841
+
+[sub_resource type="Resource" id="Resource_lncxc"]
+script = ExtResource("36")
+linked_item_ref_id = 848
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Background" type="AnimatedSprite2D" parent="."]
+position = Vector2(565, 359)
+sprite_frames = SubResource("SpriteFrames_lpceu")
+autoplay = "default"
+frame = 16
+frame_progress = 0.5229520201683044
+centered = false
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TableSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 119.0
+offset_top = 720.0
+offset_right = 408.0
+offset_bottom = 871.0
+hotspot_id = "_Be"
+
+[node name="TablePanel" parent="Hotspots/TableSpot" instance=ExtResource("34")]
+layout_mode = 0
+offset_left = -1198.0
+offset_top = -188.0
+offset_right = -382.0
+offset_bottom = 429.0
+
+[node name="OverviewSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 743.0
+offset_top = 21.0
+offset_right = 1400.0
+offset_bottom = 100.0
+hotspot_id = "FuO"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("35")
+transition = 3
+transition_sound = 17
+
+[node name="Highlighter" parent="Hotspots/OverviewSpot/Indicators" index="0"]
+rotation = 3.141590118408203
+
+[node name="BinocularSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 512.0
+offset_top = 128.0
+offset_right = 582.0
+offset_bottom = 166.0
+scale = Vector2(1.01331, 1)
+hotspot_id = "c8c"
+text = "NEIGHBORHOOD_BINOCULARS_TOOLTIP"
+
+[node name="NotesSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 539.0
+offset_top = 234.0
+offset_right = 565.0
+offset_bottom = 253.0
+hotspot_id = "CMq"
+unlocked_item_ref_id = 106
+extra_items_unlocked = [SubResource("Resource_cjcmn"), SubResource("Resource_qtds8"), SubResource("Resource_si5mq"), SubResource("Resource_woddo")]
+
+[node name="NotesPanel" parent="Hotspots/NotesSpot" instance=ExtResource("37")]
+layout_mode = 0
+offset_left = -1971.0
+offset_top = -521.0
+offset_right = -1248.0
+offset_bottom = -21.999900817871094
+
+[node name="WheelSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 629.0
+offset_top = 119.0
+offset_right = 685.0
+offset_bottom = 168.0
+hotspot_id = "i97"
+unlocked_item_ref_id = 880
+
+[node name="WheelPanel" parent="Hotspots/WheelSpot" instance=ExtResource("38")]
+layout_mode = 0
+offset_left = 87.0
+offset_top = -891.0
+offset_right = 714.0
+offset_bottom = -471.0
+
+[node name="HedgeSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 981.0
+offset_top = 306.0
+offset_right = 1026.0
+offset_bottom = 368.0
+hotspot_id = "xyl"
+
+[node name="HedgePanel" parent="Hotspots/HedgeSpot" instance=ExtResource("39")]
+layout_mode = 0
+offset_left = 1160.0
+offset_top = -1056.0
+offset_right = 1680.0
+offset_bottom = -533.0
+
+[node name="BBQSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 1069.0
+offset_top = 392.0
+offset_right = 1119.0
+offset_bottom = 494.0
+hotspot_id = "CdK"
+unlocked_item_ref_id = 842
+
+[node name="BBQPanel" parent="Hotspots/BBQSpot" instance=ExtResource("40")]
+layout_mode = 0
+offset_left = -616.0
+offset_top = 1288.0
+offset_right = 222.0
+offset_bottom = 2010.0
+
+[node name="TobiasSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 1168.0
+offset_top = 381.0
+offset_right = 1260.0
+offset_bottom = 469.0
+hotspot_id = "moD"
+unlocked_character_ref_id = 113
+unlocked_item_ref_id = 849
+unlocked_puzzles = [ExtResource("41")]
+
+[node name="TobiasPanel" parent="Hotspots/TobiasSpot" instance=ExtResource("42")]
+layout_mode = 0
+offset_left = 1729.0
+offset_top = 1033.0
+offset_right = 2462.0
+offset_bottom = 1554.0
+
+[node name="CorbynSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 560.0
+offset_top = 635.0
+offset_right = 701.0
+offset_bottom = 900.0
+hotspot_id = "NFm"
+unlocked_character_ref_id = 117
+unlocked_item_ref_id = 855
+
+[node name="CorbynPanel" parent="Hotspots/CorbynSpot" instance=ExtResource("43")]
+layout_mode = 0
+offset_left = 1524.0
+offset_top = 1019.0
+offset_right = 2153.0
+offset_bottom = 1476.0
+
+[node name="IceSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 1009.0
+offset_top = 733.0
+offset_right = 1093.0
+offset_bottom = 814.0
+hotspot_id = "OfJ"
+
+[node name="IcePanel" parent="Hotspots/IceSpot" instance=ExtResource("44")]
+layout_mode = 0
+offset_left = -2052.0
+offset_top = 922.0
+offset_right = -1311.0
+offset_bottom = 1444.0
+
+[node name="JeffreySpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 1189.0
+offset_top = 636.0
+offset_right = 1256.0
+offset_bottom = 716.0
+hotspot_id = "9ls"
+unlocked_character_ref_id = 115
+unlocked_item_ref_id = 229
+
+[node name="JeffreyPanel" parent="Hotspots/JeffreySpot" instance=ExtResource("45")]
+layout_mode = 0
+offset_left = 1618.0
+offset_top = -801.0
+offset_right = 2337.0
+offset_bottom = -311.0
+
+[node name="OdettaSpot" parent="Hotspots" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 1474.0
+offset_top = 555.0
+offset_right = 1577.0
+offset_bottom = 810.0
+hotspot_id = "VH3"
+unlocked_character_ref_id = 112
+unlocked_item_ref_id = 855
+extra_items_unlocked = [SubResource("Resource_lncxc")]
+
+[node name="OdettaPanel" parent="Hotspots/OdettaSpot" instance=ExtResource("46")]
+layout_mode = 0
+offset_left = 1150.0
+offset_top = 158.0
+offset_right = 2034.0
+offset_bottom = 744.0
+
+[editable path="Hotspots/OverviewSpot"]

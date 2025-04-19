@@ -1,0 +1,173 @@
+[gd_scene load_steps=40 format=4 uid="uid://bn18otpqow83n"]
+
+[ext_resource type="Texture2D" uid="uid://dfqje8cbv1phl" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/grill.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://byib3x3o848qm" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://upwqwkov27rc" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://28302wtlu18o" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bhmtybp2bdtq4" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cmsmp7sicr2on" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://kmgr1msm5w4d" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://h7u6wt338rhw" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bfi4sg3m0q3e2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bpfxlueuvq053" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bu6nr5b3b8spv" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cp2dnga7qynk" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://jmk2ji85132m" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bjanw4ns8yll2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ca066ialdvp67" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://u6abhcfy7vbd" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://57awpuphtnmt" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://rvmdbcrfrqvn" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://0fw3h5sg8ip2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dcgo7wg15ppcs" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://befdba3i27el4" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://d3ew1p25wj6l5" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bcs7f4nt3ndbm" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dsodlbjbjqnjw" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://wommu0ugda1q" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://boaudi71i6uqj" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://11jdbjlwcrpa" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bkcavnticy6v1" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://l6a72y03tgqn" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://4y8a3fpc0nyv" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cvuegw3cffy7s" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://frf4h1o1i6eb" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bmkwyjhcdfrr1" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://b2wpxw8dbfgps" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dml8poi6kspkd" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://btengw1cscrsn" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dulvm8s0xddje" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://b0rbdim71648f" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00036.png" id="38"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wfwhy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="BBQPanel" type="Panel"]
+offset_left = -552.0
+offset_top = 1003.0
+offset_right = 278.0
+offset_bottom = 1718.0
+
+[node name="BBQSprite" type="Sprite2D" parent="."]
+position = Vector2(418, 357)
+texture = ExtResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BBQSprite"]
+sprite_frames = SubResource("SpriteFrames_wfwhy")
+autoplay = "default"

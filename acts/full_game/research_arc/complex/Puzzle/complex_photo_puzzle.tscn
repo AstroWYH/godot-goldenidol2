@@ -1,0 +1,138 @@
+[gd_scene load_steps=11 format=4 uid="uid://b2th3gl4sgv2e"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="3"]
+[ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="4"]
+[ext_resource type="Resource" uid="uid://ds8ra0o34i66s" path="res://acts/full_game/research_arc/complex/Puzzle/complex_photos_puzzle_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="7"]
+[ext_resource type="Resource" uid="uid://dwk5c8dfvtp7r" path="res://acts/full_game/research_arc/complex/Puzzle/complex_photo_meta_2.tres" id="8"]
+[ext_resource type="Texture2D" uid="uid://c4ft0wexc4rvn" path="res://acts/full_game/research_arc/complex/assets/00_board_picnic_photo_large_pale.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dhcr3bsl2ckpq" path="res://acts/full_game/research_arc/complex/assets/closeups/00_board_torn_photo_puzzle.png" id="10"]
+
+[node name="PhotosPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 800.0
+offset_bottom = 661.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 16.0
+offset_top = -28.0
+offset_right = -187.0
+offset_bottom = -28.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 1.0390000343322754
+offset_left = 63.0
+offset_top = 359.0
+offset_right = -262.0
+offset_bottom = -24.77910041809082
+theme = ExtResource("4")
+puzzle_meta = ExtResource("5")
+text = "COMPLEXT_PHOTO_PUZZLE_CONTENT"
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("6")]
+accepted_types = 1
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/1" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 1074
+
+[node name="2" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("6")]
+accepted_types = 1
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/2" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 1121
+
+[node name="3" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("6")]
+accepted_types = 2
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/3" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 1081
+
+[node name="Puzzle2" parent="PuzzleGroup" index="1" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 1.0390000343322754
+offset_left = 348.0
+offset_top = 359.0
+offset_right = 163.0
+offset_bottom = -18.77910041809082
+theme = ExtResource("4")
+puzzle_meta = ExtResource("8")
+text = "COMPLEXT_PHOTO_PUZZLE_CONTENT2"
+preview_ids = true
+preview_answers = true
+
+[node name="4" parent="PuzzleGroup/Puzzle2" index="2" instance=ExtResource("6")]
+accepted_types = 1
+id = 4
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/4" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 720
+
+[node name="5" parent="PuzzleGroup/Puzzle2" index="3" instance=ExtResource("6")]
+accepted_types = 1
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/5" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 721
+
+[node name="6" parent="PuzzleGroup/Puzzle2" index="4" instance=ExtResource("6")]
+accepted_types = 1
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/6" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 729
+
+[node name="7" parent="PuzzleGroup/Puzzle2" index="5" instance=ExtResource("6")]
+accepted_types = 1
+id = 7
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/7" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 730
+
+[node name="8" parent="PuzzleGroup/Puzzle2" index="6" instance=ExtResource("6")]
+accepted_types = 2
+id = 8
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/8" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 1077
+
+[node name="00BoardPicnicPhotoLargePale" type="Sprite2D" parent="." index="5"]
+position = Vector2(218, 215)
+scale = Vector2(0.29834, 0.283237)
+texture = ExtResource("9")
+
+[node name="00BoardTornPhotoLarger" type="Sprite2D" parent="." index="6"]
+position = Vector2(573, 201)
+texture = ExtResource("10")

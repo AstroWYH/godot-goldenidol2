@@ -1,0 +1,191 @@
+[gd_scene load_steps=36 format=4 uid="uid://d23rqkbh6iqml"]
+
+[ext_resource type="Texture2D" uid="uid://85b6hjry6ayn" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://brgq37t2cmo4j" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bx11o5pjd1uet" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bw17jcg7phsg0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://nvoldc33nmqj" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://6oy4y1eo47x6" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cenkl0iih0fiq" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cy1cm4u1qsr3f" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://l4e0hjd8tys0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://qe1r50xgi53g" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://jq1d3kb77opw" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://diaiw1oi8am4x" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dgeq6urrdq85o" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cggnxw0ldookv" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ul1xwftv2fax" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dpfgardotnlld" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cag68163c0wrx" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cpqef5c4gklx6" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bayfsekiuo6v0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b2vf4fydq0dfw" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://nk82348a7qgl" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://lri3xtt7130i" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bl3p6kxqxvyxl" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cco42qovpjxmj" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cv81ftsxfeja7" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b2yxtmqge8vhh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cnf3cxdkmir86" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://beeljvk624yvn" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://d0jo3faoquclh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b2l6tiorg8o1k" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+[ext_resource type="Texture2D" uid="uid://8dbexm3a71bl" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/ring.png" id="32"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="33"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="34"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yxauy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="TobiasPanel" type="Panel"]
+offset_left = 330.0
+offset_top = 939.0
+offset_right = 1063.0
+offset_bottom = 1460.0
+
+[node name="TobiasSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(180, 316)
+sprite_frames = SubResource("SpriteFrames_yxauy")
+autoplay = "default"
+frame_progress = 0.04959689825773239
+flip_h = true
+
+[node name="SpeechTobiasLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 23.0
+offset_right = 61.0
+offset_bottom = 46.0
+theme = ExtResource("31")
+text = "NEIGHBORHOOD_YARDS_TOBIAS_SPEECH"
+
+[node name="RingSpriteOdetta" type="Sprite2D" parent="."]
+position = Vector2(520, 328)
+texture = ExtResource("32")
+
+[node name="RingOdettaLabel2" type="Label" parent="RingSpriteOdetta"]
+offset_left = -14.0
+offset_top = 22.0
+offset_right = 495.0
+offset_bottom = 55.0
+rotation = 0.3406060039997101
+theme = ExtResource("33")
+theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
+theme_override_font_sizes/font_size = 20
+text = "NEIGHBORHOOD_YARDS_TOBIAS_RING1"
+
+[node name="RingOdettaLabel3" type="Label" parent="RingSpriteOdetta"]
+offset_left = 22.0
+offset_top = 33.0
+offset_right = 95.0
+offset_bottom = 63.0
+rotation = -1.1375999450683594
+theme = ExtResource("33")
+theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
+theme_override_font_sizes/font_size = 20
+text = "NEIGHBORHOOD_YARDS_TOBIAS_RING2"
+
+[node name="RingSpot" parent="." instance=ExtResource("34")]
+layout_mode = 1
+offset_left = 449.0
+offset_top = 234.0
+offset_right = -75.0
+offset_bottom = -122.0
+hotspot_id = "Qc8"
+text = "NEIGHBORHOOD_RING_TOOLTIP"

@@ -1,0 +1,1301 @@
+[gd_scene load_steps=294 format=4 uid="uid://na1016esrwou"]
+
+[ext_resource type="Texture2D" uid="uid://cwrsevf4ulx7v" path="res://acts/full_game/research_arc/complex/assets/closeups/04_a1_myson1x.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cew5ga1iyumux" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://wk3scfbyb07u" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://v27fdick4703" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d2j2mkr4ptftd" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://boxnp8c6rrcx8" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bhn0len7gtmdo" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c2s5asjds74bu" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bkj5ap8tpt1rk" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://0yajiq5k2kou" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dfwxfpfd2cpw8" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://oly6dgdttyid" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cf6412ymp27rr" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c0gg206aybav5" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://chu4ph1mbtoyl" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://btx2cs7xoxuhf" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b8but75868rne" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bm4qj1pyxyxku" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d32pnpugwui7p" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cav43tmlvmsxf" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://wolw86gi57no" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://fq73p8mps2jv" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c27sp5blpeobk" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://u1ryif62ejdt" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dsumm5ima1rua" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bmnqwd2p6marv" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cwmv8vlivtn0v" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dobyq6spnpa70" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ce1bo6n5kn67f" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dvq2awim1su04" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bke3ih8b6aw3n" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bmd2vieowffwq" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bmfyxldeaa1bi" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://d12420ytg35ma" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cad6mashmex2v" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cfkt0fqtbim4b" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://cuxdlhafypbxa" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cwtxjuu8gwvi6" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://blglhsntf2j4f" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cdilxajje2041" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://due3068xhgls7" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c1rmb3v2f7ci3" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bpqylqmsrhc8t" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dhemptp15qdyx" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://7tbmet7nl4ts" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bvmmuebonth1e" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://blqpc8vlyh2y4" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://c2x5ni2unv1th" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://daa4kk1dsnkja" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://brbal07uqvq8t" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://crd8rkhg6h54l" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00049.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://c0yf2pt74uuho" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00050.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://l1be8r742e3v" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00051.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cvcd1eip1381d" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00052.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://csahovsd3mk5l" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00053.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://cabhki0cq06ux" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00054.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://be7avoa8gpecq" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00055.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://ccr27ca2kjxlx" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00056.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://dcoy87qcwrslu" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00057.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://81kws8ntftcf" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00058.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://dn0vosqaje33k" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00059.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://cn4j3qyiua0e6" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00060.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://cujycechtxksh" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00061.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://btr6e032kcpjr" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00062.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dmhww3q7by7sv" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00063.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bk5s45664n66u" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00064.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://dss1ocoac0nct" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00065.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://bfkmx7xp3wel8" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00066.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://j5v3e4tohb77" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00067.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://4uh6tkqhcacx" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00068.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://wxef6q41g1b4" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00069.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://dwidlbbju8yrg" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00070.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dxvymd4oud26h" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00071.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://chm2m2pcr7f7j" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00072.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://do3gpv3wle8wk" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00073.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://blbyil2ca0bje" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00074.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://dhhrnc5tu7h7t" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00075.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://cnr44ev7ktdl8" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00076.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://dio6i3pt2tmeo" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00077.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://bb772vh5f8bqj" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00078.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://dcn0fb7bk6jes" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00079.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://p2iexqrsrx01" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00080.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://dwmi30b617d71" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00081.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://bfqqu8hwlq3c3" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00082.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://b6pyuo4b4sqbj" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00083.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://h3r48ujtm8wg" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00084.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://3hvwnhaq3n5i" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00085.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://c6hlb1wd1r1cd" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00086.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://c5kl25p8o0e58" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00087.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://j4pspyshnpq2" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00088.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://mgj043b83pb3" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00089.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://cefxgqsioueg2" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00090.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dbv5w7k01b3yx" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00091.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://dk7dwdjwjn2iw" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00092.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://cfm37bqse6ew1" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00093.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://cc80a5yvbvxqc" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00094.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bhjn08f4uyp6m" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00095.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://56xa80263242" path="res://acts/full_game/research_arc/complex/assets/closeups/04_a1_table.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://bv7vg0fi1deyl" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00000.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://t5wgnhkn2osj" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00001.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://c700y7wnurlaa" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00002.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://bhj8iuge4n6i4" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00003.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://c1oax3pbqqmx0" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00004.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://ci3r3hknyoh4e" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00005.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://bdnv6blaq4s3s" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00006.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://bicj0jicvgp1t" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00007.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://0gohkfl3dqky" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00008.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://ccmjf4ie481p0" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00009.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://5vwgi66e5t55" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00010.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://j5x7f7w0hugb" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00011.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://cy0ctx160ycrn" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00012.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://g4c2norvceb5" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00013.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://caay0oawc4c8x" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00014.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://oktbryyqkb10" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00015.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://dwgrjt0i0nice" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00016.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://d3ijunjqrrjby" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00017.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://cgydavx0a4ydv" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00018.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://vdv5hdu3yekq" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00019.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://boo48h760fh6d" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00020.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://bnbw08ytymyyg" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00021.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://g54x5ehbx2iv" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00022.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://cy6ki5yxavwhq" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00023.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://deqhcvw30qnh8" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00024.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://bkp810x3ns72b" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00025.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://bm1hmvmbaqqbf" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00026.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://bpkw4bdx48wfy" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00027.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://pgqgx50psqs0" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00028.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://d27gv22mspgc5" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00029.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://crw1hd125oqwt" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00030.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://cyufefxoeebtg" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00031.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://bqodpbqnpndkj" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00032.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://c6g3djonvxd7v" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00033.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://qhcd8mau1vdn" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00034.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://cy1gvmtcn845d" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00035.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://bnfyov8vptr5p" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00036.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://8q0iirbesggh" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00037.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://kvutfqeani70" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00038.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://cb5qom5fppgf2" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00039.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://cse1cv38iil1c" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00040.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://rvdk1a4gom8q" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00041.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://bhgrb8qd0n5q8" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00042.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://d2v76wv7w1gq1" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00043.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://cuibwejnt66j8" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00044.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://tu78uo1gt66t" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00045.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://bpwdsygpae3l6" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00046.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://jldlhid572l5" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00047.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://bmyf6h7vbnjlo" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00048.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://ilfhdnj1q80n" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00049.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://btug70fbc4675" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00050.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://cbxoowfjpgvet" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00051.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://p3lih32j5pok" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00052.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://cams57pj7ucwk" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00053.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://bxtk5sumpfutw" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00054.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://ddp1i2kun7pwy" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00055.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://bvby2lgtfnm12" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00056.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://dy4t0rpcm1v1p" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00057.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://coad4i3a6d4db" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00058.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://6mmvj7ibqkq5" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00059.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://c03w3mple8v2d" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00060.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://cnjipty6i1vgl" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00061.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://k4hnxbglrfgx" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00062.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://q8mm2rhei5om" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00063.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://dfifvs3sjx1ci" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00064.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://chxiordsbckxd" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00065.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://bjnrntr7hgelo" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00066.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://bfmef0h1gtg13" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00067.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://blmns8nuicg60" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00068.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://hrdkae5onc0j" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00069.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://bqur0fy6gyxos" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00070.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://dhx1wnxhvil45" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00071.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://r7ajgyorm7do" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00072.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://dqawyamqbybu5" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00073.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://i7h2jlj7nvcr" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00074.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://g5olnlym13oi" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00075.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://mo544rq8hqvh" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00076.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://y7reufm3o468" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00077.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://urucf7i47csn" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00078.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://cqg57gcgi0dnp" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00079.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://o6ig0o1c5rt8" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00080.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://bhdxdfssdoe38" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00081.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://mywaplh1od5r" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00082.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://c3o1va3m1cty4" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00083.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://dv5kvhuujbsf4" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00084.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://i4fhmvdweqq6" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00085.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://bvgc5l75xg5lw" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00086.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://djyjah1utsat5" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00087.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://ywltyupsp8fx" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00088.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://cjjji4hyxtlv7" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00089.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://uktmt4t7v8d" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00090.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://rb0wwmepyvsb" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00091.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://boy7le2ll12l7" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00092.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://cgdeu4tg1d4aw" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00093.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://c8daav8v8plsw" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00094.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://djwvypo8br35e" path="res://acts/full_game/research_arc/complex/assets/animations/DateWoman/Woman_00095.png" id="194"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="195"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="196"]
+[ext_resource type="Texture2D" uid="uid://htm44g1f1t84" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_000.png" id="197"]
+[ext_resource type="Texture2D" uid="uid://dyyexcql8h5kf" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_001.png" id="198"]
+[ext_resource type="Texture2D" uid="uid://cokgsauxps50d" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_002.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://bhf0dh5tdaly2" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_003.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://d0o5qdh1i8sjr" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_004.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://cy0wfyq2sfcny" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_005.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://ddvmuqicilf8t" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_006.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://b0h1jcgoi4q1p" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_007.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://c13ltscq7psm" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_008.png" id="205"]
+[ext_resource type="Texture2D" uid="uid://b3nbdj53cqm4o" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_009.png" id="206"]
+[ext_resource type="Texture2D" uid="uid://brif0tgmoxh0l" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_010.png" id="207"]
+[ext_resource type="Texture2D" uid="uid://d0ovt0lyo11i8" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_011.png" id="208"]
+[ext_resource type="Texture2D" uid="uid://cyr0tqagk0g3" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_012.png" id="209"]
+[ext_resource type="Texture2D" uid="uid://coo7wyqw6vqke" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_013.png" id="210"]
+[ext_resource type="Texture2D" uid="uid://b4pu6eploi4lk" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_014.png" id="211"]
+[ext_resource type="Texture2D" uid="uid://oor463wv2gwr" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_015.png" id="212"]
+[ext_resource type="Texture2D" uid="uid://dhai8eacgga4x" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_016.png" id="213"]
+[ext_resource type="Texture2D" uid="uid://fa5pwiivc7nx" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_017.png" id="214"]
+[ext_resource type="Texture2D" uid="uid://br8avle0txqjx" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_018.png" id="215"]
+[ext_resource type="Texture2D" uid="uid://lt8xigs4a1ce" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_019.png" id="216"]
+[ext_resource type="Texture2D" uid="uid://dbrm2yf6aytvb" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_020.png" id="217"]
+[ext_resource type="Texture2D" uid="uid://cahdnstk3im6n" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_021.png" id="218"]
+[ext_resource type="Texture2D" uid="uid://kfulrncuijx3" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_022.png" id="219"]
+[ext_resource type="Texture2D" uid="uid://c31eof5qjseag" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_023.png" id="220"]
+[ext_resource type="Texture2D" uid="uid://b3urr32ayy434" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_024.png" id="221"]
+[ext_resource type="Texture2D" uid="uid://cgwrsb4plip44" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_025.png" id="222"]
+[ext_resource type="Texture2D" uid="uid://b40vpf0n7uabi" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_026.png" id="223"]
+[ext_resource type="Texture2D" uid="uid://y64h2ys342r7" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_027.png" id="224"]
+[ext_resource type="Texture2D" uid="uid://de8ivwallsypf" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_028.png" id="225"]
+[ext_resource type="Texture2D" uid="uid://b2rwmv85bmmpy" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_029.png" id="226"]
+[ext_resource type="Texture2D" uid="uid://2frhalg7mho0" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_030.png" id="227"]
+[ext_resource type="Texture2D" uid="uid://h3s2fmrsyc1u" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_031.png" id="228"]
+[ext_resource type="Texture2D" uid="uid://cjbfcti62tmxp" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_032.png" id="229"]
+[ext_resource type="Texture2D" uid="uid://dqe6f8nlqrlwn" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_033.png" id="230"]
+[ext_resource type="Texture2D" uid="uid://bmnnf1i27fgq1" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_034.png" id="231"]
+[ext_resource type="Texture2D" uid="uid://imxglvogf4o0" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_035.png" id="232"]
+[ext_resource type="Texture2D" uid="uid://cogf7ta7cfupy" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_036.png" id="233"]
+[ext_resource type="Texture2D" uid="uid://cy34d3jyyhocc" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_037.png" id="234"]
+[ext_resource type="Texture2D" uid="uid://bkyd2cuho4b0f" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_038.png" id="235"]
+[ext_resource type="Texture2D" uid="uid://eukrhkvxucuj" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_039.png" id="236"]
+[ext_resource type="Texture2D" uid="uid://c1ny8gkpyyxr5" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_040.png" id="237"]
+[ext_resource type="Texture2D" uid="uid://djmyhc54x3jhc" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_041.png" id="238"]
+[ext_resource type="Texture2D" uid="uid://ch4kappwc0pdb" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_042.png" id="239"]
+[ext_resource type="Texture2D" uid="uid://cokpoy8yocalh" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_043.png" id="240"]
+[ext_resource type="Texture2D" uid="uid://1c6htixyrrw6" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_044.png" id="241"]
+[ext_resource type="Texture2D" uid="uid://tynljs4ts8ig" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_045.png" id="242"]
+[ext_resource type="Texture2D" uid="uid://brlfxtmetqj51" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_046.png" id="243"]
+[ext_resource type="Texture2D" uid="uid://csrbcm68omrb7" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_047.png" id="244"]
+[ext_resource type="Texture2D" uid="uid://c32g827hamj0b" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_048.png" id="245"]
+[ext_resource type="Texture2D" uid="uid://cgynl3gnax6mr" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_049.png" id="246"]
+[ext_resource type="Texture2D" uid="uid://drbi4keursvsi" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_050.png" id="247"]
+[ext_resource type="Texture2D" uid="uid://cleukc3iyekaa" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_051.png" id="248"]
+[ext_resource type="Texture2D" uid="uid://dyrybfyd03fim" path="res://acts/full_game/research_arc/complex/assets/portraits/myson/x_myson_052.png" id="249"]
+[ext_resource type="Texture2D" uid="uid://bj5k40qdwffen" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_card.png" id="250"]
+[ext_resource type="Texture2D" uid="uid://brorpr4ax8yh0" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_pepperspray.png" id="251"]
+[ext_resource type="Texture2D" uid="uid://bpdulctlu6lvd" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00000.png" id="252"]
+[ext_resource type="Texture2D" uid="uid://dgacyxglxq3j3" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00001.png" id="253"]
+[ext_resource type="Texture2D" uid="uid://6t1yn8jqhf1j" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00002.png" id="254"]
+[ext_resource type="Texture2D" uid="uid://c1nwltstjs1od" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00003.png" id="255"]
+[ext_resource type="Texture2D" uid="uid://cmggkq0fkrowp" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00004.png" id="256"]
+[ext_resource type="Texture2D" uid="uid://dqd2l7h81ljv1" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00005.png" id="257"]
+[ext_resource type="Texture2D" uid="uid://o7watqb6jpuf" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00006.png" id="258"]
+[ext_resource type="Texture2D" uid="uid://ca174ou5c0ug5" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00007.png" id="259"]
+[ext_resource type="Texture2D" uid="uid://c3qxlbb1tf07b" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00008.png" id="260"]
+[ext_resource type="Texture2D" uid="uid://dqlp7x7fov0wd" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00009.png" id="261"]
+[ext_resource type="Texture2D" uid="uid://bgu021u6prg2n" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00010.png" id="262"]
+[ext_resource type="Texture2D" uid="uid://c6ogb4h67vwrn" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00011.png" id="263"]
+[ext_resource type="Texture2D" uid="uid://n4biwnsc1wr" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00012.png" id="264"]
+[ext_resource type="Texture2D" uid="uid://c2vo36k7rd46k" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00013.png" id="265"]
+[ext_resource type="Texture2D" uid="uid://b6v51y1rj45gg" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00014.png" id="266"]
+[ext_resource type="Texture2D" uid="uid://bfil20uk6ikjf" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00015.png" id="267"]
+[ext_resource type="Texture2D" uid="uid://um1rwbjvds1i" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00016.png" id="268"]
+[ext_resource type="Texture2D" uid="uid://b1uvtya7b4r5" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00017.png" id="269"]
+[ext_resource type="Texture2D" uid="uid://ddncd6pn57uek" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00018.png" id="270"]
+[ext_resource type="Texture2D" uid="uid://c1usqofmtw40y" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00019.png" id="271"]
+[ext_resource type="Texture2D" uid="uid://blhda5qeijk8a" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00020.png" id="272"]
+[ext_resource type="Texture2D" uid="uid://egeh22lglu8t" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00021.png" id="273"]
+[ext_resource type="Texture2D" uid="uid://df0ppef26p8wq" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00022.png" id="274"]
+[ext_resource type="Texture2D" uid="uid://ovkehjb4sn6x" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00023.png" id="275"]
+[ext_resource type="Texture2D" uid="uid://c42ghqvaxvtbi" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00024.png" id="276"]
+[ext_resource type="Texture2D" uid="uid://clsf1jo0jdj35" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00025.png" id="277"]
+[ext_resource type="Texture2D" uid="uid://df6h2y1n6h3gp" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00026.png" id="278"]
+[ext_resource type="Texture2D" uid="uid://ccog4vpkgwqek" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00027.png" id="279"]
+[ext_resource type="Texture2D" uid="uid://dxh2gwk3uucy" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00028.png" id="280"]
+[ext_resource type="Texture2D" uid="uid://eb4sgv7wwtim" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00029.png" id="281"]
+[ext_resource type="Texture2D" uid="uid://bpnc8ewgvv6va" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00030.png" id="282"]
+[ext_resource type="Texture2D" uid="uid://cieg7ei7hvbu2" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00031.png" id="283"]
+[ext_resource type="Texture2D" uid="uid://dj4hi2pv8dpfm" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00032.png" id="284"]
+[ext_resource type="Texture2D" uid="uid://hexntsbthxbs" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00033.png" id="285"]
+[ext_resource type="Texture2D" uid="uid://d2n0qondkp50f" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00034.png" id="286"]
+[ext_resource type="Texture2D" uid="uid://bopnyo6ihpy1g" path="res://acts/full_game/research_arc/complex/assets/portraits/Cheyenne/Cheyenne_00035.png" id="287"]
+[ext_resource type="Texture2D" uid="uid://i01xkd5iih6p" path="res://acts/full_game/research_arc/complex/assets/closeups/04_a1_photo_uniform.png" id="288"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="289"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6572d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_y3v00"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2es2c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6m6uk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("252")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="GuardFlatPanel" type="Panel"]
+offset_right = 915.0
+offset_bottom = 533.0
+
+[node name="FlatGuard" type="Sprite2D" parent="."]
+position = Vector2(10, 9)
+texture = ExtResource("1")
+centered = false
+
+[node name="Ozola" type="AnimatedSprite2D" parent="."]
+position = Vector2(347, 295)
+sprite_frames = SubResource("SpriteFrames_6572d")
+autoplay = "default"
+
+[node name="04A1Table" type="Sprite2D" parent="."]
+position = Vector2(440, 304)
+texture = ExtResource("98")
+
+[node name="Cheyenne" type="AnimatedSprite2D" parent="."]
+position = Vector2(584, 310)
+sprite_frames = SubResource("SpriteFrames_y3v00")
+autoplay = "default"
+
+[node name="OzolaSpot" parent="." instance=ExtResource("195")]
+layout_mode = 1
+offset_left = 378.0
+offset_top = 243.0
+offset_right = -718.0
+offset_bottom = -302.0
+hotspot_id = "ZYH"
+unlocked_character_ref_id = 134
+
+[node name="OzolaPanel" type="Panel" parent="OzolaSpot"]
+layout_mode = 0
+offset_left = -1148.5
+offset_top = -525.0
+offset_right = -464.5
+offset_bottom = -66.0
+
+[node name="OzolaSpeech" type="Label" parent="OzolaSpot/OzolaPanel"]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 28.0
+offset_right = 660.0
+offset_bottom = 166.0
+theme = ExtResource("196")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_KENNETH_SPEECH"
+autowrap_mode = 3
+
+[node name="XOzola" type="AnimatedSprite2D" parent="OzolaSpot/OzolaPanel"]
+position = Vector2(229, 273)
+sprite_frames = SubResource("SpriteFrames_2es2c")
+autoplay = "default"
+frame_progress = 0.35200101137161255
+
+[node name="CheyenneSpot" parent="." instance=ExtResource("195")]
+layout_mode = 1
+offset_left = 734.0
+offset_top = 258.0
+offset_right = -381.0
+offset_bottom = -272.0
+hotspot_id = "fyL"
+unlocked_character_ref_id = 111
+unlocked_item_ref_id = 718
+
+[node name="CheyennePanel" type="Panel" parent="CheyenneSpot"]
+layout_mode = 0
+offset_left = -1492.0
+offset_top = -62.0
+offset_right = -809.0
+offset_bottom = 331.0
+
+[node name="CheyenneDialogue" type="Label" parent="CheyenneSpot/CheyennePanel"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 23.0
+offset_right = 663.0
+offset_bottom = 118.0
+theme = ExtResource("196")
+theme_override_font_sizes/font_size = 23
+text = "COMPLEX_CHEYENNE_SPEECH"
+autowrap_mode = 3
+
+[node name="YCard" type="Sprite2D" parent="CheyenneSpot/CheyennePanel"]
+position = Vector2(287, 238.5)
+rotation = 0.5100070238113403
+scale = Vector2(0.17, 0.173)
+texture = ExtResource("250")
+
+[node name="YPepperspray" type="Sprite2D" parent="CheyenneSpot/CheyennePanel"]
+position = Vector2(116, 224.5)
+texture = ExtResource("251")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CheyenneSpot/CheyennePanel"]
+position = Vector2(502, 200.5)
+sprite_frames = SubResource("SpriteFrames_6m6uk")
+autoplay = "default"
+frame_progress = 0.7850329875946045
+
+[node name="GuardPictureSpot" parent="." instance=ExtResource("195")]
+layout_mode = 1
+offset_left = 624.0
+offset_top = 169.0
+offset_right = -501.0
+offset_bottom = -489.0
+hotspot_id = "I29"
+
+[node name="GuardPicturePanel" type="Panel" parent="GuardPictureSpot"]
+layout_mode = 0
+offset_left = -519.0
+offset_top = 665.0
+offset_right = -169.0
+offset_bottom = 1109.0
+
+[node name="04A1PhotoUniform" type="Sprite2D" parent="GuardPictureSpot/GuardPicturePanel"]
+position = Vector2(175.937, 220.094)
+scale = Vector2(0.528846, 0.528846)
+texture = ExtResource("288")
+
+[node name="PictureTextPlaceholder" type="Label" parent="GuardPictureSpot/GuardPicturePanel"]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 36.0
+offset_right = 314.0
+offset_bottom = 141.0
+theme = ExtResource("289")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -2
+theme_override_font_sizes/font_size = 20
+text = "COMPLEX_GUARD_PHOTO_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

@@ -1,0 +1,138 @@
+[gd_scene load_steps=6 format=4 uid="uid://5ti42bej3qrv"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://cuqqbycw2ies3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicewithprints.png" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="5"]
+
+[node name="CustomPhrasePuzzle" instance=ExtResource("1")]
+offset_right = 738.0
+offset_bottom = 503.0
+is_win_condition = true
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(192.201, 232.608)
+scale = Vector2(0.221418, 0.221418)
+texture = ExtResource("2")
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="1"]
+visible = false
+layout_mode = 0
+offset_left = -8.0
+offset_top = 886.0
+offset_right = 1041.0
+offset_bottom = 1183.0
+mouse_filter = 1
+color = Color(0.113725, 0.0627451, 0.27451, 1)
+
+[node name="Label" type="Label" parent="Frame/MarginContainer/Background" index="2"]
+layout_mode = 0
+offset_left = 421.0
+offset_top = 39.0
+offset_right = 671.0
+offset_bottom = 63.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 19
+text = "The device was touched by:"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Frame/MarginContainer/Background" index="3"]
+layout_mode = 0
+offset_left = 412.0
+offset_top = 266.0
+offset_right = 677.0
+offset_bottom = 290.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 19
+text = "The device was activated by:"
+horizontal_alignment = 1
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="Puzzle" parent="." index="4" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 7.0
+offset_top = 4.0
+offset_right = 7.0
+offset_bottom = 4.0
+phrase_grids = [null, null]
+
+[node name="PhrasePuzzleSlot" parent="Puzzle" index="1" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 440.0
+offset_top = 82.0
+offset_right = -298.0
+offset_bottom = -421.0
+answer_item_ref_id = 272
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot2" parent="Puzzle" index="2" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 565.0
+offset_top = 81.0
+offset_right = -173.0
+offset_bottom = -422.0
+answer_item_ref_id = 273
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot3" parent="Puzzle" index="3" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 444.0
+offset_top = 145.0
+offset_right = -294.0
+offset_bottom = -358.0
+answer_item_ref_id = 370
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot4" parent="Puzzle" index="4" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 568.0
+offset_top = 142.0
+offset_right = -170.0
+offset_bottom = -361.0
+answer_item_ref_id = 371
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot5" parent="Puzzle" index="5" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 443.0
+offset_top = 213.0
+offset_right = -295.0
+offset_bottom = -290.0
+answer_item_ref_id = 368
+
+[node name="PhrasePuzzleSlot6" parent="Puzzle" index="6" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 569.0
+offset_top = 211.0
+offset_right = -169.0
+offset_bottom = -292.0
+answer_item_ref_id = 369
+
+[node name="PhrasePuzzleSlot7" parent="Puzzle" index="7" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 436.0
+offset_top = 323.0
+offset_right = -302.0
+offset_bottom = -180.0
+answer_item_ref_id = 368
+
+[node name="PhrasePuzzleSlot8" parent="Puzzle" index="8" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 558.0
+offset_top = 323.0
+offset_right = -180.0
+offset_bottom = -180.0
+answer_item_ref_id = 369
+
+[editable path="Frame"]

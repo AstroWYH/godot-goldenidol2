@@ -1,0 +1,461 @@
+[gd_scene load_steps=25 format=4 uid="uid://crb44a5wb88e5"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://b4eec4ul41uel" path="res://acts/full_game/reconstruction_arc/hub/assets/orgchart/orgchart_with_oriel.png" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="6"]
+[ext_resource type="Resource" uid="uid://c7eqiaart1x42" path="res://acts/full_game/reconstruction_arc/hub/puzzles/machine_arc_org_puzzle.tres" id="7"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="8"]
+[ext_resource type="Texture2D" uid="uid://bu01y1o2lgsfk" path="res://shared/assets/portraits/newbadboard.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c1rfx7kt7v2rh" path="res://shared/assets/portraits/manager.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bm0py0jwbt0le" path="res://shared/assets/portraits/empty.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://d3sub5l0086s5" path="res://shared/assets/portraits/badengineerburning.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dx8yqj8u3kqjb" path="res://shared/assets/portraits/collector.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c1kjntnyt3e46" path="res://shared/assets/portraits/marie_beach.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ba47068gjt8tj" path="res://shared/assets/portraits/rationalist_conference.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://d215g27t3a7ij" path="res://shared/assets/portraits/professor.png" id="16"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="17"]
+[ext_resource type="Texture2D" uid="uid://ia6wumhirsyh" path="res://shared/assets/portraits/neighbor.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dj4lu08dl7b2" path="res://shared/assets/portraits/leader.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dks3kn7holp5s" path="res://shared/assets/portraits/security_tending.png" id="20"]
+[ext_resource type="PackedScene" uid="uid://bmxayvqf2j8pc" path="res://shared/ui/hub/puzzle_part_hider.tscn" id="21"]
+[ext_resource type="Resource" uid="uid://c1epjc4r8a3se" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/scroll_puzzle_meta.tres" id="22"]
+[ext_resource type="Resource" uid="uid://dbw83unrahagw" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_scroll_puzzle.tres" id="23"]
+[ext_resource type="Resource" uid="uid://co3wwc3pry5ep" path="res://acts/full_game/reconstruction_arc/banning/puzzles/scroll_puzzle_meta.tres" id="24"]
+
+[node name="OrChartPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 881.0
+offset_bottom = 849.0
+is_arc_win_condition = true
+puzzle_group = NodePath("PuzzleGroup")
+sequence_element_id = "machine_org_puzzle"
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect3" type="ColorRect" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 2
+offset_right = 861.0
+offset_bottom = 829.0
+mouse_filter = 1
+color = Color(0.662745, 0.760784, 0.8, 1)
+
+[node name="ChartBackground" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(300, 404)
+texture = ExtResource("2")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Frame/MarginContainer/Background/ChartBackground" index="0"]
+clip_contents = false
+offset_left = 73.0
+offset_top = -378.0
+offset_right = 298.0
+offset_bottom = -203.0
+theme_override_colors/default_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_separation = -5
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_font_sizes/normal_font_size = 21
+theme_override_font_sizes/bold_font_size = 22
+bbcode_enabled = true
+text = "ARC3_ORG_PUZZLE_LABEL10"
+autowrap_mode = 2
+
+[node name="PresidentLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="1"]
+offset_left = -98.0
+offset_top = -261.0
+offset_right = 78.0
+offset_bottom = -213.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_CHART_PUZZLE_LABEL11"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="CornHeadLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="2"]
+offset_left = -294.0
+offset_top = -66.0
+offset_right = -136.0
+offset_bottom = -14.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL1"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="TimLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="3"]
+offset_top = -68.0
+offset_right = 182.0
+offset_bottom = -10.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL2"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="OPTVLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="4"]
+offset_left = 234.0
+offset_top = -65.0
+offset_right = 329.0
+offset_bottom = 24.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL9"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="EmotionStudiesLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="5"]
+offset_left = -298.0
+offset_top = 150.0
+offset_right = -128.0
+offset_bottom = 202.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL4"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="EugeneLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="6"]
+offset_left = 9.0
+offset_top = 146.0
+offset_right = 170.0
+offset_bottom = 198.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL3"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="TesaLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="7"]
+offset_left = 169.0
+offset_top = 150.0
+offset_right = 305.0
+offset_bottom = 229.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL5"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="MissingContractorLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="8"]
+offset_left = -297.0
+offset_top = 342.0
+offset_right = -135.0
+offset_bottom = 418.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 16
+text = "ARC3_ORG_PUZZLE_LABEL12"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="JackLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="9"]
+offset_left = -134.0
+offset_top = 344.0
+offset_right = 10.0
+offset_bottom = 419.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL6"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="MarieLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="10"]
+offset_left = 12.0
+offset_top = 345.0
+offset_right = 145.0
+offset_bottom = 423.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL7"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="OrielLabel" type="Label" parent="Frame/MarginContainer/Background/ChartBackground" index="11"]
+offset_left = 154.0
+offset_top = 348.0
+offset_right = 288.0
+offset_bottom = 438.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.113725, 0.4, 0.501961, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 18
+text = "ARC3_ORG_PUZZLE_LABEL8"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="ColorRect3" type="ColorRect" parent="Frame/MarginContainer/Background/ChartBackground" index="12"]
+offset_left = 298.0
+offset_top = -233.0
+offset_right = 558.0
+offset_bottom = 423.0
+mouse_filter = 1
+color = Color(0.662745, 0.760784, 0.8, 1)
+
+[node name="ColorRect" parent="Frame/MarginContainer" index="1"]
+color = Color(0.662745, 0.760784, 0.8, 1)
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("5")]
+layout_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers", "puzzle_part_hiders") instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 9.0
+offset_right = -9.0
+puzzle_meta = ExtResource("7")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+puzzle_part_hiders = [NodePath("../../Eviction"), NodePath("../../Burning"), NodePath("../../Burning2"), NodePath("../../Injury")]
+metadata/_edit_lock_ = true
+
+[node name="Answers" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("8")]
+layout_mode = 1
+offset_left = 988.0
+offset_top = 118.0
+offset_right = 139.0
+offset_bottom = -492.0
+
+[node name="Container" type="Control" parent="PuzzleGroup/Puzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 46.0
+offset_right = 45.0
+offset_bottom = 46.0
+mouse_filter = 1
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -792.5
+offset_top = -128.0
+offset_right = -692.5
+offset_bottom = -28.0
+texture = ExtResource("9")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -692.0
+offset_top = 64.0
+offset_right = -592.0
+offset_bottom = 164.0
+texture = ExtResource("10")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -993.0
+offset_top = 283.0
+offset_right = -893.0
+offset_bottom = 383.0
+texture = ExtResource("11")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="PuzzleGroup/Puzzle/Answers/Container/3" index="0"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 101.0
+offset_bottom = 89.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.607843, 0.215686, 0.215686, 1)
+theme_override_font_sizes/font_size = 20
+text = "ARC3_ORG_PUZZLE_PROJECT_TERMINATED"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -687.0
+offset_top = 279.0
+offset_right = -587.0
+offset_bottom = 379.0
+texture = ExtResource("12")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="4"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -546.0
+offset_top = 280.0
+offset_right = -446.0
+offset_bottom = 380.0
+texture = ExtResource("13")
+
+[node name="7" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="5"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -709.0
+offset_top = 474.0
+offset_right = -609.0
+offset_bottom = 574.0
+texture = ExtResource("14")
+
+[node name="Jack" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="6"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -845.0
+offset_top = 475.0
+offset_right = -745.0
+offset_bottom = 575.0
+texture = ExtResource("15")
+
+[node name="Oriel" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="7"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = -567.0
+offset_top = 476.0
+offset_right = -467.0
+offset_bottom = 576.0
+texture = ExtResource("16")
+
+[node name="Inventory" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("17")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 1841.0
+offset_top = 219.0
+offset_right = 1841.0
+offset_bottom = 219.0
+grow_horizontal = 1
+grow_vertical = 1
+mouse_filter = 1
+infinite = false
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = -1205.0
+offset_top = -22.0
+offset_right = -1001.0
+offset_bottom = 598.0
+columns = 2
+
+[node name="Oriel" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("16")
+
+[node name="BigBoss" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("9")
+
+[node name="Eugene" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("12")
+
+[node name="Jack" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("15")
+
+[node name="Tim" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="4"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("10")
+
+[node name="Marie" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="5"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("14")
+
+[node name="Neighbour" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="6"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("18")
+
+[node name="Hippie" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="7"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("19")
+
+[node name="Security" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="8"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("20")
+
+[node name="Tesa" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="9"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("13")
+
+[node name="Terminated" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="10"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="Label" type="Label" parent="PuzzleGroup/Puzzle/Inventory/GridContainer/Terminated" index="0"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 101.0
+offset_bottom = 97.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.607843, 0.215686, 0.215686, 1)
+theme_override_font_sizes/font_size = 20
+text = "ARC3_ORG_PUZZLE_PROJECT_TERMINATED"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Eviction" parent="." index="5" instance=ExtResource("21")]
+layout_mode = 0
+offset_left = 623.0
+offset_top = 488.0
+offset_right = 874.0
+offset_bottom = 835.0
+puzzle_metas = [ExtResource("22")]
+
+[node name="Burning" parent="." index="6" instance=ExtResource("21")]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 23.0
+offset_right = 629.0
+offset_bottom = 836.0
+puzzle_metas = [ExtResource("23")]
+
+[node name="Burning2" parent="." index="7" instance=ExtResource("21")]
+layout_mode = 0
+offset_left = 624.0
+offset_top = 28.0
+offset_right = 871.0
+offset_bottom = 351.0
+puzzle_metas = [ExtResource("23")]
+
+[node name="Injury" parent="." index="8" instance=ExtResource("21")]
+layout_mode = 0
+offset_left = 622.0
+offset_top = 279.0
+offset_right = 874.0
+offset_bottom = 532.0
+puzzle_metas = [ExtResource("24")]
+
+[editable path="Frame"]

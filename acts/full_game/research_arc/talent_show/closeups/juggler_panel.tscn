@@ -1,0 +1,152 @@
+[gd_scene load_steps=33 format=4 uid="uid://dc1ciem130tpt"]
+
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="1"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
+[ext_resource type="Texture2D" uid="uid://qeujjsqkkl4c" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://clqv8xd2req4l" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d2h6m06brpkn5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://yx1x7vwxuijb" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bwtqyi3soyqw8" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bihwbykyt6i6v" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://drwq48y0hocv1" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ciyo5fg7ytw38" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b4wb1skwy1mnj" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ccgoff1083s6a" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bxpnarrajvex" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://qmsl7u7g06b4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://d2iqrqx3rmf46" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://tx67gol7emm2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://clttbr5ynq76k" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://35pw8a2hv5eq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cvg0ik8fyqvly" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dfe3uyksqc108" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cswx58htjct5b" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cahwbwke1jbsq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cgdwanlk6w6ak" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://hkjfc4sbh2rd" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c2qcyfbrht83l" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://pox5gm7vin0x" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cotk1jl2kxiq4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dqng7hlces0e" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bqv6n8k6d33d" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dx14bcdenjodf" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bmhq0ucuo784o" path="res://acts/full_game/research_arc/talent_show/assets/portraits/juggler/juggler 2_028.png" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i56bw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="JugglerPanel" type="Panel"]
+offset_left = -2069.0
+offset_top = 495.0
+offset_right = -1331.0
+offset_bottom = 1018.0
+
+[node name="JugglerText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 36.0
+offset_right = 721.0
+offset_bottom = 118.0
+theme = ExtResource("1")
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_JAMEY_SPEECH"
+autowrap_mode = 3
+
+[node name="Juggler" type="AnimatedSprite2D" parent="."]
+position = Vector2(244, 311)
+sprite_frames = SubResource("SpriteFrames_i56bw")
+autoplay = "default"
+frame_progress = 0.095871202647686

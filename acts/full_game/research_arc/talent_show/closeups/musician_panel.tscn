@@ -1,0 +1,228 @@
+[gd_scene load_steps=45 format=4 uid="uid://bnu4nc2e4g0vm"]
+
+[ext_resource type="Texture2D" uid="uid://dapkqijemu8qs" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dxnsbbnl5spjy" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bnx1c7lw8kicv" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dcne4t6putad5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c7vmcgeuwdyje" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dps12attxv00c" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://8mwvfageonow" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c8a67ko2sef7" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cx8natnavsdnr" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dycjtnpj6be8p" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cstv8jticfcm2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cdafem3v6pf5x" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bymkm3ge462i1" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c71w1lnx6r0bl" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bp8dydpx0sv8a" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://t6b7j4s7qxqn" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bxe8xdtl32po7" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://3fppdl1687uf" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c7gmttpjgn2ty" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c2fru3f5ocm63" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://nbprwdcr23q5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://boul4vnm3g3mu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c3lhee7edjwil" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dhkogkd0brldk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ckiuvhoggsf6o" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bukhhjlmdh2xh" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://womdi5wsaxfn" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b2uvvovqervr1" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dpahiiggoko0w" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://benqxi2mlb4mu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bu8vofjfactrc" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://8jkc7tggaufb" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cw8othx5xuybo" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c4rn6qfdvphju" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://d2rsrcn3kkjln" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bb35ou5f6ex4d" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://qxwap7lnn4a6" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://b02a7r5fjxnid" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cnjmpapd3kupu" path="res://acts/full_game/research_arc/talent_show/assets/closeups/music.png" id="39"]
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="40"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="41"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="42"]
+[ext_resource type="Texture2D" uid="uid://d5seu7b6c8bn" path="res://acts/full_game/research_arc/talent_show/assets/portraits/LoneWolfTattoo2.png" id="43"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g0jxj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="MusicianPanel" type="Panel"]
+offset_left = -78.0
+offset_top = -1156.0
+offset_right = 771.0
+offset_bottom = -615.0
+
+[node name="Musician" type="AnimatedSprite2D" parent="."]
+position = Vector2(273, 278)
+sprite_frames = SubResource("SpriteFrames_g0jxj")
+autoplay = "default"
+frame_progress = 0.8792549967765808
+
+[node name="SheetMusic" type="Sprite2D" parent="."]
+position = Vector2(715, 399)
+texture = ExtResource("39")
+
+[node name="MusicianText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 353.0
+offset_top = 22.0
+offset_right = 816.0
+offset_bottom = 118.0
+theme = ExtResource("40")
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 26
+text = "SHOW_VILMAR_SPEECH"
+autowrap_mode = 2
+
+[node name="BiteSpot" parent="." instance=ExtResource("42")]
+layout_mode = 1
+offset_left = 394.0
+offset_top = 209.0
+offset_right = -211.0
+offset_bottom = -90.0
+focus_neighbor_left = NodePath("../TattooSpot")
+focus_neighbor_bottom = NodePath("../TattooSpot")
+hotspot_id = "FiI"
+text = "SHOW_BITE_TOOLTIP"
+
+[node name="TattooSpot" parent="." instance=ExtResource("42")]
+layout_mode = 1
+offset_left = 163.0
+offset_top = 290.0
+offset_right = -417.0
+offset_bottom = -47.0
+focus_neighbor_top = NodePath("../BiteSpot")
+focus_neighbor_right = NodePath("../BiteSpot")
+hotspot_id = "IO6"
+
+[node name="TattooPanel" type="Panel" parent="TattooSpot"]
+layout_mode = 0
+offset_left = -104.0
+offset_top = -690.0
+offset_right = 398.0
+offset_bottom = -383.0
+
+[node name="LoneWolfTattoo2" type="Sprite2D" parent="TattooSpot/TattooPanel"]
+position = Vector2(252, 151)
+scale = Vector2(0.380159, 0.391008)
+texture = ExtResource("43")

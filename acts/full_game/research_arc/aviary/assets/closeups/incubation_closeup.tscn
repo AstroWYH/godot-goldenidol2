@@ -1,0 +1,521 @@
+[gd_scene load_steps=104 format=4 uid="uid://2gtenkv7rlvm"]
+
+[ext_resource type="Texture2D" uid="uid://bblaj8m4btt12" path="res://acts/full_game/research_arc/aviary/assets/closeups/incubator.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b16xq73gxv17" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dqmd1yipa4tjt" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bx3pe84pump6m" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dysyyi1x1xfyq" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://exf3dpp50mc5" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bgninjk8wjbqo" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://ccucj52lbvfre" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dnp23cxjf3nro" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://qw7dc38vus8a" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b4o7dexeysepx" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cm7k2a13xlusi" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dokdjpx72n6fe" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://plr7jx1458jl" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b3m7rep3it40h" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bisdoco56o1ln" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://31kau1jaw3cm" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dkyhg2p5q4607" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c3jr0ojenjgjr" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://d315fo3fh7fga" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bvvsttay13n2w" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bpfu1c6y8o8ju" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://rng15xdfnjbh" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bja0nf48ptwxq" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://k4ddoc4xukth" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bgkmp6el83fr0" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://kfonf828cjk3" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dh8k0d2u7qxrp" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b8xukfhhg6pdr" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ego23rpdpgyj" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bm8crkuhrw285" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://brsd8l5n0hql0" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://2sh6115kkedr" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cycvqrrqg4icl" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://3jn6uhkkin5o" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cdfvi6myld17g" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dxxbqiiwc0mbq" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://d367vgx8tk11a" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dq2l67arwsx8s" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://pjvhcnhe6f1e" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bhvtevap6chk5" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c1iusmllyc240" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://c1xodkgaq1dxr" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://b7vl75en28p7x" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bwnpv0ot8kbkm" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bu5yh65fjy2kl" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://t5036u5f0vc3" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://c8pu646rl3xgy" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cp6l1p224p8ud" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://d1uocqs2ddulq" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://qe7ksxxpcm78" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_049.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dcx7xhr4o1mpu" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_050.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://pxx3r8krgbcf" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_051.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://dei5wiv1cxpnn" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_052.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://c256eh6vumjg5" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_053.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://c77lv5c51mxoy" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_054.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://cpjx8txwhqqw6" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_055.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dxm3hr6bv74ub" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_056.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://dwawxjlvn0dfx" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_057.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://ch63t3gmr8mrs" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_058.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://lhrq6xsfrhje" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_059.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://41nua48g7pvn" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_060.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dacym624p3840" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_061.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://ci1wx51uabior" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_062.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://db4vh14ojc1mx" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_063.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bl8vgeclgeqx3" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_064.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://lej5vi4eq3wu" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_065.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://cakxss3xl6xrm" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_066.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bacfdahgs3364" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_067.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://dpvxlj8ltcxpt" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_068.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://qg6up1wc76u0" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_069.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://c3tb1vqqwa31k" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_070.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://cas871bdxbnns" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_071.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://bpghisjufchp4" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_072.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://bf4jomflhn2nt" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_073.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://lcwcgqruy6ao" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_074.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://1qhbpt70xew2" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_075.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://bld5koqa8qq3t" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_076.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://bl6ihpie3av7k" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_077.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://bxdl4r77vpe45" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_078.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://cyxrll5m5oug5" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_079.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://d2qanipkkwok2" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_080.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://dbf3cr8n5sr44" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_081.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://g0vk6gomo6qg" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_082.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://53n06xl64eka" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_083.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://blu71voxilhdx" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_084.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://bb0yunmhg8rbi" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_085.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://byyn1y85xj1uh" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_086.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://wieappw5idke" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_087.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://c8ufk4mn53j0q" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_088.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://ny6s2t6w3rd7" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_089.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://b6g1jjg6tb4xe" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_090.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dgyoe4ymahbyu" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_091.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://gkule54rs2m8" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_092.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://b4vmtlim32bqr" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_093.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://obbp3utrnoju" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_094.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bmjcbtr7fn26a" path="res://acts/full_game/research_arc/aviary/assets/animations/incubatorgirl/incubatorgirl 3_095.png" id="97"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="98"]
+[ext_resource type="PackedScene" uid="uid://b57lpj800if13" path="res://acts/full_game/research_arc/aviary/assets/closeups/baby_closeup_2.tscn" id="99"]
+[ext_resource type="PackedScene" uid="uid://c2k73p4i7805u" path="res://acts/full_game/research_arc/aviary/assets/closeups/palmer_closeup.tscn" id="100"]
+[ext_resource type="Texture2D" uid="uid://0knfjawef46q" path="res://acts/full_game/research_arc/aviary/assets/closeups/poster.png" id="101"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="102"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1kg15"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="IncubationCloseup" type="Panel"]
+offset_left = -225.0
+offset_top = -1289.0
+offset_right = 738.0
+offset_bottom = -690.0
+mouse_filter = 2
+
+[node name="IncubationCloseup" type="Sprite2D" parent="."]
+position = Vector2(480, 296)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1")
+
+[node name="WarningLabel" type="Label" parent="IncubationCloseup"]
+visible = false
+offset_left = -25.0
+offset_top = -560.0
+offset_right = 261.0
+offset_bottom = -478.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 59
+text = "WARNING"
+horizontal_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="IncubationCloseup"]
+position = Vector2(437.5, 22.5)
+sprite_frames = SubResource("SpriteFrames_1kg15")
+autoplay = "default"
+frame_progress = 0.9763349890708923
+
+[node name="IncubatorSpot" parent="." instance=ExtResource("98")]
+layout_mode = 1
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 270.0
+offset_top = 122.0
+offset_right = 425.0
+offset_bottom = 249.0
+grow_horizontal = 1
+grow_vertical = 1
+hotspot_id = "1de"
+unlocked_item_ref_id = 473
+
+[node name="BabyCloseup2" parent="IncubatorSpot" instance=ExtResource("99")]
+layout_mode = 0
+offset_left = 877.0
+offset_top = 21.0
+offset_right = 1592.0
+offset_bottom = 599.0
+
+[node name="PalmerSpot" parent="." instance=ExtResource("98")]
+layout_mode = 1
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 573.0
+offset_top = 152.0
+offset_right = 693.0
+offset_bottom = 477.0
+grow_horizontal = 1
+grow_vertical = 1
+hotspot_id = "Azh"
+unlocked_character_ref_id = 65
+
+[node name="PalmerCloseup" parent="PalmerSpot" instance=ExtResource("100")]
+layout_mode = 0
+offset_left = 878.0
+offset_top = -763.0
+offset_right = 1609.0
+offset_bottom = -196.0
+
+[node name="PaperSpot" parent="." instance=ExtResource("98")]
+layout_mode = 1
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 471.0
+offset_top = 43.0
+offset_right = 553.0
+offset_bottom = 216.0
+grow_horizontal = 1
+grow_vertical = 1
+hotspot_id = "rEK"
+unlocked_item_ref_id = 483
+
+[node name="WarningCloseup" type="Panel" parent="PaperSpot"]
+layout_mode = 0
+offset_left = -1298.0
+offset_top = -606.0
+offset_right = -724.0
+offset_bottom = 17.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="PaperSpot/WarningCloseup"]
+position = Vector2(288, 304)
+texture = ExtResource("101")
+
+[node name="WarningLabel" type="Label" parent="PaperSpot/WarningCloseup"]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 62.0
+offset_right = 511.0
+offset_bottom = 175.0
+theme = ExtResource("102")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 42
+text = "WARNING_LABEL"
+horizontal_alignment = 1
+
+[node name="WarningLabel2" type="Label" parent="PaperSpot/WarningCloseup"]
+layout_mode = 0
+offset_left = 71.0
+offset_top = 143.0
+offset_right = 478.0
+offset_bottom = 284.0
+theme = ExtResource("102")
+theme_override_colors/font_color = Color(0.192157, 0.0980392, 0.0705882, 1)
+text = "AVIARY_INCUBATOR_POSTER_BODY"
+horizontal_alignment = 1
+autowrap_mode = 3

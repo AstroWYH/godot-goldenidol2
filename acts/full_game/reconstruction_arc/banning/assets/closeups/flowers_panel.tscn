@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://bkygpcl2f33dh"]
+
+[ext_resource type="Texture2D" uid="uid://mouh0lmjqy2a" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/flowers.png" id="1"]
+
+[node name="FlowersPanel" type="Panel"]
+offset_left = -751.0
+offset_top = 568.0
+offset_right = 66.0
+offset_bottom = 1196.0
+
+[node name="FlowersSprite" type="Sprite2D" parent="."]
+position = Vector2(410, 308)
+texture = ExtResource("1")

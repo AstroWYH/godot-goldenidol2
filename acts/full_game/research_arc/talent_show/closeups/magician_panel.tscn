@@ -1,0 +1,152 @@
+[gd_scene load_steps=32 format=4 uid="uid://dm2fainvbqo2p"]
+
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="1"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
+[ext_resource type="Texture2D" uid="uid://1p5vu2hvaxcv" path="res://acts/full_game/research_arc/talent_show/assets/orange.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bc8w4viucdw37" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician1.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cd0ng45mhcic1" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician2.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://qlihhr2nkxkn" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician3.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bo081ulfwifni" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician4.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bmtef8e1qmt0" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician5.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dke426ux3f0w7" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician6.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bbi4p7vovcw82" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician7.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d3xrj8yq8cyy" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician8.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bmekhgda6emxa" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician9.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://en0scoy86cfd" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician10.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bgwfk1lcfclwc" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician11.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dyk84bgd6qeyw" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician12.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bd8ri0ho54itb" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician13.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ciugycgpoyjjk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician14.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://coahnqg03dgtc" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician15.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cyyckwna5qe5o" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician16.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://eldlx14hxjpq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician17.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bwvuhqnorpae2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician18.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://drwn0ftclqyof" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician19.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cj84usjowriu2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician20.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dbf6nbid3s4ku" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician21.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cvqmqu48vqg0x" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician22.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://chtfnnpnis6qr" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician23.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://b3pgbk328jlie" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician24.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://ddvphpxox5hx8" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician25.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bxqcau26bxmlq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician26.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://fte1rssgbjfj" path="res://acts/full_game/research_arc/talent_show/assets/portraits/magician/magician27.png" id="30"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bjjlu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="MagicianPanel" type="Panel"]
+offset_left = 807.0
+offset_top = 27.0
+offset_right = 1598.0
+offset_bottom = 571.0
+
+[node name="MagicianText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 340.0
+offset_top = 26.0
+offset_right = 761.0
+offset_bottom = 212.0
+theme = ExtResource("1")
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_NOLA_SPEECH"
+autowrap_mode = 2
+
+[node name="Soda" type="Sprite2D" parent="."]
+position = Vector2(508, 363)
+rotation = 0.2247689962387085
+scale = Vector2(0.827434, 0.82)
+texture = ExtResource("3")
+
+[node name="Magician" type="AnimatedSprite2D" parent="."]
+position = Vector2(212, 318)
+sprite_frames = SubResource("SpriteFrames_bjjlu")
+autoplay = "default"
+frame = 17
+frame_progress = 0.3643740117549896

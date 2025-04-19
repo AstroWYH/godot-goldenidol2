@@ -1,0 +1,141 @@
+[gd_scene load_steps=20 format=4 uid="uid://c7oanhhtwy25h"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://cb4q71clyplxt" path="res://shared/assets/textures/paper_texture03.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="3"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="6"]
+[ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="7"]
+[ext_resource type="Resource" uid="uid://bkwhnff76bcda" path="res://acts/full_game/research_arc/hub/puzzles/trials_arc_scroll_puzzle.tres" id="8"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="10"]
+
+[sub_resource type="Resource" id="Resource_32c11"]
+script = ExtResource("4")
+linked_item_ref_id = 995
+
+[sub_resource type="Resource" id="Resource_xad88"]
+script = ExtResource("4")
+linked_item_ref_id = 997
+
+[sub_resource type="Resource" id="Resource_gsf1i"]
+script = ExtResource("4")
+linked_item_ref_id = 993
+
+[sub_resource type="Resource" id="Resource_yuy3p"]
+script = ExtResource("4")
+linked_item_ref_id = 994
+
+[sub_resource type="Resource" id="Resource_8gi7e"]
+script = ExtResource("4")
+linked_item_ref_id = 991
+
+[sub_resource type="Resource" id="Resource_6nlpn"]
+script = ExtResource("4")
+linked_item_ref_id = 989
+
+[sub_resource type="Resource" id="Resource_vilgo"]
+script = ExtResource("4")
+linked_item_ref_id = 990
+
+[sub_resource type="Resource" id="Resource_hurg1"]
+script = ExtResource("4")
+linked_item_ref_id = 996
+
+[sub_resource type="Resource" id="Resource_i7y04"]
+script = ExtResource("4")
+linked_item_ref_id = 992
+
+[node name="TrialsArcScrollPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 968.0
+offset_bottom = 452.0
+is_arc_win_condition = true
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="Background" parent="Frame/MarginContainer" index="0"]
+texture = ExtResource("2")
+
+[node name="BridgeNames" parent="Frame" index="1" instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 71.0
+offset_top = 125.0
+offset_right = -652.0
+offset_bottom = -148.0
+color = Color(0.984314, 0.721569, 1, 0)
+phrases = [SubResource("Resource_32c11"), SubResource("Resource_xad88"), SubResource("Resource_gsf1i"), SubResource("Resource_yuy3p"), SubResource("Resource_8gi7e"), SubResource("Resource_6nlpn"), SubResource("Resource_vilgo"), SubResource("Resource_hurg1"), SubResource("Resource_i7y04")]
+cell_size = Vector2(140, 30)
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("5")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 154.5
+offset_top = 125.5
+offset_right = 154.5
+offset_bottom = 125.5
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("6")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -309.0
+offset_top = -174.0
+offset_right = 302.0
+offset_bottom = -60.0
+theme = ExtResource("7")
+puzzle_meta = ExtResource("8")
+text = "With testing completed, the team named the machine the [id=3] [id=4] [id=5] [id=6]."
+preview_ids = true
+preview_answers = true
+
+[node name="3" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("9")]
+accepted_types = 512
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/3" index="0" instance=ExtResource("10")]
+answer_item_ref_id = 991
+
+[node name="4" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("9")]
+accepted_types = 512
+id = 4
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/4" index="0" instance=ExtResource("10")]
+answer_item_ref_id = 994
+
+[node name="5" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("9")]
+accepted_types = 512
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/5" index="0" instance=ExtResource("10")]
+answer_item_ref_id = 997
+
+[node name="6" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("9")]
+accepted_types = 512
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/6" index="0" instance=ExtResource("10")]
+answer_item_ref_id = 989
+
+[editable path="Frame"]

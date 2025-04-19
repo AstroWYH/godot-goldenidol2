@@ -1,0 +1,547 @@
+[gd_scene load_steps=48 format=4 uid="uid://bogt8708t5ek7"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://dvmg4mivvnwtr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cu1h4qiathttb" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bbvqj35rch2ax" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ceevugqrvseq7" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bxwxkfot3yvyf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cq8v55iuhi8dr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://rmtwk2lhm57v" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bd3dmpftqwgay" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://5plei1mkm3ow" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dxgxtgw2smnxf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b3sx57ek4xhyh" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bs0ldj6gsrufb" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ddcrl5xirndn3" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://chkecup6n606i" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ccoocrb4eol7v" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b1rqna2jxwrhl" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b8ttuccirpvl2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://drprpypua1l6f" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://duntqm6c6mptr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bicxaj5mhe5e3" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/idol1.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c336apfl3oow5" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/book.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://clfwt0gyhktpk" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/comet_photo_small.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://danh4utsyaae1" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/pen_red.png" id="24"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="25"]
+[ext_resource type="Texture2D" uid="uid://bvyu56qxd2wmc" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/comet_photo.png" id="26"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="27"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="28"]
+[ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="29"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="30"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="31"]
+[ext_resource type="Texture2D" uid="uid://blceuxm16svkj" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/readings2.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://jw4wt5ane4uj" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/rorschach2.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://b55p72l3knhrx" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/rorschach1.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://vnoynddh52wl" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/rorschach4.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://ckhwdef1upjxm" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/rorschach7.png" id="36"]
+[ext_resource type="PackedScene" uid="uid://ud5tus06dknf" path="res://shared/ui/glyph_container/glyph_container.tscn" id="37"]
+[ext_resource type="Texture2D" uid="uid://bh8qlnqg8es58" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/hatred_symbol.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dlteirqva1mxu" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/empathy_symbol.png" id="39"]
+[ext_resource type="Resource" uid="uid://btad2g300jjv4" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/symbols_puzzle_meta.tres" id="40"]
+[ext_resource type="Texture2D" uid="uid://ch2hp3qsciucn" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/idol2.png" id="41"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_231b0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_jy3un"]
+script = ExtResource("28")
+linked_item_ref_id = 211
+
+[sub_resource type="Resource" id="Resource_uhqr8"]
+script = ExtResource("28")
+linked_item_ref_id = 193
+
+[sub_resource type="Resource" id="Resource_63071"]
+script = ExtResource("28")
+linked_item_ref_id = 199
+
+[sub_resource type="Resource" id="Resource_70a3g"]
+script = ExtResource("28")
+linked_item_ref_id = 201
+
+[sub_resource type="LabelSettings" id="LabelSettings_2l4fd"]
+font = ExtResource("30")
+font_size = 22
+font_color = Color(0.698039, 0, 0, 1)
+
+[node name="NevariPanel" type="Panel"]
+offset_left = -209.0
+offset_top = -1014.0
+offset_right = 628.0
+offset_bottom = -437.0
+
+[node name="NevariSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 25.0
+offset_right = 552.0
+offset_bottom = 157.0
+theme = ExtResource("1")
+text = "EVICTION_TESA_SPEECH"
+autowrap_mode = 3
+
+[node name="NevariSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(198, 330)
+scale = Vector2(-1, 1)
+sprite_frames = SubResource("SpriteFrames_231b0")
+autoplay = "default"
+frame_progress = 0.9980930089950562
+flip_h = true
+
+[node name="IdolSprite" type="Sprite2D" parent="."]
+position = Vector2(473, 222.199)
+texture = ExtResource("21")
+
+[node name="BookSprite" type="Sprite2D" parent="."]
+position = Vector2(707, 251.199)
+texture = ExtResource("22")
+
+[node name="PhotoSprite" type="Sprite2D" parent="."]
+position = Vector2(480, 425.199)
+texture = ExtResource("23")
+
+[node name="PenSprite" type="Sprite2D" parent="."]
+position = Vector2(685, 436.199)
+scale = Vector2(0.566667, 0.566667)
+texture = ExtResource("24")
+
+[node name="PenSpot" parent="." instance=ExtResource("25")]
+layout_mode = 1
+offset_left = 608.0
+offset_top = 390.1990051269531
+offset_right = -55.0
+offset_bottom = -119.8010025024414
+hotspot_id = "Lu2"
+text = "EVICTION_RED_PEN_TOOLTIP"
+unlocked_item_ref_id = 210
+
+[node name="PhotoSpot" parent="." instance=ExtResource("25")]
+layout_mode = 1
+offset_left = 405.0
+offset_top = 337.1990051269531
+offset_right = -279.0
+offset_bottom = -78.80130004882813
+hotspot_id = "mto"
+
+[node name="PhotoPanel" type="Panel" parent="PhotoSpot"]
+layout_mode = 0
+offset_left = 270.0
+offset_top = -1653.0
+offset_right = 879.0
+offset_bottom = -1081.0
+
+[node name="PhotoSprite" type="Sprite2D" parent="PhotoSpot/PhotoPanel"]
+position = Vector2(303.645, 280.532)
+scale = Vector2(0.914607, 0.914607)
+texture = ExtResource("26")
+
+[node name="PhotoLabel1" type="Label" parent="PhotoSpot/PhotoPanel"]
+layout_mode = 0
+offset_left = 20.0
+offset_right = 607.0
+offset_bottom = 73.0
+theme = ExtResource("27")
+text = "EVICTION_TESA_PHOTO_HEADER"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PhotoLabel2" type="Label" parent="PhotoSpot/PhotoPanel"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 63.0
+offset_right = 597.0
+offset_bottom = 112.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.121569, 0.164706, 0.164706, 1)
+text = "EVICTION_TESA_PHOTO_FOOTER"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="BookSpot" parent="." instance=ExtResource("25")]
+layout_mode = 1
+offset_left = 601.0
+offset_top = 152.19900512695313
+offset_right = -50.0
+offset_bottom = -246.80099487304688
+hotspot_id = "EI-"
+extra_items_unlocked = [SubResource("Resource_jy3un"), SubResource("Resource_uhqr8"), SubResource("Resource_63071"), SubResource("Resource_70a3g")]
+
+[node name="BookPanel" type="Panel" parent="BookSpot"]
+layout_mode = 0
+offset_left = -368.0
+offset_top = -864.0
+offset_right = 600.0
+offset_bottom = -197.0
+
+[node name="Background" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(478, 331.301)
+scale = Vector2(0.92986, 1)
+texture = ExtResource("29")
+
+[node name="LevelsTextLeft2" type="RichTextLabel" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 523.0
+offset_top = 491.0
+offset_right = 879.0
+offset_bottom = 589.0
+rotation = 0.0010047999676316977
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.698039, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("30")
+theme_override_fonts/bold_font = ExtResource("31")
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "EVICTION_TESA_BOOK_SECOND_PAGE_FOOTER"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="TableSprite" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(694.868, 272.318)
+scale = Vector2(0.684842, 0.579206)
+texture = ExtResource("32")
+
+[node name="Header1" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 636.0
+offset_top = 58.0
+offset_right = 746.0
+offset_bottom = 113.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_constants/line_spacing = -5
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND1"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Header2" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 753.0
+offset_top = 57.0
+offset_right = 862.0
+offset_bottom = 112.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_constants/line_spacing = -5
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND2"
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="NameLegend" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 114.0
+offset_right = 636.0
+offset_bottom = 166.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_constants/line_spacing = -5
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND3"
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="NameLabel1" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 167.0
+offset_right = 632.0
+offset_bottom = 244.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND4"
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="NameLabel2" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 246.0
+offset_right = 629.0
+offset_bottom = 325.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND5"
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="NameLabel3" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 525.0
+offset_top = 327.0
+offset_right = 632.0
+offset_bottom = 406.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND6"
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="NameLabel4" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 525.0
+offset_top = 406.0
+offset_right = 630.0
+offset_bottom = 485.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "EVICTION_TESA_BOOK_TABLE_LEGEND7"
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="TableText8" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 208.30099487304688
+offset_right = 691.0
+offset_bottom = 340.3009948730469
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_5"
+autowrap_mode = 3
+
+[node name="TableText9" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 209.30099487304688
+offset_right = 750.0
+offset_bottom = 341.3009948730469
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_95"
+autowrap_mode = 3
+
+[node name="TableText10" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 291.3009948730469
+offset_right = 691.0
+offset_bottom = 423.3009948730469
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_55"
+autowrap_mode = 3
+
+[node name="TableText11" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 289.3009948730469
+offset_right = 750.0
+offset_bottom = 421.3009948730469
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_45"
+autowrap_mode = 3
+
+[node name="TableText12" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 374.3009948730469
+offset_right = 691.0
+offset_bottom = 506.3009948730469
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_80"
+autowrap_mode = 3
+
+[node name="TableText13" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 375.3009948730469
+offset_right = 750.0
+offset_bottom = 507.3009948730469
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_20"
+autowrap_mode = 3
+
+[node name="TableText14" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 453.3009948730469
+offset_right = 691.0
+offset_bottom = 585.301025390625
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_20"
+autowrap_mode = 3
+
+[node name="TableText15" type="Label" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 693.0
+offset_top = 453.3009948730469
+offset_right = 750.0
+offset_bottom = 585.301025390625
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "NUMBER_80"
+autowrap_mode = 3
+
+[node name="RorschachSprite1" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(663, 192.301)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("33")
+
+[node name="RorschachSprite2" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(723, 189.301)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("34")
+
+[node name="RorschachSprite3" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(662.868, 271.818)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("33")
+
+[node name="RorschachSprite4" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(722.868, 271.818)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("35")
+
+[node name="RorschachSprite5" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(662.868, 351.818)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("33")
+
+[node name="RorschachSprite6" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(722.868, 352.818)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("35")
+
+[node name="RorschachSprite7" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(664.868, 431.818)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("36")
+
+[node name="RorschachSprite8" type="Sprite2D" parent="BookSpot/BookPanel"]
+position = Vector2(721.868, 431.818)
+scale = Vector2(0.35034, 0.35034)
+texture = ExtResource("34")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="BookSpot/BookPanel"]
+layout_mode = 0
+offset_left = 52.0
+offset_top = 49.0
+offset_right = 447.0
+offset_bottom = 563.0
+
+[node name="Label" type="Label" parent="BookSpot/BookPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "EVICTION_TESA_BOOK_FIRST_PAGE_PC_BODY"
+autowrap_mode = 2
+
+[node name="GlyphContainer" parent="BookSpot/BookPanel/VBoxContainer" instance=ExtResource("37")]
+layout_mode = 2
+label_settings = SubResource("LabelSettings_2l4fd")
+text = "EVICTION_BOOK_GLYPHS"
+
+[node name="hate" type="TextureRect" parent="BookSpot/BookPanel/VBoxContainer/GlyphContainer"]
+visible = false
+layout_mode = 2
+texture = ExtResource("38")
+
+[node name="empathy" type="TextureRect" parent="BookSpot/BookPanel/VBoxContainer/GlyphContainer"]
+visible = false
+layout_mode = 2
+texture = ExtResource("39")
+
+[node name="IdolAttemptSpot" parent="." instance=ExtResource("25")]
+layout_mode = 1
+offset_left = 397.0
+offset_top = 114.1989974975586
+offset_right = -283.0
+offset_bottom = -262.8009948730469
+hotspot_id = "PPd"
+unlocked_puzzles = [ExtResource("40")]
+
+[node name="IdolAttemptPanel" type="Panel" parent="IdolAttemptSpot"]
+layout_mode = 0
+offset_left = -184.0
+offset_top = -1396.0
+offset_right = 215.0
+offset_bottom = -863.0
+
+[node name="IdolAttemptButtonsSprite" type="Sprite2D" parent="IdolAttemptSpot/IdolAttemptPanel"]
+position = Vector2(211, 268)
+scale = Vector2(1.05651, 1.05651)
+texture = ExtResource("41")

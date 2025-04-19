@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=4 uid="uid://bubylea56x7cf"]
+
+[ext_resource type="Texture2D" uid="uid://dlvrhcju831nu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/board.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+
+[node name="PostersPanel" type="Panel"]
+offset_left = -1181.0
+offset_top = 61.0
+offset_right = -351.0
+offset_bottom = 691.0
+
+[node name="PosterSprite3" type="Sprite2D" parent="."]
+position = Vector2(409, 309)
+rotation = 3.141590118408203
+texture = ExtResource("1")
+flip_h = true
+flip_v = true
+
+[node name="LabelAlcohol" type="Label" parent="."]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 210.0
+offset_right = 253.0
+offset_bottom = 574.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0, 0.0666667, 0.470588, 1)
+text = "BURNING_NOTICEBOARD_ALCOHOL"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelTesting" type="Label" parent="."]
+layout_mode = 0
+offset_left = 302.0
+offset_top = 34.0
+offset_right = 507.0
+offset_bottom = 382.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0, 0.0666667, 0.470588, 1)
+text = "BURNING_NOTICEBOARD_TESTING"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="LabelCold" type="Label" parent="."]
+layout_mode = 0
+offset_left = 558.0
+offset_top = 174.0
+offset_right = 771.0
+offset_bottom = 530.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0, 0.0666667, 0.470588, 1)
+text = "BURNING_NOTICEBOARD_COLD"
+vertical_alignment = 1
+autowrap_mode = 3

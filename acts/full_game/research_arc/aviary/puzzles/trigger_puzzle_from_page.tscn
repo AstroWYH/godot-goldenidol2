@@ -1,0 +1,236 @@
+[gd_scene load_steps=16 format=4 uid="uid://bfgbkxusuc0hs"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://dvner0tjkk0t1" path="res://shared/assets/portraits/greenboard.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bq7p3yxs33ut8" path="res://shared/assets/portraits/bird.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dwg8nilf756aw" path="res://shared/assets/portraits/rednosedbird.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c8df67n64a3k" path="res://shared/assets/portraits/grouse.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bc1eadyalbt6x" path="res://acts/full_game/research_arc/aviary/assets/trigger_puzzle/arow.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://bpc68jm3kpt64" path="res://acts/full_game/research_arc/aviary/puzzles/trigger_puzzle_meta.tres" id="9"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="10"]
+[ext_resource type="Texture2D" uid="uid://dpqs8uhjuqdgg" path="res://acts/full_game/research_arc/aviary/assets/trigger_puzzle/wristband.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dcjwylarvv7rd" path="res://shared/assets/portraits/declan.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dsrurae86acvu" path="res://acts/full_game/research_arc/aviary/assets/trigger_puzzle/egs.png" id="13"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="14"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="15"]
+
+[node name="TriggerPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 481.0
+offset_bottom = 772.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(85, 174)
+texture = ExtResource("2")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(85, 294)
+texture = ExtResource("3")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Frame/MarginContainer/Background" index="2"]
+position = Vector2(85, 414)
+texture = ExtResource("4")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Frame/MarginContainer/Background" index="3"]
+position = Vector2(85, 532)
+texture = ExtResource("5")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Frame/MarginContainer/Background" index="4"]
+position = Vector2(227, 533)
+texture = ExtResource("6")
+
+[node name="Sprite2D6" type="Sprite2D" parent="Frame/MarginContainer/Background" index="5"]
+position = Vector2(229, 413)
+texture = ExtResource("6")
+
+[node name="Sprite2D7" type="Sprite2D" parent="Frame/MarginContainer/Background" index="6"]
+position = Vector2(230, 291)
+texture = ExtResource("6")
+
+[node name="Sprite2D8" type="Sprite2D" parent="Frame/MarginContainer/Background" index="7"]
+position = Vector2(234, 173)
+texture = ExtResource("6")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+anchors_preset = -1
+offset_left = -8.0
+offset_top = -2.0
+offset_right = -8.0
+offset_bottom = -2.0
+
+[node name="CloseButton" parent="." index="2"]
+anchors_preset = -1
+anchor_left = 0.968999981880188
+anchor_top = 0.01600000075995922
+anchor_right = 0.968999981880188
+anchor_bottom = 0.01600000075995922
+offset_left = -7.554019927978516
+offset_top = -16.06399917602539
+offset_right = 27.445999145507813
+offset_bottom = 19.93600082397461
+
+[node name="ContainerDragger" parent="." index="3"]
+offset_right = 465.0
+offset_bottom = 748.0
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("7")]
+layout_mode = 1
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 30.0
+offset_top = 11.0
+offset_right = 46.0
+offset_bottom = 903.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("8")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.7770000100135803
+anchor_right = 0.7770000100135803
+anchor_bottom = 0.0
+offset_left = -48.43199920654297
+offset_top = -35.0
+offset_right = 418.5679931640625
+offset_bottom = 738.0
+puzzle_meta = ExtResource("9")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("10")]
+layout_mode = 1
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 3.0
+offset_top = -20.0
+offset_right = 80.0
+offset_bottom = 212.0
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Container" type="Control" parent="PuzzleGroup/Puzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 23.0
+offset_top = 64.0
+offset_right = 445.0
+offset_bottom = 562.0
+mouse_filter = 2
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.4339999854564667
+anchor_top = -0.07999999821186066
+anchor_right = 0.4339999854564667
+anchor_bottom = -0.07999999821186066
+offset_left = 118.85199737548828
+offset_top = 390.8399963378906
+offset_right = 218.8520050048828
+offset_bottom = 490.8399963378906
+texture = ExtResource("11")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.4189999997615814
+anchor_top = -0.09000000357627869
+anchor_right = 0.4189999997615814
+anchor_bottom = -0.09000000357627869
+offset_left = 124.18199920654297
+offset_top = 273.82000732421875
+offset_right = 224.1820068359375
+offset_bottom = 373.82000732421875
+texture = ExtResource("2")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.4259999990463257
+anchor_top = -0.08699999749660492
+anchor_right = 0.4259999990463257
+anchor_bottom = -0.08699999749660492
+offset_left = 123.22799682617188
+offset_top = 152.3260040283203
+offset_right = 223.22799682617188
+offset_bottom = 252.3260040283203
+texture = ExtResource("12")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.4339999854564667
+anchor_top = -0.07400000095367432
+anchor_right = 0.4339999854564667
+anchor_bottom = -0.07400000095367432
+offset_left = 117.85199737548828
+offset_top = 506.85198974609375
+offset_right = 217.8520050048828
+offset_bottom = 606.8519897460938
+texture = ExtResource("13")
+
+[node name="Inventory" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("14")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -15.0
+offset_top = 81.0
+offset_right = -15.0
+offset_bottom = 81.0
+grow_horizontal = 1
+grow_vertical = 1
+infinite = false
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 571.0
+offset_right = 472.0
+offset_bottom = 675.0
+theme_override_constants/h_separation = 5
+columns = 6
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("2")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("12")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("13")
+
+[node name="Ventilation1" type="Label" parent="." index="5"]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 38.0
+offset_right = 462.0
+offset_bottom = 128.0
+theme_override_colors/font_color = Color(0.137255, 0.129412, 0.203922, 1)
+theme_override_constants/line_spacing = -3
+theme_override_fonts/font = ExtResource("15")
+theme_override_font_sizes/font_size = 24
+text = "AVIARY_TRIGGER_PUZZLE_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[editable path="Frame"]

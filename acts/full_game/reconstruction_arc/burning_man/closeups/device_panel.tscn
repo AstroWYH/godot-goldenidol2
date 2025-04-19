@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=4 uid="uid://cjnbk76k5r3vy"]
+
+[ext_resource type="Texture2D" uid="uid://coete4wcayh2y" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/idolreconstructed.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cmg8m8wnp1h7u" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/input2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c5d4qlhqkv88o" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/onbutton.png" id="4"]
+
+[node name="DevicePanel" type="Panel"]
+offset_left = -1022.0
+offset_top = -2338.0
+offset_right = -265.0
+offset_bottom = -1508.0
+
+[node name="DeviceSprite" type="Sprite2D" parent="."]
+position = Vector2(378, 411)
+texture = ExtResource("1")
+
+[node name="EMPrintSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 43.0
+offset_top = 287.0
+offset_right = -533.0
+offset_bottom = -389.0
+hotspot_id = "RcP"
+
+[node name="Highlighter" parent="EMPrintSpot/Indicators" index="0"]
+modulate = Color(0.113725, 0.231373, 0.196078, 1)
+
+[node name="EMPrintPanel" type="Panel" parent="EMPrintSpot"]
+layout_mode = 0
+offset_left = -975.0
+offset_top = -349.0
+offset_right = -354.0
+offset_bottom = 269.0
+
+[node name="EMPrintSprite" type="Sprite2D" parent="EMPrintSpot/EMPrintPanel"]
+position = Vector2(312, 305)
+texture = ExtResource("3")
+
+[node name="LLPrintSpot3" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 632.0
+offset_top = 232.0
+offset_right = -33.0
+offset_bottom = -481.0
+hotspot_id = "jLT"
+
+[node name="Indicators" parent="LLPrintSpot3" index="0"]
+offset_left = 30.5
+offset_top = 78.0
+offset_right = 30.5
+offset_bottom = 78.0
+
+[node name="Highlighter" parent="LLPrintSpot3/Indicators" index="0"]
+modulate = Color(0.0784314, 0.192157, 0.258824, 1)
+
+[node name="LLPrintPanel" type="Panel" parent="LLPrintSpot3"]
+layout_mode = 0
+offset_left = -503.0
+offset_top = -1385.0
+offset_right = -30.0
+offset_bottom = -744.0
+
+[node name="LLPrintSprite" type="Sprite2D" parent="LLPrintSpot3/LLPrintPanel"]
+position = Vector2(238, 319)
+texture = ExtResource("4")
+
+[editable path="EMPrintSpot"]
+[editable path="LLPrintSpot3"]

@@ -1,0 +1,134 @@
+[gd_scene load_steps=5 format=4 uid="uid://bble4mcvye0ry"]
+
+[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://6wkdux53oy8q" path="res://acts/demo/scenarios/seaside/assets/paper1.png" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="4"]
+
+[node name="Control" type="ColorRect"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.294118, 0.294118, 0.294118, 0.301961)
+script = ExtResource("1")
+
+[node name="CallPanel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 28.0
+offset_right = 810.0
+offset_bottom = 866.0
+
+[node name="Sprite2D" type="Sprite2D" parent="CallPanel"]
+position = Vector2(365.601, 414.098)
+rotation = -1.5707999467849731
+scale = Vector2(1.03483, 0.612766)
+texture = ExtResource("2")
+
+[node name="JackLabel" type="RichTextLabel" parent="CallPanel"]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 85.0
+offset_right = 641.0
+offset_bottom = 616.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_constants/line_separation = -4
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_fonts/bold_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 27
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "TRIALS_TIME_SNIPPET_BODY"
+autowrap_mode = 2
+
+[node name="EugeneNotesLabel" type="RichTextLabel" parent="CallPanel"]
+clip_contents = false
+layout_mode = 0
+offset_left = 327.0
+offset_top = 238.0
+offset_right = 713.0
+offset_bottom = 326.0
+rotation = -0.014078300446271896
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_fonts/bold_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 22
+theme_override_font_sizes/bold_font_size = 22
+bbcode_enabled = true
+text = "TRIALS_TIME_NOTE_1"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="EugeneNotesLabel2" type="RichTextLabel" parent="CallPanel"]
+layout_mode = 0
+offset_left = 226.0
+offset_top = 335.0
+offset_right = 666.0
+offset_bottom = 383.0
+rotation = -0.06012120097875595
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.6, 0.172549, 0.12549, 1)
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_fonts/bold_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 24
+bbcode_enabled = true
+text = "TRIALS_TIME_NOTE_2"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="EugeneNotesLabel3" type="RichTextLabel" parent="CallPanel"]
+layout_mode = 0
+offset_left = 251.0
+offset_top = 424.0
+offset_right = 699.0
+offset_bottom = 474.0
+rotation = 0.04328329861164093
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_fonts/bold_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 24
+bbcode_enabled = true
+text = "TRIALS_TIME_NOTE_3"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="EugeneNotesLabel4" type="RichTextLabel" parent="CallPanel"]
+layout_mode = 0
+offset_left = 279.0
+offset_top = 516.0
+offset_right = 699.0
+offset_bottom = 604.0
+rotation = -0.047628700733184814
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_fonts/bold_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 24
+bbcode_enabled = true
+text = "TRIALS_TIME_NOTE_4"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="EugeneNotesLabel5" type="RichTextLabel" parent="CallPanel"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 603.0
+offset_right = 707.0
+offset_bottom = 792.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
+theme_override_fonts/normal_font = ExtResource("3")
+theme_override_fonts/bold_font = ExtResource("4")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 24
+bbcode_enabled = true
+text = "TRIALS_TIME_NOTE_5"
+scroll_active = false
+autowrap_mode = 2
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

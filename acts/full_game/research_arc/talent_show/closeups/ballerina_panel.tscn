@@ -1,0 +1,136 @@
+[gd_scene load_steps=29 format=4 uid="uid://carqchnsxg11e"]
+
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="1"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
+[ext_resource type="Texture2D" uid="uid://o0f3m8i2ukap" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b13ljiutre2qa" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cv01bpgg14mmk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://din3uexyn1egk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dm2v514iwhlsy" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cvfem08yadxue" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dsikg85eogjr" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dwn46i51p5i3w" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://qb1lulghf33q" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://uar3r6kog4bo" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bu7gxpe8ntlp2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bpswpknq8tcwc" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c68vsgm4af1bb" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cmivqag6qx4u0" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dfmehq1qc2wo4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://xjkkjy0bnrci" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://mjsewcslv6qk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://yuxawehdb5bd" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://csf002o2sncxg" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cx4ceikq4h1l" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dyvos2oyo5vgi" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://sopu2ygbbmyt" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bib0iuxjudgu5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b2556gde8wh4k" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cu3vrl1q0s0y2" path="res://acts/full_game/research_arc/talent_show/assets/portraits/balerina/balerina_024.png" id="27"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sgdme"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="BallerinaPanel" type="Panel"]
+offset_left = -1224.0
+offset_top = 661.0
+offset_right = -306.0
+offset_bottom = 1274.0
+
+[node name="BallerinaText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 34.0
+offset_right = 797.0
+offset_bottom = 229.0
+theme = ExtResource("1")
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "SHOW_REGINA_SPEECH"
+autowrap_mode = 3
+
+[node name="Balerina" type="AnimatedSprite2D" parent="."]
+position = Vector2(432, 407)
+sprite_frames = SubResource("SpriteFrames_sgdme")
+autoplay = "default"
+frame_progress = 0.39197298884391785

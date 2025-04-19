@@ -1,0 +1,110 @@
+[gd_scene load_steps=14 format=4 uid="uid://bmll22nxvjply"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dioppstaxf134" path="res://shared/ui/portrait_puzzle/portrait_puzzle.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://dl2el075lfjs" path="res://acts/full_game/research_arc/aviary/puzzles/portrait_puzzle_meta.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://btemkxm05phja" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://c8df67n64a3k" path="res://shared/assets/portraits/grouse.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bevmmubrtp7jp" path="res://shared/assets/portraits/redbrested.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dwg8nilf756aw" path="res://shared/assets/portraits/rednosedbird.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dvner0tjkk0t1" path="res://shared/assets/portraits/greenboard.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bq7p3yxs33ut8" path="res://shared/assets/portraits/bird.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dcjwylarvv7rd" path="res://shared/assets/portraits/declan.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dl2x6xrjrecs3" path="res://shared/assets/portraits/shoutingkeeper.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c5o27uydemayn" path="res://shared/assets/portraits/incubatorkeeper.png" id="13"]
+
+[node name="PortraitPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 871.0
+offset_bottom = 500.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+anchors_preset = -1
+anchor_right = 1.003000020980835
+offset_right = 0.37498199939727783
+offset_bottom = 5.0
+
+[node name="ColorRect" parent="Frame/MarginContainer" index="1"]
+visible = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.7339999675750732
+anchor_bottom = 1.4889999628067017
+offset_right = -1517.25
+offset_bottom = -744.5
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.37700000405311584
+anchor_bottom = 0.6489999890327454
+offset_left = 25.0
+offset_top = 21.0
+offset_right = 831.0
+offset_bottom = 501.0
+mouse_filter = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+puzzle_meta = ExtResource("4")
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle" index="1"]
+layout_mode = 2
+theme_override_constants/h_separation = 100
+theme_override_constants/v_separation = 20
+columns = 4
+
+[node name="Grouse" parent="PuzzleGroup/Puzzle/GridContainer" index="0" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 74
+custom_portrait = ExtResource("6")
+
+[node name="Heron" parent="PuzzleGroup/Puzzle/GridContainer" index="1" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 73
+custom_portrait = ExtResource("7")
+
+[node name="FlowePiercer" parent="PuzzleGroup/Puzzle/GridContainer" index="2" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 76
+custom_portrait = ExtResource("8")
+
+[node name="Lory" parent="PuzzleGroup/Puzzle/GridContainer" index="3" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 75
+custom_portrait = ExtResource("9")
+
+[node name="Herald" parent="PuzzleGroup/Puzzle/GridContainer" index="4" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 77
+custom_portrait = ExtResource("10")
+
+[node name="Declan" parent="PuzzleGroup/Puzzle/GridContainer" index="5" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 67
+custom_portrait = ExtResource("11")
+
+[node name="Crystal" parent="PuzzleGroup/Puzzle/GridContainer" index="6" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 66
+custom_portrait = ExtResource("12")
+
+[node name="Marcie" parent="PuzzleGroup/Puzzle/GridContainer" index="7" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 65
+custom_portrait = ExtResource("13")
+
+[editable path="Frame"]

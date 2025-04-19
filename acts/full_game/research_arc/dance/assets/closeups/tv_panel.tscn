@@ -1,0 +1,795 @@
+[gd_scene load_steps=193 format=4 uid="uid://do3pna7urcqkl"]
+
+[ext_resource type="Texture2D" uid="uid://sqehqtkbly44" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cu7dk8iy8oxlw" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://y5egirmymecb" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ky3j33kgy1jt" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c1yjr2y5w5qfr" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://qgb8t6dkkvrf" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://s77oij0dav6s" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cco7g7rft5fkw" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://3h2tyg8vakp5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://blhxtfft7f7h7" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cgk8r6ukn4h6w" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://wmkl4gem5s38" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ccp7qf2ulo3de" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://gikoms2gmmnb" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://708n218jhv0s" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cj7kj3mvlub83" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dj67uyg5ykgc2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://djxa85a1uqlvc" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dc4fv50x15x64" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://xu7vxdtauxx7" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cagiuenxaxy0j" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c6uhrwirhf2il" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://r32odxebe4pv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cjndlb6iid3d8" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cmqpxo75wrort" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://djavowg8xuu0e" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://2oqjo8m0gt04" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cunksm0thoxmv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c4tjufbvo62m" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ch0p0a475ftik" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dkdxflwc4skds" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bnhmlrr854riw" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bqn5kvgxf8aao" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c4amdyc8v3ua3" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dw7fkujjoimbe" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cabqo5e20odo8" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://b13slu2hswl03" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dmyal35er583l" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://d4e8twp8l3h7u" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ct5od4oajm7u" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dcli624rri70y" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c4ltaw7d84ph4" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://ctjhbrt5lrgjv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cxv0bewh2mi2r" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://f468dbt4ed5f" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bm7jxa0vr7udj" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://diojujhlm0fx5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://br8euoegimb3v" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://d4lc2bpy6wqqs" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bbtfc20gycjaw" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bi3i76qa2mwhr" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://d2f5lhdn48w06" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://bk6rcl5wmg326" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://d0ik0nvmt4afi" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_053.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://doxepj4h6pcll" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_054.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://do8834f2eh7ud" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_055.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://die1w5gvnrncp" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_056.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dg0lpmbcqjqar" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_057.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://bf8jeln7qj4fk" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_058.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://djiqdl4sscikk" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_059.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://be8jum0jq5cmk" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_060.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://ccjjdb72p6ftj" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_061.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dsq48gfyiqem5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_062.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://bfkumloorj4o2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_063.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dyhj8fx5qjjqj" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_064.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://dt6q183jiice4" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_065.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://c6xwosexsnqpm" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_066.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://dr6r0gnrdria4" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_067.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://b541yscnblpil" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_068.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://daohrcnu20642" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_069.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://bh4ekcvrw27cv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_070.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://b20t7jar0jv03" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_071.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://o28ctlgkhoc5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_072.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://cgtaytvj08fj5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_073.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://bw75gkxg3b8vv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_074.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://bfh8vc13y3fse" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_075.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://ygvd3emx8sh" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_076.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://30ivhviiwldu" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_077.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://2dfh1iy63omg" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_078.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cn22k2dsam4tf" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_079.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://c87ustfd6oaxt" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_080.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://58m5tduqf0nl" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_081.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://dasmphy5hptd0" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_082.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://cuwiybgljhagb" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_083.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://bi44bch64js0p" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_084.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://ld3cfamgelam" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_085.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://bc5v3lqi3joha" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_086.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://bmko87w0lujl" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_087.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://btnuq5thpd5bn" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_088.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://cvlsbvqxnqa1f" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_089.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://cwfjnm6jo1jx" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_090.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://3af0wj5sso32" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_091.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://c0jfwc8htiql4" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_092.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://bgiir0uihc40f" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_093.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://b7yi06lcuwrso" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_094.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://da4suyhk04vdf" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_095.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bbqjng3d1saak" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_096.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://tvpk8vjwpbay" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_097.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://bdflgmjji12ke" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_098.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://bno4pikg7swx2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_099.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://dto682nv5wpqn" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_100.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cmvcwkgl76yg2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_101.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://b1yu2kgtpmwq2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_102.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://ccfv8mmvb8ino" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_103.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://d3mmri0acl3m1" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_104.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://bsewdn8lvucxe" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_105.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://bgjql7aidlqvy" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_106.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://blqgp044chdk3" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_107.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://f13q6kvyurrr" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_108.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://h1yihmiia384" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_109.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://bf48i7xkfhmtm" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_110.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://s6ydw7q2rn5a" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_111.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://cf01flujyvbpi" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_112.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://3ec0mwe4fbdr" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_113.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://bksdvm50crwiv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_114.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://cx23ortaduvio" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_115.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://167dappk7hh" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_116.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://4jk2a6684pfa" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_117.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://dgkirvr8b5eun" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_118.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://sydtse4ahj1r" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_119.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://e2las2ixkl13" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_120.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://bdyiybpty5rya" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_121.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://bwo415gvnw3ku" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_122.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://r5piojdhr2mc" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_123.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://bquh46r4md8in" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_124.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://drvncejgqb4rj" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_125.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://dyfc4pyb3yujv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_126.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://dulff26dwlw7" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_127.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://bq40tq5m4yfox" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_128.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://cinh2ajac68j1" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_129.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://cepsl6cwnrlj8" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_130.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://cbupbwogbmsuj" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_131.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://p46ig02fgr2w" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_132.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://cfsyfidfggk1i" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_133.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://c33swmet05q2q" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_134.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://k5h877ksdsn3" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_135.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://bj55gotyueqyn" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_136.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://bw4uglc77hkjq" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_137.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://db5xm02wuv4dt" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_138.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://c43kg3g48sbn2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_139.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://bxgtdftjb8yd2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_140.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://djfry2u6rc3gs" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_141.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://dlvmeoi38j7mk" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_142.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://crb5eyxun37n1" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_143.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://blbu0lir5a2y2" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_144.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://cftrrlywjp15h" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_145.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://cbt5q4amqjdpq" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_146.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://y0yqpdfitsx6" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_147.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://dl4e2wakwcwqg" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_148.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://d4mi4lyxqjd3o" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_149.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://cf0fmefqsll7w" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_150.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://byggyel1dhysy" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_151.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://djagc7n38d42j" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_152.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://b6ei4kqg352r" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_153.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://dlke0eu4cxdwi" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_154.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://d213ph1vltvw3" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_155.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://b03sp4bhe4pg5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_156.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://y6tn1dwira7w" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_157.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://gluhcq7uwak5" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_158.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://ddx7j3r4cs1fr" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_159.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://udo5oxwiappg" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_160.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://cg0kp6i2i6upy" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_161.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://buwaynmjymsa" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_162.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://cf2b2xhacfugp" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_163.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://b2wb5hp85twpf" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_164.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://bxy0s61tb8v2y" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_165.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://ce1cw1q8be0ak" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_166.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://xl13p1g4it11" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_167.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://djve3tvqt8ygx" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_168.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://3ijr5m82ar50" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_169.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://bupslsxx3f238" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_170.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://bftd1wucn725e" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_171.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://c5l40d2i3146u" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_172.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://fapfw1l0ufxt" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_173.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://f48kip3j0pq3" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_174.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://k33tqwwi53bh" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_175.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://doekoovjd8ldf" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_176.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://djrspdm66044a" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_177.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://cam5nu5dc0ikv" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_178.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://b332bim7t2ipd" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_179.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://c4rkj1wqfoj2o" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_180.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://dxhgesh1y1jai" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_181.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://sfhwjcd2ibjb" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_182.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://eb4560j7oy52" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_183.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://78xlp3fk1lbs" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_184.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://cohqt11bofsck" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_185.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://mnxq2iq0ay3q" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_186.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://b0lrlyu6xtgu8" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_187.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://cr1ssctrvt3yh" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_188.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://bp7p3wtj3jk6" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_189.png" id="190"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="191"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2bdq8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="TVPanel" type="Panel"]
+offset_left = -1653.0
+offset_top = 342.0
+offset_right = -903.0
+offset_bottom = 918.0
+
+[node name="DanceSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(71, 64)
+sprite_frames = SubResource("SpriteFrames_2bdq8")
+autoplay = "default"
+centered = false
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 113.0
+offset_top = 437.0
+offset_right = 319.0
+offset_bottom = 473.0
+theme = ExtResource("191")
+theme_override_colors/default_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/normal_font_size = 22
+text = "DANCE_TV_PROMPT"
+autowrap_mode = 2

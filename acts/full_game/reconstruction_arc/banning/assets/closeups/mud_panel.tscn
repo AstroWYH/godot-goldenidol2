@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=4 uid="uid://biv3thvyushkl"]
+
+[ext_resource type="Texture2D" uid="uid://bl2rqj2us1g1" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/imprint.png" id="1"]
+
+[node name="MudPanel" type="Panel"]
+offset_left = 829.0
+offset_top = -953.0
+offset_right = 1455.0
+offset_bottom = -530.0
+
+[node name="Mudsprite" type="Sprite2D" parent="."]
+position = Vector2(313, 208)
+texture = ExtResource("1")
+flip_h = true

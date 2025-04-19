@@ -1,0 +1,252 @@
+[gd_scene load_steps=47 format=4 uid="uid://dihtxufoq6cbr"]
+
+[ext_resource type="Texture2D" uid="uid://lrh5snorywry" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://joit226vflt8" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://6o46ay2eltvl" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://mwkmieby76yr" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cikqspx10k143" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cjf7oq1xbd331" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dcmln8t2pe5e3" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://5jlh3o26bumu" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://gxxlx502j7nu" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://vgsiwtq2m1ad" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://lgn72nh21ofe" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://pw51yx3tnqv8" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bfrvqnw8yl7d7" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://vs3ta6jfga7l" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dchbxq3hbelki" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://7e81upwimttk" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b3mn5agt5yllv" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://6lj244c65lyl" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c8c52pv4qeb3i" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://g22bopvfkf3o" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dypwwf251kjhx" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://0fwprx058sg" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dbt87oe53xlbl" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ccx62vc127xcf" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bkxeib5khxg4y" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bya2we6g7myaj" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c2bdldfdhe0wv" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dxeluduwymd56" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cghx7w5nih2jv" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://jbahajqturyk" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+[ext_resource type="Texture2D" uid="uid://blqdkhqgawhhu" path="res://shared/assets/papers/SmallNote_V1_ICO.png" id="32"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="33"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="34"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="36"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_it880"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_ugb03"]
+script = ExtResource("34")
+linked_item_ref_id = 854
+
+[sub_resource type="Resource" id="Resource_fei60"]
+script = ExtResource("34")
+linked_item_ref_id = 829
+
+[sub_resource type="Resource" id="Resource_7568k"]
+script = ExtResource("34")
+linked_item_ref_id = 837
+
+[sub_resource type="Resource" id="Resource_n7sfr"]
+script = ExtResource("34")
+linked_item_ref_id = 491
+
+[sub_resource type="Resource" id="Resource_5mixr"]
+script = ExtResource("34")
+linked_item_ref_id = 847
+
+[sub_resource type="Resource" id="Resource_wx8se"]
+script = ExtResource("34")
+linked_item_ref_id = 527
+
+[sub_resource type="Resource" id="Resource_m27vt"]
+script = ExtResource("34")
+linked_item_ref_id = 850
+
+[sub_resource type="Resource" id="Resource_ctsh4"]
+script = ExtResource("34")
+linked_item_ref_id = 564
+
+[node name="CorbynPanel" type="Panel"]
+offset_right = 629.0
+offset_bottom = 457.0
+
+[node name="CorbynSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(175, 271)
+sprite_frames = SubResource("SpriteFrames_it880")
+autoplay = "default"
+frame_progress = 0.9498540163040161
+
+[node name="SpeechCorbynLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 23.0
+offset_right = 578.0
+offset_bottom = 46.0
+theme = ExtResource("31")
+text = "NEIGHBORHOOD_CORBYN_SPEECH"
+autowrap_mode = 3
+
+[node name="LetterSprite" type="Sprite2D" parent="."]
+position = Vector2(463, 330)
+scale = Vector2(1.17188, 1.17188)
+texture = ExtResource("32")
+
+[node name="LetterSpot" parent="." instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 386.0
+offset_top = 223.0
+offset_right = -93.0
+offset_bottom = -49.0
+hotspot_id = "9Kn"
+unlocked_item_ref_id = 853
+extra_items_unlocked = [SubResource("Resource_ugb03"), SubResource("Resource_fei60"), SubResource("Resource_7568k"), SubResource("Resource_n7sfr"), SubResource("Resource_5mixr"), SubResource("Resource_wx8se"), SubResource("Resource_m27vt"), SubResource("Resource_ctsh4")]
+
+[node name="CorbynPanel" type="Panel" parent="LetterSpot"]
+layout_mode = 0
+offset_left = -947.0
+offset_top = -244.0
+offset_right = -431.0
+offset_bottom = 297.0
+
+[node name="TextureRect" type="TextureRect" parent="LetterSpot/CorbynPanel"]
+modulate = Color(0.929412, 0.984314, 1, 1)
+layout_mode = 0
+offset_left = 11.0
+offset_top = 9.0
+offset_right = 504.0
+offset_bottom = 531.0
+texture = ExtResource("35")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="LetterSpot/CorbynPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(311, 309)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("36")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="LetterSpot/CorbynPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(193, 161)
+rotation = 6.407639980316162
+scale = Vector2(0.807298, 1)
+texture = ExtResource("36")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="LetterLabel" type="Label" parent="LetterSpot/CorbynPanel"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 30.0
+offset_right = 475.0
+offset_bottom = 519.0
+theme = ExtResource("37")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 21
+text = "NEIGHBORHOOD_CORBYN_LETTER"
+autowrap_mode = 3

@@ -1,0 +1,153 @@
+[gd_scene load_steps=33 format=4 uid="uid://bu3cqux25gwk3"]
+
+[ext_resource type="Texture2D" uid="uid://buvblocyhebpc" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dipsudcsi5kyh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cdwitedr4xmdy" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b710a0od8jf1s" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://chitk3lslpt8h" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://buuqowbl6nxwu" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c0tsd7yi4kngb" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://lrul87ihu6rr" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cwp8qcgbwph8r" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dbkookrulbwyv" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cjkyakl8kc8r0" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://7qbyhcgj8btt" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dxx0yi5dlpos5" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bcevbdtumfpli" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://crwb2e4j4c1a8" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bx1p0es1u47sy" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bi3q4l4sip8sk" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://canwdxncf7q2m" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dj5dq1uiyo32p" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b35gnfne7l1xl" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bxni23t2elye2" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://4uey1qnfsrbo" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bldf55dvj264j" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cyi0losml56og" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dqe65gv1urdiy" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bvvix0w4ffxb4" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dnneb6w0idiwn" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c6k2e7t6ibccv" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dtin0sep8np1i" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dj0qyiv7hn1mi" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1qxxd"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="JeffreyPanel" type="Panel"]
+offset_left = 958.0
+offset_top = -6.0
+offset_right = 1677.0
+offset_bottom = 484.0
+
+[node name="JeffreySprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(161, 306)
+sprite_frames = SubResource("SpriteFrames_1qxxd")
+autoplay = "default"
+frame_progress = 0.5671709775924683
+
+[node name="JeffreySpeechLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 23.0
+offset_right = 697.0
+offset_bottom = 56.0
+theme = ExtResource("31")
+text = "NEIGHBORHOOD_YARDS_JEFFREY_SPEECH"
+autowrap_mode = 3

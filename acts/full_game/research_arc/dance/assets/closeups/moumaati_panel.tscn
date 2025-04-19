@@ -1,0 +1,170 @@
+[gd_scene load_steps=37 format=4 uid="uid://befuk2nr6fvdq"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="FontFile" uid="uid://brh7fd68mtonn" path="res://shared/assets/fonts/EastSeaDokdo-Regular.ttf" id="2"]
+[ext_resource type="Texture2D" uid="uid://c34040tib4lot" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dvxxxhb48uf8l" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://nipfx7odq7s0" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bhfydbeoh28ml" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cyi7g2qmt176k" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://rdr31vj7k2pc" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian6.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://7vnd07aguu0a" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian7.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ib0pe7dstp17" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian8.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dtwapn6sxy857" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian9.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c0lnhlh0cvk48" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian10.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cqdcio06kbaf" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian11.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bh6ugdmpkfid2" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian12.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bggrbg20m2gj1" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian13.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://djrh3kkgtd4k7" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian14.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dnn2t1k8xtgff" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian15.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://klv51uixebhf" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian16.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://co8dk1es76gxi" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian17.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://d0r02q1vv0b72" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian18.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dudmhnkuov7ps" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian19.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c63inc0ljopu1" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian20.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bsf1sig2mkp5i" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian21.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c48d3xbixjbob" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian22.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c5webc5kpurke" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian23.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ci22x0j5r23pl" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian24.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://drcj3l71xgkjj" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian25.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://42m3pr8phk3y" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian26.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bdhotm1ruorpf" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian27.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bcqgyd0vwvhr1" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian28.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bpswa1aqxml5q" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian29.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://b2ckia11q224k" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian30.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://coc1xlqpdphit" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian31.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://balflrh0aidkl" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian32.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://btnlypfomkk3v" path="res://acts/full_game/research_arc/dance/assets/portraits/lemurian/lemurian33.png" id="35"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i3kgf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="MoumaatiPanel" type="Panel"]
+offset_left = 1047.0
+offset_top = -90.0
+offset_right = 1818.0
+offset_bottom = 402.0
+
+[node name="MoumaatiLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 297.0
+offset_top = 37.0
+offset_right = 734.0
+offset_bottom = 358.0
+rotation = -0.014695700258016586
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(1, 0.647059, 0.839216, 1)
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 36
+text = "DANCE_HISTORIAN_SPEECH"
+autowrap_mode = 3
+
+[node name="MoumaatiSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(152, 325)
+sprite_frames = SubResource("SpriteFrames_i3kgf")
+autoplay = "default"
+frame_progress = 0.7763450145721436

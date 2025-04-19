@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=3 format=4 uid="uid://butyu7r8pnd4k"]
+
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="1"]
+
+[sub_resource type="Resource" id="Resource_vong7"]
+metadata/__load_path__ = "res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzleicon.png"
+
+[resource]
+script = ExtResource("1")
+puzzle_id = 114
+puzzle_name = "Device"
+puzzle_icon = SubResource("Resource_vong7")
+arc_puzzle = false
+locked_by_default = true
+hide_card_when_locked = false
+unlocks_puzzles_on_solve = []
+unlocks_segments_on_solve = []
+escalate_music_on_solve = false
+escalation_level = 0
+segmentation_mode = 0
+specified_segments = []

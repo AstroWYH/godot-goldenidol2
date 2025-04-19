@@ -1,0 +1,448 @@
+[gd_scene load_steps=22 format=4 uid="uid://dtpefotaswjrx"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bc8nnr1k8aqqw" path="res://acts/full_game/research_arc/complex/assets/puzzles/background_appartment_puzzle.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://pdtqoiho65pm" path="res://shared/assets/portraits/2.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="5"]
+[ext_resource type="Resource" uid="uid://ks4o2o2rnyb7" path="res://acts/full_game/research_arc/complex/Puzzle/complex_apartments_meta.tres" id="6"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="7"]
+[ext_resource type="Texture2D" uid="uid://dmlx0pp8pqv3d" path="res://acts/full_game/research_arc/complex/assets/puzzles/4.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://j87q38d7sygv" path="res://acts/full_game/research_arc/complex/assets/puzzles/6.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bkacccah2asc7" path="res://acts/full_game/research_arc/complex/assets/puzzles/11.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d23i3h3fjd3w8" path="res://acts/full_game/research_arc/complex/assets/puzzles/13.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cnnt7tt6vs034" path="res://acts/full_game/research_arc/complex/assets/puzzles/12.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://rg8ua2b4p0w0" path="res://acts/full_game/research_arc/complex/assets/puzzles/1.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://chqeiuril6axj" path="res://acts/full_game/research_arc/complex/assets/puzzles/7.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cyu8w1cqbdhjr" path="res://acts/full_game/research_arc/complex/assets/puzzles/9.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dmsoieax6j2an" path="res://acts/full_game/research_arc/complex/assets/puzzles/8.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://hyfp0k7abr82" path="res://acts/full_game/research_arc/complex/assets/puzzles/2.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://urgr1ktbbnre" path="res://acts/full_game/research_arc/complex/assets/puzzles/3.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d0k876lhjtgx1" path="res://acts/full_game/research_arc/complex/assets/puzzles/5.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://baodg26ixvm4u" path="res://acts/full_game/research_arc/complex/assets/puzzles/10.png" id="20"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="21"]
+
+[node name="PicturePuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 936.0
+offset_bottom = 781.0
+is_win_condition = true
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+offset_right = 10.0
+offset_bottom = 6.0
+
+[node name="Background" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(459, 328)
+texture = ExtResource("2")
+region_rect = Rect2(546.739, 212.989, 1289.51, 779.703)
+
+[node name="SlotBackground" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(117, 96)
+texture = ExtResource("3")
+
+[node name="SlotBackground2" type="Sprite2D" parent="Frame/MarginContainer/Background" index="2"]
+position = Vector2(232, 97)
+texture = ExtResource("3")
+
+[node name="SlotBackground3" type="Sprite2D" parent="Frame/MarginContainer/Background" index="3"]
+position = Vector2(664, 88)
+texture = ExtResource("3")
+
+[node name="SlotBackground4" type="Sprite2D" parent="Frame/MarginContainer/Background" index="4"]
+position = Vector2(346, 96)
+texture = ExtResource("3")
+
+[node name="SlotBackground5" type="Sprite2D" parent="Frame/MarginContainer/Background" index="5"]
+position = Vector2(777, 90)
+texture = ExtResource("3")
+
+[node name="SlotBackground6" type="Sprite2D" parent="Frame/MarginContainer/Background" index="6"]
+position = Vector2(245, 204)
+texture = ExtResource("3")
+
+[node name="SlotBackground7" type="Sprite2D" parent="Frame/MarginContainer/Background" index="7"]
+position = Vector2(738, 204)
+texture = ExtResource("3")
+
+[node name="SlotBackground8" type="Sprite2D" parent="Frame/MarginContainer/Background" index="8"]
+position = Vector2(173, 317)
+texture = ExtResource("3")
+
+[node name="SlotBackground9" type="Sprite2D" parent="Frame/MarginContainer/Background" index="9"]
+position = Vector2(297, 317)
+texture = ExtResource("3")
+
+[node name="SlotBackground10" type="Sprite2D" parent="Frame/MarginContainer/Background" index="10"]
+position = Vector2(671, 319)
+texture = ExtResource("3")
+
+[node name="SlotBackground11" type="Sprite2D" parent="Frame/MarginContainer/Background" index="11"]
+position = Vector2(793, 319)
+texture = ExtResource("3")
+
+[node name="SlotBackground12" type="Sprite2D" parent="Frame/MarginContainer/Background" index="12"]
+position = Vector2(250, 431)
+texture = ExtResource("3")
+
+[node name="SlotBackground13" type="Sprite2D" parent="Frame/MarginContainer/Background" index="13"]
+position = Vector2(761, 432)
+texture = ExtResource("3")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+offset_top = 2.0
+offset_bottom = 2.0
+
+[node name="CloseButton" parent="." index="2"]
+offset_left = -25.0
+offset_right = 10.0
+offset_bottom = 36.0
+
+[node name="ContainerDragger" parent="." index="3"]
+offset_top = 2.0
+offset_bottom = 2.0
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("4")]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 0.9380000233650208
+offset_top = 2.0
+offset_right = -150.0
+offset_bottom = -257.02398681640625
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("5")]
+layout_mode = 1
+offset_left = -10.0
+offset_top = -10.0
+offset_right = -150.0
+offset_bottom = -263.2300109863281
+puzzle_meta = ExtResource("6")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("7")]
+layout_mode = 1
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = -3.0
+offset_top = -47.0
+offset_right = 230.0
+offset_bottom = 117.2300033569336
+grow_horizontal = 1
+grow_vertical = 1
+
+[node name="Container" type="Control" parent="PuzzleGroup/Puzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 34.0
+offset_top = 44.0
+offset_right = 805.0
+offset_bottom = 531.0
+mouse_filter = 2
+
+[node name="Control" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="0"]
+anchors_preset = 0
+offset_left = 57.0
+offset_top = 66.0
+offset_right = 157.0
+offset_bottom = 166.0
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("8")
+
+[node name="6" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("9")
+
+[node name="11" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("10")
+
+[node name="Control2" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="1"]
+anchors_preset = 0
+offset_left = 172.0
+offset_top = 66.0
+offset_right = 272.0
+offset_bottom = 166.0
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control2" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("8")
+
+[node name="11" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control2" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("10")
+
+[node name="6" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control2" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("9")
+
+[node name="Control3" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="2"]
+anchors_preset = 0
+offset_left = 288.0
+offset_top = 66.0
+offset_right = 388.0
+offset_bottom = 166.0
+
+[node name="6" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control3" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("9")
+
+[node name="11" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control3" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("10")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control3" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("8")
+
+[node name="Control4" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="3"]
+anchors_preset = 0
+offset_left = 606.0
+offset_top = 59.0
+offset_right = 706.0
+offset_bottom = 159.0
+
+[node name="13" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control4" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("11")
+
+[node name="12" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control4" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("12")
+
+[node name="Control5" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="4"]
+anchors_preset = 0
+offset_left = 716.0
+offset_top = 59.0
+offset_right = 816.0
+offset_bottom = 159.0
+
+[node name="12" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control5" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("12")
+
+[node name="13" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control5" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("11")
+
+[node name="Control6" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="5"]
+anchors_preset = 0
+offset_left = 112.0
+offset_top = 287.0
+offset_right = 212.0
+offset_bottom = 387.0
+
+[node name="14" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control6" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("13")
+
+[node name="7" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control6" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("14")
+
+[node name="Control7" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="6"]
+anchors_preset = 0
+offset_left = 238.0
+offset_top = 287.0
+offset_right = 338.0
+offset_bottom = 387.0
+
+[node name="7" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control7" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("14")
+
+[node name="14" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control7" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("13")
+
+[node name="Control8" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="7"]
+anchors_preset = 0
+offset_left = 610.0
+offset_top = 291.0
+offset_right = 710.0
+offset_bottom = 391.0
+
+[node name="9" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control8" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 100.0
+texture = ExtResource("15")
+
+[node name="8" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control8" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("16")
+
+[node name="Control9" type="Control" parent="PuzzleGroup/Puzzle/Answers/Container" index="8"]
+anchors_preset = 0
+offset_left = 732.0
+offset_top = 290.0
+offset_right = 832.0
+offset_bottom = 390.0
+
+[node name="8" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control9" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("16")
+
+[node name="9" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container/Control9" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+texture = ExtResource("15")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="9"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 679.0
+offset_top = 174.0
+offset_right = 779.0
+offset_bottom = 274.0
+texture = ExtResource("17")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="10"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 699.0
+offset_top = 402.0
+offset_right = 799.0
+offset_bottom = 502.0
+texture = ExtResource("18")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="11"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 184.0
+offset_top = 174.0
+offset_right = 284.0
+offset_bottom = 274.0
+texture = ExtResource("19")
+
+[node name="10" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="12"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 189.0
+offset_top = 402.0
+offset_right = 289.0
+offset_bottom = 502.0
+texture = ExtResource("20")
+
+[node name="Inventory" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("21")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 50.0
+offset_top = -277.0
+offset_right = 50.0
+offset_bottom = -277.0
+grow_horizontal = 1
+grow_vertical = 1
+infinite = false
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 815.0
+offset_right = 837.0
+offset_bottom = 1030.0
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 7
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("13")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("17")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("18")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("8")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="4"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("19")
+
+[node name="6" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="5"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("9")
+
+[node name="7" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="6"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("14")
+
+[node name="8" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="7"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("16")
+
+[node name="9" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="8"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("15")
+
+[node name="10" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="9"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("20")
+
+[node name="11" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="10"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("10")
+
+[node name="12" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="11"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("12")
+
+[node name="13" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="12"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture = ExtResource("11")
+
+[editable path="Frame"]

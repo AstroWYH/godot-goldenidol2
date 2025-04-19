@@ -1,0 +1,160 @@
+[gd_scene load_steps=33 format=4 uid="uid://c3ggkyr128fb6"]
+
+[ext_resource type="Texture2D" uid="uid://c4c3wi5rhmyx8" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dlxb3cq83d68g" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://j1cq3yvlmicv" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://breosqpircofh" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bt71y3u1a61el" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bhk8m2lip62y" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b25w1hisvbxkm" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dyty2v6f4rifi" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b8gm0wn4l1p6g" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c3fv7mc12ipno" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cx7iwvmx7fx8u" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://j4x64yr83nik" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dbdp27pyyvars" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c7q5tdvifmn2n" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cx1jaxiybao3i" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://djgoyki2yp53c" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bouj3gcfsw55j" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bnwo5dwige5h3" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b4uerhrke5tdr" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dvivp7onwmigq" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://7tajcer4kat2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dbqrkhv6ru16e" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bvjauicyidh3s" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ck8s2rbeejwhy" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dddseifgsocr8" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bb3n2vq042x6c" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dloqn1dildcg2" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b1q1vcwaqocpx" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cquid0hi70vx" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://crgy7otw7hsxc" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_029.png" id="30"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tjeg8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="IcePanel" type="Panel"]
+offset_left = -1515.0
+offset_top = 575.0
+offset_right = -774.0
+offset_bottom = 1097.0
+
+[node name="Icesprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(369, 257)
+sprite_frames = SubResource("SpriteFrames_tjeg8")
+autoplay = "default"
+frame_progress = 0.5404670238494873
+
+[node name="LegSpot" parent="." instance=ExtResource("31")]
+layout_mode = 1
+offset_left = 115.0
+offset_top = 65.0
+offset_right = -394.0
+offset_bottom = -262.0
+hotspot_id = "DY6"
+text = "NEIGHBORHOOD_ROD_TOOLTIP"
+
+[node name="Indicators" parent="LegSpot" index="0"]
+offset_left = 25.0
+offset_top = 61.0
+offset_right = 25.0
+offset_bottom = 61.0
+
+[editable path="LegSpot"]

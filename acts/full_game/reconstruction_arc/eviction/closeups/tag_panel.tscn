@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=4 uid="uid://5s32ufyxmrrt"]
+
+[ext_resource type="Texture2D" uid="uid://c8w1nhep6a2oa" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bk0owwqs0lej5" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badgeblood.png" id="2"]
+
+[node name="TagPanel" type="Panel"]
+offset_left = -13.0
+offset_top = 680.0
+offset_right = 337.0
+offset_bottom = 939.0
+
+[node name="TagCloseupSprite" type="Sprite2D" parent="."]
+position = Vector2(179, 122)
+texture = ExtResource("1")
+
+[node name="Blood" type="Sprite2D" parent="."]
+position = Vector2(122, 78)
+texture = ExtResource("2")
+
+[node name="TagLabel2" type="Label" parent="."]
+layout_mode = 0
+offset_left = -38.0
+offset_top = 115.0
+offset_right = 144.0
+offset_bottom = 149.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "           Myson"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="TagLabel3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 172.0
+offset_top = 158.0
+offset_right = 344.0
+offset_bottom = 221.0
+theme_override_colors/font_color = Color(0.207843, 0.572549, 0.556863, 1)
+theme_override_constants/line_spacing = -8
+theme_override_font_sizes/font_size = 20
+text = "PINACLE SECURITY"
+horizontal_alignment = 1
+autowrap_mode = 3

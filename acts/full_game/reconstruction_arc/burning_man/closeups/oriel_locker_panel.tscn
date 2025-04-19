@@ -1,0 +1,104 @@
+[gd_scene load_steps=5 format=4 uid="uid://bqj1iqe37vd07"]
+
+[ext_resource type="Texture2D" uid="uid://6ywcpv06yy2p" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf03.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="3"]
+[ext_resource type="Texture2D" uid="uid://cnbgpc7ru7j66" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/spectacles.png" id="4"]
+
+[node name="OrielLockerPanel" type="Panel"]
+offset_left = -630.0
+offset_top = -1577.0
+offset_right = -120.0
+offset_bottom = -798.0
+
+[node name="OrielLockerSprite" type="Sprite2D" parent="."]
+position = Vector2(257, 376)
+texture = ExtResource("1")
+
+[node name="BookPrimarySources" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 211.0
+offset_top = 365.0
+offset_right = -206.0
+offset_bottom = -280.0
+hotspot_id = "x8i"
+text = "BURNING_LOCKERS_PRIMARY_SOURCES_TOOLTIP"
+
+[node name="Indicators" parent="BookPrimarySources" index="0"]
+offset_left = -10.5
+offset_top = 70.0
+offset_right = -10.5
+offset_bottom = 70.0
+
+[node name="Highlighter" parent="BookPrimarySources/Indicators" index="0"]
+position = Vector2(18.5, -56)
+
+[node name="FocusIndicator" parent="BookPrimarySources/Indicators" index="1"]
+position = Vector2(17.5, -55)
+
+[node name="BookLemurian" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 325.0
+offset_top = 419.0
+offset_right = -63.0
+offset_bottom = -310.0
+hotspot_id = "8o2"
+text = "BURNING_LOCKERS_LEMURIAN_CULTURE_TOOLTIP"
+
+[node name="Indicators" parent="BookLemurian" index="0"]
+offset_left = -25.0
+offset_top = 86.0
+offset_right = -25.0
+offset_bottom = 86.0
+
+[node name="Highlighter" parent="BookLemurian/Indicators" index="0"]
+position = Vector2(18.5, -56)
+
+[node name="FocusIndicator" parent="BookLemurian/Indicators" index="1"]
+position = Vector2(17.5, -55)
+
+[node name="BookXENOPOLYS" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 320.0
+offset_top = 474.0
+offset_right = -59.0
+offset_bottom = -255.0
+hotspot_id = "wEv"
+text = "BURNING_LOCKERS_XENOPOLYS_TOOLTIP"
+
+[node name="Indicators" parent="BookXENOPOLYS" index="0"]
+offset_left = -19.5
+offset_top = 72.0
+offset_right = -19.5
+offset_bottom = 72.0
+
+[node name="Highlighter" parent="BookXENOPOLYS/Indicators" index="0"]
+position = Vector2(18.5, -56)
+
+[node name="FocusIndicator" parent="BookXENOPOLYS/Indicators" index="1"]
+position = Vector2(17.5, -55)
+
+[node name="FPGlassesSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 295.0
+offset_top = 227.0
+offset_right = -95.0
+offset_bottom = -496.0
+hotspot_id = "gYy"
+unlocked_character_ref_id = 62
+unlocked_puzzles = [ExtResource("3")]
+
+[node name="FPGlassesPanel" type="Panel" parent="FPGlassesSpot"]
+layout_mode = 0
+offset_left = -1062.0
+offset_top = -93.0
+offset_right = -439.0
+offset_bottom = 432.0
+
+[node name="FPGlassesSprite" type="Sprite2D" parent="FPGlassesSpot/FPGlassesPanel"]
+position = Vector2(312, 260)
+texture = ExtResource("4")
+
+[editable path="BookPrimarySources"]
+[editable path="BookLemurian"]
+[editable path="BookXENOPOLYS"]

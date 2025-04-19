@@ -1,0 +1,190 @@
+[gd_scene load_steps=9 format=4 uid="uid://dtdc4k4n5hv0t"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://cfls7jas80k3b" path="res://acts/full_game/research_arc/talent_show/assets/closeups/scoreboard.png" id="2"]
+[ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="3"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="5"]
+[ext_resource type="Resource" uid="uid://dhulntym655ly" path="res://acts/full_game/research_arc/talent_show/puzzles/WhoWon_Puzzle_Meta.tres" id="6"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="7"]
+
+[sub_resource type="Theme" id="Theme_c2k88"]
+
+[node name="RankingPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 642.0
+offset_bottom = 632.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="Scoreboard" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(312, 309)
+texture = ExtResource("2")
+
+[node name="Title" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="0"]
+offset_left = -251.0
+offset_top = -226.0
+offset_right = 254.0
+offset_bottom = -151.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 30
+text = "SHOW_RANKING_PUZZLE_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="1st" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="1"]
+offset_left = -263.0
+offset_top = -142.0
+offset_right = -172.0
+offset_bottom = -82.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "1ST_PLACE"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="2nd" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="2"]
+offset_left = -261.0
+offset_top = -87.0
+offset_right = -172.0
+offset_bottom = -27.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "2ND_PLACE"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="3rd" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="3"]
+offset_left = -261.0
+offset_top = -28.0
+offset_right = -175.0
+offset_bottom = 32.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "3RD_PLACE"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="4th" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="4"]
+offset_left = -264.0
+offset_top = 32.0
+offset_right = -178.0
+offset_bottom = 92.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "4TH_PLACE"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="5th" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="5"]
+offset_left = -264.0
+offset_top = 89.0
+offset_right = -178.0
+offset_bottom = 149.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "5TH_PLACE"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="6th" type="Label" parent="Frame/MarginContainer/Background/Scoreboard" index="6"]
+offset_left = -263.0
+offset_top = 142.0
+offset_right = -177.0
+offset_bottom = 202.0
+theme = SubResource("Theme_c2k88")
+theme_override_colors/font_color = Color(0.596078, 0.0784314, 0.105882, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 40
+text = "6TH_PLACE"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="1"]
+visible = false
+layout_mode = 0
+offset_left = -8.0
+offset_top = 886.0
+offset_right = 1041.0
+offset_bottom = 1183.0
+mouse_filter = 1
+color = Color(0.113725, 0.0627451, 0.27451, 1)
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 11.0
+offset_top = 12.0
+offset_right = -10.0
+offset_bottom = -16.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 176.0
+offset_top = 347.0
+offset_right = -445.0
+offset_bottom = -257.0
+puzzle_meta = ExtResource("6")
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("7")]
+layout_mode = 1
+offset_top = -173.5
+offset_bottom = -173.5
+answer_item_ref_id = 269
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("7")]
+layout_mode = 1
+offset_top = -110.5
+offset_bottom = -110.5
+answer_item_ref_id = 266
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("7")]
+layout_mode = 1
+offset_top = -57.5
+offset_bottom = -57.5
+answer_item_ref_id = 265
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("7")]
+layout_mode = 1
+offset_top = -0.5
+offset_bottom = -0.5
+answer_item_ref_id = 268
+
+[node name="PhrasePuzzleSlot5" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("7")]
+layout_mode = 1
+offset_top = 59.5
+offset_bottom = 59.5
+answer_item_ref_id = 267
+
+[node name="PhrasePuzzleSlot6" parent="PuzzleGroup/Puzzle" index="6" instance=ExtResource("7")]
+layout_mode = 1
+offset_top = 116.5
+offset_bottom = 116.5
+answer_item_ref_id = 277
+
+[editable path="Frame"]

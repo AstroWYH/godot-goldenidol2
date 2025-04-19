@@ -1,0 +1,462 @@
+[gd_scene load_steps=25 format=4 uid="uid://cqniiljdytibx"]
+
+[ext_resource type="Texture2D" uid="uid://dvdfhosr2iq5t" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_a0_lobby.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Resource" uid="uid://ks4o2o2rnyb7" path="res://acts/full_game/research_arc/complex/Puzzle/complex_apartments_meta.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://cjn0053w62lya" path="res://acts/full_game/research_arc/complex/assets/closeups/appartments_names.png" id="5"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="6"]
+[ext_resource type="Texture2D" uid="uid://blkld2a7qlsiq" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_laundry_basket.png" id="7"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
+[ext_resource type="Texture2D" uid="uid://768jgo3mjtl6" path="res://acts/full_game/research_arc/complex/assets/newer assets/00_board_all.png" id="9"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="10"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="11"]
+[ext_resource type="Texture2D" uid="uid://c4ft0wexc4rvn" path="res://acts/full_game/research_arc/complex/assets/00_board_picnic_photo_large_pale.png" id="12"]
+
+[sub_resource type="Resource" id="Resource_gykvi"]
+script = ExtResource("3")
+linked_item_ref_id = 730
+
+[sub_resource type="Resource" id="Resource_2gcd0"]
+script = ExtResource("3")
+linked_item_ref_id = 716
+
+[sub_resource type="Resource" id="Resource_iaruk"]
+script = ExtResource("3")
+linked_item_ref_id = 1121
+
+[sub_resource type="Resource" id="Resource_4g8rr"]
+script = ExtResource("3")
+linked_item_ref_id = 723
+
+[sub_resource type="Resource" id="Resource_bhjsx"]
+script = ExtResource("3")
+linked_item_ref_id = 1084
+
+[sub_resource type="Resource" id="Resource_lencw"]
+script = ExtResource("3")
+linked_item_ref_id = 721
+
+[sub_resource type="Resource" id="Resource_5408l"]
+script = ExtResource("3")
+linked_item_ref_id = 733
+
+[sub_resource type="Resource" id="Resource_ukd6l"]
+script = ExtResource("3")
+linked_item_ref_id = 719
+
+[sub_resource type="Resource" id="Resource_3kqkc"]
+script = ExtResource("3")
+linked_item_ref_id = 720
+
+[sub_resource type="Resource" id="Resource_vhbe8"]
+script = ExtResource("3")
+linked_item_ref_id = 722
+
+[sub_resource type="Resource" id="Resource_kjgef"]
+script = ExtResource("3")
+linked_item_ref_id = 706
+
+[sub_resource type="Resource" id="Resource_85vjm"]
+script = ExtResource("3")
+linked_item_ref_id = 717
+
+[node name="LobbyPanel" type="Panel"]
+offset_left = -695.0
+offset_top = 621.0
+offset_right = 225.0
+offset_bottom = 1164.0
+
+[node name="EvA0Lobby" type="Sprite2D" parent="."]
+position = Vector2(7, 4)
+texture = ExtResource("1")
+centered = false
+
+[node name="DirectorySpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 357.0
+offset_top = 138.0
+offset_right = -415.0
+offset_bottom = -304.0
+hotspot_id = "a1c"
+unlocked_item_ref_id = 726
+extra_items_unlocked = [SubResource("Resource_gykvi"), SubResource("Resource_2gcd0"), SubResource("Resource_iaruk"), SubResource("Resource_4g8rr"), SubResource("Resource_bhjsx"), SubResource("Resource_lencw"), SubResource("Resource_5408l"), SubResource("Resource_ukd6l")]
+unlocked_puzzles = [ExtResource("4")]
+
+[node name="DirectoryPanel" type="Panel" parent="DirectorySpot"]
+layout_mode = 0
+offset_left = -508.0
+offset_top = 452.0
+offset_right = 311.0
+offset_bottom = 859.0
+
+[node name="Sprite2D" type="Sprite2D" parent="DirectorySpot/DirectoryPanel"]
+position = Vector2(410, 198)
+texture = ExtResource("5")
+
+[node name="DirectoryTextTitle" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 41.0
+offset_right = 562.0
+offset_bottom = 77.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_TITLE"
+
+[node name="DirectoryTextA4" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 98.0
+offset_top = 105.0
+offset_right = 482.0
+offset_bottom = 141.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_1"
+
+[node name="DirectoryTextB4" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 471.0
+offset_top = 105.0
+offset_right = 855.0
+offset_bottom = 141.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_2"
+
+[node name="DirectoryTextA3" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 171.0
+offset_right = 488.0
+offset_bottom = 207.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_3"
+
+[node name="DirectoryTextB3" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 476.0
+offset_top = 170.0
+offset_right = 860.0
+offset_bottom = 206.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_4"
+
+[node name="DirectoryTextA2" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 103.0
+offset_top = 239.0
+offset_right = 487.0
+offset_bottom = 275.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_5"
+
+[node name="DirectoryTextB2" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 474.0
+offset_top = 244.0
+offset_right = 858.0
+offset_bottom = 280.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_6"
+
+[node name="DirectoryTextA1" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 102.0
+offset_top = 312.0
+offset_right = 486.0
+offset_bottom = 348.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.454902, 0.513726, 0.568627, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_7"
+
+[node name="DirectoryTextB1" type="Label" parent="DirectorySpot/DirectoryPanel"]
+layout_mode = 0
+offset_left = 473.0
+offset_top = 315.0
+offset_right = 857.0
+offset_bottom = 351.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.45098, 0.509804, 0.564706, 1)
+theme_override_font_sizes/font_size = 26
+text = "COMPLEX_DIRECTORY_BODY_8"
+
+[node name="BasketSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 694.0
+offset_top = 355.0
+offset_right = -176.0
+offset_bottom = -110.0
+hotspot_id = "K5K"
+unlocked_item_ref_id = 719
+
+[node name="BasketPanel" type="Panel" parent="BasketSpot"]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 394.0
+offset_right = 527.0
+offset_bottom = 716.0
+
+[node name="YLaundryBasket" type="Sprite2D" parent="BasketSpot/BasketPanel"]
+position = Vector2(204, 164)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("7")
+
+[node name="Label" type="Label" parent="BasketSpot/BasketPanel"]
+layout_mode = 0
+offset_left = 225.0
+offset_top = 149.0
+offset_right = 299.0
+offset_bottom = 253.0
+rotation = -0.09600719809532166
+theme = ExtResource("8")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "COMPLEX_BASKET_LABEL"
+autowrap_mode = 3
+
+[node name="CorkboardSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 697.0
+offset_top = 235.0
+offset_right = -173.0
+offset_bottom = -243.0
+hotspot_id = "0nX"
+unlocked_item_ref_id = 707
+extra_items_unlocked = [SubResource("Resource_3kqkc"), SubResource("Resource_vhbe8"), SubResource("Resource_kjgef"), SubResource("Resource_85vjm")]
+
+[node name="CorkboardPanel" type="Panel" parent="CorkboardSpot"]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 988.0
+offset_right = 948.0
+offset_bottom = 1644.0
+
+[node name="ComplexCorkBoard" type="Sprite2D" parent="CorkboardSpot/CorkboardPanel"]
+position = Vector2(476.383, 325)
+texture = ExtResource("9")
+
+[node name="OpigFlyerText1" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 213.0
+offset_right = 249.0
+offset_bottom = 255.0
+rotation = -0.13089899718761444
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="OpigFlyerTextTitle" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 143.14700317382813
+offset_right = 222.0
+offset_bottom = 185.14700317382813
+rotation = -0.13089899718761444
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "COMPLEX_NOTICE_BOARD_1"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="OpigFlyerText2" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 265.0
+offset_right = 254.0
+offset_bottom = 307.0
+rotation = -0.1332949995994568
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_3"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="OpigFlyerText3" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 321.0
+offset_right = 262.0
+offset_bottom = 363.0
+rotation = -0.1287810057401657
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_4"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+justification_flags = 131
+
+[node name="OpigFlyerNumber" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 391.0
+offset_right = 241.0
+offset_bottom = 415.0
+rotation = 1.5945099592208862
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_PHONE_NUMBER"
+autowrap_mode = 2
+
+[node name="OpigFlyerNumber2" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 101.0
+offset_top = 390.0
+offset_right = 280.0
+offset_bottom = 414.0
+rotation = 1.5240700244903564
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_PHONE_NUMBER"
+autowrap_mode = 2
+
+[node name="OpigFlyerNumber3" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 167.0
+offset_top = 376.0
+offset_right = 346.0
+offset_bottom = 402.0
+rotation = 1.5240700244903564
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_PHONE_NUMBER"
+autowrap_mode = 2
+
+[node name="OpigFlyerNumber4" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 208.0
+offset_top = 368.0
+offset_right = 387.0
+offset_bottom = 394.0
+rotation = 1.4766000509262085
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 15
+text = "COMPLEX_NOTICE_BOARD_PHONE_NUMBER"
+autowrap_mode = 2
+
+[node name="IssaNoteText" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 281.0
+offset_top = 347.0
+offset_right = 391.0
+offset_bottom = 520.0
+rotation = 0.028564199805259705
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("10")
+theme_override_font_sizes/font_size = 20
+text = "COMPLEX_NOTICE_PICNIC_NOTE"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="PackageText" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 603.0
+offset_top = 449.0
+offset_right = 919.0
+offset_bottom = 601.0
+rotation = 0.07033979892730713
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("10")
+theme_override_font_sizes/font_size = 20
+text = "COMPLEX_NOTICE_SPENCER"
+autowrap_mode = 3
+
+[node name="HarassmentText" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 593.0
+offset_top = 251.0
+offset_right = 874.0
+offset_bottom = 357.0
+rotation = -0.06724979728460312
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("10")
+theme_override_font_sizes/font_size = 21
+text = "COMPLEX_NOTICE_HARRASMENT_NOTE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="HarassmentText2" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 580.0
+offset_top = 184.0
+offset_right = 877.0
+offset_bottom = 234.0
+rotation = -0.05052889883518219
+theme_override_colors/font_color = Color(0.945098, 0, 0, 1)
+theme_override_fonts/font = ExtResource("10")
+theme_override_font_sizes/font_size = 19
+text = "COMPLEX_NOTICE_HARRASMENT_NOTE_2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PicnicNoteText" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 307.0
+offset_top = 182.0
+offset_right = 548.0
+offset_bottom = 305.0
+rotation = 0.03676600009202957
+theme = ExtResource("11")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = -4
+theme_override_font_sizes/font_size = 25
+text = "COMPLEX_NOTICE_PICNIC_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="BoardText" type="Label" parent="CorkboardSpot/CorkboardPanel"]
+layout_mode = 0
+offset_left = 314.0
+offset_top = 42.0
+offset_right = 558.0
+offset_bottom = 108.0
+rotation = 0.01821970008313656
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.407843, 0.407843, 0.407843, 1)
+theme_override_font_sizes/font_size = 28
+text = "COMPLEX_BUILDING_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="PicnicPhotoSpot" parent="CorkboardSpot/CorkboardPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 401.0
+offset_top = 340.0
+offset_right = -407.0
+offset_bottom = -132.0
+hotspot_id = "U4k"
+
+[node name="RedStringPanel" type="Panel" parent="CorkboardSpot/CorkboardPanel/PicnicPhotoSpot"]
+layout_mode = 0
+offset_left = -75.0
+offset_top = 344.0
+offset_right = 444.0
+offset_bottom = 993.0
+
+[node name="ComplexComplexRedStringsPlaceholder" type="Sprite2D" parent="CorkboardSpot/CorkboardPanel/PicnicPhotoSpot/RedStringPanel"]
+position = Vector2(261.228, 322.868)
+scale = Vector2(0.547465, 0.547465)
+texture = ExtResource("12")

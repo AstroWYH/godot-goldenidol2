@@ -1,0 +1,162 @@
+[gd_scene load_steps=35 format=4 uid="uid://btq1xrvnp8ee4"]
+
+[ext_resource type="Texture2D" uid="uid://cenjw6wgr2gyh" path="res://acts/full_game/research_arc/talent_show/assets/closeups/medal.png" id="1"]
+[ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="Texture2D" uid="uid://bqj1ek0ixpelu" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_000.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://o1pcywwoavdk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_001.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cn14f62yvopl5" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_002.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bu1r35lf6ls6n" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_003.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bhpt3c3uag7a6" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_004.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c0bh3w2sn7vu3" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_005.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://1rsm0hto6qgq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_006.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://ccsoix6yniwak" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_007.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://1vig6x5stjiv" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_008.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://x1lhxuqrd446" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_009.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://k06svlf1qhru" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_010.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bs0s3stc38plx" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_011.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://d20ykduavusj8" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_012.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bjwjaka1wglpq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_013.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://c8ets1tlpq8yk" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_014.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d20fqvosmkh48" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_015.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://6ovvuxkn7sm0" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_016.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://diubqpmoqgr4y" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_017.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://diitf4w2cq6tq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_018.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cckrp8wcr7ks8" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_019.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://5i05roo2dtae" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_020.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://jxl6o61bb6ky" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_021.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://brr4qkvbric6d" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_022.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c31552vitqymf" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_023.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://mpnxtvq5vtkq" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_024.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b7d7tiebw2abo" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_025.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dswgq6hf6o8m" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_026.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bhy1uq38dnut" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_027.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://basbjncll3d1p" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_028.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cie0xlhefj6u4" path="res://acts/full_game/research_arc/talent_show/assets/portraits/pupetier/pupetier 2_029.png" id="33"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_04ath"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="PuppeteerPanel" type="Panel"]
+offset_left = 351.0
+offset_top = -1016.0
+offset_right = 1148.0
+offset_bottom = -449.0
+
+[node name="Medal" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(218, 269)
+texture = ExtResource("1")
+
+[node name="PuppeteerText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 24.0
+offset_right = 464.0
+offset_bottom = 163.0
+theme = ExtResource("2")
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 26
+text = "SHOW_CAMERON_SPEECH"
+autowrap_mode = 3
+
+[node name="Puppeteer" type="AnimatedSprite2D" parent="."]
+position = Vector2(522, 295)
+sprite_frames = SubResource("SpriteFrames_04ath")
+autoplay = "default"
+frame_progress = 0.6139320135116577

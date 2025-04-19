@@ -1,0 +1,356 @@
+[gd_scene load_steps=53 format=4 uid="uid://b7yepidwnlqvx"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://d0mjrhtiy244e" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://e0qxtp04as1q" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bhs5joi4kbrb5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dgs8k32ip7rcm" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d2xtwsm8rsufv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bd3bu4rahyyet" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://drphx348jeup7" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dqh0seecqj04x" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bp3tddoo5nkpf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cgbeio01dakcg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://82ibxi8sqr64" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://exqh7y0tyakv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://p52q0hm457hn" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://iknf6gdi0wo5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://vif1x8nkhp8j" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bwl0qhyop43r8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cm62eyfbu8nrg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://pvr3u0ab8lkc" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cffd3kaei348t" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://g2v1uppugoo2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://wex3gbmw3tnq" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://xktispldgnhq" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://jdd3ntyoirub" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bk6tj6vtkvip4" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cb2iyrfqdso4c" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://wg7a718gd0x" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b8tgdnh088npj" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b5v4rg1uidu0i" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://o2gfme1nk3gk" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bb6fmshalv0sl" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://qr0danoduoaf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cer044ebumtqi" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bg8nj3fg6inrv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c1bibuvqybbo0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dkt4hwr4ayaej" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://djv5ewfm1xgm2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bktfycs7xifda" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge_small.png" id="38"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="39"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="40"]
+[ext_resource type="Texture2D" uid="uid://c8w1nhep6a2oa" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge.png" id="41"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="42"]
+[ext_resource type="Texture2D" uid="uid://duj3uduvn0srp" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/taser_spent.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://osnm0pwsl1af" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/walkie_talkie.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cmdgjprlmgkob" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/pinaclepaper.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://54t4fkjjif8q" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/pinaclelogo.png" id="48"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yyrcq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_tsad7"]
+script = ExtResource("40")
+linked_item_ref_id = 198
+
+[sub_resource type="Resource" id="Resource_3lfa7"]
+script = ExtResource("40")
+linked_item_ref_id = 191
+
+[sub_resource type="Resource" id="Resource_k5hln"]
+script = ExtResource("40")
+linked_item_ref_id = 213
+
+[node name="SecurityTendingPanel" type="Panel"]
+offset_left = -1382.0
+offset_top = -518.0
+offset_right = -618.0
+offset_bottom = 57.0
+
+[node name="SecurityTendingSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 25.0
+offset_right = 700.0
+offset_bottom = 124.0
+theme = ExtResource("1")
+text = "EVICTION_SECURITY2_SPEECH"
+autowrap_mode = 3
+
+[node name="SecurityTendingSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(563, 355)
+sprite_frames = SubResource("SpriteFrames_yyrcq")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.23248299956321716
+
+[node name="TagSprite" type="Sprite2D" parent="."]
+position = Vector2(101, 429)
+texture = ExtResource("38")
+
+[node name="TagSpot" parent="." instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 38.0
+offset_top = 371.0
+offset_right = -575.0
+offset_bottom = -106.0
+focus_neighbor_top = NodePath("../TaserSpot")
+focus_neighbor_right = NodePath("../WalkieTalkieSpot")
+hotspot_id = "XuM"
+unlocked_item_ref_id = 197
+extra_items_unlocked = [SubResource("Resource_tsad7")]
+
+[node name="TagPanel" type="Panel" parent="TagSpot"]
+layout_mode = 0
+offset_left = -483.0
+offset_top = 26.0
+offset_right = -133.0
+offset_bottom = 290.0
+
+[node name="TagCloseupSprite" type="Sprite2D" parent="TagSpot/TagPanel"]
+position = Vector2(179, 122)
+texture = ExtResource("41")
+
+[node name="TagLabel1" type="Label" parent="TagSpot/TagPanel"]
+layout_mode = 0
+offset_left = 192.0
+offset_top = 162.0
+offset_right = 319.0
+offset_bottom = 294.0
+theme = ExtResource("42")
+theme_override_colors/font_color = Color(0.207843, 0.572549, 0.556863, 1)
+theme_override_font_sizes/font_size = 15
+text = "EVICTION_SECURITY_LOGO"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="TagLabel2" type="Label" parent="TagSpot/TagPanel"]
+layout_mode = 0
+offset_left = 51.0
+offset_top = 78.0
+offset_right = 202.0
+offset_bottom = 194.0
+theme = ExtResource("42")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "EVICTION_SECURITY1_BADGE_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="TaserSpot" parent="." instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 139.0
+offset_right = -566.0
+offset_bottom = -297.0
+focus_neighbor_right = NodePath("../OrdersSpot")
+focus_neighbor_bottom = NodePath("../TagSpot")
+hotspot_id = "n8-"
+text = "EVICTION_TASER_TOOLTIP"
+unlocked_item_ref_id = 213
+
+[node name="TaserSprite" type="Sprite2D" parent="TaserSpot"]
+position = Vector2(87, 84)
+texture = ExtResource("43")
+
+[node name="WalkieTalkieSpot" parent="." instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 231.0
+offset_top = 316.0
+offset_right = -373.0
+offset_bottom = -57.0
+focus_neighbor_left = NodePath("../TagSpot")
+focus_neighbor_top = NodePath("../OrdersSpot")
+hotspot_id = "H30"
+text = "EVICTION_RADIO_TOOLTIP2"
+
+[node name="WalkieTalkieSprite" type="Sprite2D" parent="WalkieTalkieSpot"]
+position = Vector2(63, 100)
+texture = ExtResource("44")
+
+[node name="OrdersSpot" parent="." instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 250.0
+offset_top = 111.0
+offset_right = -394.0
+offset_bottom = -333.0
+focus_neighbor_left = NodePath("../TaserSpot")
+focus_neighbor_bottom = NodePath("../WalkieTalkieSpot")
+hotspot_id = "egq"
+unlocked_item_ref_id = 190
+extra_items_unlocked = [SubResource("Resource_3lfa7"), SubResource("Resource_k5hln")]
+
+[node name="OrdersSprite" type="Sprite2D" parent="OrdersSpot"]
+position = Vector2(56, 84)
+texture = ExtResource("45")
+
+[node name="OrdersPanel" type="Panel" parent="OrdersSpot"]
+layout_mode = 0
+offset_left = -1108.0
+offset_top = -343.0
+offset_right = -506.0
+offset_bottom = 205.0
+
+[node name="OrdersColorRect" type="TextureRect" parent="OrdersSpot/OrdersPanel"]
+modulate = Color(0.729412, 0.811765, 0.811765, 1)
+layout_mode = 0
+offset_left = 11.0
+offset_top = 7.0
+offset_right = 594.0
+offset_bottom = 534.0
+rotation = 0.0016687499592080712
+texture = ExtResource("46")
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="OrdersSpot/OrdersPanel/OrdersColorRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(300.325, 244.476)
+rotation = 3.1194100379943848
+scale = Vector2(1.28731, 1.21409)
+skew = 0.003911610227078199
+texture = ExtResource("47")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D7" type="Sprite2D" parent="OrdersSpot/OrdersPanel/OrdersColorRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(299.356, 271.831)
+rotation = 4.7023701667785645
+scale = Vector2(1.21411, 1)
+texture = ExtResource("47")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="SecurityLogoSprite" type="Sprite2D" parent="OrdersSpot/OrdersPanel"]
+position = Vector2(514, 72)
+texture = ExtResource("48")
+
+[node name="OrdersText" type="RichTextLabel" parent="OrdersSpot/OrdersPanel"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 52.0
+offset_right = 542.0
+offset_bottom = 510.0
+mouse_filter = 1
+theme = ExtResource("42")
+theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "EVICTION_SECURITY1_TODO_BODY"

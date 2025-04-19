@@ -1,0 +1,103 @@
+[gd_scene load_steps=17 format=4 uid="uid://d3n5742oyc6fj"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://dyh3l2652kmu2" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bpw0bx0kmwkea" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b0r471vq27hs0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://coa6udkt43eeh" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c4utd46yo5sf0" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://qpqfnr40j1iq" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://buw2qxsktfhpl" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b34ejo6db4xee" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dmwjo6k8kqpeg" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bf3q4vnet8drr" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cqfvd7hm4dcol" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ci8r1nfjgd53t" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/badge2.png" id="13"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="14"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="15"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_flxtf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="HistorianPanel" type="Panel"]
+offset_left = 399.0
+offset_top = 525.0
+offset_right = 1208.0
+offset_bottom = 1067.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 22.0
+offset_right = 751.0
+offset_bottom = 85.0
+theme = ExtResource("1")
+text = "BURNING_ORIEL_SPEECH"
+autowrap_mode = 3
+
+[node name="HistorianSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(192, 322)
+sprite_frames = SubResource("SpriteFrames_flxtf")
+autoplay = "default"
+
+[node name="RationalistCardSprite" type="Sprite2D" parent="."]
+position = Vector2(613, 207)
+texture = ExtResource("13")
+
+[node name="Label2" type="Label" parent="RationalistCardSprite"]
+offset_left = -141.0
+offset_top = 44.0
+offset_right = 157.0
+offset_bottom = 77.0
+theme = ExtResource("14")
+theme_override_colors/font_color = Color(0.168627, 0.235294, 0.196078, 1)
+text = "LAB_CARD_LABEL"
+
+[node name="Label3" type="Label" parent="RationalistCardSprite"]
+offset_left = -143.0
+offset_top = -75.0
+offset_right = 141.0
+offset_bottom = 2.0
+theme = ExtResource("15")
+theme_override_colors/font_color = Color(0.168627, 0.235294, 0.196078, 1)
+theme_override_font_sizes/font_size = 20
+text = "LAB_CARD"
+autowrap_mode = 2

@@ -1,0 +1,525 @@
+[gd_scene load_steps=70 format=4 uid="uid://dy5gfvu2fnkos"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://corh6u1213hjr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dvc8t767bnlrj" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bfs7t0e1ligst" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://nerdtrgyfe6e" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dqirvxgcheqlf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://do5p8yvigu13w" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cm5xpqdauy5nr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://blyvrs2au48fs" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cvuerljki3bkr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://edvmm4davmow" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://3pai2w25em8p" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://vmw3sv1pb6ur" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dcsvgfpihf3cq" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dofdt00vghmy1" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://d15vj1d4p73qg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://w00h1078ns0i" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bfydsua78k3q0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d1s04hf4mffcj" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b58vwrx72qas0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dy11ysc01b0yo" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ce5icg61smwq6" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dnq2dkm3f6tv4" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bsqtlqw1pc1w3" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://3o2pehl44oh1" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dxc7ye3mx4jan" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dvnd74xj1jhq7" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://xtsl2fwfjjw0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://0o8kj84sftme" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b6kohgpl174oc" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bt6y2lobfvjfg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://v41kb8xfbfdj" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://b4uc8nsviu2ui" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c6x1hfius11hy" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://ckrydsjk4f13o" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://co8ju0epef7yc" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c5k7j2nwmtyv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://brhmrcdcne3h0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://ljppy2g0k7gl" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://0ps77rpkfge6" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dh61jpoffhaul" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://ct020mqdv7tyu" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bt3p08pkvfx5t" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bl1v3ctpdwuqv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cwlm0scjdccrg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bnff1qxkemgkx" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://wtbe7q58cam" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bnamnx4l43fff" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://clbqsbdafn7ef" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://rpyb7lw48fx3" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://js0alvraeyib" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_049.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bmlp1dpn1xgua" path="res://shared/assets/papers/letter_harmony.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://ci6mf7u25pmk6" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/chip.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://rnurah3g6bso" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/birthday.png" id="54"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="55"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="56"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://byy8s8kv276ho" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/logo.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="59"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="60"]
+[ext_resource type="Texture2D" uid="uid://ckhba1qfw1y8c" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/signature.png" id="61"]
+[ext_resource type="PackedScene" uid="uid://ud5tus06dknf" path="res://shared/ui/glyph_container/glyph_container.tscn" id="62"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="63"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tg8g8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_f6xjv"]
+script = ExtResource("56")
+linked_item_ref_id = 217
+
+[sub_resource type="Resource" id="Resource_orq1h"]
+script = ExtResource("56")
+linked_item_ref_id = 105
+
+[sub_resource type="Resource" id="Resource_1xcls"]
+script = ExtResource("56")
+linked_item_ref_id = 106
+
+[sub_resource type="Resource" id="Resource_xjv4p"]
+script = ExtResource("56")
+linked_item_ref_id = 211
+
+[sub_resource type="LabelSettings" id="LabelSettings_1kh56"]
+font = ExtResource("63")
+font_size = 24
+font_color = Color(0, 0, 0, 1)
+
+[node name="FollowerPhoneCallPanel" type="Panel"]
+offset_left = 242.0
+offset_top = 731.0
+offset_right = 920.0
+offset_bottom = 1237.0
+
+[node name="FollowerPhoneCallSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 15.0
+offset_right = 658.0
+offset_bottom = 114.0
+theme = ExtResource("1")
+text = "EVICTION_SAM_SPEECH"
+autowrap_mode = 3
+
+[node name="FollowerPhoneCallSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(489, 289)
+sprite_frames = SubResource("SpriteFrames_tg8g8")
+autoplay = "default"
+frame_progress = 0.8945779800415039
+
+[node name="WelcomeLetterSprite" type="Sprite2D" parent="."]
+position = Vector2(106, 179)
+rotation = -0.33719301223754883
+scale = Vector2(0.679105, 0.679105)
+texture = ExtResource("52")
+
+[node name="ChipSprite" type="Sprite2D" parent="."]
+position = Vector2(95, 384)
+scale = Vector2(0.0980396, 0.0980396)
+texture = ExtResource("53")
+
+[node name="PhotoSprite" type="Sprite2D" parent="."]
+position = Vector2(240, 365)
+scale = Vector2(0.144671, 0.144671)
+texture = ExtResource("54")
+
+[node name="AgendaSprite" type="Sprite2D" parent="."]
+position = Vector2(246, 195)
+scale = Vector2(0.679105, 0.679105)
+texture = ExtResource("52")
+
+[node name="AgendaSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 196.0
+offset_top = 119.0
+offset_right = -379.0
+offset_bottom = -257.0
+hotspot_id = "gzk"
+unlocked_item_ref_id = 214
+extra_items_unlocked = [SubResource("Resource_f6xjv")]
+
+[node name="AgendaPanel" type="Panel" parent="AgendaSpot"]
+layout_mode = 0
+offset_left = 288.0
+offset_top = 458.0
+offset_right = 872.0
+offset_bottom = 1181.0
+
+[node name="AgendaColorRect" type="TextureRect" parent="AgendaSpot/AgendaPanel"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 573.0
+offset_bottom = 707.0
+rotation = 0.0016687499592080712
+texture = ExtResource("57")
+stretch_mode = 1
+
+[node name="HFLogoSprite" type="Sprite2D" parent="AgendaSpot/AgendaPanel/AgendaColorRect"]
+modulate = Color(1, 1, 1, 0.705882)
+position = Vector2(506.099, 59.1555)
+rotation = -0.0016687499592080712
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("58")
+
+[node name="Sprite2D7" type="Sprite2D" parent="AgendaSpot/AgendaPanel/AgendaColorRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(292.274, 236.324)
+rotation = 3.1338798999786377
+scale = Vector2(1.29919, 1.13671)
+texture = ExtResource("59")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D8" type="Sprite2D" parent="AgendaSpot/AgendaPanel/AgendaColorRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(284.816, 488.525)
+rotation = -0.03931669890880585
+scale = Vector2(1.29919, 1.13671)
+texture = ExtResource("59")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="AgendaText" type="RichTextLabel" parent="AgendaSpot/AgendaPanel"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 53.0
+offset_right = 555.0
+offset_bottom = 682.0
+mouse_filter = 1
+theme = ExtResource("60")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "EVICTION_SAM_AGENDA"
+
+[node name="PhotoSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 184.0
+offset_top = 290.0
+offset_right = -381.0
+offset_bottom = -93.0
+hotspot_id = "j1s"
+
+[node name="PhotoPanel" type="Panel" parent="PhotoSpot"]
+layout_mode = 0
+offset_left = 286.0
+offset_top = 1089.0
+offset_right = 937.0
+offset_bottom = 1776.0
+
+[node name="PhotoSprite" type="Sprite2D" parent="PhotoSpot/PhotoPanel"]
+position = Vector2(325.685, 338.202)
+scale = Vector2(0.968759, 0.968759)
+texture = ExtResource("54")
+
+[node name="PhotoLabel1" type="Label" parent="PhotoSpot/PhotoPanel"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 619.0
+offset_right = 625.0
+offset_bottom = 691.0
+theme = ExtResource("60")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_SAM_PHOTO_FOOTER"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PhotoLabel2" type="Label" parent="PhotoSpot/PhotoPanel"]
+layout_mode = 0
+offset_left = 137.0
+offset_top = 311.0
+offset_right = 282.0
+offset_bottom = 398.0
+rotation = -0.25141099095344543
+theme = ExtResource("60")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "EVICTION_SAM_PHOTO_TV_LABEL"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="ChipSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 62.0
+offset_top = 341.0
+offset_right = -551.0
+offset_bottom = -103.0
+hotspot_id = "yW5"
+
+[node name="ChipPanel" type="Panel" parent="ChipSpot"]
+layout_mode = 0
+offset_left = -31.0
+offset_top = 1000.0
+offset_right = 194.0
+offset_bottom = 1227.0
+
+[node name="ChipSprite" type="Sprite2D" parent="ChipSpot/ChipPanel"]
+position = Vector2(113, 113)
+scale = Vector2(0.512515, 0.512515)
+texture = ExtResource("53")
+
+[node name="ChipLabel" type="Label" parent="ChipSpot/ChipPanel"]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 22.0
+offset_right = 170.0
+offset_bottom = 154.0
+theme = ExtResource("60")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "EVICTION_BADGE_6MONTH"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="WelcomeLetterSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 54.0
+offset_top = 101.0
+offset_right = -520.0
+offset_bottom = -265.0
+scale = Vector2(1, 0.985978)
+hotspot_id = "U93"
+unlocked_item_ref_id = 194
+extra_items_unlocked = [SubResource("Resource_orq1h"), SubResource("Resource_1xcls"), SubResource("Resource_xjv4p")]
+
+[node name="WelcomeLetterPanel" type="Panel" parent="WelcomeLetterSpot"]
+layout_mode = 0
+offset_left = -242.0
+offset_top = 477.0
+offset_right = 342.0
+offset_bottom = 1200.0
+
+[node name="WelcomeLetterColorRect" type="TextureRect" parent="WelcomeLetterSpot/WelcomeLetterPanel"]
+layout_mode = 0
+offset_left = 11.000100135803223
+offset_top = 8.04259967803955
+offset_right = 573.0
+offset_bottom = 708.0430297851563
+rotation = 0.0016687499592080712
+texture = ExtResource("57")
+stretch_mode = 1
+
+[node name="HFLogoSprite" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
+modulate = Color(1, 1, 1, 0.705882)
+position = Vector2(506.099, 59.1556)
+rotation = -0.0016687499592080712
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("58")
+
+[node name="Sprite2D7" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(292.274, 236.324)
+rotation = -0.01909480057656765
+scale = Vector2(1.29919, 1.13671)
+texture = ExtResource("59")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D8" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(284.7, 491.337)
+rotation = 3.1283199787139893
+scale = Vector2(1.29919, 1.13671)
+texture = ExtResource("59")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="signature" type="TextureRect" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
+layout_mode = 2
+offset_left = 29.076000213623047
+offset_top = 644.7520141601563
+offset_right = 163.0760040283203
+offset_bottom = 694.7520141601563
+texture = ExtResource("61")
+stretch_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 101.0
+offset_right = 544.0
+offset_bottom = 609.0
+theme_override_constants/separation = 50
+
+[node name="GlyphContainer" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect/VBoxContainer" instance=ExtResource("62")]
+layout_mode = 2
+label_settings = SubResource("LabelSettings_1kh56")
+text = "EVICTION_INVITATION_PC_1"
+
+[node name="name" type="Label" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect/VBoxContainer/GlyphContainer"]
+visible = false
+layout_mode = 2
+theme = ExtResource("60")
+theme_override_colors/font_color = Color(0.658824, 0, 0, 1)
+text = "EVICTION_SAM_INVITATION_HER_SURNAME"
+
+[node name="InvitationText" type="Label" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("60")
+theme_override_font_sizes/font_size = 24
+text = "EVICTION_IEVICTION_INVITATION_PC_2"
+autowrap_mode = 2
+
+[node name="SignatureSprite" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel"]
+visible = false
+position = Vector2(136, 642)
+scale = Vector2(0.37307, 0.37307)
+texture = ExtResource("61")
