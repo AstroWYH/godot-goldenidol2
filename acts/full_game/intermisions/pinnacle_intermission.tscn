@@ -1,0 +1,178 @@
+[gd_scene load_steps=8 format=4 uid="uid://cmiqkik6t7k4j"]
+
+[ext_resource type="PackedScene" uid="uid://bfe03csmbswxm" path="res://shared/ui/intermissions/intermission_dialog.tscn" id="1"]
+[ext_resource type="AudioStream" uid="uid://rnrw3s8ayouy" path="res://acts/full_game/intermisions/assets/audio/intermission_pinnacle_audio.ogg" id="2"]
+[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/fight.ogv" id="3"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="4"]
+[ext_resource type="Texture2D" uid="uid://i2xf106g465j" path="res://shared/assets/frames/frame_spech_red.png" id="5"]
+
+[sub_resource type="Animation" id="Animation_36hnf"]
+resource_name = "intro"
+length = 13.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label3:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label4:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 7.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Label5:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 9.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
+_data = {
+"intro": SubResource("Animation_36hnf")
+}
+
+[node name="IntermissionDialog" instance=ExtResource("1")]
+anchors_preset = 0
+intermission_id = 5
+video_length = 12.0
+music_layers = [ExtResource("2")]
+
+[node name="VideoStreamPlayer" parent="." index="0"]
+stream = ExtResource("3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
+libraries = {
+"": SubResource("AnimationLibrary_vm1df")
+}
+autoplay = "intro"
+
+[node name="Label3" type="Label" parent="." index="4"]
+visible = false
+layout_mode = 0
+offset_left = 66.0
+offset_top = 88.0
+offset_right = 556.0
+offset_bottom = 181.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4")
+theme_override_font_sizes/font_size = 32
+text = "FIGHT_FRAME_01"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Label3" index="0"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label3/MarginContainer" index="0"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("5")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label4" type="Label" parent="." index="5"]
+visible = false
+layout_mode = 0
+offset_left = 338.0
+offset_top = 493.0
+offset_right = 828.0
+offset_bottom = 586.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4")
+theme_override_font_sizes/font_size = 32
+text = "FIGHT_FRAME_03"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Label4" index="0"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label4/MarginContainer" index="0"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("5")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label5" type="Label" parent="." index="6"]
+visible = false
+layout_mode = 0
+offset_left = 1198.0
+offset_top = 486.0
+offset_right = 1563.0
+offset_bottom = 579.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("4")
+theme_override_font_sizes/font_size = 32
+text = "FIGHT_FRAME_04"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Label5" index="0"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label5/MarginContainer" index="0"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("5")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32

@@ -1,0 +1,191 @@
+[gd_scene load_steps=7 format=4 uid="uid://ct6oocg54s5rw"]
+
+[ext_resource type="Texture2D" uid="uid://dw67xlyh7fojw" path="res://acts/full_game/intermisions/vlcsnap-2024-05-28-13h24m39s892.png" id="1"]
+[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/tv.ogv" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="Texture2D" uid="uid://i2xf106g465j" path="res://shared/assets/frames/frame_spech_red.png" id="4"]
+
+[sub_resource type="Animation" id="Animation_36hnf"]
+resource_name = "intro"
+length = 13.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label3:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Label4:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 3.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Label6:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 6.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Label7:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 11.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
+_data = {
+"intro": SubResource("Animation_36hnf")
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -232.0
+offset_top = -143.0
+offset_right = 2196.0
+offset_bottom = 1313.0
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1")
+centered = false
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1088.0
+stream = ExtResource("2")
+autoplay = true
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 530.0
+offset_top = 414.0
+offset_right = 1050.0
+offset_bottom = 507.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 32
+text = "Lazarus Herst"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label3"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 143.0
+offset_top = 8.0
+offset_right = 373.0
+offset_bottom = 78.0
+texture = ExtResource("4")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 1286.0
+offset_top = 393.0
+offset_right = 1865.0
+offset_bottom = 486.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 32
+text = "for 3 years he ruled the Empire"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label4"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 70.0
+offset_top = 8.0
+offset_right = 518.0
+offset_bottom = 84.0
+texture = ExtResource("4")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label6" type="Label" parent="."]
+offset_left = 316.0
+offset_top = 869.0
+offset_right = 846.0
+offset_bottom = 1028.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 32
+text = "some say he achieved this thanks to legendary Golden Idol"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="Label6"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 12.0
+offset_top = 20.0
+offset_right = 513.0
+offset_bottom = 144.0
+texture = ExtResource("4")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 1334.0
+offset_top = 870.0
+offset_right = 1913.0
+offset_bottom = 995.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 32
+text = "But some deny Golden Idol 
+ever existed."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label7"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 85.0
+offset_top = 11.0
+offset_right = 493.0
+offset_bottom = 116.0
+texture = ExtResource("4")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vm1df")
+}
+autoplay = "intro"

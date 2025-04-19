@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=4 uid="uid://bw3smyf827mjp"]
+
+[ext_resource type="Texture2D" uid="uid://dw67xlyh7fojw" path="res://acts/full_game/intermisions/vlcsnap-2024-05-28-13h24m39s892.png" id="1"]
+[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/fight.ogv" id="2"]
+
+[sub_resource type="Animation" id="Animation_36hnf"]
+resource_name = "intro"
+length = 13.0
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
+_data = {
+"intro": SubResource("Animation_36hnf")
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -232.0
+offset_top = -143.0
+offset_right = 2196.0
+offset_bottom = 1313.0
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1")
+centered = false
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1088.0
+stream = ExtResource("2")
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vm1df")
+}
+autoplay = "intro"

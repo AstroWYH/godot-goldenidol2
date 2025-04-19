@@ -1,0 +1,170 @@
+[gd_scene load_steps=10 format=4 uid="uid://belr8ljdautqp"]
+
+[ext_resource type="Texture2D" uid="uid://5dpllvtr0gs4" path="res://acts/full_game/intermisions/ofice.png" id="1"]
+[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/Eugene-anim.ogv" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="Texture2D" uid="uid://i2xf106g465j" path="res://shared/assets/frames/frame_spech_red.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d1j53fxo1b16j" path="res://shared/assets/frames/frame_spech_green.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c4rwoqjegwn30" path="res://shared/assets/frames/frame_spech_black.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://del50ah065ars" path="res://shared/assets/frames/purple.png" id="7"]
+
+[sub_resource type="Animation" id="Animation_36hnf"]
+resource_name = "intro"
+length = 13.0
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
+_data = {
+"intro": SubResource("Animation_36hnf")
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -232.0
+offset_top = -143.0
+offset_right = 2196.0
+offset_bottom = 1313.0
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1")
+centered = false
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1088.0
+stream = ExtResource("2")
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vm1df")
+}
+autoplay = "intro"
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 123.0
+offset_top = 100.0
+offset_right = 403.0
+offset_bottom = 313.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 36
+text = "And that's how things will work going forward. Any questions?"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label3"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 1.0
+offset_top = -11.0
+offset_right = 283.0
+offset_bottom = 231.0
+texture = ExtResource("4")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 999.0
+offset_top = 424.0
+offset_right = 1519.0
+offset_bottom = 517.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 36
+text = "But what if..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label4"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 147.0
+offset_top = 13.0
+offset_right = 369.0
+offset_bottom = 83.0
+texture = ExtResource("5")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label5" type="Label" parent="."]
+offset_left = 1467.0
+offset_top = 418.0
+offset_right = 1885.0
+offset_bottom = 511.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 36
+text = "And how will we..."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label5"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 46.0
+offset_top = 12.0
+offset_right = 360.0
+offset_bottom = 76.0
+texture = ExtResource("6")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label6" type="Label" parent="."]
+offset_left = 975.0
+offset_top = 572.0
+offset_right = 1393.0
+offset_bottom = 665.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 36
+text = "All sounds good to me."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label6"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 25.0
+offset_top = 9.0
+offset_right = 397.0
+offset_bottom = 83.0
+texture = ExtResource("7")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 1280.0
+offset_top = 961.0
+offset_right = 1826.0
+offset_bottom = 1054.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 36
+text = "Excellent. Full steam ahead, then!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Label7"]
+show_behind_parent = true
+layout_mode = 0
+offset_left = 2.0
+offset_top = 3.0
+offset_right = 535.0
+offset_bottom = 81.0
+texture = ExtResource("4")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32

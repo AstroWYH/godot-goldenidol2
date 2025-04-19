@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=4 uid="uid://bnglwa3xu6rb4"]
+
+[ext_resource type="Texture2D" uid="uid://daeu7ik4nqar8" path="res://acts/full_game/hubbackgrounds/assets/testscreen.png" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://bmia82cxby3ja" path="res://acts/full_game/colecting_parts_arc/hub/assets/drivein_animation_bw.tres" id="2"]
+[ext_resource type="SpriteFrames" uid="uid://bjjb3ocqgqe03" path="res://acts/full_game/colecting_parts_arc/hub/assets/prison_animation_bw.tres" id="3"]
+[ext_resource type="SpriteFrames" uid="uid://ceafgw26hkmpr" path="res://acts/full_game/colecting_parts_arc/hub/assets/retreat_animation_bw.tres" id="4"]
+[ext_resource type="SpriteFrames" uid="uid://dxqscahgdksyp" path="res://acts/full_game/colecting_parts_arc/hub/assets/auction_animation_bw.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://4omgwqnrl775" path="res://acts/full_game/hubbackgrounds/assets/background_pursuit.png" id="6"]
+
+[node name="IntroHubBackground" type="Node2D"]
+
+[node name="TestScreen" type="Sprite2D" parent="."]
+position = Vector2(694, 277)
+texture = ExtResource("1")
+
+[node name="TestScreen4" type="Sprite2D" parent="."]
+position = Vector2(1257, 284)
+texture = ExtResource("1")
+
+[node name="TestScreen2" type="Sprite2D" parent="."]
+position = Vector2(730, 717)
+texture = ExtResource("1")
+
+[node name="TestScreen3" type="Sprite2D" parent="."]
+position = Vector2(1279, 672)
+texture = ExtResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1168, 252)
+sprite_frames = ExtResource("2")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(670, 286)
+sprite_frames = ExtResource("3")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(1236, 658)
+sprite_frames = ExtResource("4")
+autoplay = "default"
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
+position = Vector2(728, 736)
+sprite_frames = ExtResource("5")
+autoplay = "default"
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+texture = ExtResource("6")

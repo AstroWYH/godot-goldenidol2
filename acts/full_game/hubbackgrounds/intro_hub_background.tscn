@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=4 uid="uid://dqo7h5ogaa37c"]
+
+[ext_resource type="SpriteFrames" uid="uid://codk5q0xrrj0l" path="res://acts/full_game/introductory_arc/hub/assets/conference_animation_c.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://e2tv5x0yqyqx" path="res://acts/full_game/hubbackgrounds/assets/backgroundintro.png" id="2"]
+
+[node name="IntroHubBackground" type="Node2D"]
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(1171, 689)
+sprite_frames = ExtResource("1")
+animation = &"c"
+autoplay = "c"
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+texture = ExtResource("2")

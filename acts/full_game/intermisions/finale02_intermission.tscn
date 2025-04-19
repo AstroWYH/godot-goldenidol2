@@ -1,0 +1,90 @@
+[gd_scene load_steps=10 format=4 uid="uid://cxggf1wab4fnt"]
+
+[ext_resource type="PackedScene" uid="uid://bfe03csmbswxm" path="res://shared/ui/intermissions/intermission_dialog.tscn" id="1"]
+[ext_resource type="Script" path="res://acts/full_game/intermisions/finale02_intermission.gd" id="2"]
+[ext_resource type="AudioStream" uid="uid://ctmmwf71wjhme" path="res://acts/full_game/intermisions/assets/audio/intermission_finale02_audio.ogg" id="3"]
+[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/page2.ogv" id="4"]
+[ext_resource type="Texture2D" uid="uid://c0dmho4td8d6j" path="res://acts/full_game/intermisions/finale02.png" id="5"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="6"]
+[ext_resource type="Texture2D" uid="uid://c4rwoqjegwn30" path="res://shared/assets/frames/frame_spech_black.png" id="7"]
+
+[sub_resource type="Animation" id="Animation_36hnf"]
+resource_name = "intro"
+length = 13.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VideoStreamPlayer/Label3:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
+_data = {
+"intro": SubResource("Animation_36hnf")
+}
+
+[node name="IntermissionDialog" instance=ExtResource("1")]
+anchors_preset = 0
+script = ExtResource("2")
+intermission_id = 7
+video_length = 11.0
+music_layers = [ExtResource("3")]
+
+[node name="VideoStreamPlayer" parent="." index="0"]
+stream = ExtResource("4")
+autoplay = true
+
+[node name="Sprite2D" type="Sprite2D" parent="VideoStreamPlayer" index="0"]
+visible = false
+position = Vector2(19, 8)
+scale = Vector2(1.96481, 1.96481)
+texture = ExtResource("5")
+centered = false
+
+[node name="Label3" type="Label" parent="VideoStreamPlayer" index="1"]
+layout_mode = 0
+offset_left = 173.0
+offset_top = 127.0
+offset_right = 571.0
+offset_bottom = 349.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6")
+theme_override_font_sizes/font_size = 32
+text = "CONCLUSION2_FRAME_01"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VideoStreamPlayer/Label3" index="0"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="VideoStreamPlayer/Label3/MarginContainer" index="0"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("7")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="3"]
+libraries = {
+"": SubResource("AnimationLibrary_vm1df")
+}
+autoplay = "intro"
