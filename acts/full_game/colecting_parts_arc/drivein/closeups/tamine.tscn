@@ -1,0 +1,239 @@
+[gd_scene load_steps=44 format=4 uid="uid://bwqwuw0lg3hvb"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://dxspic6dqntik" path="res://acts/full_game/colecting_parts_arc/drivein/assets/duffelbag_v2.0.png" id="5"]
+[ext_resource type="Resource" uid="uid://c521pkqsotnqt" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_equipment_puzzle_meta.tres" id="6"]
+[ext_resource type="Texture2D" uid="uid://cwhxjmqae3kuq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00000.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bmkixql4sqhwx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00001.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b4nnhfo25ht4q" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00002.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://baaqqapcfrwe3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00003.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cgjj1j7yqgx7k" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00004.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://uk2iucybyb1a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00005.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bvjtlv3mx2ru7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00006.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dr4ito5lwydgp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00007.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ba3tp4uhgsnkg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00008.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dklil6k1iq74g" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00009.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://e8jvnknrvsl0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00010.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dqhenw8e6j3ge" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00011.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://xkwwnunwbm8g" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00012.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dc04mlslnkfc5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00013.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://vfbku5cgachm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00014.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c83qcwj2iuvxo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00015.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://8h6r5yhi0c2a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00016.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://8n4jkjvuqdr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00017.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://mg2kw36cljg1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00018.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bmv6lcm5tydc4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00019.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cna6c5dvp58pv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00020.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cjwbby8rx7nug" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00021.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://1afl2n71xob7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00022.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bdo3yvxqtot64" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00023.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://4k2epw3rwewy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00024.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://c1wm62n3hrhi4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00025.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cng5cv382tu4r" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00026.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://3vm1yx2pa7p" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00027.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bkw3gtj0mcfct" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00028.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://ltdchw33k1ll" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00029.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dj6gdxt51mudo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00030.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://7ljofgjw7w0m" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00031.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dy8jcbgtyl77y" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00032.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://b2ktevkml3rhw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00033.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bviq5tk0i4vqs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00034.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://btlvigdwomel1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/aaron_gendy_in_costume/Aaron_Gendy_in_costume_00035.png" id="42"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bgtdp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = 255.0
+offset_top = 433.0
+offset_right = 860.0
+offset_bottom = 891.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 578.0
+offset_bottom = 93.0
+theme = ExtResource("1")
+text = "cinema_augie_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(114.237, 146.25)
+rotation = -0.18496499955654144
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "33"
+
+[node name="TicketSpot2" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 54.0
+offset_top = 104.0
+offset_right = -423.0
+offset_bottom = -280.0
+hotspot_id = "DaS"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
+modulate = Color(0.752941, 0.564706, 0.294118, 1)
+position = Vector2(-17, -24)
+frame_progress = 0.6951010227203369
+
+[node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
+position = Vector2(-16, -20)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(146, 305)
+scale = Vector2(0.39, 0.39)
+texture = ExtResource("5")
+
+[node name="Bag" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 62.0
+offset_top = 291.0
+offset_right = -368.0
+offset_bottom = -66.0
+hotspot_id = "MXP"
+text = "cinema_bag_tooltip"
+unlocked_puzzles = [ExtResource("6")]
+
+[node name="Highlighter" parent="Bag/Indicators" index="0"]
+modulate = Color(0.341176, 0.529412, 0.717647, 1)
+position = Vector2(9, 3)
+frame_progress = 0.8980230093002319
+
+[node name="FocusIndicator" parent="Bag/Indicators" index="1"]
+position = Vector2(10, 7)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(412, 266)
+sprite_frames = SubResource("SpriteFrames_bgtdp")
+autoplay = "default"
+frame_progress = 0.227509006857872
+
+[editable path="TicketSpot2"]
+[editable path="Bag"]

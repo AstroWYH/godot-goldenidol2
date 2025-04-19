@@ -1,0 +1,49 @@
+[gd_scene load_steps=9 format=4 uid="uid://bjklq0m5gqk7h"]
+
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="1"]
+[ext_resource type="Resource" uid="uid://cotbaa5abfbmx" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_day_location.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cq571j081b1ot" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_night_location.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bncex05brju8e" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_day_location.tres" id="4"]
+[ext_resource type="Resource" uid="uid://breqfce5lp18y" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_night_location.tres" id="5"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://mkn5bgi17nlu" path="res://shared/ui/diagnostics/diagnostics.tscn" id="7"]
+
+[sub_resource type="Resource" id="Resource_407m7"]
+script = ExtResource("6")
+arc = null
+id = 23
+name = "Auction House"
+description = ""
+path = "res://acts/full_game/colecting_parts_arc/auction/auction.tscn"
+locations = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+required_puzzles = []
+max_spots = 999
+phrases_name = 16
+phrases_object = 9
+phrases_action = 6
+phrases_special = 4
+phrases_numeral = 0
+phrases_local = 0
+victory_screen_text = "Tesa Nevari attended the Seven Seas Auction determined to walk away with the Lemurian Idol. When she was outbid, she and her accomplice resorted to more unsavory methods."
+victory_picture_path = ""
+custom_victory_dialog_path = ""
+victory_unlocks_segments = []
+victory_unlocks_arc_phrases = []
+achievement_id = 0
+intermission_path_on_victory = ""
+intro_music = []
+loop_music = []
+ambience = []
+escalation_layer_ids = []
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = []
+sfx_transposition = 0
+picture = null
+hint_meta_list = []
+
+[node name="auction" type="Node"]
+
+[node name="Scenario" parent="." instance=ExtResource("1")]
+scenario_meta = SubResource("Resource_407m7")
+
+[node name="Diagnostics" parent="." instance=ExtResource("7")]

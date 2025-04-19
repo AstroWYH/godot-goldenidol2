@@ -1,0 +1,276 @@
+[gd_scene load_steps=47 format=4 uid="uid://c68tlmp66j5wl"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://cwrordgtlfeti" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bftadcqow4gnc" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d07uclilma152" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_3.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dj7md8ul0l6r2" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_4.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dvhekrqd78ft" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_5.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://btpylej66mxds" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_6.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://biwtw85b5gou" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_7.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bvppyrfy7rh7m" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_8.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b48yf88313sit" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_9.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://vmt6tw2syxce" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_10.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cfb1ffdmyifxc" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_11.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ei7kvjna77d5" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_12.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://brb2ar2pb352o" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_13.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://v6e2fd4b6rr0" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_14.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://i7v7qk2w1gr4" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_15.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dnklckw1inwng" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_16.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cx6b2sfoxmm0d" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_17.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bo0k8ufnkt82m" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_18.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cl7xgvanlisdy" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_19.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cndcd8rh0cep8" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_20.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ttw3r8w3nc4l" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_21.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bs63s3laof53y" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_22.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://0b1rk6c1sls3" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_23.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bfqh7q1eeevc8" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_24.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cvy20flppvcw7" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_25.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dawotmt006ffy" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_26.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b42461wfhftr6" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_27.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://loexiu08n5ck" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_28.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://big5rknpgqc44" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_29.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cgwai517rpbk6" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_30.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cnw6d3amisyxv" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_31.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bbv75dc27whdq" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_32.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cmbx7ubvs0bgb" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_33.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bfko75vdma41r" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_34.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://x53kx6cxch6y" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_35.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c0gc51o1nojtv" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_36.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cxkxj0huamp73" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_37.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://wdq1ynli8p0x" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_38.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://c5hv6ngguldyx" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_39.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://blqdkhqgawhhu" path="res://shared/assets/papers/SmallNote_V1_ICO.png" id="41"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="42"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="44"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="45"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bhb1b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="ChiefCloseup" type="Panel"]
+offset_left = -628.0089721679688
+offset_top = 730.4819946289063
+offset_right = 172.99099731445313
+offset_bottom = 1343.47998046875
+
+[node name="CharacterTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 56.00899887084961
+offset_top = 78.51799774169922
+offset_right = 679.0089721679688
+offset_bottom = 195.51800537109375
+theme = ExtResource("1")
+text = "CONFERENCE_SEBASTIAN_SPEECH"
+autowrap_mode = 3
+
+[node name="CharacterAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(534.859, 392.367)
+sprite_frames = SubResource("SpriteFrames_bhb1b")
+autoplay = "default"
+frame_progress = 0.4245629906654358
+
+[node name="LetterSprite" type="Sprite2D" parent="."]
+position = Vector2(135.009, 465.518)
+texture = ExtResource("41")
+
+[node name="ChiefNoteSpot" parent="." instance=ExtResource("42")]
+layout_mode = 1
+offset_left = 66.0
+offset_top = 357.0
+offset_right = -598.0
+offset_bottom = -90.99800109863281
+hotspot_id = "YvV"
+
+[node name="Indicators" parent="ChiefNoteSpot" index="0"]
+offset_left = -4.5
+offset_top = 37.51810073852539
+offset_right = -4.5
+offset_bottom = 37.51810073852539
+
+[node name="Highlighter" parent="ChiefNoteSpot/Indicators" index="0"]
+modulate = Color(0.901961, 0.972549, 0.996078, 1)
+
+[node name="ClipboardPanel" type="Panel" parent="ChiefNoteSpot"]
+layout_mode = 0
+offset_left = -95.0
+offset_top = 315.0
+offset_right = 369.0
+offset_bottom = 793.0
+
+[node name="ClipboardSprite" type="TextureRect" parent="ChiefNoteSpot/ClipboardPanel"]
+modulate = Color(0.92549, 0.980392, 1, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = -12.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("43")
+stretch_mode = 1
+
+[node name="Sprite2D7" type="Sprite2D" parent="ChiefNoteSpot/ClipboardPanel/ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(117.009, 259.518)
+rotation = -1.5477299690246582
+texture = ExtResource("44")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D6" type="Sprite2D" parent="ChiefNoteSpot/ClipboardPanel/ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(222.009, 117.518)
+rotation = 3.0961999893188477
+texture = ExtResource("44")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D5" type="Sprite2D" parent="ChiefNoteSpot/ClipboardPanel/ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(230.009, 343.518)
+rotation = -3.0648000240325928
+texture = ExtResource("44")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Case numbers" type="Label" parent="ChiefNoteSpot/ClipboardPanel"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 20.0
+offset_right = 432.0
+offset_bottom = 454.0
+theme = ExtResource("45")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 25
+text = "CONFERENCE_SEBASTIAN_NOTE"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[editable path="ChiefNoteSpot"]

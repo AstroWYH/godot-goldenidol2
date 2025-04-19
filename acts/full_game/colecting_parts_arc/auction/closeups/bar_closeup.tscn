@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=4 uid="uid://djr5b3p77c2d1"]
+
+[ext_resource type="Texture2D" uid="uid://brl7ti24x3jtc" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/bar2.png" id="1"]
+
+[node name="BarCloseup" type="Panel"]
+offset_left = 741.0
+offset_top = 297.0
+offset_right = 1435.0
+offset_bottom = 846.0
+mouse_filter = 2
+
+[node name="Bar" type="Sprite2D" parent="."]
+position = Vector2(7, 4)
+scale = Vector2(0.428035, 0.425703)
+texture = ExtResource("1")
+centered = false

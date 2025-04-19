@@ -1,0 +1,1398 @@
+[gd_scene load_steps=250 format=4 uid="uid://drw6f4uxmfl4t"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://cotbaa5abfbmx" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_day_location.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://dbt3gwx6fsix7" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/sunset.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ujaln13h16wj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/doenstairs_sunset.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://jps3d6tcgng" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent1.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cvf5kc60a4mi7" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent2.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dy3s61ym8xkdo" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent3.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://r2cw5d03omb" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent4.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://d4h4ho867jdt3" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent5.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://fvyqh0v3dhwn" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent6.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://t6fltviof4yp" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent7.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bhfs2slpd24ib" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent8.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://d1kl2hf3em3d5" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent9.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://10rucqey3gpp" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent10.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dsqj53he8lrti" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent11.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://8olvioagdxbd" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent12.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dn4hvjqv04m7j" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent13.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://blppeu2c0khqa" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent14.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://fmxlaxwcenjg" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent15.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bxcbi7nyi6qhr" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent16.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bndem8r447fma" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent17.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://f8ugp6p81ia3" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent18.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://00f1g3monovo" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent19.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c0xjr06r0p8sn" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent20.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cyrokv2msm6b3" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent21.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b51p78br8exhq" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent22.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://oc15yp7hac6v" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent23.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://blo7bqtimvpud" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent24.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ck1npl8p6xuk0" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent25.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://clrfbefxu0kbc" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent26.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://r6tjtjjjky63" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent27.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://3pygf758tpp8" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/agent/agent28.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://d32saovaaiyto" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_000.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c8ykmdn0q5dsc" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_001.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://w2fd4qgdjemr" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_002.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dv618ap5e4jwo" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_003.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c3p7n2imip7pw" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_004.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://hp3yqgt7m876" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_005.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cwtoh4yyqj00e" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_006.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://kxnk2fjdr1rk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_007.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://c4dt6ktvyr826" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_008.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c8jciduw1lgim" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_009.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bm7378ole6u56" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_010.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cqwxyi62genqj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_011.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bpgj2gylbe436" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_012.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bbud3b333s86b" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_013.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://byp8dec7iuh7i" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_014.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cgidafrr1kg3f" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_015.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://p4v5ufmpr8f0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_016.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://d2xsxyfwd6w25" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctioneer 2/auctioneer_017.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://u7labaq44n3c" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/barenv.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://pyy0coy113q3" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_000.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://dy3c2d4y3ifs2" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_001.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bi01wyeiip0s0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_002.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://ctm76s2j7j45x" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_003.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://c6afic0fpurwf" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_004.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://dp5yt73nvu5x4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_005.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dagtjyikrrcby" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_006.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://dlvjwffivce2a" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_007.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://c7kwqfhdixmf6" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_008.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://cep8t3hdq8u4t" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_009.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://cbu53cnoqt0qu" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_010.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://cnex240o8rn5v" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_011.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://b3nmfqwbaxkjc" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_012.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://jp8wo50vapl" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_013.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cv2xquk7sesrd" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_014.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://dpqvcb3ayy0ly" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_015.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://deie6xvqu3hn4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_016.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://cg467gck0y4c3" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_017.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://dt6ij28epx6i5" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_018.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://fdape1nr41ek" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_019.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://cjvoqu01xrabr" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_020.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dlimelj3fy2w8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_021.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://ccmwq3ck6umvs" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_022.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://c4le8kumal7ix" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/proffesor/proffesor_body_023.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://dtwg7xn7fjpk8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_000.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://pnw3nldb5byk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_001.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://g7nmpq0j5mub" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_002.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://bbem0w8mjkwro" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_003.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cllylogmryvwk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_004.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://bxljbo22n4i0m" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_005.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://crftmhwmdwgrd" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_006.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://cg8b2kgpei78p" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_007.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://dxmmy7oxy1v4m" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_008.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://ce8hxpyr6a7ee" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_009.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://clcwdgj18b2om" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_010.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://qyk3eanwbleo" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_011.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://b1x1lnhhyyhn1" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_012.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://bk8php4ydfhhh" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_013.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://oa8at5cqgbfi" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_014.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://dmao7dlfgk0dg" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_015.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://d0cvxehs2idi" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_016.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dfu26k5vjpn3f" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_017.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://q3tbp0qrrkvh" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_018.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://kaltk6k4kgko" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_019.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://dbimaashc48tl" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_020.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bbntgr6fmu481" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_021.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://dnexnnncrm57d" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_022.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://d4iurxtkbwrkj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/collerctor/collerctor_023.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://yj64hiysvq3n" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_000.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://5rbeye7rkirx" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_001.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cwhv6gxera47q" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_002.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://b5tiavmkbi58b" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_003.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://0hvpddc0w1ga" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_004.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://cpp6holg4re1a" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_005.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://dqdk8bsm82k0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_006.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://bhoiw88sdkasl" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_007.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://cw1la37e6akpl" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_008.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://dj6o2v31pps3a" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_009.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://b27tq16dc6pv6" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_010.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://crjrhhe50unt5" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_011.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://bhlncdfr81ll8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_012.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://82h5h2dyq3dl" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_013.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://sofof6kpm02e" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_014.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://b3fqgeww1t17k" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_015.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://2v5u10btsvi0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_016.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://c3xad3ousldl1" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_017.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://bictny5bnmbyk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_018.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://blq8kb5afniug" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_019.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://cymh65q1wmls6" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_020.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://dw10b1sd0r6et" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_021.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://co6qmwt8xhohf" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_022.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://7dl4gthwpwkj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_023.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://dnrstp6k4a457" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_024.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://7c52nyp0bq77" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_025.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://quf26wdj2t1t" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_026.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://cqtc3twvu7bt2" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_027.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://fkk45akpewk5" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_028.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://cvdo7mdq0axgs" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_029.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://531rxagbv7wt" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_030.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://bfh1ed7qe3qlh" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_031.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://cswxbmct2ke4q" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_032.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://ldcs7q2ns3j6" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_033.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://bfs2ga3v7cqrk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_034.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://b2026swe4fvi0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/curatorbody/curator/paddle_035.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://rna50mw0h6k4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_000.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://qvxs6161nptc" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_001.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://dhmjc65psfmnn" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_002.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://bgiu5vhpf7hs3" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_003.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://dbjy1ipd7juq" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_004.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://sjewpootexkj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_005.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://bbf5hwcscfie0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_006.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://ddcv1540apccd" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_007.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://dl0adnjlh3wsm" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_008.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://gjdo0eh2ovxo" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_009.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://b13ndhko8glts" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_010.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://2bknad25jox" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_011.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://4vjnuejxhc31" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_012.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://k2bg3d3ljorh" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_013.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://djq273di11wcl" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_014.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://yenb4yfhi4f3" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_015.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://dwjy2ta0ft6if" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_016.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://bxemxw6dbrilo" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_017.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://cw2yw1y30qh37" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_018.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://ci546jyvqveh1" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_019.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://gb2md0c08vux" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_020.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://bqudtpcabfohb" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_021.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://c37jvw76vyruo" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_022.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://c4tudh2smqr5k" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_023.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://bbyo4scd8ioqf" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_024.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://cihx1kjjcpibm" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_025.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://bqiicy4d3171o" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_026.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://clt7r3eg5bn4m" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_027.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://b7i4shwik5wqn" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_028.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://crcei0l14jy46" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_029.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://dghqdi8nd31sp" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_030.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://c6hmecaitxvbh" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_031.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://b11x4dpxhl64n" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_032.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://wfcjlj86dsy4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_033.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://c5npdtchqr7rn" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_034.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://m8ju3pcwnepj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_035.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://mhx8lwfmub6j" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_036.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://ufgosuor4frt" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_037.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://lxdh37xo2qn1" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_038.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://600vravj12j2" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_039.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://bi7gpddouoqbm" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_040.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://cd73l637cp2y4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_041.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://cs1ftwg04ek7w" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_042.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://c5ncuk1f1glo8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_043.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://d4d4apvf1syoo" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_044.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://b73qavoc81unj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_045.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://5moo21gje4wy" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_046.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://drrfyiqomy10a" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/lemurian/lemurian_047.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://c6aw70py3pquk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_000.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://dar6o7tvf5wpi" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_001.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://ded4uqihxge3" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_002.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://cbevi0esgtdu4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_003.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://duqvv0oi071cr" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_004.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://ckpdoeritc1li" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_005.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://dx0uo6qm6ngw" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_006.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://d1nolfljqjbcn" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_007.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://caju8lv6705u8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_008.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://ckq2xw5tidxr2" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_009.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://d2vg6m6l6ksr6" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_010.png" id="194"]
+[ext_resource type="Texture2D" uid="uid://cg3utypj4e8ln" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_011.png" id="195"]
+[ext_resource type="Texture2D" uid="uid://dq3bxsv5wlxh6" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_012.png" id="196"]
+[ext_resource type="Texture2D" uid="uid://8obi1eu4ycbw" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_013.png" id="197"]
+[ext_resource type="Texture2D" uid="uid://b4ncq71ojliuv" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_014.png" id="198"]
+[ext_resource type="Texture2D" uid="uid://da50y4gkh16a0" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_015.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://jgbqoanjhd2l" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_016.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://10jgr2mllgkv" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_017.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://bt0ovn1xbxkhn" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_018.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://dmda73vw4yi0n" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_019.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://i1n8cdytsfsa" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_020.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://c68cgcdgmjmh2" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_021.png" id="205"]
+[ext_resource type="Texture2D" uid="uid://7gsnoo0otd50" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_022.png" id="206"]
+[ext_resource type="Texture2D" uid="uid://dq1pnxpxvbglf" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_023.png" id="207"]
+[ext_resource type="Texture2D" uid="uid://dkhbfhsigx2b8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_024.png" id="208"]
+[ext_resource type="Texture2D" uid="uid://gkcxtc0c2r2s" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_025.png" id="209"]
+[ext_resource type="Texture2D" uid="uid://bljlgxdvy5osm" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_026.png" id="210"]
+[ext_resource type="Texture2D" uid="uid://cvuykgjumx22m" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_027.png" id="211"]
+[ext_resource type="Texture2D" uid="uid://bsem8rhs473uy" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_028.png" id="212"]
+[ext_resource type="Texture2D" uid="uid://dm8m8x70cyi6e" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_029.png" id="213"]
+[ext_resource type="Texture2D" uid="uid://c3mh3txm4r6nx" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_030.png" id="214"]
+[ext_resource type="Texture2D" uid="uid://cgqs2n8qk15rf" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_031.png" id="215"]
+[ext_resource type="Texture2D" uid="uid://bqpkqwgsxguaa" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_032.png" id="216"]
+[ext_resource type="Texture2D" uid="uid://cv8333rehogx4" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/start/start_033.png" id="217"]
+[ext_resource type="Texture2D" uid="uid://dksuexpbic4hd" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/table.png" id="218"]
+[ext_resource type="Texture2D" uid="uid://cbm571xo5t6om" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/light.png" id="219"]
+[ext_resource type="Texture2D" uid="uid://dp7o70ot6ap0u" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctiondownstarslight.png" id="220"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="221"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="222"]
+[ext_resource type="PackedScene" uid="uid://dqwdpr8jvunh7" path="res://acts/full_game/colecting_parts_arc/auction/closeups/sign_closeup.tscn" id="223"]
+[ext_resource type="PackedScene" uid="uid://qw1plpa6xn6m" path="res://acts/full_game/colecting_parts_arc/auction/closeups/oriel_closeup.tscn" id="224"]
+[ext_resource type="PackedScene" uid="uid://gdbl21qy0m1y" path="res://acts/full_game/colecting_parts_arc/auction/closeups/nevari_closeup.tscn" id="225"]
+[ext_resource type="PackedScene" uid="uid://43nl872oacpn" path="res://acts/full_game/colecting_parts_arc/auction/closeups/actress_closeup2.tscn" id="226"]
+[ext_resource type="PackedScene" uid="uid://b7y38twlm48jy" path="res://acts/full_game/colecting_parts_arc/auction/closeups/aurelia_closeup.tscn" id="227"]
+[ext_resource type="PackedScene" uid="uid://dut4e5n2ig2mw" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lemurian_closeup.tscn" id="228"]
+[ext_resource type="PackedScene" uid="uid://dhnrtbby8ry3e" path="res://acts/full_game/colecting_parts_arc/auction/closeups/agent_closeup2.tscn" id="229"]
+[ext_resource type="PackedScene" uid="uid://dw8f0p4gf0ysi" path="res://acts/full_game/colecting_parts_arc/auction/closeups/mask_closeup.tscn" id="230"]
+[ext_resource type="PackedScene" uid="uid://djr5b3p77c2d1" path="res://acts/full_game/colecting_parts_arc/auction/closeups/bar_closeup.tscn" id="231"]
+[ext_resource type="Resource" uid="uid://bncex05brju8e" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_day_location.tres" id="232"]
+[ext_resource type="PackedScene" uid="uid://boq7yxn42eqrm" path="res://acts/full_game/colecting_parts_arc/auction/auction_time_travel_bar_downstairs.tscn" id="233"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nj5e7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lhvy0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cw3iq"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a4f70"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c4hnm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_skgsq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1wjeu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_khjye"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_6wy6f"]
+
+[sub_resource type="Animation" id="Animation_nofya"]
+resource_name = "new_animation"
+length = 5.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D5:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.3, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0.0431373), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4jkrj"]
+_data = {
+"new_animation": SubResource("Animation_nofya")
+}
+
+[sub_resource type="Resource" id="Resource_cheon"]
+script = ExtResource("222")
+linked_item_ref_id = 72
+
+[sub_resource type="Resource" id="Resource_ji01n"]
+script = ExtResource("222")
+linked_item_ref_id = 328
+
+[sub_resource type="Resource" id="Resource_ylj3v"]
+script = ExtResource("222")
+linked_item_ref_id = 302
+
+[sub_resource type="Resource" id="Resource_mlx5l"]
+script = ExtResource("222")
+linked_item_ref_id = 149
+
+[sub_resource type="Resource" id="Resource_fnwlt"]
+script = ExtResource("222")
+linked_item_ref_id = 324
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("3")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Background"]
+texture = ExtResource("4")
+centered = false
+
+[node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(1737, 520)
+sprite_frames = SubResource("SpriteFrames_nj5e7")
+autoplay = "default"
+frame_progress = 0.3117560148239136
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(1440, 541)
+sprite_frames = SubResource("SpriteFrames_lhvy0")
+autoplay = "default"
+frame_progress = 0.012129699811339378
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(3530, 994)
+sprite_frames = SubResource("SpriteFrames_cw3iq")
+autoplay = "default"
+frame_progress = 0.6897619962692261
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/Sprite2D"]
+position = Vector2(1704, 758)
+texture = ExtResource("51")
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(390, 563)
+sprite_frames = SubResource("SpriteFrames_a4f70")
+autoplay = "default"
+frame_progress = 0.18071399629116058
+
+[node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(562, 534)
+sprite_frames = SubResource("SpriteFrames_c4hnm")
+autoplay = "default"
+frame_progress = 0.14614799618721008
+
+[node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(888, 540)
+sprite_frames = SubResource("SpriteFrames_skgsq")
+autoplay = "default"
+frame_progress = 0.6329060196876526
+
+[node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(1076, 535)
+sprite_frames = SubResource("SpriteFrames_1wjeu")
+autoplay = "default"
+frame_progress = 0.5919809937477112
+
+[node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="Background/Sprite2D"]
+position = Vector2(757, 508)
+sprite_frames = SubResource("SpriteFrames_khjye")
+autoplay = "default"
+frame_progress = 0.9355559945106506
+
+[node name="Sprite2D2" type="Sprite2D" parent="Background/Sprite2D"]
+position = Vector2(895, 730)
+texture = ExtResource("218")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Background/Sprite2D"]
+position = Vector2(1167, 626)
+texture = ExtResource("219")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Background/Sprite2D"]
+material = SubResource("CanvasItemMaterial_6wy6f")
+position = Vector2(1298, 450)
+texture = ExtResource("220")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Background/Sprite2D"]
+libraries = {
+"": SubResource("AnimationLibrary_4jkrj")
+}
+autoplay = "new_animation"
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AuctionSignSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 100.0
+offset_top = 397.0
+offset_right = 209.0
+offset_bottom = 523.0
+hotspot_id = "FrW"
+unlocked_item_ref_id = 71
+extra_items_unlocked = [SubResource("Resource_cheon")]
+
+[node name="Indicators" parent="Hotspots/AuctionSignSpot" index="0"]
+offset_left = -26.0
+offset_top = 108.0
+offset_right = -26.0
+offset_bottom = 108.0
+
+[node name="Highlighter" parent="Hotspots/AuctionSignSpot/Indicators" index="0"]
+modulate = Color(0.639216, 0.560784, 0.501961, 1)
+position = Vector2(20, -29.75)
+frame_progress = 0.23540200293064117
+
+[node name="FocusIndicator" parent="Hotspots/AuctionSignSpot/Indicators" index="1"]
+position = Vector2(21, -25.75)
+
+[node name="SignCloseup" parent="Hotspots/AuctionSignSpot" instance=ExtResource("223")]
+layout_mode = 0
+offset_left = -1863.0
+offset_top = -363.0
+offset_right = -1103.0
+offset_bottom = 409.0
+scale = Vector2(0.925, 1)
+
+[node name="OrielSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 307.0
+offset_top = 372.0
+offset_right = 406.0
+offset_bottom = 732.0
+hotspot_id = "J56"
+unlocked_character_ref_id = 15
+unlocked_item_ref_id = 332
+extra_items_unlocked = [SubResource("Resource_ji01n")]
+
+[node name="Indicators" parent="Hotspots/OrielSpot" index="0"]
+offset_left = -35.5
+offset_top = 88.0
+offset_right = -35.5
+offset_bottom = 88.0
+
+[node name="Highlighter" parent="Hotspots/OrielSpot/Indicators" index="0"]
+modulate = Color(0.435294, 0.254902, 0.227451, 1)
+position = Vector2(-3, -2)
+
+[node name="FocusIndicator" parent="Hotspots/OrielSpot/Indicators" index="1"]
+position = Vector2(-2, 2)
+
+[node name="OrielCloseup" parent="Hotspots/OrielSpot" instance=ExtResource("224")]
+layout_mode = 0
+offset_left = -1591.0
+offset_top = -1070.0
+offset_right = -845.0
+offset_bottom = -574.0
+
+[node name="NevariSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 486.0
+offset_top = 340.0
+offset_right = 615.0
+offset_bottom = 680.0
+hotspot_id = "XN2"
+unlocked_character_ref_id = 27
+
+[node name="Indicators" parent="Hotspots/NevariSpot" index="0"]
+offset_left = -75.5
+offset_top = 151.0
+offset_right = -75.5
+offset_bottom = 151.0
+
+[node name="Highlighter" parent="Hotspots/NevariSpot/Indicators" index="0"]
+modulate = Color(0.98821, 0.797569, 0.273183, 1)
+
+[node name="NevariCloseup" parent="Hotspots/NevariSpot" instance=ExtResource("225")]
+layout_mode = 0
+offset_left = -441.0
+offset_top = -1222.0
+offset_right = 273.0
+offset_bottom = -719.0
+
+[node name="SummerSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 690.0
+offset_top = 292.0
+offset_right = 768.0
+offset_bottom = 646.0
+hotspot_id = "-Q6"
+unlocked_character_ref_id = 14
+unlocked_item_ref_id = 329
+extra_items_unlocked = [SubResource("Resource_ylj3v"), SubResource("Resource_mlx5l")]
+
+[node name="Highlighter" parent="Hotspots/SummerSpot/Indicators" index="0"]
+modulate = Color(0.156863, 0.494118, 0.494118, 1)
+position = Vector2(-13.5, -8.75)
+frame_progress = 0.5346310138702393
+
+[node name="FocusIndicator" parent="Hotspots/SummerSpot/Indicators" index="1"]
+position = Vector2(-12.5, -4.75)
+
+[node name="SummerCloseup" parent="Hotspots/SummerSpot" instance=ExtResource("226")]
+layout_mode = 0
+offset_left = -1557.0
+offset_top = 808.0
+offset_right = -864.0
+offset_bottom = 1335.0
+
+[node name="AureliaSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 842.0
+offset_top = 365.0
+offset_right = 899.0
+offset_bottom = 539.0
+hotspot_id = "JeY"
+unlocked_character_ref_id = 11
+unlocked_item_ref_id = 327
+extra_items_unlocked = [SubResource("Resource_fnwlt")]
+
+[node name="Highlighter" parent="Hotspots/AureliaSpot/Indicators" index="0"]
+modulate = Color(0.458824, 0.223529, 0.2, 1)
+position = Vector2(30, 75.25)
+
+[node name="FocusIndicator" parent="Hotspots/AureliaSpot/Indicators" index="1"]
+position = Vector2(31, 79.25)
+
+[node name="AureliaCloseup" parent="Hotspots/AureliaSpot" instance=ExtResource("227")]
+layout_mode = 0
+offset_left = 466.0
+offset_top = -1332.0
+offset_right = 1186.0
+offset_bottom = -841.0
+
+[node name="MoumaatiSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 1006.0
+offset_top = 357.0
+offset_right = 1104.0
+offset_bottom = 646.0
+hotspot_id = "n8n"
+unlocked_character_ref_id = 13
+unlocked_item_ref_id = 316
+
+[node name="Highlighter" parent="Hotspots/MoumaatiSpot/Indicators" index="0"]
+modulate = Color(0.278431, 0.513726, 0.172549, 1)
+position = Vector2(34.5, 18.25)
+frame_progress = 0.45368999242782593
+
+[node name="FocusIndicator" parent="Hotspots/MoumaatiSpot/Indicators" index="1"]
+position = Vector2(35.5, 22.25)
+
+[node name="LemurianCloseup" parent="Hotspots/MoumaatiSpot" instance=ExtResource("228")]
+layout_mode = 0
+offset_left = -37.0
+offset_top = 1099.0
+offset_right = 797.0
+offset_bottom = 1674.0
+
+[node name="WilmingtonSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 1433.0
+offset_top = 315.0
+offset_right = 1506.0
+offset_bottom = 737.0
+hotspot_id = "FR-"
+unlocked_character_ref_id = 10
+unlocked_item_ref_id = 331
+
+[node name="Indicators" parent="Hotspots/WilmingtonSpot" index="0"]
+offset_left = 29.5
+offset_top = 135.0
+offset_right = 29.5
+offset_bottom = 135.0
+
+[node name="Highlighter" parent="Hotspots/WilmingtonSpot/Indicators" index="0"]
+modulate = Color(0.937255, 0.615686, 0.509804, 1)
+
+[node name="WilmingtonCloseup" parent="Hotspots/WilmingtonSpot" instance_placeholder="res://acts/full_game/colecting_parts_arc/auction/closeups/wilmington_closeup.tscn"]
+layout_mode = 0
+offset_left = 2502.0
+offset_top = -538.0
+offset_right = 3230.0
+offset_bottom = -47.0
+
+[node name="AgentSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 1670.0
+offset_top = 327.0
+offset_right = 1771.0
+offset_bottom = 583.0
+focus_neighbor_top = NodePath("../../TimeTravelBar/VBoxContainer/Night")
+focus_neighbor_right = NodePath("../../TimeTravelBar/VBoxContainer/Night")
+hotspot_id = "GPK"
+unlocked_character_ref_id = 48
+
+[node name="Highlighter" parent="Hotspots/AgentSpot/Indicators" index="0"]
+modulate = Color(0, 0, 0.294118, 1)
+position = Vector2(-18.5, 135.25)
+
+[node name="FocusIndicator" parent="Hotspots/AgentSpot/Indicators" index="1"]
+position = Vector2(-17.5, 139.25)
+
+[node name="AgentCloseup" parent="Hotspots/AgentSpot" instance=ExtResource("229")]
+layout_mode = 0
+offset_left = 499.0
+offset_top = -921.0
+offset_right = 1184.0
+offset_bottom = -454.0
+
+[node name="MaskSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 851.0
+offset_top = 602.0
+offset_right = 895.0
+offset_bottom = 679.0
+hotspot_id = "ldV"
+
+[node name="Indicators" parent="Hotspots/MaskSpot" index="0"]
+offset_left = -26.0
+offset_top = 108.0
+offset_right = -26.0
+offset_bottom = 108.0
+
+[node name="Highlighter" parent="Hotspots/MaskSpot/Indicators" index="0"]
+modulate = Color(0.527415, 0.722262, 0.580582, 1)
+position = Vector2(35.5, -22.75)
+frame_progress = 0.6666229963302612
+
+[node name="FocusIndicator" parent="Hotspots/MaskSpot/Indicators" index="1"]
+visible = false
+position = Vector2(36.5, -18.75)
+
+[node name="Mask Closeup" parent="Hotspots/MaskSpot" instance=ExtResource("230")]
+layout_mode = 0
+offset_left = 1797.0
+offset_top = 194.0
+offset_right = 2124.0
+offset_bottom = 485.0
+
+[node name="CaneSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 1317.0
+offset_top = 556.0
+offset_right = 1327.0
+offset_bottom = 747.0
+hotspot_id = "Std"
+text = "auction_1day_cane_tooltip"
+unlocked_item_ref_id = 321
+
+[node name="Highlighter" parent="Hotspots/CaneSpot/Indicators" index="0"]
+modulate = Color(0.610841, 0.478338, 0.325051, 1)
+position = Vector2(-1, 3)
+
+[node name="FocusIndicator" parent="Hotspots/CaneSpot/Indicators" index="1"]
+position = Vector2(0, 7)
+
+[node name="BarSpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 1575.0
+offset_top = 650.0
+offset_right = 1825.0
+offset_bottom = 792.0
+hotspot_id = "XvP"
+
+[node name="Highlighter" parent="Hotspots/BarSpot/Indicators" index="0"]
+modulate = Color(0.192157, 0.278431, 0.294118, 1)
+position = Vector2(-4.5, 24.25)
+
+[node name="FocusIndicator" parent="Hotspots/BarSpot/Indicators" index="1"]
+position = Vector2(-3.5, 28.25)
+
+[node name="BarCloseup" parent="Hotspots/BarSpot" instance=ExtResource("231")]
+layout_mode = 0
+offset_left = 2022.0
+offset_top = 5.0
+offset_right = 2716.0
+offset_bottom = 554.0
+
+[node name="UpstairsDaySpot" parent="Hotspots" instance=ExtResource("221")]
+layout_mode = 1
+offset_left = 27.0
+offset_top = 10.0
+offset_right = 1850.0
+offset_bottom = 43.0
+hotspot_id = "ysD"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("232")
+transition = 3
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/UpstairsDaySpot" index="0"]
+offset_left = -10.5
+offset_top = 56.0
+offset_right = -10.5
+offset_bottom = 56.0
+
+[node name="Highlighter" parent="Hotspots/UpstairsDaySpot/Indicators" index="0"]
+modulate = Color(0.721568, 0.640081, 0.52623, 1)
+rotation = -3.140810012817383
+animation = &"location"
+
+[node name="TimeTravelBar" parent="." instance=ExtResource("233")]
+offset_left = 1900.0
+offset_top = 20.0
+offset_right = 1900.0
+offset_bottom = 20.0
+
+[node name="Day" parent="TimeTravelBar/VBoxContainer" index="0"]
+focus_neighbor_left = NodePath("../../../Hotspots/AgentSpot")
+
+[node name="Night" parent="TimeTravelBar/VBoxContainer" index="1"]
+focus_neighbor_left = NodePath("../../../Hotspots/AgentSpot")
+focus_neighbor_bottom = NodePath("../../../Hotspots/AgentSpot")
+
+[editable path="Hotspots/AuctionSignSpot"]
+[editable path="Hotspots/OrielSpot"]
+[editable path="Hotspots/NevariSpot"]
+[editable path="Hotspots/SummerSpot"]
+[editable path="Hotspots/AureliaSpot"]
+[editable path="Hotspots/MoumaatiSpot"]
+[editable path="Hotspots/WilmingtonSpot"]
+[editable path="Hotspots/AgentSpot"]
+[editable path="Hotspots/MaskSpot"]
+[editable path="Hotspots/CaneSpot"]
+[editable path="Hotspots/BarSpot"]
+[editable path="Hotspots/UpstairsDaySpot"]
+[editable path="TimeTravelBar"]

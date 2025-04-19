@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=7 format=4 uid="uid://f0mst37kx53w"]
+
+[ext_resource type="AudioStream" uid="uid://b76okgvfojrq8" path="res://shared/assets/sfx/ambiences/asylum_ambience.ogg" id="1"]
+[ext_resource type="Resource" uid="uid://cjdul7804qyio" path="res://shared/ui/hints/hint_library/asylum_hint_1_meta.tres" id="2"]
+[ext_resource type="Resource" uid="uid://d23ag4ed71cjd" path="res://acts/full_game/introductory_arc/asylum/locations/asylum_location_meta.tres" id="3"]
+[ext_resource type="AudioStream" uid="uid://disu3ua8c5g66" path="res://acts/full_game/introductory_arc/asylum/assets/music/asylum_loop.ogg" id="4"]
+[ext_resource type="Texture2D" uid="uid://bm5pey2p08qy5" path="res://shared/ui/hints/hint_illustrations/constriction.png" id="5"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="6"]
+
+[resource]
+script = ExtResource("6")
+arc = null
+id = 11
+name = "ASYLUM_SCENARIO_NAME"
+description = "ASYLUM_SCENARIO_DESCRIPTION"
+path = "res://acts/full_game/introductory_arc/asylum/asylum_scenario.tscn"
+locations = [ExtResource("3")]
+required_puzzles = []
+max_spots = 9
+phrases_name = 14
+phrases_object = 8
+phrases_action = 0
+phrases_special = 3
+phrases_numeral = 0
+phrases_local = 0
+victory_screen_text = "ASYLUM_SCENARIO_VICTORY"
+victory_picture_path = "res://acts/full_game/introductory_arc/asylum/assets/victoryscreen.png"
+custom_victory_dialog_path = ""
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = []
+victory_unlocks_arc_phrases = []
+achievement_id = 1
+intermission_path_on_victory = ""
+intro_music = []
+loop_music = [ExtResource("4")]
+ambience = [ExtResource("1")]
+escalation_layer_ids = []
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = []
+sfx_transposition = 0
+picture = ExtResource("5")
+hint_meta_list = [ExtResource("2")]
+no_inventory = false

@@ -1,0 +1,212 @@
+[gd_scene load_steps=35 format=4 uid="uid://br0vuiu733tum"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://dudbpf8d61edi" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d24co1c0fgwf8" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ce8arjtchbyij" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bb3pl27ochek5" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dnkbk6dg8di1" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bu57nyime7fsn" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dcd1iwe1ptxa4" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dnf0q7wd7tyvh" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ba6uuahcawh46" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://diw5g7bpgj0yn" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ewm4umnpff3u" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ccqqu5liv6hto" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://daced1kr25cms" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bv6g3pvs6b377" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b82wiqiju7g2s" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cgsv6etahjesc" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cscbxqopbw28i" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://wla00chk4blq" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b0pqm1a336b1m" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dhh156t3mbooi" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://gd5vpt7b68id" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b2vg5ftcot58b" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b3qs4ttvsyymb" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cjvabs0wnrm6y" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cvmxg2tly8raq" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://ovilbqylkntp" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cfscpb46geoxf" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="29"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="30"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="32"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="33"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_af3iv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="DaughterCloseup" type="Panel"]
+offset_left = 81.0
+offset_top = 715.0
+offset_right = 1020.0
+offset_bottom = 1362.0
+
+[node name="CharacterTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 27.0
+offset_right = 534.0
+offset_bottom = 387.0
+theme = ExtResource("1")
+text = "CONFERENCE_ELIZABETH_SPEECH"
+autowrap_mode = 3
+
+[node name="DaughterAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(750, 377)
+sprite_frames = SubResource("SpriteFrames_af3iv")
+autoplay = "default"
+frame_progress = 0.7826610207557678
+
+[node name="LetterSprite" type="Sprite2D" parent="."]
+position = Vector2(205.415, 517.18)
+texture = ExtResource("29")
+
+[node name="DaughterSpeechSpot" parent="." instance=ExtResource("30")]
+layout_mode = 1
+offset_left = 122.0
+offset_top = 426.0
+offset_right = -640.0
+offset_bottom = -45.0
+hotspot_id = "SyE"
+
+[node name="Indicators" parent="DaughterSpeechSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="DaughterSpeechSpot/Indicators" index="0"]
+modulate = Color(0.858824, 0.886275, 0.690196, 1)
+
+[node name="DaughterSpeechPanel" type="Panel" parent="DaughterSpeechSpot"]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 287.0
+offset_right = 542.0
+offset_bottom = 1021.0
+
+[node name="ClipboardSprite" type="TextureRect" parent="DaughterSpeechSpot/DaughterSpeechPanel"]
+modulate = Color(0.905882, 0.929412, 0.72549, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = -12.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("31")
+stretch_mode = 1
+
+[node name="Sprite2D5" type="Sprite2D" parent="DaughterSpeechSpot/DaughterSpeechPanel/ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(236.674, 339)
+rotation = -3.139359951019287
+texture = ExtResource("32")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Body" type="Label" parent="DaughterSpeechSpot/DaughterSpeechPanel"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 19.0
+offset_right = 474.0
+offset_bottom = 702.0
+theme = ExtResource("33")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_constants/line_spacing = -1
+text = "CONFERENCE_ELIZABETH_NOTE"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[editable path="DaughterSpeechSpot"]

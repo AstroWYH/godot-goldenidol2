@@ -1,0 +1,177 @@
+[gd_scene load_steps=15 format=4 uid="uid://bok84tulfeuxb"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://cb6dbaafgeex7" path="res://acts/full_game/introductory_arc/construction_yard/assets/puzzles/vehicle_puzzle_background.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://b7aabvkcd1ryj" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/construction_yard_vehicle_puzzle.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://b5tn6l3epyvun" path="res://acts/full_game/introductory_arc/construction_yard/assets/construction_worker1.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c46j04cwg8u76" path="res://acts/full_game/introductory_arc/construction_yard/assets/construction_worker3.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bujttxboomogg" path="res://acts/full_game/introductory_arc/construction_yard/assets/construction_worker2.png" id="9"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="10"]
+[ext_resource type="Texture2D" uid="uid://ceor7xsdyrlbl" path="res://acts/full_game/introductory_arc/construction_yard/assets/worker_dead.png" id="11"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="12"]
+[ext_resource type="Resource" uid="uid://ivhn5kab8x4m" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/vehicle_names_puzzle.tres" id="13"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="14"]
+
+[node name="VehiclePuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 1087.0
+offset_bottom = 596.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+offset_bottom = -25.0
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 267.0
+offset_right = 944.0
+offset_bottom = 552.0
+mouse_filter = 1
+color = Color(0, 0.4, 0.501961, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/ColorRect" index="0"]
+position = Vector2(530, 14)
+texture = ExtResource("2")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("3")]
+layout_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="Pictures" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("4")]
+layout_mode = 1
+puzzle_meta = ExtResource("5")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+metadata/_edit_lock_ = true
+
+[node name="Answers" parent="PuzzleGroup/Pictures" index="1" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 23.0
+offset_right = -817.0
+offset_bottom = -587.0
+
+[node name="Container" type="Control" parent="PuzzleGroup/Pictures/Answers" index="0"]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 46.0
+offset_right = 926.0
+offset_bottom = 246.0
+mouse_filter = 1
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Pictures/Answers/Container" index="0"]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 86.0
+offset_right = 99.0
+offset_bottom = 186.0
+texture = ExtResource("7")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Pictures/Answers/Container" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 404.0
+offset_top = 105.0
+offset_right = 504.0
+offset_bottom = 205.0
+texture = ExtResource("8")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Pictures/Answers/Container" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 723.0
+offset_top = 77.0
+offset_right = 823.0
+offset_bottom = 177.0
+texture = ExtResource("9")
+
+[node name="Inventory" parent="PuzzleGroup/Pictures" index="2" instance=ExtResource("10")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 925.0
+offset_top = 6.0
+offset_right = 925.0
+offset_bottom = 6.0
+grow_horizontal = 1
+grow_vertical = 1
+mouse_filter = 1
+infinite = false
+
+[node name="Control" type="Control" parent="PuzzleGroup/Pictures/Inventory" index="0"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Pictures/Inventory/Control" index="0"]
+layout_mode = 2
+offset_left = -789.0
+offset_top = 403.0
+offset_right = -689.0
+offset_bottom = 503.0
+texture = ExtResource("7")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Pictures/Inventory/Control" index="1"]
+layout_mode = 2
+offset_left = -564.0
+offset_top = 403.0
+offset_right = -464.0
+offset_bottom = 503.0
+texture = ExtResource("11")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Pictures/Inventory/Control" index="2"]
+layout_mode = 2
+offset_left = -339.0
+offset_top = 403.0
+offset_right = -239.0
+offset_bottom = 503.0
+texture = ExtResource("8")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Pictures/Inventory/Control" index="3"]
+layout_mode = 2
+offset_left = -114.0
+offset_top = 403.0
+offset_right = -14.0
+offset_bottom = 503.0
+texture = ExtResource("9")
+
+[node name="Names" parent="PuzzleGroup" index="1" instance=ExtResource("12")]
+layout_mode = 1
+offset_right = -1087.0
+offset_bottom = -596.0
+puzzle_meta = ExtResource("13")
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Names" index="1" instance=ExtResource("14")]
+layout_mode = 1
+offset_left = 75.0
+offset_top = 275.0
+offset_right = 75.0
+offset_bottom = 275.0
+answer_item_ref_id = 436
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Names" index="2" instance=ExtResource("14")]
+layout_mode = 1
+offset_left = 475.0
+offset_top = 275.0
+offset_right = 475.0
+offset_bottom = 275.0
+answer_item_ref_id = 437
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Names" index="3" instance=ExtResource("14")]
+layout_mode = 1
+offset_left = 819.0
+offset_top = 275.0
+offset_right = 819.0
+offset_bottom = 275.0
+answer_item_ref_id = 438
+
+[editable path="Frame"]

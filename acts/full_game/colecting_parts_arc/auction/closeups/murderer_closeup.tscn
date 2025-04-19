@@ -1,0 +1,162 @@
+[gd_scene load_steps=14 format=4 uid="uid://deujv0l80bbte"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://b81neg25hre8p" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/idol_transparent.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cmjajaqqpyasx" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/keys2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dvrenxpo46gk" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/crumpled_paper.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="5"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Texture2D" uid="uid://biklqt64baeh4" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/crumbledpaper.png" id="7"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
+[ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cq6je3unxhe7e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0002.png" id="11"]
+
+[sub_resource type="Resource" id="Resource_k6j15"]
+script = ExtResource("6")
+linked_item_ref_id = 320
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_og0vo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="MurdererCloseup" type="Panel"]
+offset_left = -373.0
+offset_top = 917.0
+offset_right = 263.0
+offset_bottom = 1396.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 21.0
+offset_right = 608.0
+offset_bottom = 64.0
+theme = ExtResource("1")
+text = "auction_2night_killer_speech"
+autowrap_mode = 2
+
+[node name="Idol" type="Sprite2D" parent="."]
+position = Vector2(395, 209)
+texture = ExtResource("2")
+
+[node name="Keys" type="Sprite2D" parent="."]
+position = Vector2(504, 383)
+texture = ExtResource("3")
+
+[node name="Paper" type="Sprite2D" parent="."]
+modulate = Color(1, 0.811765, 1, 1)
+position = Vector2(543, 222)
+texture = ExtResource("4")
+
+[node name="KeySpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 396.0
+offset_top = 282.0
+offset_right = -17.0
+offset_bottom = -47.0
+hotspot_id = "CW8"
+text = "ring_of_keys_tooltip"
+unlocked_item_ref_id = 320
+
+[node name="Highlighter" parent="KeySpot/Indicators" index="0"]
+modulate = Color(0.740093, 0.597759, 0.319343, 1)
+position = Vector2(1, -3)
+frame_progress = 0.09549079835414886
+
+[node name="FocusIndicator" parent="KeySpot/Indicators" index="1"]
+position = Vector2(2, 1)
+
+[node name="PaperSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 475.0
+offset_top = 148.0
+offset_right = -28.0
+offset_bottom = -204.0
+hotspot_id = "gdl"
+unlocked_item_ref_id = 334
+extra_items_unlocked = [SubResource("Resource_k6j15")]
+
+[node name="Indicators" parent="PaperSpot" index="0"]
+offset_left = 14.5
+offset_top = 17.0
+offset_right = 14.5
+offset_bottom = 17.0
+
+[node name="Highlighter" parent="PaperSpot/Indicators" index="0"]
+modulate = Color(0.815686, 0.654902, 0.388235, 1)
+position = Vector2(21, -5)
+
+[node name="FocusIndicator" parent="PaperSpot/Indicators" index="1"]
+position = Vector2(22, -1)
+
+[node name="BribeNotePanel" type="Panel" parent="PaperSpot"]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 54.0
+offset_right = 599.0
+offset_bottom = 380.0
+
+[node name="BribeNoteSprite" type="Sprite2D" parent="PaperSpot/BribeNotePanel"]
+position = Vector2(163, 155)
+texture = ExtResource("7")
+
+[node name="BribeNoteText" type="Label" parent="PaperSpot/BribeNotePanel"]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 47.0
+offset_right = 272.0
+offset_bottom = 256.0
+theme = ExtResource("8")
+theme_override_colors/font_color = Color(0.698039, 0, 0, 1)
+text = "auction_2night_killer_note_body"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="IdolSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 354.0
+offset_top = 131.0
+offset_right = -166.0
+offset_bottom = -221.0
+hotspot_id = "eRc"
+text = "auction_2night_killer_statue_tooltip"
+unlocked_item_ref_id = 315
+
+[node name="Indicators" parent="IdolSpot" index="0"]
+offset_left = -1.0
+offset_top = 22.0
+offset_right = -1.0
+offset_bottom = 22.0
+
+[node name="Highlighter" parent="IdolSpot/Indicators" index="0"]
+modulate = Color(0.669334, 0.576421, 0.379652, 1)
+position = Vector2(33, 13)
+
+[node name="FocusIndicator" parent="IdolSpot/Indicators" index="1"]
+position = Vector2(34, 17)
+
+[node name="Siluette" type="AnimatedSprite2D" parent="."]
+position = Vector2(201, 302)
+sprite_frames = SubResource("SpriteFrames_og0vo")
+autoplay = "default"
+frame_progress = 0.9186429977416992
+
+[editable path="KeySpot"]
+[editable path="PaperSpot"]
+[editable path="IdolSpot"]

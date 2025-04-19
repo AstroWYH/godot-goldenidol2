@@ -1,0 +1,84 @@
+[gd_scene load_steps=8 format=4 uid="uid://ql6wb8g4pheg"]
+
+[ext_resource type="Texture2D" uid="uid://du33rwsb4ymx2" path="res://acts/full_game/introductory_arc/conference/assets/closeups/casefile.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+[ext_resource type="Texture2D" uid="uid://18j8w388khnb" path="res://acts/full_game/introductory_arc/conference/assets/closeups/censored_patch.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://ud5tus06dknf" path="res://shared/ui/glyph_container/glyph_container.tscn" id="4"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="5"]
+[ext_resource type="Texture2D" uid="uid://c7grt3gq6dmby" path="res://acts/full_game/introductory_arc/conference/assets/closeups/closed_patch.png" id="6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ysb0e"]
+font = ExtResource("5")
+font_size = 25
+font_color = Color(0.396078, 0.243137, 0.439216, 1)
+
+[node name="IsaacsCasePanel" type="Panel"]
+offset_right = 979.0
+offset_bottom = 598.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(480, 290)
+texture = ExtResource("1")
+
+[node name="Page1Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 99.0
+offset_top = 110.0
+offset_right = 457.0
+offset_bottom = 520.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.396078, 0.243137, 0.439216, 1)
+theme_override_font_sizes/font_size = 25
+text = "CONFERENCE_OFFICE_BEETLE_CASE2_GODOT"
+autowrap_mode = 2
+
+[node name="Page2Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 521.0
+offset_top = 292.0
+offset_right = 881.0
+offset_bottom = 521.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.396078, 0.243137, 0.439216, 1)
+theme_override_font_sizes/font_size = 25
+text = "CONFERENCE_OFFICE_BEETLE_CASE2"
+autowrap_mode = 2
+
+[node name="Censored" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 514.0
+offset_top = 185.0
+offset_right = 862.0
+offset_bottom = 286.0
+texture = ExtResource("3")
+
+[node name="GlyphContainer" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 96.0
+offset_top = 66.0
+offset_right = -298.0
+offset_bottom = -474.0
+label_settings = SubResource("LabelSettings_ysb0e")
+text = "CONFERENCE_OFFICE_BEETLE_CASE1_GODOT"
+
+[node name="closed" type="TextureRect" parent="GlyphContainer"]
+visible = false
+layout_mode = 2
+texture = ExtResource("6")
+stretch_mode = 2
+
+[node name="Closed" type="Label" parent="GlyphContainer/closed"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.894118, 0.811765, 0.917647, 1)
+theme_override_constants/line_spacing = -3
+theme_override_constants/shadow_offset_x = 0
+text = "CONFERENCE_OFFICE_BEETLE_CASE_CLOSED"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

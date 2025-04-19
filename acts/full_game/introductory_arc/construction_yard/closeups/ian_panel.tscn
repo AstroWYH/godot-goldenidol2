@@ -1,0 +1,180 @@
+[gd_scene load_steps=36 format=4 uid="uid://bj3vc38kqgvx8"]
+
+[ext_resource type="Texture2D" uid="uid://bfjmhetskdkqn" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bv5xvcap1rsu0" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c3dr3yypkf6c6" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://crktp8qmm5mut" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bms2oyskkxoym" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b2kf63hmj5shi" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://1a72qpbmhjq1" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://rgosn6ma0ufg" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://ocbl7q4riwp" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://23s50fvym817" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dj8alpeutqqtg" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bfr8mup8ltp4d" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dl46rwtktn8tg" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://djnerwkrfvc4j" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dtpv8rglkbwjq" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cqcbjc63jaqsr" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cb6no8phnmecl" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cnpxd5uo4oolp" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://ybielpj3afbm" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c4rkfe03tftvu" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dbbm5u4erke8q" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://j0l8stxbaxog" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bc6d55stxbiby" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dxvk8ng0g83je" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://w8l1vty4vbx1" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://csoxhbydk43xc" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cuvn6fokwkaa3" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bq3pafn4iheln" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://e26wmr3joh4r" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d2jemnge5nbba" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+[ext_resource type="Texture2D" uid="uid://cyvmgpl10itu" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/badge.png" id="32"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="33"]
+[ext_resource type="Texture2D" uid="uid://fsf8tv3s5gia" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/swan48tx.png" id="34"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ky7t3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="IanPanel" type="Panel"]
+offset_left = -675.0
+offset_top = 1582.0
+offset_right = 125.0
+offset_bottom = 2132.0
+
+[node name="PortraitSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(12, 131)
+sprite_frames = SubResource("SpriteFrames_ky7t3")
+autoplay = "default"
+frame = 12
+frame_progress = 0.8205170035362244
+centered = false
+
+[node name="CharacterTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 29.0
+offset_right = 464.0
+offset_bottom = 150.0
+theme = ExtResource("31")
+text = "CONSTRUCTION_IAN_SPEECH"
+autowrap_mode = 3
+
+[node name="WalletSprite" type="Sprite2D" parent="."]
+position = Vector2(446, 222)
+texture = ExtResource("32")
+centered = false
+
+[node name="WalletLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 265.0
+offset_right = 657.0
+offset_bottom = 345.0
+theme = ExtResource("33")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_IAN_WALLET"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="GunSprite" type="Sprite2D" parent="."]
+position = Vector2(474, 48)
+texture = ExtResource("34")
+centered = false

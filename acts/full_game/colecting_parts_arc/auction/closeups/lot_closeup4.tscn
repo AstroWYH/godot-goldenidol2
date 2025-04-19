@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=4 uid="uid://xtq1unh4xjtt"]
+
+[ext_resource type="Texture2D" uid="uid://d0566yqsuf176" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/idol.png" id="1"]
+
+[node name="LotCloseup" type="Panel"]
+offset_left = 305.0
+offset_top = 876.0
+offset_right = 764.0
+offset_bottom = 1339.0
+mouse_filter = 2
+
+[node name="Idol" type="Sprite2D" parent="."]
+position = Vector2(7, 6)
+texture = ExtResource("1")
+centered = false

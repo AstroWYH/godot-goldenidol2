@@ -1,0 +1,150 @@
+[gd_scene load_steps=31 format=4 uid="uid://l8v13bwnko0g"]
+
+[ext_resource type="Texture2D" uid="uid://yxmc4g44786m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cm7albsm6f4k3" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://btatin74cy2kk" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bn3u0lc70ncgf" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://csrvn8y7q7sjw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bpx5up8vqjtsw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cs7fxh16q2aub" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://0oxfpbr0sg2" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cmwq524r1dvhk" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://1wy1i3gxkgsa" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cy26q6h4scvug" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cvraxjh28sh15" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ckkj0bxxvj414" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://3vl15viv8h6" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://o45pvn8pqee1" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dk0shu5tpi47n" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://fg3bpao36ek4" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://epi5q4dfniud" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bh3m7qm3sauiw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://baixt6f6ouxyg" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://hx53m5kvx3e4" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dldiv1k3hg7a2" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dipqgondehuvk" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b2cgfwqyscd8n" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_023.png" id="24"]
+[ext_resource type="Material" uid="uid://s6yah842ep34" path="res://shared/assets/particle_materials/breath2.material" id="25"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bq7dd5x2oew4k" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/dogtag.png" id="27"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="28"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_05r10"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_mtfrj"]
+
+[node name="DogPanel" type="Panel"]
+offset_left = 1950.0
+offset_top = -323.0
+offset_right = 2580.0
+offset_bottom = 182.0
+mouse_filter = 2
+
+[node name="DogSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(430, 247)
+sprite_frames = SubResource("SpriteFrames_05r10")
+autoplay = "default"
+frame_progress = 0.014604900032281876
+
+[node name="dvasa7" type="GPUParticles2D" parent="DogSprite"]
+material = SubResource("CanvasItemMaterial_mtfrj")
+position = Vector2(-61, 94)
+scale = Vector2(0.5, 0.5)
+amount = 32
+process_material = ExtResource("25")
+texture = ExtResource("26")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.8399999737739563
+trail_lifetime = 0.5
+
+[node name="BadgeSprite" type="Sprite2D" parent="."]
+position = Vector2(157, 305)
+texture = ExtResource("27")
+
+[node name="BadgeSpot" parent="." instance=ExtResource("28")]
+layout_mode = 1
+offset_left = 89.0
+offset_top = 244.0
+offset_right = -405.0
+offset_bottom = -144.0
+hotspot_id = "vhO"
+text = "prison_dog_tag"

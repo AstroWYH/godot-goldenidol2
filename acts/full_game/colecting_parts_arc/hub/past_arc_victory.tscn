@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=4 uid="uid://y3vrlqkveavd"]
+
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/hub/back_button.gd" id="1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g3rld"]
+
+[node name="PastArcVictory" type="ColorRect"]
+custom_minimum_size = Vector2(1920, 1080)
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Intro" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 250.0
+offset_bottom = 291.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+text = "You have finished Chapter 2"
+horizontal_alignment = 1
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 302.0
+offset_bottom = 372.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+text = "The Pursuit"
+horizontal_alignment = 1
+
+[node name="Body" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 517.0
+offset_bottom = 558.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+text = "The story continues in the next chapter"
+horizontal_alignment = 1
+
+[node name="Title2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 574.0
+offset_bottom = 644.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 56
+text = "The Machine"
+horizontal_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 958.0
+offset_right = 261.0
+offset_bottom = 1058.0
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_g3rld")
+text = "Back"
+script = ExtResource("1")
+
+[connection signal="pressed" from="BackButton" to="BackButton" method="_on_pressed"]

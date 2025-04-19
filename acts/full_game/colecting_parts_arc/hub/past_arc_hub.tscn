@@ -1,0 +1,828 @@
+[gd_scene load_steps=114 format=4 uid="uid://ca8wcnofty383"]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cqvkstx1qcja6" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle_v3.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://tmdr16uq11n5" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_scroll_puzzle_c_phrases.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://ytqbjsm2sj7d" path="res://shared/ui/hub/hub.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://c5ge8b85esf76" path="res://shared/ui/hub/scenario_hub_screen.tscn" id="6"]
+[ext_resource type="Resource" uid="uid://4dkcirccns46" path="res://acts/full_game/colecting_parts_arc/retreat/retreat_scenario_meta.tres" id="7"]
+[ext_resource type="Texture2D" uid="uid://b4ij0h218bvhn" path="res://acts/full_game/colecting_parts_arc/hub/assets/tv_frame_4.png" id="8"]
+[ext_resource type="Resource" uid="uid://kr888mo2t6y" path="res://acts/full_game/colecting_parts_arc/jail/prison_scenario_meta.tres" id="9"]
+[ext_resource type="Texture2D" uid="uid://fr4xfagkjmjm" path="res://acts/full_game/colecting_parts_arc/hub/assets/tv_frame_1.png" id="10"]
+[ext_resource type="Resource" uid="uid://dxmacw87pkw50" path="res://acts/full_game/colecting_parts_arc/drivein/drive_in_scenario_meta.tres" id="11"]
+[ext_resource type="Texture2D" uid="uid://gumk8rf1j0qn" path="res://acts/full_game/colecting_parts_arc/hub/assets/tv_frame_2.png" id="12"]
+[ext_resource type="Resource" uid="uid://cwok63l32tb34" path="res://acts/full_game/colecting_parts_arc/auction/auction_scenario_meta.tres" id="13"]
+[ext_resource type="Texture2D" uid="uid://iwe2du82mt64" path="res://acts/full_game/colecting_parts_arc/hub/assets/tv_frame_3.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://4omgwqnrl775" path="res://acts/full_game/hubbackgrounds/assets/background_pursuit.png" id="15"]
+[ext_resource type="PackedScene" uid="uid://dhwm06foikq1l" path="res://shared/ui/hub/snippet_button.tscn" id="16"]
+[ext_resource type="Texture2D" uid="uid://c44jxbksbmlid" path="res://acts/full_game/colecting_parts_arc/hub/assets/book.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://c80yaa3qh3btq" path="res://acts/full_game/colecting_parts_arc/hub/assets/book_focus.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://m0l02jqo8viv" path="res://shared/ui/hub_highlight/hub_highlight_00000.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bl31ntifwal2n" path="res://shared/ui/hub_highlight/hub_highlight_00001.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://iaesg4xeftye" path="res://shared/ui/hub_highlight/hub_highlight_00002.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b4456oyxfel6t" path="res://shared/ui/hub_highlight/hub_highlight_00003.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cm8pb23ykpvwc" path="res://shared/ui/hub_highlight/hub_highlight_00004.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bjmrg6lagc4s5" path="res://shared/ui/hub_highlight/hub_highlight_00005.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cb8uanukx3fqc" path="res://shared/ui/hub_highlight/hub_highlight_00006.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cwspvhqijt0lm" path="res://shared/ui/hub_highlight/hub_highlight_00007.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://davnw8tw2kld6" path="res://shared/ui/hub_highlight/hub_highlight_00008.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b1evb1i5glb61" path="res://shared/ui/hub_highlight/hub_highlight_00009.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dh5f6oan32xvl" path="res://shared/ui/hub_highlight/hub_highlight_00010.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dulry6mop5bcd" path="res://shared/ui/hub_highlight/hub_highlight_00011.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dupx2fw6dddok" path="res://shared/ui/hub_highlight/hub_highlight_00012.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://b0m5gn1t4ik7a" path="res://shared/ui/hub_highlight/hub_highlight_00013.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://o1u1tfg7eutd" path="res://shared/ui/hub_highlight/hub_highlight_00014.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dx1irgv5tpxes" path="res://shared/ui/hub_highlight/hub_highlight_00015.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dtnesxy81ddei" path="res://shared/ui/hub_highlight/hub_highlight_00016.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://b2nsk18s4a2m" path="res://shared/ui/hub_highlight/hub_highlight_00017.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://co7rix1xs44bw" path="res://shared/ui/hub_highlight/hub_highlight_00018.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dhf2js7m2tca4" path="res://shared/ui/hub_highlight/hub_highlight_00019.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dqjfhmogercas" path="res://shared/ui/hub_highlight/hub_highlight_00020.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bok7pg3cm7wsg" path="res://shared/ui/hub_highlight/hub_highlight_00021.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://i0iupj5qfgl2" path="res://shared/ui/hub_highlight/hub_highlight_00022.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dfnuh8l5p8r86" path="res://shared/ui/hub_highlight/hub_highlight_00023.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://sce52yxwbvmy" path="res://shared/ui/hub_highlight/hub_highlight_00024.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://ekf1g8152cq2" path="res://shared/ui/hub_highlight/hub_highlight_00025.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://ojkoiifpufxb" path="res://shared/ui/hub_highlight/hub_highlight_00026.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://g3y5g13rv57p" path="res://shared/ui/hub_highlight/hub_highlight_00027.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bnejr6ta61i1d" path="res://shared/ui/hub_highlight/hub_highlight_00028.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bele48hx2eptk" path="res://shared/ui/hub_highlight/hub_highlight_00029.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://vdka56mi1dns" path="res://shared/ui/hub_highlight/hub_highlight_00030.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://ccs8k774h0al" path="res://shared/ui/hub_highlight/hub_highlight_00031.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://dupswmbspsssm" path="res://shared/ui/hub_highlight/hub_highlight_00032.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://cfs3l3063kman" path="res://shared/ui/hub_highlight/hub_highlight_00033.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://1b2iypx4gtvl" path="res://shared/ui/hub_highlight/hub_highlight_00034.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://c7rv2fex1ji0n" path="res://shared/ui/hub_highlight/hub_highlight_00035.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://cy5mtaftn0154" path="res://shared/ui/hub_highlight/hub_highlight_00036.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://brp55p7dakcj8" path="res://shared/ui/hub_highlight/hub_highlight_00037.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://f8isn7m76lil" path="res://shared/ui/hub_highlight/hub_highlight_00038.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dnxajcq8ryaeu" path="res://shared/ui/hub_highlight/hub_highlight_00039.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://1ml0hi8436te" path="res://shared/ui/hub_highlight/hub_highlight_00040.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://dsail58wlt8cj" path="res://shared/ui/hub_highlight/hub_highlight_00041.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://usmrif07q36n" path="res://shared/ui/hub_highlight/hub_highlight_00042.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://d1ejodou7o42r" path="res://shared/ui/hub_highlight/hub_highlight_00043.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://brfvi0nfek74y" path="res://shared/ui/hub_highlight/hub_highlight_00044.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://bmmwh8gamyaam" path="res://shared/ui/hub_highlight/hub_highlight_00045.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://b3k7rjfrqjnb6" path="res://shared/ui/hub_highlight/hub_highlight_00046.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cxc0uacia2knj" path="res://shared/ui/hub_highlight/hub_highlight_00047.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://crg5uavkiw18d" path="res://shared/ui/hub_highlight/hub_highlight_00048.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://b8gfomslbb2ps" path="res://shared/ui/hub_highlight/hub_highlight_00049.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bas4doi36r0bg" path="res://shared/ui/hub_highlight/hub_highlight_00050.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://dtusd4plbtg3" path="res://shared/ui/hub_highlight/hub_highlight_00051.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://b174dxlb6f26g" path="res://shared/ui/hub_highlight/hub_highlight_00052.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://wk7eexxyabx6" path="res://shared/ui/hub_highlight/hub_highlight_00053.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://cjwlerv1p2xfu" path="res://shared/ui/hub_highlight/hub_highlight_00054.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://cwrtc6i18ft30" path="res://shared/ui/hub_highlight/hub_highlight_00055.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://ctfvm8xj2y203" path="res://shared/ui/hub_highlight/hub_highlight_00056.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://cj8ju0c0eicgn" path="res://shared/ui/hub_highlight/hub_highlight_00057.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://btof8ikdvhgit" path="res://shared/ui/hub_highlight/hub_highlight_00058.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://dlb2usdvd7u0u" path="res://shared/ui/hub_highlight/hub_highlight_00059.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://bcx3isvtgdsie" path="res://shared/ui/hub_highlight/hub_highlight_00060.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://dlh6vyoxrkxxu" path="res://shared/ui/hub_highlight/hub_highlight_00061.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://cxyi0i28cec6" path="res://shared/ui/hub_highlight/hub_highlight_00062.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://8gqu5qu6mf81" path="res://shared/ui/hub_highlight/hub_highlight_00063.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://bc31c1igbn83i" path="res://shared/ui/hub_highlight/hub_highlight_00064.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://c1kj8uwav6u03" path="res://shared/ui/hub_highlight/hub_highlight_00065.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://c1uyr3prtceo0" path="res://shared/ui/hub_highlight/hub_highlight_00066.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://cm1thpvu2m0ma" path="res://shared/ui/hub_highlight/hub_highlight_00067.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://50q3yapijs2" path="res://shared/ui/hub_highlight/hub_highlight_00068.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://065x34tnp18b" path="res://shared/ui/hub_highlight/hub_highlight_00069.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://c4pk7sh5ll85j" path="res://shared/ui/hub_highlight/hub_highlight_00070.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bdnscnwygl0yx" path="res://shared/ui/hub_highlight/hub_highlight_00071.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://mdvbswn8t6hw" path="res://acts/full_game/colecting_parts_arc/hub/assets/newspaper.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://cqsou1j33vn5c" path="res://acts/full_game/colecting_parts_arc/hub/assets/newspaper_focus.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://citlmxo8p6agg" path="res://acts/full_game/colecting_parts_arc/hub/assets/casette.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://cvvo52iw3rcln" path="res://acts/full_game/colecting_parts_arc/hub/assets/casette_focus.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://bsrr3pomexjmq" path="res://acts/full_game/colecting_parts_arc/hub/assets/phone.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://6akvvpa0k164" path="res://acts/full_game/colecting_parts_arc/hub/assets/phone_focus.png" id="96"]
+[ext_resource type="PackedScene" uid="uid://d4f5qr1nnxf10" path="res://shared/ui/hub/victory_screen_button.tscn" id="97"]
+[ext_resource type="Texture2D" uid="uid://bk8ip1askftoc" path="res://acts/full_game/colecting_parts_arc/hub/assets/victoryretreat.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://bfrjk3c5wucks" path="res://acts/full_game/colecting_parts_arc/hub/assets/victoryretreat_focus.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://b6s4x1ea4luo" path="res://acts/full_game/colecting_parts_arc/hub/assets/victoryprison.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://coua0d3lom1ay" path="res://acts/full_game/colecting_parts_arc/hub/assets/victoryprison_focus.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://b5fk8edr6tuaa" path="res://acts/full_game/colecting_parts_arc/hub/assets/victorydrivein.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bcx8vud8vbsuy" path="res://acts/full_game/colecting_parts_arc/hub/assets/victorydrivein_focus.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://cvgbr6g8nr2pl" path="res://acts/full_game/colecting_parts_arc/hub/assets/victoryauction.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://bkvkrqge8twx2" path="res://acts/full_game/colecting_parts_arc/hub/assets/victoryauction_focus.png" id="105"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="106"]
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="107"]
+[ext_resource type="PackedScene" uid="uid://bkruwfe5piwok" path="res://shared/ui/hub/change_arc_button.tscn" id="108"]
+[ext_resource type="Resource" uid="uid://cct0dyqesuef0" path="res://acts/full_game/introductory_arc/introductory_arc_meta.tres" id="109"]
+[ext_resource type="Resource" uid="uid://batbrd70tgo1f" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub_meta.tres" id="110"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="111"]
+[ext_resource type="Texture2D" uid="uid://c4rwoqjegwn30" path="res://shared/assets/frames/frame_spech_black.png" id="112"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7ni86"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[node name="PastArcHub" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PastArcCharacterPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+visible = false
+offset_left = 9.0
+offset_top = 16.0
+offset_right = 988.0
+offset_bottom = 944.0
+
+[node name="PastArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+visible = false
+offset_left = 921.0
+offset_top = 29.0
+offset_right = 1896.0
+offset_bottom = 931.0
+
+[node name="Hub" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("4")]
+layout_mode = 1
+mouse_filter = 2
+thinking_layer = NodePath("../ThinkingLayer")
+arc_meta = ExtResource("5")
+metadata/_edit_lock_ = true
+
+[node name="RetreatScreen" parent="Hub" node_paths=PackedStringArray("label_node") instance=ExtResource("6")]
+layout_mode = 0
+offset_left = 1052.0
+offset_top = 506.0
+offset_right = 1494.0
+offset_bottom = 830.0
+focus_neighbor_left = NodePath("../../AuctionVictoryScreen")
+focus_neighbor_top = NodePath("../DriveinScreen")
+focus_neighbor_right = NodePath("../../RetreatVictoryScreen")
+stretch_mode = 2
+scenario_meta = ExtResource("7")
+available_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/retreat_animation_bw.tres"
+finished_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/retreat_animation_c.tres"
+sequence_element_id = "retreat_scenario"
+label_node = NodePath("../../ScenarioLabels/RetreatLabel")
+
+[node name="AnimatedSprite2D" parent="Hub/RetreatScreen" index="0"]
+position = Vector2(155, 165)
+
+[node name="FocusIndicator" parent="Hub/RetreatScreen" index="1"]
+offset_left = -15.0
+offset_top = -3.0
+offset_right = -15.0
+offset_bottom = -3.0
+texture = ExtResource("8")
+stretch_mode = 5
+
+[node name="PrisonScreen" parent="Hub" node_paths=PackedStringArray("label_node") instance=ExtResource("6")]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 138.0
+offset_right = 912.0
+offset_bottom = 462.0
+focus_neighbor_right = NodePath("../../PrisonVictoryScreen")
+focus_neighbor_bottom = NodePath("../AuctionScreen")
+stretch_mode = 2
+scenario_meta = ExtResource("9")
+available_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/prison_animation_bw.tres"
+finished_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/prison_animation_c.tres"
+sequence_element_id = "prison_scenario"
+label_node = NodePath("../../ScenarioLabels/PrisonLabel")
+
+[node name="AnimatedSprite2D" parent="Hub/PrisonScreen" index="0"]
+position = Vector2(204, 168)
+
+[node name="FocusIndicator" parent="Hub/PrisonScreen" index="1"]
+offset_left = -17.0
+offset_top = -10.0
+offset_right = -17.0
+offset_bottom = -10.0
+texture = ExtResource("10")
+stretch_mode = 5
+
+[node name="DriveinScreen" parent="Hub" node_paths=PackedStringArray("label_node") instance=ExtResource("6")]
+layout_mode = 0
+offset_left = 1042.0
+offset_top = 126.0
+offset_right = 1484.0
+offset_bottom = 450.0
+focus_neighbor_left = NodePath("../../PrisonVictoryScreen")
+focus_neighbor_right = NodePath("../../DriveInVictoryScreen")
+focus_neighbor_bottom = NodePath("../RetreatScreen")
+stretch_mode = 2
+scenario_meta = ExtResource("11")
+available_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/drivein_animation_bw.tres"
+finished_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/drivein_animation_c.tres"
+sequence_element_id = "drivein_scenario"
+label_node = NodePath("../../ScenarioLabels/DriveinLabel")
+
+[node name="FocusIndicator" parent="Hub/DriveinScreen" index="1"]
+offset_left = -14.0
+offset_top = -10.0
+offset_right = -14.0
+offset_bottom = -10.0
+texture = ExtResource("12")
+stretch_mode = 5
+
+[node name="AuctionScreen" parent="Hub" node_paths=PackedStringArray("label_node") instance=ExtResource("6")]
+layout_mode = 0
+offset_left = 507.0
+offset_top = 558.0
+offset_right = 949.0
+offset_bottom = 882.0
+focus_neighbor_top = NodePath("../PrisonScreen")
+focus_neighbor_right = NodePath("../../AuctionVictoryScreen")
+stretch_mode = 2
+scenario_meta = ExtResource("13")
+available_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/auction_animation_bw.tres"
+finished_animation_path = "res://acts/full_game/colecting_parts_arc/hub/assets/auction_animation_c.tres"
+sequence_element_id = "auction_scenario"
+label_node = NodePath("../../ScenarioLabels/AuctionLabel")
+
+[node name="AnimatedSprite2D" parent="Hub/AuctionScreen" index="0"]
+position = Vector2(261, 160)
+
+[node name="FocusIndicator" parent="Hub/AuctionScreen" index="1"]
+offset_left = -18.0
+offset_top = -8.0
+offset_right = -18.0
+offset_bottom = -5.0
+texture = ExtResource("14")
+stretch_mode = 5
+
+[node name="Background2" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+texture = ExtResource("15")
+
+[node name="EncyclopediaSnippetButton" parent="." instance=ExtResource("16")]
+layout_mode = 0
+offset_left = 284.0
+offset_top = 517.0
+offset_right = 503.0
+offset_bottom = 957.0
+scale = Vector2(1, 1)
+texture_normal = ExtResource("17")
+texture_hover = null
+texture_focused = ExtResource("18")
+snippet_path = "res://acts/full_game/colecting_parts_arc/hub/encyclopedia_snippet.tscn"
+scenario_meta = ExtResource("7")
+sequence_element_id = "encyclopedia_snippet"
+sound = 27
+id = 21
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="EncyclopediaSnippetButton"]
+position = Vector2(101, 62)
+sprite_frames = SubResource("SpriteFrames_7ni86")
+autoplay = "default"
+frame = 42
+
+[node name="NewspaperSnippetButton" parent="." instance=ExtResource("16")]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 57.0
+offset_right = 345.0
+offset_bottom = 503.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(75, 180)
+texture_normal = ExtResource("91")
+texture_hover = null
+texture_focused = ExtResource("92")
+snippet_path = "res://acts/full_game/colecting_parts_arc/hub/newspaper_snippet.tscn"
+scenario_meta = ExtResource("9")
+sequence_element_id = "newspaper_snippet"
+sound = 28
+id = 22
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="NewspaperSnippetButton"]
+position = Vector2(170, 30)
+sprite_frames = SubResource("SpriteFrames_7ni86")
+autoplay = "default"
+frame = 12
+
+[node name="InterviewSnippetButton" parent="." instance=ExtResource("16")]
+layout_mode = 0
+offset_left = 59.0
+offset_top = 767.0
+offset_right = 353.0
+offset_bottom = 989.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(85, 60)
+texture_normal = ExtResource("93")
+texture_hover = null
+texture_focused = ExtResource("94")
+snippet_path = "res://acts/full_game/colecting_parts_arc/hub/interview_snippet.tscn"
+scenario_meta = ExtResource("11")
+sequence_element_id = "interview_snippet"
+sound = 29
+id = 23
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="InterviewSnippetButton"]
+position = Vector2(50, 71)
+sprite_frames = SubResource("SpriteFrames_7ni86")
+autoplay = "default"
+frame = 32
+
+[node name="CallSnippetButton" parent="." instance=ExtResource("16")]
+layout_mode = 0
+offset_left = 1581.0
+offset_top = 690.0
+offset_right = 1906.0
+offset_bottom = 953.0
+scale = Vector2(1, 1)
+pivot_offset = Vector2(85, 60)
+focus_neighbor_top = NodePath("../RetreatVictoryScreen")
+texture_normal = ExtResource("95")
+texture_hover = null
+texture_focused = ExtResource("96")
+snippet_path = "res://acts/full_game/colecting_parts_arc/hub/call_snippet.tscn"
+scenario_meta = ExtResource("13")
+sequence_element_id = "arthur_call_snippet"
+sound = 30
+id = 24
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CallSnippetButton"]
+position = Vector2(105, 31)
+sprite_frames = SubResource("SpriteFrames_7ni86")
+autoplay = "default"
+frame = 3
+
+[node name="RetreatVictoryScreen" parent="." instance=ExtResource("97")]
+layout_mode = 0
+offset_left = 1383.0
+offset_top = 563.0
+offset_right = 1579.0
+offset_bottom = 785.0
+focus_neighbor_left = NodePath("../Hub/RetreatScreen")
+focus_neighbor_top = NodePath("../DriveInVictoryScreen")
+focus_neighbor_bottom = NodePath("../CallSnippetButton")
+texture_normal = ExtResource("98")
+texture_focused = ExtResource("99")
+scenario_meta = ExtResource("7")
+
+[node name="PrisonVictoryScreen" parent="." instance=ExtResource("97")]
+layout_mode = 0
+offset_left = 869.0
+offset_top = 168.0
+offset_right = 1069.0
+offset_bottom = 393.0
+focus_neighbor_left = NodePath("../Hub/PrisonScreen")
+focus_neighbor_right = NodePath("../Hub/DriveinScreen")
+focus_neighbor_bottom = NodePath("../AuctionVictoryScreen")
+texture_normal = ExtResource("100")
+texture_focused = ExtResource("101")
+scenario_meta = ExtResource("9")
+
+[node name="DriveInVictoryScreen" parent="." instance=ExtResource("97")]
+layout_mode = 0
+offset_left = 1376.0
+offset_top = 181.0
+offset_right = 1590.0
+offset_bottom = 421.0
+focus_neighbor_left = NodePath("../Hub/DriveinScreen")
+focus_neighbor_bottom = NodePath("../RetreatVictoryScreen")
+texture_normal = ExtResource("102")
+texture_focused = ExtResource("103")
+scenario_meta = ExtResource("11")
+
+[node name="AuctionVictoryScreen" parent="." instance=ExtResource("97")]
+layout_mode = 0
+offset_left = 895.0
+offset_top = 590.0
+offset_right = 1111.0
+offset_bottom = 829.0
+focus_neighbor_left = NodePath("../Hub/AuctionScreen")
+focus_neighbor_top = NodePath("../PrisonVictoryScreen")
+focus_neighbor_right = NodePath("../Hub/RetreatScreen")
+texture_normal = ExtResource("104")
+texture_focused = ExtResource("105")
+scenario_meta = ExtResource("13")
+
+[node name="BackButton2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 990.0
+offset_right = 260.0
+offset_bottom = 1071.0
+mouse_default_cursor_shape = 2
+theme = ExtResource("106")
+text = "BACK_BUTTON"
+text_overrun_behavior = 1
+script = ExtResource("107")
+target_screen_path = "res://shared/ui/hub_of_hubs/hub_of_hubs.tscn"
+
+[node name="PreviousChapter" parent="." instance=ExtResource("108")]
+custom_minimum_size = Vector2(300, 81)
+layout_mode = 0
+offset_left = 279.0
+offset_top = 990.0
+offset_right = 680.0
+offset_bottom = 1071.0
+mouse_default_cursor_shape = 2
+theme = ExtResource("106")
+text = "PREVIOUS_CHAPTER"
+arc_meta = ExtResource("109")
+
+[node name="NextChapter" parent="." instance=ExtResource("108")]
+custom_minimum_size = Vector2(400, 81)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -474.0
+offset_top = -90.0
+offset_right = -9.0
+offset_bottom = -9.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("106")
+text = "NEXT_CHAPTER"
+arc_meta = ExtResource("110")
+
+[node name="ScenarioLabels" type="Control" parent="."]
+z_index = 99
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="RetreatLabel" type="Label" parent="ScenarioLabels"]
+visible = false
+layout_mode = 0
+offset_left = 1107.0
+offset_top = 428.0
+offset_right = 1407.0
+offset_bottom = 486.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("111")
+theme_override_font_sizes/font_size = 32
+text = "retreat_scenario_title"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_group_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="ScenarioLabels/RetreatLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ScenarioLabels/RetreatLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("112")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="PrisonLabel" type="Label" parent="ScenarioLabels"]
+visible = false
+layout_mode = 0
+offset_left = 518.0
+offset_top = 43.0
+offset_right = 818.0
+offset_bottom = 101.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("111")
+theme_override_font_sizes/font_size = 32
+text = "prison_scenario_name"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_group_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="ScenarioLabels/PrisonLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ScenarioLabels/PrisonLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("112")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="DriveinLabel" type="Label" parent="ScenarioLabels"]
+visible = false
+layout_mode = 0
+offset_left = 1121.0
+offset_top = 43.0
+offset_right = 1421.0
+offset_bottom = 101.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("111")
+theme_override_font_sizes/font_size = 32
+text = "cinema_scenario_title"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_group_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="ScenarioLabels/DriveinLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ScenarioLabels/DriveinLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("112")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="AuctionLabel" type="Label" parent="ScenarioLabels"]
+visible = false
+layout_mode = 0
+offset_left = 544.0
+offset_top = 475.0
+offset_right = 844.0
+offset_bottom = 533.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("111")
+theme_override_font_sizes/font_size = 32
+text = "auction_scenario_title"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_group_ = true
+
+[node name="MarginContainer" type="MarginContainer" parent="ScenarioLabels/AuctionLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ScenarioLabels/AuctionLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("112")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[connection signal="pressed" from="BackButton2" to="BackButton2" method="_on_pressed"]
+
+[editable path="Hub/RetreatScreen"]
+[editable path="Hub/PrisonScreen"]
+[editable path="Hub/DriveinScreen"]
+[editable path="Hub/AuctionScreen"]

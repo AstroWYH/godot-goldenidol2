@@ -1,0 +1,145 @@
+GDRE Tools v0.9.0-beta.4
+Windows 10.0.26100, NVIDIA GeForce RTX 4090, opengl3
+Opening file: C:/nightgamer/games/goldenidol/The.Rise.of.the.Golden.Idol-GoldBerg/The.Rise.of.the.Golden.Idol-GoldBerg/game.exe
+WARNING: EXE does not have an embedded pck, not loading C:/nightgamer/games/goldenidol/The.Rise.of.the.Golden.Idol-GoldBerg/The.Rise.of.the.Golden.Idol-GoldBerg/game.exe
+   at: GDRESettings::load_project (modules\gdsdecomp\utility\gdre_settings.cpp:579)
+Opening file: C:/nightgamer/games/goldenidol/The.Rise.of.the.Golden.Idol-GoldBerg/The.Rise.of.the.Golden.Idol-GoldBerg/game.pck
+Verified 40526 files, no errors detected!
+Extracted 40526 files, no errors detected!
+WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:241)
+Script version 4.3.0-stable (rev 0x77af6ca) detected
+Recreating plugin configs...
+WARNING: Failed to recreate plugin.cfg for gi_tools
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:647)
+Exporting resources in parallel...
+WARNING: Reached EOS: Recorded page size is 51249 but body fill is 2939.
+   at: OggStrExporter::get_data_from_ogg_stream (modules\gdsdecomp\exporters\oggstr_exporter.cpp:62)
+WARNING: Ogg stream had warnings: res://.godot/imported/boardroom_camera_ambience.ogg-5bcb5d15d6077d8003672e6578e9fe25.oggvorbisstr
+   at: OggStrExporter::load_ogg_stream_data (modules\gdsdecomp\exporters\oggstr_exporter.cpp:123)
+WARNING: Reached EOS: Recorded page size is 31523 but body fill is 532.
+   at: OggStrExporter::get_data_from_ogg_stream (modules\gdsdecomp\exporters\oggstr_exporter.cpp:62)
+WARNING: Ogg stream had warnings: res://.godot/imported/finale_indoors_ambience.ogg-bbe5a4f36402fa85679462ff8597bd7f.oggvorbisstr
+   at: OggStrExporter::load_ogg_stream_data (modules\gdsdecomp\exporters\oggstr_exporter.cpp:123)
+WARNING: Reached EOS: Recorded page size is 26208 but body fill is 36.
+   at: OggStrExporter::get_data_from_ogg_stream (modules\gdsdecomp\exporters\oggstr_exporter.cpp:62)
+WARNING: Ogg stream had warnings: res://.godot/imported/retreat_interior_ambience.ogg-2c5678e7dd2efa93b5f2f127c69f8a75.oggvorbisstr
+   at: OggStrExporter::load_ogg_stream_data (modules\gdsdecomp\exporters\oggstr_exporter.cpp:123)
+WARNING: Reached EOS: Recorded page size is 56932 but body fill is 2315.
+   at: OggStrExporter::get_data_from_ogg_stream (modules\gdsdecomp\exporters\oggstr_exporter.cpp:62)
+WARNING: Ogg stream had warnings: res://.godot/imported/retreat_exterior_ambience.ogg-fc2295b961deed66b29faa41272c3bb6.oggvorbisstr
+   at: OggStrExporter::load_ogg_stream_data (modules\gdsdecomp\exporters\oggstr_exporter.cpp:123)
+Loading resource strings, this may take a while!!
+ERROR: res://acts/full_game/colecting_parts_arc/jail/puzzles/portrait_puzzle_v2.tres:1 - Parse Error: Empty file!
+   at: ResourceLoaderCompatText::_printerr (modules\gdsdecomp\compat\resource_compat_text.cpp:46)
+WARNING: Failed to load resource res://acts/full_game/colecting_parts_arc/jail/puzzles/portrait_puzzle_v2.tres
+   at: GDRESettings::_do_string_load (modules\gdsdecomp\utility\gdre_settings.cpp:1888)
+Resource strings loaded!
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     233
+Failed scripts:                         0
+Imported resources for export session:  19880
+Successfully converted:                 19880
+Lossy:                                  3
+Rewrote metadata:                       18766
+Non-importable conversions:             17
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+The following files were converted from an import that was stored lossy.
+You may lose fidelity when re-importing these files upon loading the project.
+res://.godot/imported/sewing_kit.jpg-23c5d791e4347fb0f1ade0ee27afe6eb.ctex to res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/sewing_kit.jpg
+res://.godot/imported/card.jpg-032c4d9164f675f0c28906c950fb9ab3.ctex to res://acts/full_game/reconstruction_arc/burning_man/assets/card.jpg
+res://.godot/imported/bookshelf_placeholder.jpg-e0f44970406da554829b16beff8edbc8.ctex to res://shared/assets/placeholder_templates/bookshelf_placeholder.jpg
+------
+
+The following plugins failed to have their plugin.cfg regenerated:
+gi_tools
+------
+
+The following files were converted and saved to a non-original path, but did not have their import data rewritten.
+These files will not be re-imported when loading the project.
+res://.godot/imported/icon.svg-fa8ceb2f2d08646b4275bf748704525f.ctex to res://.assets/shared/assets/icons/icon.png
+res://.godot/imported/colorgraylogo2.svg-a7ebd47258a0f671a879faed2ae5d8dc.ctex to res://.assets/shared/assets/logos/colorgraylogo2.png
+res://shared/translation/1-intro-arc.*.translation to res://.assets/shared/translation/1-intro-arc.csv
+res://shared/translation/10-30 backup/2-parts-arc.*.translation to res://.assets/shared/translation/10-30 backup/2-parts-arc.csv
+res://shared/translation/10-30 backup/3-machine-arc.*.translation to res://.assets/shared/translation/10-30 backup/3-machine-arc.csv
+res://shared/translation/10-30 backup/4-trials-arc.*.translation to res://.assets/shared/translation/10-30 backup/4-trials-arc.csv
+res://shared/translation/10-30 backup/5-conclusion-arc.*.translation to res://.assets/shared/translation/10-30 backup/5-conclusion-arc.csv
+res://shared/translation/11-08 backup/1-intro-arc.*.translation to res://.assets/shared/translation/11-08 backup/1-intro-arc.csv
+res://shared/translation/11-08 backup/2-parts-arc.*.translation to res://.assets/shared/translation/11-08 backup/2-parts-arc.csv
+res://shared/translation/11-08 backup/3-machine-arc.*.translation to res://.assets/shared/translation/11-08 backup/3-machine-arc.csv
+res://shared/translation/11-08 backup/4-trials-arc.*.translation to res://.assets/shared/translation/11-08 backup/4-trials-arc.csv
+res://shared/translation/11-08 backup/5-conclusion-arc.*.translation to res://.assets/shared/translation/11-08 backup/5-conclusion-arc.csv
+res://shared/translation/2-parts-arc.*.translation to res://.assets/shared/translation/2-parts-arc.csv
+res://shared/translation/3-machine-arc.*.translation to res://.assets/shared/translation/3-machine-arc.csv
+res://shared/translation/4-trials-arc.*.translation to res://.assets/shared/translation/4-trials-arc.csv
+res://shared/translation/5-conclusion-arc.*.translation to res://.assets/shared/translation/5-conclusion-arc.csv
+res://shared/translation/demo-translations.*.translation to res://.assets/shared/translation/demo-translations.csv
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Translation Export Incomplete:
+WARNING: Could not recover 241 keys for res://shared/translation/1-intro-arc.csv
+Saved 1-intro-arc.csv to res://.assets/shared/translation/1-intro-arc.csv
+WARNING: Could not recover 403 keys for res://shared/translation/10-30 backup/2-parts-arc.csv
+Saved 2-parts-arc.csv to res://.assets/shared/translation/10-30 backup/2-parts-arc.csv
+WARNING: Could not recover 235 keys for res://shared/translation/10-30 backup/3-machine-arc.csv
+Saved 3-machine-arc.csv to res://.assets/shared/translation/10-30 backup/3-machine-arc.csv
+WARNING: Could not recover 239 keys for res://shared/translation/10-30 backup/4-trials-arc.csv
+Saved 4-trials-arc.csv to res://.assets/shared/translation/10-30 backup/4-trials-arc.csv
+WARNING: Could not recover 395 keys for res://shared/translation/10-30 backup/5-conclusion-arc.csv
+Saved 5-conclusion-arc.csv to res://.assets/shared/translation/10-30 backup/5-conclusion-arc.csv
+WARNING: Could not recover 241 keys for res://shared/translation/11-08 backup/1-intro-arc.csv
+Saved 1-intro-arc.csv to res://.assets/shared/translation/11-08 backup/1-intro-arc.csv
+WARNING: Could not recover 407 keys for res://shared/translation/11-08 backup/2-parts-arc.csv
+Saved 2-parts-arc.csv to res://.assets/shared/translation/11-08 backup/2-parts-arc.csv
+WARNING: Could not recover 239 keys for res://shared/translation/11-08 backup/3-machine-arc.csv
+Saved 3-machine-arc.csv to res://.assets/shared/translation/11-08 backup/3-machine-arc.csv
+WARNING: Could not recover 241 keys for res://shared/translation/11-08 backup/4-trials-arc.csv
+Saved 4-trials-arc.csv to res://.assets/shared/translation/11-08 backup/4-trials-arc.csv
+WARNING: Could not recover 401 keys for res://shared/translation/11-08 backup/5-conclusion-arc.csv
+Saved 5-conclusion-arc.csv to res://.assets/shared/translation/11-08 backup/5-conclusion-arc.csv
+WARNING: Could not recover 3 keys for res://shared/translation/11-08 backup/general-translations.csv
+WARNING: Could not recover 407 keys for res://shared/translation/2-parts-arc.csv
+Saved 2-parts-arc.csv to res://.assets/shared/translation/2-parts-arc.csv
+WARNING: Could not recover 239 keys for res://shared/translation/3-machine-arc.csv
+Saved 3-machine-arc.csv to res://.assets/shared/translation/3-machine-arc.csv
+WARNING: Could not recover 241 keys for res://shared/translation/4-trials-arc.csv
+Saved 4-trials-arc.csv to res://.assets/shared/translation/4-trials-arc.csv
+WARNING: Could not recover 401 keys for res://shared/translation/5-conclusion-arc.csv
+Saved 5-conclusion-arc.csv to res://.assets/shared/translation/5-conclusion-arc.csv
+WARNING: Could not recover 2 keys for res://shared/translation/credits.csv
+WARNING: Could not recover 2 keys for res://shared/translation/demo-translations.csv
+Saved demo-translations.csv to res://.assets/shared/translation/demo-translations.csv
+WARNING: Could not recover 3 keys for res://shared/translation/general-translations.csv
+
+
+------
+Incomplete Plugin Export:
+The following addons failed to have their plugin.cfg regenerated
+You may encounter editor errors due to this.
+Tip: Try finding the plugin in the Godot Asset Library or Github.
+
+ - gi_tools
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.3.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************

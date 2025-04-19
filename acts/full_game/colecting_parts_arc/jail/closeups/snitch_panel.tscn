@@ -1,0 +1,237 @@
+[gd_scene load_steps=37 format=4 uid="uid://cx1mnij4f8d4c"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://y1mw6l84hot3" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bmw5wbdj6snmu" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b8sypxwmmhlik" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dfcjeoid6kkoj" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bixi5cvdhri0i" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://caa0ns2kw16uc" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bv0qp5imtsmao" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://rghjao8rr8bb" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dlsqg21r6h0po" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bh7oks1r8mj50" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dt7pl3y3bcsj7" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://m1a7xx0kub2d" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://x2rdgchpqwpp" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dfnfagn4goad4" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cml38a3b2ftpt" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://jskukaxqekjx" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ckr4pixwqg0n7" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://tjeebstjhvwd" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://yy7yad6ab1cx" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://tmjnrkkm6dsa" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://871c1hnfw5" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://048gyc18iunc" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="25"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="26"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="28"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="29"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hg8fq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}],
+"loop": true,
+"name": &"default",
+"speed": 18.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_mtfrj"]
+
+[sub_resource type="Gradient" id="Gradient_o4o8d"]
+offsets = PackedFloat32Array(0.0115741, 0.150463, 0.739496, 0.890756, 1)
+colors = PackedColorArray(0.913725, 0.976471, 0.945098, 0.137255, 0.945098, 0.937255, 0.929412, 0.027451, 0.657995, 0.857243, 0.811746, 0.0172509, 0.466667, 0.803922, 0.733333, 0, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_7ptqh"]
+gradient = SubResource("Gradient_o4o8d")
+
+[sub_resource type="Curve" id="Curve_rhdc1"]
+_data = [Vector2(0.0107991, 0.326316), 0.0, 1.949470043182373, 0, 0, Vector2(0.7473, 0.852632), -0.7995889782905579, -0.7995889782905579, 0, 0, Vector2(1, 0.526316), -1.8830100297927856, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_mu045"]
+curve = SubResource("Curve_rhdc1")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_gbx0h"]
+lifetime_randomness = 1.0
+particle_flag_disable_z = true
+angle_max = 360.0
+direction = Vector3(0.5, -1, 0)
+spread = 10.0
+initial_velocity_min = 900.0
+initial_velocity_max = 900.0
+angular_velocity_min = 100.0
+angular_velocity_max = 384.44000244140625
+gravity = Vector3(0, 0, 0)
+scale_min = 0.5
+scale_max = 2.0
+scale_curve = SubResource("CurveTexture_mu045")
+color_ramp = SubResource("GradientTexture1D_7ptqh")
+turbulence_enabled = true
+
+[node name="SnitchPanel" type="Panel"]
+offset_left = -1174.0
+offset_top = 1059.0
+offset_right = -424.0
+offset_bottom = 1577.0
+mouse_filter = 2
+
+[node name="SnitchSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 14.0
+offset_right = 560.0
+offset_bottom = 77.0
+theme = ExtResource("1")
+text = "prison_jimmy_speech"
+autowrap_mode = 3
+
+[node name="SnitchSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(226, 306)
+sprite_frames = SubResource("SpriteFrames_hg8fq")
+autoplay = "default"
+frame_progress = 0.9009870290756226
+
+[node name="dvasa7" type="GPUParticles2D" parent="SnitchSprite"]
+material = SubResource("CanvasItemMaterial_mtfrj")
+position = Vector2(39, 81.9999)
+scale = Vector2(0.5, 0.5)
+amount = 32
+process_material = SubResource("ParticleProcessMaterial_gbx0h")
+texture = ExtResource("24")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.8399999737739563
+trail_lifetime = 0.5
+
+[node name="NoteSprite" type="Sprite2D" parent="."]
+position = Vector2(629, 233)
+texture = ExtResource("25")
+
+[node name="BribeNoteSpot" parent="." instance=ExtResource("26")]
+layout_mode = 1
+offset_left = 543.0
+offset_top = 141.0
+offset_right = -27.0
+offset_bottom = -189.0
+hotspot_id = "fCx"
+
+[node name="BribeNotePanel" type="Panel" parent="BribeNoteSpot"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 431.0
+offset_right = 319.0
+offset_bottom = 857.0
+
+[node name="ClipboardSprite" type="TextureRect" parent="BribeNoteSpot/BribeNotePanel"]
+modulate = Color(0.698039, 0.607843, 0.564706, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 8.0
+offset_right = -11.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("27")
+stretch_mode = 1
+
+[node name="Sprite2D6" type="Sprite2D" parent="BribeNoteSpot/BribeNotePanel/ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(199.078, 250.486)
+rotation = 1.570039987564087
+scale = Vector2(0.828338, 0.828338)
+texture = ExtResource("28")
+region_enabled = true
+region_rect = Rect2(232.306, 4.84601, 367.356, 222.943)
+
+[node name="Sprite2D6" type="Sprite2D" parent="BribeNoteSpot/BribeNotePanel/ClipboardSprite/Sprite2D6"]
+position = Vector2(-127.445, 130.379)
+rotation = 3.142359972000122
+scale = Vector2(0.91322, 0.91322)
+texture = ExtResource("28")
+region_enabled = true
+region_rect = Rect2(210.822, 366.55, 383.994, 218.949)
+
+[node name="BribeNoteText" type="Label" parent="BribeNoteSpot/BribeNotePanel"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 18.0
+offset_right = 292.0
+offset_bottom = 401.0
+theme = ExtResource("29")
+theme_override_colors/font_color = Color(0.255058, 0.22817, 0.212019, 1)
+theme_override_font_sizes/font_size = 23
+text = "prison_jimmy_pocket_note"
+vertical_alignment = 1
+autowrap_mode = 2

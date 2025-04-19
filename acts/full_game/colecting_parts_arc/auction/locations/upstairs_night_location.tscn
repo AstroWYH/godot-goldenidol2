@@ -1,0 +1,148 @@
+[gd_scene load_steps=17 format=4 uid="uid://dytg3xd2ed03x"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://breqfce5lp18y" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_night_location.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://b73tak88tf1p6" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://da0lbogfiu4u5" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c4fdk2vori36i" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d31diq3qiwihq" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dq1ssekbiyyff" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://1symh7fvj4lx" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0005.png" id="8"]
+[ext_resource type="PackedScene" uid="uid://d06tdxdqhqjbd" path="res://shared/sfx/play_sound_when_visible.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://c7e763uxnd0iu" path="res://acts/full_game/colecting_parts_arc/auction/closeups/dead_man_closeup.tscn" id="11"]
+[ext_resource type="Resource" uid="uid://cq571j081b1ot" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_night_location.tres" id="12"]
+[ext_resource type="PackedScene" uid="uid://deujv0l80bbte" path="res://acts/full_game/colecting_parts_arc/auction/closeups/murderer_closeup.tscn" id="13"]
+[ext_resource type="PackedScene" uid="uid://bi8sn2nju110i" path="res://acts/full_game/colecting_parts_arc/auction/closeups/safe_closeup.tscn" id="14"]
+[ext_resource type="PackedScene" uid="uid://cb41nehuuvxx7" path="res://acts/full_game/colecting_parts_arc/auction/auction_time_travel_bar_upstairs.tscn" id="15"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n5kg0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(438, 549)
+sprite_frames = SubResource("SpriteFrames_n5kg0")
+autoplay = "default"
+frame_progress = 0.4849970042705536
+
+[node name="PlaySoundWhenVisible" parent="." instance=ExtResource("9")]
+sound = 36
+fade_out_time = 1.0
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DeadManSpot2" parent="Hotspots" instance=ExtResource("10")]
+layout_mode = 1
+offset_left = 216.0
+offset_top = 427.0
+offset_right = 375.0
+offset_bottom = 833.0
+hotspot_id = "tG5"
+
+[node name="DeadManCloseup" parent="Hotspots/DeadManSpot2" instance=ExtResource("11")]
+layout_mode = 0
+offset_left = -1602.0
+offset_top = -59.0
+offset_right = -1001.0
+offset_bottom = 393.0
+
+[node name="UpstairsSpot2" parent="Hotspots" instance=ExtResource("10")]
+layout_mode = 1
+offset_left = 6.0
+offset_top = 871.0
+offset_right = 1874.0
+offset_bottom = 1006.0
+hotspot_id = "Zih"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("12")
+transition = 4
+transition_sound = 17
+
+[node name="MurdererSpot2" parent="Hotspots" instance=ExtResource("10")]
+layout_mode = 1
+offset_left = 481.0
+offset_top = 516.0
+offset_right = 645.0
+offset_bottom = 817.0
+hotspot_id = "MYu"
+
+[node name="MurdererCloseup" parent="Hotspots/MurdererSpot2" instance=ExtResource("13")]
+layout_mode = 0
+offset_left = -1916.0
+offset_top = 487.0
+offset_right = -1278.0
+offset_bottom = 964.0
+
+[node name="TotemSpot" parent="Hotspots" instance=ExtResource("10")]
+layout_mode = 1
+offset_left = 1046.0
+offset_top = 800.0
+offset_right = 1090.0
+offset_bottom = 831.0
+hotspot_id = "_oJ"
+text = "auction_2night_totem_tooltip"
+unlocked_item_ref_id = 318
+
+[node name="SafeSpot2" parent="Hotspots" instance=ExtResource("10")]
+layout_mode = 1
+offset_left = 1502.0
+offset_top = 593.0
+offset_right = 1610.0
+offset_bottom = 797.0
+focus_neighbor_top = NodePath("../../TimeTravelBar/VBoxContainer/Night")
+focus_neighbor_right = NodePath("../../TimeTravelBar/VBoxContainer/Night")
+hotspot_id = "DDR"
+
+[node name="SafeCloseup" parent="Hotspots/SafeSpot2" instance=ExtResource("14")]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 157.0
+offset_right = 1381.0
+offset_bottom = 781.0
+
+[node name="TimeTravelBar" parent="." instance=ExtResource("15")]
+offset_left = 1900.0
+offset_top = 20.0
+offset_right = 1900.0
+offset_bottom = 20.0
+
+[node name="Day" parent="TimeTravelBar/VBoxContainer" index="0"]
+focus_neighbor_left = NodePath("../../../Hotspots/SafeSpot2")
+
+[node name="Night" parent="TimeTravelBar/VBoxContainer" index="1"]
+focus_neighbor_left = NodePath("../../../Hotspots/SafeSpot2")
+focus_neighbor_bottom = NodePath("../../../Hotspots/SafeSpot2")
+
+[editable path="TimeTravelBar"]

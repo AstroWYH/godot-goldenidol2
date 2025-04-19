@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=20 format=3 uid="uid://c5k4y6tooqhhe"]
+
+[ext_resource type="AudioStream" uid="uid://opsyg74j3bm0" path="res://shared/assets/sfx/ambiences/construction_yard_exterior_ambience.ogg" id="1"]
+[ext_resource type="Resource" uid="uid://cct0dyqesuef0" path="res://acts/full_game/introductory_arc/introductory_arc_meta.tres" id="2"]
+[ext_resource type="Resource" uid="uid://cbk8n6ngc16rf" path="res://shared/ui/hints/hint_library/1_curse/2_construction_yard_1.tres" id="3"]
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="3_47jns"]
+[ext_resource type="Resource" uid="uid://bh4vhbyy83icx" path="res://shared/ui/hints/hint_library/1_curse/2_construction_yard_2.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bh0xsktwo2h7g" path="res://acts/full_game/introductory_arc/construction_yard/locations/construction_yard_location_meta.tres" id="5"]
+[ext_resource type="AudioStream" uid="uid://qtemqy8shsbm" path="res://acts/full_game/introductory_arc/construction_yard/assets/music/construction_yard_loop.ogg" id="6"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="6_ea6vv"]
+[ext_resource type="AudioStream" uid="uid://5ipdajknvqnl" path="res://acts/full_game/introductory_arc/construction_yard/assets/music/construction_yard_intro.ogg" id="7"]
+[ext_resource type="Texture2D" uid="uid://4kwruv0ik0t4" path="res://shared/ui/hints/hint_illustrations/under_construction.png" id="8"]
+[ext_resource type="Resource" uid="uid://cjbiv837rsm1b" path="res://acts/full_game/introductory_arc/bridge/puzzles/bridge_scroll_meta.tres" id="9"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="10"]
+[ext_resource type="Resource" uid="uid://biinbwtd2uubg" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle.tres" id="11"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="11_rmhjh"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_segment_unlock.gd" id="12"]
+[ext_resource type="Resource" uid="uid://doc3v5yih8oq6" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_column2.tres" id="13"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="14_g8sb0"]
+
+[sub_resource type="Resource" id="Resource_pov8s"]
+script = ExtResource("12")
+puzzle_meta = ExtResource("11")
+segment_indices = Array[int]([0, 3, 4, 5, 6])
+
+[sub_resource type="Resource" id="Resource_oybs2"]
+script = ExtResource("12")
+puzzle_meta = ExtResource("13")
+segment_indices = Array[int]([0, 3, 4, 5, 6])
+
+[resource]
+script = ExtResource("10")
+arc = ExtResource("2")
+id = 13
+name = "CONSTRUCTION_SCENARIO_NAME"
+description = "CONSTRUCTION_SCENARIO_DESCRIPTION"
+path = "res://acts/full_game/introductory_arc/construction_yard/construction_yard_scenario.tscn"
+locations = Array[ExtResource("6_ea6vv")]([ExtResource("5")])
+required_puzzles = Array[ExtResource("11_rmhjh")]([ExtResource("9")])
+max_spots = 21
+phrases_name = 20
+phrases_object = 12
+phrases_action = 0
+phrases_special = 0
+phrases_numeral = 0
+phrases_local = 0
+victory_screen_text = "CONSTRUCTION_SCENARIO_VICTORY"
+victory_picture_path = "res://acts/full_game/introductory_arc/construction_yard/assets/victory_construction.png"
+custom_victory_dialog_path = ""
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = Array[ExtResource("12")]([SubResource("Resource_pov8s"), SubResource("Resource_oybs2")])
+victory_unlocks_arc_phrases = Array[ExtResource("14_g8sb0")]([])
+achievement_id = 3
+intermission_path_on_victory = ""
+intro_music = Array[AudioStream]([])
+loop_music = Array[AudioStream]([ExtResource("6"), ExtResource("7")])
+ambience = Array[AudioStream]([ExtResource("1")])
+escalation_layer_ids = Array[int]([])
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = Array[int]([1])
+sfx_transposition = 0
+picture = ExtResource("8")
+hint_meta_list = Array[ExtResource("3_47jns")]([ExtResource("3"), ExtResource("4")])
+no_inventory = false

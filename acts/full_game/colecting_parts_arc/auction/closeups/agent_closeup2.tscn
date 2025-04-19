@@ -1,0 +1,305 @@
+[gd_scene load_steps=57 format=4 uid="uid://dhnrtbby8ry3e"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://btxtsjtne8j5f" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cv0qvvuen4tyq" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b0nlbphjb81ap" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://m28jlbeskf2c" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://i4cr68d32gb2" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ct3qiee07g40m" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dj3euatj15drx" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://blc0377xnakb5" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://di0ndnfuu3fkw" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://buyc04ehh5178" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://lbger3mhj4g" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c7nbf5ddmgojd" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dlkn7q5k8u3mr" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dvur1qhgjq05y" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cjgtq0s6fu34j" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cahuburve5adp" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bjq2f65p67oea" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://gn4x5ldj5bwm" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b5ekhr7m7m7xk" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://sujk8rmq4kbg" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://o201c1wyxxwn" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dai31ganedn6e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://28si6h1x6etn" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cprrrhclsvqst" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bbwt5nsuye0lj" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://by8ubxl1h134k" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dhdusanlg7lo5" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://4nokmxbcqd5e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bqywdkd2rb5oa" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bad47stgnlwv1" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://42vvhkm0lxip" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dh4f6sibbah2l" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cr2h0nqo5qivr" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://t1d1hqxq521g" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cbjjudg407igr" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dupikl80caakd" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cjcyon4moperm" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cthfw116ugtv1" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dgjy2jhab17kp" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://b30hmxcy0lqmt" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dygad10a7rdvy" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://5ns1q8vxnppo" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://b4hlmj6uf0tb5" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://b13mr4g3mtjo3" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dhl87ndmi3i7x" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/notepad.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dneb5v7fceg1j" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/menu.png" id="47"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="48"]
+[ext_resource type="PackedScene" uid="uid://pk51fi2s7oir" path="res://acts/full_game/colecting_parts_arc/auction/closeups/menu_closeup.tscn" id="49"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="50"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="51"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="52"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_45jng"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_qhlj7"]
+script = ExtResource("50")
+linked_item_ref_id = 332
+
+[sub_resource type="Resource" id="Resource_jfmlq"]
+script = ExtResource("50")
+linked_item_ref_id = 333
+
+[sub_resource type="Resource" id="Resource_q4qqe"]
+script = ExtResource("50")
+linked_item_ref_id = 334
+
+[node name="AgentCloseup" type="Panel"]
+offset_right = 629.0
+offset_bottom = 473.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 16.0
+offset_right = 599.0
+offset_bottom = 97.0
+theme = ExtResource("1")
+text = "auction_1day_robbie_speech"
+autowrap_mode = 2
+
+[node name="Agent" type="AnimatedSprite2D" parent="."]
+position = Vector2(215, 282)
+sprite_frames = SubResource("SpriteFrames_45jng")
+autoplay = "default"
+frame_progress = 0.30569198727607727
+
+[node name="ClipBoard" type="Sprite2D" parent="."]
+position = Vector2(505, 372)
+scale = Vector2(0.721429, 0.721429)
+texture = ExtResource("46")
+
+[node name="Menu" type="Sprite2D" parent="."]
+position = Vector2(464, 177)
+scale = Vector2(0.721429, 0.721429)
+texture = ExtResource("47")
+
+[node name="MenuSpot2" parent="." instance=ExtResource("48")]
+layout_mode = 1
+offset_left = 386.0
+offset_top = 79.0
+offset_right = -102.0
+offset_bottom = -187.0
+hotspot_id = "K8X"
+
+[node name="Indicators" parent="MenuSpot2" index="0"]
+offset_left = -61.0
+offset_top = 109.0
+offset_right = -61.0
+offset_bottom = 109.0
+
+[node name="Highlighter" parent="MenuSpot2/Indicators" index="0"]
+modulate = Color(0.517647, 0.65098, 0.658824, 1)
+
+[node name="MenuCloseup" parent="MenuSpot2" instance=ExtResource("49")]
+layout_mode = 0
+offset_left = 369.0
+offset_top = -53.0
+offset_right = 890.0
+offset_bottom = 577.0
+
+[node name="ClipboardSpot2" parent="." instance=ExtResource("48")]
+layout_mode = 1
+offset_left = 437.0
+offset_top = 320.0
+offset_right = -30.0
+offset_bottom = -20.0
+hotspot_id = "nR9"
+extra_items_unlocked = [SubResource("Resource_qhlj7"), SubResource("Resource_jfmlq"), SubResource("Resource_q4qqe")]
+
+[node name="Highlighter" parent="ClipboardSpot2/Indicators" index="0"]
+modulate = Color(0.901961, 0.929412, 0.372549, 1)
+
+[node name="CuratorCloseup" type="Panel" parent="ClipboardSpot2"]
+layout_mode = 0
+offset_left = -353.0
+offset_top = 235.0
+offset_right = -37.0
+offset_bottom = 644.0
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="ClipboardSpot2/CuratorCloseup"]
+modulate = Color(0.901961, 0.92549, 0.372549, 1)
+layout_mode = 0
+offset_left = 9.0
+offset_top = 8.0
+offset_right = 308.0
+offset_bottom = 397.0
+texture = ExtResource("51")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="ClipboardSpot2/CuratorCloseup"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 72.0
+offset_right = 282.0
+offset_bottom = 388.0
+theme = ExtResource("52")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "auction_1day_robbie_notes"
+autowrap_mode = 3
+
+[editable path="MenuSpot2"]
+[editable path="ClipboardSpot2"]

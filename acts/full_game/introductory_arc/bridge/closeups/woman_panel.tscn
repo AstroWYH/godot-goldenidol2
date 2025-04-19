@@ -1,0 +1,308 @@
+[gd_scene load_steps=58 format=4 uid="uid://tdno4rgudmb4"]
+
+[ext_resource type="Texture2D" uid="uid://go2np03s5eg" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://3pw44pc66n6f" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dox5bowpqp5p3" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cqrq4bvj5wqew" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://byr25rvmivc53" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dx6r6noff18oj" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://lshsxjm5xm5y" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bo74ks1qyrdoq" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://drk4g1tebnjhl" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cb3iail0yvphd" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://qc3t0r0ehlmq" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cesou8w7jdqyc" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://4euxtehkqqna" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://btgbbetysie88" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cdh7ms0te2isq" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://t4s1rnm327o6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cwm73up3nhkdu" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d4duy2loab3jb" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://intypkbdsjh7" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bgthbxj4qlrfc" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://b8ottfaurh6vw" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c70ua8w4a28js" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dlxvi41uvk21y" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ciufy3tl4mh5r" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://1lhsmghekp0f" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://box53h66ew4wq" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cigei7arbv0nv" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c5s8f1834mxu0" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b4utvwegd64hf" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cos86dydky2gv" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://jjau3qml77kx" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://kn5uvm7q6wpe" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://rkb3o5dctlhj" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c44i6ogi4r6cb" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cd7lhcs5jgjs1" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://brxrnetq4mogu" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://be7u2vvn261ql" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://3bo1xyvjxq22" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bfxbcaimec8l6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cj7wko46dhbdu" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://4ttr1ke5h72o" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bntwl8ucvh7y2" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://c8ygcdv66b1wc" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cwohxjft5irnl" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://btv50mr48vwf2" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cjtw8jmgo1218" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bus6ofyk7xiao" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00046.png" id="47"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="48"]
+[ext_resource type="Texture2D" uid="uid://cy5wjvn5mb871" path="res://shared/assets/papers/A4_V1_ICO.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://r1i3i7owrhm8" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/ring.png" id="50"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="51"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="52"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="53"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="54"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ll05u"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_fyp6k"]
+script = ExtResource("52")
+linked_item_ref_id = 285
+
+[sub_resource type="Resource" id="Resource_qdnh7"]
+script = ExtResource("52")
+linked_item_ref_id = 166
+
+[node name="WomanPanel" type="Panel"]
+offset_left = -1006.0
+offset_top = 1007.0
+offset_right = -206.0
+offset_bottom = 1605.0
+
+[node name="Woman" type="AnimatedSprite2D" parent="."]
+position = Vector2(210, 318)
+sprite_frames = SubResource("SpriteFrames_ll05u")
+autoplay = "default"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 29.431699752807617
+offset_top = 32.53239822387695
+offset_right = 392.4320068359375
+offset_bottom = 97.53240203857422
+theme = ExtResource("48")
+text = "BRIDGE_DEBRA_SPEECH"
+
+[node name="LetterSprite" type="Sprite2D" parent="."]
+position = Vector2(622.384, 189.064)
+texture = ExtResource("49")
+
+[node name="RingSprite" type="Sprite2D" parent="."]
+position = Vector2(597.656, 405.281)
+texture = ExtResource("50")
+
+[node name="RingSpot" parent="." instance=ExtResource("51")]
+layout_mode = 1
+offset_left = 559.0
+offset_top = 341.0
+offset_right = -163.0
+offset_bottom = -160.0
+hotspot_id = "nd7"
+text = "BRIDGE_DEBRA_RING_TOOLTIP"
+unlocked_item_ref_id = 299
+
+[node name="Indicators" parent="RingSpot" index="0"]
+offset_top = 33.0
+offset_bottom = 33.0
+
+[node name="Highlighter" parent="RingSpot/Indicators" index="0"]
+modulate = Color(0.960784, 0.85098, 0.505882, 1)
+
+[node name="LetterSpot" parent="." instance=ExtResource("51")]
+layout_mode = 1
+offset_left = 575.0
+offset_top = 75.0
+offset_right = -127.0
+offset_bottom = -329.0
+hotspot_id = "SUB"
+extra_items_unlocked = [SubResource("Resource_fyp6k"), SubResource("Resource_qdnh7")]
+
+[node name="Indicators" parent="LetterSpot" index="0"]
+offset_left = -4.5
+offset_top = 41.0
+offset_right = -4.5
+offset_bottom = 41.0
+
+[node name="Highlighter" parent="LetterSpot/Indicators" index="0"]
+modulate = Color(0.796078, 0.639216, 0.462745, 1)
+
+[node name="ClipboardPanel" type="Panel" parent="LetterSpot"]
+layout_mode = 0
+offset_left = 282.0
+offset_top = -31.0
+offset_right = 688.0
+offset_bottom = 467.0
+
+[node name="Sprite2D" type="TextureRect" parent="LetterSpot/ClipboardPanel"]
+modulate = Color(0.752941, 0.592157, 0.415686, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 9.0
+offset_right = 395.0
+offset_bottom = 482.0
+texture = ExtResource("53")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Case numbers" type="Label" parent="LetterSpot/ClipboardPanel"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 28.000099182128906
+offset_right = 382.0
+offset_bottom = 454.0
+theme = ExtResource("54")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "BRIDGE_DEBRA_LETTER"
+autowrap_mode = 3
+
+[editable path="RingSpot"]
+[editable path="LetterSpot"]

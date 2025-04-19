@@ -1,0 +1,154 @@
+[gd_scene load_steps=33 format=4 uid="uid://d1iov1x5lfeh3"]
+
+[ext_resource type="Texture2D" uid="uid://i1oo6j35ucj4" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter1.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ceuuty8krn4mm" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter2.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://nmc6pr8764kd" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter3.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://clvlyv2mtbnp4" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter4.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bi2mtx7esvywm" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter5.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://30mfeyk02e18" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter6.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cs7asra53oufx" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter7.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bt88ryuy555js" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter8.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c3s2hvdpfi833" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter9.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bck4d4qj7oius" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter10.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bd3ya1lxo1kbx" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter11.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ce2sv5kq1154b" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter12.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cx361c7yisyt4" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter13.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b5fld11mya7vs" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter14.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cymk8p0mb2iwq" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter15.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dhfs62fvdco8q" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter16.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://8lntug5s63n3" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter17.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cwmgj1t6m82fd" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter18.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://die5r7c4drd3v" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter19.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b2rax60kk2bo7" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter20.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://6q2o3yiryny0" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter21.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dosxkp62ykk6q" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter22.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://befhfj8hkxodn" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter23.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dpp6a8g5bwru2" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter24.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dvsenjk5fkcwp" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter25.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bs1vxx6q6tl6q" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter26.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dcy3e44ldpval" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter27.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bn1gjgbccasq3" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter28.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://blhk8ynmscbcq" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter29.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dnwrdw7uw63mq" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter30.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bwtof"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="ReporterPanel" type="Panel"]
+offset_left = 819.0
+offset_top = 53.0
+offset_right = 1619.0
+offset_bottom = 603.0
+
+[node name="ReporterCloseupAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(44, 111)
+sprite_frames = SubResource("SpriteFrames_bwtof")
+autoplay = "default"
+frame_progress = 0.41423100233078003
+centered = false
+
+[node name="CharacterTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 374.0
+offset_top = 30.0
+offset_right = 770.0
+offset_bottom = 160.0
+theme = ExtResource("31")
+text = "CONSTRUCTION_MIRANDA_SPEECH"
+autowrap_mode = 3

@@ -1,0 +1,137 @@
+[gd_scene load_steps=16 format=4 uid="uid://dkifrcmtyoj02"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+[ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="3"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="Texture2D" uid="uid://chht31mwvh4x0" path="res://shared/ui/hints/hint_illustrations/newsflash.png" id="5"]
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/container_close_button/tutorial_puzzle_close_button.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://5k5be7mh0u60" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_tutorial_scroll_puzzle.tres" id="9"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="11"]
+
+[sub_resource type="Resource" id="Resource_wff0m"]
+script = ExtResource("4")
+linked_item_ref_id = 289
+
+[sub_resource type="Resource" id="Resource_vy6qy"]
+script = ExtResource("4")
+linked_item_ref_id = 594
+
+[sub_resource type="Resource" id="Resource_x4807"]
+script = ExtResource("4")
+linked_item_ref_id = 288
+
+[sub_resource type="Resource" id="Resource_a56nf"]
+script = ExtResource("4")
+linked_item_ref_id = 537
+
+[node name="TutorialPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_left = 401.0
+offset_top = 49.0
+offset_right = 1512.0
+offset_bottom = 931.0
+is_win_condition = true
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="Frame" index="1"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 40.0
+offset_right = 1081.0
+offset_bottom = 106.0
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 38
+text = "TUTORIAL_PUZZLE_HEADER_1"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Title2" type="Label" parent="Frame" index="2"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 490.0
+offset_right = 1081.0
+offset_bottom = 586.0
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 38
+text = "TUTORIAL_PUZZLE_HEADER_2"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Frame" index="3"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 583.0
+offset_right = 1088.0
+offset_bottom = 864.0
+color = Color(0, 0, 0, 0.137255)
+
+[node name="Phrases" parent="Frame" index="4" instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 982.0
+offset_top = 685.0
+offset_right = -129.0
+offset_bottom = -134.0
+color = Color(1, 0.74902, 0.811765, 0)
+phrases = [SubResource("Resource_wff0m"), SubResource("Resource_vy6qy"), SubResource("Resource_x4807"), SubResource("Resource_a56nf")]
+cell_size = Vector2(100, 30)
+
+[node name="TextureRect" type="TextureRect" parent="Frame" index="5"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 143.0
+offset_right = 772.0
+offset_bottom = 482.0
+texture = ExtResource("5")
+expand_mode = 1
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+visible = false
+script = ExtResource("6")
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 15.0
+offset_top = 536.0
+offset_right = -1242.0
+offset_bottom = -339.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("8")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 88.0
+offset_top = 91.0
+offset_right = 965.0
+offset_bottom = 266.0
+theme = ExtResource("2")
+puzzle_meta = ExtResource("9")
+text = "TUTORIAL_PUZZLE_CONTENT"
+phrase_grids = [NodePath("../../Frame/Phrases")]
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("10")]
+accepted_types = 2
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/1" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 594
+
+[node name="2" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("10")]
+accepted_types = 2
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/2" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 537

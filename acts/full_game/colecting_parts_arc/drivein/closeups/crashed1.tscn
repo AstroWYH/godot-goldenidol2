@@ -1,0 +1,244 @@
+[gd_scene load_steps=42 format=4 uid="uid://cqf7kqplbtf2a"]
+
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://d1wsp1djxlnyx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/figurine_v2.0.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dbp7lcfwpcmi3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dxp26uc8qjdtd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cnbdgt034l3e6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dr51q2kjodw3k" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cdtbnpleexcpk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ha2ebn8ok6ko" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dyvvma2coeebq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dqfqcp5h6p3vc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dyrnq7vk76tjv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cbhsmmrk8n3fx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://curwjdgbgmg3o" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://buqcdhagkyt4b" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bmqn8jf2sdof8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dntvqse48vnss" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d12dv8vtl0g6h" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://ca0pyotm5hj36" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://nupc2xrhf4ct" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cw41pe7pxc8sp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dlyoowjlywb6m" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://07bfma62gue8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://5trqk1wll22t" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c1qx38dc67nh0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://d0fuuyellibbg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bycof6h3ns5yq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://1rhvaub145cc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://c0vdbc4h5rvpp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://f86jc5me7wr0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://crrbp6iky0fwn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://l44fhejxfw34" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dyalex0q5otrw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bkjbwk3e3bkbn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://6ug8up2tvrke" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://deaioaqvwhhl2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cvqwn68o2pnwb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dxhwdkjqhmnia" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bde6h51qrrtyf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/tom_powers_2/Tom_Powers_00035.png" id="40"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qs7hw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = -686.0
+offset_top = 794.0
+offset_right = -57.0
+offset_bottom = 1295.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(419, 114)
+rotation = -0.1841229945421219
+texture = ExtResource("1")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "11"
+
+[node name="TicketSpot2" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 367.0
+offset_top = 65.0
+offset_right = -154.0
+offset_bottom = -354.0
+focus_neighbor_right = NodePath("../TicketSpot3")
+focus_neighbor_bottom = NodePath("../TicketSpot3")
+hotspot_id = "WFJ"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
+modulate = Color(0.752941, 0.564706, 0.294118, 1)
+position = Vector2(-11, -14)
+frame_progress = 0.019545000046491623
+
+[node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
+position = Vector2(-10, -10)
+
+[node name="TicketSpot3" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 379.0
+offset_top = 194.0
+offset_right = -44.0
+offset_bottom = -42.0
+focus_neighbor_left = NodePath("../TicketSpot2")
+focus_neighbor_top = NodePath("../TicketSpot2")
+hotspot_id = "hBu"
+text = "cinema_victim_figurine_tooltip"
+
+[node name="Highlighter" parent="TicketSpot3/Indicators" index="0"]
+modulate = Color(1, 0.239216, 0.239216, 1)
+position = Vector2(9, 13)
+frame_progress = 0.038561899214982986
+
+[node name="FocusIndicator" parent="TicketSpot3/Indicators" index="1"]
+position = Vector2(10, 17)
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(486, 326)
+rotation = -0.36585500836372375
+texture = ExtResource("4")
+
+[node name="TomSpot" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 18.0
+offset_top = 149.0
+offset_right = -284.0
+offset_bottom = -20.0
+hotspot_id = "Bzj"
+text = "cinema_victim_tooltip"
+
+[node name="Highlighter" parent="TomSpot/Indicators" index="0"]
+modulate = Color(0.435294, 0.65098, 0.219608, 1)
+frame_progress = 0.7619619965553284
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(189, 309)
+sprite_frames = SubResource("SpriteFrames_qs7hw")
+autoplay = "default"
+frame_progress = 0.21606899797916412
+
+[editable path="TicketSpot2"]
+[editable path="TicketSpot3"]
+[editable path="TomSpot"]

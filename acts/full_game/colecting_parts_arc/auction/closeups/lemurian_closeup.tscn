@@ -1,0 +1,368 @@
+[gd_scene load_steps=73 format=4 uid="uid://dut4e5n2ig2mw"]
+
+[ext_resource type="Texture2D" uid="uid://dymwjtd1ilvoj" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b2vu5ksym11k2" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cf8biy01wuurh" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bk87xjdt1p8qg" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cqvgqrwi3mo65" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b2aehreoofxw3" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://djwo4jf4v8ob" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://by6ril2tbciwx" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bhsafoywpac0o" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bvi644mdsimfp" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bjshcu8pdc32a" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c84f4fxg47tu0" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c3hajry0c1yvf" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ciebmfkq8mxou" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://xd01m18tgijs" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dldc6m0nhuuxt" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://241mp2yrkc88" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cmd4jkorx57wr" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b3ucj6hdaexet" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dg60vyccg5kpo" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bhog48yaqpofi" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ns6avwvmxma1" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://53ull4bi5ld7" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://d1lo135a0vyp8" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ik0ui4x0joye" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c2sywmr2lphg7" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://du7begoqafruh" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b4yjmtn3lnfg4" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c2nvu65mjkqsw" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d2gldvjl23sg1" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://ckadrdwn32c6u" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bsd8af8bxtk08" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dmjytmocbuei7" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://l6ass836u2oy" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c20eixqei3qtf" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dd2id4aijrh51" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bt0q5bbclunf4" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cwvopvjmxh27a" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bkcl5ymwq7h0f" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bkb7ld0ghd6a" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://brux8fu45fu8s" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://tlcp8oj0xuck" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://b7oapn3n05586" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bsm1plmkujg7b" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://c7033hkrkx5a2" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://j0qwwh4bv4v6" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://5gkd55t546bg" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bpder7yr28i2c" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://2jqv6gfisk5g" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://r27ah1hald8k" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bkfqlp1v4ifm7" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dg6g51pssh673" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://rb8m6e3k6jll" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bvh8bbc2vy14c" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00053.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://botmleogaglkl" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00054.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://f4bwndapwg2i" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00055.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bvasjcdmnuwks" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00056.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://cr1g13se204q8" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00057.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://crij7ljdotkjv" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00058.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://dhofphfxtblt5" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00059.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://cqu77wf0y2kcb" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00060.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bp8d03adjd118" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00061.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://7vlmsyxn011d" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00062.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://dvn2aqocvul84" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00063.png" id="64"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="65"]
+[ext_resource type="FontFile" uid="uid://brh7fd68mtonn" path="res://shared/assets/fonts/EastSeaDokdo-Regular.ttf" id="66"]
+[ext_resource type="Texture2D" uid="uid://dc5a0a7rjk127" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/money.png" id="67"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="68"]
+[ext_resource type="Texture2D" uid="uid://ddeyvop3dp3gx" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/tickett_small.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://cgwm0i2f2ckrc" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/tickett.png" id="70"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="71"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5pf87"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="LemurianCloseup" type="Panel"]
+offset_left = -242.0
+offset_top = 856.0
+offset_right = 592.0
+offset_bottom = 1431.0
+mouse_filter = 2
+
+[node name="Lemurian" type="AnimatedSprite2D" parent="."]
+position = Vector2(162, 371)
+sprite_frames = SubResource("SpriteFrames_5pf87")
+autoplay = "default"
+frame = 11
+frame_progress = 0.23322999477386475
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 27.0
+offset_right = 803.0
+offset_bottom = 170.0
+theme = ExtResource("65")
+theme_override_colors/font_color = Color(1, 0.647059, 0.839216, 1)
+theme_override_fonts/font = ExtResource("66")
+theme_override_font_sizes/font_size = 38
+text = "auction_1day_lemurian_speech"
+autowrap_mode = 2
+
+[node name="Money" type="Sprite2D" parent="."]
+position = Vector2(536.5, 300)
+texture = ExtResource("67")
+
+[node name="Money2" type="Sprite2D" parent="."]
+position = Vector2(526.5, 274)
+texture = ExtResource("67")
+
+[node name="MoneySpot2" parent="." instance=ExtResource("68")]
+layout_mode = 1
+offset_left = 423.0
+offset_top = 180.0
+offset_right = -188.0
+offset_bottom = -216.0
+hotspot_id = "Wof"
+text = "auction_1day_lemurian_money_tooltip"
+
+[node name="Highlighter" parent="MoneySpot2/Indicators" index="0"]
+modulate = Color(0.709804, 0.635294, 0.45098, 1)
+position = Vector2(-21, 1.25)
+
+[node name="FocusIndicator" parent="MoneySpot2/Indicators" index="1"]
+position = Vector2(-20, 5.25)
+
+[node name="Tickett" type="Sprite2D" parent="."]
+position = Vector2(706, 489)
+texture = ExtResource("69")
+
+[node name="TicketSpot" parent="." instance=ExtResource("68")]
+layout_mode = 1
+offset_left = 606.0
+offset_top = 395.0
+offset_right = -30.0
+offset_bottom = -45.0
+hotspot_id = "DKJ"
+unlocked_item_ref_id = 325
+
+[node name="Highlighter" parent="TicketSpot/Indicators" index="0"]
+modulate = Color(0.894118, 0.427451, 0.643137, 1)
+
+[node name="TickettCloseup" type="Panel" parent="TicketSpot"]
+layout_mode = 0
+offset_left = -239.0
+offset_top = 369.0
+offset_right = 204.0
+offset_bottom = 610.0
+mouse_filter = 2
+
+[node name="Tickett" type="Sprite2D" parent="TicketSpot/TickettCloseup"]
+position = Vector2(229, 124)
+texture = ExtResource("70")
+
+[node name="Label" type="Label" parent="TicketSpot/TickettCloseup"]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 61.0
+offset_right = 386.0
+offset_bottom = 171.0
+theme = ExtResource("71")
+theme_override_colors/font_color = Color(0.101961, 0, 0.0470588, 1)
+theme_override_font_sizes/font_size = 18
+text = "auction_1day_lemurian_ticket_body"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[editable path="MoneySpot2"]
+[editable path="TicketSpot"]

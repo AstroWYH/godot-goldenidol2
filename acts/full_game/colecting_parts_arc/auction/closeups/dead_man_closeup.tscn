@@ -1,0 +1,162 @@
+[gd_scene load_steps=13 format=4 uid="uid://c7e763uxnd0iu"]
+
+[ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cq6je3unxhe7e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dcd41bquvil7w" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/ledger.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c4jkac8bc5p7y" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/keys.png" id="5"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="6"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="7"]
+[ext_resource type="Resource" uid="uid://dg5rte7it83xe" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/Lots_puzzle_auction.tres" id="8"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="10"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="11"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_woe66"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="DeadManCloseup" type="Panel"]
+offset_left = -818.0
+offset_top = 53.0
+offset_right = -217.0
+offset_bottom = 505.0
+mouse_filter = 2
+
+[node name="Siluette" type="AnimatedSprite2D" parent="."]
+position = Vector2(188, 275)
+sprite_frames = SubResource("SpriteFrames_woe66")
+autoplay = "default"
+frame = 1
+frame_progress = 0.249890998005867
+
+[node name="Ledger" type="Sprite2D" parent="."]
+position = Vector2(450, 170)
+scale = Vector2(0.692308, 0.805556)
+texture = ExtResource("4")
+
+[node name="Keys2" type="Sprite2D" parent="."]
+position = Vector2(482, 335)
+scale = Vector2(0.491228, 0.48)
+texture = ExtResource("5")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 16.0
+offset_right = 576.0
+offset_bottom = 49.0
+theme = ExtResource("6")
+text = "auction_2night_person1_speech"
+autowrap_mode = 2
+
+[node name="KeySpot2" parent="." instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 413.0
+offset_top = 277.0
+offset_right = -42.0
+offset_bottom = -85.0
+hotspot_id = "63-"
+text = "ring_of_keys_tooltip"
+
+[node name="Indicators" parent="KeySpot2" index="0"]
+offset_left = 35.0
+offset_top = 11.0
+offset_right = 35.0
+offset_bottom = 11.0
+
+[node name="Highlighter" parent="KeySpot2/Indicators" index="0"]
+modulate = Color(0.419608, 0.576471, 0.533333, 1)
+position = Vector2(-36, -1)
+frame_progress = 0.18563200533390045
+
+[node name="FocusIndicator" parent="KeySpot2/Indicators" index="1"]
+position = Vector2(-35, 3)
+
+[node name="LedgerSpot2" parent="." instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 364.0
+offset_top = 62.0
+offset_right = -69.0
+offset_bottom = -199.0
+hotspot_id = "oKC"
+unlocked_puzzles = [ExtResource("8")]
+
+[node name="Indicators" parent="LedgerSpot2" index="0"]
+offset_left = 42.0
+offset_top = -17.0
+offset_right = 42.0
+offset_bottom = -17.0
+
+[node name="Highlighter" parent="LedgerSpot2/Indicators" index="0"]
+modulate = Color(0.192157, 0.568627, 0.380392, 1)
+position = Vector2(-6, 40)
+frame_progress = 0.3019610047340393
+
+[node name="FocusIndicator" parent="LedgerSpot2/Indicators" index="1"]
+position = Vector2(-5, 44)
+
+[node name="GunCloseup" type="Panel" parent="LedgerSpot2"]
+layout_mode = 0
+offset_left = -938.0
+offset_top = -34.0
+offset_right = -387.0
+offset_bottom = 352.0
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="LedgerSpot2/GunCloseup"]
+modulate = Color(0.831373, 0.768627, 0.627451, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = 540.0
+offset_bottom = 372.0
+texture = ExtResource("9")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="LedgerSpot2/GunCloseup/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(346, 90)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("10")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="LedgerSpot2/GunCloseup/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(30, 185)
+rotation = 4.7023701667785645
+scale = Vector2(0.807298, 1)
+texture = ExtResource("10")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Label2" type="Label" parent="LedgerSpot2/GunCloseup"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 18.0
+offset_right = 527.0
+offset_bottom = 352.0
+theme = ExtResource("11")
+theme_override_colors/font_color = Color(0.132813, 0.125, 0.203125, 1)
+theme_override_constants/line_spacing = 22
+text = "auction_2night_person1_ledger_body"
+vertical_alignment = 1
+
+[editable path="KeySpot2"]
+[editable path="LedgerSpot2"]

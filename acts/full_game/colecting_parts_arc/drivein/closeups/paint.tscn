@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=4 uid="uid://bga8kk64v14ka"]
+
+[ext_resource type="Texture2D" uid="uid://d3gal0h6x7yuc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/paint.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+
+[sub_resource type="Resource" id="Resource_whgmo"]
+script = ExtResource("3")
+linked_item_ref_id = 565
+
+[node name="Panel" type="Panel"]
+offset_left = -956.0
+offset_top = -993.0
+offset_right = -339.0
+offset_bottom = -441.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(311, 272)
+texture = ExtResource("1")
+
+[node name="PaintcanTextSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 124.0
+offset_top = 127.0
+offset_right = -252.0
+offset_bottom = -169.0
+focus_neighbor_right = NodePath("../WireCutterSpot")
+focus_neighbor_bottom = NodePath("../WireCutterSpot")
+hotspot_id = "n3c"
+text = "cinema_blue_paint_tooltip"
+unlocked_item_ref_id = 341
+extra_items_unlocked = [SubResource("Resource_whgmo")]
+
+[node name="Highlighter" parent="PaintcanTextSpot2/Indicators" index="0"]
+modulate = Color(0.433529, 0.742042, 0.747039, 1)
+position = Vector2(-11, -2.75)
+frame_progress = 0.0650240033864975
+
+[node name="FocusIndicator" parent="PaintcanTextSpot2/Indicators" index="1"]
+position = Vector2(-10, 1.25)
+
+[node name="WireCutterSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 336.0
+offset_top = 336.0
+offset_right = -49.0
+offset_bottom = -33.0
+focus_neighbor_left = NodePath("../PaintcanTextSpot2")
+focus_neighbor_top = NodePath("../PaintcanTextSpot2")
+hotspot_id = "g5i"
+text = "cinema_wire_cutters_tooltip"
+unlocked_item_ref_id = 23
+
+[node name="Highlighter" parent="WireCutterSpot/Indicators" index="0"]
+modulate = Color(0.426119, 0.719799, 0.296312, 1)
+position = Vector2(-4, 10)
+frame_progress = 0.8847799897193909
+
+[node name="FocusIndicator" parent="WireCutterSpot/Indicators" index="1"]
+position = Vector2(-3, 14)
+
+[editable path="PaintcanTextSpot2"]
+[editable path="WireCutterSpot"]

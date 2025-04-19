@@ -1,0 +1,648 @@
+[gd_scene load_steps=96 format=4 uid="uid://bpk8tpog00c0"]
+
+[ext_resource type="Texture2D" uid="uid://bbm8n8jpf4adi" path="res://shared/ui/misc/MessageMachine.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dgtpxk32xom0n" path="res://shared/ui/voice_message_light/message_light_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://kroymb2djtlx" path="res://shared/ui/voice_message_light/message_light_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dgs4dushhxi53" path="res://shared/ui/voice_message_light/message_light_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bb8kc6x3psc3t" path="res://shared/ui/voice_message_light/message_light_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bkeiykw4ojiwb" path="res://shared/ui/voice_message_light/message_light_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://blquokwerxxu2" path="res://shared/ui/voice_message_light/message_light_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://yfg83547skrh" path="res://shared/ui/voice_message_light/message_light_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b8nio0ef0m4ie" path="res://shared/ui/voice_message_light/message_light_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://01v0wy2bgumg" path="res://shared/ui/voice_message_light/message_light_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bxnaumu6nyul6" path="res://shared/ui/voice_message_light/message_light_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cu6hkqumc3oed" path="res://shared/ui/voice_message_light/message_light_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c08hsfolfph2v" path="res://shared/ui/voice_message_light/message_light_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cnxqloxpalibn" path="res://shared/ui/voice_message_light/message_light_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://chujuhm8rojjp" path="res://shared/ui/voice_message_light/message_light_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c7oxjki3tvt07" path="res://shared/ui/voice_message_light/message_light_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://c675wu8v01shm" path="res://shared/ui/voice_message_light/message_light_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d1p1vbi80lsiw" path="res://shared/ui/voice_message_light/message_light_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://ctsayh4lrcxsd" path="res://shared/ui/voice_message_light/message_light_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://w4ctyq6hfatp" path="res://shared/ui/voice_message_light/message_light_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://i2g2eoqkhbeb" path="res://shared/ui/voice_message_light/message_light_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://e7vno4um5orp" path="res://shared/ui/voice_message_light/message_light_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://vyhibar4ascx" path="res://shared/ui/voice_message_light/message_light_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cwieyw4j5hp2p" path="res://shared/ui/voice_message_light/message_light_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://du4r3rngw20e0" path="res://shared/ui/voice_message_light/message_light_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://30srldmbjm2" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/notebook.png" id="26"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="27"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="28"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="29"]
+[ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dxx1hu3kiksho" path="res://shared/ui/voice_message_anim/voice_message_anim_00002.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bagdqoge7p0mg" path="res://shared/ui/voice_message_anim/voice_message_anim_00003.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cni8bdk2v2j4e" path="res://shared/ui/voice_message_anim/voice_message_anim_00004.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://csyvilbdr1osj" path="res://shared/ui/voice_message_anim/voice_message_anim_00005.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dodocjbp64ccj" path="res://shared/ui/voice_message_anim/voice_message_anim_00006.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dv56jinvacc8v" path="res://shared/ui/voice_message_anim/voice_message_anim_00007.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bnfmqmgjecl44" path="res://shared/ui/voice_message_anim/voice_message_anim_00008.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ysc8dm0l5x7q" path="res://shared/ui/voice_message_anim/voice_message_anim_00009.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://rdu4of0uyl06" path="res://shared/ui/voice_message_anim/voice_message_anim_00010.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://ciptmlrrwk7m7" path="res://shared/ui/voice_message_anim/voice_message_anim_00011.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://727yia43tpex" path="res://shared/ui/voice_message_anim/voice_message_anim_00012.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://8f4ymq475sd" path="res://shared/ui/voice_message_anim/voice_message_anim_00013.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://b2e56yvd8vq5k" path="res://shared/ui/voice_message_anim/voice_message_anim_00014.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cxx6lqkyneq58" path="res://shared/ui/voice_message_anim/voice_message_anim_00015.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://d08vumfmdryvj" path="res://shared/ui/voice_message_anim/voice_message_anim_00016.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://0h458m2bi1xh" path="res://shared/ui/voice_message_anim/voice_message_anim_00017.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://pd2i3jp667h1" path="res://shared/ui/voice_message_anim/voice_message_anim_00018.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cjhad2w42mcvt" path="res://shared/ui/voice_message_anim/voice_message_anim_00019.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://lnc236l87fa7" path="res://shared/ui/voice_message_anim/voice_message_anim_00020.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dx5g2mekuk402" path="res://shared/ui/voice_message_anim/voice_message_anim_00021.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://felvb1ob8lw6" path="res://shared/ui/voice_message_anim/voice_message_anim_00022.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cjsms1luuom1f" path="res://shared/ui/voice_message_anim/voice_message_anim_00023.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://d1s0umr2npcui" path="res://shared/ui/voice_message_anim/voice_message_anim_00024.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bv6a3oomcqu21" path="res://shared/ui/voice_message_anim/voice_message_anim_00025.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bx0j6ra2wy8wl" path="res://shared/ui/voice_message_anim/voice_message_anim_00026.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://bvjpat2ioxos5" path="res://shared/ui/voice_message_anim/voice_message_anim_00027.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://d1cw6m5r6phe6" path="res://shared/ui/voice_message_anim/voice_message_anim_00028.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://clrdwo8nqwv6h" path="res://shared/ui/voice_message_anim/voice_message_anim_00029.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://i2fau01g21xj" path="res://shared/ui/voice_message_anim/voice_message_anim_00030.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://dtum55xtk5ops" path="res://shared/ui/voice_message_anim/voice_message_anim_00031.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://nwn7of6t26cf" path="res://shared/ui/voice_message_anim/voice_message_anim_00032.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://j0pdqtymxl8p" path="res://shared/ui/voice_message_anim/voice_message_anim_00033.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dssehcfpiash6" path="res://shared/ui/voice_message_anim/voice_message_anim_00034.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cvmtu1fto2rbv" path="res://shared/ui/voice_message_anim/voice_message_anim_00035.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://corvigpih3tkw" path="res://shared/ui/voice_message_anim/voice_message_anim_00036.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://dwa0jjdxvgovb" path="res://shared/ui/voice_message_anim/voice_message_anim_00037.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://dqf6heceyrpfa" path="res://shared/ui/voice_message_anim/voice_message_anim_00038.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://dxcmjq8wj6j4v" path="res://shared/ui/voice_message_anim/voice_message_anim_00039.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://baare5p1y33i2" path="res://shared/ui/voice_message_anim/voice_message_anim_00040.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://cjwy58chrsyb2" path="res://shared/ui/voice_message_anim/voice_message_anim_00041.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dnyeb1objeccs" path="res://shared/ui/voice_message_anim/voice_message_anim_00042.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://datnqqvo26x8a" path="res://shared/ui/voice_message_anim/voice_message_anim_00043.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://dsbls5oby71uv" path="res://shared/ui/voice_message_anim/voice_message_anim_00044.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://c86djkrtkwovx" path="res://shared/ui/voice_message_anim/voice_message_anim_00045.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://no6seixhlsun" path="res://shared/ui/voice_message_anim/voice_message_anim_00046.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://ccck5f5t31ig5" path="res://shared/ui/voice_message_anim/voice_message_anim_00047.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://behwt3kaydtbp" path="res://shared/ui/voice_message_anim/voice_message_anim_00048.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cshi3gwhswkit" path="res://shared/ui/voice_message_anim/voice_message_anim_00049.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://dkn63phkfq01e" path="res://shared/ui/voice_message_anim/voice_message_anim_00050.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://dp10jrd1aypd7" path="res://shared/ui/voice_message_anim/voice_message_anim_00051.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://b5hd177xm6sk6" path="res://shared/ui/voice_message_anim/voice_message_anim_00052.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://dv2hcr1nr8wiy" path="res://shared/ui/voice_message_anim/voice_message_anim_00053.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://2ajixuabbwd4" path="res://shared/ui/misc/message_tape.png" id="85"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nom6g"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="Resource" id="Resource_4f4js"]
+script = ExtResource("29")
+linked_item_ref_id = 545
+
+[sub_resource type="Resource" id="Resource_yy8r1"]
+script = ExtResource("29")
+linked_item_ref_id = 225
+
+[sub_resource type="Resource" id="Resource_llpkd"]
+script = ExtResource("29")
+linked_item_ref_id = 224
+
+[sub_resource type="Resource" id="Resource_y4ojp"]
+script = ExtResource("29")
+linked_item_ref_id = 546
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l8udh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_5l4y8"]
+script = ExtResource("29")
+linked_item_ref_id = 108
+
+[sub_resource type="Resource" id="Resource_gh6jv"]
+script = ExtResource("29")
+linked_item_ref_id = 231
+
+[sub_resource type="Resource" id="Resource_a5dud"]
+script = ExtResource("29")
+linked_item_ref_id = 109
+
+[sub_resource type="Resource" id="Resource_27k5u"]
+script = ExtResource("29")
+linked_item_ref_id = 110
+
+[node name="PhonePanel" type="Panel"]
+offset_left = -338.0
+offset_top = 326.0
+offset_right = 511.0
+offset_bottom = 842.0
+
+[node name="PhoneSprite" type="Sprite2D" parent="."]
+position = Vector2(286.529, 256)
+texture = ExtResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="PhoneSprite"]
+position = Vector2(-148.529, 142)
+sprite_frames = SubResource("SpriteFrames_nom6g")
+autoplay = "default"
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="PhoneSprite"]
+position = Vector2(-28.5293, 142)
+sprite_frames = SubResource("SpriteFrames_nom6g")
+autoplay = "default"
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="PhoneSprite"]
+position = Vector2(105.471, 142)
+sprite_frames = SubResource("SpriteFrames_nom6g")
+autoplay = "default"
+
+[node name="NotepadSprite" type="Sprite2D" parent="."]
+position = Vector2(669, 309)
+texture = ExtResource("26")
+
+[node name="NotepadLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 584.6409912109375
+offset_top = 195.02200317382813
+offset_right = 727.6409912109375
+offset_bottom = 391.0220031738281
+rotation = -0.20996299386024475
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.780392, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "retreat_note_body"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Message1Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 59.0
+offset_top = 61.0
+offset_right = 240.0
+offset_bottom = 104.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.172549, 0.435294, 0.670588, 1)
+text = "retreat_phone_message_title1"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Message2Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 270.0
+offset_top = 61.0
+offset_right = 443.0
+offset_bottom = 104.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.172549, 0.435294, 0.670588, 1)
+text = "retreat_phone_message_title2"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Message3Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 469.0
+offset_top = 61.0
+offset_right = 655.0
+offset_bottom = 104.0
+theme = ExtResource("27")
+theme_override_colors/font_color = Color(0.172549, 0.435294, 0.670588, 1)
+text = "retreat_phone_message_title3"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Message1Spot" parent="." instance=ExtResource("28")]
+layout_mode = 1
+offset_left = 95.0
+offset_top = 392.0
+offset_right = -679.0
+offset_bottom = -49.0
+hotspot_id = "bmt"
+unlocked_item_ref_id = 111
+extra_items_unlocked = [SubResource("Resource_4f4js"), SubResource("Resource_yy8r1"), SubResource("Resource_llpkd"), SubResource("Resource_y4ojp")]
+
+[node name="Message1Panel" type="Panel" parent="Message1Spot"]
+layout_mode = 0
+offset_left = -709.0
+offset_top = 200.0
+offset_right = -92.0
+offset_bottom = 883.0
+
+[node name="Message1ColorRect" type="TextureRect" parent="Message1Spot/Message1Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 13.0
+offset_top = 7.0
+offset_right = -10.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0016687499592080712
+texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Message1Text" type="RichTextLabel" parent="Message1Spot/Message1Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -259.5
+offset_top = -306.5
+offset_right = 259.5
+offset_bottom = 178.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("27")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 26
+bbcode_enabled = true
+text = "retreat_phone_message_body1"
+scroll_active = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Message1Spot/Message1Panel"]
+modulate = Color(0.53, 0.475145, 0.4081, 1)
+position = Vector2(308, 600)
+sprite_frames = SubResource("SpriteFrames_l8udh")
+autoplay = "default"
+frame_progress = 0.019673900678753853
+
+[node name="MessageTape" type="Sprite2D" parent="Message1Spot/Message1Panel"]
+position = Vector2(508, 604)
+scale = Vector2(0.675676, 0.675676)
+texture = ExtResource("85")
+
+[node name="Message2Spot" parent="." instance=ExtResource("28")]
+layout_mode = 1
+offset_left = 213.0
+offset_top = 388.0
+offset_right = -561.0
+offset_bottom = -53.0
+hotspot_id = "pFz"
+unlocked_item_ref_id = 107
+extra_items_unlocked = [SubResource("Resource_5l4y8"), SubResource("Resource_gh6jv")]
+
+[node name="Message2Panel" type="Panel" parent="Message2Spot"]
+layout_mode = 0
+offset_left = -142.0
+offset_top = 205.0
+offset_right = 475.0
+offset_bottom = 888.0
+
+[node name="Message2ColorRect" type="TextureRect" parent="Message2Spot/Message2Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = 7.0
+offset_right = -10.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0016687499592080712
+texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Message2Text" type="RichTextLabel" parent="Message2Spot/Message2Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -259.5
+offset_top = -306.5
+offset_right = 259.5
+offset_bottom = 184.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("27")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "retreat_phone_message_body2"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Message2Spot/Message2Panel"]
+modulate = Color(0.53, 0.475145, 0.4081, 1)
+position = Vector2(308, 600)
+sprite_frames = SubResource("SpriteFrames_l8udh")
+autoplay = "default"
+frame_progress = 0.28653499484062195
+
+[node name="MessageTape" type="Sprite2D" parent="Message2Spot/Message2Panel"]
+position = Vector2(508, 604)
+scale = Vector2(0.675676, 0.675676)
+texture = ExtResource("85")
+
+[node name="Message3Spot" parent="." instance=ExtResource("28")]
+layout_mode = 1
+offset_left = 348.0
+offset_top = 391.0
+offset_right = -426.0
+offset_bottom = -50.0
+hotspot_id = "uAQ"
+unlocked_item_ref_id = 113
+extra_items_unlocked = [SubResource("Resource_a5dud"), SubResource("Resource_27k5u")]
+
+[node name="Message3Panel" type="Panel" parent="Message3Spot"]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 201.0
+offset_right = 1042.0
+offset_bottom = 884.0
+
+[node name="Message3ColorRect" type="TextureRect" parent="Message3Spot/Message3Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = 7.0
+offset_right = -10.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0016687499592080712
+texture = ExtResource("30")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Message3Text" type="RichTextLabel" parent="Message3Spot/Message3Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -259.5
+offset_top = -306.5
+offset_right = 259.5
+offset_bottom = 185.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("27")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+bbcode_enabled = true
+text = "retreat_phone_message_body3"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Message3Spot/Message3Panel"]
+modulate = Color(0.53, 0.475145, 0.4081, 1)
+position = Vector2(308, 600)
+sprite_frames = SubResource("SpriteFrames_l8udh")
+autoplay = "default"
+frame_progress = 0.28653499484062195
+
+[node name="MessageTape" type="Sprite2D" parent="Message3Spot/Message3Panel"]
+position = Vector2(508, 604)
+scale = Vector2(0.675676, 0.675676)
+texture = ExtResource("85")

@@ -1,0 +1,68 @@
+[gd_scene load_steps=9 format=4 uid="uid://jwsfrrp8xbm4"]
+
+[ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cq6je3unxhe7e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0002.png" id="3"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://277s2ltf5r5f" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/money.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cpruerv03uilu" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/champagne.png" id="7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_55853"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="ProfessorCloseup" type="Panel"]
+offset_right = 631.0
+offset_bottom = 502.0
+mouse_filter = 2
+
+[node name="Siluette3" type="AnimatedSprite2D" parent="."]
+position = Vector2(196, 324)
+sprite_frames = SubResource("SpriteFrames_55853")
+autoplay = "default"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 21.0
+offset_right = 597.0
+offset_bottom = 92.0
+theme = ExtResource("4")
+text = "auction_1night_person3_speech"
+autowrap_mode = 2
+
+[node name="Spot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 424.0
+offset_top = 303.0
+offset_right = -57.0
+offset_bottom = -87.0
+hotspot_id = "uMT"
+text = "auction_1night_person3_money_tooltip"
+
+[node name="Highlighter" parent="Spot/Indicators" index="0"]
+modulate = Color(0.709804, 0.635294, 0.45098, 1)
+
+[node name="Money" type="Sprite2D" parent="Spot"]
+position = Vector2(85, 76)
+texture = ExtResource("6")
+
+[node name="Siluette2" type="Sprite2D" parent="."]
+position = Vector2(496, 170)
+texture = ExtResource("7")
+
+[editable path="Spot"]

@@ -1,0 +1,205 @@
+[gd_scene load_steps=8 format=4 uid="uid://c7xmmi03wtqu4"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="3"]
+[ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="4"]
+[ext_resource type="Resource" uid="uid://ck4uj534awa11" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_scroll_puzzle_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="7"]
+
+[node name="ScrollPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 837.0
+offset_bottom = 508.0
+is_win_condition = true
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 19.0
+offset_top = 27.0
+offset_right = -14.0
+offset_bottom = -26.0
+theme = ExtResource("4")
+puzzle_meta = ExtResource("5")
+text = "During the investigation, [id=1] [id=2] had [id=3] [id=4] [id=5]'s death to the [id=6] [id=7] [id=8].
+
+Before the press conference, [id=9] [id=10] visited [id=11] [id=12] and [id=13] a [id=14] [id=15].
+
+During the press conference, [id=16] [id=17] declared that [id=18] [id=19]'s death was a tragic [id=20]."
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("6")]
+accepted_types = 1
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/1" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 360
+
+[node name="2" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("6")]
+accepted_types = 1
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/2" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 361
+
+[node name="3" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("6")]
+accepted_types = 4
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/3" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 513
+
+[node name="4" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("6")]
+accepted_types = 1
+id = 4
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/4" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 279
+
+[node name="5" parent="PuzzleGroup/Puzzle" index="6" instance=ExtResource("6")]
+accepted_types = 1
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/5" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 280
+
+[node name="6" parent="PuzzleGroup/Puzzle" index="7" instance=ExtResource("6")]
+accepted_types = 2
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/6" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 499
+
+[node name="7" parent="PuzzleGroup/Puzzle" index="8" instance=ExtResource("6")]
+accepted_types = 2
+id = 7
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/7" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 500
+
+[node name="8" parent="PuzzleGroup/Puzzle" index="9" instance=ExtResource("6")]
+accepted_types = 2
+id = 8
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/8" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 501
+
+[node name="9" parent="PuzzleGroup/Puzzle" index="10" instance=ExtResource("6")]
+accepted_types = 1
+id = 9
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/9" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 490
+
+[node name="10" parent="PuzzleGroup/Puzzle" index="11" instance=ExtResource("6")]
+accepted_types = 1
+id = 10
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/10" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 280
+
+[node name="11" parent="PuzzleGroup/Puzzle" index="12" instance=ExtResource("6")]
+accepted_types = 1
+id = 11
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/11" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 173
+
+[node name="12" parent="PuzzleGroup/Puzzle" index="13" instance=ExtResource("6")]
+accepted_types = 1
+id = 12
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/12" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 174
+
+[node name="13" parent="PuzzleGroup/Puzzle" index="14" instance=ExtResource("6")]
+accepted_types = 4
+id = 13
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/13" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 514
+
+[node name="14" parent="PuzzleGroup/Puzzle" index="15" instance=ExtResource("6")]
+accepted_types = 2
+id = 14
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/14" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 502
+
+[node name="15" parent="PuzzleGroup/Puzzle" index="16" instance=ExtResource("6")]
+accepted_types = 2
+id = 15
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/15" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 503
+
+[node name="16" parent="PuzzleGroup/Puzzle" index="17" instance=ExtResource("6")]
+accepted_types = 1
+id = 16
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/16" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 173
+
+[node name="17" parent="PuzzleGroup/Puzzle" index="18" instance=ExtResource("6")]
+accepted_types = 1
+id = 17
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/17" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 174
+
+[node name="18" parent="PuzzleGroup/Puzzle" index="19" instance=ExtResource("6")]
+accepted_types = 1
+id = 18
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/18" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 279
+
+[node name="19" parent="PuzzleGroup/Puzzle" index="20" instance=ExtResource("6")]
+accepted_types = 1
+id = 19
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/19" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 280
+
+[node name="20" parent="PuzzleGroup/Puzzle" index="21" instance=ExtResource("6")]
+accepted_types = 2
+id = 20
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/20" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 505

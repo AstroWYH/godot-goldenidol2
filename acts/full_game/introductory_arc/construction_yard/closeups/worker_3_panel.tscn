@@ -1,0 +1,153 @@
+[gd_scene load_steps=33 format=4 uid="uid://budo4adgfg10r"]
+
+[ext_resource type="Texture2D" uid="uid://bui1qsmedbrkd" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ctpyn5jt3cfop" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://lf8ovjsgr4ni" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://delgheva8ymfe" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bpmn64mhqesdr" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d1sx5v627kia6" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b57jtdwcf4wle" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://drknjidef4ngi" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cb77ojwdo1g3l" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cryiojxn5rw02" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b2e06k80q5tqu" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c8h2wberfdp66" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dcilv4cwlc5sf" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://1ky4mclyj8lp" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bge2e8vtgmgpl" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b6agjsq7yuqbq" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://vgahfdkc7k87" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://6honblowu3ir" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://4rdthfquujoa" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://wci3ox5txx8r" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dyebng6hoem22" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b2y24yyo18uxp" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cxhuq5wu2tab2" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://csveiw4lcov6r" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://vfexd2ongjv3" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c8byel8fpn8ut" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://2qavw4ouyjvi" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bgxak6pfhd0ne" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dpavujxpthas1" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bswg3d32q0q58" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1xawx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Worker3Panel" type="Panel"]
+offset_left = -740.0
+offset_top = 740.5
+offset_right = 60.0
+offset_bottom = 1290.5
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(20, 131)
+sprite_frames = SubResource("SpriteFrames_1xawx")
+autoplay = "default"
+frame_progress = 0.5413309931755066
+centered = false
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 28.0
+offset_right = 641.0
+offset_bottom = 91.0
+theme = ExtResource("31")
+text = "CONSTRUCTION_TED_SPEECH"

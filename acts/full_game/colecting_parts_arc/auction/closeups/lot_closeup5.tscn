@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=4 uid="uid://cc1c8xhtkh3ca"]
+
+[ext_resource type="Texture2D" uid="uid://8lttch42ojm7" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/totem.png" id="1"]
+
+[node name="LotCloseup" type="Panel"]
+offset_left = 789.0
+offset_top = 759.0
+offset_right = 1252.0
+offset_bottom = 1225.0
+mouse_filter = 2
+
+[node name="Totem" type="Sprite2D" parent="."]
+position = Vector2(9, 7)
+texture = ExtResource("1")
+centered = false

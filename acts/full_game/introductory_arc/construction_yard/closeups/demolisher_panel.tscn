@@ -1,0 +1,117 @@
+[gd_scene load_steps=12 format=4 uid="uid://d1md2q1ix1uys"]
+
+[ext_resource type="Texture2D" uid="uid://dvjsieyvuh8by" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cabin02.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Resource" uid="uid://b7aabvkcd1ryj" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/construction_yard_vehicle_puzzle.tres" id="4"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://5j3oso8haq6f" path="res://shared/assets/papers/A4_V1.png" id="7"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
+
+[sub_resource type="Resource" id="Resource_mogcl"]
+script = ExtResource("3")
+linked_item_ref_id = 437
+
+[sub_resource type="Resource" id="Resource_63cem"]
+script = ExtResource("3")
+linked_item_ref_id = 436
+
+[sub_resource type="Resource" id="Resource_cjadj"]
+script = ExtResource("3")
+linked_item_ref_id = 438
+
+[node name="DemolisherPanel" type="Panel"]
+offset_left = -14.0
+offset_top = -1091.0
+offset_right = 552.0
+offset_bottom = -369.0
+
+[node name="PanelBackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(9, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="SafetySlipSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 444.0
+offset_top = 252.0
+offset_right = -32.0
+offset_bottom = -349.0
+hotspot_id = "xpK"
+extra_items_unlocked = [SubResource("Resource_mogcl"), SubResource("Resource_63cem"), SubResource("Resource_cjadj")]
+unlocked_puzzles = [ExtResource("4")]
+
+[node name="Indicators" parent="SafetySlipSpot" index="0"]
+offset_left = -2.0
+offset_top = 30.0
+offset_right = -2.0
+offset_bottom = 30.0
+
+[node name="Highlighter" parent="SafetySlipSpot/Indicators" index="0"]
+modulate = Color(0.745098, 0.615686, 0.454902, 1)
+
+[node name="SafetySlipCloseup" type="Panel" parent="SafetySlipSpot"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = -249.0
+offset_right = 647.0
+offset_bottom = 316.0
+
+[node name="Sprite2D" type="TextureRect" parent="SafetySlipSpot/SafetySlipCloseup"]
+modulate = Color(0.745098, 0.615686, 0.454902, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 9.0
+offset_right = 436.0
+offset_bottom = 549.0
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D2" type="Sprite2D" parent="SafetySlipSpot/SafetySlipCloseup"]
+modulate = Color(0.51, 0.2091, 0.254235, 0.533333)
+position = Vector2(196, 44)
+texture = ExtResource("6")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 70)
+
+[node name="Sprite2D2" type="Sprite2D" parent="SafetySlipSpot/SafetySlipCloseup/Sprite2D2"]
+position = Vector2(29, 473)
+rotation = -1.5707999467849731
+texture = ExtResource("6")
+region_enabled = true
+region_rect = Rect2(2, 81.5, 63.5, 101.5)
+
+[node name="A4V1" type="Sprite2D" parent="SafetySlipSpot/SafetySlipCloseup"]
+visible = false
+position = Vector2(225, 284)
+scale = Vector2(0.775281, 0.728246)
+texture = ExtResource("7")
+
+[node name="TitleLabel" type="RichTextLabel" parent="SafetySlipSpot/SafetySlipCloseup"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 50.0
+offset_right = 809.0
+offset_bottom = 126.0
+mouse_filter = 1
+theme = ExtResource("8")
+theme_override_colors/default_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "CONSTRUCTION_DEMOLISHER_NOTE_TITLE"
+scroll_active = false
+
+[node name="Label" type="Label" parent="SafetySlipSpot/SafetySlipCloseup"]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 108.0
+offset_right = 428.0
+offset_bottom = 536.0
+theme = ExtResource("8")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONSTRUCTION_DEMOLISHER_NOTE_BODY"
+autowrap_mode = 3
+
+[editable path="SafetySlipSpot"]

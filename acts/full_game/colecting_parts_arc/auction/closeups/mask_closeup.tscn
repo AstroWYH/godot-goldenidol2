@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=4 uid="uid://dw8f0p4gf0ysi"]
+
+[ext_resource type="Texture2D" uid="uid://dlsgc50i1msvi" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/mask.png" id="1"]
+
+[node name="Mask Closeup" type="Panel"]
+offset_left = 745.0
+offset_top = 649.0
+offset_right = 1072.0
+offset_bottom = 940.0
+mouse_filter = 2
+
+[node name="Mask" type="Sprite2D" parent="."]
+position = Vector2(164, 146)
+scale = Vector2(0.15332, 0.137207)
+texture = ExtResource("1")

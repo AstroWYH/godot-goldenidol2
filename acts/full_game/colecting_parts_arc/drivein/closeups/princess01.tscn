@@ -1,0 +1,281 @@
+[gd_scene load_steps=54 format=4 uid="uid://di1m3fv8owiaa"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://cp6n7rmynqb8g" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ben45jfap4sse" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ctfsufjkv07lv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://ej7uee1kygiw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dpi535aarbsdu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dwwkbgq3qt8m3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cwq66iv5385ce" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://chdmtohrtm140" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dfgdhhnplqado" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cu2sdswa0c40a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://n73lxm7qd0p5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://claxty2x6hdf2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://c05kg4h1hgmyk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bjsqgnwtmt1p4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://jbfftdibygvj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bki505dlghwxn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dieai1gf6lk6x" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://1m54i30h3gh7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c5midsumuvr7r" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b8hpasextfuak" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c7w0x1kevyei4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c3k7b5yup3t30" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://chppl38vbhomj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://d1gvacdd8thww" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bgdfe4ghy5cwo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bmans534x2yc4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://1rdmftuvoyl6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://doenvf7laigkq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dpgukajigunk4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://chs5va0x5f5md" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://h3hnxmohe4vw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dsr4pbmx6fcdk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://cexo3b544sr55" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://3digltjh3xab" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dlqr4lic64rks" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ddk3r0nyt0eul" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00035.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cpv6u5syr6x27" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00036.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b8trj7f05csh1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00037.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cjx0s6tggixxw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00038.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bj05vfmw8q7rb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00039.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cttst2ltyo2my" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00040.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dcqve3qjjgjfy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00041.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://cgmrnvttrxsv7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00042.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cksbmhyslknph" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00043.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dy27t6bdiictm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00044.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cvd165ywbfn6q" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00045.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://dapp1so27ec2s" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00046.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bfv3unbw4qh7e" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/beck_mason/Beck_Mason_00047.png" id="52"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qei8o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = -1059.0
+offset_top = 641.0
+offset_right = -471.0
+offset_bottom = 1129.0
+
+[node name="PassengerLabel" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 15.0
+offset_top = 256.0
+offset_right = 250.0
+offset_bottom = 435.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 7
+text = "Character Art:
+Beck Mason dressed as the
+film's heroine
+
+she is blackened at the 
+front from fire"
+uppercase = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 24.0
+offset_right = 385.0
+offset_bottom = 120.0
+theme = ExtResource("1")
+text = "cinema_beck_speech"
+autowrap_mode = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(129, 222)
+rotation = -0.11732599884271622
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "34"
+
+[node name="TickettSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 67.0
+offset_top = 167.0
+offset_right = -402.0
+offset_bottom = -231.0
+hotspot_id = "2QA"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TickettSpot/Indicators" index="0"]
+modulate = Color(0.752941, 0.568627, 0.298039, 1)
+position = Vector2(-6, -12)
+frame_progress = 0.632286012172699
+
+[node name="FocusIndicator" parent="TickettSpot/Indicators" index="1"]
+position = Vector2(-5, -8)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(391, 295)
+sprite_frames = SubResource("SpriteFrames_qei8o")
+autoplay = "default"
+frame = 5
+frame_progress = 0.17103900015354156
+
+[editable path="TickettSpot"]

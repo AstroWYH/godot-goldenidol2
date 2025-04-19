@@ -1,0 +1,129 @@
+[gd_scene load_steps=24 format=4 uid="uid://dex52et7d5lls"]
+
+[ext_resource type="Texture2D" uid="uid://mbaeyblnte5k" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cgyjl43sw68xx" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cw3rbmo38g8r7" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ssotrvj8vjbh" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bs7rsayyl0ehu" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bqi4wclpgmyd6" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dg46d2tuy2sl3" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d2l08b45y3ilu" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://d3xnyoe8r8yce" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dso3sdkhrdyet" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://casfhmvhs42gi" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://voq2tbogywtl" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bjcje34ewc3u4" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://o83dwvrcwip7" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cjljtr8rryr7" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bid5s4ia7qk5g" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ceof2x6lwcfp1" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cqjyo2lfhhymm" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_017.png" id="18"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="19"]
+[ext_resource type="FontFile" uid="uid://brh7fd68mtonn" path="res://shared/assets/fonts/EastSeaDokdo-Regular.ttf" id="20"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="21"]
+[ext_resource type="Texture2D" uid="uid://bt6bhwke0b85a" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/strap.png" id="22"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ol8jk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="InmatePanel" type="Panel"]
+offset_left = 172.0
+offset_top = 1305.0
+offset_right = 936.0
+offset_bottom = 1971.0
+
+[node name="InmateSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(258, 373)
+sprite_frames = SubResource("SpriteFrames_ol8jk")
+autoplay = "default"
+frame_progress = 0.3024410009384155
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 19.0
+offset_right = 758.0
+offset_bottom = 269.0
+theme = ExtResource("19")
+theme_override_colors/font_color = Color(1, 0.647059, 0.839216, 1)
+theme_override_fonts/font = ExtResource("20")
+theme_override_font_sizes/font_size = 46
+text = "ASYLUM_ORIEL_SPEECH"
+
+[node name="StrapSpot" parent="." instance=ExtResource("21")]
+layout_mode = 1
+offset_left = 511.0
+offset_top = 257.0
+offset_right = -27.0
+offset_bottom = -148.0
+hotspot_id = "AlP"
+text = "ASYLUM_ORIEL_STRAP_TOOLTIP"
+unlocked_item_ref_id = 175
+
+[node name="Highlighter" parent="StrapSpot/Indicators" index="0"]
+modulate = Color(0.698039, 0.619608, 0.588235, 1)
+
+[node name="Strap" type="Sprite2D" parent="StrapSpot"]
+position = Vector2(111, 161)
+texture = ExtResource("22")
+
+[editable path="StrapSpot"]

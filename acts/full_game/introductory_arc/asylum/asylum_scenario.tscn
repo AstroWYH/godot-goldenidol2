@@ -1,0 +1,416 @@
+[gd_scene load_steps=15 format=4]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://dkifrcmtyoj02" path="res://acts/full_game/introductory_arc/asylum/puzzles/first_puzzle_ever.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://hsejqb1anrib" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_portrait_puzzle_duplicate.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://bxbncdv68inv" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_scroll_puzzle_duplicate.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="5"]
+[ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="6"]
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/asylum/tutorial_manager.gd" id="7"]
+[ext_resource type="AudioStream" uid="uid://disu3ua8c5g66" path="res://acts/full_game/introductory_arc/asylum/assets/music/asylum_loop.ogg" id="8"]
+[ext_resource type="AudioStream" uid="uid://b76okgvfojrq8" path="res://shared/assets/sfx/ambiences/asylum_ambience.ogg" id="9"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="10"]
+[ext_resource type="Texture2D" uid="uid://d1j53fxo1b16j" path="res://shared/assets/frames/frame_spech_green.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cj7j2flv8587d" path="res://shared/assets/placeholder_ui/switch_closed_small.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cghfk07doufaq" path="res://shared/ui/Icons/ICO_0026_Words.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cwhfrr5x8pgp3" path="res://shared/ui/Icons/ICO_0027_Names.png" id="14"]
+
+[node name="AsylumScenario" type="Node2D"]
+
+[node name="BlockerLayer" type="CanvasLayer" parent="."]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="TutorialPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 443.0
+offset_top = 74.0
+offset_right = 1554.0
+offset_bottom = 956.0
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1295.0
+offset_top = 107.0
+offset_right = 1678.0
+offset_bottom = 434.0
+
+[node name="AsylumScrollDuplicate" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 1238.0
+offset_top = 517.0
+offset_right = 1728.0
+offset_bottom = 859.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("5")]
+scenario_meta = ExtResource("6")
+thinking_layer = NodePath("../ThinkingLayer")
+metadata/_edit_lock_ = true
+
+[node name="TutorialManager" type="CanvasLayer" parent="." node_paths=PackedStringArray("blocker_layer", "tutorial_puzzle", "thinking_layer", "scenario", "explore_quest_dialog", "explore_quest_prompt", "explore_quest_progress", "open_quest_dialog", "open_quest_prompt", "open_quest_progress", "organize_quest_dialog", "organize_quest_prompt", "organize_quest_indicator", "toggle_quest_dialog", "toggle_quest_prompt", "toggle_quest_indicator", "final_quest_dialog")]
+layer = 2
+script = ExtResource("7")
+blocker_layer = NodePath("../BlockerLayer")
+tutorial_puzzle = NodePath("../ThinkingLayer/TutorialPuzzle")
+thinking_layer = NodePath("../ThinkingLayer")
+music_layers = [ExtResource("8")]
+ambience_layers = [ExtResource("9")]
+scenario = NodePath("../Scenario")
+explore_quest_dialog = NodePath("VBoxContainer/ExploreEverything")
+explore_quest_prompt = NodePath("VBoxContainer/ExploreEverything/Content/Mission1")
+explore_quest_progress = NodePath("VBoxContainer/ExploreEverything/Content/HBoxContainer/CheckBox")
+open_quest_dialog = NodePath("VBoxContainer/OpenPuzzles")
+open_quest_prompt = NodePath("VBoxContainer/OpenPuzzles/Content/HBoxContainer")
+open_quest_progress = NodePath("VBoxContainer/OpenPuzzles/Content/HBoxContainer2/Label2")
+organize_quest_dialog = NodePath("VBoxContainer/MovePhrases")
+organize_quest_prompt = NodePath("VBoxContainer/MovePhrases/Content/HBoxContainer")
+organize_quest_indicator = NodePath("VBoxContainer/MovePhrases/Content/HBoxContainer2/Label2")
+toggle_quest_dialog = NodePath("VBoxContainer/SwitchoffAll")
+toggle_quest_prompt = NodePath("VBoxContainer/SwitchoffAll/Content/HBoxContainer")
+toggle_quest_indicator = NodePath("VBoxContainer/SwitchoffAll/Content/HBoxContainer2/Label2")
+final_quest_dialog = NodePath("VBoxContainer/GoodJob")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TutorialManager"]
+z_as_relative = false
+offset_left = 30.0
+offset_top = -146.0
+offset_right = 420.0
+offset_bottom = 1045.0
+mouse_filter = 2
+theme_override_constants/separation = 45
+alignment = 2
+
+[node name="GoodJob" type="MarginContainer" parent="TutorialManager/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Content" type="VBoxContainer" parent="TutorialManager/VBoxContainer/GoodJob"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/GoodJob/Content"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_QUEST_5"
+autowrap_mode = 2
+
+[node name="Background" type="MarginContainer" parent="TutorialManager/VBoxContainer/GoodJob"]
+show_behind_parent = true
+layout_mode = 2
+theme_override_constants/margin_left = -20
+theme_override_constants/margin_top = -20
+theme_override_constants/margin_right = -20
+theme_override_constants/margin_bottom = -20
+
+[node name="Prompt1" type="NinePatchRect" parent="TutorialManager/VBoxContainer/GoodJob/Background"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("11")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Control" type="Control" parent="TutorialManager/VBoxContainer/GoodJob/Background/Prompt1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SwitchoffAll" type="MarginContainer" parent="TutorialManager/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Content" type="VBoxContainer" parent="TutorialManager/VBoxContainer/SwitchoffAll"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TutorialManager/VBoxContainer/SwitchoffAll/Content"]
+layout_mode = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="TutorialManager/VBoxContainer/SwitchoffAll/Content/HBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+texture = ExtResource("12")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/SwitchoffAll/Content/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_PROMPT_4"
+autowrap_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="TutorialManager/VBoxContainer/SwitchoffAll/Content"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label2" type="Label" parent="TutorialManager/VBoxContainer/SwitchoffAll/Content/HBoxContainer2"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "0 / 4 "
+autowrap_mode = 2
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/SwitchoffAll/Content/HBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_QUEST_4"
+autowrap_mode = 2
+
+[node name="Background" type="MarginContainer" parent="TutorialManager/VBoxContainer/SwitchoffAll"]
+show_behind_parent = true
+layout_mode = 2
+theme_override_constants/margin_left = -20
+theme_override_constants/margin_top = -20
+theme_override_constants/margin_right = -20
+theme_override_constants/margin_bottom = -20
+
+[node name="Prompt1" type="NinePatchRect" parent="TutorialManager/VBoxContainer/SwitchoffAll/Background"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("11")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Control" type="Control" parent="TutorialManager/VBoxContainer/SwitchoffAll/Background/Prompt1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MovePhrases" type="MarginContainer" parent="TutorialManager/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Content" type="VBoxContainer" parent="TutorialManager/VBoxContainer/MovePhrases"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TutorialManager/VBoxContainer/MovePhrases/Content"]
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="TutorialManager/VBoxContainer/MovePhrases/Content/HBoxContainer"]
+clip_contents = true
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/MovePhrases/Content/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_PROMPT_3"
+autowrap_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="TutorialManager/VBoxContainer/MovePhrases/Content"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label2" type="Label" parent="TutorialManager/VBoxContainer/MovePhrases/Content/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "0 / 3 "
+autowrap_mode = 2
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/MovePhrases/Content/HBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_QUEST_3"
+autowrap_mode = 2
+
+[node name="Background" type="MarginContainer" parent="TutorialManager/VBoxContainer/MovePhrases"]
+show_behind_parent = true
+layout_mode = 2
+theme_override_constants/margin_left = -20
+theme_override_constants/margin_top = -20
+theme_override_constants/margin_right = -20
+theme_override_constants/margin_bottom = -20
+
+[node name="Prompt1" type="NinePatchRect" parent="TutorialManager/VBoxContainer/MovePhrases/Background"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("11")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Control" type="Control" parent="TutorialManager/VBoxContainer/MovePhrases/Background/Prompt1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="OpenPuzzles" type="MarginContainer" parent="TutorialManager/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Content" type="VBoxContainer" parent="TutorialManager/VBoxContainer/OpenPuzzles"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = -10
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect3" type="TextureRect" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+texture = ExtResource("14")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_PROMPT_2"
+autowrap_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label2" type="Label" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content/HBoxContainer2"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "0 / 2"
+autowrap_mode = 2
+
+[node name="Label3" type="Label" parent="TutorialManager/VBoxContainer/OpenPuzzles/Content/HBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_QUEST_2"
+autowrap_mode = 2
+
+[node name="Background" type="MarginContainer" parent="TutorialManager/VBoxContainer/OpenPuzzles"]
+show_behind_parent = true
+layout_mode = 2
+theme_override_constants/margin_left = -20
+theme_override_constants/margin_top = -20
+theme_override_constants/margin_right = -20
+theme_override_constants/margin_bottom = -20
+
+[node name="Prompt1" type="NinePatchRect" parent="TutorialManager/VBoxContainer/OpenPuzzles/Background"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("11")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Control" type="Control" parent="TutorialManager/VBoxContainer/OpenPuzzles/Background/Prompt1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ExploreEverything" type="MarginContainer" parent="TutorialManager/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Content" type="VBoxContainer" parent="TutorialManager/VBoxContainer/ExploreEverything"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 30
+
+[node name="Mission1" type="Label" parent="TutorialManager/VBoxContainer/ExploreEverything/Content"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_PROMPT_1"
+autowrap_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TutorialManager/VBoxContainer/ExploreEverything/Content"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="CheckBox" type="CheckBox" parent="TutorialManager/VBoxContainer/ExploreEverything/Content/HBoxContainer"]
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="TutorialManager/VBoxContainer/ExploreEverything/Content/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_colors/font_color = Color(0.855005, 0.72788, 0.305574, 1)
+text = "TUTORIAL_QUEST_1"
+autowrap_mode = 2
+
+[node name="Background" type="MarginContainer" parent="TutorialManager/VBoxContainer/ExploreEverything"]
+show_behind_parent = true
+layout_mode = 2
+theme_override_constants/margin_left = -20
+theme_override_constants/margin_top = -20
+theme_override_constants/margin_right = -20
+theme_override_constants/margin_bottom = -20
+
+[node name="Prompt1" type="NinePatchRect" parent="TutorialManager/VBoxContainer/ExploreEverything/Background"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("11")
+patch_margin_left = 8
+patch_margin_top = 8
+patch_margin_right = 8
+patch_margin_bottom = 8
+
+[node name="Control" type="Control" parent="TutorialManager/VBoxContainer/ExploreEverything/Background/Prompt1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

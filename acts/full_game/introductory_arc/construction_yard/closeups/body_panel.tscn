@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=4 uid="uid://ccy05sn5kc2gq"]
+
+[ext_resource type="Texture2D" uid="uid://be6mx7ndnaybo" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/truba.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bn823ga4pjbnh" path="res://acts/full_game/introductory_arc/construction_yard/closeups/victim_panel.tscn" id="3"]
+
+[node name="BodyPanel" type="Panel"]
+offset_left = -2240.0
+offset_top = -670.0
+offset_right = -1318.0
+offset_bottom = -51.0
+
+[node name="Body" type="Sprite2D" parent="."]
+position = Vector2(462.087, 304.923)
+texture = ExtResource("1")
+
+[node name="BodySpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 412.0
+offset_top = 318.0
+offset_right = -176.0
+offset_bottom = -112.0
+hotspot_id = "YW3"
+
+[node name="Indicators" parent="BodySpot" index="0"]
+offset_left = 40.50830078125
+offset_top = 82.26689910888672
+offset_right = 40.50830078125
+offset_bottom = 82.26689910888672
+
+[node name="Highlighter" parent="BodySpot/Indicators" index="0"]
+modulate = Color(0.0823529, 0.0784314, 0.0784314, 1)
+position = Vector2(0, -8)
+
+[node name="FocusIndicator" parent="BodySpot/Indicators" index="1"]
+position = Vector2(1, -4)
+
+[node name="VictimPanel" parent="BodySpot" instance=ExtResource("3")]
+layout_mode = 0
+offset_left = 879.0
+offset_top = 197.0
+offset_right = 1679.0
+offset_bottom = 747.0
+
+[editable path="BodySpot"]

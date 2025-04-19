@@ -1,0 +1,110 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=4 uid="uid://c6dshl8ek5n8u"]
+
+[ext_resource type="Texture2D" uid="uid://cabyjc4e7q8v1" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://tmo6cnn58480" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://brv0ulbwi36k0" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://1kd5lsvetng6" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://1bmn0b3i5gnb" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cwsxudkh477s0" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://k3u43gclhxqc" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c4u8n782r3qmo" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://clakhegkpww2n" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b1l0qh0muygtr" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dychbrmfekknk" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://drpi0ql8ojgsa" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bkeqd8mbmmwje" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b8e6hjj0u6geg" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://brqejflweo1wy" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://7v005lq7rhx0" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dhbjv8kqkysve" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cbwa67l84pyf5" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://42gqsl51oabo" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bup1brnvade7r" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://celq6dt0d4yw2" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ds6pmfgnkeqdw" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c4y626a6wwjpw" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dxm1nkdqdwlwc" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bnhmn1xrnek1b" path="res://acts/full_game/hubbackgrounds/assets/prisonc/colectingarc_024.png" id="25"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]

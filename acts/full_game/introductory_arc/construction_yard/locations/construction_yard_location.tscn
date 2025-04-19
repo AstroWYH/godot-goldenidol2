@@ -1,0 +1,1469 @@
+[gd_scene load_steps=282 format=4 uid="uid://d4ip8vue8ay3p"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://bh0xsktwo2h7g" path="res://acts/full_game/introductory_arc/construction_yard/locations/construction_yard_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://ccosiqns53ygg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bojwsjd6y5acu" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dha0njvkbxlgq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://nlo68qlhpes2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://d2qbyitfujdqh" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c1bou4tcn2gbm" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers6.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://xbd5aa2v11r6" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers7.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dxvccgusgx67c" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers8.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://3hajb7bn4sq7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers9.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://o5bosjlspyry" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers10.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ciyug8di7t1sw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers11.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://gmortjifhxr0" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers12.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://wyynscmts0gw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers13.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://clpmssw88i2lp" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers14.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bvxwmu3fsbmda" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers15.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://biq6gm2wjhmop" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers16.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b6y67t0iwawu8" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers17.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://ccjwqksjah10" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers18.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bk2uqkelhf0a1" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers19.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://sft4g1pwe7wv" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers20.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dqqbrrahmw32k" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers21.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bolett38mhr6i" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers22.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b7rcplxiou8jl" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers23.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cn7u4qf8x3m6e" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers24.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cjnaddnhfkaei" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy1.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b0iiurq2sus8t" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy2.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://houha57ug222" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy3.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b6vff2yykgm0v" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy4.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dndr45yrldsd6" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy5.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cigwpl4e6sng7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy6.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://g2jwkfkbhujg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy7.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://da4bmvua4tjmw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy8.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://q8j6kig1xxp" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy9.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dqp03ge6i5v2u" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy10.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dh7w8aqouk8a0" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy11.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cpogqd7ke3s1s" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy12.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://de3g0plbfarjl" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy13.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://0a5fiu6uo8s5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy14.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dsk5jh2cc2khe" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy15.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://clmi2brgnpl4v" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy16.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dnojbnk3hmvhy" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy17.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bt4dlma7r4emo" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy18.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cfq7pa2gt1fn2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy19.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://c3v6xxcu443do" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy20.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bthkklnawjkho" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy21.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bqogp1tqtt6lc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy22.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://b0xs1xm16p6rs" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy23.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://dk6c2t7wgy5vd" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy24.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bh6bq8gnasn4e" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy25.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://c7qeu6pkxolug" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy26.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cau4j131sgm6b" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy27.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bwhbttqu5d3oo" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/roy/roy28.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://ggw8eg14ts3i" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter1.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://tuolg0fy8rf4" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter2.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://dwmmxaagu02em" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter3.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://c6d7kdrsbbwhr" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter4.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://b0johv742ukao" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter5.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://csgesuhi6lntx" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter6.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://d4b0fktorr3vu" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter7.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://dcfuqr61yexue" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter8.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://b3yhpceq44laj" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter9.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://dcv4xotnntqdr" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter10.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dgu8gxwctumbm" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter11.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://b2dssdqis0br5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter12.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://dyaso50l6hwv8" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter13.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://blccnwd7g81bi" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter14.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://cmv30wq7bboxc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter15.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://caqv2cefwohx8" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter16.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://c3vgxfrg77nx7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter17.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://bsbwcuc440juf" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter18.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://d1oxym2wclifp" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter19.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://bx7j50m51cobn" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter20.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://dyqm5rfxunso4" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter21.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://c3umqqscr7dn3" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter22.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://etf6fa10sdx6" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter23.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://cedd13bouvtqy" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter24.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://butdxw0iqpexq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter25.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://bcr61m0dc42bg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter26.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://0r2kb0liyces" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter27.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://gsscsyn5000i" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter28.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://djs7ihcq7iqeb" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter29.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://cuhwlh1ip7fqj" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/reporter/reporter30.png" id="84"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="85"]
+[ext_resource type="PackedScene" uid="uid://budo4adgfg10r" path="res://acts/full_game/introductory_arc/construction_yard/closeups/worker_3_panel.tscn" id="86"]
+[ext_resource type="PackedScene" uid="uid://wejo61bga8pm" path="res://acts/full_game/introductory_arc/construction_yard/closeups/worker_2_panel.tscn" id="87"]
+[ext_resource type="PackedScene" uid="uid://ccy05sn5kc2gq" path="res://acts/full_game/introductory_arc/construction_yard/closeups/body_panel.tscn" id="88"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="89"]
+[ext_resource type="Texture2D" uid="uid://dm46t0qah3vgi" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective1.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://c1ftdyy56o86d" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective2.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://kkq7kelpo87l" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective3.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://54d7llc4xwj7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective4.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://dwarnficue33f" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective5.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://bi2fnfqi78mcc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective6.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://dwf1p2jo6kry0" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective7.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://dlmmxe2fcoggc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective8.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://c0u7c2dr2fma2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective9.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://bhx0wgw11hmsf" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective10.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://b36jcv2nxf44" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective11.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://boe2314mu15fm" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective12.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://60idlfhv6pxy" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective13.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://cjyss1vkoy6bv" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective14.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://bil6y8jc2ptcs" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective15.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://di1l48tmpeagk" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective16.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://dv277llhbkaef" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective17.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://ccgd18l4ha4jw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective18.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://d3tgxdmvnmjpc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective19.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://7137rqnj7nyj" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective20.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://ptb5rsfavlo2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective21.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://b6l1v74vy0ons" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective22.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://d0khauuo42wk1" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective23.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://bsomneo7wjicq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective24.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://20vq0nv0bek4" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective25.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://l53qnt8uyjv7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective26.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://dn5o2dly5mbkx" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective27.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://m6uttggrrupm" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective28.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://cw3u6r5f2u4ie" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective29.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://c4d55q8ygp43n" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective30.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://b073tlu6vei3g" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective31.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://dxr4mnqj5kom7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective32.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://3evpjd0jl2wx" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective33.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://dnlfsu3c5i3lm" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective34.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://jgira1i4db7g" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective35.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://doq8l0govf7pd" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective36.png" id="125"]
+[ext_resource type="PackedScene" uid="uid://bj3vc38kqgvx8" path="res://acts/full_game/introductory_arc/construction_yard/closeups/ian_panel.tscn" id="126"]
+[ext_resource type="PackedScene" uid="uid://n4naxvdf5c88" path="res://acts/full_game/introductory_arc/construction_yard/closeups/dead_bum_panel.tscn" id="127"]
+[ext_resource type="PackedScene" uid="uid://d2f3jyyi7a23f" path="res://acts/full_game/introductory_arc/construction_yard/closeups/excavator_panel.tscn" id="128"]
+[ext_resource type="PackedScene" uid="uid://d1md2q1ix1uys" path="res://acts/full_game/introductory_arc/construction_yard/closeups/demolisher_panel.tscn" id="129"]
+[ext_resource type="Texture2D" uid="uid://b7janxtytmn88" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball1.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://dipkuvfm7o7sp" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball2.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://xeixfv3pveje" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball3.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://bq0rv6o33c8o6" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball4.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://ciytc52qr7gs" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball5.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://cdihta2gp6t6t" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball6.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://d4fhqo5ixqbuj" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball7.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://drand8xnakudm" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball8.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://b6mnug50l4uct" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball9.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://dfjhjuvwpwwot" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball10.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://dot4tglfcu35x" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball11.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://6xpfabobbpig" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball12.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://bpxtlk0leqfuc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball13.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://db03xsejp23jn" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball14.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://duylblst20c2m" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball15.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://dqrc608vpmr13" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball16.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://c8dxfm3xi2d3k" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball17.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://lfmgcm3dfkyi" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball18.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://d2pm03n74ab63" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball19.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://v7gwdy6sj3mx" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball20.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://kf1e2tycheo0" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball21.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://cuxpa80nafsum" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball22.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://c8h5asyinrupc" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball23.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://byjuj3ai4in6w" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball24.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://hla8oavmkyrh" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball25.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://uwfpomxcxjrh" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball26.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://dih8egrd8rtxw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball27.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://ckw8pfm660e3p" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball28.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://b28v1wbb64ywr" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball29.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://dytfyxavaaf7h" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball30.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://dhcngmaocnhy8" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball31.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://cigd027u4cjx5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball32.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://ckcmwlkt7fyg7" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball33.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://dffyd0tc7ygcb" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball34.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://jxqsdoqvqnru" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball35.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://1truii0luxs4" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball36.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://uhh5lrcx4uf" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball37.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://th8qivvnnms5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball38.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://viahcc02omd2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball39.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://cbv8a7d0ff2ol" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball40.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://bci4yo7gvngkd" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball41.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://blp2ietqi3e" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball42.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://qmj4oudada4y" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball43.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://cg8tcl6rhw3iw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball44.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://dmp2sk2yc0nry" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball45.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://ddf2e22rkrvjt" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball46.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://b3a88rxc3whm6" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball47.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://d31srpld0i534" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ball/ball48.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://bfvmtknugdfx3" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police1.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://cowg7nqnvhwv1" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police2.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://ppajhbt8t2q5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police3.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://bd1ll3dl7yl4j" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police4.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://eh884omugon5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police5.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://wetc1q4t0w04" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police6.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://b1dn8k0g6n0q5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police7.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://bmet04n73w1br" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police8.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://c5iq3vgrgogav" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police9.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://c1tuxlx7rwsom" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police10.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://bsbcnmexescgu" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police11.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://dj85wdn75ps4t" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police12.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://uamqjy6yvui8" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police13.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://d31h45rwrorhy" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police14.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://btppsh7wgpxid" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police15.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://dg802n7vrrjub" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police16.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://dnsc0n5lp7j22" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police17.png" id="194"]
+[ext_resource type="Texture2D" uid="uid://4cmwfk5c5anj" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police18.png" id="195"]
+[ext_resource type="Texture2D" uid="uid://bmeahx1jvoq8u" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police19.png" id="196"]
+[ext_resource type="Texture2D" uid="uid://b2gsvd8xkeopb" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police20.png" id="197"]
+[ext_resource type="Texture2D" uid="uid://dqt2m82c12d77" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police21.png" id="198"]
+[ext_resource type="Texture2D" uid="uid://bio3y3uyhxweq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police22.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://ci0l61yhfhj2g" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police23.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://crmaehd6n6xhg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police24.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://c8wrcrox4e2tu" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police25.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://n1buo46rka71" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police26.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://cr40jti46uby0" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police27.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://mi5pkildc1xu" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police28.png" id="205"]
+[ext_resource type="Texture2D" uid="uid://byln58ov5s0yo" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police29.png" id="206"]
+[ext_resource type="Texture2D" uid="uid://fx4eghsdep37" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police30.png" id="207"]
+[ext_resource type="Texture2D" uid="uid://dju4dbiw87tv2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police31.png" id="208"]
+[ext_resource type="Texture2D" uid="uid://dvpyxww7o71y6" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police32.png" id="209"]
+[ext_resource type="Texture2D" uid="uid://boqrr1hfnvsba" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police33.png" id="210"]
+[ext_resource type="Texture2D" uid="uid://b5dw1fmclsvhw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police34.png" id="211"]
+[ext_resource type="Texture2D" uid="uid://cvl520h0qkp0l" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police35.png" id="212"]
+[ext_resource type="Texture2D" uid="uid://b0p446tr6jpru" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police1/police36.png" id="213"]
+[ext_resource type="PackedScene" uid="uid://dnfjc3ihjrtio" path="res://acts/full_game/introductory_arc/construction_yard/closeups/cutter_panel.tscn" id="214"]
+[ext_resource type="Texture2D" uid="uid://coqwa0p8vpmq5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police2.png" id="215"]
+[ext_resource type="Texture2D" uid="uid://c5hr3mckxvxxn" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police3.png" id="216"]
+[ext_resource type="Texture2D" uid="uid://h5nbmfgcf6ra" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police4.png" id="217"]
+[ext_resource type="Texture2D" uid="uid://cfiwbic5amk4g" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police5.png" id="218"]
+[ext_resource type="Texture2D" uid="uid://ddfkh60kkpa3y" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police6.png" id="219"]
+[ext_resource type="Texture2D" uid="uid://dmco7u2bp1aov" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police7.png" id="220"]
+[ext_resource type="Texture2D" uid="uid://e56hd2k3714n" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police8.png" id="221"]
+[ext_resource type="Texture2D" uid="uid://d2s1labsf02yg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police9.png" id="222"]
+[ext_resource type="Texture2D" uid="uid://j1pbp2swjb6g" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police10.png" id="223"]
+[ext_resource type="Texture2D" uid="uid://df52pjhjeum4f" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police11.png" id="224"]
+[ext_resource type="Texture2D" uid="uid://v2t3mfvpnsqi" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police12.png" id="225"]
+[ext_resource type="Texture2D" uid="uid://b24cg6jgqpxlp" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police13.png" id="226"]
+[ext_resource type="Texture2D" uid="uid://cuspoktvyyj37" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police14.png" id="227"]
+[ext_resource type="Texture2D" uid="uid://cfrscbtqtttaa" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police15.png" id="228"]
+[ext_resource type="Texture2D" uid="uid://qa2aidmd3yc8" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police16.png" id="229"]
+[ext_resource type="Texture2D" uid="uid://bu2ttopy62hah" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police17.png" id="230"]
+[ext_resource type="Texture2D" uid="uid://dftlrvlsqkxq2" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police18.png" id="231"]
+[ext_resource type="Texture2D" uid="uid://d0b2lqnsl8xan" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police19.png" id="232"]
+[ext_resource type="Texture2D" uid="uid://co1nlc43dbdef" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police20.png" id="233"]
+[ext_resource type="Texture2D" uid="uid://bsf6q8ln3wrqx" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police21.png" id="234"]
+[ext_resource type="Texture2D" uid="uid://c7gubf6htltk5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police22.png" id="235"]
+[ext_resource type="Texture2D" uid="uid://j50wkouf7nho" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police23.png" id="236"]
+[ext_resource type="Texture2D" uid="uid://dhpjgblr7pl1n" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police24.png" id="237"]
+[ext_resource type="Texture2D" uid="uid://bw41bllu7wljq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police25.png" id="238"]
+[ext_resource type="Texture2D" uid="uid://bee7koewrp3r0" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police26.png" id="239"]
+[ext_resource type="Texture2D" uid="uid://bslby2q8u82uf" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police27.png" id="240"]
+[ext_resource type="Texture2D" uid="uid://c1jqpq58ppib5" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police28.png" id="241"]
+[ext_resource type="Texture2D" uid="uid://tpjwlnh5oisf" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police29.png" id="242"]
+[ext_resource type="Texture2D" uid="uid://c6itxefs1gi6o" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police30.png" id="243"]
+[ext_resource type="Texture2D" uid="uid://xd5wum8vhoo1" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police31.png" id="244"]
+[ext_resource type="Texture2D" uid="uid://7jbn5vnwg8tx" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police32.png" id="245"]
+[ext_resource type="Texture2D" uid="uid://j1kp23asmfaw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police33.png" id="246"]
+[ext_resource type="Texture2D" uid="uid://bltuyfdise2ei" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police34.png" id="247"]
+[ext_resource type="Texture2D" uid="uid://cheag1wjefo3j" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police35.png" id="248"]
+[ext_resource type="Texture2D" uid="uid://uymtqgeeblgq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police36.png" id="249"]
+[ext_resource type="Texture2D" uid="uid://cpoqs56qnbd7h" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police37.png" id="250"]
+[ext_resource type="Texture2D" uid="uid://ck1875k6ujryv" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police38.png" id="251"]
+[ext_resource type="Texture2D" uid="uid://ib7jrds6xdut" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police39.png" id="252"]
+[ext_resource type="Texture2D" uid="uid://buyy1dlqqk54y" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police40.png" id="253"]
+[ext_resource type="Texture2D" uid="uid://b5t2nh1p2xl83" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police41.png" id="254"]
+[ext_resource type="Texture2D" uid="uid://bbfkdgor4c5ku" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police42.png" id="255"]
+[ext_resource type="Texture2D" uid="uid://cqkahaeej0r2c" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police43.png" id="256"]
+[ext_resource type="Texture2D" uid="uid://bh5xwjvq8rakg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police44.png" id="257"]
+[ext_resource type="Texture2D" uid="uid://d3ioav5hp2j03" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police45.png" id="258"]
+[ext_resource type="Texture2D" uid="uid://d136bjsqn8jjh" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police46.png" id="259"]
+[ext_resource type="Texture2D" uid="uid://brccemiephyer" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police47.png" id="260"]
+[ext_resource type="Texture2D" uid="uid://cii58fnglu2ni" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police48.png" id="261"]
+[ext_resource type="Texture2D" uid="uid://bfxftdqvgjytw" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/police2/police49.png" id="262"]
+[ext_resource type="PackedScene" uid="uid://ch7kd0hgu3flp" path="res://acts/full_game/introductory_arc/construction_yard/closeups/cabin_3_panel.tscn" id="263"]
+[ext_resource type="PackedScene" uid="uid://c7tmg0s52edtv" path="res://acts/full_game/introductory_arc/construction_yard/closeups/roy_panel.tscn" id="264"]
+[ext_resource type="PackedScene" uid="uid://d1iov1x5lfeh3" path="res://acts/full_game/introductory_arc/construction_yard/closeups/reporter_panel.tscn" id="265"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hrlus"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p1kbg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yjjfb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_8vchj"]
+script = ExtResource("89")
+linked_item_ref_id = 16
+
+[sub_resource type="Resource" id="Resource_04l21"]
+script = ExtResource("89")
+linked_item_ref_id = 366
+
+[sub_resource type="Resource" id="Resource_tbpuu"]
+script = ExtResource("89")
+linked_item_ref_id = 367
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yr3tr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h7x41"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i5xpt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tfkbn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="Resource" id="Resource_4bblj"]
+script = ExtResource("89")
+linked_item_ref_id = 365
+
+[sub_resource type="Resource" id="Resource_tyn01"]
+script = ExtResource("89")
+linked_item_ref_id = 360
+
+[sub_resource type="Resource" id="Resource_ctdiv"]
+script = ExtResource("89")
+linked_item_ref_id = 361
+
+[sub_resource type="Resource" id="Resource_bscfs"]
+script = ExtResource("89")
+linked_item_ref_id = 353
+
+[sub_resource type="Resource" id="Resource_bn0by"]
+script = ExtResource("89")
+linked_item_ref_id = 362
+
+[sub_resource type="Resource" id="Resource_df15t"]
+script = ExtResource("89")
+linked_item_ref_id = 363
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="TedAndMontyAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(182, 755.5)
+sprite_frames = SubResource("SpriteFrames_hrlus")
+autoplay = "default"
+frame_progress = 0.9255430102348328
+
+[node name="BillAndRoyAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(545, 899)
+sprite_frames = SubResource("SpriteFrames_p1kbg")
+autoplay = "default"
+frame_progress = 0.6479669809341431
+
+[node name="ReporterAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(1622, 836)
+sprite_frames = SubResource("SpriteFrames_yjjfb")
+autoplay = "default"
+frame_progress = 0.6627110242843628
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TedSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 57.0
+offset_top = 652.5
+offset_right = 120.0
+offset_bottom = 837.5
+focus_neighbor_bottom = NodePath("../BillSpot")
+hotspot_id = "u5K"
+unlocked_character_ref_id = 53
+unlocked_item_ref_id = 356
+
+[node name="Indicators" parent="Hotspots/TedSpot" index="0"]
+offset_left = -15.5
+offset_top = 118.0
+offset_right = -15.5
+offset_bottom = 118.0
+
+[node name="Highlighter" parent="Hotspots/TedSpot/Indicators" index="0"]
+modulate = Color(0.105882, 0.0745098, 0.054902, 1)
+
+[node name="Worker3Panel" parent="Hotspots/TedSpot" instance=ExtResource("86")]
+layout_mode = 0
+offset_left = -2091.0
+offset_top = 831.5
+offset_right = -1291.0
+offset_bottom = 1381.5
+
+[node name="MontySpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 207.0
+offset_top = 657.0
+offset_right = 246.0
+offset_bottom = 842.0
+focus_neighbor_bottom = NodePath("../BillSpot")
+hotspot_id = "-XB"
+unlocked_character_ref_id = 54
+unlocked_item_ref_id = 354
+
+[node name="Indicators" parent="Hotspots/MontySpot" index="0"]
+offset_left = -77.5
+offset_top = 122.0
+offset_right = -77.5
+offset_bottom = 122.0
+
+[node name="Highlighter" parent="Hotspots/MontySpot/Indicators" index="0"]
+modulate = Color(0.0862745, 0.0823529, 0.0784314, 1)
+position = Vector2(66, -31.5)
+
+[node name="FocusIndicator" parent="Hotspots/MontySpot/Indicators" index="1"]
+position = Vector2(65, -29)
+
+[node name="Worker2Panel" parent="Hotspots/MontySpot" instance=ExtResource("87")]
+layout_mode = 0
+offset_left = -1910.0
+offset_top = -1159.0
+offset_right = -1110.0
+offset_bottom = -609.0
+
+[node name="GregSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 299.0
+offset_top = 458.0
+offset_right = 416.0
+offset_bottom = 542.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "yI3"
+unlocked_character_ref_id = 51
+
+[node name="Indicators" parent="Hotspots/GregSpot" index="0"]
+offset_left = 20.112600326538086
+offset_top = 67.22850036621094
+offset_right = 20.112600326538086
+offset_bottom = 67.22850036621094
+
+[node name="Highlighter" parent="Hotspots/GregSpot/Indicators" index="0"]
+modulate = Color(0.596078, 0.541176, 0.0901961, 1)
+
+[node name="BodyPanel" parent="Hotspots/GregSpot" instance=ExtResource("88")]
+layout_mode = 0
+offset_left = -1039.6700439453125
+offset_top = 1074.6500244140625
+offset_right = -117.66999816894531
+offset_bottom = 1693.6500244140625
+
+[node name="IanSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 694.0
+offset_top = 639.0
+offset_right = 743.0
+offset_bottom = 691.0
+hotspot_id = "1pQ"
+unlocked_character_ref_id = 57
+unlocked_item_ref_id = 360
+extra_items_unlocked = [SubResource("Resource_8vchj"), SubResource("Resource_04l21"), SubResource("Resource_tbpuu")]
+
+[node name="Indicators" parent="Hotspots/IanSpot" index="0"]
+offset_left = -32.5
+offset_top = 31.0
+offset_right = -32.5
+offset_bottom = 31.0
+
+[node name="Highlighter" parent="Hotspots/IanSpot/Indicators" index="0"]
+modulate = Color(0.0509804, 0.0705882, 0.0705882, 1)
+position = Vector2(-3.5, -18.75)
+
+[node name="FocusIndicator" parent="Hotspots/IanSpot/Indicators" index="1"]
+position = Vector2(-2.5, -14.75)
+
+[node name="IanAnimation" type="AnimatedSprite2D" parent="Hotspots/IanSpot"]
+position = Vector2(53, 78)
+sprite_frames = SubResource("SpriteFrames_yr3tr")
+autoplay = "default"
+frame_progress = 0.7949039936065674
+
+[node name="IanPanel" parent="Hotspots/IanSpot" instance=ExtResource("126")]
+layout_mode = 0
+offset_left = -1129.0
+offset_top = -1577.0
+offset_right = -329.0
+offset_bottom = -1027.0
+
+[node name="PipeSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 747.0
+offset_top = 563.0
+offset_right = 827.0
+offset_bottom = 582.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "rWk"
+unlocked_character_ref_id = 52
+
+[node name="Indicators" parent="Hotspots/PipeSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="Highlighter" parent="Hotspots/PipeSpot/Indicators" index="0"]
+modulate = Color(0.117647, 0.105882, 0.0980392, 1)
+
+[node name="DeadBumPanel" parent="Hotspots/PipeSpot" instance=ExtResource("127")]
+layout_mode = 0
+offset_left = 741.1900024414063
+offset_top = 807.7449951171875
+offset_right = 1364.18994140625
+offset_bottom = 1430.739990234375
+
+[node name="ExcavatorSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 535.0
+offset_top = 52.0
+offset_right = 682.0
+offset_bottom = 362.0
+hotspot_id = "Aqg"
+
+[node name="Indicators" parent="Hotspots/ExcavatorSpot" index="0"]
+offset_left = -28.0
+offset_top = 176.0
+offset_right = -28.0
+offset_bottom = 176.0
+
+[node name="Highlighter" parent="Hotspots/ExcavatorSpot/Indicators" index="0"]
+modulate = Color(0.843137, 0.827451, 0.376471, 1)
+
+[node name="ExcavatorPanel" parent="Hotspots/ExcavatorSpot" instance=ExtResource("128")]
+layout_mode = 0
+offset_left = 4073.0
+offset_top = 280.0
+offset_right = 4639.0
+offset_bottom = 1005.0
+
+[node name="DemolisherSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 972.0
+offset_top = 80.0
+offset_right = 1203.0
+offset_bottom = 390.0
+hotspot_id = "yx9"
+
+[node name="Indicators" parent="Hotspots/DemolisherSpot" index="0"]
+offset_left = -28.0
+offset_top = 176.0
+offset_right = -28.0
+offset_bottom = 176.0
+
+[node name="Highlighter" parent="Hotspots/DemolisherSpot/Indicators" index="0"]
+modulate = Color(0.905882, 0.572549, 0.345098, 1)
+
+[node name="DemolisherPanel" parent="Hotspots/DemolisherSpot" instance=ExtResource("129")]
+layout_mode = 0
+offset_left = 1292.0
+offset_top = 292.0
+offset_right = 1858.0
+offset_bottom = 1017.0
+
+[node name="WreckingBallAnimation" type="AnimatedSprite2D" parent="Hotspots/DemolisherSpot"]
+position = Vector2(314, 150)
+sprite_frames = SubResource("SpriteFrames_h7x41")
+autoplay = "default"
+frame_progress = 0.033907901495695114
+
+[node name="Officer2Animation" type="AnimatedSprite2D" parent="Hotspots/DemolisherSpot"]
+position = Vector2(251, 365)
+sprite_frames = SubResource("SpriteFrames_i5xpt")
+autoplay = "default"
+frame_progress = 0.2179650068283081
+
+[node name="CutterSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 1338.0
+offset_top = 40.0
+offset_right = 1520.0
+offset_bottom = 350.0
+hotspot_id = "X3j"
+
+[node name="Indicators" parent="Hotspots/CutterSpot" index="0"]
+offset_left = -28.0
+offset_top = 176.0
+offset_right = -28.0
+offset_bottom = 176.0
+
+[node name="Highlighter" parent="Hotspots/CutterSpot/Indicators" index="0"]
+modulate = Color(0.443137, 0.745098, 0.67451, 1)
+
+[node name="CutterPanel" parent="Hotspots/CutterSpot" instance=ExtResource("214")]
+layout_mode = 0
+offset_left = 1456.0
+offset_top = -553.0
+offset_right = 2022.0
+offset_bottom = 172.0
+
+[node name="OfficerAnimation" type="AnimatedSprite2D" parent="Hotspots/CutterSpot"]
+position = Vector2(386, 307)
+sprite_frames = SubResource("SpriteFrames_tfkbn")
+autoplay = "default"
+frame_progress = 0.7789070010185242
+
+[node name="BillSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 436.0
+offset_top = 769.5
+offset_right = 475.0
+offset_bottom = 954.5
+focus_neighbor_top = NodePath("../MontySpot")
+hotspot_id = "yyK"
+unlocked_character_ref_id = 55
+
+[node name="Indicators" parent="Hotspots/BillSpot" index="0"]
+offset_left = -15.5
+offset_top = 118.0
+offset_right = -15.5
+offset_bottom = 118.0
+
+[node name="Highlighter" parent="Hotspots/BillSpot/Indicators" index="0"]
+modulate = Color(0.113725, 0.239216, 0.227451, 1)
+
+[node name="Cabin3Panel" parent="Hotspots/BillSpot" instance=ExtResource("263")]
+layout_mode = 0
+offset_left = -2474.0
+offset_top = -136.5
+offset_right = -1674.0
+offset_bottom = 413.5
+
+[node name="RoySpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 569.0
+offset_top = 775.5
+offset_right = 608.0
+offset_bottom = 960.5
+hotspot_id = "Ptx"
+unlocked_character_ref_id = 56
+extra_items_unlocked = [SubResource("Resource_4bblj"), SubResource("Resource_tyn01"), SubResource("Resource_ctdiv")]
+
+[node name="Indicators" parent="Hotspots/RoySpot" index="0"]
+offset_left = -15.5
+offset_top = 118.0
+offset_right = -15.5
+offset_bottom = 118.0
+
+[node name="Highlighter" parent="Hotspots/RoySpot/Indicators" index="0"]
+modulate = Color(0.784314, 0.72549, 0.603922, 1)
+position = Vector2(13.5, -9.25)
+
+[node name="FocusIndicator" parent="Hotspots/RoySpot/Indicators" index="1"]
+position = Vector2(14.5, -5.25)
+
+[node name="RoyPanel" parent="Hotspots/RoySpot" instance=ExtResource("264")]
+layout_mode = 0
+offset_left = 176.0
+offset_top = -1602.5
+offset_right = 976.0
+offset_bottom = -1052.5
+
+[node name="ReporterSpot" parent="Hotspots" instance=ExtResource("85")]
+layout_mode = 1
+offset_left = 1512.0
+offset_top = 469.0
+offset_right = 1811.0
+offset_bottom = 1195.0
+hotspot_id = "0IA"
+unlocked_character_ref_id = 58
+unlocked_item_ref_id = 352
+extra_items_unlocked = [SubResource("Resource_bscfs"), SubResource("Resource_bn0by"), SubResource("Resource_df15t")]
+
+[node name="Indicators" parent="Hotspots/ReporterSpot" index="0"]
+offset_left = -82.5
+offset_top = 238.0
+offset_right = -82.5
+offset_bottom = 238.0
+
+[node name="Highlighter" parent="Hotspots/ReporterSpot/Indicators" index="0"]
+modulate = Color(0.890196, 0.756863, 0.698039, 1)
+
+[node name="ReporterPanel" parent="Hotspots/ReporterSpot" instance=ExtResource("265")]
+layout_mode = 0
+offset_left = 1606.0
+offset_top = 522.0
+offset_right = 2406.0
+offset_bottom = 1072.0
+
+[editable path="Hotspots/TedSpot"]
+[editable path="Hotspots/MontySpot"]
+[editable path="Hotspots/GregSpot"]
+[editable path="Hotspots/IanSpot"]
+[editable path="Hotspots/PipeSpot"]
+[editable path="Hotspots/ExcavatorSpot"]
+[editable path="Hotspots/DemolisherSpot"]
+[editable path="Hotspots/CutterSpot"]
+[editable path="Hotspots/BillSpot"]
+[editable path="Hotspots/RoySpot"]
+[editable path="Hotspots/ReporterSpot"]

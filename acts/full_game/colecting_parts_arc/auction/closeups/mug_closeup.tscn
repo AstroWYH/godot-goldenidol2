@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=4 uid="uid://6swwxd0w1twf"]
+
+[ext_resource type="Texture2D" uid="uid://cecnpb5owxp5a" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/mug.png" id="1"]
+
+[node name="MugCloseup" type="Panel"]
+offset_left = -169.0
+offset_top = 720.0
+offset_right = 35.0
+offset_bottom = 904.0
+scale = Vector2(0.397, 0.5)
+mouse_filter = 2
+
+[node name="Mug2" type="Sprite2D" parent="."]
+position = Vector2(110.831, 90)
+texture = ExtResource("1")

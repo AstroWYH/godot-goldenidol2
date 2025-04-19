@@ -1,0 +1,179 @@
+[gd_scene load_steps=39 format=4 uid="uid://dyyfueehw2nd4"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://dal60pwi6o3re" path="res://shared/assets/portraits/jack_conference/jack_conference_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b6jmknxj548yo" path="res://shared/assets/portraits/jack_conference/jack_conference_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://brfod0o52seu" path="res://shared/assets/portraits/jack_conference/jack_conference_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bvefafxqslv8l" path="res://shared/assets/portraits/jack_conference/jack_conference_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://3gq7gfu5vyc3" path="res://shared/assets/portraits/jack_conference/jack_conference_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c2r3ja24wr8vx" path="res://shared/assets/portraits/jack_conference/jack_conference_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dwoeamw1kjs10" path="res://shared/assets/portraits/jack_conference/jack_conference_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c180c8nqcwwgg" path="res://shared/assets/portraits/jack_conference/jack_conference_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d2wopnrj2auhv" path="res://shared/assets/portraits/jack_conference/jack_conference_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://blnidvfl8aksh" path="res://shared/assets/portraits/jack_conference/jack_conference_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://smrcwj1gdqaj" path="res://shared/assets/portraits/jack_conference/jack_conference_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cm1mkidb5ceql" path="res://shared/assets/portraits/jack_conference/jack_conference_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://5bg3qjiiop48" path="res://shared/assets/portraits/jack_conference/jack_conference_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ubcc3j2dmkm7" path="res://shared/assets/portraits/jack_conference/jack_conference_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://j62p0vo0xf8s" path="res://shared/assets/portraits/jack_conference/jack_conference_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://wdtwocfnprpf" path="res://shared/assets/portraits/jack_conference/jack_conference_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://c2xty7s7nt2hq" path="res://shared/assets/portraits/jack_conference/jack_conference_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c1st48jggcmdi" path="res://shared/assets/portraits/jack_conference/jack_conference_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://d1sutwrfr4478" path="res://shared/assets/portraits/jack_conference/jack_conference_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dwgqwm5t30f2f" path="res://shared/assets/portraits/jack_conference/jack_conference_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cb4n58etd2gy7" path="res://shared/assets/portraits/jack_conference/jack_conference_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bmkr8y86qdsk8" path="res://shared/assets/portraits/jack_conference/jack_conference_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cjainscqvb4w2" path="res://shared/assets/portraits/jack_conference/jack_conference_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cah6oe5itmqqb" path="res://shared/assets/portraits/jack_conference/jack_conference_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c8o2jp6n24xym" path="res://shared/assets/portraits/jack_conference/jack_conference_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://8xd2wlcbtlh" path="res://shared/assets/portraits/jack_conference/jack_conference_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://blxs4og8iqi62" path="res://shared/assets/portraits/jack_conference/jack_conference_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bg0y1pd8ur7cd" path="res://shared/assets/portraits/jack_conference/jack_conference_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://c56i5u5efuft8" path="res://shared/assets/portraits/jack_conference/jack_conference_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bsktd1c067n2d" path="res://shared/assets/portraits/jack_conference/jack_conference_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://uxumyysndfer" path="res://shared/assets/portraits/jack_conference/jack_conference_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://coxe1unyuowbe" path="res://shared/assets/portraits/jack_conference/jack_conference_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cpjgcf1somlng" path="res://shared/assets/portraits/jack_conference/jack_conference_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dhila83godtmc" path="res://shared/assets/portraits/jack_conference/jack_conference_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://btrjyk2pq56kc" path="res://shared/assets/portraits/jack_conference/jack_conference_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dc8dh00bvnhwu" path="res://shared/assets/portraits/jack_conference/jack_conference_00035.png" id="37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pbnw4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[node name="RationalistCloseup" type="Panel"]
+offset_left = 896.4390258789063
+offset_top = 720.447998046875
+offset_right = 1697.43994140625
+offset_bottom = 1333.449951171875
+
+[node name="CharacterTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 34.0
+offset_right = 429.0
+offset_bottom = 328.0
+theme = ExtResource("1")
+text = "CONFERENCE_JACK_SPEECH"
+autowrap_mode = 3
+
+[node name="JackAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(589.94, 383.333)
+sprite_frames = SubResource("SpriteFrames_pbnw4")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame = 8
+frame_progress = 0.550042986869812

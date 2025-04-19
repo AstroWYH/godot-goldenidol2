@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=4 uid="uid://blxixde0vtv0e"]
+
+[ext_resource type="Texture2D" uid="uid://cg0mgm3k8l37o" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/flowerbook.png" id="1"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="Texture2D" uid="uid://byy8s8kv276ho" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/logo.png" id="4"]
+
+[node name="Shelf1Panel" type="Panel"]
+offset_left = -810.0
+offset_top = -2871.0
+offset_right = -29.0
+offset_bottom = -2285.0
+
+[node name="Shelf1Sprite" type="Sprite2D" parent="."]
+position = Vector2(5, 5)
+texture = ExtResource("1")
+centered = false
+
+[node name="Skew" type="Node2D" parent="."]
+position = Vector2(203, 156)
+rotation = -0.017453299835324287
+skew = 0.03839720040559769
+
+[node name="FlowerBookTitleLabel" type="Label" parent="Skew"]
+offset_left = 3.7499399185180664
+offset_top = 7.136960029602051
+offset_right = 216.75
+offset_bottom = 155.13699340820313
+rotation = -0.0353722982108593
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0, 0.320313, 0.542969, 1)
+text = "prison_book_title"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="FlowerBookStampLabel" type="Label" parent="Skew"]
+offset_left = 71.9574966430664
+offset_top = 228.68800354003906
+offset_right = 202.95700073242188
+offset_bottom = 333.68798828125
+rotation = -0.033663101494312286
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.454902, 0, 0, 1)
+theme_override_font_sizes/font_size = 16
+text = "prison_book_footer"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="HFLogoSprite" type="Sprite2D" parent="Skew"]
+position = Vector2(39.4612, 299.116)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4")

@@ -1,0 +1,240 @@
+[gd_scene load_steps=29 format=4 uid="uid://xogflllqyoy7"]
+
+[ext_resource type="Texture2D" uid="uid://6d7mlnu2labp" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bxytecasc7wwn" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bc38rcdseiksx" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b4vtouvt1m4rv" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://b7p4ml0m05cw0" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cmgf7e1aucwxo" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ok4lldoeuin0" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://du8wlfnsxu8hg" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c1bvyi5n5bw0t" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://go787gcsxq8o" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://j6iv8vesh0x8" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c5k1gbciw0g3h" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://6rvh0ynio3ct" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dyntg7dibhdyi" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://danhovnb01wm2" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bs5yb8i7httwo" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bdmj8566e5oiv" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://da1csgu5kskm7" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dct8mhyrujf5d" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dm0y5f0dgvt1m" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://uvevy57kc058" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://3i4lrb55v57n" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dhl87ndmi3i7x" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/notepad.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dneb5v7fceg1j" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/menu.png" id="24"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="25"]
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://htfvrijsp614" path="res://shared/assets/frames/frame_transparent.png" id="27"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ombyq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="AgentCloseup" type="Panel"]
+offset_left = -65.0
+offset_top = -1023.0
+offset_right = 488.0
+offset_bottom = -655.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 16.0
+offset_right = 532.0
+offset_bottom = 82.0
+theme_override_font_sizes/font_size = 24
+text = "The poor professor just isn't cut out for this.
+Should've listened to me.
+"
+
+[node name="Agent" type="AnimatedSprite2D" parent="."]
+position = Vector2(169, 209)
+sprite_frames = SubResource("SpriteFrames_ombyq")
+frame_progress = 0.6968110203742981
+
+[node name="ClipBoard" type="Sprite2D" parent="."]
+position = Vector2(407, 290)
+scale = Vector2(0.721429, 0.721429)
+texture = ExtResource("23")
+
+[node name="Menu" type="Sprite2D" parent="."]
+position = Vector2(453, 140)
+scale = Vector2(0.721429, 0.721429)
+texture = ExtResource("24")
+
+[node name="DrinkSpecials" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 301.0
+offset_top = 139.0
+offset_right = 611.0
+offset_bottom = 255.0
+scale = Vector2(0.724726, 0.709195)
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 40
+text = "A menu with 
+drink specials"
+uppercase = true
+
+[node name="MenuSpot2" parent="." instance=ExtResource("25")]
+layout_mode = 1
+offset_left = 382.0
+offset_top = 93.0
+offset_right = -58.0
+offset_bottom = -137.0
+
+[node name="MenuCloseup" type="Panel" parent="MenuSpot2"]
+layout_mode = 0
+offset_left = 421.0
+offset_top = 25.0
+offset_right = 911.0
+offset_bottom = 553.0
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="MenuSpot2/MenuCloseup"]
+layout_mode = 0
+offset_right = 490.0
+offset_bottom = 529.0
+texture = ExtResource("26")
+stretch_mode = 1
+
+[node name="Label2" type="Label" parent="MenuSpot2/MenuCloseup"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 13.0
+offset_right = 669.0
+offset_bottom = 706.0
+theme_override_colors/font_color = Color(0.132813, 0.125, 0.203125, 1)
+theme_override_font_sizes/font_size = 24
+text = "COCKTAILS
+ 
+Classic Martini ~ $14
+Gin, vermouth, garnished with olive
+ 
+Harley's Ghost ~ $21
+Ale, seltzer, grenadine, 
+and a slice of lime
+ 
+Seven Seas Special ~ $17
+Rum, butterscotch, and vanilla, 
+served in a copper mug.
+ 
+Death in the Evening ~ $19
+Absinthe and champagne"
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MenuSpot2/MenuCloseup"]
+layout_mode = 0
+offset_left = -3.0
+offset_top = -2.0
+offset_right = 1093.0
+offset_bottom = 1107.0
+scale = Vector2(0.457004, 0.487715)
+texture = ExtResource("27")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="ClipboardSpot2" parent="." instance=ExtResource("25")]
+layout_mode = 1
+offset_left = 327.0
+offset_top = 249.0
+offset_right = -51.0
+offset_bottom = -46.0
+text = "Notes for Mr. Freeman's first day -
+- Serve with a smile!
+- Please, refrain from selling any drinks 
+to Mr. Bogart while he's on the job."
+
+[node name="BarText2" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 322.0
+offset_top = 263.0
+offset_right = 612.0
+offset_bottom = 379.0
+scale = Vector2(0.649984, 0.644311)
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_font_sizes/font_size = 40
+text = "Drink Orders 
+Notepad"
+uppercase = true

@@ -1,0 +1,110 @@
+[gd_resource type="SpriteFrames" load_steps=26 format=4 uid="uid://dxqscahgdksyp"]
+
+[ext_resource type="Texture2D" uid="uid://dvtjbi6bv4tvt" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c3h1xq1dvmsk8" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dhup8wh1p8fb4" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b7xfflerth8og" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bxv3c0y5h4w7f" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bnblbantjqin6" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dke1mj0h87qc7" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://co4l4kolqhf4a" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cceb7tf1qnkip" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://vi3mby2ptwbx" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dcaeukqv2osr7" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bwiuh34e1oel5" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c82x81gsymvae" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://w7fdoxg2uooy" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dcv4fvgfn067h" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://crfgi7j5kknqc" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d2wua516qxbru" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cw4ulctg8v23m" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://6u1li3fiel43" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://0qfik006jmq1" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bbm3stnmua4xa" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bw1r1r5hiwb3w" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://d3ooeqmj0rsmt" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cu46t4ptfvsui" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b1221jsuvflvd" path="res://acts/full_game/hubbackgrounds/assets/auctionbw/colectingarc_024.png" id="25"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]

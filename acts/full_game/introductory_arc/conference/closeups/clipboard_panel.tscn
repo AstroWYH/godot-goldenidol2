@@ -1,0 +1,220 @@
+[gd_scene load_steps=4 format=4 uid="uid://b57tpewf0sm45"]
+
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+
+[node name="ClipboardPanel" type="Panel"]
+offset_left = 955.0
+offset_top = 152.0
+offset_right = 1855.0
+offset_bottom = 632.0
+
+[node name="ClipboardSprite" type="TextureRect" parent="."]
+modulate = Color(0.679513, 0.584274, 0.469014, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 13.0
+offset_top = 9.0
+offset_right = -15.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1")
+stretch_mode = 1
+
+[node name="Sprite2D3" type="Sprite2D" parent="ClipboardSprite"]
+modulate = Color(0.51, 0.2091, 0.254235, 0.533333)
+position = Vector2(842, 187)
+rotation = -3.141590118408203
+texture = ExtResource("2")
+region_enabled = true
+region_rect = Rect2(2, 81.5, 63.5, 101.5)
+
+[node name="Sprite2D2" type="Sprite2D" parent="ClipboardSprite"]
+modulate = Color(0.51, 0.2091, 0.254235, 0.533333)
+position = Vector2(440, 35)
+texture = ExtResource("2")
+region_enabled = true
+region_rect = Rect2(0, 0, 256, 70)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -420.0
+offset_top = -231.0
+offset_right = 420.0
+offset_bottom = 223.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 25
+alignment = 1
+
+[node name="Title" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 25
+
+[node name="Header" type="Label" parent="VBoxContainer/Title"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.517647, 0.0627451, 0.227451, 1)
+theme_override_font_sizes/font_size = 30
+text = "MORGUE_TABLE_HEADER"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Header2" type="Label" parent="VBoxContainer/Title"]
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.517647, 0.0627451, 0.227451, 1)
+theme_override_font_sizes/font_size = 30
+text = "MORGUE_TABLE_CAUSE"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Header3" type="Label" parent="VBoxContainer/Title"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.517647, 0.0627451, 0.227451, 1)
+theme_override_font_sizes/font_size = 30
+text = "MORGUE_TABLE_DATE"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="A" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="A2" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_CAUSE_A"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="A3" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_DATE_A"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="B" type="Label" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "B"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="B2" type="Label" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_CAUSE_B"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="B3" type="Label" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_DATE_B"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="C" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "C"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="C2" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_CAUSE_C"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="C3" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_DATE_C"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="D" type="Label" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "D"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="D2" type="Label" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_CAUSE_D"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="D3" type="Label" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_DATE_D"
+vertical_alignment = 1
+autowrap_mode = 3

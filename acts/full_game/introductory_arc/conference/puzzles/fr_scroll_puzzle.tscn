@@ -1,0 +1,101 @@
+[gd_scene load_steps=6 format=4 uid="uid://dql58cnn728j7"]
+
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="1"]
+[ext_resource type="Resource" uid="uid://cjsi71jbbttp2" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_interview_puzzle_meta.tres" id="2"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cht6dheyvf313" path="res://shared/puzzle/puzzle_answer_container/puzzle_answer_container.tscn" id="5"]
+
+[node name="Puzzle" instance=ExtResource("1")]
+offset_right = -1348.0
+offset_bottom = -729.0
+puzzle_meta = ExtResource("2")
+text = "CONFERENCE_SPEECH_PUZZLE_CONTENT"
+
+[node name="Puzzle" parent="." index="0"]
+puzzle_meta = ExtResource("2")
+
+[node name="1" parent="." index="2" instance=ExtResource("3")]
+accepted_types = 1
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="1" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 173
+
+[node name="2" parent="." index="3" instance=ExtResource("3")]
+accepted_types = 1
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="2" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 174
+
+[node name="3" parent="." index="4" instance=ExtResource("3")]
+accepted_types = 8
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="3" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 580
+
+[node name="4" parent="." index="5" instance=ExtResource("3")]
+accepted_types = 2
+id = 4
+valid_by_default = false
+
+[node name="PuzzleAnswerContainer" parent="4" index="0" instance=ExtResource("5")]
+
+[node name="Answer" parent="4/PuzzleAnswerContainer" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 539
+
+[node name="PuzzleAnswerContainer2" parent="4" index="1" instance=ExtResource("5")]
+
+[node name="Answer2" parent="4/PuzzleAnswerContainer2" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 505
+
+[node name="5" parent="." index="6" instance=ExtResource("3")]
+accepted_types = 2
+id = 5
+valid_by_default = false
+
+[node name="PuzzleAnswerContainer" parent="5" index="0" instance=ExtResource("5")]
+
+[node name="Answer" parent="5/PuzzleAnswerContainer" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 539
+
+[node name="PuzzleAnswerContainer2" parent="5" index="1" instance=ExtResource("5")]
+
+[node name="Answer2" parent="5/PuzzleAnswerContainer2" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 505
+
+[node name="6" parent="." index="7" instance=ExtResource("3")]
+accepted_types = 8
+id = 6
+valid_by_default = false
+
+[node name="PuzzleAnswerContainer" parent="6" index="0" instance=ExtResource("5")]
+
+[node name="Answer" parent="6/PuzzleAnswerContainer" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 581
+
+[node name="PuzzleAnswerContainer2" parent="6" index="1" instance=ExtResource("5")]
+
+[node name="Answer" parent="6/PuzzleAnswerContainer2" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 579
+
+[node name="7" parent="." index="8" instance=ExtResource("3")]
+accepted_types = 2
+id = 7
+valid_by_default = false
+
+[node name="Answer" parent="7" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 511
+
+[node name="8" parent="." index="9" instance=ExtResource("3")]
+accepted_types = 2
+id = 8
+valid_by_default = false
+
+[node name="Answer" parent="8" index="0" instance=ExtResource("4")]
+answer_item_ref_id = 597

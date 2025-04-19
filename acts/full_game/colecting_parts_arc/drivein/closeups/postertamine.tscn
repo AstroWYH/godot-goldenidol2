@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=4 uid="uid://b4bl5fllm0wdw"]
+
+[ext_resource type="Texture2D" uid="uid://ck4mjhi6u8rxs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/poster_banned.png" id="1"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+
+[node name="Panel" type="Panel"]
+offset_left = -473.0
+offset_top = -968.0
+offset_right = 10.0
+offset_bottom = -283.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(242, 339)
+scale = Vector2(0.845, 0.845)
+texture = ExtResource("1")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -238.0
+offset_top = -375.0
+offset_right = 241.0
+offset_bottom = -200.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.121569, 0.121569, 0.113725, 1)
+theme_override_font_sizes/font_size = 60
+text = "cinema_office_ban"
+horizontal_alignment = 1
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="Sprite2D"]
+offset_left = -112.0
+offset_top = 203.0
+offset_right = 41.0
+offset_bottom = 253.0
+rotation = -0.06867410242557526
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.270588, 0.270588, 0.266667, 1)
+theme_override_constants/line_spacing = -3
+text = "cinema_office_ban_photo_label"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

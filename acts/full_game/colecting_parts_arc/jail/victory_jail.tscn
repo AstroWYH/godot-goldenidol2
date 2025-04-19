@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=4 uid="uid://bv1bxhppyo8j5"]
+
+[ext_resource type="Texture2D" uid="uid://htfvrijsp614" path="res://shared/assets/frames/frame_transparent.png" id="1"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 524.0
+offset_bottom = 327.0
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ColorRect"]
+layout_mode = 0
+offset_left = -3.0
+offset_top = -2.0
+offset_right = 1136.0
+offset_bottom = 666.0
+scale = Vector2(0.468, 0.5)
+texture = ExtResource("1")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="SnitchSpeech" type="Label" parent="ColorRect/NinePatchRect"]
+layout_mode = 0
+offset_left = 487.0
+offset_top = 72.0
+offset_right = 913.0
+offset_bottom = 384.0
+theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "Placeholder text
+"
+autowrap_mode = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="ColorRect"]
+position = Vector2(106, 165)
+scale = Vector2(0.5, 0.5)

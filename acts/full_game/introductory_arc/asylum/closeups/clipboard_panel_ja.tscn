@@ -1,0 +1,212 @@
+[gd_scene load_steps=3 format=4 uid="uid://bv2ldkh1rwrjn"]
+
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+
+[node name="ClipboardPanel" type="Panel"]
+offset_left = -118.0
+offset_top = 800.0
+offset_right = 588.0
+offset_bottom = 1392.0
+
+[node name="ClipboardSprite" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 6.0
+offset_right = 682.0
+offset_bottom = 552.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1")
+stretch_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 23.28529930114746
+offset_top = 20.590999603271484
+offset_right = 681.2849731445313
+offset_bottom = 424.59100341796875
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(600, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_MORG_CLIPBOARD_TITLE"
+autowrap_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+text = "200"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_200_NAME"
+autowrap_mode = 2
+
+[node name="Title2" type="Label" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_200_DESCRIPTION"
+autowrap_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "201"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_EMPTY"
+autowrap_mode = 2
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "202"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_202_NAME"
+autowrap_mode = 2
+
+[node name="Title2" type="Label" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_202_DESCRIPTION"
+autowrap_mode = 2
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "203"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_EMPTY"
+autowrap_mode = 2
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "204"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_EMPTY"
+autowrap_mode = 2
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "205"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_205_NAME"
+autowrap_mode = 2
+
+[node name="Title2" type="Label" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_205_DESCRIPTION"
+autowrap_mode = 2
+
+[node name="HBoxContainer7" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "206"
+autowrap_mode = 2
+
+[node name="Title3" type="Label" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_206_NAME"
+autowrap_mode = 2
+
+[node name="Title2" type="Label" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "ASYLUM_CLIPBOARD_CELL_206_DESCRIPTION"
+autowrap_mode = 2

@@ -1,0 +1,336 @@
+[gd_scene load_steps=49 format=4 uid="uid://lw5q1igpjf0h"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://c8r52h7v5qthw" path="res://shared/assets/papers/nametag.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cl22p81bbw61p" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00065.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dmuq6vqtenqth" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00066.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ctnm5wyrt8ege" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00067.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dtpnf3b2q7bjt" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00068.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ql44c27nxbnm" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00069.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dbiiritfpbx8g" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00070.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bph5e0ug3tasf" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00071.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dm2wix6hw5py0" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00072.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bcrydra5bu0lp" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00073.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://g2x44evc22w6" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00074.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://djlwvwoa1x7co" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00075.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ciwf3po7x7lh5" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00076.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://etgk6rbbq16v" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00077.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cajvtgvgu0o85" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00078.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://biukjvwiqmsq4" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00079.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bcm4kdp4subwt" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00080.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dux4ph78ror3s" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00081.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://sdklncoirnmm" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00082.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://it5t3il4f3pa" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00083.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://djgm87m3jxa0u" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00084.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c786da7g54x4g" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00085.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://hefk6ymjkhco" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00086.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://vym3rk68147m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00087.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cblrwfb6f7p7b" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00088.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dmphy7118svm2" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00089.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b21urt7da08oe" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00090.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://daqh4d62wcbjl" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00091.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cvsh4xal5rt00" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00092.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bwhgj0ciemdvq" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00093.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://fscj601das1e" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00094.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://skhngpndw75q" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00095.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cqbgfylnmv1oy" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/worker/4_maintenance_worker_head_v2_00096.png" id="34"]
+[ext_resource type="Material" uid="uid://s6yah842ep34" path="res://shared/assets/particle_materials/breath2.material" id="35"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://d3m68ns73v1aw" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/pliers.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://lqs5p565byjd" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/wire.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dimw1nbfnq35r" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/toolboxinv.png" id="39"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="40"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="41"]
+[ext_resource type="Texture2D" uid="uid://clwkbpagruerd" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/toolbox.png" id="42"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="43"]
+[ext_resource type="Texture2D" uid="uid://dkvp0osovn50a" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/nametag.png" id="44"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q2l4k"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_mtfrj"]
+
+[sub_resource type="Resource" id="Resource_g6prh"]
+script = ExtResource("43")
+linked_item_ref_id = 46
+
+[sub_resource type="Resource" id="Resource_xmyjw"]
+script = ExtResource("43")
+linked_item_ref_id = 61
+
+[node name="MaintenanceManPanel" type="Panel"]
+offset_left = 1369.0
+offset_top = 725.0
+offset_right = 2257.0
+offset_bottom = 1370.0
+mouse_filter = 2
+
+[node name="MaintenanceManSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 23.0
+offset_right = 473.0
+offset_bottom = 249.0
+theme = ExtResource("1")
+text = "prison_henry_speech"
+autowrap_mode = 3
+
+[node name="VisitorPassSprite" type="Sprite2D" parent="."]
+position = Vector2(581, 236)
+texture = ExtResource("2")
+
+[node name="Worker" type="AnimatedSprite2D" parent="."]
+position = Vector2(192, 444)
+sprite_frames = SubResource("SpriteFrames_q2l4k")
+autoplay = "default"
+frame_progress = 0.45223599672317505
+
+[node name="dvasa7" type="GPUParticles2D" parent="Worker"]
+material = SubResource("CanvasItemMaterial_mtfrj")
+position = Vector2(32, 38)
+scale = Vector2(0.5, 0.5)
+amount = 32
+process_material = ExtResource("35")
+texture = ExtResource("36")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.8399999737739563
+trail_lifetime = 0.5
+
+[node name="PliersSprite" type="Sprite2D" parent="."]
+position = Vector2(447, 528)
+texture = ExtResource("37")
+
+[node name="SpoolSprite" type="Sprite2D" parent="."]
+position = Vector2(745, 253)
+texture = ExtResource("38")
+
+[node name="ToolkitClosedSprite" type="Sprite2D" parent="."]
+position = Vector2(689, 495)
+texture = ExtResource("39")
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(622, 413)
+rotation = -0.03839720040559769
+skew = 0.169296994805336
+
+[node name="ToolkitText" type="Label" parent="Node2D"]
+offset_right = 184.0
+offset_bottom = 102.0
+rotation = 0.21628700196743011
+theme = ExtResource("40")
+theme_override_colors/font_color = Color(0.807843, 0.741176, 0.113725, 1)
+text = "prison_henry_toolbox_godot"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="PliersSpot" parent="." instance=ExtResource("41")]
+layout_mode = 1
+offset_left = 392.0
+offset_top = 429.0
+offset_right = -330.0
+offset_bottom = -63.0
+hotspot_id = "SDt"
+text = "prison_henry_pliers_tooltip"
+
+[node name="Highlighter" parent="PliersSpot/Indicators" index="0"]
+modulate = Color(0.396078, 0.47451, 0.454902, 1)
+
+[node name="SpoolSpot" parent="." instance=ExtResource("41")]
+layout_mode = 1
+offset_left = 689.0
+offset_top = 198.0
+offset_right = -78.0
+offset_bottom = -324.0
+hotspot_id = "PQT"
+text = "prison_henry_spool_tooltip"
+
+[node name="Highlighter" parent="SpoolSpot/Indicators" index="0"]
+modulate = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="KitSpot" parent="." instance=ExtResource("41")]
+layout_mode = 1
+offset_left = 586.0
+offset_top = 381.0
+offset_right = -65.0
+offset_bottom = -50.0
+hotspot_id = "z3j"
+
+[node name="Highlighter" parent="KitSpot/Indicators" index="0"]
+modulate = Color(0.729412, 0.345098, 0.572549, 1)
+
+[node name="ToolkitPanel" type="Panel" parent="KitSpot"]
+layout_mode = 0
+offset_left = 319.0
+offset_top = -149.0
+offset_right = 679.0
+offset_bottom = 231.0
+mouse_filter = 2
+
+[node name="ToolkitSprite" type="Sprite2D" parent="KitSpot/ToolkitPanel"]
+position = Vector2(178, 187)
+texture = ExtResource("42")
+
+[node name="KitSpot2" parent="." instance=ExtResource("41")]
+layout_mode = 1
+offset_left = 500.0
+offset_top = 103.0
+offset_right = -218.0
+offset_bottom = -325.0
+hotspot_id = "z3j"
+extra_items_unlocked = [SubResource("Resource_g6prh"), SubResource("Resource_xmyjw")]
+
+[node name="Highlighter" parent="KitSpot2/Indicators" index="0"]
+modulate = Color(0.831373, 0.796078, 0.627451, 1)
+
+[node name="ToolkitPanel" type="Panel" parent="KitSpot2"]
+layout_mode = 0
+offset_left = 463.0
+offset_top = -286.0
+offset_right = 949.0
+offset_bottom = 8.0
+mouse_filter = 2
+
+[node name="Nametag" type="Sprite2D" parent="KitSpot2/ToolkitPanel"]
+position = Vector2(250, 150)
+texture = ExtResource("44")
+
+[node name="VisitorPassText" type="RichTextLabel" parent="KitSpot2/ToolkitPanel"]
+clip_contents = false
+layout_mode = 0
+offset_left = 74.0
+offset_top = 55.0
+offset_right = 419.0
+offset_bottom = 96.0
+theme = ExtResource("40")
+theme_override_colors/default_color = Color(0.184314, 0.372549, 0.180392, 1)
+theme_override_constants/line_separation = -3
+theme_override_font_sizes/normal_font_size = 26
+theme_override_font_sizes/bold_font_size = 26
+bbcode_enabled = true
+text = "prison_henry_pass_title"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="VisitorPassText2" type="RichTextLabel" parent="KitSpot2/ToolkitPanel"]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 103.0
+offset_right = 416.0
+offset_bottom = 258.0
+theme = ExtResource("40")
+theme_override_colors/default_color = Color(0.317619, 0.292054, 0.174021, 1)
+theme_override_constants/line_separation = -4
+theme_override_font_sizes/normal_font_size = 22
+theme_override_font_sizes/bold_font_size = 24
+bbcode_enabled = true
+text = "prison_henry_pass_body_godot"
+scroll_active = false
+autowrap_mode = 2
+
+[editable path="PliersSpot"]
+[editable path="SpoolSpot"]
+[editable path="KitSpot"]
+[editable path="KitSpot2"]

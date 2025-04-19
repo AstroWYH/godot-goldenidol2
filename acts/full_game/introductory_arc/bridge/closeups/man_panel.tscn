@@ -1,0 +1,288 @@
+[gd_scene load_steps=55 format=4 uid="uid://fns5scxji7lo"]
+
+[ext_resource type="Texture2D" uid="uid://dpm72ljarc6vr" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man1.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://br60magk5biob" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man2.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dfkm5x5axiluf" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man3.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dufmh75ub4g4c" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man4.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dsy7tmv0up4j2" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man5.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b1ajniy074o78" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man6.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cy4iscc3acu58" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man7.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d0udlojlvdnd6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man8.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b0b542q21ughn" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man9.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bvs4lu75d4xt5" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man10.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cr7kildc4qhey" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man11.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c7y3uyb4mh1gx" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man12.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://caf2h3q5s4haj" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man13.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dmxq14jpf6nx" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man14.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c8hgab17u0uqt" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man15.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ret1xngedaxk" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man16.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dipbi7bw2ws6i" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man17.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b5c45cgvl7ln6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man18.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://vqiu1u0pdgf7" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man19.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dlqu7o4h3jh83" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man20.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://buocmet1a4tu3" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man21.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://coopugnana46l" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man22.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://e50lxaka6jxe" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man23.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dss3g8jjn3h6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man24.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b3merv20yk7sy" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man25.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b0fhfdvermnti" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man26.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://b2yts8nxi5cgc" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man27.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://etoe6vs5cp37" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man28.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b2ceoy7lwpnqx" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man29.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://duenaov4acwum" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man30.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dh1x0527sy1jf" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man31.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cao1fa54gjqsv" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man32.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://call8fnatodrb" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man33.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bje8dvlqvmvju" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man34.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b820v6byoa0ot" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man35.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c4lpapgvw71r8" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man36.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bdookl5r28ic7" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man37.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bcg20r3uc6tj6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man38.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://b7t0o1hwsxcy6" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man39.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dexuek8dbt2hq" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man40.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dvhd8uxqw7o7l" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man41.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://ds36xubftos8h" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man42.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://c1x82ddh0xrim" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man43.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://c4ttmfq5ova1y" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man44.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://b0rvr7x3j2vqq" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man45.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://b2w338uyk6t5d" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man46.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://d0oo6o10tkpfc" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man47.png" id="47"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="48"]
+[ext_resource type="Texture2D" uid="uid://bw8hpaiij1vii" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/carkeys.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bfptgp8j5ed7q" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/driverslicence.png" id="50"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="51"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="52"]
+[ext_resource type="Texture2D" uid="uid://r1i3i7owrhm8" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/ring.png" id="53"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dvf2y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="ManPanel" type="Panel"]
+offset_left = 1100.0
+offset_top = 985.0
+offset_right = 1901.0
+offset_bottom = 1598.0
+
+[node name="InmateSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(198, 393)
+sprite_frames = SubResource("SpriteFrames_dvf2y")
+autoplay = "default"
+frame_progress = 0.09605830162763596
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 34.0
+offset_right = 768.0
+offset_bottom = 284.0
+theme = ExtResource("48")
+text = "BRIDGE_CYRIL_SPEECH"
+
+[node name="KeySprite" type="Sprite2D" parent="."]
+position = Vector2(630, 325)
+texture = ExtResource("49")
+
+[node name="DriversLicenceSprite" type="Sprite2D" parent="."]
+position = Vector2(564, 495)
+texture = ExtResource("50")
+
+[node name="Case numbers" type="Label" parent="DriversLicenceSprite"]
+offset_left = -14.0
+offset_top = -25.0
+offset_right = 101.0
+offset_bottom = 38.0
+theme = ExtResource("51")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "BRIDGE_CYRIL_DRIVERS_LICENSE"
+
+[node name="RingSpot" parent="." instance=ExtResource("52")]
+layout_mode = 1
+offset_left = 564.0
+offset_top = 124.0
+offset_right = -153.0
+offset_bottom = -403.0
+hotspot_id = "qNi"
+text = "BRIDGE_CYRIL_RING_TOOLTIP"
+unlocked_item_ref_id = 299
+
+[node name="Highlighter" parent="RingSpot/Indicators" index="0"]
+modulate = Color(0.976471, 0.886275, 0.533333, 1)
+
+[node name="RingSprite" type="Sprite2D" parent="RingSpot"]
+position = Vector2(41, 61)
+texture = ExtResource("53")
+
+[node name="KeySpot" parent="." instance=ExtResource("52")]
+layout_mode = 1
+offset_left = 542.0
+offset_top = 283.0
+offset_right = -106.0
+offset_bottom = -253.0
+hotspot_id = "N3R"
+text = "BRIDGE_CYRIL_KEY_TOOLTIP"
+unlocked_item_ref_id = 176
+
+[node name="Highlighter" parent="KeySpot/Indicators" index="0"]
+modulate = Color(0.403922, 0.54902, 0.478431, 1)
+
+[node name="DriversLicense" parent="." instance=ExtResource("52")]
+layout_mode = 1
+offset_left = 477.0
+offset_top = 416.0
+offset_right = -137.0
+offset_bottom = -72.0
+hotspot_id = "7Nt"
+text = "BRIDGE_CYRIL_LICENSE_TOOLTIP"
+
+[node name="Highlighter" parent="DriversLicense/Indicators" index="0"]
+modulate = Color(0.764706, 0.760784, 0.65098, 1)
+
+[editable path="RingSpot"]
+[editable path="KeySpot"]
+[editable path="DriversLicense"]

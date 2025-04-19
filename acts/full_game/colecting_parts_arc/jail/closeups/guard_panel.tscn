@@ -1,0 +1,215 @@
+[gd_scene load_steps=41 format=4 uid="uid://nckjpwf77nuv"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://cv5ih3bpgrq7k" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_00.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://u6b8ae6u7h2j" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_01.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bbp6gnyllj2if" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_02.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cqg122wjbg26b" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_03.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://d2u152s08fumo" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_04.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c0f1oyp8veqa6" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_05.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bkgeouytxo2bw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_06.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cy1w1vq0tf7i" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_07.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cig6y2kaydt7" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_08.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://r34v7w3lar2b" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_09.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://croexcgjbuiug" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_10.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ba7mtccbrjefp" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_11.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dlxhd0c5kj1at" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_12.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://7yxepi0kucmc" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_13.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bkwuwqlabggsw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_14.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://divj3i1arc7um" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_15.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://laab8y7mulgv" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_16.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cvqgf3c2iryds" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_17.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c1matcyrnrupb" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_18.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bivrqg20a13kp" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_19.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://w0y7307xtmig" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_20.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bp6jvkhvgdi5p" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_21.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b56iiid05no8g" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_22.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bcykm6k2rcs3d" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_23.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://d1ofmx7hvekff" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_24.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://donlrrgpn8g8m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_25.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cdnfr5ca5dsv" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_26.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dchj58pisigbf" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_27.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://rksvtgmkdo4k" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_28.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://chydp0hecwnd7" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_29.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://7og16n18mjnb" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_30.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c5b1ekbgpy13m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_31.png" id="33"]
+[ext_resource type="Material" uid="uid://s6yah842ep34" path="res://shared/assets/particle_materials/breath2.material" id="34"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cyc1y1gnfrbk" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/handgun.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c8noxo4tysbpt" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/rifle.png" id="37"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="38"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i8m0i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_mtfrj"]
+
+[node name="GuardPanel" type="Panel"]
+offset_left = 1273.0
+offset_top = 169.0
+offset_right = 2121.0
+offset_bottom = 710.0
+mouse_filter = 2
+
+[node name="GuardSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 21.0
+offset_right = 324.0
+offset_bottom = 134.0
+theme = ExtResource("1")
+text = "prison_smith_speech"
+autowrap_mode = 3
+
+[node name="GuardSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(641, 287.187)
+scale = Vector2(0.939252, 0.939252)
+sprite_frames = SubResource("SpriteFrames_i8m0i")
+autoplay = "default"
+frame_progress = 0.46022000908851624
+
+[node name="dvasa7" type="GPUParticles2D" parent="GuardSprite"]
+material = SubResource("CanvasItemMaterial_mtfrj")
+position = Vector2(-75, 14)
+scale = Vector2(0.5, 0.5)
+amount = 32
+process_material = ExtResource("34")
+texture = ExtResource("35")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.8399999737739563
+trail_lifetime = 0.5
+
+[node name="HandgunSprite" type="Sprite2D" parent="."]
+position = Vector2(356, 216)
+texture = ExtResource("36")
+
+[node name="HandgunSprite2" type="Sprite2D" parent="."]
+position = Vector2(212, 368)
+rotation = 0.6930959820747375
+texture = ExtResource("37")
+
+[node name="RifleSpot" parent="." instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 66.0
+offset_top = 241.0
+offset_right = -425.0
+offset_bottom = -27.0
+focus_neighbor_top = NodePath("../GunSpot")
+focus_neighbor_right = NodePath("../GunSpot")
+hotspot_id = "_uo"
+text = "prison_rifle_tooltip"
+unlocked_item_ref_id = 16
+
+[node name="GunSpot" parent="." instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 259.0
+offset_top = 100.0
+offset_right = -392.0
+offset_bottom = -249.0
+focus_neighbor_left = NodePath("../RifleSpot")
+focus_neighbor_bottom = NodePath("../RifleSpot")
+hotspot_id = "KCd"
+text = "prison_gun_tooltip"
+unlocked_item_ref_id = 16

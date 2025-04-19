@@ -1,0 +1,83 @@
+[gd_scene load_steps=9 format=4 uid="uid://cjbxckx5hvnqi"]
+
+[ext_resource type="Texture2D" uid="uid://mfrkgnaa6br5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/robot_head_v2.0.png" id="1"]
+[ext_resource type="Material" uid="uid://bgjphkoj4187e" path="res://shared/assets/particle_materials/smokesmall.material" id="2"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://bttgl44qs2dwe" path="res://acts/full_game/colecting_parts_arc/drivein/assets/robot_warning_blank.png" id="5"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="6"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="7"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_t157b"]
+
+[node name="Panel" type="Panel"]
+offset_left = -257.0
+offset_top = -1248.0
+offset_right = 516.0
+offset_bottom = -526.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(387, 358)
+texture = ExtResource("1")
+
+[node name="smoke" type="GPUParticles2D" parent="Sprite2D"]
+material = SubResource("CanvasItemMaterial_t157b")
+position = Vector2(104, 0)
+scale = Vector2(0.5, 0.5)
+amount = 20
+process_material = ExtResource("2")
+texture = ExtResource("3")
+lifetime = 2.0
+randomness = 0.1599999964237213
+trail_lifetime = 0.5
+
+[node name="Suitspot2" parent="Sprite2D" instance=ExtResource("4")]
+offset_left = 12.0
+offset_top = 157.0
+offset_right = -629.0
+offset_bottom = -465.0
+hotspot_id = "n6y"
+
+[node name="Highlighter" parent="Sprite2D/Suitspot2/Indicators" index="0"]
+modulate = Color(0.953391, 0.802805, 0.344507, 1)
+position = Vector2(-14, -20)
+frame_progress = 0.15901599824428558
+
+[node name="FocusIndicator" parent="Sprite2D/Suitspot2/Indicators" index="1"]
+position = Vector2(-13, -16)
+
+[node name="Panel" type="Panel" parent="Sprite2D/Suitspot2"]
+layout_mode = 0
+offset_left = 394.0
+offset_top = 21.0
+offset_right = 882.0
+offset_bottom = 277.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Suitspot2/Panel"]
+position = Vector2(244, 126)
+texture = ExtResource("5")
+
+[node name="Label" type="Label" parent="Sprite2D/Suitspot2/Panel/Sprite2D"]
+offset_left = -110.0
+offset_top = -97.0
+offset_right = 171.0
+offset_bottom = -52.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "cinema_warning_title"
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Sprite2D/Suitspot2/Panel/Sprite2D"]
+offset_left = -110.0
+offset_top = -51.0
+offset_right = 179.0
+offset_bottom = 93.0
+theme = ExtResource("7")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = -3
+theme_override_font_sizes/font_size = 24
+text = "cinema_warning_body"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[editable path="Sprite2D/Suitspot2"]

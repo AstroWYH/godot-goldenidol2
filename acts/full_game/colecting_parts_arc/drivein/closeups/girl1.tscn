@@ -1,0 +1,214 @@
+[gd_scene load_steps=42 format=4 uid="uid://deqdujx7ffo6e"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://bsojrd1ug4qmh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bxwp6lkvrsdgn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://crcec3dvlg3xp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dni72x8it7bie" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ba26odrx846c4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c22qsldu0ppeh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bpa2bs36mw4fw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://3e21hfem4q67" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dnjyqxft8l0e3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d1o1ov0fmiyg0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://pqcod1xm5qbc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://by7devbsx06rv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ead30kpks0rl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b3vmnxrfoa1em" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ba65h2j3mkpal" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b7csw4xqr6ktc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cfjg2urr1b5sb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d1a13gyv8jg7v" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dt46pyey2ccae" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://tl2iurhecmdj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://q5faqq17aiwg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://pkh2a4p75go5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dotd1iwbd71nb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bbl8i8j1uy1jx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cgjrh7b0f757p" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dsnitfp4r4cxd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c03wer2yg2kq7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bstlfwyorc6g1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bd4cps8p8ab0s" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bnui15c61cedq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cg8fjdtek6i08" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://670kvxj5wlka" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c81117806p75g" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bbbg386cdx303" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c0dx8m1bvwdqb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://devniyaw7c5lx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="38"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="39"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="40"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dml2s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = 124.0
+offset_top = -686.0
+offset_right = 696.0
+offset_bottom = -140.0
+
+[node name="Label" type="Label" parent="."]
+z_index = 1
+layout_mode = 0
+offset_left = 22.0
+offset_top = 16.0
+offset_right = 544.0
+offset_bottom = 145.0
+theme = ExtResource("1")
+text = "cinema_last_car1_speech"
+autowrap_mode = 2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(379, 354)
+sprite_frames = SubResource("SpriteFrames_dml2s")
+autoplay = "default"
+frame_progress = 0.02662009932100773
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(123, 303)
+rotation = 0.11153099685907364
+texture = ExtResource("38")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("39")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "25"
+
+[node name="TicketSpot2" parent="." instance=ExtResource("40")]
+layout_mode = 1
+offset_left = 58.0
+offset_top = 246.0
+offset_right = -381.0
+offset_bottom = -192.0
+hotspot_id = "DIL"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
+modulate = Color(0.752941, 0.564706, 0.294118, 1)
+position = Vector2(1, -7)
+frame_progress = 0.1019660010933876
+
+[node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
+position = Vector2(2, -3)
+
+[editable path="TicketSpot2"]

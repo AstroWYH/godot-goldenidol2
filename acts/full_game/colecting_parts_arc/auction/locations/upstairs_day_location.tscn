@@ -1,0 +1,354 @@
+[gd_scene load_steps=44 format=4 uid="uid://its0023h3paa"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://bncex05brju8e" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_day_location.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://58ert5o6foqi" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://biwnpppoqkxpp" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ll7abtxy2ovg" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ch6ak70yw6fex" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bvqyr3si6viir" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://booba2pnju7y1" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://brqakbmr643eb" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://yhj3387ketqm" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d0rgj8n7wf12v" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dhacj4h4upitu" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://pu6k0io6w445" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://5r6u0mcmuahx" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://x8djkleexh6k" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://gshow32rqjyw" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://c424ujnby5ubw" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://du53favkwweah" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://csrkpyegpcjt" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bov0ltbahl1qx" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bk5qkgis1t0jy" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dtnyovu0arywg" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bgihfphhg3ova" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://br6hth4y21qjs" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cnjcb2pfytvg3" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cccf83in7qjea" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://ca4du66ivixa8" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dtrenswil6ijk" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b8utyypjrbgoq" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d2g7vmvrmeg7s" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_027.png" id="30"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="31"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="32"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="33"]
+[ext_resource type="Resource" uid="uid://cotbaa5abfbmx" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_day_location.tres" id="34"]
+[ext_resource type="PackedScene" uid="uid://ttn02dbw3fly" path="res://acts/full_game/colecting_parts_arc/auction/closeups/guard_closeup.tscn" id="35"]
+[ext_resource type="PackedScene" uid="uid://bhj4s6rsjv1wc" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lot_closeup3.tscn" id="36"]
+[ext_resource type="PackedScene" uid="uid://bda3foullqxt4" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lot_closeup1.tscn" id="37"]
+[ext_resource type="PackedScene" uid="uid://cg5ufjv3sk5n1" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lot_closeup2.tscn" id="38"]
+[ext_resource type="PackedScene" uid="uid://xtq1unh4xjtt" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lot_closeup4.tscn" id="39"]
+[ext_resource type="PackedScene" uid="uid://cc1c8xhtkh3ca" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lot_closeup5.tscn" id="40"]
+[ext_resource type="PackedScene" uid="uid://cb41nehuuvxx7" path="res://acts/full_game/colecting_parts_arc/auction/auction_time_travel_bar_upstairs.tscn" id="41"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_78lxr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_kmqjc"]
+script = ExtResource("33")
+linked_item_ref_id = 322
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(476, 624)
+sprite_frames = SubResource("SpriteFrames_78lxr")
+autoplay = "default"
+frame_progress = 0.050912998616695404
+
+[node name="Clock1" type="Label" parent="."]
+offset_left = 1738.0
+offset_top = 74.0
+offset_right = 1890.0
+offset_bottom = 132.0
+theme = ExtResource("31")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "auction_evening_button"
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="FuseBoxSpot2" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 120.0
+offset_top = 515.0
+offset_right = 255.0
+offset_bottom = 734.0
+hotspot_id = "nXV"
+text = "auction_2day_circutbox_tooltip"
+extra_items_unlocked = [SubResource("Resource_kmqjc")]
+
+[node name="Highlighter" parent="Hotspots/FuseBoxSpot2/Indicators" index="0"]
+modulate = Color(0.74614, 0.32298, 0.272357, 1)
+position = Vector2(41, 13)
+
+[node name="FocusIndicator" parent="Hotspots/FuseBoxSpot2/Indicators" index="1"]
+position = Vector2(42, 17)
+
+[node name="Downstairs" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 26.0
+offset_top = 870.0
+offset_right = 1855.0
+offset_bottom = 1032.0
+hotspot_id = "UOO"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("34")
+transition = 4
+transition_sound = 17
+
+[node name="Highlighter" parent="Hotspots/Downstairs/Indicators" index="0"]
+modulate = Color(0.72, 0.41328, 0.2088, 1)
+animation = &"location"
+
+[node name="GuardSpot2" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 377.0
+offset_top = 374.0
+offset_right = 516.0
+offset_bottom = 798.0
+hotspot_id = "pLL"
+unlocked_character_ref_id = 12
+unlocked_item_ref_id = 80
+
+[node name="Highlighter" parent="Hotspots/GuardSpot2/Indicators" index="0"]
+modulate = Color(0.741176, 0.811765, 0.439216, 1)
+
+[node name="GuardCloseup" parent="Hotspots/GuardSpot2" instance=ExtResource("35")]
+layout_mode = 0
+offset_left = -1441.0
+offset_top = 406.0
+offset_right = -790.0
+offset_bottom = 894.0
+
+[node name="SealLotsSpot" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 567.0
+offset_top = 591.0
+offset_right = 643.0
+offset_bottom = 643.0
+hotspot_id = "B_O"
+
+[node name="Highlighter" parent="Hotspots/SealLotsSpot/Indicators" index="0"]
+modulate = Color(0.619608, 0.65098, 0.529412, 1)
+position = Vector2(-6, -6)
+
+[node name="FocusIndicator" parent="Hotspots/SealLotsSpot/Indicators" index="1"]
+position = Vector2(-5, -2)
+
+[node name="LotCloseup" parent="Hotspots/SealLotsSpot" instance=ExtResource("36")]
+layout_mode = 0
+offset_left = -943.0
+offset_top = 857.0
+offset_right = -482.0
+offset_bottom = 1325.0
+
+[node name="CryptidLot" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 715.0
+offset_top = 579.0
+offset_right = 777.0
+offset_bottom = 634.0
+hotspot_id = "DZ5"
+
+[node name="Highlighter" parent="Hotspots/CryptidLot/Indicators" index="0"]
+modulate = Color(0.620367, 0.651909, 0.52989, 1)
+position = Vector2(3.5, -4.75)
+
+[node name="FocusIndicator" parent="Hotspots/CryptidLot/Indicators" index="1"]
+position = Vector2(4.5, -0.75)
+
+[node name="LotCloseup" parent="Hotspots/CryptidLot" instance=ExtResource("37")]
+layout_mode = 0
+offset_left = -1848.0
+offset_top = 851.0
+offset_right = -1386.0
+offset_bottom = 1321.0
+
+[node name="EmptyLot" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 865.0
+offset_top = 584.0
+offset_right = 913.0
+offset_bottom = 639.0
+hotspot_id = "4hf"
+
+[node name="Highlighter" parent="Hotspots/EmptyLot/Indicators" index="0"]
+modulate = Color(0.619608, 0.65098, 0.529412, 1)
+position = Vector2(-2, 9)
+
+[node name="FocusIndicator" parent="Hotspots/EmptyLot/Indicators" index="1"]
+position = Vector2(-1, 13)
+
+[node name="LotCloseup" parent="Hotspots/EmptyLot" instance=ExtResource("38")]
+layout_mode = 0
+offset_left = -433.0
+offset_top = 886.0
+offset_right = 24.0
+offset_bottom = 1362.0
+
+[node name="IdolLotSpot" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 1011.0
+offset_top = 572.0
+offset_right = 1047.0
+offset_bottom = 641.0
+hotspot_id = "pXn"
+
+[node name="Highlighter" parent="Hotspots/IdolLotSpot/Indicators" index="0"]
+modulate = Color(0.619608, 0.65098, 0.529412, 1)
+position = Vector2(28.5, 16.25)
+
+[node name="FocusIndicator" parent="Hotspots/IdolLotSpot/Indicators" index="1"]
+position = Vector2(29.5, 20.25)
+
+[node name="LotCloseup" parent="Hotspots/IdolLotSpot" instance=ExtResource("39")]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 908.0
+offset_right = 628.0
+offset_bottom = 1372.0
+
+[node name="TotemLotSpot" parent="Hotspots" instance=ExtResource("32")]
+layout_mode = 1
+offset_left = 1176.0
+offset_top = 567.0
+offset_right = 1225.0
+offset_bottom = 636.0
+focus_neighbor_top = NodePath("../../TimeTravelBar/VBoxContainer/Night")
+focus_neighbor_right = NodePath("../../TimeTravelBar/VBoxContainer/Night")
+hotspot_id = "cCZ"
+
+[node name="Highlighter" parent="Hotspots/TotemLotSpot/Indicators" index="0"]
+modulate = Color(0.743539, 0.771628, 0.665477, 1)
+position = Vector2(29, 25)
+
+[node name="FocusIndicator" parent="Hotspots/TotemLotSpot/Indicators" index="1"]
+position = Vector2(30, 29)
+
+[node name="LotCloseup" parent="Hotspots/TotemLotSpot" instance=ExtResource("40")]
+layout_mode = 0
+offset_left = 626.0
+offset_top = 915.0
+offset_right = 1090.0
+offset_bottom = 1379.0
+
+[node name="TimeTravelBar" parent="." instance=ExtResource("41")]
+offset_left = 1900.0
+offset_top = 20.0
+offset_right = 1900.0
+offset_bottom = 20.0
+
+[node name="Day" parent="TimeTravelBar/VBoxContainer" index="0"]
+focus_neighbor_left = NodePath("../../../Hotspots/TotemLotSpot")
+
+[node name="Night" parent="TimeTravelBar/VBoxContainer" index="1"]
+focus_neighbor_left = NodePath("../../../Hotspots/TotemLotSpot")
+focus_neighbor_bottom = NodePath("../../../Hotspots/TotemLotSpot")
+
+[editable path="Hotspots/FuseBoxSpot2"]
+[editable path="Hotspots/Downstairs"]
+[editable path="Hotspots/GuardSpot2"]
+[editable path="Hotspots/SealLotsSpot"]
+[editable path="Hotspots/CryptidLot"]
+[editable path="Hotspots/EmptyLot"]
+[editable path="Hotspots/IdolLotSpot"]
+[editable path="Hotspots/TotemLotSpot"]
+[editable path="TimeTravelBar"]

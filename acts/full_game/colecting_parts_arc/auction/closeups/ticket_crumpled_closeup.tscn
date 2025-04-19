@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=4 uid="uid://b34ssjlmpaa7c"]
+
+[ext_resource type="Texture2D" uid="uid://dwbc5mlq12nw6" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/tickett_crumpled.png" id="1"]
+
+[node name="TicketCrumpledCloseup" type="Panel"]
+offset_left = 872.0
+offset_top = 322.0
+offset_right = 1029.0
+offset_bottom = 517.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(83, 95)
+texture = ExtResource("1")

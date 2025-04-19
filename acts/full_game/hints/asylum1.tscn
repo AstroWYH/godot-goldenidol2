@@ -1,0 +1,241 @@
+[gd_scene load_steps=8 format=4 uid="uid://c7vcuqqykaa65"]
+
+[ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dxrk0cc7s5vb6" path="res://acts/full_game/hints/assets/bubble.png" id="2"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]
+[ext_resource type="Texture2D" uid="uid://kryye4baald4" path="res://acts/full_game/hints/assets/asylum01.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b8n3r3merok4c" path="res://acts/full_game/hints/assets/fool.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://d0ryrkcpkkwy5" path="res://acts/full_game/hints/assets/prof2.png" id="7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Book" type="Sprite2D" parent="."]
+position = Vector2(964, 520)
+texture = ExtResource("1")
+
+[node name="Node2D" type="Node2D" parent="Book"]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Book/Node2D"]
+offset_left = 515.0
+offset_top = 307.0
+offset_right = 1010.0
+offset_bottom = 812.0
+rotation = -3.1398000717163086
+texture = ExtResource("2")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 200
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="Book/Node2D"]
+offset_left = -19.0
+offset_top = 6.0
+offset_right = 277.0
+offset_bottom = 456.0
+rotation = -4.710820198059082
+texture = ExtResource("2")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 200
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="Book/Node2D"]
+offset_left = -585.0
+offset_top = -39.0
+offset_right = -423.0
+offset_bottom = 433.0
+rotation = -7.840720176696777
+texture = ExtResource("2")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 200
+
+[node name="Label" type="Label" parent="Book/Node2D"]
+offset_left = -472.0
+offset_top = -330.0
+offset_right = -48.0
+offset_bottom = -186.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 48
+text = "on the identities
+of the characters"
+autowrap_mode = 2
+
+[node name="Label5" type="Label" parent="Book/Node2D"]
+offset_left = -568.0
+offset_top = -207.0
+offset_right = -469.0
+offset_bottom = -83.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 100
+text = "1"
+autowrap_mode = 2
+
+[node name="Label6" type="Label" parent="Book/Node2D"]
+offset_left = 34.0
+offset_top = -161.0
+offset_right = 133.0
+offset_bottom = -37.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 100
+text = "2"
+autowrap_mode = 2
+
+[node name="Label7" type="Label" parent="Book/Node2D"]
+offset_left = -413.0
+offset_right = -314.0
+offset_bottom = 124.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 100
+text = "3"
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="Book/Node2D"]
+offset_left = -526.0
+offset_top = -184.0
+offset_right = -173.0
+offset_bottom = -62.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_constants/line_spacing = -2
+theme_override_font_sizes/font_size = 24
+text = "A good rule of business is, if there’s someone you think is important to know, the first thing to do is get their number"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Label3" type="Label" parent="Book/Node2D"]
+offset_left = -349.0
+offset_top = 25.0
+offset_right = -22.0
+offset_bottom = 289.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_constants/line_spacing = -2
+theme_override_font_sizes/font_size = 24
+text = "It sounds like you should be able to name the victim by his uniform. Is he wearing a name badge? As for the other one, did you see what the room number was? Surely someone is keeping track of who is in each room. If you can’t see it, look for a pattern of odd and even numbers."
+autowrap_mode = 2
+
+[node name="Label4" type="Label" parent="Book/Node2D"]
+offset_left = 43.0
+offset_top = 47.0
+offset_right = 507.0
+offset_bottom = 430.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_constants/line_spacing = -2
+theme_override_font_sizes/font_size = 24
+text = "People will always judge you based on how you dress. Don’t wear an orange jumpsuit unless you want people to think you’re a prison inmate!
+
+Some people display their names proudly on their chest, other times, it can help to know where a person is if you want to know more about them."
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="Book/Node2D"]
+position = Vector2(305, -53)
+texture = ExtResource("5")
+
+[node name="Node2D2" type="Node2D" parent="Book"]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Book/Node2D2"]
+offset_left = 515.0
+offset_top = 66.0
+offset_right = 659.0
+offset_bottom = 330.0
+rotation = -3.1398000717163086
+texture = ExtResource("2")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 200
+
+[node name="NinePatchRect2" type="NinePatchRect" parent="Book/Node2D2"]
+offset_left = -205.0
+offset_top = 6.0
+offset_right = -77.0
+offset_bottom = 270.0
+rotation = -4.710820198059082
+texture = ExtResource("2")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 200
+
+[node name="NinePatchRect3" type="NinePatchRect" parent="Book/Node2D2"]
+offset_left = -377.0
+offset_top = -36.0
+offset_right = -215.0
+offset_bottom = 228.0
+rotation = -7.840720176696777
+texture = ExtResource("2")
+patch_margin_left = 64
+patch_margin_top = 64
+patch_margin_right = 64
+patch_margin_bottom = 200
+
+[node name="Label" type="Label" parent="Book/Node2D2"]
+offset_left = -472.0
+offset_top = -330.0
+offset_right = -48.0
+offset_bottom = -186.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 48
+text = "on the identities
+of the characters"
+autowrap_mode = 2
+
+[node name="Label5" type="Label" parent="Book/Node2D2"]
+offset_left = -300.0
+offset_top = -184.0
+offset_right = -201.0
+offset_bottom = -60.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.67451, 0.196078, 0.196078, 1)
+theme_override_font_sizes/font_size = 100
+text = "1"
+autowrap_mode = 2
+
+[node name="Label6" type="Label" parent="Book/Node2D2"]
+offset_left = 413.0
+offset_top = -116.0
+offset_right = 512.0
+offset_bottom = 8.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.67451, 0.196078, 0.196078, 1)
+theme_override_font_sizes/font_size = 100
+text = "2"
+autowrap_mode = 2
+
+[node name="Label7" type="Label" parent="Book/Node2D2"]
+offset_left = -352.0
+offset_top = 9.0
+offset_right = -253.0
+offset_bottom = 133.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.67451, 0.196078, 0.192157, 1)
+theme_override_font_sizes/font_size = 100
+text = "3"
+autowrap_mode = 2
+
+[node name="Fool" type="Sprite2D" parent="Book"]
+position = Vector2(-524, -287)
+texture = ExtResource("6")
+
+[node name="Prof" type="Sprite2D" parent="Book"]
+position = Vector2(-62, -91)
+texture = ExtResource("7")
+
+[node name="Prof2" type="Sprite2D" parent="Book"]
+position = Vector2(-529, 61)
+scale = Vector2(-1, 1)
+texture = ExtResource("7")
+
+[node name="Prof3" type="Sprite2D" parent="Book"]
+position = Vector2(502, -287)
+texture = ExtResource("7")

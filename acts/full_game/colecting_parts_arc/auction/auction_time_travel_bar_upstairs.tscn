@@ -1,0 +1,46 @@
+[gd_scene load_steps=11 format=4 uid="uid://cb41nehuuvxx7"]
+
+[ext_resource type="PackedScene" uid="uid://cnkfopi0yvnsu" path="res://shared/ui/location_button/travel_bar.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://b6tnh80aut1bi" path="res://shared/ui/location_button/change_location_button.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://ceob0mwk2gegg" path="res://shared/ui/top_bar/btn_clock_auction_01_idle.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b4ur0rkx5hkrj" path="res://shared/ui/top_bar/btn_clock_auction_01_over.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://csbsu7243nm30" path="res://shared/ui/top_bar/btn_clock_auction_01_active.png" id="5"]
+[ext_resource type="Resource" uid="uid://bncex05brju8e" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_day_location.tres" id="6"]
+[ext_resource type="Texture2D" uid="uid://cctmyxkq4iptr" path="res://shared/ui/top_bar/btn_clock_auction_02_idle.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://btld6nrflgfav" path="res://shared/ui/top_bar/btn_clock_auction_02_over.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dkxffpn1crhp2" path="res://shared/ui/top_bar/btn_clock_auction_02_active.png" id="9"]
+[ext_resource type="Resource" uid="uid://breqfce5lp18y" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_night_location.tres" id="10"]
+
+[node name="TimeTravelBar" node_paths=PackedStringArray("travel_button_list") instance=ExtResource("1")]
+offset_bottom = -1080.0
+mouse_filter = 2
+travel_button_list = [NodePath("VBoxContainer/Day"), NodePath("VBoxContainer/Night")]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="0"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -123.0
+offset_right = -3.0
+offset_bottom = 235.0
+grow_horizontal = 0
+theme_override_constants/separation = -5
+
+[node name="Day" parent="VBoxContainer" index="0" instance=ExtResource("2")]
+layout_mode = 2
+focus_neighbor_bottom = NodePath("../Night")
+texture_normal = ExtResource("3")
+texture_hover = ExtResource("4")
+texture_disabled = ExtResource("5")
+target_location_meta = ExtResource("6")
+transition_sound = 16
+
+[node name="Night" parent="VBoxContainer" index="1" instance=ExtResource("2")]
+layout_mode = 2
+focus_neighbor_top = NodePath("../Day")
+texture_normal = ExtResource("7")
+texture_hover = ExtResource("8")
+texture_disabled = ExtResource("9")
+target_location_meta = ExtResource("10")
+transition_sound = 16

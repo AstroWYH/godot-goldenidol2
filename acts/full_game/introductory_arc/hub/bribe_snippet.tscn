@@ -1,0 +1,71 @@
+[gd_scene load_steps=5 format=4 uid="uid://jhgi6npharr7"]
+
+[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://c5lsviwtqhb5l" path="res://acts/full_game/introductory_arc/hub/assets/letter01.png" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="Texture2D" uid="uid://htfvrijsp614" path="res://shared/assets/frames/frame_transparent.png" id="4"]
+
+[node name="Control" type="ColorRect"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.294118, 0.294118, 0.294118, 0.301961)
+script = ExtResource("1")
+sequence_element_id = "poster_snippet"
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 1019.0
+offset_top = 62.0
+offset_right = 1843.0
+offset_bottom = 889.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Panel"]
+position = Vector2(11, 7)
+texture = ExtResource("2")
+centered = false
+
+[node name="Title" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 115.0
+offset_top = 52.0
+offset_right = 747.0
+offset_bottom = 589.0
+rotation = 0.09509509801864624
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "INTRO_ARC_BRANDON_SNIPPET_BODY"
+autowrap_mode = 3
+
+[node name="Title2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 301.0
+offset_top = 426.0
+offset_right = 718.0
+offset_bottom = 570.0
+rotation = 0.07354570180177689
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 30
+text = "INTRO_ARC_BRANDON_SNIPPET_SIGNATURE"
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -6.0
+offset_right = 4.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4")
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

@@ -1,0 +1,369 @@
+[gd_scene load_steps=43 format=4 uid="uid://c4oiusxd3dxrc"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://dul2qnj77nbk7" path="res://acts/full_game/introductory_arc/conference/locations/office_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://ccooug4cq57qe" path="res://shared/assets/light.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://dyibdt24vxisu" path="res://acts/full_game/introductory_arc/conference/locations/conference_location_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://cls8dv7a11711" path="res://acts/full_game/introductory_arc/conference/closeups/bin_panel.tscn" id="6"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="7"]
+[ext_resource type="PackedScene" uid="uid://ctel3m0q2wxai" path="res://acts/full_game/introductory_arc/conference/closeups/dirty_william_case_panel.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://bybjvwsno4smd" path="res://acts/full_game/introductory_arc/conference/closeups/computer_panel.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://ql6wb8g4pheg" path="res://acts/full_game/introductory_arc/conference/closeups/isaacs_case_panel.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://dapjx287heh6x" path="res://acts/full_game/introductory_arc/conference/closeups/red_curse_case_panel.tscn" id="11"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_khgr1"]
+blend_mode = 1
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_tg0by"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_nxkl1"]
+offsets = PackedFloat32Array(0, 0.267677, 0.782828, 1)
+colors = PackedColorArray(0.933333, 0.933333, 0.545098, 0.0901961, 1, 1, 0.772549, 1, 1, 1, 0.772549, 0.803922, 1, 1, 0.772549, 0.0862745)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_hxixl"]
+gradient = SubResource("Gradient_nxkl1")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_f44g3"]
+particle_flag_rotate_y = true
+particle_flag_disable_z = true
+angle_min = 1.0728799679782242e-05
+angle_max = 356.70001220703125
+direction = Vector3(1, 1, 0)
+gravity = Vector3(0, 3, 0)
+linear_accel_min = -2.2351700863509905e-06
+linear_accel_max = 16.510000228881836
+radial_accel_min = -2.2351700863509905e-06
+radial_accel_max = 40.369998931884766
+tangential_accel_min = -2.2351700863509905e-06
+tangential_accel_max = 69.72000122070313
+scale_max = 4.0
+color_ramp = SubResource("GradientTexture1D_hxixl")
+
+[sub_resource type="Resource" id="Resource_4a0ee"]
+script = ExtResource("7")
+linked_item_ref_id = 579
+
+[sub_resource type="Resource" id="Resource_sgee5"]
+script = ExtResource("7")
+linked_item_ref_id = 360
+
+[sub_resource type="Resource" id="Resource_hbu4y"]
+script = ExtResource("7")
+linked_item_ref_id = 361
+
+[sub_resource type="Resource" id="Resource_jl03l"]
+script = ExtResource("7")
+linked_item_ref_id = 496
+
+[sub_resource type="Resource" id="Resource_nguq0"]
+script = ExtResource("7")
+linked_item_ref_id = 497
+
+[sub_resource type="Resource" id="Resource_fnmhj"]
+script = ExtResource("7")
+linked_item_ref_id = 581
+
+[sub_resource type="Resource" id="Resource_0gavf"]
+script = ExtResource("7")
+linked_item_ref_id = 288
+
+[sub_resource type="Resource" id="Resource_fj3l8"]
+script = ExtResource("7")
+linked_item_ref_id = 501
+
+[sub_resource type="Resource" id="Resource_p1o05"]
+script = ExtResource("7")
+linked_item_ref_id = 360
+
+[sub_resource type="Resource" id="Resource_4ydhs"]
+script = ExtResource("7")
+linked_item_ref_id = 361
+
+[sub_resource type="Resource" id="Resource_4woc4"]
+script = ExtResource("7")
+linked_item_ref_id = 279
+
+[sub_resource type="Resource" id="Resource_ohuxe"]
+script = ExtResource("7")
+linked_item_ref_id = 280
+
+[sub_resource type="Resource" id="Resource_txb6e"]
+script = ExtResource("7")
+linked_item_ref_id = 490
+
+[sub_resource type="Resource" id="Resource_lf1iy"]
+script = ExtResource("7")
+linked_item_ref_id = 498
+
+[sub_resource type="Resource" id="Resource_ql4dk"]
+script = ExtResource("7")
+linked_item_ref_id = 491
+
+[sub_resource type="Resource" id="Resource_p7800"]
+script = ExtResource("7")
+linked_item_ref_id = 581
+
+[sub_resource type="Resource" id="Resource_vklsf"]
+script = ExtResource("7")
+linked_item_ref_id = 499
+
+[sub_resource type="Resource" id="Resource_7ruwy"]
+script = ExtResource("7")
+linked_item_ref_id = 535
+
+[sub_resource type="Resource" id="Resource_xfub6"]
+script = ExtResource("7")
+linked_item_ref_id = 360
+
+[sub_resource type="Resource" id="Resource_f13a7"]
+script = ExtResource("7")
+linked_item_ref_id = 361
+
+[sub_resource type="Resource" id="Resource_wgirg"]
+script = ExtResource("7")
+linked_item_ref_id = 358
+
+[sub_resource type="Resource" id="Resource_g048d"]
+script = ExtResource("7")
+linked_item_ref_id = 359
+
+[sub_resource type="Resource" id="Resource_k5nuh"]
+script = ExtResource("7")
+linked_item_ref_id = 826
+
+[sub_resource type="Resource" id="Resource_gc1hq"]
+script = ExtResource("7")
+linked_item_ref_id = 455
+
+[sub_resource type="Resource" id="Resource_hens3"]
+script = ExtResource("7")
+linked_item_ref_id = 611
+
+[sub_resource type="Resource" id="Resource_l3x87"]
+script = ExtResource("7")
+linked_item_ref_id = 618
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_khgr1")
+position = Vector2(963, 540)
+texture = ExtResource("3")
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D"]
+clip_children = 1
+offset_left = -1662.0
+offset_top = 433.0
+offset_right = 1478.0
+offset_bottom = 1115.0
+rotation = -0.4166010022163391
+color = Color(0, 0, 0, 1)
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
+material = SubResource("CanvasItemMaterial_tg0by")
+position = Vector2(2759.51, 310.178)
+rotation = 0.4166010022163391
+amount = 64
+process_material = SubResource("ParticleProcessMaterial_f44g3")
+lifetime = 16.14
+explosiveness = 0.25
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
+material = SubResource("CanvasItemMaterial_tg0by")
+position = Vector2(2056.16, -13.0845)
+rotation = 0.4166010022163391
+amount = 64
+process_material = SubResource("ParticleProcessMaterial_f44g3")
+lifetime = 16.14
+explosiveness = 0.25
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
+material = SubResource("CanvasItemMaterial_tg0by")
+position = Vector2(877.009, -29.65)
+rotation = 0.4166010022163391
+amount = 64
+process_material = SubResource("ParticleProcessMaterial_f44g3")
+lifetime = 16.14
+explosiveness = 0.25
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ToConferenceSpot" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 301.0
+offset_top = 253.0
+offset_right = 575.0
+offset_bottom = 679.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "fSP"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("5")
+
+[node name="Indicators" parent="Hotspots/ToConferenceSpot" index="0"]
+offset_left = -40.406700134277344
+offset_top = 134.45700073242188
+offset_right = -40.406700134277344
+offset_bottom = 134.45700073242188
+
+[node name="Highlighter" parent="Hotspots/ToConferenceSpot/Indicators" index="0"]
+modulate = Color(0.592157, 0.568627, 0.305882, 1)
+
+[node name="TrashBinSpot" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 475.0
+offset_top = 916.0
+offset_right = 561.0
+offset_bottom = 1022.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "WfF"
+
+[node name="Indicators" parent="Hotspots/TrashBinSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="BinPanel" parent="Hotspots/TrashBinSpot" instance=ExtResource("6")]
+layout_mode = 0
+offset_left = -333.5360107421875
+offset_top = 586.9949951171875
+offset_right = -30.535600662231445
+offset_bottom = 912.9949951171875
+
+[node name="DirtyWilliamCaseSpot" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 697.0
+offset_top = 666.0
+offset_right = 839.0
+offset_bottom = 707.0
+hotspot_id = "uMP"
+extra_items_unlocked = [SubResource("Resource_4a0ee"), SubResource("Resource_sgee5"), SubResource("Resource_hbu4y"), SubResource("Resource_jl03l"), SubResource("Resource_nguq0"), SubResource("Resource_fnmhj")]
+
+[node name="Indicators" parent="Hotspots/DirtyWilliamCaseSpot" index="0"]
+offset_left = -2.5
+offset_top = 47.0
+offset_right = -2.5
+offset_bottom = 47.0
+
+[node name="Highlighter" parent="Hotspots/DirtyWilliamCaseSpot/Indicators" index="0"]
+modulate = Color(0.927246, 0.940173, 0.909498, 1)
+
+[node name="DirtyWilliamCasePanel" parent="Hotspots/DirtyWilliamCaseSpot" instance=ExtResource("8")]
+layout_mode = 0
+offset_left = 2069.0
+offset_top = 90.0
+offset_right = 3059.0
+offset_bottom = 686.0
+
+[node name="ComputerSpot" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 983.0
+offset_top = 516.0
+offset_right = 1084.0
+offset_bottom = 668.0
+hotspot_id = "BNK"
+
+[node name="Indicators" parent="Hotspots/ComputerSpot" index="0"]
+offset_left = -2.5
+offset_top = 47.0
+offset_right = -2.5
+offset_bottom = 47.0
+
+[node name="Highlighter" parent="Hotspots/ComputerSpot/Indicators" index="0"]
+modulate = Color(0.941922, 0.951786, 0.929201, 1)
+
+[node name="ComputerPanel" parent="Hotspots/ComputerSpot" instance=ExtResource("9")]
+layout_mode = 0
+offset_left = 994.0
+offset_top = 1042.0
+offset_right = 1993.0
+offset_bottom = 1760.0
+
+[node name="IsaacsCaseSpot" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 1154.0
+offset_top = 674.0
+offset_right = 1217.0
+offset_bottom = 709.0
+hotspot_id = "nCg"
+extra_items_unlocked = [SubResource("Resource_0gavf"), SubResource("Resource_fj3l8"), SubResource("Resource_p1o05"), SubResource("Resource_4ydhs"), SubResource("Resource_4woc4"), SubResource("Resource_ohuxe"), SubResource("Resource_txb6e"), SubResource("Resource_lf1iy"), SubResource("Resource_ql4dk")]
+
+[node name="Indicators" parent="Hotspots/IsaacsCaseSpot" index="0"]
+offset_left = -5.5
+offset_top = 21.0
+offset_right = -5.5
+offset_bottom = 21.0
+
+[node name="Highlighter" parent="Hotspots/IsaacsCaseSpot/Indicators" index="0"]
+modulate = Color(0.927246, 0.940173, 0.909498, 1)
+
+[node name="IsaacsCasePanel" parent="Hotspots/IsaacsCaseSpot" instance=ExtResource("10")]
+layout_mode = 0
+offset_left = 1651.0
+offset_top = -723.0
+offset_right = 2630.0
+offset_bottom = -125.0
+
+[node name="RedCurseCase" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 681.0
+offset_top = 778.0
+offset_right = 848.0
+offset_bottom = 1005.0
+hotspot_id = "k5Y"
+extra_items_unlocked = [SubResource("Resource_p7800"), SubResource("Resource_vklsf"), SubResource("Resource_7ruwy"), SubResource("Resource_xfub6"), SubResource("Resource_f13a7"), SubResource("Resource_wgirg"), SubResource("Resource_g048d"), SubResource("Resource_k5nuh"), SubResource("Resource_gc1hq"), SubResource("Resource_hens3"), SubResource("Resource_l3x87")]
+
+[node name="Indicators" parent="Hotspots/RedCurseCase" index="0"]
+offset_left = -5.5
+offset_top = 21.0
+offset_right = -5.5
+offset_bottom = 21.0
+
+[node name="Highlighter" parent="Hotspots/RedCurseCase/Indicators" index="0"]
+modulate = Color(0.927246, 0.940173, 0.909498, 1)
+
+[node name="RedCurseCasePanel" parent="Hotspots/RedCurseCase" instance=ExtResource("11")]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 1118.0
+offset_right = 978.0
+offset_bottom = 1740.0
+
+[node name="FlagSpot" parent="Hotspots" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 1547.0
+offset_top = 290.0
+offset_right = 1725.0
+offset_bottom = 819.0
+hotspot_id = "Zd2"
+text = "CONFERENCE_OFFICE_FLAG_TOOLTIP"
+
+[node name="Indicators" parent="Hotspots/FlagSpot" index="0"]
+offset_left = -2.5
+offset_top = 47.0
+offset_right = -2.5
+offset_bottom = 47.0
+
+[node name="Highlighter" parent="Hotspots/FlagSpot/Indicators" index="0"]
+modulate = Color(0.927246, 0.940173, 0.909498, 1)
+position = Vector2(-6, -8.75)
+
+[node name="FocusIndicator" parent="Hotspots/FlagSpot/Indicators" index="1"]
+position = Vector2(-5, -4.75)
+
+[editable path="Hotspots/ToConferenceSpot"]
+[editable path="Hotspots/TrashBinSpot"]
+[editable path="Hotspots/DirtyWilliamCaseSpot"]
+[editable path="Hotspots/ComputerSpot"]
+[editable path="Hotspots/IsaacsCaseSpot"]
+[editable path="Hotspots/RedCurseCase"]
+[editable path="Hotspots/FlagSpot"]

@@ -1,0 +1,322 @@
+[gd_scene load_steps=54 format=4 uid="uid://bt0rjlmqaafx6"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://b2agpmei1ustt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/mikenote_small.png" id="5"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Resource" uid="uid://ebkmpp8cjdtu" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_wager_puzzle_meta.tres" id="7"]
+[ext_resource type="Texture2D" uid="uid://dbl2lr3xxjj72" path="res://acts/full_game/colecting_parts_arc/drivein/assets/mikenote.png" id="8"]
+[ext_resource type="PackedScene" uid="uid://ud5tus06dknf" path="res://shared/ui/glyph_container/glyph_container.tscn" id="9"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="10"]
+[ext_resource type="Texture2D" uid="uid://cyro63ovpqcqw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/smudge1.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bqryfysbvkwo3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/smudge2.png" id="12"]
+[ext_resource type="PackedScene" uid="uid://b07f0qwoak5rs" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/bet_puzzle_footer.tscn" id="13"]
+[ext_resource type="Texture2D" uid="uid://cawohsntxrlc1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00000.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bn02sdwxqh3m" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00001.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ds4l8bcvjgidp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00002.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cs60yyd14w0e6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00003.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ddnfn7svqcuvn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00004.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://chlhmgnfbyqld" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00005.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://odhsemeskyvy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00006.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ktyqc7wlikig" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00007.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b0yjr13287is2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00008.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bhtyy1dovprst" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00009.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bsoyenbvncbls" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00010.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://d0pxxttbg6gro" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00011.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://d1vwwobx14rx2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00012.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dfo7xdoltvhj0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00013.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bx5amcrqvuisj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00014.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cv5xfyf2e4d0x" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00015.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dl7gpwhgwx38i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00016.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://c6sskgtdbxdmr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00017.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dag7t8knok2g5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00018.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dyioqchccd7e3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00019.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cmvpjbyjtvemu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00020.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dut1bofigv18w" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00021.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bsmh7h2l7t7cw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00022.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://77l2357sae26" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00023.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c0r83urgpji1s" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00024.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://j5qftk7u5hld" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00025.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cefgjbq6ggbx6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00026.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://d1c0oqxpwe1gb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00027.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bnaupos0t5l0c" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00028.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dnyli8cctwjka" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00029.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bt6s4g2e7pflc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00030.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://br6ebc1jmq4i2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00031.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bxoimow8deffs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00032.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://0nlnuy7h3ejf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00033.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cif5aij2pk448" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00034.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dyi3pl2cjngxf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/mike_lend/Mike_Lendl_00035.png" id="49"]
+
+[sub_resource type="Resource" id="Resource_kjebj"]
+script = ExtResource("6")
+linked_item_ref_id = 95
+
+[sub_resource type="Resource" id="Resource_ohsk5"]
+script = ExtResource("6")
+linked_item_ref_id = 147
+
+[sub_resource type="LabelSettings" id="LabelSettings_y21w7"]
+font = ExtResource("10")
+font_size = 26
+font_color = Color(0.294118, 0.266667, 0.231373, 1)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8m30f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = 1114.0
+offset_top = -125.0
+offset_right = 1722.0
+offset_bottom = 377.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 19.0
+offset_right = 511.0
+offset_bottom = 82.0
+theme = ExtResource("1")
+text = "ciname_mike_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(477, 170)
+rotation = 0.16230100393295288
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "21"
+
+[node name="TicketSpot2" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 406.0
+offset_top = 114.0
+offset_right = -59.0
+offset_bottom = -294.0
+hotspot_id = "DS8"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
+modulate = Color(0.74902, 0.560784, 0.294118, 1)
+position = Vector2(3, -5)
+frame_progress = 0.02631869912147522
+
+[node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
+position = Vector2(4, -1)
+
+[node name="NoteSprite" type="Sprite2D" parent="."]
+position = Vector2(483, 350)
+rotation = -0.053548701107501984
+texture = ExtResource("5")
+
+[node name="Spot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 424.0
+offset_top = 258.0
+offset_right = -69.0
+offset_bottom = -71.0
+hotspot_id = "VVe"
+unlocked_item_ref_id = 99
+extra_items_unlocked = [SubResource("Resource_kjebj"), SubResource("Resource_ohsk5")]
+unlocked_puzzles = [ExtResource("7")]
+
+[node name="Highlighter" parent="Spot/Indicators" index="0"]
+modulate = Color(0.421196, 0.389958, 0.34507, 1)
+position = Vector2(-1, 37)
+frame_progress = 0.6367279887199402
+
+[node name="FocusIndicator" parent="Spot/Indicators" index="1"]
+visible = false
+position = Vector2(0, 41)
+
+[node name="Panel" type="Panel" parent="Spot"]
+clip_contents = true
+layout_mode = 0
+offset_left = 206.0
+offset_top = -213.0
+offset_right = 809.0
+offset_bottom = 233.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Spot/Panel"]
+position = Vector2(301, 220)
+texture = ExtResource("8")
+
+[node name="GlyphContainer" parent="Spot/Panel/Sprite2D" instance=ExtResource("9")]
+offset_left = -278.0
+offset_top = -199.0
+offset_right = -278.0
+offset_bottom = -199.0
+theme = ExtResource("1")
+label_settings = SubResource("LabelSettings_y21w7")
+text = "drivein_bet_paper_with_glyphs_1"
+
+[node name="smudge" type="TextureRect" parent="Spot/Panel/Sprite2D/GlyphContainer"]
+visible = false
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="GlyphContainer2" parent="Spot/Panel/Sprite2D" instance=ExtResource("9")]
+offset_left = -287.0
+offset_top = -129.0
+offset_right = -361.0
+offset_bottom = -214.0
+theme = ExtResource("1")
+label_settings = SubResource("LabelSettings_y21w7")
+text = "drivein_bet_paper_with_glyphs_2"
+
+[node name="smudge" type="TextureRect" parent="Spot/Panel/Sprite2D/GlyphContainer2"]
+visible = false
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="smudge2" type="TextureRect" parent="Spot/Panel/Sprite2D/GlyphContainer2"]
+visible = false
+layout_mode = 2
+texture = ExtResource("12")
+
+[node name="Label" type="Label" parent="Spot/Panel/Sprite2D"]
+offset_left = 87.0
+offset_top = -185.0
+offset_right = 348.0
+offset_bottom = -146.0
+rotation = 0.07138080149888992
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0, 0, 0.815686, 1)
+text = "cinema_bet_puzzle_text2"
+
+[node name="Control" parent="Spot/Panel/Sprite2D" instance=ExtResource("13")]
+offset_left = 30.0
+offset_top = 12.0
+offset_right = 70.0
+offset_bottom = 52.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(190, 310)
+sprite_frames = SubResource("SpriteFrames_8m30f")
+autoplay = "default"
+frame_progress = 0.27608901262283325
+
+[editable path="TicketSpot2"]
+[editable path="Spot"]

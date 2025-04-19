@@ -1,0 +1,215 @@
+[gd_scene load_steps=40 format=4 uid="uid://dc4ugc3q1b4q1"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://dr2wi2y4tv3jp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b3hagvo3hc88u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bwvjhauywi1ne" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cinjc2qsw10nf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c1tnjgog6ispa" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cqnr3al8tnund" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c8uiurup3gv8c" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dowt5u0kf2wjb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://drqulix4vdoyf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cah0s5iy1dqxk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dkjuf5k6q8yla" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://d01oqh12ub4sv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ckjub3qygibkm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b430kxdkndsfd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ddesjgbsnjwvr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d1cxcy0wrhiga" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dx62b17erahlb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c2boo5dm6w4n3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bdbl4bahbn6ly" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://di2s5inksvgpb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://nvxevvoewm0y" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bqyaved8woh1j" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://domoerct0n1wr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bqk8i4fnhr1xp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bjygf78i4xik6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://57kf2536op5i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cbie3bxfjlojc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://h6x28i5qar0w" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://xghrhqfcmu2n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://btv022hd2ud34" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bmw82ia5i3ylp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://ccg6ad4fvgxrl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dcajwbltlupqx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://hy0pooi0c7t5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://b5bx4b8yul3vx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://xnewb0vy40wv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00035.png" id="37"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="38"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iwlj5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = 320.0
+offset_top = 762.0
+offset_right = 949.0
+offset_bottom = 1268.0
+
+[node name="PassengerLabel" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 7.0
+offset_top = 203.0
+offset_right = 425.0
+offset_bottom = 555.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 7
+text = "Character Art:
+Sarah Cunningham looking
+dazed at the wheel of her car.
+
+she is barely conscious."
+uppercase = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 22.0
+offset_right = 588.0
+offset_bottom = 55.0
+theme = ExtResource("1")
+text = "cinema_owner_speech"
+autowrap_mode = 3
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(444, 314)
+sprite_frames = SubResource("SpriteFrames_iwlj5")
+autoplay = "default"
+frame_progress = 0.3284800052642822
+
+[node name="CoffeeSpot2" parent="." instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 446.0
+offset_top = 416.0
+offset_right = -87.0
+offset_bottom = -11.0
+hotspot_id = "W2N"
+text = "cinema_coffee_stain"
+
+[node name="Highlighter" parent="CoffeeSpot2/Indicators" index="0"]
+modulate = Color(0.776471, 0.807843, 0.207843, 1)
+position = Vector2(19, 12)
+frame_progress = 0.7113400101661682
+
+[node name="FocusIndicator" parent="CoffeeSpot2/Indicators" index="1"]
+position = Vector2(20, 16)
+
+[editable path="CoffeeSpot2"]

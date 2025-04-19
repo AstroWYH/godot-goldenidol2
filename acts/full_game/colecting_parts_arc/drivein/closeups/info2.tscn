@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=4 uid="uid://duhey3t74wh6s"]
+
+[ext_resource type="Texture2D" uid="uid://dtewjecyq0xyp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/note_cinema.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+
+[node name="Panel" type="Panel"]
+offset_left = 1051.0
+offset_top = -486.0
+offset_right = 1552.0
+offset_bottom = 252.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(252, 362)
+scale = Vector2(1.0292, 1.0292)
+texture = ExtResource("1")
+
+[node name="ColorRect" type="ColorRect" parent="Sprite2D"]
+offset_left = -121.4540023803711
+offset_top = -308.0060119628906
+offset_right = -26.45359992980957
+offset_bottom = -284.0060119628906
+color = Color(0.941176, 0.839216, 0.34902, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Sprite2D"]
+offset_left = 17.48940086364746
+offset_top = -308.0060119628906
+offset_right = 112.48899841308594
+offset_bottom = -284.0060119628906
+color = Color(0.941176, 0.839216, 0.34902, 1)
+
+[node name="Header1" type="Label" parent="Sprite2D"]
+offset_left = -208.0
+offset_top = -314.0
+offset_right = -31.0
+offset_bottom = -279.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.592157, 0.52549, 0.219608, 1)
+theme_override_font_sizes/font_size = 20
+text = "cinema_header_1"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Header2" type="Label" parent="Sprite2D"]
+offset_left = 18.461000442504883
+offset_top = -314.0
+offset_right = 195.46099853515625
+offset_bottom = -279.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.592157, 0.52549, 0.219608, 1)
+theme_override_font_sizes/font_size = 20
+text = "cinema_header_2"
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -223.0
+offset_top = -253.0
+offset_right = 217.0
+offset_bottom = 334.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "cinema_office_letter"
+autowrap_mode = 2

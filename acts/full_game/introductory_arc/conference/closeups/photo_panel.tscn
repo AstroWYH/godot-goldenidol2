@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=4 uid="uid://c5fp67pw8ycjj"]
+
+[ext_resource type="Texture2D" uid="uid://csouejd4tmeaf" path="res://acts/full_game/introductory_arc/conference/assets/portraits/uncle/redaye2.png" id="1"]
+
+[node name="PhotoPanel" type="Panel"]
+offset_left = -221.0
+offset_top = 538.0
+offset_right = 353.0
+offset_bottom = 1222.0
+
+[node name="PhotoBackground" type="Sprite2D" parent="."]
+position = Vector2(286.105, 335.97)
+scale = Vector2(0.684722, 0.685954)
+texture = ExtResource("1")

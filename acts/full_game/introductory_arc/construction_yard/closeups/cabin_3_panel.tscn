@@ -1,0 +1,154 @@
+[gd_scene load_steps=33 format=4 uid="uid://ch7kd0hgu3flp"]
+
+[ext_resource type="Texture2D" uid="uid://datx4ltluopjc" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dmg1il0sobvs5" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d04lhj2we8ufw" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bl3woi6u0726g" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://267hdgrksvwx" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dpn234ji67mbu" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://borh0didl5s8" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dlpsgeuvd34r1" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b7nfv2tgqnapn" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c3cpixgr4r5iw" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dexty002kxxgr" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cj6p7i6ba1dma" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ber7n3mxjcge5" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://p1ovnkd514cj" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dneicdc06aeuc" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cmq10dee5ucmk" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://du07h5161o2i" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dpyampcttvj2u" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dd8hlg5jxeug6" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://ccr1h614xxfb8" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://djbya8wnxdsux" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c6es4nm78c5qe" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://ce32v48vlrcd2" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://y1w8c1ffmpmi" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://03dgt6t3cela" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bpndkyjotgpo4" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bhj2no4qmceny" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://ci86oqvek1vjj" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bay8ea6o3qnvy" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://wkka7ryut3hk" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_029.png" id="30"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wehqf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Cabin3Panel" type="Panel"]
+offset_left = 655.0
+offset_top = 569.0
+offset_right = 1455.0
+offset_bottom = 1119.0
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(22, 130)
+sprite_frames = SubResource("SpriteFrames_wehqf")
+autoplay = "default"
+frame_progress = 0.09753420203924179
+centered = false
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 23.0
+offset_right = 767.0
+offset_bottom = 119.0
+theme = ExtResource("31")
+text = "CONSTRUCTION_BILL_SPEECH"
+autowrap_mode = 3

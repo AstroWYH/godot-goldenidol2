@@ -1,0 +1,59 @@
+[gd_scene load_steps=10 format=4]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://f13kilxq4fkr" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_portrait_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bpo7740mpp1xp" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_interview_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://bgrqahnuwkehk" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_victim_scroll_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://b4po7q55sxkc7" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_scroll_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://b7354t5lyjcvn" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://d2fevd6qv807m" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_2.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://bsxn2rt6ks3hy" path="res://acts/full_game/introductory_arc/conference/conference_scenario_meta.tres" id="9"]
+
+[node name="ConferenceScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+visible = false
+offset_left = 1021.0
+offset_top = 95.0
+offset_right = 1723.0
+offset_bottom = 392.0
+
+[node name="ConferencePuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1010.0
+offset_top = 194.0
+offset_right = 1626.0
+offset_bottom = 879.0
+
+[node name="VictimScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 969.0
+offset_top = 151.0
+offset_right = 1835.0
+offset_bottom = 675.0
+
+[node name="ScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+visible = false
+offset_left = 991.0
+offset_top = 431.0
+offset_right = 1828.0
+offset_bottom = 939.0
+
+[node name="IntroArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("6")]
+visible = false
+offset_left = 24.0
+offset_top = 116.0
+offset_right = 1875.0
+offset_bottom = 823.0
+
+[node name="IntroArcScrollPuzzle2" parent="ThinkingLayer" instance=ExtResource("7")]
+visible = false
+offset_left = 436.0
+offset_top = 191.0
+offset_right = 1568.0
+offset_bottom = 826.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("8")]
+scenario_meta = ExtResource("9")
+thinking_layer = NodePath("../ThinkingLayer")

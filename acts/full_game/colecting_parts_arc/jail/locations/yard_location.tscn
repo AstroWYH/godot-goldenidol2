@@ -1,0 +1,877 @@
+[gd_scene load_steps=79 format=4 uid="uid://dkk3mfla8tuar"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://c2fgd6jbke5pw" path="res://acts/full_game/colecting_parts_arc/jail/locations/yard_location.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://6mfq4rn0ishm" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b7cu0ikxtwv00" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ctxfcfc4cb61i" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bwucbtregqjfa" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c0bisqhdt8xp6" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://o3xpfuaxb8nd" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bfulwrgqelnp0" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bl2acl23vsthm" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b1t7alua4rju" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bckvvfd8mk81h" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dme438qt72mp4" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://fpgbxgtmgqcb" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c7vydchowlmoq" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dhaf1dgkqis8y" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ishf40361buv" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ura4en2vi5ex" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://do8o3i0lx6ja8" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dirxt5516j0go" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0000.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cbq86nwwkjq5n" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0001.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dxquscusktbw7" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0002.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b4r6bmfooddhw" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0003.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c065fwehw5nir" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0004.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dmfo0g7ep0qxq" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0005.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bo5peftcy3rl6" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0006.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://caux3q3djc2al" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0007.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://y6xtbeferysx" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0008.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b073k7s3k2ioa" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/worker/worker0009.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://wxcnauxjaeg5" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0000.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://c0i3boj6p2pcq" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0001.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://burxd8ex4nonw" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0002.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://baywskar0le16" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0003.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c1emyuk45yyxm" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0004.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://d3c6s51jm5cgp" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0005.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bgt0j4uv6ac0s" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0006.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://pqe65a6si7k" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0007.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://2xw53i4agm00" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0008.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dsvqsonpwmu28" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/convicts/convicts0009.png" id="39"]
+[ext_resource type="Material" uid="uid://dpi6oyrvhc670" path="res://shared/assets/particle_materials/breath.material" id="40"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="41"]
+[ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="42"]
+[ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dfar76rxj35y1" path="res://acts/full_game/colecting_parts_arc/jail/assets/foreground.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://ycmnof51t1xx" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0003_bush4.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://d0c13urd2xbs4" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0002_bush3.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://c2dq7jdhkbfdm" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0000_bush1.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cxo50cvr1ruc4" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0001_bush2.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://b4ivfqd5uhbju" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0004_bush5.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://b7xfw5u1dc3j5" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0008_bush9.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cqa6swxk8nptw" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0006_bush7.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bmj2gr17wvrqw" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0005_bush6.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cdp8ikwixc3c7" path="res://acts/full_game/colecting_parts_arc/jail/assets/bushes_0007_bush8.png" id="53"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="54"]
+[ext_resource type="PackedScene" uid="uid://c2r28v0da6j7h" path="res://acts/full_game/colecting_parts_arc/jail/closeups/graffiti_panel.tscn" id="55"]
+[ext_resource type="Resource" uid="uid://cpeitqeccefpd" path="res://acts/full_game/colecting_parts_arc/jail/locations/hallway_location.tres" id="56"]
+[ext_resource type="PackedScene" uid="uid://bemucw2na8mso" path="res://acts/full_game/colecting_parts_arc/jail/closeups/window_panel.tscn" id="57"]
+[ext_resource type="PackedScene" uid="uid://cx1mnij4f8d4c" path="res://acts/full_game/colecting_parts_arc/jail/closeups/snitch_panel.tscn" id="58"]
+[ext_resource type="PackedScene" uid="uid://bqlpdl07posdg" path="res://acts/full_game/colecting_parts_arc/jail/closeups/inmate_2_panel.tscn" id="59"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="60"]
+[ext_resource type="PackedScene" uid="uid://bfemk47pmg25m" path="res://acts/full_game/colecting_parts_arc/jail/closeups/gang_boss_panel.tscn" id="61"]
+[ext_resource type="PackedScene" uid="uid://cpmju7ytoqd6v" path="res://acts/full_game/colecting_parts_arc/jail/closeups/inmate_3_panel.tscn" id="62"]
+[ext_resource type="PackedScene" uid="uid://l8v13bwnko0g" path="res://acts/full_game/colecting_parts_arc/jail/closeups/dog_panel.tscn" id="63"]
+[ext_resource type="PackedScene" uid="uid://nckjpwf77nuv" path="res://acts/full_game/colecting_parts_arc/jail/closeups/guard_panel.tscn" id="64"]
+[ext_resource type="PackedScene" uid="uid://c0bafjutcxp6" path="res://acts/full_game/colecting_parts_arc/jail/closeups/drain_panel.tscn" id="65"]
+[ext_resource type="PackedScene" uid="uid://lw5q1igpjf0h" path="res://acts/full_game/colecting_parts_arc/jail/closeups/maintenance_man_panel.tscn" id="66"]
+[ext_resource type="PackedScene" uid="uid://ba4xso6pwt63e" path="res://acts/full_game/colecting_parts_arc/jail/closeups/spike_panel.tscn" id="67"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vapxg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c4rmc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ibxp7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_qdc4b"]
+
+[sub_resource type="Animation" id="Animation_0d6al"]
+resource_name = "particle control"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Detailes/dvasa:emitting")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Detailes/dvasa2:emitting")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../Detailes/dvasa3:emitting")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.7),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../Detailes/dvasa4:emitting")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../Detailes/dvasa5:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(-0.1, 1.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../Detailes/dvasa6:emitting")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(-0.1, 2.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("../Detailes/Bushes0001Bush3:skew")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 2.6, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0645772, 0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("../Detailes/Bushes0007Bush8:skew")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1.7, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0523599, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("../Detailes/Bushes0005Bush6:skew")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 2.2, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.139626, 0.0]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("../Detailes/Bushes0008Bush9:skew")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 2.8, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0872665, 0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("../Detailes/Bushes0006Bush7:skew")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 3.2, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0523599, 0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("../Detailes/Bushes0004Bush5:skew")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 1.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.139626, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("../Detailes/Bushes0001Bush2:skew")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 2.3, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.10472, 0.0]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("../Detailes/Bushes0000Bush1:skew")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 2.8, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0872665, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("../Detailes/Bushes0002Bush3:skew")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 1.9, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0698132, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("../Detailes/Bushes0003Bush4:skew")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 2.8, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.20944, 0.0]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("../Detailes/Bushes0001Bush4:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 1.6, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0735097, 0.0]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("../Detailes/Bushes0000Bush2:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0486705, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_b5mji"]
+_data = {
+"particle control": SubResource("Animation_0d6al")
+}
+
+[sub_resource type="Resource" id="Resource_tgbnl"]
+script = ExtResource("60")
+linked_item_ref_id = 63
+
+[sub_resource type="Resource" id="Resource_xcx1t"]
+script = ExtResource("60")
+linked_item_ref_id = 12
+
+[sub_resource type="Resource" id="Resource_7f4cu"]
+script = ExtResource("60")
+linked_item_ref_id = 17
+
+[sub_resource type="Resource" id="Resource_107uf"]
+script = ExtResource("60")
+linked_item_ref_id = 18
+
+[sub_resource type="Resource" id="Resource_vuu7a"]
+script = ExtResource("60")
+linked_item_ref_id = 23
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Detailes" type="Node2D" parent="."]
+
+[node name="Rag" type="AnimatedSprite2D" parent="Detailes"]
+position = Vector2(1441, 309)
+sprite_frames = SubResource("SpriteFrames_vapxg")
+autoplay = "default"
+
+[node name="Worker" type="AnimatedSprite2D" parent="Detailes"]
+position = Vector2(940, 481)
+sprite_frames = SubResource("SpriteFrames_c4rmc")
+autoplay = "default"
+
+[node name="Convicts" type="AnimatedSprite2D" parent="Detailes"]
+position = Vector2(619, 585)
+sprite_frames = SubResource("SpriteFrames_ibxp7")
+autoplay = "default"
+
+[node name="dvasa" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(746, 516)
+scale = Vector2(0.25, 0.25)
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.44999998807907104
+trail_lifetime = 0.5
+
+[node name="dvasa2" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(727, 568)
+scale = Vector2(0.25, 0.25)
+emitting = false
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.44999998807907104
+trail_lifetime = 0.5
+
+[node name="dvasa3" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(660, 578)
+scale = Vector2(0.25, 0.25)
+emitting = false
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.44999998807907104
+trail_lifetime = 0.5
+
+[node name="dvasa4" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(610, 601)
+scale = Vector2(0.25, 0.25)
+emitting = false
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.44999998807907104
+trail_lifetime = 0.5
+
+[node name="dvasa5" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(547, 623)
+scale = Vector2(0.25, 0.25)
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.44999998807907104
+trail_lifetime = 0.5
+
+[node name="dvasa6" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(484, 640)
+scale = Vector2(0.25, 0.25)
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.44999998807907104
+trail_lifetime = 0.5
+
+[node name="dvasa7" type="GPUParticles2D" parent="Detailes"]
+material = SubResource("CanvasItemMaterial_qdc4b")
+position = Vector2(947, 451)
+scale = Vector2(0.25, 0.25)
+amount = 32
+process_material = ExtResource("40")
+texture = ExtResource("41")
+lifetime = 4.0
+explosiveness = 0.7200000286102295
+randomness = 0.8399999737739563
+trail_lifetime = 0.5
+
+[node name="Snow1" type="GPUParticles2D" parent="Detailes"]
+position = Vector2(1003, 118)
+scale = Vector2(0.5, 0.5)
+amount = 3000
+process_material = ExtResource("42")
+texture = ExtResource("43")
+lifetime = 300.0
+
+[node name="Foreground" type="Sprite2D" parent="Detailes"]
+texture = ExtResource("44")
+centered = false
+offset = Vector2(-210, -180)
+
+[node name="Bushes0003Bush4" type="Sprite2D" parent="Detailes"]
+position = Vector2(1740, 869)
+skew = 0.024910900741815567
+texture = ExtResource("45")
+offset = Vector2(7, -38)
+
+[node name="Bushes0002Bush3" type="Sprite2D" parent="Detailes"]
+position = Vector2(1703, 898)
+skew = 0.012236899696290493
+texture = ExtResource("46")
+offset = Vector2(0, -30)
+
+[node name="Bushes0000Bush1" type="Sprite2D" parent="Detailes"]
+position = Vector2(732, 1220)
+skew = 0.01037949975579977
+texture = ExtResource("47")
+offset = Vector2(1, -76)
+
+[node name="Bushes0000Bush2" type="Sprite2D" parent="Detailes"]
+position = Vector2(1569, 1016)
+rotation = 0.006483559962362051
+texture = ExtResource("47")
+offset = Vector2(1, -76)
+
+[node name="Bushes0001Bush2" type="Sprite2D" parent="Detailes"]
+position = Vector2(1337, 1261)
+skew = 0.015163100324571133
+texture = ExtResource("48")
+offset = Vector2(22, -140)
+
+[node name="Bushes0001Bush4" type="Sprite2D" parent="Detailes"]
+position = Vector2(239, 1246)
+rotation = 0.015300700441002846
+texture = ExtResource("48")
+offset = Vector2(22, -140)
+
+[node name="Bushes0004Bush5" type="Sprite2D" parent="Detailes"]
+position = Vector2(928, 1256)
+skew = 0.03099999949336052
+texture = ExtResource("49")
+offset = Vector2(-12, -86)
+
+[node name="Bushes0008Bush9" type="Sprite2D" parent="Detailes"]
+position = Vector2(461, 1208)
+skew = 0.01037949975579977
+texture = ExtResource("50")
+offset = Vector2(-2, -144)
+
+[node name="Bushes0006Bush7" type="Sprite2D" parent="Detailes"]
+position = Vector2(606, 1257)
+skew = 0.00544924009591341
+texture = ExtResource("51")
+offset = Vector2(7, -118)
+
+[node name="Bushes0005Bush6" type="Sprite2D" parent="Detailes"]
+position = Vector2(321, 1252)
+skew = 0.02113639935851097
+texture = ExtResource("52")
+offset = Vector2(8, -81)
+
+[node name="Bushes0007Bush8" type="Sprite2D" parent="Detailes"]
+position = Vector2(23, 1071)
+skew = 0.010257399640977383
+texture = ExtResource("53")
+offset = Vector2(-1, -73)
+
+[node name="Bushes0007Bush9" type="Sprite2D" parent="Detailes"]
+position = Vector2(2034, 829)
+texture = ExtResource("53")
+offset = Vector2(-1, -73)
+
+[node name="Bushes0007Bush10" type="Sprite2D" parent="Detailes"]
+position = Vector2(-164, 932)
+texture = ExtResource("53")
+offset = Vector2(-1, -73)
+
+[node name="Bushes0001Bush3" type="Sprite2D" parent="Detailes"]
+position = Vector2(93, 1282)
+skew = 0.00827166996896267
+texture = ExtResource("48")
+offset = Vector2(37, -158)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Detailes"]
+reset_on_save = false
+root_node = NodePath("")
+libraries = {
+"": SubResource("AnimationLibrary_b5mji")
+}
+autoplay = "particle control"
+
+[node name="Snow2" type="GPUParticles2D" parent="Detailes"]
+position = Vector2(335, 2)
+scale = Vector2(0.5, 0.5)
+amount = 1000
+process_material = ExtResource("42")
+texture = ExtResource("43")
+lifetime = 300.0
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -6.0
+offset_top = -34.0
+offset_right = 34.0
+offset_bottom = 6.0
+
+[node name="GrafitiSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 112.0
+offset_top = 554.0
+offset_right = 155.0
+offset_bottom = 602.0
+hotspot_id = "BZ5"
+unlocked_item_ref_id = 48
+
+[node name="GraffitiPanel" parent="Hotspots/GrafitiSpot" instance=ExtResource("55")]
+layout_mode = 0
+offset_left = -1290.0
+offset_top = -36.0
+offset_right = -502.0
+offset_bottom = 587.0
+
+[node name="InsideSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 282.0
+offset_top = 590.0
+offset_right = 369.0
+offset_bottom = 709.0
+hotspot_id = "mFS"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("56")
+
+[node name="OfficeSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 472.0
+offset_top = 511.0
+offset_right = 546.0
+offset_bottom = 548.0
+hotspot_id = "8CL"
+
+[node name="OfficeWindowPanel" parent="Hotspots/OfficeSpot" instance=ExtResource("57")]
+layout_mode = 0
+offset_left = -2435.0
+offset_top = -1023.0
+offset_right = -1567.0
+offset_bottom = -438.0
+
+[node name="BeswickSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 460.0
+offset_top = 626.0
+offset_right = 470.0
+offset_bottom = 677.0
+hotspot_id = "d2M"
+unlocked_character_ref_id = 9
+unlocked_item_ref_id = 62
+
+[node name="BeswickPanel" parent="Hotspots/BeswickSpot" instance=ExtResource("58")]
+layout_mode = 0
+offset_left = -1474.0
+offset_top = 692.0
+offset_right = -778.0
+offset_bottom = 1209.0
+
+[node name="PakenhamSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 524.0
+offset_top = 609.0
+offset_right = 534.0
+offset_bottom = 650.0
+hotspot_id = "5-1"
+unlocked_character_ref_id = 6
+
+[node name="PakenhamPanel" parent="Hotspots/PakenhamSpot" instance=ExtResource("59")]
+layout_mode = 0
+offset_left = -450.0
+offset_top = 827.0
+offset_right = 201.0
+offset_bottom = 1316.0
+
+[node name="KemptonSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 584.0
+offset_top = 587.0
+offset_right = 594.0
+offset_bottom = 625.0
+hotspot_id = "SJr"
+unlocked_character_ref_id = 8
+unlocked_item_ref_id = 70
+extra_items_unlocked = [SubResource("Resource_tgbnl")]
+
+[node name="KemptonPanel" parent="Hotspots/KemptonSpot" instance=ExtResource("61")]
+layout_mode = 0
+offset_left = 226.0
+offset_top = 843.0
+offset_right = 1003.0
+offset_bottom = 1380.0
+
+[node name="UtleySpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 644.0
+offset_top = 563.0
+offset_right = 654.0
+offset_bottom = 610.0
+hotspot_id = "Ix6"
+unlocked_character_ref_id = 7
+unlocked_item_ref_id = 16
+
+[node name="UtleyPanel" parent="Hotspots/UtleySpot" instance=ExtResource("62")]
+layout_mode = 0
+offset_left = 958.0
+offset_top = 868.0
+offset_right = 1613.0
+offset_bottom = 1365.0
+
+[node name="DogSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 719.0
+offset_top = 582.0
+offset_right = 735.0
+offset_bottom = 610.0
+hotspot_id = "dc4"
+
+[node name="Indicators" parent="Hotspots/DogSpot" index="0"]
+offset_left = -27.0
+offset_top = 7.0
+offset_right = -27.0
+offset_bottom = 7.0
+
+[node name="DogPanel" parent="Hotspots/DogSpot" instance=ExtResource("63")]
+layout_mode = 0
+offset_left = 1562.0
+offset_top = 667.0
+offset_right = 2226.0
+offset_bottom = 1171.0
+
+[node name="GuardSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 728.0
+offset_top = 496.0
+offset_right = 747.0
+offset_bottom = 531.0
+hotspot_id = "wIP"
+unlocked_character_ref_id = 4
+unlocked_item_ref_id = 60
+
+[node name="GuardPanel" parent="Hotspots/GuardSpot" instance=ExtResource("64")]
+layout_mode = 0
+offset_left = 1551.0
+offset_top = 176.0
+offset_right = 2402.0
+offset_bottom = 717.0
+
+[node name="DrainSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 822.0
+offset_top = 516.0
+offset_right = 832.0
+offset_bottom = 526.0
+hotspot_id = "xj0"
+extra_items_unlocked = [SubResource("Resource_xcx1t"), SubResource("Resource_7f4cu")]
+
+[node name="DrainPanel" parent="Hotspots/DrainSpot" instance=ExtResource("65")]
+layout_mode = 0
+offset_left = -453.0
+offset_top = -1532.0
+offset_right = 146.0
+offset_bottom = -758.0
+
+[node name="MaintenanceManSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 915.0
+offset_top = 442.0
+offset_right = 950.0
+offset_bottom = 517.0
+hotspot_id = "sj4"
+unlocked_character_ref_id = 5
+extra_items_unlocked = [SubResource("Resource_107uf"), SubResource("Resource_vuu7a")]
+
+[node name="MaintenanceManPanel" parent="Hotspots/MaintenanceManSpot" instance=ExtResource("66")]
+layout_mode = 0
+offset_left = 1395.0
+offset_top = -518.0
+offset_right = 2266.0
+offset_bottom = 126.0
+
+[node name="WallSpot" parent="Hotspots" instance=ExtResource("54")]
+layout_mode = 1
+offset_left = 1403.0
+offset_top = 279.0
+offset_right = 1432.0
+offset_bottom = 334.0
+hotspot_id = "tGv"
+
+[node name="SpikePanel" parent="Hotspots/WallSpot" instance=ExtResource("67")]
+layout_mode = 0
+offset_left = -311.0
+offset_top = -1120.0
+offset_right = 565.0
+offset_bottom = -517.0
+
+[editable path="Hotspots/DogSpot"]

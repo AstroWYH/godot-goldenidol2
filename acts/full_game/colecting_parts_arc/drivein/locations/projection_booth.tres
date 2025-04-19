@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=2 format=4 uid="uid://d1bjcwww154na"]
+
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+location_id = 3
+path = "res://acts/full_game/colecting_parts_arc/drivein/locations/projection_booth.tscn"
+background = null
+audio_side_effect = 0
+music_layers = []
+ambience_layers = []
+music_layer_ids = [0]

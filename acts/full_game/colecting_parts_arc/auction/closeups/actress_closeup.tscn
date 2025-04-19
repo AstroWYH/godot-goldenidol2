@@ -1,0 +1,177 @@
+[gd_scene load_steps=27 format=4 uid="uid://cojafotabbhtc"]
+
+[ext_resource type="Texture2D" uid="uid://bui0rqomnnwfn" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c8li3s4bqaoqj" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bwiq0oui3g002" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b6dwyb24r34d8" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://imk8iob5dlp7" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dxxhvqfe0exlu" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://eoyl8coh1mvo" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dwpaodsodan5n" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c5sl2r7w0q6xd" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cotddowtvqb3s" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b4di2ehx4vmjf" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cpaw3jkdemt27" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://0ipmxwug8yiq" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c83lirfmmh4nh" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ji84wk452ixk" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://beptwkf0j13wy" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://kmf6owpp1g11" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bmwsulxbok1y2" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c6erx4awy27i8" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://jyxdlrmjrwxk" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bhlg48vavcmwf" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b8krl03khhktu" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://3rypaxvhg1pq" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_022.png" id="23"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="24"]
+[ext_resource type="Texture2D" uid="uid://277s2ltf5r5f" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/money.png" id="25"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oc7jc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="ActressCloseup" type="Panel"]
+offset_left = -582.0
+offset_top = 921.0
+offset_right = -29.0
+offset_bottom = 1289.0
+mouse_filter = 2
+
+[node name="Label4" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 306.0
+offset_top = 255.0
+offset_right = 582.0
+offset_bottom = 305.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 0, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 0, 0, 1)
+theme_override_constants/outline_size = 7
+text = "Item: large amount of money"
+uppercase = true
+
+[node name="Star" type="AnimatedSprite2D" parent="."]
+position = Vector2(140, 215)
+sprite_frames = SubResource("SpriteFrames_oc7jc")
+frame_progress = 0.9615030288696289
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 13.0
+offset_right = 513.0
+offset_bottom = 79.0
+theme_override_font_sizes/font_size = 24
+text = "This will look STUNNING in my
+entryway! And for a steal of a price!
+"
+
+[node name="MoneySpot2" parent="." instance=ExtResource("24")]
+layout_mode = 1
+offset_left = 265.0
+offset_top = 241.0
+offset_right = -159.0
+offset_bottom = -43.0
+text = "$ 25 000"
+
+[node name="Money" type="Sprite2D" parent="MoneySpot2"]
+show_behind_parent = true
+position = Vector2(65, 37)
+texture = ExtResource("25")
+
+[node name="Money2" type="Sprite2D" parent="MoneySpot2"]
+show_behind_parent = true
+position = Vector2(49, 17)
+texture = ExtResource("25")
+
+[node name="PaddleSpot" parent="." instance=ExtResource("24")]
+layout_mode = 1
+offset_left = 409.0
+offset_top = 123.0
+offset_right = -28.0
+offset_bottom = -39.0
+text = "Bidding Paddle"
+
+[node name="Indicators" parent="PaddleSpot" index="0"]
+offset_top = 50.0
+offset_bottom = 50.0
+
+[node name="Paddle3" type="Sprite2D" parent="PaddleSpot"]
+show_behind_parent = true
+position = Vector2(54, 81)
+
+[editable path="PaddleSpot"]

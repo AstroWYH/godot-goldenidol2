@@ -1,0 +1,766 @@
+[gd_scene load_steps=66 format=4 uid="uid://dlhxu7knrtuj2"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://1su7e7a3c8wl" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/empty_photo.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cddo1g1v5q5eo" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/historian_fixed.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="7"]
+[ext_resource type="Resource" uid="uid://lippj1vo32f3" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle.tres" id="8"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="9"]
+[ext_resource type="Texture2D" uid="uid://kiyipge34vec" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/robbie_froberg.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dgyjbks04ka37" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/tesa_nevari.png" id="11"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="12"]
+[ext_resource type="Texture2D" uid="uid://bndvhkkbfyepn" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/jason_kempton.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bh4kahawk7eja" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/henry_wakefield.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://coy1yemfxvmt4" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/lazarus_herst.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c83rmw851v5uq" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/sarah_cunningham.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://hpy2gshuwbhv" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/moumaati_dasilva.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bdn2oib2gtr3s" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/oriel_toussaint.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bp42kykpyn3d0" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/robbie_froberg_real.png" id="19"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="20"]
+[ext_resource type="Resource" uid="uid://chsmwdh5jkg37" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_names.tres" id="21"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="22"]
+[ext_resource type="Texture2D" uid="uid://sf6c8b14q5uj" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/note.png" id="23"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="24"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="25"]
+[ext_resource type="Texture2D" uid="uid://drtbvog5x86ja" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/costume.png" id="26"]
+[ext_resource type="PackedScene" uid="uid://bmxayvqf2j8pc" path="res://shared/ui/hub/puzzle_part_hider.tscn" id="27"]
+[ext_resource type="Resource" uid="uid://w1wc3sflpp5i" path="res://acts/full_game/colecting_parts_arc/retreat/puzzles/retreat_scroll_puzzle2_meta.tres" id="28"]
+[ext_resource type="Resource" uid="uid://bwas1eyuasffc" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/scroll_puzzle_meta.tres" id="29"]
+[ext_resource type="Resource" uid="uid://no8tg6uc7do" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/cell_puzzle_meta.tres" id="30"]
+[ext_resource type="Resource" uid="uid://yt3b6huashff" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/portrait_puzzle_meta.tres" id="31"]
+[ext_resource type="Resource" uid="uid://k37thuiaskky" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/secret_message_puzzle_meta.tres" id="32"]
+[ext_resource type="Resource" uid="uid://des3p21xm8mik" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_costume_puzzle_meta.tres" id="33"]
+[ext_resource type="Resource" uid="uid://c521pkqsotnqt" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_equipment_puzzle_meta.tres" id="34"]
+[ext_resource type="Resource" uid="uid://bc7u00b60atf" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_portrait_puzzle_meta.tres" id="35"]
+[ext_resource type="Resource" uid="uid://hr5jy2wqie55" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_scroll_puzzle_meta.tres" id="36"]
+[ext_resource type="Resource" uid="uid://ebkmpp8cjdtu" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_wager_puzzle_meta.tres" id="37"]
+[ext_resource type="Resource" uid="uid://s15dkveo37rd" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/auction_portrait_puzzle_meta.tres" id="38"]
+[ext_resource type="Resource" uid="uid://c5ysq6vprub73" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/auction_scroll_puzzle_meta.tres" id="39"]
+[ext_resource type="Resource" uid="uid://dg5rte7it83xe" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/Lots_puzzle_auction.tres" id="40"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vha1a"]
+load_path = "res://.godot/imported/corkboard_bg.png-d62f8f87a3fbd0bd1cde60a1ed7559b0.ctex"
+
+[sub_resource type="Resource" id="Resource_1vq1w"]
+script = ExtResource("5")
+linked_item_ref_id = 42
+
+[sub_resource type="Resource" id="Resource_raqru"]
+script = ExtResource("5")
+linked_item_ref_id = 44
+
+[sub_resource type="Resource" id="Resource_57x8c"]
+script = ExtResource("5")
+linked_item_ref_id = 52
+
+[sub_resource type="Resource" id="Resource_a32ml"]
+script = ExtResource("5")
+linked_item_ref_id = 53
+
+[sub_resource type="Resource" id="Resource_o12h7"]
+script = ExtResource("5")
+linked_item_ref_id = 47
+
+[sub_resource type="Resource" id="Resource_p377x"]
+script = ExtResource("5")
+linked_item_ref_id = 50
+
+[sub_resource type="Resource" id="Resource_y0prr"]
+script = ExtResource("5")
+linked_item_ref_id = 46
+
+[sub_resource type="Resource" id="Resource_gvav8"]
+script = ExtResource("5")
+linked_item_ref_id = 61
+
+[sub_resource type="Resource" id="Resource_k2gnl"]
+script = ExtResource("5")
+linked_item_ref_id = 576
+
+[sub_resource type="Resource" id="Resource_wadm7"]
+script = ExtResource("5")
+linked_item_ref_id = 577
+
+[sub_resource type="Resource" id="Resource_2i61h"]
+script = ExtResource("5")
+linked_item_ref_id = 560
+
+[sub_resource type="Resource" id="Resource_7ehxs"]
+script = ExtResource("5")
+linked_item_ref_id = 561
+
+[sub_resource type="Resource" id="Resource_hkcy3"]
+script = ExtResource("5")
+linked_item_ref_id = 101
+
+[sub_resource type="Resource" id="Resource_08mlx"]
+script = ExtResource("5")
+linked_item_ref_id = 102
+
+[sub_resource type="Resource" id="Resource_fe6ae"]
+script = ExtResource("5")
+linked_item_ref_id = 332
+
+[sub_resource type="Resource" id="Resource_2c18q"]
+script = ExtResource("5")
+linked_item_ref_id = 333
+
+[sub_resource type="Resource" id="Resource_vltgt"]
+script = ExtResource("5")
+linked_item_ref_id = 187
+
+[sub_resource type="Resource" id="Resource_i8vym"]
+script = ExtResource("5")
+linked_item_ref_id = 188
+
+[sub_resource type="Resource" id="Resource_oid4r"]
+script = ExtResource("5")
+linked_item_ref_id = 77
+
+[sub_resource type="Resource" id="Resource_i04wv"]
+script = ExtResource("5")
+linked_item_ref_id = 78
+
+[sub_resource type="Resource" id="Resource_0ywb5"]
+script = ExtResource("5")
+linked_item_ref_id = 81
+
+[sub_resource type="Resource" id="Resource_27mnx"]
+script = ExtResource("5")
+linked_item_ref_id = 82
+
+[sub_resource type="Resource" id="Resource_4vudu"]
+script = ExtResource("5")
+linked_item_ref_id = 332
+
+[sub_resource type="Resource" id="Resource_sq8fa"]
+script = ExtResource("5")
+linked_item_ref_id = 333
+
+[node name="PastArcCharacterPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 979.0
+offset_bottom = 928.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="CorkboardSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(481.603, 450.592)
+scale = Vector2(2.26027, 2.92727)
+texture = SubResource("CompressedTexture2D_vha1a")
+
+[node name="EmptyPicSprite1" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(310, 168)
+texture = ExtResource("2")
+
+[node name="EmptyPicSprite2" type="Sprite2D" parent="Frame/MarginContainer/Background" index="2"]
+position = Vector2(475, 168)
+texture = ExtResource("2")
+
+[node name="EmptyPicSprite3" type="Sprite2D" parent="Frame/MarginContainer/Background" index="3"]
+position = Vector2(643, 168)
+texture = ExtResource("2")
+
+[node name="EmptyPicSprite4" type="Sprite2D" parent="Frame/MarginContainer/Background" index="4"]
+position = Vector2(476, 454)
+texture = ExtResource("2")
+
+[node name="EmptyPicSprite5" type="Sprite2D" parent="Frame/MarginContainer/Background" index="5"]
+position = Vector2(644, 454)
+texture = ExtResource("2")
+
+[node name="HistorianSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="6"]
+position = Vector2(148, 168)
+texture = ExtResource("3")
+
+[node name="PhraseInvGrid1" parent="Frame" index="1" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 405.0
+offset_top = 238.0
+offset_right = -346.0
+offset_bottom = -563.0
+phrases = [SubResource("Resource_1vq1w"), SubResource("Resource_raqru")]
+
+[node name="PhraseInvGrid2" parent="Frame" index="2" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 575.0
+offset_top = 238.0
+offset_right = -174.0
+offset_bottom = -578.0
+phrases = [SubResource("Resource_57x8c"), SubResource("Resource_a32ml")]
+
+[node name="PhraseInvGrid3" parent="Frame" index="3" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 826.0
+offset_top = 290.0
+offset_right = 826.0
+offset_bottom = 290.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_o12h7"), SubResource("Resource_p377x")]
+
+[node name="PhraseInvGrid4" parent="Frame" index="4" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 75.0
+offset_top = 523.0
+offset_right = -672.0
+offset_bottom = -289.0
+phrases = [SubResource("Resource_y0prr"), SubResource("Resource_gvav8")]
+
+[node name="PhraseInvGrid5" parent="Frame" index="5" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 327.0
+offset_top = 575.0
+offset_right = 327.0
+offset_bottom = 575.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_k2gnl"), SubResource("Resource_wadm7")]
+
+[node name="PhraseInvGrid6" parent="Frame" index="6" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 486.0
+offset_top = 575.0
+offset_right = 486.0
+offset_bottom = 575.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_2i61h"), SubResource("Resource_7ehxs")]
+
+[node name="PhraseInvGrid7" parent="Frame" index="7" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 829.0
+offset_top = 574.0
+offset_right = 829.0
+offset_bottom = 574.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_hkcy3"), SubResource("Resource_08mlx")]
+
+[node name="PhraseInvGrid8" parent="Frame" index="8" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 156.0
+offset_top = 844.0
+offset_right = 156.0
+offset_bottom = 844.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_fe6ae"), SubResource("Resource_2c18q")]
+
+[node name="PhraseInvGrid9" parent="Frame" index="9" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 324.0
+offset_top = 844.0
+offset_right = 324.0
+offset_bottom = 844.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_vltgt"), SubResource("Resource_i8vym")]
+
+[node name="PhraseInvGrid10" parent="Frame" index="10" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 491.0
+offset_top = 844.0
+offset_right = 491.0
+offset_bottom = 844.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_oid4r"), SubResource("Resource_i04wv")]
+
+[node name="PhraseInvGrid11" parent="Frame" index="11" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 660.0
+offset_top = 844.0
+offset_right = 660.0
+offset_bottom = 844.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_0ywb5"), SubResource("Resource_27mnx")]
+
+[node name="PhraseInvGrid12" parent="Frame" index="12" instance=ExtResource("4")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 829.0
+offset_top = 844.0
+offset_right = 829.0
+offset_bottom = 844.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_4vudu"), SubResource("Resource_sq8fa")]
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("6")]
+layout_mode = 1
+
+[node name="PicturePuzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("7")]
+layout_mode = 1
+puzzle_meta = ExtResource("8")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/PicturePuzzle" index="1" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 23.0
+offset_right = -817.0
+offset_bottom = -587.0
+
+[node name="Container" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 47.0
+offset_top = 47.0
+offset_right = 47.0
+offset_bottom = 47.0
+mouse_filter = 1
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="0"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 179.0
+offset_top = 46.0
+offset_right = 304.0
+offset_bottom = 171.0
+texture = ExtResource("10")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="1"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 344.0
+offset_top = 46.0
+offset_right = 469.0
+offset_bottom = 171.0
+texture = ExtResource("10")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="2"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 512.0
+offset_top = 46.0
+offset_right = 637.0
+offset_bottom = 171.0
+texture = ExtResource("11")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="3"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 345.0
+offset_top = 331.0
+offset_right = 470.0
+offset_bottom = 456.0
+texture = ExtResource("10")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="4"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 513.0
+offset_top = 331.0
+offset_right = 638.0
+offset_bottom = 456.0
+texture = ExtResource("11")
+
+[node name="Inventory" parent="PuzzleGroup/PicturePuzzle" index="2" instance=ExtResource("12")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 925.0
+offset_top = 6.0
+offset_right = 925.0
+offset_bottom = 6.0
+grow_horizontal = 1
+grow_vertical = 1
+mouse_filter = 1
+
+[node name="GridContainer" type="Control" parent="PuzzleGroup/PicturePuzzle/Inventory" index="0"]
+anchors_preset = 0
+offset_left = -827.0
+offset_top = 108.0
+offset_right = -827.0
+offset_bottom = 108.0
+mouse_filter = 2
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="0"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 660.0
+offset_top = 1.0
+offset_right = 785.0
+offset_bottom = 126.0
+texture = ExtResource("13")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="1"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = -5.0
+offset_top = 288.0
+offset_right = 120.0
+offset_bottom = 413.0
+texture = ExtResource("14")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="2"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 160.0
+offset_top = 288.0
+offset_right = 285.0
+offset_bottom = 413.0
+texture = ExtResource("15")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="3"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 663.0
+offset_top = 287.0
+offset_right = 788.0
+offset_bottom = 412.0
+texture = ExtResource("16")
+
+[node name="6" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="4"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = -10.0
+offset_top = 558.0
+offset_right = 115.0
+offset_bottom = 683.0
+texture = ExtResource("10")
+
+[node name="7" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="5"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 157.0
+offset_top = 558.0
+offset_right = 282.0
+offset_bottom = 683.0
+texture = ExtResource("11")
+
+[node name="8" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="6"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 324.0
+offset_top = 557.0
+offset_right = 449.0
+offset_bottom = 682.0
+texture = ExtResource("17")
+
+[node name="9" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="7"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 493.0
+offset_top = 557.0
+offset_right = 618.0
+offset_bottom = 682.0
+texture = ExtResource("18")
+
+[node name="10" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="8"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+offset_left = 663.0
+offset_top = 556.0
+offset_right = 788.0
+offset_bottom = 681.0
+texture = ExtResource("19")
+
+[node name="PhrasePuzzle" parent="PuzzleGroup" index="1" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("20")]
+layout_mode = 1
+offset_right = -979.0
+offset_bottom = -917.0
+puzzle_meta = ExtResource("21")
+phrase_grids = [NodePath("../../Frame/PhraseInvGrid1"), NodePath("../../Frame/PhraseInvGrid2"), NodePath("../../Frame/PhraseInvGrid3"), NodePath("../../Frame/PhraseInvGrid4"), NodePath("../../Frame/PhraseInvGrid5"), NodePath("../../Frame/PhraseInvGrid6"), NodePath("../../Frame/PhraseInvGrid7"), NodePath("../../Frame/PhraseInvGrid8"), NodePath("../../Frame/PhraseInvGrid9"), NodePath("../../Frame/PhraseInvGrid10"), NodePath("../../Frame/PhraseInvGrid11"), NodePath("../../Frame/PhraseInvGrid12")]
+
+[node name="PhrasePuzzleSlot1" parent="PuzzleGroup/PhrasePuzzle" index="1" instance=ExtResource("22")]
+layout_mode = 1
+offset_left = 91.0
+offset_top = 247.0
+offset_right = 91.0
+offset_bottom = 247.0
+answer_item_ref_id = 187
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/PhrasePuzzle" index="2" instance=ExtResource("22")]
+layout_mode = 1
+offset_left = 91.0
+offset_top = 291.0
+offset_right = 91.0
+offset_bottom = 291.0
+answer_item_ref_id = 188
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/PhrasePuzzle" index="3" instance=ExtResource("22")]
+layout_mode = 1
+offset_left = 251.0
+offset_top = 249.0
+offset_right = 251.0
+offset_bottom = 249.0
+answer_item_ref_id = 42
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/PhrasePuzzle" index="4" instance=ExtResource("22")]
+layout_mode = 1
+offset_left = 251.0
+offset_top = 291.0
+offset_right = 251.0
+offset_bottom = 291.0
+answer_item_ref_id = 44
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot5" parent="PuzzleGroup/PhrasePuzzle" index="5" instance=ExtResource("22")]
+layout_mode = 1
+offset_left = 585.0
+offset_top = 534.0
+offset_right = 585.0
+offset_bottom = 534.0
+answer_item_ref_id = 187
+override_accepted_types = 1
+
+[node name="PhrasePuzzleSlot6" parent="PuzzleGroup/PhrasePuzzle" index="6" instance=ExtResource("22")]
+layout_mode = 1
+offset_left = 586.0
+offset_top = 576.0
+offset_right = 586.0
+offset_bottom = 576.0
+answer_item_ref_id = 188
+override_accepted_types = 1
+
+[node name="NoteSprite1" type="Sprite2D" parent="." index="5"]
+position = Vector2(159, 75)
+texture = ExtResource("23")
+
+[node name="NoteLabel1" type="RichTextLabel" parent="." index="6"]
+layout_mode = 0
+offset_left = 101.0
+offset_top = 65.0
+offset_right = 232.0
+offset_bottom = 107.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "Historian"
+
+[node name="NoteSprite2" type="Sprite2D" parent="." index="7"]
+position = Vector2(322.5, 75.5134)
+texture = ExtResource("23")
+
+[node name="NoteLabel2" type="RichTextLabel" parent="." index="8"]
+layout_mode = 0
+offset_left = 266.0
+offset_top = 65.0
+offset_right = 384.0
+offset_bottom = 112.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "Colleague"
+
+[node name="NoteSprite3" type="Sprite2D" parent="." index="9"]
+visible = false
+position = Vector2(480.5, 367)
+texture = ExtResource("26")
+
+[node name="NoteSprite4" type="Sprite2D" parent="." index="10"]
+position = Vector2(651, 362.5)
+texture = ExtResource("23")
+
+[node name="NoteLabel4" type="RichTextLabel" parent="." index="11"]
+layout_mode = 0
+offset_left = 588.0
+offset_top = 343.0
+offset_right = 719.0
+offset_bottom = 410.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]'Weird lady'[/center]"
+
+[node name="NoteSprite5" type="Sprite2D" parent="." index="12"]
+position = Vector2(824, 645)
+texture = ExtResource("23")
+
+[node name="NoteLabel5" type="RichTextLabel" parent="." index="13"]
+layout_mode = 0
+offset_left = 808.0
+offset_top = 635.0
+offset_right = 850.0
+offset_bottom = 671.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "?!?!"
+
+[node name="NoteSprite6" type="Sprite2D" parent="." index="14"]
+position = Vector2(484.5, 75.5)
+texture = ExtResource("23")
+
+[node name="NoteLabel6" type="RichTextLabel" parent="." index="15"]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 50.0
+offset_right = 539.0
+offset_bottom = 121.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]Escaped prison[/center]"
+
+[node name="NoteSprite7" type="Sprite2D" parent="." index="16"]
+position = Vector2(653.5, 74.5)
+texture = ExtResource("23")
+
+[node name="NoteLabel7" type="RichTextLabel" parent="." index="17"]
+layout_mode = 0
+offset_left = 596.0
+offset_top = 49.0
+offset_right = 715.0
+offset_bottom = 120.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]Sent saw blade[/center]"
+
+[node name="NoteSprite8" type="Sprite2D" parent="." index="18"]
+position = Vector2(477.5, 365.5)
+texture = ExtResource("23")
+
+[node name="NoteLabel8" type="RichTextLabel" parent="." index="19"]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 340.0
+offset_right = 539.0
+offset_bottom = 413.0
+rotation = -0.05303730070590973
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("24")
+theme_override_fonts/bold_font = ExtResource("25")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]Stole crystal[/center]"
+
+[node name="ColorRectRetreat" parent="." index="20" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 33.0
+offset_top = 41.0
+offset_right = 404.0
+offset_bottom = 336.0
+puzzle_metas = [ExtResource("28")]
+
+[node name="ColorRectEncyclopedia" parent="." index="21" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 251.0
+offset_top = 337.0
+offset_right = 404.0
+offset_bottom = 632.0
+puzzle_metas = [ExtResource("28")]
+
+[node name="ColorRectPrison1" parent="." index="22" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 405.0
+offset_top = 41.0
+offset_right = 943.0
+offset_bottom = 336.0
+puzzle_metas = [ExtResource("29"), ExtResource("30"), ExtResource("31"), ExtResource("32")]
+
+[node name="ColorRectPrison2" parent="." index="23" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 33.0
+offset_top = 337.0
+offset_right = 250.0
+offset_bottom = 632.0
+puzzle_metas = [ExtResource("29"), ExtResource("30"), ExtResource("31"), ExtResource("32")]
+
+[node name="ColorRectDriveIn" parent="." index="24" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 405.0
+offset_top = 337.0
+offset_right = 943.0
+offset_bottom = 632.0
+puzzle_metas = [ExtResource("33"), ExtResource("34"), ExtResource("35"), ExtResource("36"), ExtResource("37")]
+
+[node name="ColorRectAuction" parent="." index="25" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 33.0
+offset_top = 633.0
+offset_right = 756.0
+offset_bottom = 891.0
+puzzle_metas = [ExtResource("38"), ExtResource("39"), ExtResource("40")]
+
+[node name="ColorRectCall" parent="." index="26" instance=ExtResource("27")]
+visible = false
+layout_mode = 0
+offset_left = 757.0
+offset_top = 633.0
+offset_right = 943.0
+offset_bottom = 891.0
+puzzle_metas = [ExtResource("38"), ExtResource("39"), ExtResource("40")]
+
+[editable path="Frame"]

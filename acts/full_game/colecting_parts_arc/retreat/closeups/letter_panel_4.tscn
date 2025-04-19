@@ -1,0 +1,420 @@
+[gd_scene load_steps=3 format=4 uid="uid://hca8djie82r2"]
+
+[ext_resource type="Texture2D" uid="uid://ciwm4kqibpdhp" path="res://acts/full_game/colecting_parts_arc/retreat/assets/sketches/closeups/calendar2.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+
+[node name="CalendarPanel" type="Panel"]
+offset_left = 978.0
+offset_top = 536.0
+offset_right = 1586.0
+offset_bottom = 1319.0
+
+[node name="CalendarSprite" type="Sprite2D" parent="."]
+position = Vector2(12.335, 11)
+rotation = 0.0016687499592080712
+texture = ExtResource("1")
+centered = false
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 395.0
+offset_right = 803.0
+offset_bottom = 462.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.415686, 0.196078, 0.52549, 1)
+text = "retreat_calendar_title"
+
+[node name="DayList" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 448.0
+offset_right = 75.0
+offset_bottom = 488.0
+
+[node name="Days" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_sunday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Days2" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_monday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Days3" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_tuesday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Days4" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_wednesday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Days5" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_thursday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Days6" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_friday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="Days7" type="Label" parent="DayList"]
+custom_minimum_size = Vector2(75, 0)
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.886275, 0.886275, 0.886275, 1)
+theme_override_font_sizes/font_size = 26
+text = "first_letter_saturday"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="CalendarLabel2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 491.0
+offset_right = 333.0
+offset_bottom = 529.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "01"
+
+[node name="CalendarLabel3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 372.0
+offset_top = 488.0
+offset_right = 418.0
+offset_bottom = 526.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "02"
+
+[node name="CalendarLabel4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 444.0
+offset_top = 488.0
+offset_right = 490.0
+offset_bottom = 526.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "03"
+
+[node name="CalendarLabel5" type="Label" parent="."]
+layout_mode = 0
+offset_left = 528.0
+offset_top = 488.0
+offset_right = 574.0
+offset_bottom = 526.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "04"
+
+[node name="CalendarLabel6" type="Label" parent="."]
+layout_mode = 0
+offset_left = 49.000099182128906
+offset_top = 541.0
+offset_right = 95.0000991821289
+offset_bottom = 579.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "05"
+
+[node name="CalendarLabel7" type="Label" parent="."]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 543.0
+offset_right = 181.0
+offset_bottom = 581.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "06"
+
+[node name="CalendarLabel8" type="Label" parent="."]
+layout_mode = 0
+offset_left = 212.6649932861328
+offset_top = 543.0
+offset_right = 258.6650085449219
+offset_bottom = 581.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "07"
+
+[node name="CalendarLabel9" type="Label" parent="."]
+layout_mode = 0
+offset_left = 292.0
+offset_top = 540.0
+offset_right = 338.0
+offset_bottom = 578.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "08"
+
+[node name="CalendarLabel10" type="Label" parent="."]
+layout_mode = 0
+offset_left = 364.0
+offset_top = 540.0
+offset_right = 410.0
+offset_bottom = 578.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "09"
+
+[node name="CalendarLabel11" type="Label" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 540.0
+offset_right = 494.0
+offset_bottom = 578.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "10"
+
+[node name="CalendarLabel12" type="Label" parent="."]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 544.0
+offset_right = 573.0
+offset_bottom = 582.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "11"
+
+[node name="CalendarLabel13" type="Label" parent="."]
+layout_mode = 0
+offset_left = 50.000099182128906
+offset_top = 596.0
+offset_right = 96.0000991821289
+offset_bottom = 634.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "12"
+
+[node name="CalendarLabel14" type="Label" parent="."]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 598.0
+offset_right = 181.0
+offset_bottom = 636.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "13"
+
+[node name="CalendarLabel15" type="Label" parent="."]
+layout_mode = 0
+offset_left = 207.0
+offset_top = 598.0
+offset_right = 253.0
+offset_bottom = 636.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "14"
+
+[node name="CalendarLabel16" type="Label" parent="."]
+layout_mode = 0
+offset_left = 292.0
+offset_top = 595.0
+offset_right = 338.0
+offset_bottom = 633.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "15"
+
+[node name="CalendarLabel17" type="Label" parent="."]
+layout_mode = 0
+offset_left = 364.0
+offset_top = 595.0
+offset_right = 410.0
+offset_bottom = 633.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "16"
+
+[node name="CalendarLabel18" type="Label" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 595.0
+offset_right = 494.0
+offset_bottom = 633.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "17"
+
+[node name="CalendarLabel19" type="Label" parent="."]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 599.0
+offset_right = 573.0
+offset_bottom = 637.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "18"
+
+[node name="CalendarLabel20" type="Label" parent="."]
+layout_mode = 0
+offset_left = 50.000099182128906
+offset_top = 650.0
+offset_right = 96.0000991821289
+offset_bottom = 688.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "19"
+
+[node name="CalendarLabel21" type="Label" parent="."]
+layout_mode = 0
+offset_left = 134.0
+offset_top = 650.0
+offset_right = 180.0
+offset_bottom = 688.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "20"
+
+[node name="CalendarLabel22" type="Label" parent="."]
+layout_mode = 0
+offset_left = 206.0
+offset_top = 650.0
+offset_right = 252.0
+offset_bottom = 688.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "21"
+
+[node name="CalendarLabel23" type="Label" parent="."]
+layout_mode = 0
+offset_left = 291.0
+offset_top = 647.0
+offset_right = 337.0
+offset_bottom = 685.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "22"
+
+[node name="CalendarLabel24" type="Label" parent="."]
+layout_mode = 0
+offset_left = 363.0
+offset_top = 647.0
+offset_right = 409.0
+offset_bottom = 685.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "23"
+
+[node name="CalendarLabel25" type="Label" parent="."]
+layout_mode = 0
+offset_left = 447.0
+offset_top = 647.0
+offset_right = 493.0
+offset_bottom = 685.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "24"
+
+[node name="CalendarLabel26" type="Label" parent="."]
+layout_mode = 0
+offset_left = 526.0
+offset_top = 651.0
+offset_right = 572.0
+offset_bottom = 689.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "25"
+
+[node name="CalendarLabel27" type="Label" parent="."]
+layout_mode = 0
+offset_left = 53.000099182128906
+offset_top = 704.0
+offset_right = 99.0000991821289
+offset_bottom = 742.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "26"
+
+[node name="CalendarLabel28" type="Label" parent="."]
+layout_mode = 0
+offset_left = 133.0
+offset_top = 701.0
+offset_right = 179.0
+offset_bottom = 739.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "27"
+
+[node name="CalendarLabel29" type="Label" parent="."]
+layout_mode = 0
+offset_left = 207.6649932861328
+offset_top = 701.0
+offset_right = 253.6649932861328
+offset_bottom = 739.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "28"
+
+[node name="CalendarLabel30" type="Label" parent="."]
+layout_mode = 0
+offset_left = 289.0
+offset_top = 701.0
+offset_right = 335.0
+offset_bottom = 739.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "29"
+
+[node name="CalendarLabel31" type="Label" parent="."]
+layout_mode = 0
+offset_left = 368.0
+offset_top = 705.0
+offset_right = 414.0
+offset_bottom = 743.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "30"
+
+[node name="CalendarLabel32" type="Label" parent="."]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 705.0
+offset_right = 498.0
+offset_bottom = 743.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
+text = "31"

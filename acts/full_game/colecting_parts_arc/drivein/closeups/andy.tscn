@@ -1,0 +1,233 @@
+[gd_scene load_steps=53 format=4 uid="uid://0803o8j8mbyh"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://cmiqcpgvk37bx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bw8g3pyv77cxy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://r7ache7s16hg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bimlsfvkvtnve" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bi4rakxj0qpy8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://blbrave4qc2w5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dogqfs5r1j27i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://du688ywhkhaw5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d3jy7it4j0dcg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cwvrt7ftleiyv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://df86gote0fg3u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dd4hsc308gmjd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://iwmx3nkdk6n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dtu7xcsyj52bd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c42t3egx7yovh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d2ppq58e3b86e" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cot73l8b6sgll" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bcnprhe4w2w1t" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dig4c2nol5l5v" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://yw14scbj6yn5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://l2ak0p8b3ihm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://uxdjt7nn7ac2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cjhwl87acohnv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cjlhipy8eta0g" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dge2xdlhewq5l" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://b8i8uh0smj6t" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bm8ynmx07swdk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://coypvojccyp8q" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://v43rk0ijdkw6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://b6usv2l8l00aw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cx6joo6x6jehc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://17ke7i76e4iy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cf6ftd2cgt01s" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c6q70bi11en0k" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://od0m1k6xh6bs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c8hejov0yeoej" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c0jjg8cgk0rwf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bokjsy2vgh1cy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://420hh8421t72" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://b8h1uh7wm5h1p" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://cvvtfxxlguhei" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cie3d3d0dbys3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bcahr7jos2fe6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://c77ysl3tyur7k" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://hlvdyla02rc4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dgje74hg64rb3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://colu8i5bid5c4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://de443g3ud0h7k" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cikag4mvvaird" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://b17amofgdstee" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_049.png" id="51"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u7bo5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = -986.0
+offset_top = -68.0
+offset_right = -449.0
+offset_bottom = 377.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 22.0
+offset_right = 268.0
+offset_bottom = 151.0
+theme = ExtResource("1")
+text = "number_andy_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(344, 229)
+sprite_frames = SubResource("SpriteFrames_u7bo5")
+autoplay = "default"
+frame_progress = 0.3671500086784363

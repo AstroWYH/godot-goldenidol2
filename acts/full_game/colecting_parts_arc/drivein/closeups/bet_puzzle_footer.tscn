@@ -1,0 +1,79 @@
+[gd_scene load_steps=4 format=4 uid="uid://b07f0qwoak5rs"]
+
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://gkxp3e8bmxtt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/crossedout1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dbq7jd7141xqg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/crossedout2.png" id="3"]
+
+[node name="BetFooter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="WinnerLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -4.0
+anchor_top = 0.32499998807907104
+anchor_right = -4.0
+anchor_bottom = 0.32499998807907104
+offset_left = -255.0
+offset_top = 38.0
+offset_right = 19.0
+offset_bottom = 139.0
+rotation = -0.06211509928107262
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(0.32549, 0.298039, 0.262745, 1)
+text = "cinema_bet_winner_label"
+horizontal_alignment = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="MikeLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = -113.0
+offset_top = 28.0
+offset_right = 161.0
+offset_bottom = 129.0
+rotation = -0.06211509928107262
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(0.32549, 0.298039, 0.262745, 1)
+text = "cinema_bet_mike_label"
+metadata/_edit_use_anchors_ = true
+
+[node name="JennyLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 26.0
+offset_right = 285.0
+offset_bottom = 59.0
+rotation = 0.07138080149888992
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(0, 0, 0.815686, 1)
+text = "cinema_bet_puzzle_text2"
+metadata/_edit_use_anchors_ = true
+
+[node name="MikeCommentLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -1.125
+anchor_top = -0.5
+anchor_right = -0.2750000059604645
+anchor_bottom = -0.5
+offset_left = -25.0
+offset_top = 104.0
+offset_right = 285.0
+offset_bottom = 244.0
+rotation = -0.03061779960989952
+theme = ExtResource("1")
+theme_override_colors/font_color = Color(0.32549, 0.298039, 0.262745, 1)
+text = "cinema_bet_puzzle_text3"
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-88, 43)
+texture = ExtResource("2")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(72, 44)
+texture = ExtResource("3")

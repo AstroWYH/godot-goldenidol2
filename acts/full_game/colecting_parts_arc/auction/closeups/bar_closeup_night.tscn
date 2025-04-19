@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=4 uid="uid://dqc7qpxnt8n6k"]
+
+[ext_resource type="Texture2D" uid="uid://cqcr64ca266y" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/bar.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="4"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
+
+[sub_resource type="Resource" id="Resource_suoby"]
+script = ExtResource("3")
+linked_item_ref_id = 78
+
+[sub_resource type="Resource" id="Resource_04xlx"]
+script = ExtResource("3")
+linked_item_ref_id = 188
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_exbvd"]
+bg_color = Color(0.905882, 0.92549, 0.458824, 1)
+
+[node name="BarCloseup" type="Panel"]
+offset_left = 816.0
+offset_top = 567.0
+offset_right = 1511.0
+offset_bottom = 1116.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-2, -1)
+texture = ExtResource("1")
+centered = false
+
+[node name="BartabSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 498.0
+offset_top = 42.0
+offset_right = -147.0
+offset_bottom = -457.0
+hotspot_id = "D1n"
+unlocked_item_ref_id = 82
+extra_items_unlocked = [SubResource("Resource_suoby"), SubResource("Resource_04xlx")]
+
+[node name="Highlighter" parent="BartabSpot2/Indicators" index="0"]
+modulate = Color(0.901961, 0.92549, 0.372549, 1)
+
+[node name="BartabCloseup" type="Panel" parent="BartabSpot2"]
+layout_mode = 0
+offset_left = 233.0
+offset_top = -24.0
+offset_right = 551.0
+offset_bottom = 452.0
+mouse_filter = 2
+
+[node name="BartabCloseup3" type="TextureRect" parent="BartabSpot2/BartabCloseup"]
+modulate = Color(0.901961, 0.92549, 0.372549, 1)
+layout_mode = 0
+offset_left = 10.0
+offset_top = 8.0
+offset_right = 309.0
+offset_bottom = 461.0
+texture = ExtResource("4")
+stretch_mode = 1
+
+[node name="EncyclopediaLabel5" type="RichTextLabel" parent="BartabSpot2/BartabCloseup/BartabCloseup3"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 117.0
+offset_right = 285.0
+offset_bottom = 407.0
+mouse_filter = 1
+theme = ExtResource("5")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "auction_1night_drink_orders_tagged"
+scroll_active = false
+
+[node name="BartabCloseup2" type="Panel" parent="BartabSpot2/BartabCloseup"]
+visible = false
+layout_mode = 0
+offset_left = 11.0
+offset_top = 9.0
+offset_right = 293.0
+offset_bottom = 462.0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_exbvd")
+
+[editable path="BartabSpot2"]

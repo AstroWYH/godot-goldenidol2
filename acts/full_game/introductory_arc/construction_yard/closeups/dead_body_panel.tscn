@@ -1,0 +1,144 @@
+[gd_scene load_steps=14 format=4 uid="uid://k6oho53kiae5"]
+
+[ext_resource type="Texture2D" uid="uid://dbfssm6rknxbv" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/deadbody01/deadman.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://3c3nkutc706e" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/dogtag.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://bt63ask6jipw1" path="res://shared/assets/papers/CrumbledNote_ICO.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bt0d6fmh7m472" path="res://shared/assets/papers/CrumbledNote.png" id="7"]
+
+[sub_resource type="Resource" id="Resource_mp3rh"]
+script = ExtResource("5")
+linked_item_ref_id = 735
+
+[sub_resource type="Resource" id="Resource_j1tov"]
+script = ExtResource("5")
+linked_item_ref_id = 736
+
+[sub_resource type="Resource" id="Resource_4w1rt"]
+script = ExtResource("5")
+linked_item_ref_id = 611
+
+[sub_resource type="Resource" id="Resource_lv2vt"]
+script = ExtResource("5")
+linked_item_ref_id = 618
+
+[sub_resource type="Resource" id="Resource_6h1au"]
+script = ExtResource("5")
+linked_item_ref_id = 826
+
+[sub_resource type="Resource" id="Resource_0ytx7"]
+script = ExtResource("5")
+linked_item_ref_id = 455
+
+[node name="DeadBodyPanel" type="Panel"]
+offset_left = -452.50299072265625
+offset_top = 541.5369873046875
+offset_right = 274.49700927734375
+offset_bottom = 1045.5400390625
+
+[node name="VictimSprite" type="Sprite2D" parent="."]
+position = Vector2(428.503, 236.463)
+texture = ExtResource("1")
+
+[node name="DogTagSprite" type="Sprite2D" parent="."]
+position = Vector2(134.533, 97.4296)
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="DogTagSprite"]
+offset_left = -66.42479705810547
+offset_top = -44.24959945678711
+offset_right = 416.57501220703125
+offset_bottom = 54.75040054321289
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.164706, 0.301961, 0.27451, 1)
+theme_override_constants/line_spacing = -3
+theme_override_font_sizes/font_size = 22
+text = "CONSTRUCTION_LUKE_DOGTAG_CONTENT"
+
+[node name="DogTagSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 41.06589889526367
+offset_top = 13.044300079345703
+offset_right = -508.9339904785156
+offset_bottom = -359.95599365234375
+hotspot_id = "Vop"
+text = "CONSTRUCTION_LUKE_DOGTAG_TOOLTIP"
+
+[node name="Indicators" parent="DogTagSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="DogTagSpot/Indicators" index="0"]
+modulate = Color(0.513726, 0.729412, 0.686275, 1)
+
+[node name="NoteSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 21.0
+offset_top = 283.0
+offset_right = -557.0
+offset_bottom = -29.00309944152832
+hotspot_id = "_Kv"
+extra_items_unlocked = [SubResource("Resource_mp3rh"), SubResource("Resource_j1tov"), SubResource("Resource_4w1rt"), SubResource("Resource_lv2vt"), SubResource("Resource_6h1au"), SubResource("Resource_0ytx7")]
+
+[node name="Indicators" parent="NoteSpot" index="0"]
+offset_left = -4.5
+offset_top = 23.46299934387207
+offset_right = -4.5
+offset_bottom = 23.46299934387207
+
+[node name="Highlighter" parent="NoteSpot/Indicators" index="0"]
+modulate = Color(0.827451, 0.823529, 0.768627, 1)
+
+[node name="PaperSprite" type="Sprite2D" parent="NoteSpot"]
+position = Vector2(78.158, 108.463)
+texture = ExtResource("6")
+
+[node name="LukeNotePanel" type="Panel" parent="NoteSpot"]
+layout_mode = 0
+offset_left = -58.0
+offset_top = 312.0
+offset_right = 537.0
+offset_bottom = 917.0
+
+[node name="TextBackgroundSprite" type="Sprite2D" parent="NoteSpot/LukeNotePanel"]
+position = Vector2(293.471, 299.016)
+texture = ExtResource("7")
+
+[node name="Label" type="Label" parent="NoteSpot/LukeNotePanel"]
+layout_mode = 0
+offset_left = 143.16900634765625
+offset_top = 197.78500366210938
+offset_right = 470.16900634765625
+offset_bottom = 408.7850036621094
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONSTRUCTION_LUKE_NOTE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="LukeSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 187.0
+offset_top = 185.0
+offset_right = -45.0
+offset_bottom = -25.00309944152832
+hotspot_id = "VyY"
+text = "CONSTRUCTION_LUKE_TOOLTIP"
+
+[node name="Indicators" parent="LukeSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="LukeSpot/Indicators" index="0"]
+modulate = Color(0.611765, 0.494118, 0.415686, 1)
+
+[editable path="DogTagSpot"]
+[editable path="NoteSpot"]
+[editable path="LukeSpot"]

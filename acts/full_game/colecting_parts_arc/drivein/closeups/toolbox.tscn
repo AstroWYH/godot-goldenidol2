@@ -1,0 +1,123 @@
+[gd_scene load_steps=6 format=4 uid="uid://cmeocmn3hw1a1"]
+
+[ext_resource type="Texture2D" uid="uid://dy2k8oa4shnu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/projectionbooth_toolbox.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+
+[sub_resource type="Resource" id="Resource_kwlhi"]
+script = ExtResource("3")
+linked_item_ref_id = 562
+
+[sub_resource type="Resource" id="Resource_0ncra"]
+script = ExtResource("3")
+linked_item_ref_id = 877
+
+[node name="Panel" type="Panel"]
+offset_left = 174.0
+offset_top = 226.0
+offset_right = 1115.0
+offset_bottom = 868.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(461, 323)
+texture = ExtResource("1")
+
+[node name="WireSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 526.0
+offset_top = 415.0
+offset_right = -237.0
+offset_bottom = -146.0
+hotspot_id = "5T6"
+text = "cinema_red_wire_tooltip"
+extra_items_unlocked = [SubResource("Resource_kwlhi"), SubResource("Resource_0ncra")]
+
+[node name="Highlighter" parent="WireSpot2/Indicators" index="0"]
+modulate = Color(0.92549, 0.290196, 0.180392, 1)
+position = Vector2(-15, 3)
+frame_progress = 0.5466520190238953
+
+[node name="FocusIndicator" parent="WireSpot2/Indicators" index="1"]
+position = Vector2(-14, 7)
+
+[node name="SpoolSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 572.0
+offset_top = 245.0
+offset_right = -238.0
+offset_bottom = -273.0
+hotspot_id = "1lt"
+text = "cinema_spool_tooltip"
+
+[node name="Highlighter" parent="SpoolSpot2/Indicators" index="0"]
+modulate = Color(0.405978, 0.724119, 0.288453, 1)
+position = Vector2(4, 33)
+frame_progress = 0.16490299999713898
+
+[node name="FocusIndicator" parent="SpoolSpot2/Indicators" index="1"]
+position = Vector2(5, 37)
+
+[node name="ScreewSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 302.0
+offset_top = 493.0
+offset_right = -472.0
+offset_bottom = -96.0
+focus_neighbor_left = NodePath("../WirecutterSpot2")
+focus_neighbor_top = NodePath("../WirecutterSpot2")
+hotspot_id = "tfc"
+text = "cinema_screwdriver_tooltip"
+
+[node name="Highlighter" parent="ScreewSpot/Indicators" index="0"]
+modulate = Color(0.610258, 0.683929, 0.815979, 1)
+position = Vector2(3, -23)
+frame_progress = 0.632498025894165
+
+[node name="FocusIndicator" parent="ScreewSpot/Indicators" index="1"]
+position = Vector2(4, -19)
+
+[node name="HammerSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 190.0
+offset_top = 415.0
+offset_right = -634.0
+offset_bottom = -96.0
+focus_neighbor_top = NodePath("../WirecutterSpot2")
+focus_neighbor_right = NodePath("../WirecutterSpot2")
+focus_neighbor_bottom = NodePath("../ScreewSpot")
+hotspot_id = "sEm"
+text = "cinema_hammer_tooltip"
+
+[node name="Highlighter" parent="HammerSpot2/Indicators" index="0"]
+modulate = Color(0.549938, 0.598818, 0.6853, 1)
+position = Vector2(-22, 29.25)
+frame_progress = 0.5254529714584351
+
+[node name="FocusIndicator" parent="HammerSpot2/Indicators" index="1"]
+position = Vector2(-21, 33.25)
+
+[node name="WirecutterSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 276.0
+offset_top = 348.0
+offset_right = -506.0
+offset_bottom = -225.0
+focus_neighbor_left = NodePath("../HammerSpot2")
+focus_neighbor_right = NodePath("../ScreewSpot")
+focus_neighbor_bottom = NodePath("../HammerSpot2")
+hotspot_id = "SYB"
+text = "cinema_wire_cutters_tooltip"
+
+[node name="Highlighter" parent="WirecutterSpot2/Indicators" index="0"]
+modulate = Color(0.835294, 0.717647, 0.286275, 1)
+position = Vector2(-47, 7)
+frame_progress = 0.5093250274658203
+
+[node name="FocusIndicator" parent="WirecutterSpot2/Indicators" index="1"]
+position = Vector2(-46, 11)
+
+[editable path="WireSpot2"]
+[editable path="SpoolSpot2"]
+[editable path="ScreewSpot"]
+[editable path="HammerSpot2"]
+[editable path="WirecutterSpot2"]

@@ -1,0 +1,263 @@
+[gd_scene load_steps=44 format=4 uid="uid://cs5ofb635llli"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://sjjrmxpjka1h" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://s61pdjfwynbu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c01f862m8rf0i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cwxikita6rhm6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bp60y47e75b67" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bfyguy2pt8tty" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dsv02pe6po045" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dl4tlb2llo47y" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c5a0r7boe8pos" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bvuj67o1g6m2i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cl445obr4ciui" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://txwnx6ijmp6c" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dc1vangb3cmgl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://culjkfpb1ux38" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://75kkluqxfr1w" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://oo6j7ux7gg8d" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dv177isq11drn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://shfbtwq5fmh3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cumjg61lj3shc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dh8p235wpunje" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ddo6ci6gi8g5w" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://iwk41u11u8n0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://niahbxhorpe7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dqj2pmevj7ekg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ddwjl35g0ugxy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cwxfq8jftejyg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://digq6drcv7gsk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cko63ooktd2jd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://k853lp81tkpb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cixjrpv64rgyd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cu0qplwoqt35m" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cskhp8ya73v75" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://cyaqyypwqtu5i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bnx48ah7xftmt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/notetojenny_small.png" id="38"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="39"]
+[ext_resource type="Texture2D" uid="uid://bxwo6iigfd6v4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/notetojenny.png" id="40"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_elsfc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_b21h5"]
+script = ExtResource("39")
+linked_item_ref_id = 100
+
+[sub_resource type="Resource" id="Resource_jifsl"]
+script = ExtResource("39")
+linked_item_ref_id = 152
+
+[node name="Panel" type="Panel"]
+offset_left = 1084.0
+offset_top = -1066.0
+offset_right = 1785.0
+offset_bottom = -503.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 21.0
+offset_right = 617.0
+offset_bottom = 117.0
+theme = ExtResource("1")
+text = "cinema_jenny_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(179, 203)
+rotation = -0.09557080268859863
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "22"
+metadata/_edit_use_anchors_ = true
+
+[node name="TicketSpot3" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 93.0
+offset_top = 143.0
+offset_right = -366.0
+offset_bottom = -316.0
+hotspot_id = "OLG"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot3/Indicators" index="0"]
+modulate = Color(0.752941, 0.564706, 0.294118, 1)
+position = Vector2(-113.5, 39.25)
+
+[node name="FocusIndicator" parent="TicketSpot3/Indicators" index="1"]
+position = Vector2(-112.5, 43.25)
+
+[node name="Sprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(486, 344)
+sprite_frames = SubResource("SpriteFrames_elsfc")
+autoplay = "default"
+frame_progress = 0.3450010120868683
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(178, 357)
+rotation = 0.06014209985733032
+texture = ExtResource("38")
+
+[node name="Spot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 42.0
+offset_top = 274.0
+offset_right = -396.0
+offset_bottom = -131.0
+hotspot_id = "wtx"
+unlocked_item_ref_id = 96
+extra_items_unlocked = [SubResource("Resource_b21h5"), SubResource("Resource_jifsl")]
+
+[node name="Indicators" parent="Spot" index="0"]
+offset_left = -112.5
+offset_top = 9.0
+offset_right = -112.5
+offset_bottom = 9.0
+
+[node name="Highlighter" parent="Spot/Indicators" index="0"]
+modulate = Color(0.87014, 0.795245, 0.668595, 1)
+position = Vector2(15, 63.25)
+frame_progress = 0.792165994644165
+
+[node name="FocusIndicator" parent="Spot/Indicators" index="1"]
+position = Vector2(16, 67.25)
+
+[node name="Panel" type="Panel" parent="Spot"]
+layout_mode = 0
+offset_left = 579.0
+offset_top = -333.0
+offset_right = 1211.0
+offset_bottom = 89.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Spot/Panel"]
+position = Vector2(316, 207)
+texture = ExtResource("40")
+
+[node name="Label2" type="Label" parent="Spot/Panel/Sprite2D"]
+offset_left = -287.0
+offset_top = -181.0
+offset_right = 281.0
+offset_bottom = 174.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "cinema_jenny_letter"
+autowrap_mode = 2
+
+[editable path="TicketSpot3"]
+[editable path="Spot"]

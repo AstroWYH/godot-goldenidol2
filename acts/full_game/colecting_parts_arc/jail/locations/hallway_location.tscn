@@ -1,0 +1,572 @@
+[gd_scene load_steps=75 format=4 uid="uid://igjhg8ddadl"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://cpeitqeccefpd" path="res://acts/full_game/colecting_parts_arc/jail/locations/hallway_location.tres" id="2"]
+[ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="3"]
+[ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bj62y8fh7vxp5" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/lamp/lamp0000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b7a8bdr72hjxj" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/lamp/lamp0001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cc7e0hj5ch00c" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/lamp/lamp0002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dp7b3hwq5qdv0" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/lamp/lamp0003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cc02sg0yog5k" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/lamp/lamp0004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dj5pvnny2ds71" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/lamp/lamp0005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://d3vydr811a5nd" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_00.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c57p7tx4rec70" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_01.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://uecmlasfn7b4" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_02.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://duh6l2qveju6x" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_03.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bo24e7jqy8vb5" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_04.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://gnbq4wu371oa" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_05.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dn10bvr4lasot" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_06.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dggwm38umjy0c" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_07.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dwd6my68vt0uc" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_08.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b12fokoo1q6ld" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_09.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://qw24sh78dl7n" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard1/guardsanimation2-animation_10.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://7pmemhktlx0j" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_00.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dkcrh4j3fxldt" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_01.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://d1ibd6gnmyyeh" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_02.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c26sinydlsdae" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_03.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dax1l45oc6ts1" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_04.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dy2fcgw6s03kt" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_05.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cd8vyn1r8ok7l" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_06.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c8x2op3ouvhv1" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_07.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b1b0d1ovii4be" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_08.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dmqjkua7boogm" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_09.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dbetgboedmph0" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_10.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://kxs2g1gqsgys" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_11.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://b8k1rnj2x4bjy" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_12.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bqknq48fabgmf" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_13.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://don1ig54mibu8" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_14.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://crgaqyl0dbifi" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/guard2/guardsanimation-animation_15.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bjf0moj7djkkj" path="res://acts/full_game/colecting_parts_arc/jail/assets/railing.png" id="38"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="39"]
+[ext_resource type="PackedScene" uid="uid://cuu5y2k7oacdd" path="res://acts/full_game/colecting_parts_arc/jail/closeups/floorplan_panel.tscn" id="40"]
+[ext_resource type="Resource" uid="uid://c2fgd6jbke5pw" path="res://acts/full_game/colecting_parts_arc/jail/locations/yard_location.tres" id="41"]
+[ext_resource type="PackedScene" uid="uid://blxixde0vtv0e" path="res://acts/full_game/colecting_parts_arc/jail/closeups/shelf_1_panel.tscn" id="42"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="43"]
+[ext_resource type="PackedScene" uid="uid://csd6fu3nhgahp" path="res://acts/full_game/colecting_parts_arc/jail/closeups/poster_panel.tscn" id="44"]
+[ext_resource type="PackedScene" uid="uid://cshjnt4br8m7v" path="res://acts/full_game/colecting_parts_arc/jail/closeups/desk_1_panel.tscn" id="45"]
+[ext_resource type="PackedScene" uid="uid://b5t6pk4xobujj" path="res://acts/full_game/colecting_parts_arc/jail/closeups/hideout_1_panel.tscn" id="46"]
+[ext_resource type="PackedScene" uid="uid://b83e45vntukxi" path="res://acts/full_game/colecting_parts_arc/jail/closeups/blackboard_panel.tscn" id="47"]
+[ext_resource type="PackedScene" uid="uid://cv6p3ulaid3nx" path="res://acts/full_game/colecting_parts_arc/jail/closeups/shelf_2_panel.tscn" id="48"]
+[ext_resource type="PackedScene" uid="uid://c02u48xhb6bhq" path="res://acts/full_game/colecting_parts_arc/jail/closeups/hideout_2_panel.tscn" id="49"]
+[ext_resource type="PackedScene" uid="uid://bhll3g08m7iep" path="res://acts/full_game/colecting_parts_arc/jail/closeups/corrupt_officer_panel.tscn" id="50"]
+[ext_resource type="PackedScene" uid="uid://k7100q8st0x1" path="res://acts/full_game/colecting_parts_arc/jail/closeups/naive_officer_panel.tscn" id="51"]
+[ext_resource type="PackedScene" uid="uid://cs12di0ghy2gu" path="res://acts/full_game/colecting_parts_arc/jail/closeups/tv_guide_panel.tscn" id="52"]
+[ext_resource type="PackedScene" uid="uid://05twaos7uhit" path="res://acts/full_game/colecting_parts_arc/jail/closeups/hideout_3_panel.tscn" id="53"]
+[ext_resource type="PackedScene" uid="uid://d06tdxdqhqjbd" path="res://shared/sfx/play_sound_when_visible.tscn" id="54"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_diyum"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0lwr5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bjkgf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Animation" id="Animation_fjmmo"]
+resource_name = "new_animation"
+loop_mode = 1
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fmlpq"]
+_data = {
+"new_animation": SubResource("Animation_fjmmo")
+}
+
+[sub_resource type="Resource" id="Resource_hf72i"]
+script = ExtResource("43")
+linked_item_ref_id = 65
+
+[sub_resource type="Resource" id="Resource_6ang0"]
+script = ExtResource("43")
+linked_item_ref_id = 66
+
+[sub_resource type="Resource" id="Resource_0ird5"]
+script = ExtResource("43")
+linked_item_ref_id = 15
+
+[sub_resource type="Resource" id="Resource_1b04q"]
+script = ExtResource("43")
+linked_item_ref_id = 69
+
+[sub_resource type="Resource" id="Resource_vef2m"]
+script = ExtResource("43")
+linked_item_ref_id = 19
+
+[sub_resource type="Resource" id="Resource_c342x"]
+script = ExtResource("43")
+linked_item_ref_id = 20
+
+[sub_resource type="Resource" id="Resource_nyb4o"]
+script = ExtResource("43")
+linked_item_ref_id = 54
+
+[sub_resource type="Resource" id="Resource_lpoyv"]
+script = ExtResource("43")
+linked_item_ref_id = 60
+
+[sub_resource type="Resource" id="Resource_5ydew"]
+script = ExtResource("43")
+linked_item_ref_id = 43
+
+[sub_resource type="Resource" id="Resource_dapv6"]
+script = ExtResource("43")
+linked_item_ref_id = 44
+
+[sub_resource type="Resource" id="Resource_e8poy"]
+script = ExtResource("43")
+linked_item_ref_id = 46
+
+[sub_resource type="Resource" id="Resource_uqqru"]
+script = ExtResource("43")
+linked_item_ref_id = 22
+
+[sub_resource type="Resource" id="Resource_x3ynn"]
+script = ExtResource("43")
+linked_item_ref_id = 11
+
+[sub_resource type="Resource" id="Resource_7ae00"]
+script = ExtResource("43")
+linked_item_ref_id = 51
+
+[sub_resource type="Resource" id="Resource_3vvj2"]
+script = ExtResource("43")
+linked_item_ref_id = 59
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="snowmask" type="Panel" parent="."]
+show_behind_parent = true
+clip_children = 1
+offset_left = 752.0
+offset_top = 193.0
+offset_right = 1619.0
+offset_bottom = 781.0
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="snowmask"]
+layout_mode = 0
+offset_right = 834.0
+offset_bottom = 577.0
+color = Color(0.492188, 0.359375, 0.347656, 1)
+metadata/_edit_lock_ = true
+
+[node name="Snow2" type="GPUParticles2D" parent="snowmask"]
+position = Vector2(-243, -126)
+amount = 4000
+process_material = ExtResource("3")
+texture = ExtResource("4")
+lifetime = 50.0
+metadata/_edit_lock_ = true
+
+[node name="Lamp" type="AnimatedSprite2D" parent="."]
+position = Vector2(386, 102)
+sprite_frames = SubResource("SpriteFrames_diyum")
+autoplay = "default"
+frame_progress = 0.7448899745941162
+
+[node name="Lamp2" type="AnimatedSprite2D" parent="."]
+position = Vector2(1045, 65)
+sprite_frames = SubResource("SpriteFrames_diyum")
+autoplay = "default"
+frame_progress = 0.4818120002746582
+
+[node name="Lamp3" type="AnimatedSprite2D" parent="."]
+position = Vector2(1703, 22)
+sprite_frames = SubResource("SpriteFrames_diyum")
+autoplay = "default"
+frame_progress = 0.4818120002746582
+
+[node name="Guard1" type="AnimatedSprite2D" parent="."]
+position = Vector2(1296, 656)
+sprite_frames = SubResource("SpriteFrames_0lwr5")
+autoplay = "default"
+frame_progress = 0.3546299934387207
+
+[node name="Guard2" type="AnimatedSprite2D" parent="."]
+position = Vector2(1665, 679)
+sprite_frames = SubResource("SpriteFrames_bjkgf")
+autoplay = "default"
+frame_progress = 0.7751929759979248
+
+[node name="CellsRail" type="Sprite2D" parent="."]
+position = Vector2(1419, 912)
+texture = ExtResource("38")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_fmlpq")
+}
+autoplay = "new_animation"
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_top = -27.0
+offset_right = 40.0
+offset_bottom = 13.0
+mouse_filter = 1
+
+[node name="FloorplanSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 39.0
+offset_top = 432.0
+offset_right = 89.0
+offset_bottom = 447.0
+hotspot_id = "6yc"
+
+[node name="FloorplanPanel" parent="Hotspots/FloorplanSpot" instance=ExtResource("40")]
+layout_mode = 0
+offset_left = -1075.0
+offset_top = 559.0
+offset_right = -413.0
+offset_bottom = 844.0
+
+[node name="ToYardSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = -1.0
+offset_top = 830.0
+offset_right = 1873.0
+offset_bottom = 1238.0
+hotspot_id = "y9Q"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("41")
+
+[node name="Shelf1Spot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 364.0
+offset_top = 407.0
+offset_right = 433.0
+offset_bottom = 417.0
+hotspot_id = "5XY"
+
+[node name="Shelf1Panel" parent="Hotspots/Shelf1Spot" instance=ExtResource("42")]
+layout_mode = 0
+offset_left = -2329.0
+offset_top = -1298.0
+offset_right = -1548.0
+offset_bottom = -712.0
+
+[node name="PosterSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 402.0
+offset_top = 468.0
+offset_right = 463.0
+offset_bottom = 493.0
+hotspot_id = "_Rs"
+extra_items_unlocked = [SubResource("Resource_hf72i"), SubResource("Resource_6ang0")]
+
+[node name="Highlighter" parent="Hotspots/PosterSpot/Indicators" index="0"]
+position = Vector2(14.5, -5)
+
+[node name="FocusIndicator" parent="Hotspots/PosterSpot/Indicators" index="1"]
+position = Vector2(18.5, -2)
+
+[node name="PosterPanel" parent="Hotspots/PosterSpot" instance=ExtResource("44")]
+layout_mode = 0
+offset_left = -1385.0
+offset_top = -1620.0
+offset_right = -686.0
+offset_bottom = -791.0
+
+[node name="Desk1Spot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 295.0
+offset_top = 542.0
+offset_right = 414.0
+offset_bottom = 561.0
+hotspot_id = "cqb"
+
+[node name="Desk1Panel" parent="Hotspots/Desk1Spot" instance=ExtResource("45")]
+layout_mode = 0
+offset_left = -1608.0
+offset_top = -479.0
+offset_right = -655.0
+offset_bottom = 267.0
+
+[node name="Hideout1Spot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 295.0
+offset_top = 629.0
+offset_right = 364.0
+offset_bottom = 656.0
+hotspot_id = "1MJ"
+extra_items_unlocked = [SubResource("Resource_0ird5"), SubResource("Resource_1b04q"), SubResource("Resource_vef2m"), SubResource("Resource_c342x")]
+
+[node name="Hideout1Panel" parent="Hotspots/Hideout1Spot" instance=ExtResource("46")]
+layout_mode = 0
+offset_left = -285.0
+offset_top = -1733.0
+offset_right = 628.0
+offset_bottom = -1085.0
+
+[node name="BlackboardSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 651.0
+offset_top = 396.0
+offset_right = 701.0
+offset_bottom = 497.0
+hotspot_id = "G7M"
+extra_items_unlocked = [SubResource("Resource_nyb4o"), SubResource("Resource_lpoyv"), SubResource("Resource_5ydew"), SubResource("Resource_dapv6"), SubResource("Resource_e8poy")]
+
+[node name="BlackboardPanel" parent="Hotspots/BlackboardSpot" instance=ExtResource("47")]
+layout_mode = 0
+offset_left = -1170.0
+offset_top = 1094.0
+offset_right = -301.0
+offset_bottom = 1969.0
+
+[node name="WindowSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 832.0
+offset_top = 335.0
+offset_right = 947.0
+offset_bottom = 369.0
+hotspot_id = "-v_"
+text = "prison_window_tooltip"
+extra_items_unlocked = [SubResource("Resource_uqqru"), SubResource("Resource_x3ynn")]
+
+[node name="Highlighter" parent="Hotspots/WindowSpot/Indicators" index="0"]
+position = Vector2(-59.5, 20)
+
+[node name="FocusIndicator" parent="Hotspots/WindowSpot/Indicators" index="1"]
+position = Vector2(-61.5, 23)
+
+[node name="Shelf2Spot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 999.0
+offset_top = 395.0
+offset_right = 1068.0
+offset_bottom = 437.0
+hotspot_id = "5_T"
+
+[node name="Shelf2Panel" parent="Hotspots/Shelf2Spot" instance=ExtResource("48")]
+layout_mode = 0
+offset_left = -472.0
+offset_top = 1098.0
+offset_right = 446.0
+offset_bottom = 1642.0
+
+[node name="Hideout2Spot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 926.0
+offset_top = 643.0
+offset_right = 995.0
+offset_bottom = 653.0
+hotspot_id = "uXc"
+unlocked_item_ref_id = 21
+
+[node name="Indicators" parent="Hotspots/Hideout2Spot" index="0"]
+offset_left = 3.5
+offset_top = 23.0
+offset_right = 3.5
+offset_bottom = 23.0
+
+[node name="Highlighter" parent="Hotspots/Hideout2Spot/Indicators" index="0"]
+position = Vector2(-43, -2)
+
+[node name="FocusIndicator" parent="Hotspots/Hideout2Spot/Indicators" index="1"]
+position = Vector2(-46, -3)
+
+[node name="Hideout2Panel" parent="Hotspots/Hideout2Spot" instance=ExtResource("49")]
+layout_mode = 0
+offset_left = 445.0
+offset_top = -1620.0
+offset_right = 1239.0
+offset_bottom = -1009.0
+
+[node name="CorruptOfficerSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 1181.0
+offset_top = 391.0
+offset_right = 1273.0
+offset_bottom = 804.0
+hotspot_id = "xy2"
+unlocked_character_ref_id = 3
+unlocked_item_ref_id = 62
+
+[node name="Highlighter" parent="Hotspots/CorruptOfficerSpot/Indicators" index="0"]
+position = Vector2(44.5, 40.25)
+
+[node name="FocusIndicator" parent="Hotspots/CorruptOfficerSpot/Indicators" index="1"]
+position = Vector2(43.5, 51.25)
+
+[node name="CorruptOfficerPanel" parent="Hotspots/CorruptOfficerSpot" instance=ExtResource("50")]
+layout_mode = 0
+offset_left = 511.0
+offset_top = 1101.0
+offset_right = 1282.0
+offset_bottom = 1567.0
+
+[node name="NaiveOfficerSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 1587.0
+offset_top = 405.0
+offset_right = 1652.0
+offset_bottom = 809.0
+hotspot_id = "ptp"
+unlocked_character_ref_id = 2
+extra_items_unlocked = [SubResource("Resource_7ae00"), SubResource("Resource_3vvj2")]
+
+[node name="NaiveOfficerPanel" parent="Hotspots/NaiveOfficerSpot" instance=ExtResource("51")]
+layout_mode = 0
+offset_left = 1215.0
+offset_top = 403.0
+offset_right = 1986.0
+offset_bottom = 889.0
+
+[node name="TVGuideSpot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 1766.0
+offset_top = 575.0
+offset_right = 1835.0
+offset_bottom = 618.0
+hotspot_id = "UHh"
+
+[node name="TVGuidePanel" parent="Hotspots/TVGuideSpot" instance=ExtResource("52")]
+layout_mode = 0
+offset_left = 537.0
+offset_top = -592.0
+offset_right = 1465.0
+offset_bottom = -4.0
+
+[node name="HideOut3Spot" parent="Hotspots" instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 1802.0
+offset_top = 706.0
+offset_right = 1871.0
+offset_bottom = 746.0
+hotspot_id = "gTp"
+
+[node name="Hideout3Panel" parent="Hotspots/HideOut3Spot" instance=ExtResource("53")]
+layout_mode = 0
+offset_left = 681.0
+offset_top = -1760.0
+offset_right = 1595.0
+offset_bottom = -1050.0
+
+[node name="PlaySoundWhenVisible" parent="." instance=ExtResource("54")]
+sound = 18
+
+[editable path="Hotspots/ToYardSpot"]
+[editable path="Hotspots/PosterSpot"]
+[editable path="Hotspots/WindowSpot"]
+[editable path="Hotspots/Hideout2Spot"]
+[editable path="Hotspots/CorruptOfficerSpot"]

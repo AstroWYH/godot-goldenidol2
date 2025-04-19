@@ -1,0 +1,105 @@
+[gd_scene load_steps=9 format=4 uid="uid://b72xyywmkxpl2"]
+
+[ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cq6je3unxhe7e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0002.png" id="3"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]
+[ext_resource type="Texture2D" uid="uid://cwf3235b0ds77" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/checkbookl.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://oj484msrbm7i" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0003_disc2.png" id="7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_je5lk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CuratorCloseup" type="Panel"]
+offset_right = 786.0
+offset_bottom = 509.0
+mouse_filter = 2
+
+[node name="Siluette" type="AnimatedSprite2D" parent="."]
+position = Vector2(203, 332)
+sprite_frames = SubResource("SpriteFrames_je5lk")
+autoplay = "default"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 24.0
+offset_right = 763.0
+offset_bottom = 102.0
+theme = ExtResource("4")
+text = "auction_1night_person1_speech"
+autowrap_mode = 2
+
+[node name="CheckBookSprite" type="Sprite2D" parent="."]
+position = Vector2(596, 379)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("5")
+
+[node name="CheckbookSpot" parent="." instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 508.0
+offset_top = 310.0
+offset_right = -93.0
+offset_bottom = -84.0
+focus_neighbor_left = NodePath("../SealSpot")
+focus_neighbor_top = NodePath("../SealSpot")
+hotspot_id = "Qeg"
+text = "auction_1day_curator_checkbook_tooltip"
+
+[node name="Indicators" parent="CheckbookSpot" index="0"]
+offset_left = 14.5
+offset_top = 20.0
+offset_right = 14.5
+offset_bottom = 20.0
+
+[node name="Highlighter" parent="CheckbookSpot/Indicators" index="0"]
+modulate = Color(0.741176, 0.266667, 0.247059, 1)
+position = Vector2(9, -8)
+
+[node name="FocusIndicator" parent="CheckbookSpot/Indicators" index="1"]
+position = Vector2(10, -4)
+
+[node name="Seal" type="Sprite2D" parent="."]
+position = Vector2(487, 248)
+texture = ExtResource("7")
+
+[node name="SealSpot" parent="." instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 432.0
+offset_top = 130.0
+offset_right = -236.0
+offset_bottom = -198.0
+focus_neighbor_right = NodePath("../CheckbookSpot")
+focus_neighbor_bottom = NodePath("../CheckbookSpot")
+hotspot_id = "a--"
+text = "auction_1night_person1_seal_tooltip"
+unlocked_item_ref_id = 317
+
+[node name="Indicators" parent="SealSpot" index="0"]
+offset_top = -4.0
+offset_bottom = -4.0
+
+[node name="Highlighter" parent="SealSpot/Indicators" index="0"]
+modulate = Color(0.969247, 0.270436, 0.229054, 1)
+position = Vector2(-11, 30)
+
+[node name="FocusIndicator" parent="SealSpot/Indicators" index="1"]
+position = Vector2(-10, 34)
+
+[editable path="CheckbookSpot"]
+[editable path="SealSpot"]

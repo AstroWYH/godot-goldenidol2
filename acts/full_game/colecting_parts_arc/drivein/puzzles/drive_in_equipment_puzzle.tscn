@@ -1,0 +1,143 @@
+[gd_scene load_steps=6 format=4 uid="uid://censriueob4vp"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://c521pkqsotnqt" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_equipment_puzzle_meta.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="5"]
+
+[node name="EquipmentPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 572.0
+offset_bottom = 524.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ScrollText5" type="Label" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 0
+offset_left = 209.0
+offset_top = 41.0
+offset_right = 367.0
+offset_bottom = 89.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "THE PLAN"
+autowrap_mode = 3
+
+[node name="ScrollText" type="Label" parent="Frame/MarginContainer/Background" index="1"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 92.0
+offset_right = 384.0
+offset_bottom = 136.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "• Disguise my identity—need a"
+autowrap_mode = 3
+
+[node name="ScrollText6" type="Label" parent="Frame/MarginContainer/Background" index="2"]
+visible = false
+layout_mode = 0
+offset_left = 315.0
+offset_top = 46.0
+offset_right = 547.0
+offset_bottom = 94.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "WHAT TO PACK"
+autowrap_mode = 3
+
+[node name="ScrollText2" type="Label" parent="Frame/MarginContainer/Background" index="3"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 163.0
+offset_right = 502.0
+offset_bottom = 226.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "• Get in and out of the drive-in—bring enough"
+autowrap_mode = 3
+
+[node name="ScrollText3" type="Label" parent="Frame/MarginContainer/Background" index="4"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 257.0
+offset_right = 516.0
+offset_bottom = 290.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "• Get the staff out of the way with a distraction—pack"
+autowrap_mode = 3
+
+[node name="ScrollText4" type="Label" parent="Frame/MarginContainer/Background" index="5"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 355.0
+offset_right = 540.0
+offset_bottom = 451.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "• They may search people's bags, so I'll hide my spoils in plain sight—bring"
+autowrap_mode = 3
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 7.0
+offset_top = 4.0
+offset_right = 7.0
+offset_bottom = 4.0
+puzzle_meta = ExtResource("4")
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 386.0
+offset_top = 95.0
+offset_right = -186.0
+offset_bottom = -338.0
+answer_item_ref_id = 153
+override_accepted_types = 2
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 117.0
+offset_top = 200.0
+offset_right = -455.0
+offset_bottom = -233.0
+answer_item_ref_id = 158
+override_accepted_types = 2
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 233.0
+offset_top = 293.0
+offset_right = -339.0
+offset_bottom = -140.0
+answer_item_ref_id = 23
+override_accepted_types = 2
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 391.0
+offset_top = 392.0
+offset_right = -181.0
+offset_bottom = -41.0
+answer_item_ref_id = 341
+override_accepted_types = 2
+
+[editable path="Frame"]

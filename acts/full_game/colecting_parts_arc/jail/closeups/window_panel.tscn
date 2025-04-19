@@ -1,0 +1,82 @@
+[gd_scene load_steps=15 format=4 uid="uid://bemucw2na8mso"]
+
+[ext_resource type="Texture2D" uid="uid://bv80jfjm6ugbn" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/ofice.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Resource" uid="uid://no8tg6uc7do" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/cell_puzzle_meta.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://ddhxpc73ivbpb" path="res://acts/full_game/colecting_parts_arc/jail/closeups/noticeboard_panel.tscn" id="5"]
+
+[sub_resource type="Resource" id="Resource_17ypl"]
+script = ExtResource("3")
+linked_item_ref_id = 47
+
+[sub_resource type="Resource" id="Resource_rjbv1"]
+script = ExtResource("3")
+linked_item_ref_id = 57
+
+[sub_resource type="Resource" id="Resource_34lbw"]
+script = ExtResource("3")
+linked_item_ref_id = 49
+
+[sub_resource type="Resource" id="Resource_j4a5e"]
+script = ExtResource("3")
+linked_item_ref_id = 42
+
+[sub_resource type="Resource" id="Resource_4heao"]
+script = ExtResource("3")
+linked_item_ref_id = 45
+
+[sub_resource type="Resource" id="Resource_mxfxt"]
+script = ExtResource("3")
+linked_item_ref_id = 41
+
+[sub_resource type="Resource" id="Resource_5r25q"]
+script = ExtResource("3")
+linked_item_ref_id = 40
+
+[sub_resource type="Resource" id="Resource_5g3iv"]
+script = ExtResource("3")
+linked_item_ref_id = 39
+
+[sub_resource type="Resource" id="Resource_5qu1e"]
+script = ExtResource("3")
+linked_item_ref_id = 64
+
+[node name="WindowPanel" type="Panel"]
+offset_left = -2207.0
+offset_top = -840.0
+offset_right = -1339.0
+offset_bottom = -250.0
+mouse_filter = 2
+
+[node name="OfficeSprite" type="Sprite2D" parent="."]
+position = Vector2(11, 8)
+scale = Vector2(0.771858, 0.771858)
+texture = ExtResource("1")
+centered = false
+
+[node name="BoardSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 490.0
+offset_top = 182.0
+offset_right = -168.0
+offset_bottom = -257.0
+hotspot_id = "wS2"
+extra_items_unlocked = [SubResource("Resource_17ypl"), SubResource("Resource_rjbv1"), SubResource("Resource_34lbw"), SubResource("Resource_j4a5e"), SubResource("Resource_4heao"), SubResource("Resource_mxfxt"), SubResource("Resource_5r25q"), SubResource("Resource_5g3iv"), SubResource("Resource_5qu1e")]
+unlocked_puzzles = [ExtResource("4")]
+
+[node name="Highlighter" parent="BoardSpot/Indicators" index="0"]
+position = Vector2(-3, 32.25)
+
+[node name="FocusIndicator" parent="BoardSpot/Indicators" index="1"]
+visible = false
+position = Vector2(-4, 43.25)
+
+[node name="NoticeboardPanel" parent="BoardSpot" instance=ExtResource("5")]
+layout_mode = 0
+offset_left = 552.0
+offset_top = -98.0
+offset_right = 1486.0
+offset_bottom = 636.0
+
+[editable path="BoardSpot"]

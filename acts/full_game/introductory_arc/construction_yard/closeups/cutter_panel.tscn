@@ -1,0 +1,82 @@
+[gd_scene load_steps=8 format=4 uid="uid://dnfjc3ihjrtio"]
+
+[ext_resource type="Texture2D" uid="uid://ck8h00pb8qbs3" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cabin01.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dsbhov8471xyq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/indicator/indicator1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dok87r3t8slfk" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/indicator/indicator2.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://ricy1cub6i4c" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cup.png" id="5"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_maxbh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="CutterPanel" type="Panel"]
+offset_left = 396.0
+offset_top = -1072.0
+offset_right = 962.0
+offset_bottom = -347.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(9, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Sprite2D"]
+position = Vector2(463, 615)
+sprite_frames = SubResource("SpriteFrames_maxbh")
+autoplay = "default"
+frame_progress = 0.04731699824333191
+
+[node name="MugSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 138.0
+offset_top = 563.0
+offset_right = -355.0
+offset_bottom = -72.0
+hotspot_id = "B0P"
+unlocked_item_ref_id = 364
+
+[node name="Highlighter" parent="MugSpot/Indicators" index="0"]
+modulate = Color(0.180392, 0.219608, 0.192157, 1)
+position = Vector2(1, 4)
+
+[node name="FocusIndicator" parent="MugSpot/Indicators" index="1"]
+position = Vector2(2, 8)
+
+[node name="MugPanel" type="Panel" parent="MugSpot"]
+layout_mode = 0
+offset_left = 625.0
+offset_top = -529.0
+offset_right = 983.0
+offset_bottom = -126.0
+
+[node name="Sprite2D" type="Sprite2D" parent="MugSpot/MugPanel"]
+position = Vector2(24, 44)
+texture = ExtResource("5")
+centered = false
+
+[node name="Label" type="Label" parent="MugSpot/MugPanel/Sprite2D"]
+offset_left = 73.0
+offset_top = 38.0
+offset_right = 265.0
+offset_bottom = 283.0
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 36
+text = "CONSTRUCTION_CUTTER_MUG"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[editable path="MugSpot"]

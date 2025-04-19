@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=4 uid="uid://d2f3jyyi7a23f"]
+
+[ext_resource type="Texture2D" uid="uid://dkjls38ersabv" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cabin03.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://emnrd23ac7s1" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/fish.png" id="3"]
+
+[node name="ExcavatorPanel" type="Panel"]
+offset_left = -514.0
+offset_top = -1120.0
+offset_right = 52.0
+offset_bottom = -395.0
+
+[node name="PanelBackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(9, 8)
+texture = ExtResource("1")
+centered = false
+
+[node name="PhotoSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 117.0
+offset_top = 121.0
+offset_right = -345.0
+offset_bottom = -487.0
+hotspot_id = "X4Q"
+
+[node name="Indicators" parent="PhotoSpot" index="0"]
+offset_top = 77.0
+offset_bottom = 77.0
+
+[node name="Highlighter" parent="PhotoSpot/Indicators" index="0"]
+modulate = Color(0.831373, 0.843137, 0.843137, 1)
+position = Vector2(-2, -10)
+
+[node name="FocusIndicator" parent="PhotoSpot/Indicators" index="1"]
+position = Vector2(-1, -6)
+
+[node name="PhotoPanel" type="Panel" parent="PhotoSpot"]
+layout_mode = 0
+offset_left = -990.0
+offset_top = -210.0
+offset_right = -581.0
+offset_bottom = 315.0
+
+[node name="Sprite2D" type="Sprite2D" parent="PhotoSpot/PhotoPanel"]
+position = Vector2(9, 8)
+texture = ExtResource("3")
+centered = false
+
+[editable path="PhotoSpot"]

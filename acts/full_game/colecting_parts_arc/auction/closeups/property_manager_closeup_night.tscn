@@ -1,0 +1,123 @@
+[gd_scene load_steps=14 format=4 uid="uid://dblvib2uyua6r"]
+
+[ext_resource type="Texture2D" uid="uid://cecnpb5owxp5a" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/mug.png" id="1"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
+[ext_resource type="Texture2D" uid="uid://dra33p8tvvs5i" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/napkin.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="7"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
+[ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cq6je3unxhe7e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0002.png" id="11"]
+
+[sub_resource type="Resource" id="Resource_tt142"]
+script = ExtResource("5")
+linked_item_ref_id = 79
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c3h4b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="PropertyManagerCloseup" type="Panel"]
+offset_right = 650.0
+offset_bottom = 508.0
+mouse_filter = 2
+
+[node name="Mug" type="Sprite2D" parent="."]
+position = Vector2(479, 181)
+texture = ExtResource("1")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 18.0
+offset_right = 625.0
+offset_bottom = 91.0
+theme = ExtResource("2")
+text = "auction_1night_person4_speech"
+autowrap_mode = 2
+
+[node name="Napkin" type="Sprite2D" parent="."]
+position = Vector2(483, 384)
+texture = ExtResource("3")
+
+[node name="AutographSpot2" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 390.0
+offset_top = 290.0
+offset_right = -57.0
+offset_bottom = -56.0
+hotspot_id = "iVa"
+unlocked_item_ref_id = 75
+extra_items_unlocked = [SubResource("Resource_tt142")]
+
+[node name="Highlighter" parent="AutographSpot2/Indicators" index="0"]
+modulate = Color(0.8, 0.72549, 0.552941, 1)
+
+[node name="NapkinPanel" type="Panel" parent="AutographSpot2"]
+layout_mode = 0
+offset_left = 312.0
+offset_top = -244.0
+offset_right = 695.0
+offset_bottom = 156.0
+
+[node name="TextureRect2" type="TextureRect" parent="AutographSpot2/NapkinPanel"]
+modulate = Color(0.796078, 0.721569, 0.54902, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 371.0
+offset_bottom = 385.0
+texture = ExtResource("6")
+stretch_mode = 1
+
+[node name="Sprite2D7" type="Sprite2D" parent="AutographSpot2/NapkinPanel/TextureRect2"]
+position = Vector2(179, 182)
+rotation = 3.14274001121521
+scale = Vector2(0.824331, 1)
+texture = ExtResource("7")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D8" type="Sprite2D" parent="AutographSpot2/NapkinPanel/TextureRect2"]
+position = Vector2(182.658, 216.362)
+rotation = 4.634160041809082
+scale = Vector2(0.980238, 1)
+texture = ExtResource("7")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="NapkinLabel" type="Label" parent="AutographSpot2/NapkinPanel"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 17.0
+offset_right = 355.0
+offset_bottom = 381.0
+theme = ExtResource("8")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "auction_1night_person4_note_body"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Siluette" type="AnimatedSprite2D" parent="."]
+position = Vector2(193, 330)
+sprite_frames = SubResource("SpriteFrames_c3h4b")
+autoplay = "default"
+
+[editable path="AutographSpot2"]

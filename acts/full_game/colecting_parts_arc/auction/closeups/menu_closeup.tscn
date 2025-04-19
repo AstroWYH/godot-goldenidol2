@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=4 uid="uid://pk51fi2s7oir"]
+
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="2"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+
+[node name="MenuCloseup" type="Panel"]
+offset_left = 421.0
+offset_top = 25.0
+offset_right = 942.0
+offset_bottom = 655.0
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(0.501961, 0.635294, 0.643137, 1)
+layout_mode = 0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 512.0
+offset_bottom = 615.0
+texture = ExtResource("1")
+stretch_mode = 1
+
+[node name="Sprite2D6" type="Sprite2D" parent="TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(254, 82)
+rotation = 3.1398301124572754
+texture = ExtResource("2")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D7" type="Sprite2D" parent="TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(252, 418)
+rotation = 3.1738100051879883
+texture = ExtResource("2")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 11.0
+offset_right = 513.0
+offset_bottom = 82.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.183085, 0.296633, 0.307979, 1)
+text = "auction_cocktails_label"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 86.0
+offset_right = 475.0
+offset_bottom = 609.0
+mouse_filter = 1
+theme = ExtResource("4")
+theme_override_colors/default_color = Color(0.155989, 0.262274, 0.272901, 1)
+theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+text = "auction_menu_contents"
+autowrap_mode = 2

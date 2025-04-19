@@ -1,0 +1,70 @@
+[gd_scene load_steps=8 format=4 uid="uid://baer8cuad3idi"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cq6je3unxhe7e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://277s2ltf5r5f" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/money.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6swma"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CollectorCloseup" type="Panel"]
+offset_left = 8.0
+offset_top = 850.0
+offset_right = 687.0
+offset_bottom = 1312.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 17.0
+offset_right = 646.0
+offset_bottom = 86.0
+theme = ExtResource("1")
+text = "auction_1night_person5_speech"
+autowrap_mode = 2
+
+[node name="Siluette" type="AnimatedSprite2D" parent="."]
+position = Vector2(198, 283)
+sprite_frames = SubResource("SpriteFrames_6swma")
+autoplay = "default"
+frame_progress = 0.24124999344348907
+
+[node name="Money2" type="Sprite2D" parent="."]
+position = Vector2(531.5, 294)
+texture = ExtResource("5")
+
+[node name="Money3" type="Sprite2D" parent="."]
+position = Vector2(505.5, 329)
+texture = ExtResource("5")
+
+[node name="MoneySpot2" parent="." instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 420.0
+offset_top = 221.0
+offset_right = -76.0
+offset_bottom = -81.0
+hotspot_id = "Cup"
+text = "auction_1night_person5_money_tooltip"
+
+[node name="Highlighter" parent="MoneySpot2/Indicators" index="0"]
+modulate = Color(0.705882, 0.631373, 0.45098, 1)
+
+[editable path="MoneySpot2"]

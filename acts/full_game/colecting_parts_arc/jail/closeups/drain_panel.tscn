@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=4 uid="uid://c0bafjutcxp6"]
+
+[ext_resource type="Texture2D" uid="uid://bds3f7ebgkid2" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/drain.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+
+[node name="DrainPanel" type="Panel"]
+offset_left = -555.0
+offset_top = -1442.0
+offset_right = 43.0
+offset_bottom = -666.0
+mouse_filter = 2
+
+[node name="DrainSprite" type="Sprite2D" parent="."]
+position = Vector2(10, 9)
+texture = ExtResource("1")
+centered = false
+
+[node name="DrainpipeSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 72.0
+offset_top = 33.0
+offset_right = -276.0
+offset_bottom = -482.0
+hotspot_id = "_rg"
+text = "prison_drainpipe_tooltip"
+
+[node name="SawSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 119.0
+offset_top = 514.0
+offset_right = -100.0
+offset_bottom = -92.0
+hotspot_id = "hnt"
+text = "prison_blade_tooltip"
+
+[editable path="SawSpot"]

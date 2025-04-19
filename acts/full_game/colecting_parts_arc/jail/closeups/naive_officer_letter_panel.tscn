@@ -1,0 +1,125 @@
+[gd_scene load_steps=6 format=4 uid="uid://bhcff25rl73nj"]
+
+[ext_resource type="Texture2D" uid="uid://htfvrijsp614" path="res://shared/assets/frames/frame_transparent.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2li1n"]
+
+[node name="LetterPanel" type="Panel"]
+offset_left = 964.0
+offset_top = 20.0
+offset_right = 1906.0
+offset_bottom = 656.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_2li1n")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="ClipboardSprite" type="TextureRect" parent="."]
+modulate = Color(0.887124, 0.849734, 0.643373, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = 11.0
+offset_right = -11.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="Sprite2D7" type="Sprite2D" parent="ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(420, 221)
+rotation = -1.5721800327301025
+texture = ExtResource("3")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D6" type="Sprite2D" parent="ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(425, 419)
+rotation = 4.70290994644165
+texture = ExtResource("3")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D5" type="Sprite2D" parent="ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(730, 153)
+rotation = -0.04404069855809212
+texture = ExtResource("3")
+region_enabled = true
+region_rect = Rect2(234.115, 2.52194, 361.885, 240.911)
+
+[node name="Sprite2D8" type="Sprite2D" parent="ClipboardSprite"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(188, 508)
+rotation = -3.1377100944519043
+texture = ExtResource("3")
+region_enabled = true
+region_rect = Rect2(192.188, 369.878, 403.812, 196.322)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+visible = false
+layout_mode = 2
+offset_right = 943.0
+offset_bottom = 631.0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="LetterColorRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+modulate = Color(0.909804, 0.882353, 0.72549, 1)
+layout_mode = 2
+offset_left = 18.0
+offset_top = 10.0
+offset_right = 931.0
+offset_bottom = 619.0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="HSplitContainer" type="HSplitContainer" parent="MarginContainer2"]
+layout_mode = 2
+split_offset = 400
+dragger_visibility = 1
+
+[node name="LetterText" type="Label" parent="MarginContainer2/HSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 25
+text = "prison_percy_letter1"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="LetterText2" type="Label" parent="MarginContainer2/HSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 0
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 25
+text = "prison_percy_letter2"
+vertical_alignment = 1
+autowrap_mode = 2

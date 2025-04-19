@@ -1,0 +1,194 @@
+[gd_scene load_steps=13 format=4 uid="uid://bansmg6uvhqru"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://oiop63n05afs" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/celspuzzle2.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://no8tg6uc7do" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/cell_puzzle_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://biomaeh5tyvfc" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/jimmy.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c717ksynged2r" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/robert.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dx5jd2sn3g42s" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/jason.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cmd0aiv7mfpm0" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/daniel.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bv3r61ffqm5bi" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/arthur.png" id="11"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="12"]
+
+[node name="PicturePuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 970.0
+offset_bottom = 610.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 267.0
+offset_right = 944.0
+offset_bottom = 582.0
+mouse_filter = 1
+color = Color(0, 0.4, 0.501961, 1)
+
+[node name="GridContainer" type="GridContainer" parent="Frame/MarginContainer/Background/ColorRect" index="0"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 124.0
+offset_right = 904.0
+offset_bottom = 274.0
+theme_override_constants/h_separation = 25
+columns = 5
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background/ColorRect/GridContainer" index="0"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0.490196, 0.615686, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Frame/MarginContainer/Background/ColorRect/GridContainer" index="1"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0.490196, 0.615686, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="Frame/MarginContainer/Background/ColorRect/GridContainer" index="2"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0.490196, 0.615686, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="Frame/MarginContainer/Background/ColorRect/GridContainer" index="3"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0.490196, 0.615686, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="Frame/MarginContainer/Background/ColorRect/GridContainer" index="4"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0.490196, 0.615686, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(475, 192)
+texture = ExtResource("2")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("3")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("4")]
+layout_mode = 1
+puzzle_meta = ExtResource("5")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 23.0
+offset_right = -817.0
+offset_bottom = -587.0
+
+[node name="Container" type="Control" parent="PuzzleGroup/Puzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 45.0
+offset_top = 46.0
+offset_right = 816.0
+offset_bottom = 533.0
+mouse_filter = 1
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="0"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 165.0
+offset_top = -7.0
+offset_right = 290.0
+offset_bottom = 118.0
+texture = ExtResource("7")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="1"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 698.0
+offset_top = -2.0
+offset_right = 823.0
+offset_bottom = 123.0
+texture = ExtResource("8")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="2"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 348.0
+offset_top = -7.0
+offset_right = 473.0
+offset_bottom = 118.0
+texture = ExtResource("9")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="3"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+offset_left = 522.0
+offset_top = -5.0
+offset_right = 647.0
+offset_bottom = 120.0
+texture = ExtResource("10")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="4"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 0
+texture = ExtResource("11")
+
+[node name="Inventory" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("12")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 925.0
+offset_top = 6.0
+offset_right = 925.0
+offset_bottom = 6.0
+grow_horizontal = 1
+grow_vertical = 1
+mouse_filter = 1
+infinite = false
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = -844.0
+offset_top = 408.0
+offset_right = -19.0
+offset_bottom = 533.0
+theme_override_constants/h_separation = 50
+columns = 6
+
+[node name="1" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="0"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+texture = ExtResource("7")
+
+[node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="1"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+texture = ExtResource("8")
+
+[node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="2"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+texture = ExtResource("9")
+
+[node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="3"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+texture = ExtResource("10")
+
+[node name="5" type="TextureRect" parent="PuzzleGroup/Puzzle/Inventory/GridContainer" index="4"]
+custom_minimum_size = Vector2(120, 100)
+layout_mode = 2
+texture = ExtResource("11")
+
+[editable path="Frame"]

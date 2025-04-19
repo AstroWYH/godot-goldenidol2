@@ -1,0 +1,280 @@
+[gd_scene load_steps=51 format=4 uid="uid://bjybh15ll4bgx"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://dd121dfs1p3jv" path="res://acts/full_game/colecting_parts_arc/retreat/locations/garden_location.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://ic2x2e0yqyvo" path="res://acts/full_game/colecting_parts_arc/retreat/assets/gates_for_translations/gates_default.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dfvjc6jjhw8vx" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_1.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dmxjd4fr6igt" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_2.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://wocokdjhp5ap" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_3.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cd76wngrvulci" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_4.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://drt40n65s4n7r" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_5.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://xs1ed66wus3f" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_6.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bo7srpjqodlam" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_7.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b02ai04oxr48w" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_8.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://x2jk7kga15ke" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_9.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b85ccex2ci65u" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_10.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dby68k6ft8df7" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_11.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://gqridroty7su" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_12.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dkci257afcfi7" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_13.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://vsimljji2vub" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_14.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://c4dgwn87qinne" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_15.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b7vufmg411mi3" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_16.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cfat8ujiynblo" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_17.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://2gkgdup0yjot" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_18.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cvect0cpwumqo" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_19.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://e0xt6yj6yurb" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_20.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://k2et6tp37wam" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_21.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b34mbslnmdl4w" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_22.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dwfm88wi7s61d" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_23.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://jrxay16y7pue" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_24.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c26omc057xc5y" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_25.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c0m7oaebrjm0p" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_26.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dxjr3u47sr05c" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_27.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bcx3jvbhbq4a6" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_28.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dplwol47fj0w6" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_29.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dfevyba2helqb" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_30.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c2j8xe6cw1xfw" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_31.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://6j3p4nv2dfoh" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_32.png" id="35"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="36"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="37"]
+[ext_resource type="PackedScene" uid="uid://b33dtjeg8loxx" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/radio_panel.tscn" id="38"]
+[ext_resource type="PackedScene" uid="uid://c3rpotae8ybnm" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/collector_panel.tscn" id="39"]
+[ext_resource type="PackedScene" uid="uid://cuwqayd7naar5" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/ashes_panel.tscn" id="40"]
+[ext_resource type="Resource" uid="uid://dvpoe83y5xwup" path="res://acts/full_game/colecting_parts_arc/retreat/locations/inside_location.tres" id="41"]
+
+[sub_resource type="Animation" id="Animation_fjmmo"]
+resource_name = "new_animation"
+loop_mode = 1
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fmlpq"]
+_data = {
+"new_animation": SubResource("Animation_fjmmo")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a3dis"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_dlk01"]
+script = ExtResource("37")
+linked_item_ref_id = 230
+
+[sub_resource type="Resource" id="Resource_iuvot"]
+script = ExtResource("37")
+linked_item_ref_id = 228
+
+[sub_resource type="Resource" id="Resource_e5jmf"]
+script = ExtResource("37")
+linked_item_ref_id = 229
+
+[sub_resource type="Resource" id="Resource_un41l"]
+script = ExtResource("37")
+linked_item_ref_id = 227
+
+[sub_resource type="Resource" id="Resource_ak400"]
+script = ExtResource("37")
+linked_item_ref_id = 520
+
+[sub_resource type="Resource" id="Resource_3fmth"]
+script = ExtResource("37")
+linked_item_ref_id = 351
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="gate_translation" type="Sprite2D" parent="."]
+position = Vector2(1790, 425)
+texture = ExtResource("3")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_fmlpq")
+}
+autoplay = "new_animation"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(663, 785)
+sprite_frames = SubResource("SpriteFrames_a3dis")
+autoplay = "default"
+frame_progress = 0.5020959973335266
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RadioSpot" parent="Hotspots" instance=ExtResource("36")]
+layout_mode = 1
+offset_left = 187.0
+offset_top = 894.0
+offset_right = 272.0
+offset_bottom = 944.0
+hotspot_id = "qYF"
+extra_items_unlocked = [SubResource("Resource_dlk01"), SubResource("Resource_iuvot"), SubResource("Resource_e5jmf"), SubResource("Resource_un41l"), SubResource("Resource_ak400"), SubResource("Resource_3fmth")]
+
+[node name="RadioPanel" parent="Hotspots/RadioSpot" instance=ExtResource("38")]
+layout_mode = 0
+offset_left = -1737.0
+offset_top = -328.0
+offset_right = -975.0
+offset_bottom = 301.0
+
+[node name="CollectorSpot" parent="Hotspots" instance=ExtResource("36")]
+layout_mode = 1
+offset_left = 486.0
+offset_top = 616.0
+offset_right = 689.0
+offset_bottom = 975.0
+hotspot_id = "8yZ"
+
+[node name="CollectorPanel" parent="Hotspots/CollectorSpot" instance=ExtResource("39")]
+layout_mode = 0
+offset_left = -221.0
+offset_top = 743.0
+offset_right = 626.0
+offset_bottom = 1315.0
+
+[node name="AshesSpot" parent="Hotspots" instance=ExtResource("36")]
+layout_mode = 1
+offset_left = 784.0
+offset_top = 662.0
+offset_right = 1002.0
+offset_bottom = 768.0
+hotspot_id = "SYh"
+
+[node name="AshesPanel" parent="Hotspots/AshesSpot" instance=ExtResource("40")]
+layout_mode = 0
+offset_left = -347.0
+offset_top = -1673.0
+offset_right = 503.0
+offset_bottom = -955.0
+
+[node name="ToInsideSpot" parent="Hotspots" instance=ExtResource("36")]
+layout_mode = 1
+offset_left = 1788.0
+offset_top = 1.0
+offset_right = 2094.0
+offset_bottom = 1098.0
+hotspot_id = "amU"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("41")
+transition = 1
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/ToInsideSpot" index="0"]
+offset_left = -98.0
+offset_top = 765.0
+offset_right = -98.0
+offset_bottom = 765.0
+
+[node name="Highlighter" parent="Hotspots/ToInsideSpot/Indicators" index="0"]
+position = Vector2(1.5, -58.5)
+rotation = -1.5707999467849731
+
+[node name="FocusIndicator" parent="Hotspots/ToInsideSpot/Indicators" index="1"]
+position = Vector2(2.5, -58.5)
+
+[editable path="Hotspots/ToInsideSpot"]

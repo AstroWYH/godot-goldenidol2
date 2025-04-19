@@ -1,0 +1,284 @@
+[gd_scene load_steps=59 format=4 uid="uid://crlalvqndj2g1"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://deq0vhbp5u7pi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b5scjvhvm0flb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://d1c5jrlrk7bsx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b7ctdni8cgyuc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bik42pa1kxs2s" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://s163j346y7fx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bqnffdnpv686x" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bylvuwdsnlldf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cvvkgveak5ei0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ctptqd381ywht" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dhdg1idj82va3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c6mmfnalmpdif" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d8qxta0vogy4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ciyetdd1c8o2u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c50xjrvcgku15" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cursatfdwvg8t" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cgt0acd0ju4uy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cmkjr82tk5rik" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b86rt03ouru8j" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b5la10k4646od" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://oh6j16062j7e" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ccg0aytyhe547" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cnu6tyokvbxtv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://d0dlnxpe4ui4j" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://p5i6ks1bep12" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://kj4yebq7wxgo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://ltb2ao8dop2n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cw8lqgak6qfvy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bw1wu5w0vgcfu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dnup7ywwvvk6a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://56jikbtm0mtp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cnbc76kaur655" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dsb1x6hcxyjbt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://cwf3arewopi71" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://6780t2vvij2u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://b4nfcgombfack" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_035.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://b3bbll7h4wn0n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_036.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dnupcy2es4vhl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_037.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://c4h5rt8620v0n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_038.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://c4mcblxsma85a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_039.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://ln3m7oxbcd07" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_040.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cbtrmo4wi3sny" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_041.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://c5c30cdpe1hl6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_042.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://b4uoobrt556xl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_043.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bbg4umqa0nie" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_044.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bayi5ld6seub2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_045.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://uoerh2f0dh77" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_046.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://cm1fmdisg6inx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_047.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://dlh1lcbcpmn8d" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_048.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://b5jhqppkw7s5u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_049.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://uhumkp46r31r" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_050.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://dsru5yeardqnk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_051.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://t0baxygu8pmv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/doug_baxter/doug_baxter_052.png" id="57"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q1g4l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = -1192.0
+offset_top = 72.0
+offset_right = -499.0
+offset_bottom = 625.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 21.0
+offset_right = 674.0
+offset_bottom = 156.0
+theme = ExtResource("1")
+text = "cinema_doug_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(537, 236)
+rotation = -0.07422330230474472
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+theme_override_font_sizes/font_size = 24
+text = "34"
+metadata/_edit_use_anchors_ = true
+
+[node name="Tickettspot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 446.0
+offset_top = 172.0
+offset_right = -63.0
+offset_bottom = -247.0
+hotspot_id = "XV1"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="Tickettspot/Indicators" index="0"]
+modulate = Color(0.752941, 0.568627, 0.301961, 1)
+position = Vector2(-7, -8)
+frame_progress = 0.46691998839378357
+
+[node name="FocusIndicator" parent="Tickettspot/Indicators" index="1"]
+position = Vector2(-6, -4)
+
+[node name="Sprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(240.5, 317.5)
+scale = Vector2(0.89, 0.89)
+sprite_frames = SubResource("SpriteFrames_q1g4l")
+autoplay = "default"
+frame_progress = 0.03700999915599823
+
+[editable path="Tickettspot"]

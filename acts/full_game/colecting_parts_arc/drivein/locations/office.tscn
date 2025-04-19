@@ -1,0 +1,831 @@
+[gd_scene load_steps=161 format=4 uid="uid://cuaic7842jeyh"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://cwhb8usxxp3ak" path="res://acts/full_game/colecting_parts_arc/drivein/locations/office.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://2d1cyswojg3a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bi5ugawbi4cdp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://duh1fwc78yvt7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ct0lvsa4rgl05" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cdtj5gedotnkk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bu3876ltmveqt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c0wmonij3kgb1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://sv2d2amdxo76" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cpr53iuuing0b" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dubeoopku1k5s" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://brel44ruk2u16" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dgc5ei5erjfag" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cgh0oexg24e3n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c0yr4nuukigbi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://1lnxyv834qvv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://drx0tfnr1bcbh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://jfc8outgx5mv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bk8ds2acjgd56" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://jjols1cdfd3b" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c7bpp6lv7rg7d" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bjtv6gwpyif0y" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bnl0uhlusyqwx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c4gdyuv13e33o" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://h82cf1hp6x0y" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://btcmvcjwp8cm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://46ivj4tpt6tb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ktiljujytc77" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bnmgytl8pkhpt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cjmrdujw25hkv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://se3umgbjrybi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://b5ou5mahda2qq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_030.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dwv0y1yk83pdj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_031.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bpbe0nst42xu3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_032.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://deauefupwrshl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_033.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://b3h8perdpuy11" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_034.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bwaqs47c0qojn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_035.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://8k7mju7t5kq5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_036.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://c8215sa50ij44" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_037.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://csnkvc5dshyu5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_038.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b8qweqlk4nky7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_039.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cwhvomb40qlh8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_040.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://1lqywpcl4m44" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_041.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://g7q06t7uy2rd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_042.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://ntxyklhftygq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_043.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bm2o4jy1upgvt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_044.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cpjsehn3bqdh7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_045.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cbexhbs27yiet" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_046.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://s2tlw1lv72b1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_047.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cuxtgn4q14hmv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_000.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dga7lpdxa18yj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_001.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cpoxkn72hhks" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_002.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://yu8swyucqjq3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_003.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://dih37fsaahhc5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_004.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://b0x5lvdsr7yjt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_005.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bjktf2uo4pw7p" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_006.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://csn24p1o70jmt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_007.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://d283xy2pgdump" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_008.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://ceohe5ta7uyci" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_009.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://b8tx1al0sx27x" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_010.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bedw1nrx37a08" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_011.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://ditwgujej1x5i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_012.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://b3b4o70v03cnk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_013.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://drkshcsnq4ufh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_014.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://dql5sij2f6uy5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_015.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://rmu1malvb23a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_016.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://jmxri5vd3k8i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_017.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bx0kx75kihkul" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_018.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://idmq4p2f8dgn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_019.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://b7nhr0nq35jaf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_020.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://fgrx3xuijpms" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_021.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dj4uupva5ixjp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_022.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://0h010kqheyet" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_023.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://b5k0qgv824t4d" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_024.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://7n6hotwkrxca" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_025.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://ctl57v1riasht" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_026.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://cx8efo55uelc7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_027.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://beyl5kxgg7udt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_028.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://dvs7h5nufu47q" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_029.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://bfb7vb5uv0uvl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_030.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://bgcl37m30makj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_031.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://d3b3gujodr4i5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_032.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://gl05see6u481" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_033.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://ccgi56a7hv4ej" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_034.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://bq842c6kf6tbc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_035.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://bufjehrfxpxgg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_036.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dojqscugyy6hj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_037.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://bw3g22rqexlcs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_038.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bnehelie7xvv6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_039.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://jldg5h1eri5j" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_040.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://iuwhg18rx5mp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_041.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://6xj0cmwmigsn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_042.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://kvcd77i1sjdr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_043.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://d0nqtdyjn2pwt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_044.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://bxmspri35wptv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_045.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://v7005j521t0h" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_046.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://tgicl8gmxpkt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_047.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://vsqv7wed05j7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00000.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://ceqvg75g037cq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00001.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://bnfcrr8s4yj44" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00002.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://b1eob76c08ktt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00003.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bs2ymktxgs60c" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00004.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://dm5opni1yx5fi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00005.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://dimai1qdnmmpg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00006.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://bd51effdkm4bs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00007.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://55dv0ksjhu22" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00008.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://db1f52wmx86pi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00009.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://dc2g1h3qhv6vs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00010.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://car21hmckd4li" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00011.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://cnqpihm30r5xb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00012.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://duim2ewprioby" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00013.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://cwoia4hpthc27" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00014.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://kbeak4g55mes" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00015.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://r6bx6bclreuw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00016.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://btw7265t8wtp8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00017.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://b0834ivr7t2n2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00018.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://ctjhuhuhxi2qx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00019.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://5pai4rhvpqy" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00020.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://d0l4kwdddaup5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00021.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://dbcw1preinx8u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00022.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://15vi1v6288og" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00023.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://dhnflkxqjhsu6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00024.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://bw32rbasuv75q" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00025.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://dy25gxvbd8gvt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00026.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://ctes20km1fafp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00027.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://inlq8f05gipk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00028.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://ctoorjqjhxxvi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00029.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://d0npx8h04ae7f" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00030.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://denserj2niygf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00031.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://dwi1cl4mlk8m0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00032.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://bggvsjkhvtep" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00033.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://dh4w2rwo88r2b" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00034.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://deuoj22pmc5hn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00035.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://d2iac374onyp7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00036.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://bi76wji0w8ixq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00037.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://dlx54625v8sw0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00038.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://c2ngywpghrgrr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00039.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://baw4fd4lyycwu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00040.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://c8tsy7huvlft1" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00041.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://c1rylf78ymsw6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00042.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://dhcik1mq6spjn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00043.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://cca2u8xl2n7wu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00044.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://dmlpw6kym55nw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00045.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://dn75n1vmofykr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00046.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://n8rtsxvrl7q3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00047.png" id="146"]
+[ext_resource type="Script" path="res://acts/full_game/colecting_parts_arc/drivein/assets/scripts/car_crash.gd" id="147"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="148"]
+[ext_resource type="PackedScene" uid="uid://cqf7kqplbtf2a" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/crashed1.tscn" id="149"]
+[ext_resource type="Resource" uid="uid://cpd8of1qkc638" path="res://acts/full_game/colecting_parts_arc/drivein/locations/main_lot.tres" id="150"]
+[ext_resource type="PackedScene" uid="uid://cpvi3cckbqhgt" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/office.tscn" id="151"]
+[ext_resource type="PackedScene" uid="uid://dc4ugc3q1b4q1" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/owner.tscn" id="152"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="153"]
+[ext_resource type="Resource" uid="uid://des3p21xm8mik" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_costume_puzzle_meta.tres" id="154"]
+[ext_resource type="PackedScene" uid="uid://cxyirqlxblfat" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/movieposter.tscn" id="155"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_54q71"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_avgfr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yf2rn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="Resource" id="Resource_us3xa"]
+script = ExtResource("153")
+linked_item_ref_id = 136
+
+[sub_resource type="Resource" id="Resource_c4uvi"]
+script = ExtResource("153")
+linked_item_ref_id = 144
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(-344, 577)
+sprite_frames = SubResource("SpriteFrames_54q71")
+autoplay = "default"
+frame = 3
+frame_progress = 0.925715982913971
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(396, 477)
+sprite_frames = SubResource("SpriteFrames_avgfr")
+autoplay = "default"
+frame_progress = 0.09050700068473816
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
+position = Vector2(1335, 817)
+sprite_frames = SubResource("SpriteFrames_yf2rn")
+autoplay = "default"
+frame_progress = 0.8432459831237793
+script = ExtResource("147")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="AnimatedSprite2D3"]
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TomPowersSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 839.0
+offset_top = 743.0
+offset_right = 966.0
+offset_bottom = 801.0
+hotspot_id = "YbT"
+unlocked_character_ref_id = 25
+
+[node name="Indicators" parent="Hotspots/TomPowersSpot" index="0"]
+offset_left = 16.5
+offset_top = 45.0
+offset_right = 16.5
+offset_bottom = 45.0
+
+[node name="Highlighter" parent="Hotspots/TomPowersSpot/Indicators" index="0"]
+modulate = Color(0.876186, 0.70184, 0.151084, 1)
+position = Vector2(7, -11)
+frame_progress = 0.11547999829053879
+
+[node name="FocusIndicator" parent="Hotspots/TomPowersSpot/Indicators" index="1"]
+position = Vector2(8, -7)
+
+[node name="Panel" parent="Hotspots/TomPowersSpot" instance=ExtResource("149")]
+layout_mode = 0
+offset_left = -174.0
+offset_top = 525.0
+offset_right = 455.0
+offset_bottom = 1026.0
+
+[node name="ToTheLeftSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 1.0
+offset_top = -2.0
+offset_right = 70.0
+offset_bottom = 867.0
+hotspot_id = "FyM"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("150")
+transition = 2
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/ToTheLeftSpot" index="0"]
+offset_left = -3.5
+offset_top = 113.0
+offset_right = -3.5
+offset_bottom = 113.0
+rotation = 1.5707999467849731
+
+[node name="Highlighter" parent="Hotspots/ToTheLeftSpot/Indicators" index="0"]
+modulate = Color(1, 0.686275, 0.368627, 1)
+animation = &"location"
+
+[node name="ScreenSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 162.0
+offset_top = 206.0
+offset_right = 749.0
+offset_bottom = 633.0
+hotspot_id = "xkl"
+text = "cinema_screen_tooltip"
+unlocked_item_ref_id = 161
+
+[node name="Highlighter" parent="Hotspots/ScreenSpot/Indicators" index="0"]
+modulate = Color(0.663295, 0.363888, 0, 1)
+position = Vector2(-120.5, 182)
+frame_progress = 0.34453698992729187
+
+[node name="FocusIndicator" parent="Hotspots/ScreenSpot/Indicators" index="1"]
+position = Vector2(-119.5, 187.25)
+
+[node name="OfficeSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 1009.0
+offset_top = 695.0
+offset_right = 1121.0
+offset_bottom = 731.0
+hotspot_id = "atg"
+
+[node name="Indicators" parent="Hotspots/OfficeSpot" index="0"]
+offset_left = 45.0
+offset_top = 42.0
+offset_right = 45.0
+offset_bottom = 42.0
+
+[node name="Highlighter" parent="Hotspots/OfficeSpot/Indicators" index="0"]
+modulate = Color(0.830472, 0.72316, 0.694064, 1)
+position = Vector2(-5, -15)
+
+[node name="FocusIndicator" parent="Hotspots/OfficeSpot/Indicators" index="1"]
+position = Vector2(-4, -11)
+
+[node name="Office" parent="Hotspots/OfficeSpot" instance=ExtResource("151")]
+layout_mode = 0
+offset_left = 304.0
+offset_top = -2453.0
+offset_right = 1222.0
+offset_bottom = -1855.0
+
+[node name="SarahSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 1207.0
+offset_top = 705.0
+offset_right = 1291.0
+offset_bottom = 747.0
+hotspot_id = "BEQ"
+unlocked_character_ref_id = 17
+
+[node name="Highlighter" parent="Hotspots/SarahSpot/Indicators" index="0"]
+modulate = Color(0.4108, 0.79, 0.55616, 1)
+position = Vector2(-29, 9)
+frame_progress = 0.031110599637031555
+
+[node name="FocusIndicator" parent="Hotspots/SarahSpot/Indicators" index="1"]
+position = Vector2(-28, 13)
+
+[node name="Panel" parent="Hotspots/SarahSpot" instance=ExtResource("152")]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 664.0
+offset_right = 893.0
+offset_bottom = 1170.0
+
+[node name="CrashSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 1117.0
+offset_top = 823.0
+offset_right = 1152.0
+offset_bottom = 853.0
+hotspot_id = "IGV"
+text = "cinema_car_crash_tooltip"
+unlocked_item_ref_id = 151
+
+[node name="Highlighter" parent="Hotspots/CrashSpot/Indicators" index="0"]
+modulate = Color(0.0705882, 0.0588235, 0.054902, 1)
+position = Vector2(-23, -19)
+frame_progress = 0.6873369812965393
+
+[node name="FocusIndicator" parent="Hotspots/CrashSpot/Indicators" index="1"]
+position = Vector2(-22, -15)
+
+[node name="SpaceStormSpot" parent="Hotspots" instance=ExtResource("148")]
+layout_mode = 1
+offset_left = 1492.0
+offset_top = 191.0
+offset_right = 1740.0
+offset_bottom = 710.0
+hotspot_id = "acw"
+unlocked_item_ref_id = 141
+extra_items_unlocked = [SubResource("Resource_us3xa"), SubResource("Resource_c4uvi")]
+unlocked_puzzles = [ExtResource("154")]
+
+[node name="Highlighter" parent="Hotspots/SpaceStormSpot/Indicators" index="0"]
+modulate = Color(0.568627, 0.913725, 0.886275, 1)
+position = Vector2(-1.5, 270.5)
+frame_progress = 0.9344540238380432
+
+[node name="FocusIndicator" parent="Hotspots/SpaceStormSpot/Indicators" index="1"]
+position = Vector2(-1.5, 271.5)
+
+[node name="Panel" parent="Hotspots/SpaceStormSpot" instance=ExtResource("155")]
+layout_mode = 0
+offset_left = 827.0
+offset_top = -1.0
+offset_right = 1473.0
+offset_bottom = 867.0
+
+[connection signal="screen_entered" from="AnimatedSprite2D3/VisibleOnScreenNotifier2D" to="AnimatedSprite2D3" method="_on_visible_on_screen_notifier_2d_screen_entered"]
+
+[editable path="Hotspots/TomPowersSpot"]
+[editable path="Hotspots/ToTheLeftSpot"]
+[editable path="Hotspots/ScreenSpot"]
+[editable path="Hotspots/OfficeSpot"]
+[editable path="Hotspots/SarahSpot"]
+[editable path="Hotspots/CrashSpot"]
+[editable path="Hotspots/SpaceStormSpot"]

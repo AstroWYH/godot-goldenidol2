@@ -1,0 +1,43 @@
+[gd_scene load_steps=8 format=4 uid="uid://ds8p7a7egudm3"]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://dlx4jrch68qss" path="res://acts/full_game/colecting_parts_arc/retreat/puzzles/retreat_scroll_puzzle1.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://tu7ce01vknm1" path="res://acts/full_game/colecting_parts_arc/retreat/puzzles/retreat_scroll_puzzle2.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cqvkstx1qcja6" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle_v3.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://tmdr16uq11n5" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_scroll_puzzle_c_phrases.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="6"]
+[ext_resource type="Resource" uid="uid://4dkcirccns46" path="res://acts/full_game/colecting_parts_arc/retreat/retreat_scenario_meta.tres" id="7"]
+
+[node name="RetreatScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="ScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1135.0
+offset_top = 164.0
+offset_right = 1728.0
+offset_bottom = 460.0
+
+[node name="ScrollPuzzle2" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1053.0
+offset_top = 348.0
+offset_right = 1845.0
+offset_bottom = 952.0
+is_win_condition = true
+
+[node name="PastArcCharacterPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 9.0
+offset_top = 16.0
+offset_right = 988.0
+offset_bottom = 944.0
+
+[node name="PastArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+visible = false
+offset_left = 929.0
+offset_top = 30.0
+offset_right = 1904.0
+offset_bottom = 932.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("6")]
+scenario_meta = ExtResource("7")
+thinking_layer = NodePath("../ThinkingLayer")

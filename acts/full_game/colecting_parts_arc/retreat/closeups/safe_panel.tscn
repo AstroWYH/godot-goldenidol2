@@ -1,0 +1,81 @@
+[gd_scene load_steps=6 format=4 uid="uid://bstiiqy2hge8y"]
+
+[ext_resource type="Texture2D" uid="uid://du4uay42ajj2" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/safe3.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cm4d5kov58wil" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/parts_sketch.png" id="3"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="4"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="5"]
+
+[node name="SafePanel" type="Panel"]
+offset_left = -410.0
+offset_top = -709.0
+offset_right = 258.0
+offset_bottom = -203.0
+
+[node name="SafeSprite" type="Sprite2D" parent="."]
+position = Vector2(333, 251)
+scale = Vector2(1.11633, 1.11633)
+texture = ExtResource("1")
+
+[node name="Artefact1Spot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 283.0
+offset_top = 170.0
+offset_right = -363.0
+offset_bottom = -297.0
+hotspot_id = "uPP"
+text = "retreat_artifact_tooltip"
+unlocked_item_ref_id = 225
+
+[node name="Artefact2Spot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 162.0
+offset_top = 390.0
+offset_right = -487.0
+offset_bottom = -57.0
+hotspot_id = "GEW"
+text = "retreat_artifact_tooltip"
+unlocked_item_ref_id = 225
+
+[node name="PartsListSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 493.0
+offset_top = 169.0
+offset_right = -82.0
+offset_bottom = -140.0
+hotspot_id = "Cju"
+
+[node name="PartsListPanel" type="Panel" parent="PartsListSpot"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = -284.0
+offset_right = 810.0
+offset_bottom = 334.0
+
+[node name="PartsListSprite" type="Sprite2D" parent="PartsListSpot/PartsListPanel"]
+position = Vector2(245, 305)
+scale = Vector2(1.18917, 1.18917)
+texture = ExtResource("3")
+
+[node name="Message1Text" type="RichTextLabel" parent="PartsListSpot/PartsListPanel"]
+visible = false
+layout_mode = 0
+offset_left = 388.0
+offset_top = 352.0
+offset_right = 507.0
+offset_bottom = 602.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.847059, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("4")
+theme_override_fonts/bold_font = ExtResource("5")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[s]‡100,000[/s]
+[s]‡90,000[/s]
+[s]‡80,000[/s]
+[s]‡70,000[/s]
+[s]‡60,000[/s]
+[s]‡50,000[/s]
+[s]‡40,000[/s]
+‡30,000"

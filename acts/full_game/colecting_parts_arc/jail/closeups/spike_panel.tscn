@@ -1,0 +1,113 @@
+[gd_scene load_steps=22 format=4 uid="uid://ba4xso6pwt63e"]
+
+[ext_resource type="Texture2D" uid="uid://clyrhi4441xmp" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/wall.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b016pj36de5c7" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b5iw1rpmogf6n" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dvnhnetcfqg5" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://exdvj0w1wu54" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://btypfuovguw38" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ccdqiwnoxmtf2" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cquo62gih5jap" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://ieppgf44bql7" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d2uqym0pytanh" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bagqnno6k2nhj" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://blojnie0ou8ck" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dkf6tugswusw3" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://fh1533tdtg4q" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b5pmm4v6x1jg6" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bdmieoyg6184l" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b5or0cshjqp42" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dccdjyp6vo2h6" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0016.png" id="18"]
+[ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="19"]
+[ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="20"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_boccb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="SpikePanel" type="Panel"]
+offset_left = -107.0
+offset_top = -977.0
+offset_right = 769.0
+offset_bottom = -374.0
+mouse_filter = 2
+
+[node name="SpikeSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+centered = false
+
+[node name="MaterialSprite" type="AnimatedSprite2D" parent="SpikeSprite"]
+position = Vector2(668, 211)
+sprite_frames = SubResource("SpriteFrames_boccb")
+autoplay = "default"
+frame_progress = 0.3609350025653839
+
+[node name="snowmask" type="Panel" parent="."]
+clip_children = 1
+layout_mode = 0
+offset_left = 6.0
+offset_top = 6.0
+offset_right = 873.0
+offset_bottom = 594.0
+
+[node name="Snow2" type="GPUParticles2D" parent="snowmask"]
+position = Vector2(-243, -126)
+amount = 4000
+process_material = ExtResource("19")
+texture = ExtResource("20")
+lifetime = 50.0

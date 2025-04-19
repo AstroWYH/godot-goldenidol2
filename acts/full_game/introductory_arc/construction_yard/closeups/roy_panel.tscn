@@ -1,0 +1,198 @@
+[gd_scene load_steps=36 format=4 uid="uid://c7tmg0s52edtv"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://cyvmgpl10itu" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/badge.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="Texture2D" uid="uid://cwsubnh4apwj4" path="res://shared/assets/papers/BrownBook_Icon.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cc1c8ua6cowmv" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman1.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://j71y6l6dy2au" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman2.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dekwq1ywxkc8v" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman3.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://whjvuo8xl44b" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman4.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://2il3yo178fgc" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman5.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d0et1vlg6b2xs" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman6.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bd66eo5r2nwwp" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman7.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bwhascxk8v4jg" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman8.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bwknb3rh7o310" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman9.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c0igpc4myqixt" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman10.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://yi02231rs4l3" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman11.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b7f4bli0xkrih" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman12.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bra1f3accvxly" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman13.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://caihw24m4i0rl" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman14.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dqfxd3kkijtbr" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman15.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c0c85a2wiv757" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman16.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://c60ushno0i6aq" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman17.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://r3dftahchovs" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman18.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://ch8r7wf43kiry" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman19.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cdxkj0rslcpwa" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman20.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://du6ahayxhkb1e" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman21.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b66uxt63ry1a2" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman22.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c1kr6al1jb8lo" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman23.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dvfacjq6yi04f" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman24.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cvvxp5mluvp43" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman25.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bohmolttaxau0" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman26.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://byyppedul5gft" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman27.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://da5u1yacnxhxi" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman28.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://by563y0wl6nnt" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman29.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bwxatwkr7y1qs" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman30.png" id="34"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dry10"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="RoyPanel" type="Panel"]
+offset_left = 1386.0
+offset_top = 588.0
+offset_right = 2186.0
+offset_bottom = 1138.0
+
+[node name="CharacterTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 29.0
+offset_right = 754.0
+offset_bottom = 105.0
+theme = ExtResource("1")
+text = "CONSTRUCTION_ROY_SPEECH"
+autowrap_mode = 3
+
+[node name="WalletSprite" type="Sprite2D" parent="."]
+position = Vector2(20, 226.5)
+texture = ExtResource("2")
+centered = false
+
+[node name="WalletLabel" type="Label" parent="WalletSprite"]
+anchors_preset = -1
+anchor_left = -0.03225810080766678
+anchor_top = -0.0032573300413787365
+anchor_right = 0.020161300897598267
+anchor_bottom = 0.0032573300413787365
+offset_left = 63.0
+offset_top = 48.0
+offset_right = 205.0
+offset_bottom = 125.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "CONFERENCE_ROY_WALLET"
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="NotebookSprite" type="Sprite2D" parent="."]
+position = Vector2(279, 122.5)
+texture = ExtResource("4")
+centered = false
+
+[node name="CaseFileLabel" type="Label" parent="NotebookSprite"]
+offset_left = 10.0
+offset_top = 11.0
+offset_right = 107.0
+offset_bottom = 150.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.164706, 0, 0, 1)
+theme_override_constants/line_spacing = -4
+theme_override_font_sizes/font_size = 20
+text = "CONSTRUCTION_ROY_NOTEBOOK_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="RoyAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(429, 131)
+sprite_frames = SubResource("SpriteFrames_dry10")
+autoplay = "default"
+frame_progress = 0.7735099792480469
+centered = false

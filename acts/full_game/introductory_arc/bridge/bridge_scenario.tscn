@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=4]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bkvpq62ohl6le" path="res://acts/full_game/introductory_arc/bridge/puzzles/bridge_portrait_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://gpuhuclm6ru4" path="res://acts/full_game/introductory_arc/bridge/puzzles/bridge_scroll_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://b7354t5lyjcvn" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://d2fevd6qv807m" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_2.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="6"]
+[ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="7"]
+
+[node name="BridgeScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="BridgePortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1152.0
+offset_top = 64.0
+offset_right = 1578.0
+offset_bottom = 343.0
+
+[node name="BridgeScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1051.0
+offset_top = 498.0
+offset_right = 1641.0
+offset_bottom = 833.0
+
+[node name="IntroArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 24.0
+offset_top = 116.0
+offset_right = 1875.0
+offset_bottom = 823.0
+
+[node name="IntroArcScrollPuzzle2" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 399.0
+offset_top = 160.0
+offset_right = 1531.0
+offset_bottom = 795.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("6")]
+scenario_meta = ExtResource("7")
+thinking_layer = NodePath("../ThinkingLayer")

@@ -1,0 +1,242 @@
+[gd_scene load_steps=36 format=4]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://d23ag4ed71cjd" path="res://acts/full_game/introductory_arc/asylum/locations/asylum_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://dyfltj8dur07n" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://2o4xuub0oukm" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://k0du5w6sdiq2" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dx4lnh4b6mtpt" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://btc1a4mhiesjr" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cgi8cgpibqkgf" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://db4mms8edtuon" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bkp5hl6dswesd" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://mid7p8uoivev" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://sidms2tnwd2s" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cnnc3qsgj2vts" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://drn0op4hl62io" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://wjntxlthc0uh" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bwxshyokioqv1" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cak86nrc486tm" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://s4ro73bo2pxl" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://ckioo1dkud0n4" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://ssfhlc8pvj52" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://pfkhn5ymtb6f" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ckq3syg4dtb52" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cur0wgd0mmrav" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ls2mbfpb3i1g" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dpgd5281u6fvu" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dvqq6d1lcm50o" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_023.png" id="26"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="27"]
+[ext_resource type="PackedScene" uid="uid://dxj0qgomnnwb6" path="res://acts/full_game/introductory_arc/asylum/closeups/guard_panel.tscn" id="28"]
+[ext_resource type="PackedScene" uid="uid://dex52et7d5lls" path="res://acts/full_game/introductory_arc/asylum/closeups/oriel_panel.tscn" id="29"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="30"]
+[ext_resource type="PackedScene" uid="uid://bde8nogay7obd" path="res://acts/full_game/introductory_arc/asylum/closeups/jacket_panel.tscn" id="31"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mf3b8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_rs20o"]
+script = ExtResource("30")
+linked_item_ref_id = 179
+
+[sub_resource type="Resource" id="Resource_ujrlm"]
+script = ExtResource("30")
+linked_item_ref_id = 185
+
+[sub_resource type="Resource" id="Resource_n7yu8"]
+script = ExtResource("30")
+linked_item_ref_id = 186
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1092, 637)
+sprite_frames = SubResource("SpriteFrames_mf3b8")
+autoplay = "default"
+frame_progress = 0.4959949851036072
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BatonSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 511.0
+offset_top = 783.0
+offset_right = 627.0
+offset_bottom = 841.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "B0l"
+text = "ASYLUM_BATON_TOOLTIP"
+unlocked_item_ref_id = 178
+
+[node name="Indicators" parent="Hotspots/BatonSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="Highlighter" parent="Hotspots/BatonSpot/Indicators" index="0"]
+modulate = Color(0.611765, 0.517647, 0.305882, 1)
+
+[node name="GuardSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 735.0
+offset_top = 739.0
+offset_right = 1309.0
+offset_bottom = 905.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "RsR"
+unlocked_character_ref_id = 26
+
+[node name="Indicators" parent="Hotspots/GuardSpot" index="0"]
+offset_left = -287.968994140625
+offset_top = 140.4770050048828
+offset_right = -287.968994140625
+offset_bottom = 140.4770050048828
+
+[node name="Highlighter" parent="Hotspots/GuardSpot/Indicators" index="0"]
+modulate = Color(0.662745, 0.568627, 0.345098, 1)
+
+[node name="GuardPanel" parent="Hotspots/GuardSpot" instance=ExtResource("28")]
+layout_mode = 0
+offset_left = -2083.35009765625
+offset_top = -589.0009765625
+offset_right = -1229.3499755859375
+offset_bottom = 149.99899291992188
+
+[node name="ProffesorSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 1132.0
+offset_top = 296.0
+offset_right = 1363.0
+offset_bottom = 660.0
+hotspot_id = "VyY"
+unlocked_character_ref_id = 15
+
+[node name="Indicators" parent="Hotspots/ProffesorSpot" index="0"]
+offset_left = -28.0
+offset_top = 176.0
+offset_right = -28.0
+offset_bottom = 176.0
+
+[node name="Highlighter" parent="Hotspots/ProffesorSpot/Indicators" index="0"]
+modulate = Color(0, 0.0588235, 0.0313726, 1)
+
+[node name="OrielPanel" parent="Hotspots/ProffesorSpot" instance=ExtResource("29")]
+layout_mode = 0
+offset_left = 1580.0
+offset_top = 598.0
+offset_right = 2344.0
+offset_bottom = 1280.0
+
+[node name="JackettSpot" parent="Hotspots" instance=ExtResource("27")]
+layout_mode = 1
+offset_left = 1407.0
+offset_top = 834.0
+offset_right = 1650.0
+offset_bottom = 914.0
+hotspot_id = "b66"
+extra_items_unlocked = [SubResource("Resource_rs20o"), SubResource("Resource_ujrlm"), SubResource("Resource_n7yu8")]
+
+[node name="Indicators" parent="Hotspots/JackettSpot" index="0"]
+offset_left = -2.5
+offset_top = 47.0
+offset_right = -2.5
+offset_bottom = 47.0
+
+[node name="Highlighter" parent="Hotspots/JackettSpot/Indicators" index="0"]
+modulate = Color(0, 0.0588235, 0.0313726, 1)
+
+[node name="JacketPanel" parent="Hotspots/JackettSpot" instance=ExtResource("31")]
+layout_mode = 0
+offset_left = 1180.0
+offset_top = -1244.0
+offset_right = 1810.0
+offset_bottom = -570.0
+
+[editable path="Hotspots/BatonSpot"]
+[editable path="Hotspots/GuardSpot"]
+[editable path="Hotspots/ProffesorSpot"]
+[editable path="Hotspots/JackettSpot"]

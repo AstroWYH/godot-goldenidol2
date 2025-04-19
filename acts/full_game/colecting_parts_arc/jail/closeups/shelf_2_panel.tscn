@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=4 uid="uid://cv6p3ulaid3nx"]
+
+[ext_resource type="Texture2D" uid="uid://db3sglg0ddn2a" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/middlecell.png" id="1"]
+[ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="2"]
+[ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+
+[node name="Shelf2Panel" type="Panel"]
+offset_left = 211.0
+offset_top = -1109.0
+offset_right = 1127.0
+offset_bottom = -554.0
+
+[node name="Shelf2Sprite" type="Sprite2D" parent="."]
+position = Vector2(6, 7)
+texture = ExtResource("1")
+centered = false
+
+[node name="snowmask" type="Panel" parent="Shelf2Sprite"]
+show_behind_parent = true
+clip_children = 1
+offset_left = 41.0
+offset_top = 2.0
+offset_right = 875.0
+offset_bottom = 301.0
+
+[node name="ColorRect" type="ColorRect" parent="Shelf2Sprite/snowmask"]
+layout_mode = 0
+offset_left = 14.0
+offset_top = -20.0
+offset_right = 848.0
+offset_bottom = 518.0
+color = Color(0.492188, 0.359375, 0.347656, 1)
+
+[node name="Snow2" type="GPUParticles2D" parent="Shelf2Sprite/snowmask"]
+position = Vector2(-243, -126)
+amount = 4000
+process_material = ExtResource("2")
+texture = ExtResource("3")
+lifetime = 50.0
+
+[node name="TobaccoSpot" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 810.0
+offset_top = 384.0
+offset_right = -56.0
+offset_bottom = -121.0
+hotspot_id = "haG"
+text = "prison_tobacco_tooltip"
+
+[editable path="TobaccoSpot"]

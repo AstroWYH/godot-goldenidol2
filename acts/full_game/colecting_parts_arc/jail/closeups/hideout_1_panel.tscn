@@ -1,0 +1,106 @@
+[gd_scene load_steps=3 format=4 uid="uid://b5t6pk4xobujj"]
+
+[ext_resource type="Texture2D" uid="uid://wwr3fdjmxtw4" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/hideout1.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+
+[node name="Hideout1Panel" type="Panel"]
+offset_left = -1450.0
+offset_top = -2371.0
+offset_right = -539.0
+offset_bottom = -1722.0
+
+[node name="HideoutSprite" type="Sprite2D" parent="."]
+position = Vector2(6, 7)
+texture = ExtResource("1")
+centered = false
+
+[node name="SculpturePaperSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 201.0
+offset_top = 343.0
+offset_right = -559.0
+offset_bottom = -218.0
+hotspot_id = "enC"
+text = "prison_arthur_sculpture_tooltip1"
+
+[node name="Indicators" parent="SculpturePaperSpot" index="0"]
+modulate = Color(0.160784, 0.282353, 0.262745, 1)
+offset_left = -4.5
+offset_top = 67.0
+offset_right = -4.5
+offset_bottom = 67.0
+
+[node name="SculptureWireSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 422.0
+offset_top = 253.0
+offset_right = -345.0
+offset_bottom = -247.0
+hotspot_id = "_zV"
+text = "prison_arthur_sculpture_tooltip2"
+
+[node name="Indicators" parent="SculptureWireSpot" index="0"]
+offset_left = 23.0
+offset_top = 36.0
+offset_right = 23.0
+offset_bottom = 36.0
+
+[node name="SculptureClaySpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 379.0
+offset_top = 428.0
+offset_right = -411.0
+offset_bottom = -138.0
+hotspot_id = "3TJ"
+text = "prison_arthur_sculpture_tooltip3"
+
+[node name="Indicators" parent="SculptureClaySpot" index="0"]
+offset_left = -36.5
+offset_top = 75.0
+offset_right = -36.5
+offset_bottom = 75.0
+
+[node name="GlueSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 637.0
+offset_top = 424.0
+offset_right = -204.0
+offset_bottom = -160.0
+hotspot_id = "3uh"
+text = "prison_arthur_glue_tooltip"
+
+[node name="Indicators" parent="GlueSpot" index="0"]
+offset_left = -2.0
+offset_top = 48.0
+offset_right = -2.0
+offset_bottom = 48.0
+
+[node name="ScissorsSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 666.0
+offset_top = 504.0
+offset_right = -156.0
+offset_bottom = -95.0
+hotspot_id = "RN0"
+text = "prison_arthur_scissors_tooltip"
+
+[node name="Indicators" parent="ScissorsSpot" index="0"]
+offset_left = 0.5
+offset_top = 35.0
+offset_right = 0.5
+offset_bottom = 35.0
+
+[node name="ClaySpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 632.0
+offset_top = 224.0
+offset_right = -179.0
+offset_bottom = -289.0
+hotspot_id = "9oe"
+text = "prison_arthur_clay_tooltip"
+
+[editable path="SculpturePaperSpot"]
+[editable path="SculptureWireSpot"]
+[editable path="SculptureClaySpot"]
+[editable path="GlueSpot"]
+[editable path="ScissorsSpot"]

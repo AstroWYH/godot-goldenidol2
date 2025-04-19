@@ -1,0 +1,231 @@
+[gd_scene load_steps=22 format=4 uid="uid://cpvi3cckbqhgt"]
+
+[ext_resource type="Texture2D" uid="uid://bjc03dh3whxes" path="res://acts/full_game/colecting_parts_arc/drivein/assets/office_v2.31_notext.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://b4bl5fllm0wdw" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/postertamine.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://ctuqnr1dgl5vq" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/info.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://d3yju277d5j2n" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/competition.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://duhey3t74wh6s" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/info2.tscn" id="7"]
+
+[sub_resource type="Resource" id="Resource_3fnds"]
+script = ExtResource("3")
+linked_item_ref_id = 561
+
+[sub_resource type="Resource" id="Resource_fg35d"]
+script = ExtResource("3")
+linked_item_ref_id = 343
+
+[sub_resource type="Resource" id="Resource_cf74c"]
+script = ExtResource("3")
+linked_item_ref_id = 149
+
+[sub_resource type="Resource" id="Resource_igjwe"]
+script = ExtResource("3")
+linked_item_ref_id = 93
+
+[sub_resource type="Resource" id="Resource_4wcow"]
+script = ExtResource("3")
+linked_item_ref_id = 94
+
+[sub_resource type="Resource" id="Resource_sifw8"]
+script = ExtResource("3")
+linked_item_ref_id = 98
+
+[sub_resource type="Resource" id="Resource_wkr4c"]
+script = ExtResource("3")
+linked_item_ref_id = 87
+
+[sub_resource type="Resource" id="Resource_64ge8"]
+script = ExtResource("3")
+linked_item_ref_id = 88
+
+[sub_resource type="Resource" id="Resource_timhc"]
+script = ExtResource("3")
+linked_item_ref_id = 103
+
+[sub_resource type="Resource" id="Resource_iso78"]
+script = ExtResource("3")
+linked_item_ref_id = 104
+
+[sub_resource type="Resource" id="Resource_j4b8b"]
+script = ExtResource("3")
+linked_item_ref_id = 644
+
+[sub_resource type="Resource" id="Resource_g30s5"]
+script = ExtResource("3")
+linked_item_ref_id = 145
+
+[sub_resource type="Resource" id="Resource_ci3je"]
+script = ExtResource("3")
+linked_item_ref_id = 155
+
+[sub_resource type="Resource" id="Resource_ldkoa"]
+script = ExtResource("3")
+linked_item_ref_id = 157
+
+[node name="Office" type="Panel"]
+offset_left = -490.0
+offset_top = -1694.0
+offset_right = 428.0
+offset_bottom = -1096.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(458, 294)
+texture = ExtResource("1")
+
+[node name="BannedTamineSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 440.0
+offset_top = 51.0
+offset_right = -387.0
+offset_bottom = -389.0
+focus_neighbor_right = NodePath("../PhoneBaseSpot2")
+focus_neighbor_bottom = NodePath("../PhoneBaseSpot2")
+hotspot_id = "qCs"
+unlocked_item_ref_id = 560
+extra_items_unlocked = [SubResource("Resource_3fnds"), SubResource("Resource_fg35d")]
+
+[node name="Highlighter" parent="BannedTamineSpot2/Indicators" index="0"]
+modulate = Color(0.801287, 0.760676, 0.707913, 1)
+position = Vector2(-7, 29)
+frame_progress = 0.619612991809845
+
+[node name="FocusIndicator" parent="BannedTamineSpot2/Indicators" index="1"]
+position = Vector2(-6, 33)
+
+[node name="Panel" parent="BannedTamineSpot2" instance=ExtResource("4")]
+layout_mode = 0
+offset_left = -25.0
+offset_top = 737.0
+offset_right = 458.0
+offset_bottom = 1422.0
+
+[node name="PhoneBaseSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 517.0
+offset_top = 195.0
+offset_right = -299.0
+offset_bottom = -292.0
+focus_neighbor_left = NodePath("../BannedTamineSpot2")
+focus_neighbor_top = NodePath("../BannedTamineSpot2")
+focus_neighbor_right = NodePath("../StaffSpot3")
+hotspot_id = "FcK"
+text = "rotary_phone_tooltip"
+
+[node name="Highlighter" parent="PhoneBaseSpot2/Indicators" index="0"]
+modulate = Color(0.772435, 0.769502, 0.760689, 1)
+position = Vector2(5, -6)
+frame_progress = 0.5213789939880371
+
+[node name="FocusIndicator" parent="PhoneBaseSpot2/Indicators" index="1"]
+position = Vector2(6, -2)
+
+[node name="ReceiverSpot3" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 521.0
+offset_top = 334.0
+offset_right = -306.0
+offset_bottom = -163.0
+focus_neighbor_top = NodePath("../PhoneBaseSpot2")
+hotspot_id = "jm4"
+text = "cinema_phone_speech"
+unlocked_item_ref_id = 101
+extra_items_unlocked = [SubResource("Resource_cf74c")]
+
+[node name="Highlighter" parent="ReceiverSpot3/Indicators" index="0"]
+modulate = Color(0.772549, 0.768627, 0.760784, 1)
+position = Vector2(-5, 25.25)
+frame_progress = 0.2120009958744049
+
+[node name="FocusIndicator" parent="ReceiverSpot3/Indicators" index="1"]
+position = Vector2(-4, 29.25)
+
+[node name="StaffSpot3" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 571.0
+offset_top = 95.0
+offset_right = -227.0
+offset_bottom = -402.0
+focus_neighbor_left = NodePath("../PhoneBaseSpot2")
+hotspot_id = "pks"
+unlocked_item_ref_id = 85
+
+[node name="Highlighter" parent="StaffSpot3/Indicators" index="0"]
+modulate = Color(0.90625, 0.90167, 0.845732, 1)
+position = Vector2(-3.5, 26.25)
+frame_progress = 0.3491100072860718
+
+[node name="FocusIndicator" parent="StaffSpot3/Indicators" index="1"]
+position = Vector2(-2.5, 30.25)
+
+[node name="Panel" parent="StaffSpot3" instance=ExtResource("5")]
+layout_mode = 0
+offset_left = 460.0
+offset_top = -239.0
+offset_right = 897.0
+offset_bottom = 204.0
+
+[node name="CostumeSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 601.0
+offset_top = 270.0
+offset_right = -215.0
+offset_bottom = -278.0
+focus_neighbor_left = NodePath("../PhoneBaseSpot2")
+hotspot_id = "p2z"
+unlocked_item_ref_id = 153
+extra_items_unlocked = [SubResource("Resource_igjwe"), SubResource("Resource_4wcow"), SubResource("Resource_sifw8"), SubResource("Resource_wkr4c"), SubResource("Resource_64ge8"), SubResource("Resource_timhc"), SubResource("Resource_iso78"), SubResource("Resource_j4b8b")]
+
+[node name="Highlighter" parent="CostumeSpot/Indicators" index="0"]
+modulate = Color(0.535636, 0.399739, 0.310224, 1)
+position = Vector2(-2, -3)
+frame_progress = 0.4729529917240143
+
+[node name="FocusIndicator" parent="CostumeSpot/Indicators" index="1"]
+position = Vector2(-1, 1)
+
+[node name="Panel" parent="CostumeSpot" instance=ExtResource("6")]
+layout_mode = 0
+offset_left = 341.0
+offset_top = 545.0
+offset_right = 862.0
+offset_bottom = 1263.0
+
+[node name="MemoSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 733.0
+offset_top = 311.0
+offset_right = -135.0
+offset_bottom = -230.0
+hotspot_id = "TL7"
+unlocked_item_ref_id = 342
+extra_items_unlocked = [SubResource("Resource_g30s5"), SubResource("Resource_ci3je"), SubResource("Resource_ldkoa")]
+
+[node name="Indicators" parent="MemoSpot2" index="0"]
+offset_left = -1.0
+offset_top = 49.0
+offset_right = -1.0
+offset_bottom = 49.0
+
+[node name="Highlighter" parent="MemoSpot2/Indicators" index="0"]
+modulate = Color(0.458194, 0.329475, 0.14106, 1)
+position = Vector2(1, -22)
+frame_progress = 0.7236530184745789
+
+[node name="FocusIndicator" parent="MemoSpot2/Indicators" index="1"]
+position = Vector2(2, -18)
+
+[node name="Panel" parent="MemoSpot2" instance=ExtResource("7")]
+layout_mode = 0
+offset_left = 826.0
+offset_top = -61.0
+offset_right = 1327.0
+offset_bottom = 677.0
+
+[editable path="BannedTamineSpot2"]
+[editable path="PhoneBaseSpot2"]
+[editable path="ReceiverSpot3"]
+[editable path="StaffSpot3"]
+[editable path="CostumeSpot"]
+[editable path="MemoSpot2"]

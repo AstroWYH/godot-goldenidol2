@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=4 uid="uid://b7ttbm150lf0u"]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bansmg6uvhqru" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/cell_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://djtwcn3mshde7" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/portrait_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://b7gc2q853q2x1" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/secret_message_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://7thgwpdwwwbp" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/scroll_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cqvkstx1qcja6" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle_v3.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://tmdr16uq11n5" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_scroll_puzzle_c_phrases.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://kr888mo2t6y" path="res://acts/full_game/colecting_parts_arc/jail/prison_scenario_meta.tres" id="9"]
+
+[node name="PrisonScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PicturePuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 907.0
+offset_top = 153.0
+offset_right = 1877.0
+offset_bottom = 763.0
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1113.0
+offset_top = 153.0
+offset_right = 1750.0
+offset_bottom = 662.0
+
+[node name="SecretMessagePuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 1079.0
+offset_top = 123.0
+offset_right = 1801.0
+offset_bottom = 579.0
+
+[node name="PrisonScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 1041.0
+offset_top = 136.0
+offset_right = 1839.0
+offset_bottom = 741.0
+
+[node name="PastArcCharacterPuzzle" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 10.0
+offset_top = 18.0
+offset_right = 989.0
+offset_bottom = 946.0
+
+[node name="PastArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("7")]
+offset_left = 922.0
+offset_top = 28.0
+offset_right = 1897.0
+offset_bottom = 930.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("8")]
+scenario_meta = ExtResource("9")
+thinking_layer = NodePath("../ThinkingLayer")

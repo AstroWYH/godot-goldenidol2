@@ -1,0 +1,118 @@
+[gd_scene load_steps=10 format=4 uid="uid://bybjvwsno4smd"]
+
+[ext_resource type="Texture2D" uid="uid://dte5leyig2qqv" path="res://acts/full_game/introductory_arc/conference/assets/placeholder/computer.png" id="1"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Texture2D" uid="uid://bkacjoj0i18mv" path="res://acts/full_game/introductory_arc/conference/assets/closeups/yellowpaper.png" id="6"]
+
+[sub_resource type="Resource" id="Resource_lat3q"]
+script = ExtResource("5")
+linked_item_ref_id = 174
+
+[sub_resource type="Resource" id="Resource_11xay"]
+script = ExtResource("5")
+linked_item_ref_id = 502
+
+[sub_resource type="Resource" id="Resource_8u1nk"]
+script = ExtResource("5")
+linked_item_ref_id = 503
+
+[node name="ComputerPanel" type="Panel"]
+offset_left = 179.0
+offset_top = 894.0
+offset_right = 1178.0
+offset_bottom = 1612.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(499.457, 352.75)
+scale = Vector2(1.6432, 1.6432)
+texture = ExtResource("1")
+
+[node name="Label1" type="Label" parent="."]
+layout_mode = 0
+offset_left = 175.0
+offset_top = 267.0
+offset_right = 931.0
+offset_bottom = 350.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.396078, 1, 0.643137, 1)
+text = "CONFERENCE_OFFICE_COMPUTER_SCREEN1"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 171.0
+offset_top = 344.0
+offset_right = 432.0
+offset_bottom = 400.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.909804, 0.835294, 0.929412, 1)
+text = "CONFERENCE_OFFICE_COMPUTER_SCREEN2"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 390.0
+offset_right = 876.0
+offset_bottom = 473.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.396078, 1, 0.643137, 1)
+text = "CONFERENCE_OFFICE_COMPUTER_SCREEN3"
+
+[node name="Label4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 177.0
+offset_top = 420.0
+offset_right = 438.0
+offset_bottom = 476.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.909804, 0.835294, 0.929412, 1)
+text = "CONFERENCE_OFFICE_COMPUTER_SCREEN4"
+
+[node name="ComputerNoteSpot" parent="." instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 483.0
+offset_top = 118.0
+offset_right = -164.0
+offset_bottom = -467.0
+theme = ExtResource("4")
+hotspot_id = "bHn"
+extra_items_unlocked = [SubResource("Resource_lat3q"), SubResource("Resource_11xay"), SubResource("Resource_8u1nk")]
+
+[node name="Indicators" parent="ComputerNoteSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="ComputerNoteSpot/Indicators" index="0"]
+modulate = Color(0.513726, 0.133333, 0.168627, 1)
+position = Vector2(2.5, -16)
+
+[node name="ComputerNotePanel" type="Panel" parent="ComputerNoteSpot"]
+layout_mode = 0
+offset_left = 638.0
+offset_top = 561.0
+offset_right = 1690.0
+offset_bottom = 1008.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="ComputerNoteSpot/ComputerNotePanel"]
+position = Vector2(526.5, 219.5)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("6")
+
+[node name="TextLabel" type="Label" parent="ComputerNoteSpot/ComputerNotePanel"]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 72.0
+offset_right = 974.0
+offset_bottom = 399.0
+rotation = -0.054511699825525284
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 27
+text = "CONFERENCE_OFFICE_COMPUTER_NOTE"
+autowrap_mode = 2
+
+[editable path="ComputerNoteSpot"]

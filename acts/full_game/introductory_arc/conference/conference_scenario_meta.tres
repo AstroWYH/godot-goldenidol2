@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=21 format=3 uid="uid://bsxn2rt6ks3hy"]
+
+[ext_resource type="Resource" uid="uid://cct0dyqesuef0" path="res://acts/full_game/introductory_arc/introductory_arc_meta.tres" id="1"]
+[ext_resource type="Resource" uid="uid://c80h7qb7m0h" path="res://shared/ui/hints/hint_library/1_curse/3_conference_1.tres" id="2"]
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="2_ia411"]
+[ext_resource type="Resource" uid="uid://dipj1eatlo8h1" path="res://shared/ui/hints/hint_library/1_curse/3_conference_2.tres" id="3"]
+[ext_resource type="Resource" uid="uid://b1samq243up7s" path="res://shared/ui/hints/hint_library/1_curse/3_conference_3.tres" id="4"]
+[ext_resource type="Resource" uid="uid://dyibdt24vxisu" path="res://acts/full_game/introductory_arc/conference/locations/conference_location_meta.tres" id="5"]
+[ext_resource type="Resource" uid="uid://cc6s2mvytyvcb" path="res://acts/full_game/introductory_arc/conference/morgue_location_meta.tres" id="6"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="6_oodny"]
+[ext_resource type="Resource" uid="uid://dul2qnj77nbk7" path="res://acts/full_game/introductory_arc/conference/locations/office_location_meta.tres" id="7"]
+[ext_resource type="AudioStream" uid="uid://bb03ic4tqvufs" path="res://acts/full_game/introductory_arc/conference/assets/music/conference_loop.ogg" id="8"]
+[ext_resource type="Texture2D" uid="uid://chht31mwvh4x0" path="res://shared/ui/hints/hint_illustrations/newsflash.png" id="9"]
+[ext_resource type="Resource" uid="uid://cda53rpbhb6dy" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/construction_yard_scroll_puzzle_meta.tres" id="10"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="11"]
+[ext_resource type="Resource" uid="uid://biinbwtd2uubg" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle.tres" id="12"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="12_g3q5d"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_segment_unlock.gd" id="13"]
+[ext_resource type="Resource" uid="uid://doc3v5yih8oq6" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_column2.tres" id="14"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="15_edoao"]
+
+[sub_resource type="Resource" id="Resource_evvro"]
+script = ExtResource("13")
+puzzle_meta = ExtResource("12")
+segment_indices = Array[int]([2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+[sub_resource type="Resource" id="Resource_gc2rs"]
+script = ExtResource("13")
+puzzle_meta = ExtResource("14")
+segment_indices = Array[int]([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+[resource]
+script = ExtResource("11")
+arc = ExtResource("1")
+id = 14
+name = "CONFERENCE_SCENARIO_NAME"
+description = "CONFERENCE_SCENARIO_DESCRIPTION"
+path = "res://acts/full_game/introductory_arc/conference/conference_scenario.tscn"
+locations = Array[ExtResource("6_oodny")]([ExtResource("5"), ExtResource("6"), ExtResource("7")])
+required_puzzles = Array[ExtResource("12_g3q5d")]([ExtResource("10")])
+max_spots = 22
+phrases_name = 19
+phrases_object = 16
+phrases_action = 2
+phrases_special = 6
+phrases_numeral = 4
+phrases_local = 0
+victory_screen_text = "CONFERENCE_SCENARIO_VICTORY"
+victory_picture_path = "res://acts/full_game/introductory_arc/conference/assets/victory_screen_conference_red_eyes.png"
+custom_victory_dialog_path = ""
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = Array[ExtResource("13")]([SubResource("Resource_evvro"), SubResource("Resource_gc2rs")])
+victory_unlocks_arc_phrases = Array[ExtResource("15_edoao")]([])
+achievement_id = 4
+intermission_path_on_victory = ""
+intro_music = Array[AudioStream]([])
+loop_music = Array[AudioStream]([ExtResource("8")])
+ambience = Array[AudioStream]([])
+escalation_layer_ids = Array[int]([])
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = Array[int]([])
+sfx_transposition = 2
+picture = ExtResource("9")
+hint_meta_list = Array[ExtResource("2_ia411")]([ExtResource("2"), ExtResource("3"), ExtResource("4")])
+no_inventory = false

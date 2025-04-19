@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=4 uid="uid://bpo7740mpp1xp"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bvataikw2bxuh" path="res://acts/full_game/introductory_arc/conference/assets/closeups/comic03.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://7sucfbuc5w0t" path="res://acts/full_game/introductory_arc/conference/puzzles/en_scroll_puzzle.tscn" id="5"]
+[ext_resource type="Resource" uid="uid://cjsi71jbbttp2" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_interview_puzzle_meta.tres" id="6"]
+
+[node name="ScrollPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 618.0
+offset_bottom = 684.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="TextureRect" parent="Frame" index="1"]
+modulate = Color(0.0894601, 0.668384, 0.622581, 1)
+show_behind_parent = true
+layout_mode = 0
+offset_left = 8.0
+offset_top = 6.0
+offset_right = 607.0
+offset_bottom = 677.0
+texture = ExtResource("2")
+stretch_mode = 1
+
+[node name="Comic03" type="Sprite2D" parent="Frame" index="2"]
+position = Vector2(308, 173)
+texture = ExtResource("3")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("4")]
+layout_mode = 1
+offset_right = 27.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("5")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = 24.0
+offset_top = 302.0
+offset_right = -49.0
+offset_bottom = -31.0
+puzzle_meta = ExtResource("6")
+text = "CONFERENCE_SPEECH_PUZZLE_CONTENT"

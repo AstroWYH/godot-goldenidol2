@@ -1,0 +1,291 @@
+[gd_scene load_steps=46 format=4 uid="uid://dxj0qgomnnwb6"]
+
+[ext_resource type="Texture2D" uid="uid://d2bbwq04k4mbb" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bormq6167lojs" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b114rcuou50fb" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bggg0yf13cbrb" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://df4suquacpust" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b27pf4ekomg0i" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://51awflg3ocuc" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bk3h8ct6s3ig6" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cwloffe8ft0of" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b8xqev1ntjowh" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://ddamix1rmnm1p" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ceryjf0365f1d" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bfbvna0oaaqu" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dv2nxykm3jjrp" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://t5yrul73ahcf" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://crmlh6umrgana" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dqr6jvkmpdeyt" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_016.png" id="17"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="18"]
+[ext_resource type="Texture2D" uid="uid://bscfmwao44chw" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/list.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://de66mq7ovtmaj" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/keys.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bqxqjlgjicysq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/cigarettes.png" id="21"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="22"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="23"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="24"]
+[ext_resource type="PackedScene" uid="uid://cwoh20quthlt2" path="res://acts/full_game/introductory_arc/asylum/closeups/clipboard_panel.tscn" id="25"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_akqet"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_0lh1o"]
+script = ExtResource("24")
+linked_item_ref_id = 164
+
+[sub_resource type="Resource" id="Resource_67lrm"]
+script = ExtResource("24")
+linked_item_ref_id = 165
+
+[sub_resource type="Resource" id="Resource_xac5b"]
+script = ExtResource("24")
+linked_item_ref_id = 451
+
+[sub_resource type="Resource" id="Resource_ym51r"]
+script = ExtResource("24")
+linked_item_ref_id = 81
+
+[sub_resource type="Resource" id="Resource_x2y8y"]
+script = ExtResource("24")
+linked_item_ref_id = 82
+
+[sub_resource type="Resource" id="Resource_q2pes"]
+script = ExtResource("24")
+linked_item_ref_id = 452
+
+[sub_resource type="Resource" id="Resource_xlbbq"]
+script = ExtResource("24")
+linked_item_ref_id = 90
+
+[sub_resource type="Resource" id="Resource_dxyg7"]
+script = ExtResource("24")
+linked_item_ref_id = 172
+
+[sub_resource type="Resource" id="Resource_lvckv"]
+script = ExtResource("24")
+linked_item_ref_id = 453
+
+[sub_resource type="Resource" id="Resource_ip48j"]
+script = ExtResource("24")
+linked_item_ref_id = 170
+
+[sub_resource type="Resource" id="Resource_gmh2x"]
+script = ExtResource("24")
+linked_item_ref_id = 171
+
+[sub_resource type="Resource" id="Resource_eg1hc"]
+script = ExtResource("24")
+linked_item_ref_id = 454
+
+[sub_resource type="Resource" id="Resource_23rv2"]
+script = ExtResource("24")
+linked_item_ref_id = 162
+
+[sub_resource type="Resource" id="Resource_hsr0s"]
+script = ExtResource("24")
+linked_item_ref_id = 163
+
+[sub_resource type="Resource" id="Resource_mr1bn"]
+script = ExtResource("24")
+linked_item_ref_id = 181
+
+[sub_resource type="Resource" id="Resource_g0h1q"]
+script = ExtResource("24")
+linked_item_ref_id = 182
+
+[sub_resource type="Resource" id="Resource_ordch"]
+script = ExtResource("24")
+linked_item_ref_id = 180
+
+[sub_resource type="Resource" id="Resource_gsmj1"]
+script = ExtResource("24")
+linked_item_ref_id = 183
+
+[sub_resource type="Resource" id="Resource_s7p53"]
+script = ExtResource("24")
+linked_item_ref_id = 184
+
+[node name="GuardPanel" type="Panel"]
+offset_left = -1006.0
+offset_top = 1007.0
+offset_right = -152.0
+offset_bottom = 1746.0
+
+[node name="JacketSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(491.173, 467.009)
+sprite_frames = SubResource("SpriteFrames_akqet")
+autoplay = "default"
+frame_progress = 0.999763011932373
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 19.03059959411621
+offset_top = 18.061399459838867
+offset_right = 382.031005859375
+offset_bottom = 83.0614013671875
+theme = ExtResource("18")
+text = "ASYLUM_MORG_SPEECH"
+
+[node name="List" type="Sprite2D" parent="."]
+modulate = Color(0.87095, 0.808822, 0.661981, 1)
+position = Vector2(128.206, 225.767)
+texture = ExtResource("19")
+
+[node name="Keys" type="Sprite2D" parent="."]
+position = Vector2(705.132, 113.385)
+texture = ExtResource("20")
+
+[node name="Cigarettes" type="Sprite2D" parent="."]
+position = Vector2(490.251, 196.281)
+texture = ExtResource("21")
+
+[node name="Label" type="Label" parent="Cigarettes"]
+offset_left = -203.25100708007813
+offset_top = -10.281000137329102
+offset_right = 147.74899291992188
+offset_bottom = 91.71900177001953
+rotation = -0.05235990136861801
+theme = ExtResource("22")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "ASYLUM_MORG_CIGARETTES"
+horizontal_alignment = 1
+
+[node name="ClipBoardSpot" parent="." instance=ExtResource("23")]
+layout_mode = 1
+offset_left = 33.0
+offset_top = 99.0
+offset_right = -568.0
+offset_bottom = -376.0
+hotspot_id = "LzW"
+extra_items_unlocked = [SubResource("Resource_0lh1o"), SubResource("Resource_67lrm"), SubResource("Resource_xac5b"), SubResource("Resource_ym51r"), SubResource("Resource_x2y8y"), SubResource("Resource_q2pes"), SubResource("Resource_xlbbq"), SubResource("Resource_dxyg7"), SubResource("Resource_lvckv"), SubResource("Resource_ip48j"), SubResource("Resource_gmh2x"), SubResource("Resource_eg1hc")]
+
+[node name="Indicators" parent="ClipBoardSpot" index="0"]
+offset_left = 94.0
+offset_top = 104.73699951171875
+offset_right = 94.0
+offset_bottom = 104.73699951171875
+
+[node name="Highlighter" parent="ClipBoardSpot/Indicators" index="0"]
+modulate = Color(0.745098, 0.815686, 0.792157, 1)
+
+[node name="ClipboardPanel" parent="ClipBoardSpot" instance=ExtResource("25")]
+layout_mode = 0
+offset_left = -9.0
+offset_top = 739.0
+offset_right = 705.0
+offset_bottom = 1330.0
+
+[node name="ClipboardSprite" parent="ClipBoardSpot/ClipboardPanel" index="0"]
+modulate = Color(0.643137, 0.658824, 0.52549, 1)
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 683.0
+offset_bottom = 554.0
+
+[node name="KeySpot" parent="." instance=ExtResource("23")]
+layout_mode = 1
+offset_left = 648.0
+offset_top = 47.0
+offset_right = -58.0
+offset_bottom = -539.0
+hotspot_id = "Jys"
+text = "ASYLUM_MORG_KEYS_TOOLTIP"
+unlocked_item_ref_id = 176
+
+[node name="Indicators" parent="KeySpot" index="0"]
+offset_left = 3.5
+offset_top = 36.0
+offset_right = 3.5
+offset_bottom = 36.0
+
+[node name="Highlighter" parent="KeySpot/Indicators" index="0"]
+modulate = Color(0.831373, 0.721569, 0.713726, 1)
+
+[node name="InfoSpot" parent="." instance=ExtResource("23")]
+layout_mode = 1
+offset_left = 524.0
+offset_top = 590.0
+offset_right = -130.0
+offset_bottom = -28.0
+hotspot_id = "ATS"
+text = "ASYLUM_MORG_NAMETAG_TOOLTIP"
+extra_items_unlocked = [SubResource("Resource_23rv2"), SubResource("Resource_hsr0s")]
+extra_hypothetical_items_unlocked = [SubResource("Resource_mr1bn"), SubResource("Resource_g0h1q"), SubResource("Resource_ordch")]
+
+[node name="Highlighter" parent="InfoSpot/Indicators" index="0"]
+modulate = Color(0.192157, 0.207843, 0.152941, 1)
+
+[node name="CigsSpot" parent="." instance=ExtResource("23")]
+layout_mode = 1
+offset_left = 390.010986328125
+offset_top = 86.71649932861328
+offset_right = -261.989013671875
+offset_bottom = -400.28399658203125
+hotspot_id = "p3e"
+text = "ASYLUM_MORG_CIGARETTES_TOOLTIP\\"
+extra_items_unlocked = [SubResource("Resource_gsmj1"), SubResource("Resource_s7p53")]
+
+[node name="Highlighter" parent="CigsSpot/Indicators" index="0"]
+modulate = Color(0.709804, 0.180392, 0.141176, 1)
+
+[editable path="ClipBoardSpot"]
+[editable path="ClipBoardSpot/ClipboardPanel"]
+[editable path="KeySpot"]
+[editable path="InfoSpot"]
+[editable path="CigsSpot"]

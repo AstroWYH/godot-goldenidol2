@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=4 uid="uid://05twaos7uhit"]
+
+[ext_resource type="Texture2D" uid="uid://c7y2gs5p1agmu" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/hideout3.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+
+[node name="Hideout3Panel" type="Panel"]
+offset_left = 2308.0
+offset_top = -2106.0
+offset_right = 3227.0
+offset_bottom = -1402.0
+mouse_filter = 1
+
+[node name="Hideout3Sprite" type="Sprite2D" parent="."]
+position = Vector2(5, 4)
+texture = ExtResource("1")
+centered = false
+
+[node name="CardSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 237.0
+offset_top = 349.0
+offset_right = -586.0
+offset_bottom = -155.0
+hotspot_id = "KlG"
+text = "prison_cards_tooltip"
+
+[node name="Indicators" parent="CardSpot" index="0"]
+offset_left = 3.5
+offset_top = 136.0
+offset_right = 3.5
+offset_bottom = 136.0
+
+[editable path="CardSpot"]

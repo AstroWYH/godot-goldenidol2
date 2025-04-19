@@ -1,0 +1,413 @@
+[gd_scene load_steps=73 format=4 uid="uid://4it5s7ouli4d"]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://dvpoe83y5xwup" path="res://acts/full_game/colecting_parts_arc/retreat/locations/inside_location.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://ddnei8palh664" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cyq8tgbv48qxe" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cq36gk4p4tsjl" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dye2yl20pu73k" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://db2nuqywj03sf" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://qb78snvwet37" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cslcdjejsxxbw" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d4ct7h6ypa1w" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cqwqyqy5rgvbu" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dxkdlic4f66hf" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cgkex36odu700" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cep111akn7wka" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c1dxvsndkxtq" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://4yt4rr2ycekj" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dlrqjgbqnqkcq" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bc8fl76ikwbv6" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dd77po328wy36" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c75sg34vvx7cq" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://wlbhqleg0wt7" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bj6d806bft1ue" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b3ek66pqwg20a" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://duuqneuob4oki" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cxuq73d7qqxy7" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://jo4qa1yf72yk" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cpsn4ji6btcv3" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dpfpywb54lhhr" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ct7hn6nm4iog1" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d04sjrdt6frn7" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://c3wm03qs20bct" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://doq18mosokpl1" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dnfwef0s0fron" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_030.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://22mf0cuhsodh" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_031.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dgf6nwleww4ks" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_032.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://i8mxv0vpw2qr" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_033.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bv0akmq8e5ki1" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_034.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://csbpfb233gjeo" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_035.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://go6l7xx8ano4" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_036.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dfswf2q6t4x6k" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_037.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://2q8pmd1k74jp" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_038.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dkb3rhcoigo35" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_039.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dkkqfddvjwr8u" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_040.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://b7s4lpxlbbcdw" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_041.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cxtgk8djx1hqt" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_042.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bod2nfedodgoj" path="res://acts/full_game/colecting_parts_arc/retreat/assets/inside6.png" id="46"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="47"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="48"]
+[ext_resource type="PackedScene" uid="uid://xspvegygdnu0" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/picture_panel.tscn" id="49"]
+[ext_resource type="PackedScene" uid="uid://bstiiqy2hge8y" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/safe_panel.tscn" id="50"]
+[ext_resource type="PackedScene" uid="uid://ent3g4gn1sqe" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/suitcase_panel.tscn" id="51"]
+[ext_resource type="PackedScene" uid="uid://fpfas76klo21" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/drawer_panel.tscn" id="52"]
+[ext_resource type="PackedScene" uid="uid://bpk8tpog00c0" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/phone_panel.tscn" id="53"]
+[ext_resource type="PackedScene" uid="uid://hca8djie82r2" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/letter_panel_4.tscn" id="54"]
+[ext_resource type="Resource" uid="uid://dd121dfs1p3jv" path="res://acts/full_game/colecting_parts_arc/retreat/locations/garden_location.tres" id="55"]
+[ext_resource type="Texture2D" uid="uid://ic2x2e0yqyvo" path="res://acts/full_game/colecting_parts_arc/retreat/assets/gates_for_translations/gates_default.png" id="56"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wef3s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_xfb4b"]
+script = ExtResource("48")
+linked_item_ref_id = 105
+
+[sub_resource type="Resource" id="Resource_2rkry"]
+script = ExtResource("48")
+linked_item_ref_id = 106
+
+[sub_resource type="Resource" id="Resource_1ubrw"]
+script = ExtResource("48")
+linked_item_ref_id = 548
+
+[sub_resource type="Resource" id="Resource_8ps3a"]
+script = ExtResource("48")
+linked_item_ref_id = 547
+
+[sub_resource type="Resource" id="Resource_qmn8y"]
+script = ExtResource("48")
+linked_item_ref_id = 493
+
+[sub_resource type="Resource" id="Resource_sbdon"]
+script = ExtResource("48")
+linked_item_ref_id = 226
+
+[sub_resource type="Resource" id="Resource_888u2"]
+script = ExtResource("48")
+linked_item_ref_id = 2
+
+[sub_resource type="Resource" id="Resource_1qey0"]
+script = ExtResource("48")
+linked_item_ref_id = 3
+
+[sub_resource type="Resource" id="Resource_os35d"]
+script = ExtResource("48")
+linked_item_ref_id = 4
+
+[sub_resource type="Resource" id="Resource_x5nyy"]
+script = ExtResource("48")
+linked_item_ref_id = 5
+
+[sub_resource type="Resource" id="Resource_2cmcs"]
+script = ExtResource("48")
+linked_item_ref_id = 6
+
+[sub_resource type="Resource" id="Resource_iyqp3"]
+script = ExtResource("48")
+linked_item_ref_id = 7
+
+[sub_resource type="Resource" id="Resource_h0537"]
+script = ExtResource("48")
+linked_item_ref_id = 8
+
+[sub_resource type="Resource" id="Resource_lk3va"]
+script = ExtResource("48")
+linked_item_ref_id = 9
+
+[sub_resource type="Resource" id="Resource_782ss"]
+script = ExtResource("48")
+linked_item_ref_id = 10
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(267, 217)
+sprite_frames = SubResource("SpriteFrames_wef3s")
+autoplay = "default"
+frame_progress = 0.6463090181350708
+
+[node name="Background" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("46")
+centered = false
+metadata/_edit_lock_ = true
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CollectorPictureSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = 238.0
+offset_top = 218.0
+offset_right = 346.0
+offset_bottom = 406.0
+hotspot_id = "4Ml"
+unlocked_item_ref_id = 112
+extra_items_unlocked = [SubResource("Resource_xfb4b"), SubResource("Resource_2rkry")]
+
+[node name="CollectorPicturePanel" parent="Hotspots/CollectorPictureSpot" instance=ExtResource("49")]
+layout_mode = 0
+offset_left = -1413.0
+offset_top = -284.0
+offset_right = -925.0
+offset_bottom = 422.0
+
+[node name="SafeSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = 398.0
+offset_top = 118.0
+offset_right = 562.0
+offset_bottom = 253.0
+hotspot_id = "4UP"
+extra_items_unlocked = [SubResource("Resource_1ubrw"), SubResource("Resource_8ps3a")]
+
+[node name="SafePanel" parent="Hotspots/SafeSpot" instance=ExtResource("50")]
+layout_mode = 0
+offset_left = -1268.0
+offset_top = -1007.0
+offset_right = -605.0
+offset_bottom = -499.0
+
+[node name="SuitcaseSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = 463.0
+offset_top = 301.0
+offset_right = 580.0
+offset_bottom = 419.0
+hotspot_id = "w2N"
+
+[node name="Indicators" parent="Hotspots/SuitcaseSpot" index="0"]
+offset_left = 3.0
+offset_top = 59.0
+offset_right = 3.0
+offset_bottom = 59.0
+
+[node name="SuitcasePanel" parent="Hotspots/SuitcaseSpot" instance=ExtResource("51")]
+layout_mode = 0
+offset_left = 272.0
+offset_top = -1308.0
+offset_right = 910.0
+offset_bottom = -611.0
+
+[node name="DrawerSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = 744.0
+offset_top = 362.0
+offset_right = 838.0
+offset_bottom = 383.0
+hotspot_id = "QPj"
+unlocked_item_ref_id = 554
+extra_items_unlocked = [SubResource("Resource_qmn8y"), SubResource("Resource_sbdon")]
+
+[node name="DrawerPanel" parent="Hotspots/DrawerSpot" instance=ExtResource("52")]
+layout_mode = 0
+offset_left = 786.0
+offset_top = -1298.0
+offset_right = 1533.0
+offset_bottom = -662.0
+
+[node name="PhoneSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = 786.0
+offset_top = 747.0
+offset_right = 841.0
+offset_bottom = 787.0
+hotspot_id = "BrX"
+
+[node name="PhonePanel" parent="Hotspots/PhoneSpot" instance=ExtResource("53")]
+layout_mode = 0
+offset_left = -345.0
+offset_top = 620.0
+offset_right = 506.0
+offset_bottom = 1134.0
+
+[node name="CalendarSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = 1319.0
+offset_top = 580.0
+offset_right = 1376.0
+offset_bottom = 680.0
+hotspot_id = "LV_"
+unlocked_item_ref_id = 1
+extra_items_unlocked = [SubResource("Resource_888u2"), SubResource("Resource_1qey0"), SubResource("Resource_os35d"), SubResource("Resource_x5nyy"), SubResource("Resource_2cmcs"), SubResource("Resource_iyqp3"), SubResource("Resource_h0537"), SubResource("Resource_lk3va"), SubResource("Resource_782ss")]
+
+[node name="CalendarPanel" parent="Hotspots/CalendarSpot" instance=ExtResource("54")]
+layout_mode = 0
+offset_left = 933.0
+offset_top = -225.0
+offset_right = 1541.0
+offset_bottom = 558.0
+
+[node name="ToGardenSpot" parent="Hotspots" instance=ExtResource("47")]
+layout_mode = 1
+offset_left = -205.0
+offset_top = 21.0
+offset_right = 71.0
+offset_bottom = 1042.0
+hotspot_id = "v_J"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("55")
+transition = 2
+transition_sound = 17
+
+[node name="Indicators" parent="Hotspots/ToGardenSpot" index="0"]
+offset_left = 139.0
+offset_top = 790.0
+offset_right = 139.0
+offset_bottom = 790.0
+
+[node name="Highlighter" parent="Hotspots/ToGardenSpot/Indicators" index="0"]
+position = Vector2(6.5, -58.5)
+rotation = 1.5707999467849731
+
+[node name="FocusIndicator" parent="Hotspots/ToGardenSpot/Indicators" index="1"]
+position = Vector2(7.5, -58.5)
+
+[node name="gate_translation" type="Sprite2D" parent="."]
+position = Vector2(-161, 424)
+texture = ExtResource("56")
+
+[editable path="Hotspots/SuitcaseSpot"]
+[editable path="Hotspots/ToGardenSpot"]

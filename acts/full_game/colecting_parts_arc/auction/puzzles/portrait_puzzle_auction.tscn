@@ -1,0 +1,99 @@
+[gd_scene load_steps=11 format=4 uid="uid://ybiflye6g481"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://b5c3p6o8uqvrm" path="res://shared/assets/textures/black.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://dioppstaxf134" path="res://shared/ui/portrait_puzzle/portrait_puzzle.tscn" id="4"]
+[ext_resource type="Resource" uid="uid://s15dkveo37rd" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/auction_portrait_puzzle_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://btemkxm05phja" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.tscn" id="6"]
+[ext_resource type="Texture2D" uid="uid://csio6matxlm" path="res://shared/assets/portraits/curator.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c4krm33vvindq" path="res://shared/assets/portraits/lemurians_envoy.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://euqsctwkyfyl" path="res://shared/assets/portraits/auctioneer.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://brxnbfqi7xiwj" path="res://shared/assets/portraits/agent.png" id="10"]
+
+[node name="PortraitPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 636.0
+offset_bottom = 457.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+offset_right = 632.0
+offset_bottom = 491.0
+scale = Vector2(0.5, 0.5)
+
+[node name="Background" parent="Frame/MarginContainer" index="0"]
+texture = ExtResource("2")
+
+[node name="CloseButton" parent="." index="2"]
+offset_left = -23.0
+offset_top = -13.0
+offset_right = 12.0
+offset_bottom = 23.0
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("3")]
+layout_mode = 1
+offset_left = 60.0
+offset_top = 1.0
+offset_right = 40.0
+offset_bottom = 1.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("4")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = 37.0
+offset_top = 36.0
+offset_right = -156.0
+offset_bottom = 1.0
+puzzle_meta = ExtResource("5")
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle" index="1"]
+layout_mode = 2
+theme_override_constants/h_separation = 40
+theme_override_constants/v_separation = 20
+columns = 4
+
+[node name="Professor" parent="PuzzleGroup/Puzzle/GridContainer" index="0" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 15
+
+[node name="Collector" parent="PuzzleGroup/Puzzle/GridContainer" index="1" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 27
+
+[node name="Star" parent="PuzzleGroup/Puzzle/GridContainer" index="2" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 14
+
+[node name="Curator" parent="PuzzleGroup/Puzzle/GridContainer" index="3" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 11
+custom_portrait = ExtResource("7")
+
+[node name="Lemurian" parent="PuzzleGroup/Puzzle/GridContainer" index="4" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 13
+custom_portrait = ExtResource("8")
+
+[node name="Auctioneer" parent="PuzzleGroup/Puzzle/GridContainer" index="5" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 10
+custom_portrait = ExtResource("9")
+
+[node name="AgentUndercover" parent="PuzzleGroup/Puzzle/GridContainer" index="6" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 48
+custom_portrait = ExtResource("10")
+
+[node name="Guard" parent="PuzzleGroup/Puzzle/GridContainer" index="7" instance=ExtResource("6")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 12
+
+[editable path="Frame"]

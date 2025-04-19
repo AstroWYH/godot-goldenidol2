@@ -1,0 +1,245 @@
+[gd_scene load_steps=43 format=4 uid="uid://cljavpqgq6tws"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="Texture2D" uid="uid://denhtg7n78cps" path="res://acts/full_game/colecting_parts_arc/drivein/assets/money.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://dxcsc3kvu8xs8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00000.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bqj8a2figg7mi" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00001.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bigwncq72huue" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00002.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b15m8gvpowofo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00003.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cj735v0kufc4h" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00004.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://s2ekle1py0cs" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00005.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cmvcujogbj8dn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00006.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dm1hyu4atb80h" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00007.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bbgugkufm1due" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00008.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dk0c3civa6jto" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00009.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://coahvw1qea8sl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00010.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dvs3thjwxjl13" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00011.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://oehlun3kncuh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00012.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://d3r82th8jtld7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00013.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bttj8qqjv1rt2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00014.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://b8sb02wmxr8cv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00015.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://opvwtgblp8ms" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00016.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dnug8af4bxfa6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00017.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://biqega2xoxb00" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00018.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b2mvp3j8puh6u" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00019.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://70m50xm32pa7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00020.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://daomklkr7s7ln" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00021.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://borj2jrue31v2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00022.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b1vjturgqpkqo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00023.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ddspskm2iomio" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00024.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dtbvxp5lrg6sa" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00025.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://ln2gc5pw1ypo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00026.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dd0uwlrjclkxu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00027.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://65g0vhfxpnw0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00028.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dn4bmyiuwpp8k" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00029.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://tywymgqpe8qa" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00030.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c1p16tuat00jq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00031.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bqikk17d8xyj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00032.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://c0wyuneqxmp4i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00033.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dxm3nyjp8p8wn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00034.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cefw24735wwka" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/champ_vincent/Champ_Vincent_00035.png" id="41"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3m6jj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = -428.0
+offset_top = 437.0
+offset_right = 251.0
+offset_bottom = 943.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 17.0
+offset_right = 657.0
+offset_bottom = 114.0
+theme = ExtResource("1")
+text = "cinema_champ_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(508.237, 193.25)
+rotation = 0.04174159839749336
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "33"
+metadata/_edit_use_anchors_ = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(522, 351)
+scale = Vector2(0.232897, 0.232897)
+texture = ExtResource("4")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D2"]
+position = Vector2(-68.7001, -12.881)
+rotation = -0.16007499396800995
+scale = Vector2(1.07904, 1.07904)
+texture = ExtResource("4")
+
+[node name="TicketSpot2" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 397.0
+offset_top = 127.0
+offset_right = -50.0
+offset_bottom = -246.0
+hotspot_id = "ON7"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
+modulate = Color(0.752941, 0.568627, 0.298039, 1)
+position = Vector2(-6, -1)
+frame_progress = 0.614670991897583
+
+[node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
+position = Vector2(-5, 3)
+
+[node name="CashSpot2" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 404.0
+offset_top = 296.0
+offset_right = -68.0
+offset_bottom = -55.0
+hotspot_id = "GgM"
+text = "cinema_champ_money_tooltip"
+unlocked_item_ref_id = 158
+
+[node name="Highlighter" parent="CashSpot2/Indicators" index="0"]
+modulate = Color(0.709804, 0.635294, 0.45098, 1)
+position = Vector2(-28, -18)
+frame_progress = 0.04388979822397232
+
+[node name="FocusIndicator" parent="CashSpot2/Indicators" index="1"]
+position = Vector2(-27, -14)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(206, 313)
+sprite_frames = SubResource("SpriteFrames_3m6jj")
+autoplay = "default"
+frame_progress = 0.4582499861717224
+
+[editable path="TicketSpot2"]
+[editable path="CashSpot2"]

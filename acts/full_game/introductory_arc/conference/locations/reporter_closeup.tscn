@@ -1,0 +1,672 @@
+[gd_scene load_steps=110 format=4 uid="uid://dt5ipb37rodp8"]
+
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dv3kgenoaigbp" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b7pewa6ywkugy" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://jbv0lfy0jxkc" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://g60sim3cdosg" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b68ugssaih11u" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b58adpsf2ahyv" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bfuoti4ot7uma" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cnfb2yopuykoc" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cfuexca16ltmf" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bf5eb24jswl4n" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c6e4cxq1bitre" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://drd4upt4aga5x" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://d3uqtq01pmq60" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://oj2iv1a7v67d" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://buusfwwbv56f1" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://e8g3crqlnlst" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://chsfuughpx71g" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bye4744a37l3v" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bga2u70lax6s6" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ca2wt3fhypt55" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://c6m503esfvmcn" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://ev2dp6gnu012" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bnk51e7q5wrft" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cs2n1y1hpv6xh" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://f006jsbxtkfk" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://lopxvy2xwuig" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://d2ly2yotbdnv5" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__000.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bcdrc4iti2wje" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__001.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d1h5jeo8flg24" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__002.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bfs4wowu7wxam" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__003.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dhtlfjh2ergaw" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__004.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://q0xpu4yrdc4x" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__005.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://6rgr7tyagim0" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__006.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dwhno1asppkja" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__007.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://wnubap6bpjul" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__008.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://chjv68k3f36qw" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__009.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dkl38erg8u0xq" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__010.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://lvrwys1ibs1e" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__011.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cgcqkxeyesthi" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__012.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dvgk24s831oko" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__013.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bi03o4uxl0xeh" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__014.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://prsbpnbraipj" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__015.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bub6dfii61lxt" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__016.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bnk1280p0fx26" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__017.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://b5ongod62tywj" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__018.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dkjiyxnv7v0eg" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__019.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://8dv7us13y2mi" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__020.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://d4a3bl4eay4rh" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__021.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://jtf40c3ga4i8" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__022.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bpy1hb0p0rmr6" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__023.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://delgdhmx6ad5g" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__024.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cyeahoerix06y" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__025.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://6b3prboj54b2" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__026.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://dcfoderk3w1y4" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__027.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://de7qsh240vsa2" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__028.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://d4hmwj8hws8gg" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__029.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dkp26v8u7smos" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__030.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://hxlmem73ytp8" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__031.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://ba2l8rq2hijay" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__032.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://uqo1pvobjpam" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__033.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://che1pa5n2ngu2" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__034.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://d0wmg7hucxtlm" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__035.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://de8isxaq32fhq" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__036.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://chup0ec675l8h" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__037.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://c14p2gygoi548" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic2/comic02__038.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://cfr3nl4dph3ys" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_000.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://ccux5iwrexoui" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_001.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://db3x7ys28c1nf" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_002.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://bnd5ikw15fk7q" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_003.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://dfw6l3hwmtoju" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_004.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://cd7dpu7jdqkxx" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_005.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://coubooyumuwty" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_006.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://cjijim76i14dw" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_007.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://dtavnfydgau5y" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_008.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://dih7j8kpsjhbu" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_009.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://dc204joeqs46r" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_010.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://cfjncp406xf7r" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_011.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://cc2os5540d2yw" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_012.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://jjcrt13x8wmy" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_013.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://deuku2csthxob" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_014.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://dbb5pwm1xa8uf" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_015.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://cyns3eaxhhy0k" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_016.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://c3csqanu51roj" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_017.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://p5q61rrf2wjg" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_018.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://dlejpy3eufn8j" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_019.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://dwtcp8lrgpjom" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_020.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://c1fop6pncjdn0" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_021.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://bamhbsr8da3ou" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_022.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bkokk7d4g3mxt" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_023.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://e2un1jmhday2" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_024.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://bf7a3ku2r32jh" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_025.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dtb2kbpp4byua" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_026.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://jria50xrmxih" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_027.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://dbt30i5cwnen0" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_028.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://b4gnbp848i74a" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_029.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://cfh0x1jreim4y" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_030.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://dmqjkfmi0imb3" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_031.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://1ah1w8ak677r" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_032.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://crm683kdikauv" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_033.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://3x7tqqyxirqg" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_034.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://dc6mupe8ks17w" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_035.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://ql77r6ccuf8r" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_036.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://mtwyeeuwyua7" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_037.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://d2epgr5dxej2y" path="res://acts/full_game/introductory_arc/conference/assets/animations/comic3/comic03_038.png" id="105"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="106"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k1rlv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_67wvs"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_41qjj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="ReporterCloseup" type="Panel"]
+offset_left = -561.0
+offset_top = -2051.0
+offset_right = 389.0
+offset_bottom = -1197.0
+metadata/_edit_vertical_guides_ = [-527.0, -198.0, -165.0, 155.0, 192.0, 516.0]
+metadata/_edit_horizontal_guides_ = [-2020.0, -1191.0]
+
+[node name="ColorRect" type="TextureRect" parent="."]
+modulate = Color(0.156863, 0.027451, 0.027451, 1)
+layout_mode = 0
+offset_left = 9.0
+offset_top = 6.0
+offset_right = 941.0
+offset_bottom = 843.0
+texture = ExtResource("1")
+stretch_mode = 1
+
+[node name="Comic" type="AnimatedSprite2D" parent="."]
+position = Vector2(163, 364)
+sprite_frames = SubResource("SpriteFrames_k1rlv")
+autoplay = "default"
+frame_progress = 0.17381100356578827
+
+[node name="Comic2" type="AnimatedSprite2D" parent="."]
+position = Vector2(466, 371)
+sprite_frames = SubResource("SpriteFrames_67wvs")
+autoplay = "default"
+frame_progress = 0.7412649989128113
+
+[node name="Comic3" type="AnimatedSprite2D" parent="."]
+position = Vector2(769, 373)
+sprite_frames = SubResource("SpriteFrames_41qjj")
+autoplay = "default"
+frame_progress = 0.988008975982666
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 27.0
+offset_right = 295.0
+offset_bottom = 254.0
+theme = ExtResource("106")
+theme_override_colors/font_color = Color(0.815686, 0.729412, 0.501961, 1)
+theme_override_font_sizes/font_size = 24
+text = "CONFERENCE_INTERVIEW_QUESTION1"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Label"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+
+[node name="ColorRect" type="ColorRect" parent="Label/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 329.0
+offset_top = 26.0
+offset_right = 599.0
+offset_bottom = 254.0
+theme = ExtResource("106")
+theme_override_colors/font_color = Color(0.815686, 0.729412, 0.501961, 1)
+theme_override_font_sizes/font_size = 24
+text = "CONFERENCE_INTERVIEW_QUESTION2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Label3"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+
+[node name="ColorRect" type="ColorRect" parent="Label3/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Label5" type="Label" parent="."]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 25.0
+offset_right = 904.0
+offset_bottom = 254.0
+theme = ExtResource("106")
+theme_override_colors/font_color = Color(0.815686, 0.729412, 0.501961, 1)
+theme_override_font_sizes/font_size = 24
+text = "CONFERENCE_INTERVIEW_QUESTION3"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Label5"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+
+[node name="ColorRect" type="ColorRect" parent="Label5/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 505.0
+offset_right = 298.0
+offset_bottom = 824.0
+theme = ExtResource("106")
+theme_override_colors/font_color = Color(0.870238, 0.590461, 0.752777, 1)
+theme_override_font_sizes/font_size = 24
+text = "CONFERENCE_INTERVIEW_ANSWER1"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Label2"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+
+[node name="ColorRect" type="ColorRect" parent="Label2/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Label4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 505.0
+offset_right = 602.0
+offset_bottom = 824.0
+theme = ExtResource("106")
+theme_override_colors/font_color = Color(0.564706, 0.807843, 0.764706, 1)
+theme_override_font_sizes/font_size = 24
+text = "CONFERENCE_INTERVIEW_ANSWER2"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Label4"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+
+[node name="ColorRect" type="ColorRect" parent="Label4/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Label6" type="Label" parent="."]
+layout_mode = 0
+offset_left = 634.0
+offset_top = 505.0
+offset_right = 904.0
+offset_bottom = 824.0
+theme = ExtResource("106")
+theme_override_colors/font_color = Color(0.564919, 0.806081, 0.765587, 1)
+theme_override_font_sizes/font_size = 24
+text = "CONFERENCE_INTERVIEW_ANSWER3"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="Label6"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+
+[node name="ColorRect" type="ColorRect" parent="Label6/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)

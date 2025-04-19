@@ -1,0 +1,114 @@
+[gd_scene load_steps=7 format=4 uid="uid://bi8sn2nju110i"]
+
+[ext_resource type="Texture2D" uid="uid://bl6by527b3048" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/safe.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://dv6fx7h2bi1a4" path="res://shared/assets/papers/Check.png" id="4"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
+
+[sub_resource type="Resource" id="Resource_nr4a7"]
+script = ExtResource("3")
+linked_item_ref_id = 74
+
+[node name="SafeCloseup" type="Panel"]
+offset_left = -214.0
+offset_top = 608.0
+offset_right = 409.0
+offset_bottom = 1228.0
+mouse_filter = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(13, 6)
+texture = ExtResource("1")
+centered = false
+
+[node name="MoneySpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 123.0
+offset_top = 438.0
+offset_right = -275.0
+offset_bottom = -36.0
+hotspot_id = "sWp"
+text = "auction_2night_safe_money_tooltip"
+
+[node name="Highlighter" parent="MoneySpot2/Indicators" index="0"]
+modulate = Color(0.807856, 0.696215, 0.522089, 1)
+position = Vector2(-34, 8.25)
+
+[node name="FocusIndicator" parent="MoneySpot2/Indicators" index="1"]
+position = Vector2(-33, 12.25)
+
+[node name="CheckSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 372.0
+offset_top = 520.0
+offset_right = -125.0
+offset_bottom = -39.0
+hotspot_id = "cmU"
+unlocked_item_ref_id = 73
+extra_items_unlocked = [SubResource("Resource_nr4a7")]
+
+[node name="Indicators" parent="CheckSpot" index="0"]
+offset_left = 10.0
+offset_top = 20.0
+offset_right = 10.0
+offset_bottom = 20.0
+
+[node name="Highlighter" parent="CheckSpot/Indicators" index="0"]
+modulate = Color(0.509804, 0.74902, 0.713726, 1)
+position = Vector2(-21, -14)
+
+[node name="FocusIndicator" parent="CheckSpot/Indicators" index="1"]
+position = Vector2(-4, 17)
+offset = Vector2(-16, -27)
+
+[node name="CheckPanel" type="Panel" parent="CheckSpot"]
+layout_mode = 0
+offset_left = 285.0
+offset_top = -190.0
+offset_right = 885.0
+offset_bottom = 99.0
+
+[node name="CheckSprite" type="Sprite2D" parent="CheckSpot/CheckPanel"]
+position = Vector2(302, 142)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("4")
+
+[node name="CheckLabel1" type="Label" parent="CheckSpot/CheckPanel"]
+layout_mode = 0
+offset_left = 312.0
+offset_top = 183.0
+offset_right = 563.0
+offset_bottom = 222.0
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "char_aurealia_winston"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CheckLabel2" type="Label" parent="CheckSpot/CheckPanel"]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 113.0
+offset_right = 517.0
+offset_bottom = 176.0
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "auction_2night_safe_check_body"
+autowrap_mode = 3
+
+[node name="CheckLabel3" type="Label" parent="CheckSpot/CheckPanel"]
+layout_mode = 0
+offset_left = 332.0
+offset_top = 48.0
+offset_right = 562.0
+offset_bottom = 87.0
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "auction_date"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[editable path="MoneySpot2"]
+[editable path="CheckSpot"]

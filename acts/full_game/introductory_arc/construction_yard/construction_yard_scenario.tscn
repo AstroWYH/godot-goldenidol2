@@ -1,0 +1,48 @@
+[gd_scene load_steps=9 format=4 uid="uid://brlgocg7452xq"]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bok84tulfeuxb" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/vehicle_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://xjl77tb54j31" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/construction_yard_portrait_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://ddv6w3av3w650" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/construction_yard_scroll_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://b7354t5lyjcvn" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://d2fevd6qv807m" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_2.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="7"]
+[ext_resource type="Resource" uid="uid://c5k4y6tooqhhe" path="res://acts/full_game/introductory_arc/construction_yard/construction_yard_meta.tres" id="8"]
+
+[node name="ConstructionYardScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="VehiclePuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 710.0
+offset_top = 50.0
+offset_right = 1797.0
+offset_bottom = 646.0
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1134.0
+offset_top = 51.0
+offset_right = 1723.0
+offset_bottom = 550.0
+
+[node name="ScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 1032.0
+offset_top = 229.0
+offset_right = 1842.0
+offset_bottom = 612.0
+
+[node name="IntroArcScrollPuzzle3" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 24.0
+offset_top = 116.0
+offset_right = 1875.0
+offset_bottom = 823.0
+
+[node name="IntroArcScrollPuzzle2" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 436.0
+offset_top = 191.0
+offset_right = 1568.0
+offset_bottom = 826.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("7")]
+scenario_meta = ExtResource("8")
+thinking_layer = NodePath("../ThinkingLayer")

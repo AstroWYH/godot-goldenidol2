@@ -1,0 +1,101 @@
+[gd_scene load_steps=8 format=4 uid="uid://dj6r275mvum14"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bj80tlvfptai6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/costumepuzzle.png" id="2"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="5"]
+[ext_resource type="Resource" uid="uid://des3p21xm8mik" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_costume_puzzle_meta.tres" id="6"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="7"]
+
+[node name="CustomPhrasePuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 605.0
+offset_bottom = 519.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+offset_right = 36.0
+offset_bottom = -17.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(313, 238)
+texture = ExtResource("2")
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="1"]
+visible = false
+layout_mode = 0
+offset_left = -8.0
+offset_top = 886.0
+offset_right = 1041.0
+offset_bottom = 1183.0
+mouse_filter = 1
+color = Color(0.113725, 0.0627451, 0.27451, 1)
+
+[node name="ScrollText" type="Label" parent="Frame/MarginContainer/Background" index="2"]
+visible = false
+layout_mode = 0
+offset_left = 27.0
+offset_top = 29.0
+offset_right = 599.0
+offset_bottom = 164.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "The secret message was encoded with:
+
+
+and could be decoded as:
+"
+autowrap_mode = 3
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+offset_left = 3.0
+offset_right = 35.0
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("4")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 7.0
+offset_top = 4.0
+offset_right = 7.0
+offset_bottom = 4.0
+puzzle_meta = ExtResource("6")
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 62.0
+offset_top = 256.0
+offset_right = -543.0
+offset_bottom = -247.0
+answer_item_ref_id = 142
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 278.0
+offset_top = 385.0
+offset_right = -327.0
+offset_bottom = -118.0
+answer_item_ref_id = 141
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 465.0
+offset_top = 103.0
+offset_right = -140.0
+offset_bottom = -400.0
+answer_item_ref_id = 135
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("7")]
+layout_mode = 1
+offset_left = 458.0
+offset_top = 319.0
+offset_right = -147.0
+offset_bottom = -184.0
+answer_item_ref_id = 139
+
+[editable path="Frame"]

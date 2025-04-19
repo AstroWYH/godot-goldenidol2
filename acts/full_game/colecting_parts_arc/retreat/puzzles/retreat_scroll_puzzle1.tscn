@@ -1,0 +1,88 @@
+[gd_scene load_steps=8 format=4 uid="uid://dlx4jrch68qss"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="3"]
+[ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="4"]
+[ext_resource type="Resource" uid="uid://c08lj5b5gmmun" path="res://acts/full_game/colecting_parts_arc/retreat/puzzles/retreat_scroll_puzzle1_meta.tres" id="5"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="7"]
+
+[node name="ScrollPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 593.0
+offset_bottom = 296.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 19.0
+offset_top = 27.0
+offset_right = -14.0
+offset_bottom = -26.0
+theme = ExtResource("4")
+puzzle_meta = ExtResource("5")
+text = "retreat_scroll_puzzle_1"
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("6")]
+accepted_types = 8
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/1" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 105
+
+[node name="2" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("6")]
+accepted_types = 8
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/2" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 106
+
+[node name="3" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("6")]
+accepted_types = 16
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/3" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 1
+
+[node name="4" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("6")]
+accepted_types = 16
+id = 4
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/4" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 7
+
+[node name="5" parent="PuzzleGroup/Puzzle" index="6" instance=ExtResource("6")]
+accepted_types = 8
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/5" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 114
+
+[node name="6" parent="PuzzleGroup/Puzzle" index="7" instance=ExtResource("6")]
+accepted_types = 8
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle/6" index="0" instance=ExtResource("7")]
+answer_item_ref_id = 115

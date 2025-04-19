@@ -1,0 +1,213 @@
+[gd_scene load_steps=42 format=4 uid="uid://dvsjwmhs4a2r5"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
+[ext_resource type="Texture2D" uid="uid://di3oa2h7tmgh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://iwdr3d6hphku" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://60ukc0jinfba" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d01xg5c8poy3f" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://ctnne584l888h" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://pf5yv1801sal" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cderpdb0nfkla" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dyjfnw25cuupp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://drylxnx22s7dw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b25t6mhbt8ihe" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://6e467kbev0wc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bhcsxgvcc8xep" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ccjc3ga84l2me" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://m26t5uw6ev2j" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dkhgracjvntn2" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b6k3ny2qm64gw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://c216oa3vmp13e" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bsi7fcqtyqrvl" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://eya6xa6miiwf" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bkwnhrwft0rrx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://civ27k7kv7cx3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c81ikersiigwe" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dp51bsilit4x" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bfjw6pt4dsg54" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://d2sqn64thpwxp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b5lyg1q6ib4po" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dqda57kcj06qg" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://b6vktlyvq5ww0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c5wxvmm8i4cq7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://yfn0lls2yhl3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b1adqvecu1vig" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://p8sbg4g0ofgk" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://boqs35f7pqhxm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://befnk2m1p2y0n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://btyqir7ifhupm" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://snqkcbijbjcd" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/annie_kishimoto/Annie_Kishimoto_00035.png" id="40"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b57px"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Panel" type="Panel"]
+offset_left = -141.0
+offset_top = -564.0
+offset_right = 396.0
+offset_bottom = -131.0
+
+[node name="Label" type="Label" parent="."]
+z_index = 1
+layout_mode = 0
+offset_left = 20.0
+offset_top = 16.0
+offset_right = 514.0
+offset_bottom = 79.0
+theme = ExtResource("1")
+text = "cinema_last_car2_speech"
+autowrap_mode = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(417.237, 226.25)
+rotation = 0.12915100157260895
+texture = ExtResource("2")
+
+[node name="Label" type="Label" parent="Sprite2D"]
+offset_left = -46.237098693847656
+offset_top = -11.25
+offset_right = -6.237060070037842
+offset_bottom = 21.75
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
+text = "25
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="TicketSpot2" parent="." instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 338.0
+offset_top = 173.0
+offset_right = -48.0
+offset_bottom = -151.0
+hotspot_id = "usi"
+text = "ticket_stub_tooltip"
+
+[node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
+modulate = Color(0.752941, 0.564706, 0.294118, 1)
+frame_progress = 0.7085360288619995
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(186, 242)
+sprite_frames = SubResource("SpriteFrames_b57px")
+autoplay = "default"
+frame = 4
+frame_progress = 0.941461980342865
+
+[editable path="TicketSpot2"]

@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=4 uid="uid://c2r28v0da6j7h"]
+
+[ext_resource type="Texture2D" uid="uid://d1m8di6j0qkbs" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/grafitti.png" id="1"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
+
+[node name="GraffitiPanel" type="Panel"]
+offset_right = 790.0
+offset_bottom = 623.0
+mouse_filter = 2
+
+[node name="GraffitiSprite" type="Sprite2D" parent="."]
+position = Vector2(10, 9)
+texture = ExtResource("1")
+centered = false
+
+[node name="GraffitiText" type="Label" parent="."]
+layout_mode = 0
+offset_left = 3.9999799728393555
+offset_top = 504.0
+offset_right = 665.0
+offset_bottom = 990.0
+rotation = -0.8554980158805847
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.714844, 0.707031, 0.707031, 1)
+theme_override_font_sizes/font_size = 60
+text = "prison_wall_grafitti"
+horizontal_alignment = 1
+autowrap_mode = 2

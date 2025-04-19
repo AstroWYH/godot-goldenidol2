@@ -1,0 +1,59 @@
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=19 format=3 uid="uid://dxmacw87pkw50"]
+
+[ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="1"]
+[ext_resource type="Resource" uid="uid://bjexi4sl1yteo" path="res://shared/ui/hints/hint_library/2_pursuit/3_drivein_1.tres" id="2"]
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="2_5txl4"]
+[ext_resource type="Resource" uid="uid://dsubm70xkb2ou" path="res://shared/ui/hints/hint_library/2_pursuit/3_drivein_2.tres" id="3"]
+[ext_resource type="Resource" uid="uid://bfcd5g24wqwpq" path="res://shared/ui/hints/hint_library/2_pursuit/3_drivein_3.tres" id="4"]
+[ext_resource type="Resource" uid="uid://cpd8of1qkc638" path="res://acts/full_game/colecting_parts_arc/drivein/locations/main_lot.tres" id="5"]
+[ext_resource type="Resource" uid="uid://cwhb8usxxp3ak" path="res://acts/full_game/colecting_parts_arc/drivein/locations/office.tres" id="6"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="6_7b54f"]
+[ext_resource type="AudioStream" uid="uid://dw1dr667d8fh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/music/drivein_base.ogg" id="7"]
+[ext_resource type="AudioStream" uid="uid://5143rvb0mb0e" path="res://acts/full_game/colecting_parts_arc/drivein/assets/music/drivein_escalation.ogg" id="8"]
+[ext_resource type="Texture2D" uid="uid://8guathsc3y5c" path="res://shared/ui/hints/hint_illustrations/blockbuster_release.png" id="9"]
+[ext_resource type="Resource" uid="uid://bwas1eyuasffc" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/scroll_puzzle_meta.tres" id="10"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="11"]
+[ext_resource type="Resource" uid="uid://orunusmu2dwh" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_scroll_puzzle_meta.tres" id="12"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="12_1kj5e"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_segment_unlock.gd" id="13"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="15_o6cxh"]
+
+[sub_resource type="Resource" id="Resource_oejey"]
+script = ExtResource("13")
+puzzle_meta = ExtResource("12")
+segment_indices = Array[int]([0, 1, 2, 4, 5, 6, 7, 9, 10, 11, 12])
+
+[resource]
+script = ExtResource("11")
+arc = ExtResource("1")
+id = 23
+name = "cinema_scenario_title"
+description = "cinema_scenario_description"
+path = "res://acts/full_game/colecting_parts_arc/drivein/drive_in_scenario.tscn"
+locations = Array[ExtResource("6_7b54f")]([ExtResource("5"), ExtResource("6")])
+required_puzzles = Array[ExtResource("12_1kj5e")]([ExtResource("10")])
+max_spots = 62
+phrases_name = 28
+phrases_object = 17
+phrases_action = 12
+phrases_special = 0
+phrases_numeral = 0
+phrases_local = 0
+victory_screen_text = "cinema_victory_text"
+victory_picture_path = "res://acts/full_game/colecting_parts_arc/drivein/victorydrivein.png"
+custom_victory_dialog_path = ""
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = Array[ExtResource("13")]([SubResource("Resource_oejey")])
+victory_unlocks_arc_phrases = Array[ExtResource("15_o6cxh")]([])
+achievement_id = 8
+intermission_path_on_victory = ""
+intro_music = Array[AudioStream]([])
+loop_music = Array[AudioStream]([ExtResource("7"), ExtResource("8")])
+ambience = Array[AudioStream]([])
+escalation_layer_ids = Array[int]([1])
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = Array[int]([])
+sfx_transposition = 0
+picture = ExtResource("9")
+hint_meta_list = Array[ExtResource("2_5txl4")]([ExtResource("2"), ExtResource("3"), ExtResource("4")])
+no_inventory = false

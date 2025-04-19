@@ -1,0 +1,48 @@
+[gd_scene load_steps=9 format=4 uid="uid://xovejanu84h5"]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://ybiflye6g481" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/portrait_puzzle_auction.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://d27orfqy3fqc0" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/Lots_puzzle_auction.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://ctobhtxkm10ad" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/auction_scroll_puzzle_.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cqvkstx1qcja6" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle_v3.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://tmdr16uq11n5" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_scroll_puzzle_c_phrases.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="7"]
+[ext_resource type="Resource" uid="uid://cwok63l32tb34" path="res://acts/full_game/colecting_parts_arc/auction/auction_scenario_meta.tres" id="8"]
+
+[node name="AuctionScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1144.0
+offset_top = 161.0
+offset_right = 1780.0
+offset_bottom = 618.0
+
+[node name="LotsPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1028.0
+offset_top = 182.0
+offset_right = 1849.0
+offset_bottom = 674.0
+
+[node name="AuctionScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 955.0
+offset_top = 79.0
+offset_right = 1792.0
+offset_bottom = 788.0
+
+[node name="PastArcCharacterPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 7.0
+offset_top = 21.0
+offset_right = 986.0
+offset_bottom = 949.0
+
+[node name="PastArcScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 906.0
+offset_top = 24.0
+offset_right = 1881.0
+offset_bottom = 926.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("7")]
+scenario_meta = ExtResource("8")
+thinking_layer = NodePath("../ThinkingLayer")

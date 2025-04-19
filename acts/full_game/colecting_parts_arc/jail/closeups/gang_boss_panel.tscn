@@ -1,0 +1,263 @@
+[gd_scene load_steps=53 format=4 uid="uid://bfemk47pmg25m"]
+
+[ext_resource type="Texture2D" uid="uid://c8l1dh7clkgi5" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_00.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://3moie1q84vd6" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_01.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cqisqeuoy7aib" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_02.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://drteydfo6ords" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_03.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://djgbdi4xuiwgu" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_04.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c1vyvnyd5jxgw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_05.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cmexjmcn8r65w" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_06.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://c2286t6x4qqtb" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_07.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cpap5qwg5x1tj" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_08.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://8g0vri3ixqc8" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_09.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://gcb3gud0wr7h" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_10.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://0w18wny82rnh" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_11.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bbd1sweh4hi14" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_12.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cdbsm2bnwhd0o" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_13.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b202kvwbiqdst" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_14.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dogknqi3g47fm" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_15.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://chlqcphsnlry7" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_16.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://gf8sqdkgk5mw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_17.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b5s20i6dueh04" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_18.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b4qmn43udh8kw" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_19.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cj3kkrwxjc80d" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_20.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bdxtium0xibi1" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_21.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bayalngjtdxpg" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_22.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dgjehntrfbfrb" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_23.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cas1xtkii6ird" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_24.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cilfan7oiysfb" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_25.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://xo0eoejssva5" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_26.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://egj3sn08mswu" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_27.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://brqgcrp2ndrv6" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_28.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bweor74dphjn8" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_29.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://b5brmku33p1t" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_30.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://va3celhwpyjg" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_31.png" id="32"]
+[ext_resource type="Material" uid="uid://s6yah842ep34" path="res://shared/assets/particle_materials/breath2.material" id="33"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dlvorhvkicr6y" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/coinsmall1.png" id="35"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="36"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="37"]
+[ext_resource type="Texture2D" uid="uid://qruptanp00xc" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0001.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://1nyxnihbn606" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0002.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://fl5gfyydj7ls" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0003.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cmak722kicyqc" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0004.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://cciqgm4km5dra" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0005.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://co66myt4hvfdu" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0006.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://d3ybi3wcoq8yp" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0007.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://2qyenr13agda" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0008.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bithbjn3a732t" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0009.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dyhjeycmw8txf" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0010.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://x3bqa55qu7w7" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0011.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dnk6ipmjgfyr" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/coin/0012.png" id="49"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7nqv1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_mtfrj"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7sjpn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="GangBossPanel" type="Panel"]
+offset_left = 570.0
+offset_top = 569.0
+offset_right = 1356.0
+offset_bottom = 1106.0
+mouse_filter = 2
+
+[node name="GangBossSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(248, 321)
+sprite_frames = SubResource("SpriteFrames_7nqv1")
+autoplay = "default"
+frame_progress = 0.8976060152053833
+
+[node name="dvasa7" type="GPUParticles2D" parent="GangBossSprite"]
+material = SubResource("CanvasItemMaterial_mtfrj")
+position = Vector2(82, 62)
+scale = Vector2(0.5, 0.5)
+amount = 32
+process_material = ExtResource("33")
+texture = ExtResource("34")
+lifetime = 2.0
+explosiveness = 0.7200000286102295
+randomness = 0.8399999737739563
+trail_lifetime = 0.5
+
+[node name="CoinSprite" type="Sprite2D" parent="."]
+position = Vector2(645, 312)
+texture = ExtResource("35")
+
+[node name="GangBossSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 18.0
+offset_right = 762.0
+offset_bottom = 102.0
+theme = ExtResource("36")
+text = "prison_jason_speech"
+autowrap_mode = 3
+
+[node name="CoinSpot" parent="." instance=ExtResource("37")]
+layout_mode = 1
+offset_left = 594.0
+offset_top = 244.0
+offset_right = -87.0
+offset_bottom = -156.0
+hotspot_id = "rvu"
+text = "prison_jason_coin_tooltip"
+
+[node name="CoinPanel" type="Panel" parent="CoinSpot"]
+layout_mode = 0
+offset_left = -206.0
+offset_top = 458.0
+offset_right = 127.0
+offset_bottom = 803.0
+mouse_filter = 2
+
+[node name="CoinSprite" type="AnimatedSprite2D" parent="CoinSpot/CoinPanel"]
+position = Vector2(171, 175)
+sprite_frames = SubResource("SpriteFrames_7sjpn")
+autoplay = "default"
+frame_progress = 0.59757399559021
