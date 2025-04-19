@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=4 uid="uid://bwojit06v682u"]
+
+[ext_resource type="Script" path="res://autoload/dev_tools/debug_label.gd" id="1"]
+
+[node name="DebugLabel" type="Label"]
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+script = ExtResource("1")

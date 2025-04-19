@@ -1,0 +1,74 @@
+[gd_scene load_steps=10 format=4 uid="uid://cx3m1j7ggltop"]
+
+[ext_resource type="Texture2D" uid="uid://cnv6qn3ahlnx2" path="res://shared/ui/misc/frame_focus_white.png" id="1"]
+[ext_resource type="Script" path="res://shared/ui/hints/hint_choice_button_2.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://puginjbuyjms" path="res://acts/full_game/hints/assets/locked.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b8n3r3merok4c" path="res://acts/full_game/hints/assets/fool.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bjmxm3js7bpeb" path="res://acts/full_game/hints/assets/typo.png" id="5"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bq4d3"]
+texture = ExtResource("1")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+expand_margin_left = 6.0
+expand_margin_top = 6.0
+expand_margin_right = 6.0
+expand_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_esu1c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o55e1"]
+
+[node name="HintChoiceButton" type="Button"]
+custom_minimum_size = Vector2(520, 100)
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 2
+size_flags_vertical = 6
+theme_override_styles/focus = SubResource("StyleBoxTexture_bq4d3")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_esu1c")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_esu1c")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_o55e1")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_esu1c")
+script = ExtResource("2")
+locked_texture = ExtResource("3")
+unlocked_texture = ExtResource("4")
+mouse_over_unlocked_color = Color(0.211765, 0.207843, 0.34902, 1)
+text_locked_color = Color(0.67451, 0.196078, 0.196078, 1)
+mouse_over_locked_color = Color(0.8, 0.254902, 0.25098, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -64.0
+offset_right = 532.0
+offset_bottom = 64.0
+grow_vertical = 2
+alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(128, 128)
+layout_mode = 2
+texture = ExtResource("5")
+stretch_mode = 3
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 128)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 1
+theme = ExtResource("6")
+theme_override_colors/font_color = Color(0.125, 0.122, 0.22, 1)
+theme_override_constants/line_spacing = -15
+theme_override_font_sizes/font_size = 46
+vertical_alignment = 1
+autowrap_mode = 2

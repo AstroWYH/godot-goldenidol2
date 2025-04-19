@@ -1,0 +1,28 @@
+[gd_resource type="Theme" load_steps=7 format=4 uid="uid://bjagpp3btprrg"]
+
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="1"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_aymtc"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_of8ps"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_bwo33"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j7wvd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mjlww"]
+
+[resource]
+Button/colors/font_color = Color(0.560784, 0.592157, 0.290196, 1)
+Button/colors/font_disabled_color = Color(0.537255, 0.490196, 0.509804, 1)
+Button/colors/font_hover_color = Color(0.745098, 0.784314, 0.45098, 1)
+Button/colors/font_hover_pressed_color = Color(0.941176, 0.956863, 0.839216, 1)
+Button/colors/font_pressed_color = Color(0.941176, 0.956863, 0.839216, 1)
+Button/constants/h_separation = 4
+Button/font_sizes/font_size = 48
+Button/fonts/font = ExtResource("1")
+Button/styles/disabled = SubResource("StyleBoxEmpty_aymtc")
+Button/styles/focus = SubResource("StyleBoxEmpty_of8ps")
+Button/styles/hover = SubResource("StyleBoxEmpty_bwo33")
+Button/styles/normal = SubResource("StyleBoxEmpty_j7wvd")
+Button/styles/pressed = SubResource("StyleBoxEmpty_mjlww")

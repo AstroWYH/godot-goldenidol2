@@ -1,0 +1,139 @@
+[gd_scene load_steps=27 format=4 uid="uid://clhakxeyo4nv4"]
+
+[ext_resource type="Texture2D" uid="uid://bfv4g2e06y04g" path="res://shared/ui/top_bar/btn_orange_idle.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c0h1hb7exawq8" path="res://shared/ui/top_bar/btn_orange_over.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://de1at4f7f0r6t" path="res://shared/ui/top_bar/btn_orange_active.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bqg18qbp4h2ls" path="res://shared/ui/top_bar/btn_wolf1_idle.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://biwwqmqmxl8ut" path="res://shared/ui/top_bar/btn_wolf1_over.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://o78hx8ns3xll" path="res://shared/ui/top_bar/btn_wolf2_active.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bk0rj5p6k6nak" path="res://shared/ui/top_bar/btn_wolf2_idle.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cd05bcujvvu0e" path="res://shared/ui/top_bar/btn_wolf2_over.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bayalf4t1qr0o" path="res://shared/ui/top_bar/btn_clock_01_idle.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://clkkc8b2co23q" path="res://shared/ui/top_bar/btn_clock_01_over.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://ldqkv7eb1lfr" path="res://shared/ui/top_bar/btn_clock_01_active.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cd65w3o6buu6t" path="res://shared/ui/top_bar/clocks_divider.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ccipx3jjtrmk6" path="res://shared/ui/top_bar/btn_clock_02_idle.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://6fqgt3b5y8n5" path="res://shared/ui/top_bar/btn_clock_02_over.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cqx73g3kyfmmo" path="res://shared/ui/top_bar/btn_clock_03_active.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dktr7em6n67i4" path="res://shared/ui/top_bar/btn_clock_03_idle.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dopo43etc7tbo" path="res://shared/ui/top_bar/btn_clock_03_over.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d0rlabb2vvdon" path="res://shared/ui/top_bar/btn_clock_04_active.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://df6kgb24mcmdy" path="res://shared/ui/top_bar/btn_clock_04_idle.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://by2ngxq3vv764" path="res://shared/ui/top_bar/btn_clock_04_over.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ceob0mwk2gegg" path="res://shared/ui/top_bar/btn_clock_auction_01_idle.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b4ur0rkx5hkrj" path="res://shared/ui/top_bar/btn_clock_auction_01_over.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://csbsu7243nm30" path="res://shared/ui/top_bar/btn_clock_auction_01_active.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cctmyxkq4iptr" path="res://shared/ui/top_bar/btn_clock_auction_02_idle.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://btld6nrflgfav" path="res://shared/ui/top_bar/btn_clock_auction_02_over.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dkxffpn1crhp2" path="res://shared/ui/top_bar/btn_clock_auction_02_active.png" id="26"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Container_icons" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 33.0
+offset_right = 434.0
+offset_bottom = 153.0
+alignment = 1
+
+[node name="btn_orange" type="TextureButton" parent="Container_icons"]
+layout_mode = 2
+texture_normal = ExtResource("1")
+texture_hover = ExtResource("2")
+texture_focused = ExtResource("3")
+
+[node name="btn_wolf_01" type="TextureButton" parent="Container_icons"]
+layout_mode = 2
+texture_normal = ExtResource("4")
+texture_hover = ExtResource("5")
+texture_focused = ExtResource("6")
+
+[node name="btn_wolf_02" type="TextureButton" parent="Container_icons"]
+layout_mode = 2
+texture_normal = ExtResource("7")
+texture_hover = ExtResource("8")
+texture_focused = ExtResource("6")
+
+[node name="Container_clocks_finale" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1337.0
+offset_top = 33.0
+offset_right = 1737.0
+offset_bottom = 153.0
+alignment = 1
+
+[node name="btn_clock_01" type="TextureButton" parent="Container_clocks_finale"]
+layout_mode = 2
+texture_normal = ExtResource("9")
+texture_hover = ExtResource("10")
+texture_focused = ExtResource("11")
+
+[node name="divider" type="TextureRect" parent="Container_clocks_finale"]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("12")
+stretch_mode = 2
+
+[node name="btn_clock_02" type="TextureButton" parent="Container_clocks_finale"]
+layout_mode = 2
+texture_normal = ExtResource("13")
+texture_hover = ExtResource("14")
+texture_focused = ExtResource("15")
+
+[node name="divider2" type="TextureRect" parent="Container_clocks_finale"]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("12")
+stretch_mode = 2
+
+[node name="btn_clock_03" type="TextureButton" parent="Container_clocks_finale"]
+layout_mode = 2
+texture_normal = ExtResource("16")
+texture_hover = ExtResource("17")
+texture_focused = ExtResource("18")
+
+[node name="divider3" type="TextureRect" parent="Container_clocks_finale"]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("12")
+stretch_mode = 2
+
+[node name="btn_clock_04" type="TextureButton" parent="Container_clocks_finale"]
+layout_mode = 2
+texture_normal = ExtResource("19")
+texture_hover = ExtResource("20")
+texture_focused = ExtResource("18")
+
+[node name="Container_clocks_auction" type="HBoxContainer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 1337.0
+offset_top = 33.0
+offset_right = 1901.0
+offset_bottom = 153.0
+alignment = 1
+
+[node name="btn_clock_01" type="TextureButton" parent="Container_clocks_auction"]
+layout_mode = 2
+texture_normal = ExtResource("21")
+texture_hover = ExtResource("22")
+texture_focused = ExtResource("23")
+
+[node name="divider" type="TextureRect" parent="Container_clocks_auction"]
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("12")
+stretch_mode = 2
+
+[node name="btn_clock_02" type="TextureButton" parent="Container_clocks_auction"]
+layout_mode = 2
+texture_normal = ExtResource("24")
+texture_hover = ExtResource("25")
+texture_focused = ExtResource("26")

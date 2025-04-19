@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=4 uid="uid://dwe8nkax3alhx"]
+
+[ext_resource type="Script" path="res://autoload/dev_tools/collect_button.gd" id="1"]
+
+[node name="CollectButton" type="Button"]
+text = "Collect unlocks"
+script = ExtResource("1")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

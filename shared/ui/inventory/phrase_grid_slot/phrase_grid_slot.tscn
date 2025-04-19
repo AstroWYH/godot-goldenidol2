@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=4 uid="uid://br01dn5ykralp"]
+
+[ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="1"]
+[ext_resource type="Script" path="res://shared/ui/inventory/phrase_grid_slot/phrase_grid_slot.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="3"]
+
+[node name="PhraseGridSlot" type="Button"]
+offset_right = 168.0
+offset_bottom = 41.0
+mouse_filter = 1
+theme = ExtResource("1")
+theme_type_variation = &"inventory_slot"
+button_mask = 0
+script = ExtResource("2")
+keep_copy_on_drop = null
+track_item_usage = null
+
+[node name="DropReceiver" parent="." instance=ExtResource("3")]
+layout_mode = 1
+accept_tags = ["", "1", "2", ""]
+read_only = false
+protect_slotted_draggable = true
+swap_on_valid_drop = true
+accept_siblings_only = true
+
+[connection signal="draggable_dropped" from="DropReceiver" to="." method="_on_drop_receiver_draggable_dropped"]

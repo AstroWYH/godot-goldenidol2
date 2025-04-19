@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=4 uid="uid://lwdbcitgc5qu"]
+
+[ext_resource type="Script" path="res://shared/ui/drop_receiver/drop_receiver.gd" id="1"]
+
+[node name="DropReceiver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1")
+accept_tags = null
+drop_radius = null
+hide_on_drop = null
+keep_copy_on_drop = true
+free_draggable_on_invalid_drop = null
+read_only = null
+duplicate_slotted_draggable_on_drag = null
+protect_slotted_draggable = null
+swap_on_valid_drop = null
+accept_siblings_only = null
+has_static_draggable = null
+metadata = null
+
+[node name="MouseHotzone" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 1
+
+[connection signal="mouse_entered" from="MouseHotzone" to="." method="_on_mouse_hotzone_mouse_entered"]
+[connection signal="mouse_exited" from="MouseHotzone" to="." method="_on_mouse_hotzone_mouse_exited"]

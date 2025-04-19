@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=4 uid="uid://c27hwkkltdvuj"]
+
+[ext_resource type="Script" path="res://shared/puzzle/puzzle/puzzle.gd" id="1"]
+
+[node name="Puzzle" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1")

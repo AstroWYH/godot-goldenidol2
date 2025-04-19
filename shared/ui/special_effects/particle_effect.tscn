@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=4 uid="uid://cdhccaa3jxg4y"]
+
+[ext_resource type="Material" uid="uid://c0qphb52qlrlm" path="res://shared/ui/special_effects/arc_button_particle_material.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://mhaygkiqauig" path="res://acts/demo/scenarios/seaside/assets/particle.png" id="2"]
+[ext_resource type="Script" path="res://shared/ui/special_effects/particle_effect.gd" id="3"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_orybw"]
+blend_mode = 1
+
+[node name="ParticleEffect" type="GPUParticles2D"]
+material = SubResource("CanvasItemMaterial_orybw")
+position = Vector2(49.3299, 24.6649)
+amount = 128
+process_material = ExtResource("1")
+texture = ExtResource("2")
+script = ExtResource("3")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

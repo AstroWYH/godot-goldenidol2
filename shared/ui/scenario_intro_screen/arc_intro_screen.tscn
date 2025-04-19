@@ -1,0 +1,72 @@
+[gd_scene load_steps=5 format=4 uid="uid://g32idyedenwt"]
+
+[ext_resource type="Script" path="res://shared/ui/scenario_intro_screen/arc_intro_screen.gd" id="1"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
+[ext_resource type="Texture2D" uid="uid://dnu3t5q4ykfwc" path="res://shared/assets/icons/icon128.png" id="4"]
+
+[node name="ArcIntroScreen" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+script = ExtResource("1")
+
+[node name="Timer" type="Timer" parent="."]
+unique_name_in_owner = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+offset_left = 3.0
+offset_top = 344.0
+offset_right = 1917.0
+offset_bottom = 675.0
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="HeaderLabel" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 50
+text = "[missing arc intro]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NameLabel" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("3")
+theme_override_font_sizes/font_size = 96
+text = "--Missing arc name--"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DescriptionLabel" type="Label" parent="VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 50
+text = "[missing scenario description]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PromtLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 560.0
+offset_top = 990.0
+offset_right = 1360.0
+offset_bottom = 1044.0
+theme = ExtResource("2")
+theme_override_colors/font_color = Color(0.568627, 0.709804, 0.996078, 1)
+theme_override_font_sizes/font_size = 42
+text = "PRESS_ANYWHERE_PROMPT_PC"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LoadingIndicator" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(926, 1014)
+texture = ExtResource("4")

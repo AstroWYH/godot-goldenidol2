@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=4 uid="uid://cv8l7jtclmcmq"]
+
+[ext_resource type="Script" path="res://shared/world/scenario/scenario.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://ec1trrkgsu4l" path="res://shared/ui/in_game_menu/in_game_menu.tscn" id="2"]
+
+[sub_resource type="Animation" id="Animation_yahpr"]
+resource_name = "loading_curtain"
+length = 0.20000000298023224
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CanvasLayer/LoadingCurtain:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_pt6wv"]
+_data = {
+"loading_curtain": SubResource("Animation_yahpr")
+}
+
+[node name="Scenario" type="Node2D"]
+script = ExtResource("1")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_pt6wv")
+}
+
+[node name="Locations" type="Node" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="LoadingCurtain" type="ColorRect" parent="CanvasLayer"]
+z_index = 4096
+z_as_relative = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+
+[node name="DialogLayer" type="CanvasLayer" parent="."]
+
+[node name="InGameMenu" parent="." instance=ExtResource("2")]
+unique_name_in_owner = true
+visible = false

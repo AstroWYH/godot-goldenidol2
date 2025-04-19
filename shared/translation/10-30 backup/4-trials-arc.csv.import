@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cnrovkliwuax2"
+path="res://shared/translation/10-30 backup/4-trials-arc.de.translation"
+
+[deps]
+
+source_file="res://shared/translation/10-30 backup/4-trials-arc.csv"
+dest_files=["res://shared/translation/10-30 backup/4-trials-arc.de.translation", "res://shared/translation/10-30 backup/4-trials-arc.en.translation", "res://shared/translation/10-30 backup/4-trials-arc.es.translation", "res://shared/translation/10-30 backup/4-trials-arc.es_MX.translation", "res://shared/translation/10-30 backup/4-trials-arc.fr.translation", "res://shared/translation/10-30 backup/4-trials-arc.it.translation", "res://shared/translation/10-30 backup/4-trials-arc.ja.translation", "res://shared/translation/10-30 backup/4-trials-arc.ko.translation", "res://shared/translation/10-30 backup/4-trials-arc.pl.translation", "res://shared/translation/10-30 backup/4-trials-arc.pt_BR.translation", "res://shared/translation/10-30 backup/4-trials-arc.tr.translation", "res://shared/translation/10-30 backup/4-trials-arc.zh_TW.translation"]
+
+[params]
+
+dummy_value_ignore_me=0

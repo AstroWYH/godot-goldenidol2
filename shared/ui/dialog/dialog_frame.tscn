@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=4 uid="uid://bq0ywuy1y0r8d"]
+
+[ext_resource type="Texture2D" uid="uid://d3sj8373g3hlw" path="res://shared/assets/frames/frame_transparent_small.png" id="1"]
+
+[node name="NinePatchRect" type="NinePatchRect"]
+offset_right = 48.0
+offset_bottom = 48.0
+texture = ExtResource("1")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24

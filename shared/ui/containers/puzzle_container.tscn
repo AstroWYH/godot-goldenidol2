@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=4 uid="uid://gyp8ev1jfcdr"]
+
+[ext_resource type="Script" path="res://shared/ui/containers/puzzle_container.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cabvfohil6js1" path="res://shared/ui/containers/container_frame.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://c25584tymciqq" path="res://shared/ui/puzzle_status_indicator/puzzle_state_indicator.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://2d5fqhokk2c" path="res://shared/ui/thinking_ui/container_close_button/container_close_button.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dh2eoc00b3b3h" path="res://shared/ui/draggable/container_dragger.tscn" id="5"]
+
+[node name="PuzzleContainer" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 849.0
+offset_bottom = 758.0
+script = ExtResource("1")
+
+[node name="Frame" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_right = 0.0
+offset_bottom = 0.0
+
+[node name="PuzzleStateIndicator" parent="." instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+grow_vertical = 1
+
+[node name="CloseButton" parent="." instance=ExtResource("4")]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -32.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 32.0
+grow_horizontal = 0
+size_flags_horizontal = 8
+size_flags_vertical = 0
+focus_mode = 0
+
+[node name="ContainerDragger" parent="." instance=ExtResource("5")]
+unique_name_in_owner = true
+metadata/_edit_lock_ = true

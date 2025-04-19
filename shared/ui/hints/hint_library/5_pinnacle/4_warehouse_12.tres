@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://nw8sx0iro3vg"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 542
+hint_name = "WAREHOUSE_HINT_GAME_TITLE"
+path = "res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_2.tscn"

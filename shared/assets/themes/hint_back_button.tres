@@ -1,0 +1,29 @@
+[gd_resource type="Theme" load_steps=7 format=4 uid="uid://ci01d6um0b6kl"]
+
+[ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="1"]
+[ext_resource type="Texture2D" uid="uid://b12wmggr2xkbm" path="res://shared/ui/misc/frame_focus.png" id="2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_y2pyk"]
+texture = ExtResource("2")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ftd4q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gl1xg"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iqaic"]
+
+[resource]
+Button/colors/font_color = Color(0.67451, 0.196078, 0.196078, 1)
+Button/colors/font_focus_color = Color(0.67451, 0.196078, 0.196078, 1)
+Button/colors/font_hover_color = Color(0.866667, 0.298039, 0.290196, 1)
+Button/colors/font_pressed_color = Color(0.866667, 0.298039, 0.290196, 1)
+Button/font_sizes/font_size = 42
+Button/fonts/font = ExtResource("1")
+Button/styles/focus = SubResource("StyleBoxTexture_y2pyk")
+Button/styles/hover = SubResource("StyleBoxEmpty_ftd4q")
+Button/styles/normal = SubResource("StyleBoxEmpty_gl1xg")
+Button/styles/pressed = SubResource("StyleBoxEmpty_iqaic")

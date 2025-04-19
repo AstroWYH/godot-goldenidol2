@@ -1,0 +1,48 @@
+[gd_resource type="Theme" load_steps=7 format=4 uid="uid://cshn3lq6h48me"]
+
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="1"]
+[ext_resource type="Texture2D" uid="uid://dcoi6m0sbgnm3" path="res://shared/assets/placeholder_ui/name_object_ninepatch_v4.png" id="2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8qqbo"]
+content_margin_top = 0.0
+texture = ExtResource("2")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+modulate_color = Color(1.1, 1.1, 1.1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_k5yjg"]
+content_margin_top = 0.0
+texture = ExtResource("2")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+modulate_color = Color(1.1, 1.1, 1.1, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_awe5d"]
+texture = ExtResource("2")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_22pth"]
+texture = ExtResource("2")
+texture_margin_left = 6.0
+texture_margin_top = 6.0
+texture_margin_right = 6.0
+texture_margin_bottom = 6.0
+
+[resource]
+default_font = ExtResource("1")
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/font_sizes/font_size = 22
+Button/fonts/font = ExtResource("1")
+Button/styles/focus = SubResource("StyleBoxTexture_8qqbo")
+Button/styles/hover = SubResource("StyleBoxTexture_k5yjg")
+Button/styles/normal = SubResource("StyleBoxTexture_awe5d")
+Button/styles/pressed = SubResource("StyleBoxTexture_22pth")

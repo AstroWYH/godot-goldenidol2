@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=4 uid="uid://c1xx5ewy22dg"]
+
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="1"]
+
+[node name="ScenarioVictoryButton" type="Button"]
+offset_right = 227.0
+offset_bottom = 81.0
+theme = ExtResource("1")
+theme_type_variation = &"green"
+text = "CONTINUE_BUTTON"

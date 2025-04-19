@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b340ag8vj13lf"
+path="res://shared/translation/demo-translations.de.translation"
+
+[deps]
+
+source_file="res://shared/translation/demo-translations.csv"
+dest_files=["res://shared/translation/demo-translations.de.translation", "res://shared/translation/demo-translations.en.translation", "res://shared/translation/demo-translations.es.translation", "res://shared/translation/demo-translations.es_MX.translation", "res://shared/translation/demo-translations.fr.translation", "res://shared/translation/demo-translations.it.translation", "res://shared/translation/demo-translations.ja.translation", "res://shared/translation/demo-translations.ko.translation", "res://shared/translation/demo-translations.pl.translation", "res://shared/translation/demo-translations.pt_BR.translation", "res://shared/translation/demo-translations.tr.translation", "res://shared/translation/demo-translations.zh_TW.translation"]
+
+[params]
+
+dummy_value_ignore_me=0

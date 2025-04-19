@@ -1,0 +1,112 @@
+[gd_scene load_steps=10 format=4 uid="uid://b18om8ffkeybt"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="2"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+[ext_resource type="PackedScene" uid="uid://ce23hf84gjyxj" path="res://shared/ui/hints/hint_button.tscn" id="5"]
+[ext_resource type="Theme" uid="uid://blen24u5gh0qb" path="res://shared/themes/btn_hints.tres" id="6"]
+[ext_resource type="Texture2D" uid="uid://csenneppyxf1a" path="res://acts/full_game/hints/assets/evidence.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bo1o28i7cvw0w" path="res://acts/full_game/hints/assets/idea.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://puginjbuyjms" path="res://acts/full_game/hints/assets/locked.png" id="9"]
+
+[node name="HintMainMenu" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.294118, 0.294118, 0.294118, 0)
+script = ExtResource("1")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -640.0
+offset_top = -391.0
+offset_right = 640.0
+offset_bottom = 391.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+texture = ExtResource("2")
+
+[node name="TitleLabel" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 29.0
+offset_right = 600.0
+offset_bottom = 120.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 69
+text = "HINT_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="GeneralAdviceLabel" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 93.0
+offset_top = 131.0
+offset_right = 593.0
+offset_bottom = 680.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 48
+text = "HINT_WARNING"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Control" type="Control" parent="TextureRect"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TextureRect"]
+layout_mode = 0
+offset_left = 662.0
+offset_top = 25.0
+offset_right = 1224.0
+offset_bottom = 701.0
+theme_override_constants/separation = 10
+
+[node name="TypoButton" parent="TextureRect/VBoxContainer" instance=ExtResource("5")]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme = ExtResource("6")
+button_label = "HINT_TYPO_BUTTON"
+dialog_path = "res://shared/ui/hints/hint_typo_menu.tscn"
+text_color = Color(0.12549, 0.121569, 0.219608, 1)
+mouse_over_color = Color(0.21192, 0.207737, 0.350842, 1)
+
+[node name="EvidenceButton" parent="TextureRect/VBoxContainer" instance=ExtResource("5")]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme = ExtResource("6")
+button_label = "HINT_EVIDENCE_BUTTON"
+texture = ExtResource("7")
+dialog_path = "res://shared/ui/hints/hint_evidence_menu.tscn"
+text_color = Color(0.12549, 0.121569, 0.219608, 1)
+mouse_over_color = Color(0.211765, 0.207843, 0.34902, 1)
+
+[node name="AssumptionsButton" parent="TextureRect/VBoxContainer" instance=ExtResource("5")]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+button_label = "HINT_ASSUMPTIONS_BUTTON"
+texture = ExtResource("8")
+dialog_path = "res://shared/ui/hints/hint_assumptions_menu.tscn"
+text_color = Color(0.12549, 0.121569, 0.219608, 1)
+mouse_over_color = Color(0.211765, 0.207843, 0.34902, 1)
+
+[node name="HintsButton" parent="TextureRect/VBoxContainer" instance=ExtResource("5")]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme = ExtResource("6")
+button_label = "ACCESS_HINTS_BUTTON"
+texture = ExtResource("9")
+dialog_path = "res://shared/ui/hints/hint_selection_menu.tscn"
+text_color = Color(0.67451, 0.196078, 0.196078, 1)
+mouse_over_color = Color(0.800712, 0.256216, 0.252053, 1)

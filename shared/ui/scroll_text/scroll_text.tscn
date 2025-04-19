@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=4 uid="uid://bs2vanofl16u6"]
+
+[ext_resource type="Script" path="res://shared/ui/scroll_text/scroll_text.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://c27hwkkltdvuj" path="res://shared/puzzle/puzzle/puzzle.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/ui/drop_receiver/drop_receiver_container.gd" id="3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_36mri"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+
+[node name="ScrollText" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1")
+
+[node name="Puzzle" parent="." instance=ExtResource("2")]
+unique_name_in_owner = true
+mouse_filter = 1
+auto_assign_puzzle_component_ids = false
+lazy_load = true
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_36mri")
+
+[node name="Container" type="VBoxContainer" parent="MarginContainer/Panel"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3")
+dynamic_container = true

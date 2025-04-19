@@ -1,0 +1,190 @@
+[gd_scene load_steps=4 format=4 uid="uid://cim81cuxnk5ko"]
+
+[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_split.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cfjtaev77tctm" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel.png" id="2"]
+[ext_resource type="Theme" uid="uid://dnokfxldtj6pj" path="res://shared/themes/placeholder_button.tres" id="3"]
+
+[node name="ContainerSwitcher" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -980.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(960, 121)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 32.0
+offset_top = 32.0
+offset_right = -51.0
+offset_bottom = 52.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 50
+
+[node name="GatheredPhrases" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer/GatheredPhrases"]
+layout_mode = 2
+text = "Phrases"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/GatheredPhrases"]
+layout_mode = 2
+
+[node name="PhraseButton1" type="Button" parent="MarginContainer/HBoxContainer/GatheredPhrases/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Left"
+
+[node name="PhraseButton2" type="Button" parent="MarginContainer/HBoxContainer/GatheredPhrases/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Right"
+
+[node name="Cells" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer/Cells"]
+layout_mode = 2
+text = "Inmate Cells"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Cells"]
+layout_mode = 2
+
+[node name="CellButton1" type="Button" parent="MarginContainer/HBoxContainer/Cells/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Left"
+
+[node name="CellButton2" type="Button" parent="MarginContainer/HBoxContainer/Cells/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Right"
+
+[node name="Portraits" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer/Portraits"]
+layout_mode = 2
+text = "Characters"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Portraits"]
+layout_mode = 2
+
+[node name="CharacterButton1" type="Button" parent="MarginContainer/HBoxContainer/Portraits/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Left"
+
+[node name="CharacterButton2" type="Button" parent="MarginContainer/HBoxContainer/Portraits/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Right"
+
+[node name="Code" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer/Code"]
+layout_mode = 2
+text = "Secret Message"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Code"]
+layout_mode = 2
+
+[node name="CodeButton1" type="Button" parent="MarginContainer/HBoxContainer/Code/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Left"
+
+[node name="CodeButton2" type="Button" parent="MarginContainer/HBoxContainer/Code/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Right"
+
+[node name="Scroll" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer/Scroll"]
+layout_mode = 2
+text = "Scroll"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Scroll"]
+layout_mode = 2
+
+[node name="ScrollButton1" type="Button" parent="MarginContainer/HBoxContainer/Scroll/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Left"
+
+[node name="ScrollButton2" type="Button" parent="MarginContainer/HBoxContainer/Scroll/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("3")
+toggle_mode = true
+text = "Right"

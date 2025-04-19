@@ -1,0 +1,190 @@
+[gd_scene load_steps=8 format=4 uid="uid://ec1trrkgsu4l"]
+
+[ext_resource type="Script" path="res://shared/ui/in_game_menu/in_game_menu.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dyid5cvbfke20" path="res://shared/assets/frames/frame_panel.png" id="2"]
+[ext_resource type="Theme" uid="uid://dpj86bcdhnlh5" path="res://shared/themes/checkbox.tres" id="3"]
+[ext_resource type="Theme" uid="uid://ccqp0lguah71i" path="res://shared/themes/slider_theme.tres" id="4"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="5"]
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/hint_button.gd" id="6"]
+[ext_resource type="PackedScene" uid="uid://doh683dn47j2p" path="res://shared/ui/in_game_menu/reset_button/reset_button.tscn" id="7"]
+
+[node name="InGameMenu" type="CanvasLayer"]
+layer = 10
+script = ExtResource("1")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.352941)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -79.5
+offset_top = -42.0
+offset_right = 79.5
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2")
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="GlobalVbox" type="VBoxContainer" parent="MarginContainer/MarginContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="UI" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox"]
+layout_mode = 2
+
+[node name="ShowHighlightsCheckBox" type="CheckBox" parent="MarginContainer/MarginContainer/GlobalVbox/UI"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+mouse_default_cursor_shape = 2
+theme = ExtResource("3")
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 25
+text = "SHOW_HIGHLIGHTS_LABEL"
+
+[node name="FullScreenCheckBox" type="CheckBox" parent="MarginContainer/MarginContainer/GlobalVbox/UI"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("3")
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 25
+text = "TOGGLE_FULL_SCREEN_LABEL"
+
+[node name="UI Scale" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox/UI"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/MarginContainer/GlobalVbox/UI/UI Scale"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.745098, 0.615686, 0.388235, 1)
+theme_override_font_sizes/font_size = 25
+text = "UI_SCALE_LABEL"
+horizontal_alignment = 1
+
+[node name="UIScaleSlider" type="HSlider" parent="MarginContainer/MarginContainer/GlobalVbox/UI/UI Scale"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("4")
+min_value = 60.0
+step = 10.0
+value = 60.0
+ticks_on_borders = true
+
+[node name="Audio" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox"]
+layout_mode = 2
+
+[node name="Master" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox/Audio"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/MarginContainer/GlobalVbox/Audio/Master"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.745098, 0.615686, 0.388235, 1)
+theme_override_font_sizes/font_size = 25
+text = "MASTER_VOLUME_LABEL"
+horizontal_alignment = 1
+
+[node name="MasterVolumeSlider" type="HSlider" parent="MarginContainer/MarginContainer/GlobalVbox/Audio/Master"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("4")
+
+[node name="Music" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox/Audio"]
+layout_mode = 2
+theme = ExtResource("4")
+
+[node name="Label2" type="Label" parent="MarginContainer/MarginContainer/GlobalVbox/Audio/Music"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.745098, 0.615686, 0.388235, 1)
+theme_override_font_sizes/font_size = 25
+text = "MUSIC_VOLUME_LABEL"
+horizontal_alignment = 1
+
+[node name="MusicVolumeSlider" type="HSlider" parent="MarginContainer/MarginContainer/GlobalVbox/Audio/Music"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+
+[node name="SFX" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox/Audio"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/MarginContainer/GlobalVbox/Audio/SFX"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.745098, 0.615686, 0.388235, 1)
+theme_override_font_sizes/font_size = 25
+text = "EFFECTS_VOLUME_LABEL"
+horizontal_alignment = 1
+
+[node name="SFXVolumeSlider" type="HSlider" parent="MarginContainer/MarginContainer/GlobalVbox/Audio/SFX"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("4")
+
+[node name="Buttons" type="VBoxContainer" parent="MarginContainer/MarginContainer/GlobalVbox"]
+layout_mode = 2
+
+[node name="HintsButton" type="Button" parent="MarginContainer/MarginContainer/GlobalVbox/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("5")
+theme_type_variation = &"grey"
+text = "HINT_TITLE"
+script = ExtResource("6")
+
+[node name="ResetButton" parent="MarginContainer/MarginContainer/GlobalVbox/Buttons" instance=ExtResource("7")]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+
+[node name="ExitScenarioButton" type="Button" parent="MarginContainer/MarginContainer/GlobalVbox/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_default_cursor_shape = 2
+theme = ExtResource("5")
+theme_type_variation = &"grey"
+text = "EXIT_SCENARIO_BUTTON"
+
+[node name="CloseButton" type="Button" parent="MarginContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("5")
+theme_type_variation = &"small_x"

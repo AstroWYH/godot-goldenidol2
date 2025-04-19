@@ -1,0 +1,245 @@
+[gd_scene load_steps=23 format=4 uid="uid://ipjbvhicsidg"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="6"]
+
+[sub_resource type="Resource" id="Resource_1vq1w"]
+script = ExtResource("3")
+linked_item_ref_id = 24
+
+[sub_resource type="Resource" id="Resource_raqru"]
+script = ExtResource("3")
+linked_item_ref_id = 25
+
+[sub_resource type="Resource" id="Resource_385hl"]
+script = ExtResource("3")
+linked_item_ref_id = 26
+
+[sub_resource type="Resource" id="Resource_wpctb"]
+script = ExtResource("3")
+linked_item_ref_id = 133
+
+[sub_resource type="Resource" id="Resource_o225v"]
+script = ExtResource("3")
+linked_item_ref_id = 28
+
+[sub_resource type="Resource" id="Resource_qrswr"]
+script = ExtResource("3")
+linked_item_ref_id = 29
+
+[sub_resource type="Resource" id="Resource_gfrft"]
+script = ExtResource("3")
+linked_item_ref_id = 30
+
+[sub_resource type="Resource" id="Resource_fm7nd"]
+script = ExtResource("3")
+linked_item_ref_id = 31
+
+[sub_resource type="Resource" id="Resource_mln87"]
+script = ExtResource("3")
+linked_item_ref_id = 32
+
+[sub_resource type="Resource" id="Resource_hj75v"]
+script = ExtResource("3")
+linked_item_ref_id = 33
+
+[sub_resource type="Resource" id="Resource_0qbx6"]
+script = ExtResource("3")
+linked_item_ref_id = 34
+
+[sub_resource type="Resource" id="Resource_cb347"]
+script = ExtResource("3")
+linked_item_ref_id = 134
+
+[sub_resource type="Resource" id="Resource_u3vod"]
+script = ExtResource("3")
+linked_item_ref_id = 35
+
+[sub_resource type="Resource" id="Resource_m76o4"]
+script = ExtResource("3")
+linked_item_ref_id = 132
+
+[sub_resource type="Resource" id="Resource_pfeqh"]
+script = ExtResource("3")
+linked_item_ref_id = 36
+
+[sub_resource type="Resource" id="Resource_nya5b"]
+script = ExtResource("3")
+linked_item_ref_id = 37
+
+[node name="CustomPhrasePuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 738.0
+offset_bottom = 503.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+visible = false
+position = Vector2(519, 456)
+scale = Vector2(0.500122, 0.500122)
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="1"]
+visible = false
+layout_mode = 0
+offset_left = -8.0
+offset_top = 886.0
+offset_right = 1041.0
+offset_bottom = 1183.0
+mouse_filter = 1
+color = Color(0.113725, 0.0627451, 0.27451, 1)
+
+[node name="ScrollText" type="Label" parent="Frame/MarginContainer/Background" index="2"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 29.0
+offset_right = 599.0
+offset_bottom = 164.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "The secret message was encoded with:
+
+
+and could be decoded as:
+"
+autowrap_mode = 3
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="Numbers" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 764.0
+offset_top = 316.0
+offset_right = 26.0
+offset_bottom = -187.0
+phrases = [SubResource("Resource_1vq1w"), SubResource("Resource_raqru"), SubResource("Resource_385hl"), SubResource("Resource_wpctb"), SubResource("Resource_o225v"), SubResource("Resource_qrswr"), SubResource("Resource_gfrft"), SubResource("Resource_fm7nd"), SubResource("Resource_mln87"), SubResource("Resource_hj75v")]
+cell_size = Vector2(50, 50)
+columns = 10
+
+[node name="Phrases" parent="." index="5" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 620.0
+offset_top = 400.0
+offset_right = -118.0
+offset_bottom = -103.0
+phrases = [SubResource("Resource_1vq1w"), SubResource("Resource_raqru"), SubResource("Resource_385hl"), SubResource("Resource_wpctb"), SubResource("Resource_o225v"), SubResource("Resource_qrswr"), SubResource("Resource_gfrft"), SubResource("Resource_fm7nd"), SubResource("Resource_mln87"), SubResource("Resource_hj75v"), SubResource("Resource_0qbx6"), SubResource("Resource_cb347"), SubResource("Resource_u3vod"), SubResource("Resource_m76o4"), SubResource("Resource_pfeqh"), SubResource("Resource_nya5b")]
+cell_size = Vector2(140, 30)
+columns = 8
+
+[node name="PuzzleGroup" parent="." index="6" instance=ExtResource("4")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 7.0
+offset_top = 4.0
+offset_right = 7.0
+offset_bottom = 4.0
+phrase_grids = [NodePath("../../Numbers"), NodePath("../../Phrases")]
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 46.0
+offset_top = 85.0
+offset_right = -692.0
+offset_bottom = -418.0
+answer_item_ref_id = 2
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 120.0
+offset_top = 85.0
+offset_right = -618.0
+offset_bottom = -418.0
+answer_item_ref_id = 8
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 197.0
+offset_top = 85.0
+offset_right = -541.0
+offset_bottom = -418.0
+answer_item_ref_id = 1
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 278.0
+offset_top = 85.0
+offset_right = -460.0
+offset_bottom = -418.0
+answer_item_ref_id = 9
+
+[node name="PhrasePuzzleSlot5" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 359.0
+offset_top = 85.0
+offset_right = -379.0
+offset_bottom = -418.0
+answer_item_ref_id = 7
+
+[node name="PhrasePuzzleSlot6" parent="PuzzleGroup/Puzzle" index="6" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 439.0
+offset_top = 85.0
+offset_right = -299.0
+offset_bottom = -418.0
+answer_item_ref_id = 3
+
+[node name="PhrasePuzzleSlot7" parent="PuzzleGroup/Puzzle" index="7" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 45.0
+offset_top = 188.0
+offset_right = -693.0
+offset_bottom = -315.0
+answer_item_ref_id = 132
+
+[node name="PhrasePuzzleSlot8" parent="PuzzleGroup/Puzzle" index="8" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 132.0
+offset_top = 188.0
+offset_right = -606.0
+offset_bottom = -315.0
+answer_item_ref_id = 30
+
+[node name="PhrasePuzzleSlot9" parent="PuzzleGroup/Puzzle" index="9" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 219.0
+offset_top = 188.0
+offset_right = -519.0
+offset_bottom = -315.0
+answer_item_ref_id = 25
+
+[node name="PhrasePuzzleSlot10" parent="PuzzleGroup/Puzzle" index="10" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 298.0
+offset_top = 188.0
+offset_right = -440.0
+offset_bottom = -315.0
+answer_item_ref_id = 36
+
+[node name="PhrasePuzzleSlot11" parent="PuzzleGroup/Puzzle" index="11" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 383.0
+offset_top = 188.0
+offset_right = -355.0
+offset_bottom = -315.0
+answer_item_ref_id = 31
+
+[node name="PhrasePuzzleSlot12" parent="PuzzleGroup/Puzzle" index="12" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 466.0
+offset_top = 188.0
+offset_right = -272.0
+offset_bottom = -315.0
+answer_item_ref_id = 35
+
+[editable path="Frame"]

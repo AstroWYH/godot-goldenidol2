@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://cbk8n6ngc16rf"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 131
+hint_name = "YARD_HINT_SUSPECTS_TITLE"
+path = "res://shared/ui/hints/hint_library/1_curse/2_construction_yard_1.tscn"

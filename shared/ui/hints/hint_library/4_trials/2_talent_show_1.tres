@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://dyvsx34hfr12p"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 421
+hint_name = "TALENT_SHOW_HINT_RESULTS_TITLE"
+path = "res://shared/ui/hints/hint_library/4_trials/2_talent_show_1.tscn"

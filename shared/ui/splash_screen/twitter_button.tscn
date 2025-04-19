@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=4 uid="uid://dpn8gy1brr61h"]
+
+[ext_resource type="Theme" uid="uid://cem6xxkwgr5sj" path="res://shared/assets/themes/menu_button_social.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://cq7h4m28gi5um" path="res://acts/demo/splashassets/twitter_logo.png" id="2"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="3"]
+
+[node name="TwitterButton" type="Button"]
+custom_minimum_size = Vector2(345, 0)
+focus_mode = 0
+theme = ExtResource("1")
+theme_override_constants/h_separation = 10
+text = "Follow us"
+icon = ExtResource("2")
+script = ExtResource("3")
+url = "https://twitter.com/colorgray7"

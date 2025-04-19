@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=4 uid="uid://c7g0lmevbd4ph"]
+
+[ext_resource type="Theme" uid="uid://cem6xxkwgr5sj" path="res://shared/assets/themes/menu_button_social.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dgqelodrc8vot" path="res://acts/demo/splashassets/discord_logo.png" id="2"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="3"]
+
+[node name="DiscordButton" type="Button"]
+custom_minimum_size = Vector2(345, 0)
+focus_mode = 0
+theme = ExtResource("1")
+theme_override_colors/font_hover_pressed_color = Color(0.768627, 0.819608, 0.996078, 1)
+theme_override_colors/font_hover_color = Color(0.541176, 0.635294, 0.992157, 1)
+theme_override_colors/font_pressed_color = Color(0.768627, 0.819608, 0.996078, 1)
+theme_override_colors/font_color = Color(0.317647, 0.396078, 0.964706, 1)
+text = "Join"
+icon = ExtResource("2")
+script = ExtResource("3")
+url = "https://discord.gg/98EZEuEqK8"

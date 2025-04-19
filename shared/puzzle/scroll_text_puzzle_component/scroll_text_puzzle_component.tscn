@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=4 uid="uid://njuxxhce8e54"]
+
+[ext_resource type="Script" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.gd" id="1"]
+
+[node name="ScrollTextPuzzleComponent" type="Node"]
+script = ExtResource("1")
+id = null
+valid_by_default = null

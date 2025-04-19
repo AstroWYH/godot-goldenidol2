@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=4 uid="uid://b7ee76600k8pk"]
+
+[ext_resource type="Script" path="res://shared/ui/in_game_menu/scenario_reset_cover/scenario_reset_cover.gd" id="1"]
+
+[node name="ScenarioResetCover" type="CanvasLayer"]
+layer = 99
+script = ExtResource("1")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 0)

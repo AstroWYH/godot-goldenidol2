@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://d28sksprqrkqu"
+
+[deps]
+
+files=["res://shared/translation/11-08 backup/general-translations.de.translation", "res://shared/translation/11-08 backup/general-translations.en.translation", "res://shared/translation/11-08 backup/general-translations.es.translation", "res://shared/translation/11-08 backup/general-translations.es_MX.translation", "res://shared/translation/11-08 backup/general-translations.fr.translation", "res://shared/translation/11-08 backup/general-translations.it.translation", "res://shared/translation/11-08 backup/general-translations.ja.translation", "res://shared/translation/11-08 backup/general-translations.ko.translation", "res://shared/translation/11-08 backup/general-translations.pl.translation", "res://shared/translation/11-08 backup/general-translations.pt_BR.translation", "res://shared/translation/11-08 backup/general-translations.tr.translation", "res://shared/translation/11-08 backup/general-translations.zh_TW.translation"]
+
+source_file="res://shared/translation/11-08 backup/general-translations.csv"
+dest_files=["res://shared/translation/11-08 backup/general-translations.de.translation", "res://shared/translation/11-08 backup/general-translations.en.translation", "res://shared/translation/11-08 backup/general-translations.es.translation", "res://shared/translation/11-08 backup/general-translations.es_MX.translation", "res://shared/translation/11-08 backup/general-translations.fr.translation", "res://shared/translation/11-08 backup/general-translations.it.translation", "res://shared/translation/11-08 backup/general-translations.ja.translation", "res://shared/translation/11-08 backup/general-translations.ko.translation", "res://shared/translation/11-08 backup/general-translations.pl.translation", "res://shared/translation/11-08 backup/general-translations.pt_BR.translation", "res://shared/translation/11-08 backup/general-translations.tr.translation", "res://shared/translation/11-08 backup/general-translations.zh_TW.translation"]
+
+[params]
+
+compress=true
+delimiter=0

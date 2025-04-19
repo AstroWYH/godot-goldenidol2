@@ -1,0 +1,862 @@
+[gd_scene load_steps=72 format=4 uid="uid://bjgkm1ey7u3ln"]
+
+[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/hub_of_hubs.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
+[ext_resource type="Texture2D" uid="uid://cqwhidld3lcf1" path="res://shared/assets/hub_art/hub_of_hubs/hub__0015_Paint-Layer-6.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://5f0i3p6wd3r3" path="res://shared/assets/hub_art/hub_of_hubs/hub__0006_Background.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://b4s8wton3qmun" path="res://shared/assets/hub_art/hub_of_hubs/hub__0005_disc2.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c87sxj1t3qirb" path="res://shared/assets/hub_art/hub_of_hubs/hub__0001_disc6.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cin3sissotot7" path="res://shared/assets/hub_art/hub_of_hubs/hub__0002_disc5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d0yuq8qhf3l8j" path="res://shared/assets/hub_art/hub_of_hubs/hub__0003_disc4.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bmw2jcp6axkpa" path="res://shared/assets/hub_art/hub_of_hubs/hub__0004_disc3.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://digdpf7rl584g" path="res://shared/assets/hub_art/hub_of_hubs/hub__0009_Background.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cimqcv02jsv6i" path="res://shared/assets/hub_art/hub_of_hubs/hub__0007_disc1.png" id="11"]
+[ext_resource type="PackedScene" uid="uid://b82cxbemo76ca" path="res://shared/ui/hub_of_hubs/hub_button.tscn" id="12"]
+[ext_resource type="Theme" uid="uid://by4437cp123f0" path="res://shared/assets/themes/menu_button_bold.tres" id="13"]
+[ext_resource type="Texture2D" uid="uid://dg066sgpty0t" path="res://shared/assets/hub_art/hub_of_hubs/hub__0014_curse.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://c7flvw2l31ld4" path="res://shared/assets/hub_art/hub_of_hubs/hub_pursuit_focus.png" id="15"]
+[ext_resource type="Resource" uid="uid://cct0dyqesuef0" path="res://acts/full_game/introductory_arc/introductory_arc_meta.tres" id="16"]
+[ext_resource type="Resource" uid="uid://jmcrlh8lb63f" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_scroll_puzzle_duplicate_meta.tres" id="17"]
+[ext_resource type="Texture2D" uid="uid://cc5ff1fn5sw7y" path="res://shared/assets/hub_art/hub_of_hubs/hub__0014_curse_mb.png" id="18"]
+[ext_resource type="Resource" uid="uid://dwnbn1hxw3tsq" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_2.tres" id="19"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="20"]
+[ext_resource type="Texture2D" uid="uid://ceblse7km6j1e" path="res://shared/assets/hub_art/hub_of_hubs/hub__0013_Background.png" id="21"]
+[ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="22"]
+[ext_resource type="Texture2D" uid="uid://cpgqnx86d2k6m" path="res://shared/assets/hub_art/hub_of_hubs/hub__0013_Background_mb.png" id="23"]
+[ext_resource type="Resource" uid="uid://orunusmu2dwh" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_scroll_puzzle_meta.tres" id="24"]
+[ext_resource type="Resource" uid="uid://lippj1vo32f3" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle.tres" id="25"]
+[ext_resource type="Texture2D" uid="uid://dlkqiq6yj0cb4" path="res://shared/assets/hub_art/hub_of_hubs/hub__0012_Background.png" id="26"]
+[ext_resource type="Resource" uid="uid://batbrd70tgo1f" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub_meta.tres" id="27"]
+[ext_resource type="Texture2D" uid="uid://drcoqd03w8gjb" path="res://shared/assets/hub_art/hub_of_hubs/hub__0012_Background_mb.png" id="28"]
+[ext_resource type="Resource" uid="uid://rn6emxbbs0hc" path="res://acts/full_game/reconstruction_arc/hub/puzzles/machine_arc_scroll_puzzle_meta.tres" id="29"]
+[ext_resource type="Resource" uid="uid://4reji2dqinvf" path="res://acts/full_game/reconstruction_arc/hub/puzzles/2nd_machine_arc_scroll_puzzle_meta.tres" id="30"]
+[ext_resource type="Resource" uid="uid://c7eqiaart1x42" path="res://acts/full_game/reconstruction_arc/hub/puzzles/machine_arc_org_puzzle.tres" id="31"]
+[ext_resource type="Texture2D" uid="uid://bs4pagriiq7iu" path="res://shared/assets/hub_art/hub_of_hubs/hub__0011_Background.png" id="32"]
+[ext_resource type="Resource" uid="uid://pmia7piem45l" path="res://acts/full_game/research_arc/hub/trials_arc_meta.tres" id="33"]
+[ext_resource type="Texture2D" uid="uid://50nt8e0cg43h" path="res://shared/assets/hub_art/hub_of_hubs/hub__0011_Background_mb.png" id="34"]
+[ext_resource type="Resource" uid="uid://bc02426tkmfrp" path="res://acts/full_game/research_arc/hub/puzzles/trials_arc_symbols_puzzle_meta.tres" id="35"]
+[ext_resource type="Resource" uid="uid://bi822pivk3mol" path="res://acts/full_game/research_arc/hub/puzzles/trials_arc_transfer_meta.tres" id="36"]
+[ext_resource type="Texture2D" uid="uid://cjtdm4xuqffoe" path="res://shared/assets/hub_art/hub_of_hubs/hub__0010_Background.png" id="37"]
+[ext_resource type="Resource" uid="uid://bylqfn1vow1bd" path="res://acts/full_game/conclusion_arc/hub/conclusion_arc_meta.tres" id="38"]
+[ext_resource type="Texture2D" uid="uid://ccciy4o62eu22" path="res://shared/assets/hub_art/hub_of_hubs/hub__0010_Background_mb.png" id="39"]
+[ext_resource type="Resource" uid="uid://lvtea2bmkprs" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_picture_puzzle_meta.tres" id="40"]
+[ext_resource type="PackedScene" uid="uid://dbnvorb3horw2" path="res://shared/ui/hub_of_hubs/intermission_button.tscn" id="41"]
+[ext_resource type="Texture2D" uid="uid://17r1epdcobea" path="res://shared/assets/hub_art/hub_of_hubs/hub__0007_disc1_focus.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://5ex1bm7pb80t" path="res://shared/assets/hub_art/hub_of_hubs/hub__0005_disc2_focus.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://imuc46ay63ig" path="res://shared/assets/hub_art/hub_of_hubs/hub__0004_disc3_focus.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://c13x1l7r60ucw" path="res://shared/assets/hub_art/hub_of_hubs/hub__0003_disc4_focus.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://b4rfxe8sxcx7x" path="res://shared/assets/hub_art/hub_of_hubs/hub__0002_disc5_focus.png" id="46"]
+[ext_resource type="PackedScene" uid="uid://b31007656bt8n" path="res://shared/ui/hub_of_hubs/victory_screen_button_global.tscn" id="47"]
+[ext_resource type="Texture2D" uid="uid://dgytes8lmjvso" path="res://shared/assets/hub_art/hub_of_hubs/hub__0006_Background_focus.png" id="48"]
+[ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="49"]
+[ext_resource type="PackedScene" uid="uid://gmj6js3wf6df" path="res://shared/ui/hub_of_hubs/scenario_button.tscn" id="50"]
+[ext_resource type="Texture2D" uid="uid://dm5lojaogxpxb" path="res://shared/assets/hub_art/hub_of_hubs/hub__0000_snake.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://ls1d4xtbxx4p" path="res://shared/assets/hub_art/hub_of_hubs/hub__0000_snake_focus.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://bl8gk7ihx5udm" path="res://shared/assets/hub_art/hub_of_hubs/hub__0000_snake_bw.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cjw400p7erwdn" path="res://shared/assets/hub_art/hub_of_hubs/hub__0001_disc6_focus.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://caqf6h7pmi3vj" path="res://shared/assets/hub_art/hub_of_hubs/hub__0005_disc7.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://5rcyjrmgxrwh" path="res://shared/assets/hub_art/hub_of_hubs/hub__0005_disc7_focus.png" id="56"]
+[ext_resource type="Resource" uid="uid://c563p4fu8uale" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_epilogue.tres" id="57"]
+[ext_resource type="Texture2D" uid="uid://c01vn34ybad41" path="res://shared/assets/hub_art/hub_of_hubs/hub__0009_Background_focus.png" id="58"]
+[ext_resource type="Resource" uid="uid://d2o2eeeju5fpr" path="res://acts/full_game/conclusion_arc/finale/finale_scenario.tres" id="59"]
+[ext_resource type="Texture2D" uid="uid://dk2d324et1alj" path="res://shared/assets/hub_art/hub_of_hubs/hub__0008_ball.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://br5lv4t0k84io" path="res://shared/assets/hub_art/hub_of_hubs/hub__0008_ball_focus.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://d0c170l4o0isc" path="res://shared/assets/hub_art/hub_of_hubs/hub__0008_ball_bw.png" id="62"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="63"]
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="64"]
+[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/fast_forward_button.gd" id="65"]
+[ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="66"]
+[ext_resource type="PackedScene" uid="uid://dhwm06foikq1l" path="res://shared/ui/hub/snippet_button.tscn" id="67"]
+[ext_resource type="Texture2D" uid="uid://cgghanihtylxv" path="res://shared/assets/hub_art/hub_of_hubs/jack.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://gn5a6gtr7ow0" path="res://shared/assets/hub_art/hub_of_hubs/jack_focus.png" id="69"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="70"]
+[ext_resource type="Texture2D" uid="uid://c4rwoqjegwn30" path="res://shared/assets/frames/frame_spech_black.png" id="71"]
+
+[node name="HubOfHubs" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+music_layers = [ExtResource("2")]
+ambience_layers = null
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -234.0
+offset_top = -202.0
+offset_right = 186.0
+offset_bottom = 158.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3")
+
+[node name="ArtAssets" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_left = -1170.0
+offset_top = -720.0
+offset_right = -1130.0
+offset_bottom = -680.0
+
+[node name="background" type="Sprite2D" parent="ArtAssets"]
+position = Vector2(-201, -170)
+texture = ExtResource("3")
+centered = false
+
+[node name="Hub0006Background" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(355, 336)
+texture = ExtResource("4")
+
+[node name="Hub0005Disc2" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(1223, 356)
+texture = ExtResource("5")
+
+[node name="Hub0001Disc6" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(1870, 1064)
+texture = ExtResource("6")
+
+[node name="Hub0002Disc5" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(1209, 1045)
+texture = ExtResource("7")
+
+[node name="Hub0003Disc4" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(890, 815)
+texture = ExtResource("8")
+
+[node name="Hub0004Disc3" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(406, 916)
+texture = ExtResource("9")
+
+[node name="Hub0009Background" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(1930, 802)
+texture = ExtResource("10")
+
+[node name="Hub0007Disc1" type="Sprite2D" parent="ArtAssets/background"]
+position = Vector2(1882, 316)
+texture = ExtResource("11")
+
+[node name="Curse" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("12")]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 1152.0
+offset_top = 106.0
+offset_right = 1530.0
+offset_bottom = 617.0
+rotation = -0.3106580078601837
+theme = ExtResource("13")
+texture_normal = ExtResource("14")
+texture_focused = ExtResource("15")
+stretch_mode = 3
+arc_meta = ExtResource("16")
+required_puzzles = [ExtResource("17")]
+unfinished_texture = ExtResource("18")
+required_puzzles_to_finish = [ExtResource("19")]
+label_node = NodePath("../ChapterLabels/Curse Label")
+
+[node name="Label2" type="Label" parent="Curse"]
+layout_mode = 0
+offset_left = 37.0
+offset_top = 344.0
+offset_right = 345.0
+offset_bottom = 464.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "CURSE_MAGAZINE"
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Label5" type="Label" parent="Curse"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 121.0
+offset_right = 122.0
+offset_bottom = 189.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(0.0352941, 0.0588235, 0.0588235, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "#1
+"
+horizontal_alignment = 2
+
+[node name="Pursuit" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("12")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.06510420143604279
+anchor_top = -0.0037036999128758907
+anchor_right = 0.07604169845581055
+anchor_bottom = 0.012036999687552452
+offset_right = 344.0
+offset_bottom = 477.0
+rotation = 0.21698899567127228
+theme = ExtResource("13")
+texture_normal = ExtResource("21")
+texture_focused = ExtResource("15")
+stretch_mode = 3
+arc_meta = ExtResource("22")
+required_puzzles = [ExtResource("19")]
+unfinished_texture = ExtResource("23")
+required_puzzles_to_finish = [ExtResource("24"), ExtResource("25")]
+label_node = NodePath("../ChapterLabels/PursuitLabel")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="Pursuit"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 109.0
+offset_right = 104.0
+offset_bottom = 173.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(0.0352941, 0.0588235, 0.0588235, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "#2"
+horizontal_alignment = 2
+
+[node name="Label" type="Label" parent="Pursuit"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 203.0
+offset_right = 328.0
+offset_bottom = 357.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "PURSUIT_MAGAZINE"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Machine" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("12")]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 280.0
+offset_top = 601.0
+offset_right = 639.0
+offset_bottom = 1102.0
+rotation = -0.1767980009317398
+theme = ExtResource("13")
+texture_normal = ExtResource("26")
+texture_focused = ExtResource("15")
+stretch_mode = 3
+arc_meta = ExtResource("27")
+required_puzzles = [ExtResource("24"), ExtResource("25")]
+unfinished_texture = ExtResource("28")
+required_puzzles_to_finish = [ExtResource("29"), ExtResource("30"), ExtResource("31")]
+label_node = NodePath("../ChapterLabels/MachineLabel")
+
+[node name="Label" type="Label" parent="Machine"]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 331.0
+offset_right = 258.0
+offset_bottom = 460.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "MACHINE_MAGAZINE"
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Label3" type="Label" parent="Machine"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 102.0
+offset_right = 108.0
+offset_bottom = 167.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(0.0352941, 0.0588235, 0.0588235, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "#3"
+horizontal_alignment = 2
+
+[node name="Trials" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("12")]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 707.0
+offset_top = 0.9999920129776001
+offset_right = 1082.0
+offset_bottom = 508.0
+rotation = 0.18348300457000732
+theme = ExtResource("13")
+texture_normal = ExtResource("32")
+texture_focused = ExtResource("15")
+stretch_mode = 3
+arc_meta = ExtResource("33")
+required_puzzles = [ExtResource("29"), ExtResource("30"), ExtResource("31")]
+unfinished_texture = ExtResource("34")
+required_puzzles_to_finish = [ExtResource("35"), ExtResource("36")]
+label_node = NodePath("../ChapterLabels/TrialsLabel")
+
+[node name="Label3" type="Label" parent="Trials"]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 282.0
+offset_right = 332.0
+offset_bottom = 411.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "TRIALS_MAGAZINE"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Label4" type="Label" parent="Trials"]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 106.0
+offset_right = 111.0
+offset_bottom = 162.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(0.0352941, 0.0588235, 0.0588235, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "#4"
+horizontal_alignment = 2
+
+[node name="Pinnacle" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("12")]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 1520.0
+offset_top = 566.0
+offset_right = 1880.0
+offset_bottom = 1068.0
+rotation = -0.04903620108962059
+theme = ExtResource("13")
+texture_normal = ExtResource("37")
+texture_focused = ExtResource("15")
+ignore_texture_size = true
+stretch_mode = 3
+arc_meta = ExtResource("38")
+required_puzzles = [ExtResource("35"), ExtResource("36")]
+unfinished_texture = ExtResource("39")
+required_puzzles_to_finish = [ExtResource("40")]
+label_node = NodePath("../ChapterLabels/PinnacleLabel")
+
+[node name="Label4" type="Label" parent="Pinnacle"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 327.0
+offset_right = 325.0
+offset_bottom = 447.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "PINNACLE_MAGAZINE"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Label5" type="Label" parent="Pinnacle"]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 103.0
+offset_right = 107.0
+offset_bottom = 171.0
+theme = ExtResource("20")
+theme_override_colors/font_color = Color(0.0352941, 0.0588235, 0.0588235, 1)
+theme_override_constants/line_spacing = -13
+theme_override_font_sizes/font_size = 44
+text = "#5"
+horizontal_alignment = 2
+
+[node name="LazarusIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+layout_mode = 0
+offset_left = 704.0
+offset_top = 712.0
+offset_right = 1015.0
+offset_bottom = 1006.0
+texture_focused = ExtResource("42")
+required_puzzles = [ExtResource("17")]
+intermission_path = "res://acts/full_game/intermisions/intro_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+
+[node name="IdolMontageIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+layout_mode = 0
+offset_left = 1478.0
+offset_top = 13.0
+offset_right = 1789.0
+offset_bottom = 307.0
+texture_normal = ExtResource("5")
+texture_focused = ExtResource("43")
+required_puzzles = [ExtResource("19")]
+intermission_path = "res://acts/full_game/intermisions/pursuit_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+id = 2
+
+[node name="HippiePartyIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 415.0
+offset_right = 308.0
+offset_bottom = 710.0
+texture_normal = ExtResource("9")
+texture_focused = ExtResource("44")
+required_puzzles = [ExtResource("24")]
+intermission_path = "res://acts/full_game/intermisions/machine_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+id = 3
+
+[node name="EugeneInChargeIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+layout_mode = 0
+offset_left = 492.0
+offset_top = 482.0
+offset_right = 794.0
+offset_bottom = 777.0
+texture_normal = ExtResource("8")
+texture_focused = ExtResource("45")
+required_puzzles = [ExtResource("30")]
+intermission_path = "res://acts/full_game/intermisions/trials_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+id = 4
+
+[node name="FightIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 81.0
+offset_right = 736.0
+offset_bottom = 379.0
+texture_normal = ExtResource("7")
+texture_focused = ExtResource("46")
+required_puzzles = [ExtResource("36"), ExtResource("35")]
+intermission_path = "res://acts/full_game/intermisions/pinnacle_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+id = 5
+
+[node name="AsylumVictoryButto" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("47")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1040.0
+offset_top = 519.0
+offset_right = 1261.0
+offset_bottom = 771.0
+rotation = -0.16364000737667084
+texture_normal = ExtResource("4")
+texture_focused = ExtResource("48")
+stretch_mode = 3
+scenario_meta = ExtResource("49")
+dialog_layer = NodePath("../DialogLayer")
+
+[node name="Asylum" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("50")]
+layout_mode = 0
+offset_left = 772.0
+offset_top = 541.0
+offset_right = 1146.0
+offset_bottom = 792.0
+texture_normal = ExtResource("51")
+texture_focused = ExtResource("52")
+scenario_meta = ExtResource("49")
+required_puzzles_to_finish = [ExtResource("17")]
+unfinished_texture = ExtResource("53")
+label_node = NodePath("../ChapterLabels/ConstrictionLabel")
+
+[node name="BroadcastIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+layout_mode = 0
+offset_left = 1623.0
+offset_top = 365.0
+offset_right = 1919.0
+offset_bottom = 667.0
+texture_normal = ExtResource("6")
+texture_focused = ExtResource("54")
+required_puzzles = [ExtResource("40")]
+intermission_path = "res://acts/full_game/intermisions/finals_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+id = 6
+
+[node name="EndingIntermission" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("41")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1035.0
+offset_top = 770.0
+offset_right = 1321.0
+offset_bottom = 1062.0
+texture_normal = ExtResource("55")
+texture_focused = ExtResource("56")
+required_puzzles = [ExtResource("57")]
+intermission_path = "res://acts/full_game/intermisions/finale01_intermission.tscn"
+dialog_layer = NodePath("../DialogLayer")
+id = 7
+
+[node name="FinalsVictoryButto" parent="." node_paths=PackedStringArray("dialog_layer") instance=ExtResource("47")]
+layout_mode = 0
+offset_left = 1363.0
+offset_top = 662.0
+offset_right = 1586.0
+offset_bottom = 915.0
+rotation = 0.27674099802970886
+texture_normal = ExtResource("10")
+texture_focused = ExtResource("58")
+scenario_meta = ExtResource("59")
+dialog_layer = NodePath("../DialogLayer")
+
+[node name="Finals" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("50")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1261.0
+offset_top = 521.0
+offset_right = 1531.0
+offset_bottom = 775.0
+texture_normal = ExtResource("60")
+texture_focused = ExtResource("61")
+scenario_meta = ExtResource("59")
+required_puzzles_to_finish = [ExtResource("57")]
+unfinished_texture = ExtResource("62")
+label_node = NodePath("../ChapterLabels/FinaleLabel")
+
+[node name="FocusTarget" parent="Finals" index="0"]
+offset_left = -11.5
+offset_top = -59.5
+offset_right = 8.5
+offset_bottom = -39.5
+
+[node name="DialogLayer" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="BackButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 21.0
+offset_top = 980.0
+offset_right = 271.0
+offset_bottom = 1061.0
+theme = ExtResource("63")
+theme_type_variation = &"back"
+text = "BACK_BUTTON"
+clip_text = true
+script = ExtResource("64")
+target_screen_path = "res://shared/ui/scenario_select/scenario_select.tscn"
+
+[node name="FastForwardButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -452.0
+offset_top = -100.0
+offset_right = -11.0
+offset_bottom = -19.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("63")
+theme_type_variation = &"back"
+theme_override_font_sizes/font_size = 24
+text = "UNLOCK_EXTENDED_CONTENT_BTN"
+script = ExtResource("65")
+
+[node name="ConfirmationDialogCaller" parent="FastForwardButton" instance=ExtResource("66")]
+prompt_text = "UNLOCK_EXTENDED_CONTENT"
+confirm_button_text = "UNLOCK_BTN"
+reject_button_text = "CANCEL_BUTTON"
+
+[node name="WorrySnippetButton2" parent="." instance=ExtResource("67")]
+layout_mode = 0
+offset_left = 1024.0
+offset_top = 268.0
+offset_right = 1236.0
+offset_bottom = 510.0
+rotation = -0.25038498640060425
+scale = Vector2(1, 1)
+texture_normal = ExtResource("68")
+texture_hover = null
+texture_focused = ExtResource("69")
+stretch_mode = 3
+snippet_path = "res://acts/full_game/conclusion_arc/hub/ending_snippet.tscn"
+scenario_meta = ExtResource("59")
+sequence_element_id = "last_snippet"
+sound = 29
+
+[node name="ChapterLabels" type="Control" parent="."]
+z_index = 99
+anchors_preset = 0
+mouse_filter = 2
+
+[node name="Curse Label" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 34.0
+offset_right = 1490.0
+offset_bottom = 92.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "CHAPTER_1_INTRO_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/Curse Label"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/Curse Label/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="PursuitLabel" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 144.0
+offset_top = 23.0
+offset_right = 444.0
+offset_bottom = 81.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "chapter_2_name"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/PursuitLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/PursuitLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="MachineLabel" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 311.0
+offset_top = 535.0
+offset_right = 611.0
+offset_bottom = 593.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "CHAPTER_3_INTRO_TITLE"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/MachineLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/MachineLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="TrialsLabel" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 735.0
+offset_top = 20.0
+offset_right = 1035.0
+offset_bottom = 78.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "CHAPTER_4_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/TrialsLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/TrialsLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="PinnacleLabel" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 1556.0
+offset_top = 526.0
+offset_right = 1856.0
+offset_bottom = 584.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "PINNACLE_CHAPTER_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/PinnacleLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/PinnacleLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="ConstrictionLabel" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 762.0
+offset_top = 482.0
+offset_right = 1062.0
+offset_bottom = 540.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "ASYLUM_SCENARIO_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/ConstrictionLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/ConstrictionLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[node name="FinaleLabel" type="Label" parent="ChapterLabels"]
+visible = false
+layout_mode = 0
+offset_left = 1243.0
+offset_top = 447.0
+offset_right = 1543.0
+offset_bottom = 505.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("70")
+theme_override_font_sizes/font_size = 32
+text = "FINALE_SCENARIO_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ChapterLabels/FinaleLabel"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -12
+theme_override_constants/margin_top = -12
+theme_override_constants/margin_right = -12
+theme_override_constants/margin_bottom = -12
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ChapterLabels/FinaleLabel/MarginContainer"]
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("71")
+patch_margin_left = 32
+patch_margin_top = 32
+patch_margin_right = 32
+patch_margin_bottom = 32
+
+[connection signal="pressed" from="BackButton" to="BackButton" method="_on_pressed"]
+
+[editable path="Curse"]
+[editable path="Pursuit"]
+[editable path="Trials"]
+[editable path="Pinnacle"]
+[editable path="LazarusIntermission"]
+[editable path="HippiePartyIntermission"]
+[editable path="EugeneInChargeIntermission"]
+[editable path="AsylumVictoryButto"]
+[editable path="Asylum"]
+[editable path="EndingIntermission"]
+[editable path="Finals"]

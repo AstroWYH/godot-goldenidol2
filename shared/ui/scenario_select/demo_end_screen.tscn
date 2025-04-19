@@ -1,0 +1,126 @@
+[gd_scene load_steps=13 format=4 uid="uid://xls314db5a7k"]
+
+[ext_resource type="Script" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
+[ext_resource type="Texture2D" uid="uid://byfqp2r0ek84p" path="res://acts/demo/splashassets/museumbackground.png" id="3"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="5"]
+[ext_resource type="PackedScene" uid="uid://b6fjklireya5n" path="res://shared/ui/splash_screen/wishlist_button.tscn" id="6"]
+[ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="7"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="8"]
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="9"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h3d75"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o26uv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_1moja"]
+
+[node name="DemoEndingScreen" type="Node2D" groups=["i18n"]]
+script = ExtResource("1")
+music_layers = [ExtResource("2")]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+metadata/_edit_lock_ = true
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(944, 531)
+texture = ExtResource("3")
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 0.792157)
+metadata/_edit_lock_ = true
+
+[node name="Header" type="Label" parent="."]
+offset_left = 11.0
+offset_top = 7.0
+offset_right = 1898.0
+offset_bottom = 180.0
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 120
+text = "DEMO_ENDING_TITLE"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Body" type="Label" parent="."]
+offset_left = 163.0
+offset_top = 182.0
+offset_right = 1815.0
+offset_bottom = 768.0
+theme = ExtResource("5")
+theme_override_font_sizes/font_size = 50
+text = "DEMO_ENDING_BODY"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="WishlistButton" parent="." instance=ExtResource("6")]
+offset_left = 346.0
+offset_top = 924.0
+offset_right = 978.0
+offset_bottom = 1063.0
+theme_override_constants/h_separation = 20
+theme_override_font_sizes/font_size = 40
+text = "WISHLIST_BUTTON"
+
+[node name="FirstGameButton" type="Button" parent="."]
+custom_minimum_size = Vector2(345, 0)
+offset_left = 1175.0
+offset_top = 939.0
+offset_right = 1548.0
+offset_bottom = 1050.0
+focus_mode = 0
+theme = ExtResource("7")
+text = "ORIGINAL_GAME_BUTTON"
+script = ExtResource("8")
+url = "https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol"
+
+[node name="BackButton2" type="Button" parent="."]
+offset_top = 965.0
+offset_right = 245.0
+offset_bottom = 1076.0
+theme = ExtResource("7")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_h3d75")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_o26uv")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_1moja")
+text = "BACK_BUTTON"
+script = ExtResource("9")
+
+[node name="Volume" type="VBoxContainer" parent="."]
+visible = false
+offset_left = 1747.0
+offset_top = 846.0
+offset_right = 1863.0
+offset_bottom = 936.0
+
+[node name="Label" type="Label" parent="Volume"]
+layout_mode = 2
+text = "Master volume"
+
+[node name="MasterVolumeSlider" type="HSlider" parent="Volume"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="Volume"]
+layout_mode = 2
+text = "Music volume"
+
+[node name="MusicVolumeSlider" type="HSlider" parent="Volume"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[connection signal="pressed" from="BackButton2" to="BackButton2" method="_on_pressed"]

@@ -1,0 +1,161 @@
+[gd_resource type="Theme" load_steps=52 format=3 uid="uid://cd6xcm0r6ceqx"]
+
+[ext_resource type="Texture2D" uid="uid://ddtuli3f1ejxq" path="res://shared/ui/buttons/btn_0016_home_mouseover.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://csa31ocgpfb2i" path="res://shared/ui/buttons/btn_0015_home_idle.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://wr8tt5eoq482" path="res://shared/ui/buttons/btn_0017_home_pressed.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b12wmggr2xkbm" path="res://shared/ui/misc/frame_focus.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cpy310pe65383" path="res://shared/ui/buttons/btn_0011_back_mouseover.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dboea7pe3wv2b" path="res://shared/ui/buttons/btn_0006_back_idle.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bdwjijfycr54f" path="res://shared/ui/buttons/btn_0012_back_pressed.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d35hdcj5keqc" path="res://shared/ui/buttons/btn_0001_close_mouseover.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c6b7dit0rrfff" path="res://shared/ui/buttons/btn_0000_close_idle.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://h8gwxeribsmw" path="res://shared/ui/buttons/btn_0002_close_pressed.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://j0qcmnxe82tw" path="res://shared/ui/buttons/btn_0050_forward_mouseover.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cd06w2d832b2k" path="res://shared/ui/buttons/btn_0049_forward_idle.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dsbhat1x4inif" path="res://shared/ui/buttons/btn_0051_forward_pressed.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cndjgu57vkpee" path="res://shared/ui/buttons/_0015_help_mouseover.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://brxh5hm56fxtl" path="res://shared/ui/buttons/_0017_help_idle.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cghhs6xhrtud" path="res://shared/ui/buttons/_0016_help_pressed.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://8bwje25o7lke" path="res://shared/ui/buttons/btn_0013_navigation_mouseover.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dnsk5k0e00gps" path="res://shared/ui/buttons/btn_0010_avigation_idle.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cwcg5gsbp1lvx" path="res://shared/ui/buttons/btn_0014_navigation_pressed.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dkkku0me34e0t" path="res://shared/ui/buttons/btn_0007_options_mouseover.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://biyt6fniqbqj7" path="res://shared/ui/buttons/btn_0009_options_idle.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://0qibfl3jocos" path="res://shared/ui/buttons/btn_0008_options_pressed.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bgqeja5gn47k1" path="res://shared/ui/buttons/btn_0004_replay_mouseover.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bemf8h6tjor0" path="res://shared/ui/buttons/btn_0003_replay_idle.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b0wiaotcmrwcs" path="res://shared/ui/buttons/btn_0005_replay_pressed.png" id="25"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fdtiu"]
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ncrhq"]
+texture = ExtResource("1")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_75c4l"]
+texture = ExtResource("2")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_62q35"]
+texture = ExtResource("3")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jivuv"]
+texture = ExtResource("4")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_h1v02"]
+texture = ExtResource("5")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1udga"]
+texture = ExtResource("6")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iyelr"]
+texture = ExtResource("7")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_su6rm"]
+texture = ExtResource("8")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5icnq"]
+texture = ExtResource("9")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jfqrg"]
+texture = ExtResource("10")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_y53j2"]
+texture = ExtResource("11")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mjcae"]
+texture = ExtResource("12")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vuf00"]
+texture = ExtResource("13")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yt4ol"]
+texture = ExtResource("14")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gbgkl"]
+texture = ExtResource("15")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_tbaar"]
+texture = ExtResource("16")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iynbr"]
+texture = ExtResource("17")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mbnf3"]
+texture = ExtResource("18")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p06tw"]
+texture = ExtResource("19")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_chxof"]
+texture = ExtResource("20")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bkijd"]
+texture = ExtResource("21")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g6iep"]
+texture = ExtResource("22")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_olhgr"]
+texture = ExtResource("23")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_781uk"]
+texture = ExtResource("24")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8thkm"]
+texture = ExtResource("25")
+
+[resource]
+Button/styles/focus = SubResource("StyleBoxTexture_fdtiu")
+Button/styles/hover = SubResource("StyleBoxTexture_ncrhq")
+Button/styles/normal = SubResource("StyleBoxTexture_75c4l")
+Button/styles/pressed = SubResource("StyleBoxTexture_62q35")
+back/base_type = &"Button"
+back/styles/focus = SubResource("StyleBoxTexture_jivuv")
+back/styles/hover = SubResource("StyleBoxTexture_h1v02")
+back/styles/normal = SubResource("StyleBoxTexture_1udga")
+back/styles/pressed = SubResource("StyleBoxTexture_iyelr")
+close/base_type = &"Button"
+close/styles/focus = SubResource("StyleBoxTexture_jivuv")
+close/styles/hover = SubResource("StyleBoxTexture_su6rm")
+close/styles/normal = SubResource("StyleBoxTexture_5icnq")
+close/styles/pressed = SubResource("StyleBoxTexture_jfqrg")
+forward/base_type = &"Button"
+forward/styles/focus = SubResource("StyleBoxTexture_jivuv")
+forward/styles/hover = SubResource("StyleBoxTexture_y53j2")
+forward/styles/normal = SubResource("StyleBoxTexture_mjcae")
+forward/styles/pressed = SubResource("StyleBoxTexture_vuf00")
+help/base_type = &"Button"
+help/styles/focus = SubResource("StyleBoxTexture_yt4ol")
+help/styles/hover = SubResource("StyleBoxTexture_yt4ol")
+help/styles/normal = SubResource("StyleBoxTexture_gbgkl")
+help/styles/pressed = SubResource("StyleBoxTexture_tbaar")
+navigation/base_type = &"Button"
+navigation/styles/focus = SubResource("StyleBoxTexture_iynbr")
+navigation/styles/hover = SubResource("StyleBoxTexture_iynbr")
+navigation/styles/normal = SubResource("StyleBoxTexture_mbnf3")
+navigation/styles/pressed = SubResource("StyleBoxTexture_p06tw")
+options/base_type = &"Button"
+options/styles/focus = SubResource("StyleBoxTexture_chxof")
+options/styles/hover = SubResource("StyleBoxTexture_chxof")
+options/styles/normal = SubResource("StyleBoxTexture_bkijd")
+options/styles/pressed = SubResource("StyleBoxTexture_g6iep")
+repeat/base_type = &"Button"
+repeat/styles/focus = SubResource("StyleBoxTexture_jivuv")
+repeat/styles/hover = SubResource("StyleBoxTexture_olhgr")
+repeat/styles/normal = SubResource("StyleBoxTexture_781uk")
+repeat/styles/pressed = SubResource("StyleBoxTexture_8thkm")

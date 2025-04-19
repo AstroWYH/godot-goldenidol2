@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://dnsgwweneoajw"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 312
+hint_name = "BURNING_MAN_HINT_FINGERPRINTS_TITLE"
+path = "res://shared/ui/hints/hint_library/3_machine/1_burning_man_2.tscn"

@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=4 uid="uid://cbl1gogn5av6b"]
+
+[ext_resource type="Script" path="res://shared/ui/custom_segment/custom_segment.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cesq2443g64c4" path="res://shared/puzzle/puzzle_segment/assets/segment_block.tscn" id="2"]
+
+[sub_resource type="Animation" id="Animation_x0bfl"]
+resource_name = "reveal"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SegmentBlock:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_524rg"]
+_data = {
+"reveal": SubResource("Animation_x0bfl")
+}
+
+[node name="CustomSegment" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1")
+
+[node name="SegmentBlock" parent="." instance=ExtResource("2")]
+unique_name_in_owner = true
+layout_mode = 0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_524rg")
+}

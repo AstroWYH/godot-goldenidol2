@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://j317blg83tpb"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 331
+hint_name = "EVICTION_HINT_BELIEFS_TITLE"
+path = "res://shared/ui/hints/hint_library/3_machine/3_eviction_1.tscn"

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=4 uid="uid://cesq2443g64c4"]
+
+[ext_resource type="Texture2D" uid="uid://0wqbs2b4rinc" path="res://shared/assets/frames/hider.png" id="1"]
+
+[node name="PictureSegmentBlock" type="NinePatchRect"]
+z_as_relative = false
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 0
+texture = ExtResource("1")

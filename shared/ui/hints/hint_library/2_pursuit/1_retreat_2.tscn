@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=4 uid="uid://droqaitoumrdm"]
+
+[ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://dar3i8fxqiyii" path="res://shared/ui/hints/hint_library/2_pursuit/retreat_02.png" id="2"]
+
+[node name="HintSelectionMenu" instance=ExtResource("1")]
+anchors_preset = 0
+
+[node name="HintContent1" parent="TextureRect" index="1"]
+visible = false
+
+[node name="HintLabel" parent="TextureRect/HintContent1/VerticalLayout" index="0"]
+text = "RETREAT_HINT_RESULT_1"
+
+[node name="HintContent2" parent="TextureRect" index="2"]
+visible = true
+
+[node name="HintLabel" parent="TextureRect/HintContent2/VerticalLayout" index="0"]
+text = "RETREAT_HINT_RESULT_2"
+
+[node name="TextureRect" parent="TextureRect/HintContent2/VerticalLayout" index="1"]
+texture = ExtResource("2")
+
+[node name="HintLabel" parent="TextureRect/HintContent3/VerticalLayout" index="0"]
+text = "RETREAT_HINT_RESULT_3"
+
+[node name="BackButton" parent="." index="1"]
+layout_mode = 0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 267.0
+offset_bottom = 53.0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://djdivb88tpgg5"
+path="res://shared/translation/11-08 backup/5-conclusion-arc.de.translation"
+
+[deps]
+
+source_file="res://shared/translation/11-08 backup/5-conclusion-arc.csv"
+dest_files=["res://shared/translation/11-08 backup/5-conclusion-arc.de.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.en.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.es.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.es_MX.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.fr.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.it.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.ja.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.ko.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.pl.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.pt_BR.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.tr.translation", "res://shared/translation/11-08 backup/5-conclusion-arc.zh_TW.translation"]
+
+[params]
+
+dummy_value_ignore_me=0

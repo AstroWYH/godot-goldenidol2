@@ -1,0 +1,18 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cxsg3hbigltsh"
+path="res://.godot/imported/colorgraylogo2.svg-a7ebd47258a0f671a879faed2ae5d8dc.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://shared/assets/logos/colorgraylogo2.svg"
+dest_files=["res://.godot/imported/colorgraylogo2.svg-a7ebd47258a0f671a879faed2ae5d8dc.ctex"]
+
+[params]
+
+dummy_value_ignore_me=0

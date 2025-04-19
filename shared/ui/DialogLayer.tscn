@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=4 uid="uid://bls4xoyu3vchn"]
+
+[ext_resource type="Script" path="res://shared/ui/dialog_layer.gd" id="1"]
+
+[node name="DialogLayer" type="CanvasLayer"]
+layer = 5
+script = ExtResource("1")

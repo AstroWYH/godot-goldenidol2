@@ -1,0 +1,132 @@
+[gd_scene load_steps=15 format=4 uid="uid://cg2e5ir5w4uag"]
+
+[ext_resource type="Script" path="res://shared/ui/scenario_select/chapter_1_demo_end_screen.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://disu3ua8c5g66" path="res://acts/full_game/introductory_arc/asylum/assets/music/asylum_loop.ogg" id="2"]
+[ext_resource type="Texture2D" uid="uid://tcqc6nscy1ir" path="res://acts/demo/splashassets/upstairs_night.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b73tak88tf1p6" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0000.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://da0lbogfiu4u5" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0001.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c4fdk2vori36i" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0002.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://d31diq3qiwihq" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0003.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dq1ssekbiyyff" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0004.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://1symh7fvj4lx" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0005.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://hi8ilbtrp6mk" path="res://acts/demo/splashassets/demoidolnotext.png" id="10"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="11"]
+[ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="12"]
+[ext_resource type="Script" path="res://shared/ui/scenario_select/next_button_demo_end_screen.gd" id="13"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h5jb6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Chapter1EndScreen" type="Node2D" groups=["i18n"]]
+script = ExtResource("1")
+music_layers = [ExtResource("2")]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+visible = false
+position = Vector2(944, 680)
+texture = ExtResource("3")
+
+[node name="Animation" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+visible = false
+position = Vector2(421, 693)
+sprite_frames = SubResource("SpriteFrames_h5jb6")
+autoplay = "default"
+frame_progress = 0.08542189747095108
+
+[node name="IdolSprite" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+modulate = Color(0.756863, 1, 1, 0)
+position = Vector2(1481, 601)
+scale = Vector2(0.693534, 0.693534)
+texture = ExtResource("10")
+
+[node name="Name" type="Label" parent="IdolSprite"]
+offset_left = -291.0
+offset_top = 161.0
+offset_right = -17.0
+offset_bottom = 402.0
+rotation = 0.30535799264907837
+theme = ExtResource("11")
+theme_override_colors/font_color = Color(0.368627, 0.690196, 0.968627, 1)
+theme_override_font_sizes/font_size = 50
+text = "DEMO_OUTRO_IDOL_TEXT"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Years" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = 11.0
+offset_top = 1.0
+offset_right = 1925.0
+offset_bottom = 152.0
+theme = ExtResource("11")
+theme_override_colors/font_color = Color(0.0862745, 0.619608, 0.713726, 1)
+theme_override_font_sizes/font_size = 120
+text = "DEMO_OUTRO_TITLE_1"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Name" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = 234.0
+offset_top = 292.0
+offset_right = 1630.0
+offset_bottom = 775.0
+theme = ExtResource("11")
+theme_override_colors/font_color = Color(0.890196, 0, 0.12549, 1)
+theme_override_font_sizes/font_size = 120
+text = "DEMO_OUTRO_TITLE_2"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="NextButton" type="Button" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_left = 850.0
+offset_top = 902.0
+offset_right = 1095.0
+offset_bottom = 1013.0
+theme = ExtResource("12")
+text = "CONTINUE_BUTTON"
+script = ExtResource("13")
+
+[node name="Timer" type="Timer" parent="."]
+unique_name_in_owner = true
+
+[connection signal="pressed" from="NextButton" to="NextButton" method="_on_pressed"]

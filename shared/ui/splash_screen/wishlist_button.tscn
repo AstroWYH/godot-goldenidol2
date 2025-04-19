@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=4 uid="uid://b6fjklireya5n"]
+
+[ext_resource type="Theme" uid="uid://c0t1ssatsugaa" path="res://shared/assets/themes/menu_button_steam.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://dj25s57jmwayq" path="res://acts/demo/splashassets/steam_logo.png" id="2"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="3"]
+
+[node name="WishlistButton" type="Button"]
+focus_mode = 0
+theme = ExtResource("1")
+text = "Wishlist on "
+icon = ExtResource("2")
+icon_alignment = 2
+script = ExtResource("3")
+url = "https://store.steampowered.com/app/2716400/The_Rise_of_the_Golden_Idol"

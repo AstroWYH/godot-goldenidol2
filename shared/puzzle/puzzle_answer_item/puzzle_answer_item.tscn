@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=4 uid="uid://gasn1eljuyqh"]
+
+[ext_resource type="Script" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.gd" id="1"]
+
+[node name="PuzzleAnswerItem" type="Node"]
+script = ExtResource("1")

@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=2 format=4 uid="uid://8743aytptrpv"]
+
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="1"]
+
+[resource]
+default_font = ExtResource("1")
+Label/colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+Label/constants/line_spacing = 10
+Label/font_sizes/font_size = 24
+Label/fonts/font = ExtResource("1")

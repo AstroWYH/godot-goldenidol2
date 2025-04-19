@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=4 uid="uid://b31007656bt8n"]
+
+[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/victory_screen_button_global.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://crb7rwujbjw7u" path="res://shared/ui/hub_of_hubs/focus_target.tscn" id="2"]
+
+[node name="VictoryScreenButtonGlobal" type="TextureButton"]
+focus_mode = 0
+script = ExtResource("1")
+
+[node name="FocusTarget" parent="." instance=ExtResource("2")]
+layout_mode = 1

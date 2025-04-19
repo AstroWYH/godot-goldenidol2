@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=4 uid="uid://conj1ktuvjycs"]
+
+[ext_resource type="Texture2D" uid="uid://b8nics8aqtpyx" path="res://shared/assets/placeholder_ui/generic_container_ninepatch.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://b2ceydfd6sj3y" path="res://shared/ui/inventory/scenario_inventory/scenario_inventory.tscn" id="2"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -900.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="ScenarioInventory" parent="." instance=ExtResource("2")]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 1
+offset_left = 890.0
+offset_top = 90.0
+offset_right = 890.0
+offset_bottom = -80.0
+cells = 48
+columns = 12

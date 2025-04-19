@@ -1,0 +1,115 @@
+[gd_scene load_steps=21 format=4 uid="uid://261jfgwf2r8i"]
+
+[ext_resource type="Script" path="res://autoload/sequence_manager/sequence_manager.gd" id="1"]
+[ext_resource type="Script" path="res://autoload/sequence_manager/sequence.gd" id="2"]
+[ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="3"]
+[ext_resource type="Resource" uid="uid://c5k4y6tooqhhe" path="res://acts/full_game/introductory_arc/construction_yard/construction_yard_meta.tres" id="4"]
+[ext_resource type="Resource" uid="uid://bsxn2rt6ks3hy" path="res://acts/full_game/introductory_arc/conference/conference_scenario_meta.tres" id="5"]
+[ext_resource type="Resource" uid="uid://4dkcirccns46" path="res://acts/full_game/colecting_parts_arc/retreat/retreat_scenario_meta.tres" id="6"]
+[ext_resource type="Resource" uid="uid://kr888mo2t6y" path="res://acts/full_game/colecting_parts_arc/jail/prison_scenario_meta.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dxmacw87pkw50" path="res://acts/full_game/colecting_parts_arc/drivein/drive_in_scenario_meta.tres" id="8"]
+[ext_resource type="Resource" uid="uid://cwok63l32tb34" path="res://acts/full_game/colecting_parts_arc/auction/auction_scenario_meta.tres" id="9"]
+[ext_resource type="Resource" uid="uid://whq020mqgbua" path="res://acts/full_game/reconstruction_arc/burning_man/burning_man_scenario_meta.tres" id="10"]
+[ext_resource type="Resource" uid="uid://xbo04dnmug3s" path="res://acts/full_game/reconstruction_arc/banning/banning_scenario_meta.tres" id="11"]
+[ext_resource type="Resource" uid="uid://bsvsdu2sjmjwd" path="res://acts/full_game/reconstruction_arc/eviction/eviction_scenario_meta.tres" id="12"]
+[ext_resource type="Resource" uid="uid://dkcp07cahhq6c" path="res://acts/full_game/research_arc/aviary/aviary_scenario_meta.tres" id="13"]
+[ext_resource type="Resource" uid="uid://dfas4g1x5ve8f" path="res://acts/full_game/research_arc/talent_show/talent_show_scenario_meta.tres" id="14"]
+[ext_resource type="Resource" uid="uid://ch0gyv7q1o53f" path="res://acts/full_game/research_arc/dance/dance_scenario_meta.tres" id="15"]
+[ext_resource type="Resource" uid="uid://dyj1rk4iquifa" path="res://acts/full_game/research_arc/complex/complex_scenario_meta.tres" id="16"]
+[ext_resource type="Resource" uid="uid://lj6iqricfkcc" path="res://acts/full_game/conclusion_arc/beach/beach_scenario.tres" id="17"]
+[ext_resource type="Resource" uid="uid://r1l7ayt5um8e" path="res://acts/full_game/conclusion_arc/boardroom/boardroom_scenario_meta.tres" id="18"]
+[ext_resource type="Resource" uid="uid://cy3o4kcgf0hkr" path="res://acts/full_game/conclusion_arc/museum/museum_scenario_meta.tres" id="19"]
+[ext_resource type="Resource" uid="uid://dnu37hprpqhw1" path="res://acts/full_game/conclusion_arc/dark_experiments/dark_experiments_scenario.tres" id="20"]
+
+[node name="SequenceManager" type="Node"]
+script = ExtResource("1")
+
+[node name="BridgeScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("3")
+sequence = ["poster_snippet", "intro_arc_puzzle", "yard_scenario"]
+
+[node name="YardScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("4")
+sequence = ["secret_letter", "intro_arc_puzzle", "conference_scenario"]
+
+[node name="ConferenceScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("5")
+sequence = ["lab_snippet", "coat_snippet", "intro_arc_puzzle"]
+
+[node name="RetreatScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("6")
+sequence = ["encyclopedia_snippet", "pursuit_corkboard_puzzle", "prison_scenario"]
+
+[node name="PrisonScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("7")
+sequence = ["newspaper_snippet", "pursuit_corkboard_puzzle", "drivein_scenario"]
+
+[node name="DriveinScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("8")
+sequence = ["interview_snippet", "pursuit_corkboard_puzzle", "auction_scenario"]
+
+[node name="AuctionScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("9")
+sequence = ["arthur_call_snippet", "pursuit_corkboard_puzzle"]
+
+[node name="BurningManScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("10")
+sequence = ["tim_snippet", "machine_scroll_puzzle", "injury_scenario"]
+
+[node name="NeighbourhoodScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("11")
+sequence = ["jack_uncle_snippet", "machine_scroll_puzzle", "eviction_scenario"]
+
+[node name="EvictionScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("12")
+sequence = ["oriel_notes_snippet", "eugene_promotion_snippet", "machine_scroll_puzzle"]
+
+[node name="AviaryScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("13")
+sequence = ["trials_call_snippet", "transfers_puzzle", "talent_show_scenario"]
+
+[node name="TalentShowScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("14")
+sequence = ["trials_time_increment_snippet", "transfers_puzzle", "dance_scenario"]
+
+[node name="DanceScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("15")
+sequence = ["trials_disks_and_names_snippet", "transfers_puzzle", "complex_scenario"]
+
+[node name="ComplexScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("16")
+sequence = ["trials_research_outcomes_snippet", "transfers_puzzle"]
+
+[node name="BeachScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("17")
+sequence = ["beach_snippet", "boardroom_scenario"]
+
+[node name="BoardroomScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("18")
+sequence = ["boardroom_snippet", "museum_scenario"]
+
+[node name="MuseumScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("19")
+sequence = ["museum_snippet", "warehouse_scenario"]
+
+[node name="WarehouseScenario" type="Node" parent="."]
+script = ExtResource("2")
+scenario_meta = ExtResource("20")
+sequence = ["warehouse_snippet", "worry_snippet", "idol_functions_puzzle"]

@@ -1,0 +1,21 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://ccqp0lguah71i"]
+
+[ext_resource type="Texture2D" uid="uid://cyekkt5ekbqqu" path="res://shared/ui/misc/slider_idle.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://0u2ab1kitf0g" path="res://shared/ui/misc/slider_disabled.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dr23yyb3pqhot" path="res://shared/ui/misc/slider_over.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dfpawwbdfl7bv" path="res://shared/ui/misc/fill_orange_dark.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://b12de50tkj8b2" path="res://shared/ui/misc/fill_orange.png" id="5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6vqg7"]
+texture = ExtResource("4")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ubiv3"]
+texture = ExtResource("5")
+
+[resource]
+HSlider/icons/grabber = ExtResource("1")
+HSlider/icons/grabber_disabled = ExtResource("2")
+HSlider/icons/grabber_highlight = ExtResource("3")
+HSlider/styles/grabber_area = SubResource("StyleBoxTexture_6vqg7")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxTexture_ubiv3")
+HSlider/styles/slider = null

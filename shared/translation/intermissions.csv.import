@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://boh6wugue38fy"
+
+[deps]
+
+files=["res://shared/translation/intermissions.de.translation", "res://shared/translation/intermissions.en.translation", "res://shared/translation/intermissions.es.translation", "res://shared/translation/intermissions.es_MX.translation", "res://shared/translation/intermissions.fr.translation", "res://shared/translation/intermissions.it.translation", "res://shared/translation/intermissions.ja.translation", "res://shared/translation/intermissions.ko.translation", "res://shared/translation/intermissions.pl.translation", "res://shared/translation/intermissions.pt_BR.translation", "res://shared/translation/intermissions.tr.translation", "res://shared/translation/intermissions.zh_TW.translation"]
+
+source_file="res://shared/translation/intermissions.csv"
+dest_files=["res://shared/translation/intermissions.de.translation", "res://shared/translation/intermissions.en.translation", "res://shared/translation/intermissions.es.translation", "res://shared/translation/intermissions.es_MX.translation", "res://shared/translation/intermissions.fr.translation", "res://shared/translation/intermissions.it.translation", "res://shared/translation/intermissions.ja.translation", "res://shared/translation/intermissions.ko.translation", "res://shared/translation/intermissions.pl.translation", "res://shared/translation/intermissions.pt_BR.translation", "res://shared/translation/intermissions.tr.translation", "res://shared/translation/intermissions.zh_TW.translation"]
+
+[params]
+
+compress=true
+delimiter=0

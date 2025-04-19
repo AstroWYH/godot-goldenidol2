@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://dvfm3w3ku5vhp"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 42
+hint_name = "CHAPTER4_HINT_SYMBOLS_TITLE"
+path = "res://shared/ui/hints/hint_library/4_trials/5_trials_2.tscn"

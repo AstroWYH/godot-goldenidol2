@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://baf1gggi6bikc"
+
+[deps]
+
+files=["res://shared/translation/general-translations.de.translation", "res://shared/translation/general-translations.en.translation", "res://shared/translation/general-translations.es.translation", "res://shared/translation/general-translations.es_MX.translation", "res://shared/translation/general-translations.fr.translation", "res://shared/translation/general-translations.it.translation", "res://shared/translation/general-translations.ja.translation", "res://shared/translation/general-translations.ko.translation", "res://shared/translation/general-translations.pl.translation", "res://shared/translation/general-translations.pt_BR.translation", "res://shared/translation/general-translations.tr.translation", "res://shared/translation/general-translations.zh_TW.translation"]
+
+source_file="res://shared/translation/general-translations.csv"
+dest_files=["res://shared/translation/general-translations.de.translation", "res://shared/translation/general-translations.en.translation", "res://shared/translation/general-translations.es.translation", "res://shared/translation/general-translations.es_MX.translation", "res://shared/translation/general-translations.fr.translation", "res://shared/translation/general-translations.it.translation", "res://shared/translation/general-translations.ja.translation", "res://shared/translation/general-translations.ko.translation", "res://shared/translation/general-translations.pl.translation", "res://shared/translation/general-translations.pt_BR.translation", "res://shared/translation/general-translations.tr.translation", "res://shared/translation/general-translations.zh_TW.translation"]
+
+[params]
+
+compress=true
+delimiter=0

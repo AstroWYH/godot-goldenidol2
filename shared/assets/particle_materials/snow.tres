@@ -1,0 +1,13 @@
+[gd_resource type="ParticleProcessMaterial" format=4 uid="uid://bhb7jq8721eiw"]
+
+[resource]
+lifetime_randomness = 1.0
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1920, 1, 1)
+initial_velocity_min = 400.0
+initial_velocity_max = 500.0
+gravity = Vector3(0, 98, 0)
+scale_min = 0.5
+turbulence_noise_strength = 0.5
+turbulence_noise_scale = 2.0

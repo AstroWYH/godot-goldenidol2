@@ -1,0 +1,235 @@
+[gd_scene load_steps=24 format=4 uid="uid://c8ai4iw2mesr6"]
+
+[ext_resource type="Shader" path="res://shared/assets/effects/water.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://bywexi3i1gmib" path="res://shared/assets/graphic/water.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://clck6m8fbq088" path="res://shared/assets/effects/seaweed.tscn" id="3"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cvncl1o56usum" path="res://shared/assets/graphic/buble.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://crl0qf83cm316" path="res://shared/assets/graphic/fish.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://buoevdoi1a3td" path="res://shared/assets/graphic/waterdust.png" id="7"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_sitii"]
+shader = ExtResource("1")
+shader_parameter/wave_freq = 1.0
+shader_parameter/wave_count = 0.5
+
+[sub_resource type="Gradient" id="Gradient_i8hrn"]
+offsets = PackedFloat32Array(0, 0.267399, 0.794872, 1)
+colors = PackedColorArray(0.329412, 1, 0.788235, 0.290196, 0.470588, 0.952941, 0.807843, 0.835294, 0.752941, 0.858824, 0.843137, 0.603922, 0, 0.917647, 0.917647, 0.376471)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_5d6xf"]
+gradient = SubResource("Gradient_i8hrn")
+
+[sub_resource type="Curve" id="Curve_ek8ls"]
+_data = [Vector2(0.00657894, 0.221053), 0.0, 0.0, 0, 0, Vector2(0.414474, 0.642105), -3.8981800079345703, -3.8981800079345703, 0, 0, Vector2(1, 0.273684), -3.3142900466918945, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_bn3im"]
+curve = SubResource("Curve_ek8ls")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ugbn2"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1, 300, 1)
+angle_max = 720.0
+direction = Vector3(-2, 0, 0)
+initial_velocity_min = 293.6300048828125
+initial_velocity_max = 892.8900146484375
+angular_velocity_min = 114.1500015258789
+angular_velocity_max = 368.7900085449219
+gravity = Vector3(0, 0, 0)
+scale_min = 0.20000000298023224
+scale_curve = SubResource("CurveTexture_bn3im")
+color_ramp = SubResource("GradientTexture1D_5d6xf")
+turbulence_noise_scale = 4.670000076293945
+
+[sub_resource type="Gradient" id="Gradient_tmehd"]
+offsets = PackedFloat32Array(0, 0.274725, 0.681319, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0.592157, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_dnis4"]
+gradient = SubResource("Gradient_tmehd")
+
+[sub_resource type="Curve" id="Curve_vgkjd"]
+_data = [Vector2(0, 0.178947), 0.0, 2.752000093460083, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_0y21d"]
+curve = SubResource("Curve_vgkjd")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_e2bei"]
+lifetime_randomness = 0.1
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 400.0
+angle_max = 491.70001220703125
+spread = 103.16999816894531
+angular_velocity_min = 96.58999633789063
+angular_velocity_max = 255.0800018310547
+gravity = Vector3(0, -98, 0)
+scale_min = 0.20000000298023224
+scale_max = 0.5
+scale_curve = SubResource("CurveTexture_0y21d")
+color_ramp = SubResource("GradientTexture1D_dnis4")
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_pn536"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_i4kvf"]
+offsets = PackedFloat32Array(0, 0.692833)
+colors = PackedColorArray(0.176752, 0.965329, 0.966313, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_7gf1i"]
+gradient = SubResource("Gradient_i4kvf")
+fill = 1
+fill_from = Vector2(0.482906, 0.504274)
+fill_to = Vector2(0, 1)
+
+[sub_resource type="Animation" id="Animation_lwjel"]
+resource_name = "new_animation"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(-655, 156), Vector2(945, 63), Vector2(2559, 769)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Water/Fish:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1694, 794), Vector2(1694, 840), Vector2(1694, 794)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Water/Fish:skew")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0593412, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Waterdust:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(3143, 547), Vector2(-1230, 568)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_e0ye4"]
+_data = {
+"new_animation": SubResource("Animation_lwjel")
+}
+
+[node name="SubViewportContainer" type="SubViewportContainer"]
+material = SubResource("ShaderMaterial_sitii")
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="."]
+handle_input_locally = false
+size = Vector2i(1920, 1080)
+render_target_update_mode = 4
+
+[node name="Node2D" type="Node2D" parent="SubViewport"]
+position = Vector2(102, 21)
+
+[node name="Water" type="Sprite2D" parent="SubViewport/Node2D"]
+position = Vector2(-101.11, -25.6302)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2")
+centered = false
+
+[node name="Node2D3" parent="SubViewport/Node2D/Water" instance=ExtResource("3")]
+position = Vector2(2266.22, 1843.26)
+scale = Vector2(2, 2)
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="SubViewport/Node2D/Water"]
+position = Vector2(3378.22, 1209.26)
+amount = 16
+process_material = SubResource("ParticleProcessMaterial_ugbn2")
+texture = ExtResource("4")
+lifetime = 10.0
+randomness = 0.07000000029802322
+
+[node name="GPUParticles2D4" type="GPUParticles2D" parent="SubViewport/Node2D/Water"]
+position = Vector2(2434, 1786)
+process_material = SubResource("ParticleProcessMaterial_e2bei")
+texture = ExtResource("5")
+lifetime = 5.0
+explosiveness = 0.10999999940395355
+
+[node name="GPUParticles2D5" type="GPUParticles2D" parent="SubViewport/Node2D/Water"]
+position = Vector2(1078, 1712)
+process_material = SubResource("ParticleProcessMaterial_e2bei")
+texture = ExtResource("5")
+lifetime = 5.0
+explosiveness = 0.10999999940395355
+
+[node name="Fish" type="Sprite2D" parent="SubViewport/Node2D/Water"]
+position = Vector2(1694, 794)
+scale = Vector2(1.20159, 1.06881)
+texture = ExtResource("6")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="SubViewport/Node2D/Water"]
+position = Vector2(3828, 1092)
+amount = 16
+process_material = SubResource("ParticleProcessMaterial_ugbn2")
+texture = ExtResource("4")
+lifetime = 10.0
+randomness = 0.07000000029802322
+
+[node name="GPUParticles2D3" type="GPUParticles2D" parent="SubViewport/Node2D/Water"]
+position = Vector2(2066, 1242)
+process_material = SubResource("ParticleProcessMaterial_e2bei")
+texture = ExtResource("5")
+lifetime = 5.0
+explosiveness = 0.10999999940395355
+
+[node name="Node2D" parent="SubViewport/Node2D" instance=ExtResource("3")]
+position = Vector2(1915.89, 865.37)
+
+[node name="Node2D2" parent="SubViewport/Node2D" instance=ExtResource("3")]
+position = Vector2(840, 963)
+rotation = 0.193231999874115
+
+[node name="PointLight2D" type="PointLight2D" parent="SubViewport/Node2D"]
+material = SubResource("CanvasItemMaterial_pn536")
+position = Vector2(-655, 156)
+scale = Vector2(31.1253, 27.3098)
+texture = SubResource("GradientTexture2D_7gf1i")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SubViewport/Node2D"]
+libraries = {
+"": SubResource("AnimationLibrary_e0ye4")
+}
+autoplay = "new_animation"
+
+[node name="Waterdust" type="Sprite2D" parent="SubViewport/Node2D"]
+position = Vector2(3143, 547)
+texture = ExtResource("7")

@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=4 uid="uid://c5ge8b85esf76"]
+
+[ext_resource type="Texture2D" uid="uid://daeu7ik4nqar8" path="res://acts/full_game/hubbackgrounds/assets/testscreen.png" id="1"]
+[ext_resource type="Script" path="res://shared/ui/hub_scenario/scenario_hub_screen.gd" id="2"]
+[ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cwhu6"]
+
+[node name="TextureRect" type="TextureRect"]
+clip_children = 2
+offset_left = 400.0
+offset_top = 474.0
+offset_right = 842.0
+offset_bottom = 798.0
+texture = ExtResource("1")
+script = ExtResource("2")
+scenario_meta = ExtResource("3")
+available_animation_path = "res://acts/full_game/introductory_arc/hub/assets/bridge_animation_bw.tres"
+finished_animation_path = "res://acts/full_game/introductory_arc/hub/assets/bridge_animation_c.tres"
+sequence_element_id = "bridge_scenario"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(185, 124)
+sprite_frames = SubResource("SpriteFrames_cwhu6")
+
+[node name="FocusIndicator" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

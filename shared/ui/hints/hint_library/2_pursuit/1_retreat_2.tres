@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://dwifqhy488vko"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 212
+hint_name = "RETREAT_HINT_RESULT_TITLE"
+path = "res://shared/ui/hints/hint_library/2_pursuit/1_retreat_2.tscn"

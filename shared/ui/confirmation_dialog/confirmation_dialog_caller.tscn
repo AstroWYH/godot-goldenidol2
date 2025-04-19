@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=4 uid="uid://b0bm4cbqkel8n"]
+
+[ext_resource type="Script" path="res://shared/ui/scenario_select/confirmation_dialog_caller.gd" id="1"]
+
+[node name="ConfirmationDialogCaller" type="Node"]
+script = ExtResource("1")
+confirm_button_text = "Exit"
+reject_button_text = "Cancel"

@@ -1,0 +1,167 @@
+[gd_scene load_steps=10 format=4 uid="uid://xlu3q0mym0xq"]
+
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/finale_panel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dyid5cvbfke20" path="res://shared/assets/frames/frame_panel.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dbmqwqe16k8ud" path="res://shared/assets/placeholder_ui/split_ui_experiments/texture.png" id="3"]
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/finale_switcher_button.gd" id="4"]
+[ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="5"]
+[ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="6"]
+[ext_resource type="Resource" uid="uid://2bv3xcj1ya46" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_portrait_puzzle_duplicate_meta.tres" id="7"]
+[ext_resource type="Resource" uid="uid://c5k4y6tooqhhe" path="res://acts/full_game/introductory_arc/construction_yard/construction_yard_meta.tres" id="8"]
+[ext_resource type="Resource" uid="uid://bsxn2rt6ks3hy" path="res://acts/full_game/introductory_arc/conference/conference_scenario_meta.tres" id="9"]
+
+[node name="FinalePanel" type="MarginContainer" groups=["hide_for_capturing"]]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -173.5
+offset_top = -1077.0
+offset_right = 173.5
+offset_bottom = -943.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+script = ExtResource("1")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = -25
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = -25
+theme_override_constants/margin_bottom = 0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="ButtonContainer" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 15
+
+[node name="NavigationButton" type="TextureButton" parent="ButtonContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("3")
+ignore_texture_size = true
+stretch_mode = 1
+script = ExtResource("4")
+scenario_meta = ExtResource("5")
+
+[node name="Label" type="Label" parent="ButtonContainer/NavigationButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Asylum"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton2" type="TextureButton" parent="ButtonContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("3")
+ignore_texture_size = true
+stretch_mode = 1
+script = ExtResource("4")
+scenario_meta = ExtResource("6")
+required_puzzles = [ExtResource("7")]
+
+[node name="Label" type="Label" parent="ButtonContainer/NavigationButton2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Bridge"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton3" type="TextureButton" parent="ButtonContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("3")
+ignore_texture_size = true
+stretch_mode = 1
+script = ExtResource("4")
+scenario_meta = ExtResource("8")
+
+[node name="Label" type="Label" parent="ButtonContainer/NavigationButton3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Yard"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NavigationButton4" type="TextureButton" parent="ButtonContainer"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("3")
+ignore_texture_size = true
+stretch_mode = 1
+script = ExtResource("4")
+scenario_meta = ExtResource("9")
+
+[node name="Label" type="Label" parent="ButtonContainer/NavigationButton4"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Conference"
+horizontal_alignment = 1
+vertical_alignment = 1

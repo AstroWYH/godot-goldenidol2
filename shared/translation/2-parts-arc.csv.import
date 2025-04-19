@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://chn0gwbtj4u0u"
+path="res://shared/translation/2-parts-arc.de.translation"
+
+[deps]
+
+source_file="res://shared/translation/2-parts-arc.csv"
+dest_files=["res://shared/translation/2-parts-arc.de.translation", "res://shared/translation/2-parts-arc.en.translation", "res://shared/translation/2-parts-arc.es.translation", "res://shared/translation/2-parts-arc.es_MX.translation", "res://shared/translation/2-parts-arc.fr.translation", "res://shared/translation/2-parts-arc.it.translation", "res://shared/translation/2-parts-arc.ja.translation", "res://shared/translation/2-parts-arc.ko.translation", "res://shared/translation/2-parts-arc.pl.translation", "res://shared/translation/2-parts-arc.pt_BR.translation", "res://shared/translation/2-parts-arc.tr.translation", "res://shared/translation/2-parts-arc.zh_TW.translation"]
+
+[params]
+
+dummy_value_ignore_me=0

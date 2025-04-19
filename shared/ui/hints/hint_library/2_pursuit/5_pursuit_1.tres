@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://ccnjdj0fbfo8o"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 21
+hint_name = "CHAPTER2_HINT_CORKBOARD_TITLE"
+path = "res://shared/ui/hints/hint_library/2_pursuit/5_pursuit_1.tscn"

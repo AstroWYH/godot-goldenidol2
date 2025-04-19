@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=4 uid="uid://ceiwyipjk4mpt"]
+
+[ext_resource type="Script" path="res://shared/ui/phrase_slot/phrase_slot.gd" id="1"]
+[ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="2"]
+[ext_resource type="Script" path="res://shared/ui/phrase_slot/phrase_slot_button.gd" id="3"]
+[ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="4"]
+
+[node name="PhraseSlot" type="HBoxContainer"]
+custom_minimum_size = Vector2(30, 30)
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(960, 540)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1")
+
+[node name="Button" type="Button" parent="."]
+custom_minimum_size = Vector2(64, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2")
+script = ExtResource("3")
+
+[node name="DropReceiver" parent="Button" instance=ExtResource("4")]
+layout_mode = 1
+accept_tags = []
+drop_radius = 10.0
+hide_on_drop = true
+keep_copy_on_drop = false
+free_draggable_on_invalid_drop = true
+read_only = false
+duplicate_slotted_draggable_on_drag = false
+protect_slotted_draggable = false
+swap_on_valid_drop = false
+accept_siblings_only = false
+has_static_draggable = false
+metadata = {
+"id": 0
+}
+
+[connection signal="draggable_dropped" from="Button/DropReceiver" to="." method="_on_draggable_dropped"]
+[connection signal="unslotted" from="Button/DropReceiver" to="." method="_on_unslotted"]

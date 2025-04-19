@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=4 uid="uid://deaaain3n2nj1"]
+
+[ext_resource type="Script" path="res://shared/ui/thank_you.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://b0cg6xx8m1qq2" path="res://shared/assets/thankyou.png" id="2"]
+[ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="3"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="4"]
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="5"]
+
+[node name="ThankYouScreen" type="ColorRect"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+texture = ExtResource("2")
+
+[node name="ShadowLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 268.0
+offset_right = 1560.0
+offset_bottom = 755.0
+theme_override_colors/font_color = Color(0.94902, 0.121569, 0.631373, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 160
+text = "ENDING_THANK_YOU"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Text" type="Label" parent="."]
+layout_mode = 0
+offset_left = 400.0
+offset_top = 262.0
+offset_right = 1566.0
+offset_bottom = 771.0
+theme_override_colors/font_color = Color(0, 0.960784, 0.94902, 1)
+theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 160
+text = "ENDING_THANK_YOU"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="BackButton2" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 24.0
+offset_top = 980.0
+offset_right = 274.0
+offset_bottom = 1061.0
+mouse_default_cursor_shape = 2
+theme = ExtResource("4")
+text = "BACK_BUTTON"
+text_overrun_behavior = 1
+script = ExtResource("5")
+target_screen_path = "res://shared/ui/hub_of_hubs/hub_of_hubs.tscn"
+
+[connection signal="pressed" from="BackButton2" to="BackButton2" method="_on_pressed"]

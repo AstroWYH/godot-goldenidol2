@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=4 uid="uid://dh2eoc00b3b3h"]
+
+[ext_resource type="Script" path="res://autoload/dragdrop_manager/container_dragger.gd" id="1"]
+
+[node name="ContainerDragger" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1")

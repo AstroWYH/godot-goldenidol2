@@ -1,0 +1,49 @@
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://ccp8gs4pmlbwx"]
+
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="1"]
+[ext_resource type="Texture2D" uid="uid://yqi1nm7qfr5t" path="res://shared/ui/buttons/btn_0043_dropdown_idle.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b12wmggr2xkbm" path="res://shared/ui/misc/frame_focus.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ihhq4tcnry0n" path="res://shared/ui/bottom_bar/btn_scenario_hover.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bpymtl73s6vbf" path="res://shared/ui/bottom_bar/btn_scenario.png" id="5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dv3tn"]
+texture = ExtResource("3")
+texture_margin_left = 18.0
+texture_margin_top = 18.0
+texture_margin_right = 18.0
+texture_margin_bottom = 18.0
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vnfgo"]
+texture = ExtResource("4")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xwe0s"]
+texture = ExtResource("5")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+
+[resource]
+OptionButton/colors/font_color = Color(0.875, 0.875, 0.875, 1)
+OptionButton/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+OptionButton/colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+OptionButton/colors/font_pressed_color = Color(1, 1, 1, 1)
+OptionButton/constants/arrow_margin = 10
+OptionButton/constants/h_separation = 6
+OptionButton/font_sizes/font_size = 22
+OptionButton/fonts/font = ExtResource("1")
+OptionButton/icons/arrow = ExtResource("2")
+OptionButton/styles/focus = SubResource("StyleBoxTexture_dv3tn")
+OptionButton/styles/hover = SubResource("StyleBoxTexture_vnfgo")
+OptionButton/styles/normal = SubResource("StyleBoxTexture_xwe0s")
+OptionButton/styles/normal_mirrored = SubResource("StyleBoxTexture_xwe0s")
+OptionButton/styles/pressed = SubResource("StyleBoxTexture_xwe0s")
+OptionButton/styles/pressed_mirrored = SubResource("StyleBoxTexture_xwe0s")

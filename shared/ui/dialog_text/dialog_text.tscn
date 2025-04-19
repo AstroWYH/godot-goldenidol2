@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=4 uid="uid://wai078mi6h3w"]
+
+[ext_resource type="Script" path="res://shared/ui/dialog_text/dialog_text.gd" id="1"]
+[ext_resource type="Theme" uid="uid://b6j0etcqxw8oj" path="res://shared/assets/themes/tooltip_panel_theme.tres" id="2"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="3"]
+
+[node name="DialogText" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+text = null
+metadata/_edit_horizontal_guides_ = [-66.0]
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 99.0
+offset_bottom = 30.0
+theme = ExtResource("2")
+
+[node name="Container" type="CenterContainer" parent="Panel"]
+layout_mode = 1
+offset_right = 87.0
+offset_bottom = 26.0
+
+[node name="Label" type="Label" parent="Panel/Container"]
+layout_mode = 2
+focus_mode = 2
+theme = ExtResource("3")
+theme_override_font_sizes/font_size = 24
+text = "Change me"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="resized" from="Panel/Container" to="." method="_on_container_resized"]

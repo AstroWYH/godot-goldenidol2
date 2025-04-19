@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://de0q57p2ctyf0"
+
+[deps]
+
+files=["res://shared/translation/11-08 backup/intermissions.de.translation", "res://shared/translation/11-08 backup/intermissions.en.translation", "res://shared/translation/11-08 backup/intermissions.es.translation", "res://shared/translation/11-08 backup/intermissions.es_MX.translation", "res://shared/translation/11-08 backup/intermissions.fr.translation", "res://shared/translation/11-08 backup/intermissions.it.translation", "res://shared/translation/11-08 backup/intermissions.ja.translation", "res://shared/translation/11-08 backup/intermissions.ko.translation", "res://shared/translation/11-08 backup/intermissions.pl.translation", "res://shared/translation/11-08 backup/intermissions.pt_BR.translation", "res://shared/translation/11-08 backup/intermissions.tr.translation", "res://shared/translation/11-08 backup/intermissions.zh_TW.translation"]
+
+source_file="res://shared/translation/11-08 backup/intermissions.csv"
+dest_files=["res://shared/translation/11-08 backup/intermissions.de.translation", "res://shared/translation/11-08 backup/intermissions.en.translation", "res://shared/translation/11-08 backup/intermissions.es.translation", "res://shared/translation/11-08 backup/intermissions.es_MX.translation", "res://shared/translation/11-08 backup/intermissions.fr.translation", "res://shared/translation/11-08 backup/intermissions.it.translation", "res://shared/translation/11-08 backup/intermissions.ja.translation", "res://shared/translation/11-08 backup/intermissions.ko.translation", "res://shared/translation/11-08 backup/intermissions.pl.translation", "res://shared/translation/11-08 backup/intermissions.pt_BR.translation", "res://shared/translation/11-08 backup/intermissions.tr.translation", "res://shared/translation/11-08 backup/intermissions.zh_TW.translation"]
+
+[params]
+
+compress=true
+delimiter=0

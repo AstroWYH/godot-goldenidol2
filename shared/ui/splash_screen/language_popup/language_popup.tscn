@@ -1,0 +1,86 @@
+[gd_scene load_steps=6 format=4 uid="uid://dx8itecq77gyt"]
+
+[ext_resource type="Script" path="res://shared/ui/splash_screen/language_popup/language_popup.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dyid5cvbfke20" path="res://shared/assets/frames/frame_panel.png" id="2"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="3"]
+[ext_resource type="PackedScene" uid="uid://hqqrli55ve5h" path="res://shared/ui/ingame_language_switcher/ingame_language_switcher.tscn" id="4"]
+[ext_resource type="Theme" uid="uid://ccp8gs4pmlbwx" path="res://shared/ui/themes/dropdown_menu.tres" id="5"]
+
+[node name="LanguagePopup" type="CanvasLayer"]
+layer = 5
+script = ExtResource("1")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.352941)
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="CenterContainer"]
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 2
+texture = ExtResource("2")
+patch_margin_left = 35
+patch_margin_top = 35
+patch_margin_right = 35
+patch_margin_bottom = 35
+
+[node name="CloseButton" type="Button" parent="CenterContainer/NinePatchRect"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -36.0
+offset_bottom = 36.0
+grow_horizontal = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("3")
+theme_type_variation = &"small_x"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer/NinePatchRect"]
+layout_mode = 2
+offset_left = 33.0
+offset_top = 10.0
+offset_right = 546.0
+offset_bottom = 389.0
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Label" type="Label" parent="CenterContainer/NinePatchRect/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.745098, 0.615686, 0.388235, 1)
+theme_override_font_sizes/font_size = 30
+text = "SELECT_LANGUAGE"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="CenterContainer/NinePatchRect/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.745098, 0.615686, 0.388235, 1)
+theme_override_font_sizes/font_size = 25
+text = "LANGUAGE_SELECT_PROMPT"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="IngameLanguageSwitcher" parent="CenterContainer/NinePatchRect/VBoxContainer" node_paths=PackedStringArray("parent_dialog") instance=ExtResource("4")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_default_cursor_shape = 2
+theme = ExtResource("5")
+parent_dialog = NodePath("../../../..")
+
+[connection signal="gui_input" from="ColorRect" to="." method="_on_color_rect_gui_input"]

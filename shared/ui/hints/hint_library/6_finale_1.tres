@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://d03cjyd3lwo6j"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 551
+hint_name = "FINALE_HINT_PROJECT_TITLE"
+path = "res://shared/ui/hints/hint_library/6_finale_1.tscn"

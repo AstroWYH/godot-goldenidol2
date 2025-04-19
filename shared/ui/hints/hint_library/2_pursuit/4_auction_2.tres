@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://bpa4w0m1qk37u"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 242
+hint_name = "AUCTION_HINT_FIGURES_TITLE"
+path = "res://shared/ui/hints/hint_library/2_pursuit/4_auction_2.tscn"

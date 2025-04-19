@@ -1,0 +1,263 @@
+[gd_scene load_steps=15 format=4 uid="uid://qngfp4xlt30h"]
+
+[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_split_with_new_icons.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://6m03hn7ug4aq" path="res://shared/assets/placeholder_ui/special_ninepatch_v3.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ckfaor7dsjqqg" path="res://shared/assets/placeholder_ui/buttons/marker_left_small_04.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d0yf8cqnm5lw" path="res://shared/assets/placeholder_ui/buttons/marker_left_small_02.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://newaajuk40e3" path="res://shared/assets/placeholder_ui/buttons/marker_left_small_03.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://kn2a8rr8knpk" path="res://shared/assets/placeholder_ui/buttons/marker_right_small_04.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ddo6alqr0n4sx" path="res://shared/assets/placeholder_ui/buttons/marker_right_small_02.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b5r3trqfqda06" path="res://shared/assets/placeholder_ui/buttons/marker_right_small_03.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cguma5pp5dbsf" path="res://shared/assets/placeholder_ui/buttons/phrases.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bonku6ovsl8cb" path="res://shared/assets/placeholder_ui/buttons/cells.png" id="10"]
+[ext_resource type="PackedScene" uid="uid://b8peo4cxrve12" path="res://shared/ui/thinking_ui/mini_indicator/mini_indicator.tscn" id="11"]
+[ext_resource type="Texture2D" uid="uid://b7w6es0ilf01w" path="res://shared/assets/placeholder_ui/buttons/portraits.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://e24j46v6m202" path="res://shared/assets/placeholder_ui/buttons/code.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dmibx06vyfoe6" path="res://shared/assets/placeholder_ui/buttons/scroll.png" id="14"]
+
+[node name="ContainerSwitcher" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1808.0
+offset_bottom = -198.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_right = 116.0
+offset_bottom = 550.0
+texture = ExtResource("2")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 8
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 128.0
+offset_bottom = 208.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="Phrases" type="MarginContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/HBoxContainer/Phrases"]
+custom_minimum_size = Vector2(200, 170)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Phrases/Control"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 181.0
+theme_override_constants/separation = -8
+
+[node name="PhraseButton1" type="TextureButton" parent="MarginContainer/HBoxContainer/Phrases/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("5")
+
+[node name="PhraseButton2" type="TextureButton" parent="MarginContainer/HBoxContainer/Phrases/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("6")
+texture_pressed = ExtResource("7")
+texture_hover = ExtResource("8")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/HBoxContainer/Phrases/Control"]
+position = Vector2(21, 17)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9")
+centered = false
+
+[node name="Cells" type="MarginContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/HBoxContainer/Cells"]
+custom_minimum_size = Vector2(200, 170)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Cells/Control"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 181.0
+theme_override_constants/separation = -8
+
+[node name="CellButton1" type="TextureButton" parent="MarginContainer/HBoxContainer/Cells/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("5")
+texture_focused = ExtResource("6")
+
+[node name="CellButton2" type="TextureButton" parent="MarginContainer/HBoxContainer/Cells/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("6")
+texture_pressed = ExtResource("7")
+texture_hover = ExtResource("8")
+texture_focused = ExtResource("6")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/HBoxContainer/Cells/Control"]
+position = Vector2(23, 11)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10")
+centered = false
+
+[node name="Indicator" parent="MarginContainer/HBoxContainer/Cells/Control" instance=ExtResource("11")]
+
+[node name="Characters" type="MarginContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/HBoxContainer/Characters"]
+custom_minimum_size = Vector2(200, 170)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Characters/Control"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 181.0
+theme_override_constants/separation = -8
+
+[node name="CharacterButton1" type="TextureButton" parent="MarginContainer/HBoxContainer/Characters/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("5")
+
+[node name="CharacterButton2" type="TextureButton" parent="MarginContainer/HBoxContainer/Characters/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("6")
+texture_pressed = ExtResource("7")
+texture_hover = ExtResource("8")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/HBoxContainer/Characters/Control"]
+position = Vector2(20, 9)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("12")
+centered = false
+
+[node name="Indicator" parent="MarginContainer/HBoxContainer/Characters/Control" instance=ExtResource("11")]
+
+[node name="Code" type="MarginContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/HBoxContainer/Code"]
+custom_minimum_size = Vector2(200, 170)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Code/Control"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 181.0
+theme_override_constants/separation = -8
+
+[node name="CodeButton1" type="TextureButton" parent="MarginContainer/HBoxContainer/Code/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("5")
+
+[node name="CodeButton2" type="TextureButton" parent="MarginContainer/HBoxContainer/Code/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("6")
+texture_pressed = ExtResource("7")
+texture_hover = ExtResource("8")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/HBoxContainer/Code/Control"]
+position = Vector2(21, 8)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("13")
+centered = false
+
+[node name="Indicator" parent="MarginContainer/HBoxContainer/Code/Control" instance=ExtResource("11")]
+
+[node name="Scroll" type="MarginContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/HBoxContainer/Scroll"]
+custom_minimum_size = Vector2(200, 170)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/Scroll/Control"]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 181.0
+theme_override_constants/separation = -8
+
+[node name="ScrollButton1" type="TextureButton" parent="MarginContainer/HBoxContainer/Scroll/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+texture_hover = ExtResource("5")
+
+[node name="ScrollButton2" type="TextureButton" parent="MarginContainer/HBoxContainer/Scroll/Control/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 170)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+texture_normal = ExtResource("6")
+texture_pressed = ExtResource("7")
+texture_hover = ExtResource("8")
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer/HBoxContainer/Scroll/Control"]
+position = Vector2(25, 8)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("14")
+centered = false
+
+[node name="Indicator" parent="MarginContainer/HBoxContainer/Scroll/Control" instance=ExtResource("11")]

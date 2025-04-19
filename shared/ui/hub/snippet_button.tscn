@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=4 uid="uid://dhwm06foikq1l"]
+
+[ext_resource type="Texture2D" uid="uid://cgrhpiq6eea8s" path="res://acts/full_game/introductory_arc/hub/assets/diploma_snipet.png" id="1"]
+[ext_resource type="Script" path="res://shared/ui/hub/snippet_button.gd" id="2"]
+
+[sub_resource type="Animation" id="Animation_gdc7b"]
+length = 0.0010000000474974513
+
+[sub_resource type="Animation" id="Animation_ywx5i"]
+resource_name = "appear"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.7, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(1.2, 1.2), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_df6f0"]
+_data = {
+"RESET": SubResource("Animation_gdc7b"),
+"appear": SubResource("Animation_ywx5i")
+}
+
+[node name="BribeButton" type="TextureButton"]
+offset_right = 209.0
+offset_bottom = 290.0
+scale = Vector2(1e-05, 1e-05)
+pivot_offset = Vector2(100, 150)
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("1")
+texture_hover = ExtResource("1")
+script = ExtResource("2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_df6f0")
+}
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

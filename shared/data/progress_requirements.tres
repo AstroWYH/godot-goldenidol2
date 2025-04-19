@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ProgressRequirementTable" load_steps=2 format=4 uid="uid://c6odtfsferbwv"]
+
+[ext_resource type="Script" path="res://shared/resources/progress_requirement_table.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+data = [[1000, []], [91, []], [92, []], [24, [236]], [23, [221]], [22, [212]], [21, []], [52, []], [51, [521]], [54, [531, 532]], [55, [501]], [53, [511, 512]], [11, []], [12, []], [14, [131]], [13, [121]], [32, [311]], [31, []], [33, [324]], [41, []], [44, [431]], [43, [888]], [42, [411]], [81, []], [82, []], [75, [741, 742, 743, 744]], [74, [732]], [73, [725, 726]], [71, []], [72, [712]], [61, []], [62, [612]], [63, [621, 622]], [64, [601]]]

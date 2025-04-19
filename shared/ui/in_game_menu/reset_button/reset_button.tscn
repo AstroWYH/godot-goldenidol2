@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=4 uid="uid://doh683dn47j2p"]
+
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="1"]
+[ext_resource type="Script" path="res://shared/ui/in_game_menu/reset_button/reset_button.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="3"]
+
+[node name="ResetButton" type="Button"]
+theme = ExtResource("1")
+theme_type_variation = &"grey"
+text = "DynamicResetButton"
+script = ExtResource("2")
+
+[node name="ConfirmationDialogCaller" parent="." instance=ExtResource("3")]
+prompt_text = "DELETE_SAVEGAME_DIALOG"
+confirm_button_text = "DELETE_SAVEGAME_DIALOG_CONFIRM"
+reject_button_text = "CANCEL_BUTTON"

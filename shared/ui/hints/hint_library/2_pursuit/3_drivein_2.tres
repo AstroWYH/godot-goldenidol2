@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://dsubm70xkb2ou"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 232
+hint_name = "DRIVEIN_HINT_FIRE_TITLE"
+path = "res://shared/ui/hints/hint_library/2_pursuit/3_drivein_2.tscn"

@@ -1,0 +1,179 @@
+[gd_scene load_steps=10 format=4 uid="uid://ckkt827udcdt7"]
+
+[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_retreat.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bvqmaexxkqscp" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel_2xsmaller.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cfjtaev77tctm" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel.png" id="3"]
+[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_button_drag.gd" id="4"]
+[ext_resource type="Texture2D" uid="uid://cguma5pp5dbsf" path="res://shared/assets/placeholder_ui/buttons/phrases.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dmibx06vyfoe6" path="res://shared/assets/placeholder_ui/buttons/scroll.png" id="6"]
+[ext_resource type="PackedScene" uid="uid://b8peo4cxrve12" path="res://shared/ui/thinking_ui/mini_indicator/mini_indicator.tscn" id="7"]
+[ext_resource type="Texture2D" uid="uid://bonku6ovsl8cb" path="res://shared/assets/placeholder_ui/buttons/cells.png" id="8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ep3y5"]
+bg_color = Color(0.968627, 0.384314, 0.258824, 1)
+
+[node name="ContainerSwitcher" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -866.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = -6.0
+offset_top = 1.0
+offset_right = 3844.0
+offset_bottom = 433.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2")
+patch_margin_left = 12
+patch_margin_top = 50
+patch_margin_right = 12
+patch_margin_bottom = 12
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(963, 105)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 30.0
+offset_bottom = 140.0
+grow_horizontal = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="PhraseButton" type="Button" parent="HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(110, 110)
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ep3y5")
+toggle_mode = true
+script = ExtResource("4")
+
+[node name="Control" type="Control" parent="HBoxContainer/PhraseButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_bottom = 90.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/PhraseButton/Control"]
+scale = Vector2(0.369492, 0.369492)
+texture = ExtResource("5")
+
+[node name="Label" type="Label" parent="HBoxContainer/PhraseButton/Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -44.0
+offset_right = 88.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "Phrases"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollButton" type="Button" parent="HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(110, 110)
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ep3y5")
+toggle_mode = true
+script = ExtResource("4")
+
+[node name="Control" type="Control" parent="HBoxContainer/ScrollButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_bottom = 90.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/ScrollButton/Control"]
+scale = Vector2(0.369492, 0.369492)
+texture = ExtResource("6")
+
+[node name="Scroll" type="Label" parent="HBoxContainer/ScrollButton/Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -44.0
+offset_right = 88.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "Scroll"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Indicator" parent="HBoxContainer/ScrollButton" instance=ExtResource("7")]
+
+[node name="SurveyButton" type="Button" parent="HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(110, 110)
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ep3y5")
+toggle_mode = true
+script = ExtResource("4")
+
+[node name="Control" type="Control" parent="HBoxContainer/SurveyButton"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_bottom = 90.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="HBoxContainer/SurveyButton/Control"]
+scale = Vector2(0.369492, 0.369492)
+texture = ExtResource("8")
+
+[node name="Label" type="Label" parent="HBoxContainer/SurveyButton/Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -44.0
+offset_right = 88.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "Cells"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Indicator" parent="HBoxContainer/SurveyButton" instance=ExtResource("7")]

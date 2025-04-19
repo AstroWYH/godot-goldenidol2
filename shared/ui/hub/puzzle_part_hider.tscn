@@ -1,0 +1,62 @@
+[gd_scene load_steps=7 format=4 uid="uid://bmxayvqf2j8pc"]
+
+[ext_resource type="Texture2D" uid="uid://0wqbs2b4rinc" path="res://shared/assets/frames/hider.png" id="1"]
+[ext_resource type="Script" path="res://shared/ui/hub/puzzle_part_hider.gd" id="2"]
+[ext_resource type="Resource" uid="uid://cjbiv837rsm1b" path="res://acts/full_game/introductory_arc/bridge/puzzles/bridge_scroll_meta.tres" id="3"]
+
+[sub_resource type="Animation" id="Animation_f6xx1"]
+length = 0.0010000000474974513
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_fvhqm"]
+resource_name = "reveal"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_17g4x"]
+_data = {
+"RESET": SubResource("Animation_f6xx1"),
+"reveal": SubResource("Animation_fvhqm")
+}
+
+[node name="ColorRect" type="NinePatchRect"]
+offset_left = 37.0
+offset_top = 71.0
+offset_right = 811.0
+offset_bottom = 676.0
+mouse_filter = 0
+texture = ExtResource("1")
+patch_margin_left = 40
+patch_margin_top = 40
+patch_margin_right = 40
+patch_margin_bottom = 40
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+script = ExtResource("2")
+puzzle_metas = [ExtResource("3")]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_17g4x")
+}

@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=4 uid="uid://d1ii4yaop2717"]
+
+[ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="1"]
+
+[node name="PhraseOriginSlot" type="ColorRect"]
+custom_minimum_size = Vector2(68, 31)
+color = Color(1, 0.384314, 0.172549, 1)
+
+[node name="DropReceiver" parent="." instance=ExtResource("1")]
+layout_mode = 1
+protect_slotted_draggable = true
+has_static_draggable = true

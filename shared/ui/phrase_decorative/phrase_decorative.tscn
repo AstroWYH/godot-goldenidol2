@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=4 uid="uid://cf4y8gmbj6mhk"]
+
+[ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="1"]
+[ext_resource type="Script" path="res://shared/ui/phrase_decorative/phrase_decorative.gd" id="2"]
+
+[node name="Phrase" type="Button"]
+custom_minimum_size = Vector2(70, 40)
+offset_right = 143.0
+offset_bottom = 40.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("1")
+text = "This is a phrase"
+script = ExtResource("2")

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://70yttek6n0id"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 532
+hint_name = "MUSEUM_HINT_IDOL_TITLE"
+path = "res://shared/ui/hints/hint_library/5_pinnacle/3_museum_2.tscn"

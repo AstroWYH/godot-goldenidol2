@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dbee6ocaem8eb"
+
+[deps]
+
+files=["res://shared/translation/credits.de.translation", "res://shared/translation/credits.en.translation", "res://shared/translation/credits.es.translation", "res://shared/translation/credits.es_MX.translation", "res://shared/translation/credits.fr.translation", "res://shared/translation/credits.it.translation", "res://shared/translation/credits.ja.translation", "res://shared/translation/credits.ko.translation", "res://shared/translation/credits.pl.translation", "res://shared/translation/credits.pt_BR.translation", "res://shared/translation/credits.tr.translation", "res://shared/translation/credits.zh_TW.translation"]
+
+source_file="res://shared/translation/credits.csv"
+dest_files=["res://shared/translation/credits.de.translation", "res://shared/translation/credits.en.translation", "res://shared/translation/credits.es.translation", "res://shared/translation/credits.es_MX.translation", "res://shared/translation/credits.fr.translation", "res://shared/translation/credits.it.translation", "res://shared/translation/credits.ja.translation", "res://shared/translation/credits.ko.translation", "res://shared/translation/credits.pl.translation", "res://shared/translation/credits.pt_BR.translation", "res://shared/translation/credits.tr.translation", "res://shared/translation/credits.zh_TW.translation"]
+
+[params]
+
+compress=true
+delimiter=0

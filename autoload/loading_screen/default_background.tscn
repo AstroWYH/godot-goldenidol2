@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=4 uid="uid://13tejn1cqxh1"]
+
+[ext_resource type="Texture2D" uid="uid://dnu3t5q4ykfwc" path="res://shared/assets/icons/icon128.png" id="1"]
+
+[node name="DefaultBackground" type="CanvasLayer"]
+layer = -10
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="CenterContainer" type="CenterContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="ColorRect/CenterContainer"]
+layout_mode = 2
+texture = ExtResource("1")

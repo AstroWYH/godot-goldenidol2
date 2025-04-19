@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bpwqxen6dsxmn"
+
+[deps]
+
+files=["res://shared/translation/11-08 backup/hint-translations.de.translation", "res://shared/translation/11-08 backup/hint-translations.en.translation", "res://shared/translation/11-08 backup/hint-translations.es.translation", "res://shared/translation/11-08 backup/hint-translations.es_MX.translation", "res://shared/translation/11-08 backup/hint-translations.fr.translation", "res://shared/translation/11-08 backup/hint-translations.it.translation", "res://shared/translation/11-08 backup/hint-translations.ja.translation", "res://shared/translation/11-08 backup/hint-translations.ko.translation", "res://shared/translation/11-08 backup/hint-translations.pl.translation", "res://shared/translation/11-08 backup/hint-translations.pt_BR.translation", "res://shared/translation/11-08 backup/hint-translations.tr.translation", "res://shared/translation/11-08 backup/hint-translations.zh_TW.translation"]
+
+source_file="res://shared/translation/11-08 backup/hint-translations.csv"
+dest_files=["res://shared/translation/11-08 backup/hint-translations.de.translation", "res://shared/translation/11-08 backup/hint-translations.en.translation", "res://shared/translation/11-08 backup/hint-translations.es.translation", "res://shared/translation/11-08 backup/hint-translations.es_MX.translation", "res://shared/translation/11-08 backup/hint-translations.fr.translation", "res://shared/translation/11-08 backup/hint-translations.it.translation", "res://shared/translation/11-08 backup/hint-translations.ja.translation", "res://shared/translation/11-08 backup/hint-translations.ko.translation", "res://shared/translation/11-08 backup/hint-translations.pl.translation", "res://shared/translation/11-08 backup/hint-translations.pt_BR.translation", "res://shared/translation/11-08 backup/hint-translations.tr.translation", "res://shared/translation/11-08 backup/hint-translations.zh_TW.translation"]
+
+[params]
+
+compress=true
+delimiter=0

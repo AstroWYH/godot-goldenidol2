@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://cub7nn7w62gki"]
+
+[ext_resource type="Script" path="res://shared/ui/thinking_layer/thinking_layer.gd" id="1"]
+
+[node name="ThinkingLayer" type="CanvasLayer"]
+script = ExtResource("1")
+
+[node name="TransformArea" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1916.0
+offset_bottom = 1075.0
+mouse_filter = 2

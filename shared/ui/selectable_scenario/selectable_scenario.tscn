@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=4 uid="uid://djtkeakeo4plt"]
+
+[ext_resource type="Script" path="res://shared/ui/selectable_scenario/selectable_scenario.gd" id="1"]
+[ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="2"]
+
+[node name="SelectableScenario" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1092.0
+offset_bottom = -902.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+offset_right = 793.0
+offset_bottom = 111.0
+theme = ExtResource("2")
+text = "Welcome to the Rise of the Golden Idol"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

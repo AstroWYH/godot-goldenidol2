@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://w0q7w3sdgmdu"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = 441
+hint_name = "COMPLEX_HINT_APARTMENT_TITLE"
+path = "res://shared/ui/hints/hint_library/4_trials/4_complex_1.tscn"

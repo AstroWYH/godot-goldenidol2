@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=4 uid="uid://di5awk44tdme4"]
+
+[ext_resource type="Theme" uid="uid://c0ojmupfgnqa3" path="res://shared/ui/themes/invisible_background_button.tres" id="1"]
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/thinking_ui_card/thinking_ui_card.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://cguma5pp5dbsf" path="res://shared/assets/placeholder_ui/buttons/phrases.png" id="3"]
+
+[node name="ScenarioUICard" type="Button"]
+custom_minimum_size = Vector2(75, 75)
+offset_right = 94.0
+offset_bottom = 75.0
+focus_mode = 0
+theme = ExtResource("1")
+toggle_mode = true
+script = ExtResource("2")
+
+[node name="HBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -45.5
+offset_right = 45.5
+offset_bottom = 75.0
+grow_horizontal = 2
+
+[node name="PuzzleLabel" type="Label" parent="HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 1
+theme_override_font_sizes/font_size = 18
+text = "Phrases"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LabelBackground" type="ColorRect" parent="HBoxContainer/PuzzleLabel"]
+unique_name_in_owner = true
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.364706, 0.462745, 0.180392, 1)
+
+[node name="PuzzleIcon" type="TextureRect" parent="HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

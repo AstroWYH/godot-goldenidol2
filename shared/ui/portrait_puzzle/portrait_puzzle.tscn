@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=4 uid="uid://dioppstaxf134"]
+
+[ext_resource type="Script" path="res://shared/ui/portrait_puzzle/portrait_puzzle.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://c27hwkkltdvuj" path="res://shared/puzzle/puzzle/puzzle.tscn" id="2"]
+
+[node name="PortraitPuzzle" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+script = ExtResource("1")
+
+[node name="Puzzle" parent="." instance=ExtResource("2")]
+layout_mode = 2
+auto_assign_puzzle_component_ids = false
+lazy_load = true

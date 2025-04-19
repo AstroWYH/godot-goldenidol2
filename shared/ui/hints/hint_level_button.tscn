@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=4 uid="uid://bhmhgcyxtysl3"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_level_button.gd" id="1"]
+
+[node name="Button" type="Button"]
+toggle_mode = true
+text = "Short advice"
+script = ExtResource("1")

@@ -1,0 +1,416 @@
+[gd_scene load_steps=40 format=4 uid="uid://cq1pd1er6p2rn"]
+
+[ext_resource type="Script" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
+[ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
+[ext_resource type="AudioStream" uid="uid://b755t8j3balbr" path="res://shared/assets/sfx/ambiences/main_menu_ambience.ogg" id="3"]
+[ext_resource type="PackedScene" uid="uid://oqltygf04g8q" path="res://shared/ui/hub/special_victory_screen_caller.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://cna32c16cf783" path="res://acts/full_game/splash/splashbackground.tscn" id="5"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="6"]
+[ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="7"]
+[ext_resource type="Theme" uid="uid://uyut8lvssknx" path="res://shared/assets/themes/small_text.theme" id="8"]
+[ext_resource type="PackedScene" uid="uid://b6qgp2ocq687n" path="res://shared/ui/selectable_arc/selectable_arc.tscn" id="9"]
+[ext_resource type="Resource" uid="uid://cct0dyqesuef0" path="res://acts/full_game/introductory_arc/introductory_arc_meta.tres" id="10"]
+[ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="11"]
+[ext_resource type="Resource" uid="uid://batbrd70tgo1f" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub_meta.tres" id="12"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="13"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/play_game_button.gd" id="14"]
+[ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="15"]
+[ext_resource type="Script" path="res://shared/ui/scenario_select/dlc_button.gd" id="16"]
+[ext_resource type="Resource" uid="uid://b1jtg1awa3n2b" path="res://acts/roys_dlc/hub/roys_dlc_meta.tres" id="17"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/settings_button.gd" id="18"]
+[ext_resource type="Script" path="res://shared/ui/scenario_select/credits_button.gd" id="19"]
+[ext_resource type="Texture2D" uid="uid://dfnsmkmdw85og" path="res://shared/assets/small_splash_screen_icon.png" id="20"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="21"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/exit_button.gd" id="22"]
+[ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="23"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/language_button.gd" id="24"]
+[ext_resource type="PackedScene" uid="uid://dx8itecq77gyt" path="res://shared/ui/splash_screen/language_popup/language_popup.tscn" id="25"]
+[ext_resource type="PackedScene" uid="uid://ec1trrkgsu4l" path="res://shared/ui/in_game_menu/in_game_menu.tscn" id="26"]
+[ext_resource type="Texture2D" uid="uid://cmvsr280n330c" path="res://shared/assets/icons/icon_bug_64x64.png" id="27"]
+[ext_resource type="Script" path="res://shared/ui/scenario_select/report_issue_button.gd" id="28"]
+[ext_resource type="Texture2D" uid="uid://in73eq8d6acx" path="res://shared/ui/buttons/btn_0040_X_idle.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://p2uqa4k4l2r8" path="res://shared/ui/buttons/btn_0042_X_pressed.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cemwggpo13ubc" path="res://shared/ui/buttons/btn_0041_X_mouseover.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://lyh5urj5bpnu" path="res://shared/ui/buttons/btn_0040_X_focus.png" id="32"]
+[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_texturebutton.gd" id="33"]
+[ext_resource type="Texture2D" uid="uid://c4c1mu3gmmstf" path="res://shared/ui/buttons/btn_0037_discord_idle.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dnv8jmo06twv0" path="res://shared/ui/buttons/btn_0039_discord_pressed.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bak7fs5qdfwas" path="res://shared/ui/buttons/btn_0038_discord_mouseover.png" id="36"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_6hiom"]
+blend_mode = 1
+
+[sub_resource type="Animation" id="Animation_s20cp"]
+resource_name = "new_animation"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = false
+tracks/0/path = NodePath("TitleLabel:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2, 4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(50, 28), Vector2(50, 32), Vector2(50, 28)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = false
+tracks/1/path = NodePath("TitleShadowLabel:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2, 4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(50, 31), Vector2(50, 26), Vector2(50, 31)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0d4um"]
+_data = {
+"new_animation": SubResource("Animation_s20cp")
+}
+
+[node name="ScenarioSelect" type="Node2D" groups=["i18n"]]
+script = ExtResource("1")
+music_layers = [ExtResource("2")]
+ambience_layers = [ExtResource("3")]
+
+[node name="SpecialScreenCaller" parent="." instance=ExtResource("4")]
+dialog_path = "res://acts/full_game/introductory_arc/hub/intro_arc_victory.tscn"
+
+[node name="Node2D" parent="." instance=ExtResource("5")]
+position = Vector2(-15, 38)
+
+[node name="TitleLabel" type="RichTextLabel" parent="."]
+offset_left = 50.0
+offset_top = 28.0
+offset_right = 1361.0
+offset_bottom = 308.0
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_fonts/normal_font = ExtResource("6")
+theme_override_fonts/bold_font = ExtResource("7")
+theme_override_font_sizes/normal_font_size = 94
+theme_override_font_sizes/bold_font_size = 120
+bbcode_enabled = true
+text = "SPLASH_TITLE"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="TitleShadowLabel" type="RichTextLabel" parent="."]
+visible = false
+material = SubResource("CanvasItemMaterial_6hiom")
+offset_left = 50.0
+offset_top = 31.0
+offset_right = 1967.0
+offset_bottom = 218.0
+theme_override_colors/default_color = Color(0.94902, 0.121569, 0.631373, 1)
+theme_override_fonts/normal_font = ExtResource("6")
+theme_override_fonts/bold_font = ExtResource("7")
+theme_override_font_sizes/normal_font_size = 94
+theme_override_font_sizes/bold_font_size = 120
+bbcode_enabled = true
+text = "SPLASH_TITLE"
+autowrap_mode = 2
+
+[node name="MiniLabels" type="VBoxContainer" parent="."]
+offset_left = 10.0
+offset_top = 1020.0
+offset_right = 253.0
+offset_bottom = 1072.0
+
+[node name="FullScreenInfo" type="Label" parent="MiniLabels"]
+unique_name_in_owner = true
+layout_mode = 2
+theme = ExtResource("8")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "FULL_SCREEN_PROMPT"
+
+[node name="FullGameVersionNumber" type="Label" parent="MiniLabels"]
+layout_mode = 2
+theme = ExtResource("8")
+text = "v 1.01 (2024-11-12) RC 2"
+
+[node name="LegacyDLCVersionNumber" type="Label" parent="MiniLabels"]
+visible = false
+layout_mode = 2
+theme = ExtResource("8")
+text = "Legacy DLC v 0.1 (2024-08-19)"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_0d4um")
+}
+autoplay = "new_animation"
+
+[node name="Control" type="Control" parent="."]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_left = 256.0
+offset_top = 387.0
+offset_right = 875.0
+offset_bottom = 842.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="GridContainer" type="GridContainer" parent="Control/MarginContainer"]
+visible = false
+layout_mode = 2
+theme_override_constants/v_separation = 20
+
+[node name="Chapter1Button" parent="Control/MarginContainer/GridContainer" node_paths=PackedStringArray("scene_root") instance=ExtResource("9")]
+custom_minimum_size = Vector2(500, 130)
+layout_mode = 2
+arc_meta = ExtResource("10")
+scene_root = NodePath("../../../..")
+
+[node name="Button" parent="Control/MarginContainer/GridContainer/Chapter1Button" index="0"]
+offset_right = 600.0
+offset_bottom = 130.0
+focus_mode = 0
+text = "CHAPTER_1_INTRO_TITLE"
+
+[node name="Chapter1Button2" parent="Control/MarginContainer/GridContainer" node_paths=PackedStringArray("scene_root") instance=ExtResource("9")]
+custom_minimum_size = Vector2(500, 130)
+layout_mode = 2
+arc_meta = ExtResource("11")
+scene_root = NodePath("../../../..")
+
+[node name="Button" parent="Control/MarginContainer/GridContainer/Chapter1Button2" index="0"]
+offset_right = 600.0
+offset_bottom = 130.0
+focus_mode = 0
+text = "chapter_2_name"
+
+[node name="Chapter1Button3" parent="Control/MarginContainer/GridContainer" node_paths=PackedStringArray("scene_root") instance=ExtResource("9")]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+arc_meta = ExtResource("12")
+scene_root = NodePath("../../../..")
+
+[node name="Button" parent="Control/MarginContainer/GridContainer/Chapter1Button3" index="0"]
+offset_right = 600.0
+offset_bottom = 130.0
+focus_mode = 0
+text = "CHAPTER_3_INTRO_TITLE"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(-0.11, 2.08165e-12)
+offset_left = 1393.0
+offset_top = 278.0
+offset_right = 1833.0
+offset_bottom = 662.0
+pivot_offset = Vector2(135, 45)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 12
+
+[node name="PlayButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+z_index = 10
+custom_minimum_size = Vector2(370, 2.08165e-12)
+layout_mode = 2
+size_flags_vertical = 6
+focus_neighbor_top = NodePath("../../btn_language")
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_type_variation = &"red"
+theme_override_font_sizes/font_size = 40
+text = "SPLASH_PLAY_BUTTON"
+clip_text = true
+script = ExtResource("14")
+first_scenario_meta = ExtResource("15")
+
+[node name="DLCButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+visible = false
+z_index = 10
+custom_minimum_size = Vector2(370, 2.08165e-12)
+layout_mode = 2
+size_flags_vertical = 6
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_type_variation = &"default"
+theme_override_font_sizes/font_size = 32
+text = "Play DLCs"
+clip_text = true
+script = ExtResource("16")
+chapter_meta = ExtResource("17")
+
+[node name="SettingsButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+z_index = 10
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+size_flags_vertical = 6
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+text = "SETTINGS"
+clip_text = true
+script = ExtResource("18")
+
+[node name="CreditsButton" type="Button" parent="VBoxContainer"]
+unique_name_in_owner = true
+z_index = 10
+custom_minimum_size = Vector2(370, 0)
+layout_mode = 2
+size_flags_vertical = 6
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_override_fonts/font = ExtResource("6")
+theme_override_font_sizes/font_size = 32
+text = "CREDITS_BUTTON"
+clip_text = true
+script = ExtResource("19")
+
+[node name="FirstGameButton" type="Button" parent="VBoxContainer"]
+z_index = 10
+custom_minimum_size = Vector2(300, 81)
+layout_mode = 2
+size_flags_vertical = 6
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_override_constants/icon_max_width = 45
+theme_override_font_sizes/font_size = 18
+text = "PLAY_FIRST_GAME"
+icon = ExtResource("20")
+clip_text = true
+script = ExtResource("21")
+url = "https://store.steampowered.com/app/1677770/The_Case_of_the_Golden_Idol"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+z_index = 10
+custom_minimum_size = Vector2(370, 2.08165e-12)
+layout_mode = 2
+size_flags_vertical = 6
+focus_neighbor_bottom = NodePath("../../BottomButtons/btn_discord")
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_type_variation = &"grey"
+theme_override_font_sizes/font_size = 32
+text = "EXIT_GAME_BUTTON"
+clip_text = true
+script = ExtResource("22")
+
+[node name="ConfirmationDialogCaller" parent="VBoxContainer/ExitButton" instance=ExtResource("23")]
+prompt_text = "EXIT_GAME_DIALOG"
+confirm_button_text = "EXIT_GAME_DIALOG_CONFIRM"
+reject_button_text = "CANCEL_BUTTON"
+
+[node name="btn_language" type="Button" parent="."]
+z_index = 10
+custom_minimum_size = Vector2(40, 2.08165e-12)
+offset_left = 1723.0
+offset_top = 51.0
+offset_right = 1882.0
+offset_bottom = 132.0
+size_flags_horizontal = 4
+size_flags_vertical = 6
+focus_neighbor_bottom = NodePath("../VBoxContainer/PlayButton")
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_override_font_sizes/font_size = 32
+text = "ENG"
+clip_text = true
+script = ExtResource("24")
+
+[node name="LanguagePopup" parent="btn_language" instance=ExtResource("25")]
+unique_name_in_owner = true
+visible = false
+
+[node name="InGameMenu" parent="." instance=ExtResource("26")]
+unique_name_in_owner = true
+visible = false
+in_main_menu = true
+
+[node name="BottomButtons" type="HBoxContainer" parent="."]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1388.0
+offset_top = 968.0
+offset_right = 1900.0
+offset_bottom = 1063.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_constants/separation = 20
+alignment = 2
+
+[node name="ReportIssueButton" type="Button" parent="BottomButtons"]
+z_index = 10
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+focus_neighbor_top = NodePath("../../VBoxContainer/ExitButton")
+focus_neighbor_right = NodePath("../btn_twitter")
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+theme_override_constants/h_separation = 10
+theme_override_constants/icon_max_width = 30
+theme_override_font_sizes/font_size = 23
+text = "REPORT_ISSUE"
+icon = ExtResource("27")
+script = ExtResource("28")
+url = "https://public.zenkit.com/f/k_mIPpdyfT/production-rise-reports?v=ggFKggEPGQ"
+
+[node name="btn_twitter" type="TextureButton" parent="BottomButtons"]
+z_index = 10
+layout_mode = 2
+focus_neighbor_left = NodePath("../ReportIssueButton")
+focus_neighbor_top = NodePath("../../VBoxContainer/PlayButton")
+focus_neighbor_right = NodePath("../btn_discord")
+mouse_default_cursor_shape = 2
+theme = ExtResource("13")
+texture_normal = ExtResource("29")
+texture_pressed = ExtResource("30")
+texture_hover = ExtResource("31")
+texture_disabled = ExtResource("30")
+texture_focused = ExtResource("32")
+script = ExtResource("33")
+url = "https://twitter.com/colorgray7"
+
+[node name="btn_discord" type="TextureButton" parent="BottomButtons"]
+z_index = 10
+layout_mode = 2
+focus_neighbor_left = NodePath("../btn_twitter")
+focus_neighbor_top = NodePath("../../VBoxContainer/ExitButton")
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("34")
+texture_pressed = ExtResource("35")
+texture_hover = ExtResource("36")
+texture_disabled = ExtResource("35")
+texture_focused = ExtResource("32")
+stretch_mode = 5
+script = ExtResource("33")
+url = "https://discord.gg/98EZEuEqK8"
+
+[editable path="Control/MarginContainer/GridContainer/Chapter1Button"]
+[editable path="Control/MarginContainer/GridContainer/Chapter1Button2"]
+[editable path="Control/MarginContainer/GridContainer/Chapter1Button3"]

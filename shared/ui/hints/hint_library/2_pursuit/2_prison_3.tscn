@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=4 uid="uid://c4le0m2ca6dn"]
+
+[ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://dw1cqvmbkcqth" path="res://shared/ui/hints/hint_library/2_pursuit/prison_03.png" id="2"]
+
+[node name="HintSelectionMenu" instance=ExtResource("1")]
+anchors_preset = 0
+
+[node name="HintContent1" parent="TextureRect" index="1"]
+visible = false
+
+[node name="HintLabel" parent="TextureRect/HintContent1/VerticalLayout" index="0"]
+text = "PRISON_HINT_ESCAPE_1"
+
+[node name="HintContent2" parent="TextureRect" index="2"]
+visible = true
+
+[node name="HintLabel" parent="TextureRect/HintContent2/VerticalLayout" index="0"]
+text = "PRISON_HINT_ESCAPE_2"
+
+[node name="TextureRect" parent="TextureRect/HintContent2/VerticalLayout" index="1"]
+texture = ExtResource("2")
+
+[node name="HintLabel" parent="TextureRect/HintContent3/VerticalLayout" index="0"]
+text = "PRISON_HINT_ESCAPE_3"
+
+[node name="BackButton" parent="." index="1"]
+layout_mode = 0
+offset_left = 530.0
+offset_top = 778.0
+offset_right = 797.0
+offset_bottom = 831.0

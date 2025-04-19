@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=4 uid="uid://cqsbnq2s4p5rn"]
+
+[ext_resource type="Shader" path="res://shared/ui/TrafficOtherDirection.gdshader" id="1"]
+[ext_resource type="Texture2D" uid="uid://8niia1k6iwsb" path="res://shared/ui/Cars.png" id="2"]
+[ext_resource type="Shader" path="res://shared/ui/FinaleTrafficTest.gdshader" id="3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1gn0p"]
+shader = ExtResource("1")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_h7u2o"]
+shader = ExtResource("3")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Line2D" type="Line2D" parent="."]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_1gn0p")
+position = Vector2(496, 281)
+points = PackedVector2Array(7.29807, 7.83707, 77, -10, 154.298, -13.1629, 187.298, -7.16293, 217.298, 10.8371, 298.298, 132.837, 329.298, 144.837, 359.298, 140.837, 385.298, 119.837, 468.298, -28.1629, 464.298, -54.1629, 440.298, -77.1629, 407.298, -90.1629, 237.298, -138.163)
+width = 6.0
+texture = ExtResource("2")
+texture_mode = 1
+
+[node name="Line2D2" type="Line2D" parent="."]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_h7u2o")
+position = Vector2(497, 285)
+points = PackedVector2Array(8, 8, 77, -10, 154.298, -13.1629, 187.298, -7.16293, 214, 11, 293, 129, 324, 144, 357, 141, 384, 120, 468.298, -28.1629, 464.298, -54.1629, 440.298, -77.1629, 407.298, -90.1629, 237.298, -138.163)
+width = 6.0
+texture = ExtResource("2")
+texture_mode = 1

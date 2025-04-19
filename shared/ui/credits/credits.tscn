@@ -1,0 +1,592 @@
+[gd_scene load_steps=8 format=4 uid="uid://cv5gv5p5j2tvd"]
+
+[ext_resource type="Script" path="res://shared/ui/credits/credits.gd" id="1"]
+[ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="2"]
+[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://dvsgtawmcr0u6" path="res://shared/assets/logos/godot_logo.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cxsg3hbigltsh" path="res://shared/assets/logos/colorgraylogo2.svg" id="5"]
+[ext_resource type="Texture2D" uid="uid://716sdul0m55h" path="res://shared/assets/logos/playstacklogocolor.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://yxmc4g44786m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_000.png" id="7"]
+
+[node name="Credits" type="ColorRect"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.133333, 0.12549, 0.203922, 1)
+script = ExtResource("1")
+
+[node name="BackButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 14.0
+offset_top = 983.0
+offset_right = 264.0
+offset_bottom = 1064.0
+mouse_default_cursor_shape = 2
+theme = ExtResource("2")
+text = "BACK_BUTTON"
+text_overrun_behavior = 1
+script = ExtResource("3")
+target_screen_path = "res://shared/ui/scenario_select/scenario_select.tscn"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+offset_left = 38.0
+offset_top = 42.0
+offset_right = 1869.0
+offset_bottom = 967.0
+
+[node name="AllCredits" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 50
+
+[node name="DevelopedUsingGodot" type="HBoxContainer" parent="ScrollContainer/AllCredits"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/AllCredits/DevelopedUsingGodot"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "DEVELOPED_WITH"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/AllCredits/DevelopedUsingGodot"]
+custom_minimum_size = Vector2(400, 200)
+layout_mode = 2
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ColorGrayHeader" type="HBoxContainer" parent="ScrollContainer/AllCredits"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/AllCredits/ColorGrayHeader"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "DEVELOPED_BY"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/AllCredits/ColorGrayHeader"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="ColorGrayCreated" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "CREATED_BY"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayCreated2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Andrejs Kļaviņš
+Ernests Kļaviņš
+
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayArt" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "GRAPHIC_DESIGN"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayArt2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Ernests Kļaviņš
+Artūrs Lācis
+Reinis Pētersons
+Jana Ribkina
+Mārcis Ozols
+Ivo Simsons
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayProgramming" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "PROGRAMMING_CREDITS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayProgramming2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Rihards Paškausks
+Andrejs Kļaviņš
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayCreative" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "CREATIVE_TEAM"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayCreative2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Will Ackermann
+Nathan Hicken
+Marcus Richardson
+Dani Siller
+Bill Sunderland
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayMusic" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "MUSIC_CREDITS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayMusic2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Paul Alexander
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGraySound" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "SOUND_CREDITS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGraySound2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Viesturs Marnauza
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayTesting" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "TESTING_CREDITS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayTesting2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Endija Latvena
+Lauris Brāzma"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayLiterary" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "LITERARY_ADVISORS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayLiterary2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Will Ackermann
+Dani Siller
+"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayChoreography" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "CHOREOGRAPHER"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ColorGrayChoreography2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Betsy Richardson"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="PlaystackHeader" type="HBoxContainer" parent="ScrollContainer/AllCredits"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/AllCredits/PlaystackHeader"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "PUBLISHED_AND_PORTED"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/AllCredits/PlaystackHeader"]
+custom_minimum_size = Vector2(150, 300)
+layout_mode = 2
+texture = ExtResource("6")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="GeneralPlaystackHeader" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "GENERAL PLAYSTACK"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="GeneralPlaystackContent" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Harvey Elliott - CEO
+Kevin Shrapnell - COO
+Rob Crossley - VP of Publishing
+Liz Cheng-Moore - Lead Marketing Manager
+Shawn Cotter - Marketing Manager
+Naman Budhwar - Lead Visual Marketing Manager
+Wouter van Halderen - PR Manager
+Tomasz Wisniowski - Producer
+Alexander Saunders - Producer
+Alex Flynn - Creative Director
+Justas Pugaciauskas - Graphic Designer
+Pawel Kwietniak - Web Developer
+Jessica Chu - Lead Video Artist
+Edgar Khoo - Video Editor
+Stephanie Marti - Senior Video Artist
+Emma Smith-Bodie - Community Manager
+Moe Abrams - Customer Support
+Bea Gomez - Video Editor
+Jose Olivares - QA & Localisation Manager
+Joanna Kieronska - QA Tester
+Zuzanna Dawidowska - QA Tester
+Jean Claude Vidanes - QA Tester
+Millicent Su - Senior User Acquisition Manager
+Carla Malavasi - Director of Publishing Services"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="MobileHeader" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "MOBILE"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="MobileContent" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Tomasz Wisniowski - Producer
+Frank van Gent - Programmer
+Ilker Bayraktutan - Programmer
+Ela Müller - Graphic Designer
+Pawel Kwietniak - Technical Designer
+Guido Parlatore - Technical Designer
+Adrianna Jankowska - Junior Programmer
+Hoi Pham - Programmer"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ConsoleHeader" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "CONSOLE"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="ConsoleContent" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Mario Castelli - Porting Producer
+Brendan Beine - Associate Porting Producer
+Sumit Kumar - Porting Programmer
+Tales Mariano - Porting Programmer"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="LQAHeader" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "LOC/LQA"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="LQAContent" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Nereida Jaén Bengoechea - Localization Manager
+Anna Iakovidou - Project Manager
+Victoria Tsironi - Project Manager
+Florencia Jurado - Project Manager
+Caroline Bertin - French Linguist
+Samuel Espinho-Alves - French Linguist
+Francesca Gozzani - Italian Linguist
+Emanuele Spagnolo - Italian Linguist
+Elena Testa - Italian Linguist
+Lidia Ciavarella - Italian Linguist
+Kevin Konther - German Linguist
+Robert Hirsch - German Linguist
+Sílvia Gabarró Mora - Spanish Linguist
+Oscar Martín Robles - Spanish Linguist
+Thomaz Vilela - Brazilian Portuguese Linguist
+Thais de Assis Azevedo Payer - Brazilian Portuguese Linguist
+Ayrton Jost - Brazilian Portuguese Linguist
+Daniel Zandonadi - Brazilian Portuguese Linguist
+Lúcio Zandonadi - Brazilian Portuguese Linguist
+Magdalena Szubert - Polish Linguist
+Jacek J. - Polish Linguist/Tester
+Kazutoshi Okada - Japanese Linguist
+Haruna Yokoyama - Japanese Linguist
+Lois HeeSoo Yang - Korean Linguist
+Soyoung Kim - Korean Linguist
+Siyoon Ji - Korean Linguist
+Kyungsik Hwang - Korean Linguist
+Alfred Lu - Chinese Traditional Linguist
+Jing-Lun Tang - Chinese Traditional Linguist
+Xiomara Imanoni - Spanish LA Linguist
+Marina Belén Torres - Spanish LA Linguist
+Lilén González Escobar - Spanish LA Linguist
+Ceren Coşar - Turkish Linguist
+Fatma Kamer Karakuş - Turkish Linguist/Tester
+Efe Aydın - Turkish Linguist
+Pelin Yılmaz - Turkish Linguist
+
+Rafael Torner - QA Manager
+Bianca Targao - LQA Project Manager
+Corentin Luc - French Tester
+Barbara Messina - Italian Tester
+Lira Stunz - German Tester
+Antonio Jiménez Royo - Spanish Tester
+Larissa Vecchi - Brazilian Portuguese Tester
+Peter Zhang - Japanese Tester
+Dasol Ahn - Korean Tester
+Vincent Chen - Chinese Traditional Tester
+Edwin Guzman - Spanish LA Tester"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="SpecialThanksHeader" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "SPECIAL_THANKS"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="SpecialThanksContent" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Charlotte Riley
+Patrick Johnson
+Tom Verney
+Rebecca Bell
+Fox Hambly
+Marta Matyjewicz
+Dami Ajiboye
+Aaron Ludlow
+Jenny Quintero
+Piotr Kowalik
+Carmen Martino
+Rong Lin"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="SpecialThanks" type="HBoxContainer" parent="ScrollContainer/AllCredits"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/AllCredits/SpecialThanks"]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 46
+text = "SPECIAL_THANKS"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/AllCredits/SpecialThanks"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+texture = ExtResource("7")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="SpecialThanksGeneral" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Aija Kļaviņa
+Beth Richardson"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="RegularDetectives" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Credits_Detectives"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="RegularDetectives2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Alexander Witkowski
+Anant Ahuja
+Anton Bondarenko
+Briac Pilpré
+Conn Henesy
+David White
+Doublejumper
+Edgars Skarbulis
+Emma Engers
+emmamemer
+Gerhard Theron
+Glasto
+Gui Shark
+Guido Parlatore
+Hanna Chróścielewska
+Ian Martin
+Jack Read
+Jānis Strods
+Jeremy Dawson
+Jeremy Hoffman
+John Clifford
+Jonathan Leppert
+Juliette Welch
+Kirsten Clifford
+Libby Spicer
+Loris Scarcella
+Sobbity
+Michael Liao
+Michael Spicer
+Miguel Borges
+Mitchell Wesley
+Ondřej Kunc
+Pau Sánchez Pinto
+Rob Streeting
+Ryan Ward
+Theo Le Duc
+Thomas Foodman
+Thomas Gendreau
+Tija Sīle
+Tim Nineham
+Tomas Koten
+Vadim Vojeiko
+Zach Liniewski
+zorra"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="DiscordTesters" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Credits_CommunityTesters"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="DiscordTesters2" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Anders Olsen
+Charles Misiewicz
+Davide D'Alessandro
+Dominic Fucile
+Dylan Donley
+Ed Kociela
+Heather Kurten
+Henrik Andersson
+Houston chapman
+Irene Liberali
+Ivan Grigoriev
+Jürgen Vöhringer
+Kyle Shipley
+Lara Evans
+Louis Reeve
+Monica Pooley
+pordeciralgo
+Valentin Zeller
+ねふぃりむ"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="GodotLicenseText" type="Label" parent="ScrollContainer/AllCredits"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "This game uses Godot Engine, available under the following license:
+
+Copyright (c) 2014-present Godot Engine contributors.
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[connection signal="pressed" from="BackButton" to="BackButton" method="_on_pressed"]

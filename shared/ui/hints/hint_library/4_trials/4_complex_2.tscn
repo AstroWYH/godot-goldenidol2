@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=4 uid="uid://fcjoq7x3dmui"]
+
+[ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://cmxopna6hjqss" path="res://shared/ui/hints/hint_library/4_trials/complex_02.png" id="2"]
+
+[node name="HintSelectionMenu" instance=ExtResource("1")]
+anchors_preset = 0
+
+[node name="HintContent1" parent="TextureRect" index="2"]
+visible = false
+
+[node name="HintLabel" parent="TextureRect/HintContent1/VerticalLayout" index="0"]
+text = "COMPLEX_HINT_PICNIC_1"
+
+[node name="HintContent2" parent="TextureRect" index="3"]
+visible = true
+
+[node name="HintLabel" parent="TextureRect/HintContent2/VerticalLayout" index="0"]
+text = "COMPLEX_HINT_PICNIC_2"
+
+[node name="TextureRect" parent="TextureRect/HintContent2/VerticalLayout" index="1"]
+texture = ExtResource("2")
+
+[node name="HintLabel" parent="TextureRect/HintContent3/VerticalLayout" index="0"]
+text = "COMPLEX_HINT_PICNIC_3"

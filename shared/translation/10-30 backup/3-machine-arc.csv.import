@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://lnrh8h0yetfc"
+path="res://shared/translation/10-30 backup/3-machine-arc.de.translation"
+
+[deps]
+
+source_file="res://shared/translation/10-30 backup/3-machine-arc.csv"
+dest_files=["res://shared/translation/10-30 backup/3-machine-arc.de.translation", "res://shared/translation/10-30 backup/3-machine-arc.en.translation", "res://shared/translation/10-30 backup/3-machine-arc.es.translation", "res://shared/translation/10-30 backup/3-machine-arc.es_MX.translation", "res://shared/translation/10-30 backup/3-machine-arc.fr.translation", "res://shared/translation/10-30 backup/3-machine-arc.it.translation", "res://shared/translation/10-30 backup/3-machine-arc.ja.translation", "res://shared/translation/10-30 backup/3-machine-arc.ko.translation", "res://shared/translation/10-30 backup/3-machine-arc.pl.translation", "res://shared/translation/10-30 backup/3-machine-arc.pt_BR.translation", "res://shared/translation/10-30 backup/3-machine-arc.tr.translation", "res://shared/translation/10-30 backup/3-machine-arc.zh_TW.translation"]
+
+[params]
+
+dummy_value_ignore_me=0

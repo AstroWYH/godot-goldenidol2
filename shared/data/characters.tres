@@ -1,0 +1,2002 @@
+[gd_resource type="Resource" script_class="GICharacterDatabase" load_steps=169 format=3 uid="uid://cxg3rwfiejbec"]
+
+[ext_resource type="Script" path="res://shared/resources/character.gd" id="1"]
+[ext_resource type="Script" path="res://shared/resources/character_database.gd" id="2"]
+
+[sub_resource type="Resource" id="Resource_fn5fr"]
+script = ExtResource("1")
+id = 1
+codename = "test"
+first_name = "Juan"
+last_name = "Linietsky"
+portrait = "res://acts/full_game/orphan_arc/prison/assets/portraits/guard1.png"
+meta = {}
+first_name_phrase_id = 29
+last_name_phrase_id = 33
+
+[sub_resource type="Resource" id="Resource_h3ct6"]
+script = ExtResource("1")
+id = 2
+codename = "naive_guard"
+first_name = "Percy"
+last_name = "Sainsbury"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/2.png"
+meta = {}
+first_name_phrase_id = 56
+last_name_phrase_id = 58
+
+[sub_resource type="Resource" id="Resource_0j830"]
+script = ExtResource("1")
+id = 3
+codename = "angry_guard"
+first_name = "Patrick"
+last_name = "Kendal"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/1.png"
+meta = {}
+first_name_phrase_id = 55
+last_name_phrase_id = 51
+
+[sub_resource type="Resource" id="Resource_wswhm"]
+script = ExtResource("1")
+id = 4
+codename = "nose_guard"
+first_name = "Jeremy"
+last_name = "Smith"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/3.png"
+meta = {}
+first_name_phrase_id = 48
+last_name_phrase_id = 59
+
+[sub_resource type="Resource" id="Resource_6jfnp"]
+script = ExtResource("1")
+id = 5
+codename = "prison_maintenance_man"
+first_name = "Henry"
+last_name = "Wakefield"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/4.png"
+meta = {}
+first_name_phrase_id = 46
+last_name_phrase_id = 61
+
+[sub_resource type="Resource" id="Resource_cukoa"]
+script = ExtResource("1")
+id = 6
+codename = "redhead_prisoner"
+first_name = "Robert"
+last_name = "Pakenham"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/5.png"
+meta = {}
+first_name_phrase_id = 57
+last_name_phrase_id = 54
+
+[sub_resource type="Resource" id="Resource_cybda"]
+script = ExtResource("1")
+id = 7
+codename = "angry_prisoner"
+first_name = "Daniel"
+last_name = "Utley"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/6.png"
+meta = {}
+first_name_phrase_id = 45
+last_name_phrase_id = 60
+
+[sub_resource type="Resource" id="Resource_moh0t"]
+script = ExtResource("1")
+id = 8
+codename = "boss_prisoner"
+first_name = "Jason"
+last_name = "Kempton"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/7.png"
+meta = {}
+first_name_phrase_id = 47
+last_name_phrase_id = 50
+
+[sub_resource type="Resource" id="Resource_1jsu8"]
+script = ExtResource("1")
+id = 9
+codename = "snitch_prisoner"
+first_name = "Jimmy"
+last_name = "Beswick"
+portrait = "res://acts/full_game/colecting_parts_arc/jail/assets/portraits/8.png"
+meta = {}
+first_name_phrase_id = 49
+last_name_phrase_id = 43
+
+[sub_resource type="Resource" id="Resource_83ir6"]
+script = ExtResource("1")
+id = 10
+codename = "auctioneer"
+first_name = "Nils"
+last_name = "Wilmington"
+portrait = "res://shared/assets/characters/auctioneer.png"
+meta = {}
+first_name_phrase_id = 71
+last_name_phrase_id = 72
+
+[sub_resource type="Resource" id="Resource_itbcu"]
+script = ExtResource("1")
+id = 11
+codename = "curator"
+first_name = "Aurelia"
+last_name = "Winston"
+portrait = "res://shared/assets/characters/curator.png"
+meta = {}
+first_name_phrase_id = 73
+last_name_phrase_id = 74
+
+[sub_resource type="Resource" id="Resource_mrbl1"]
+script = ExtResource("1")
+id = 12
+codename = "guard"
+first_name = "Erwin"
+last_name = "Bogart"
+portrait = "res://shared/assets/portraits/guard.png"
+meta = {}
+first_name_phrase_id = 75
+last_name_phrase_id = 334
+
+[sub_resource type="Resource" id="Resource_iik2y"]
+script = ExtResource("1")
+id = 13
+codename = "lemurian_envoy"
+first_name = "Moumaati"
+last_name = "Dasilva"
+portrait = "res://shared/assets/portraits/lemurians_envoy.png"
+meta = {}
+first_name_phrase_id = 77
+last_name_phrase_id = 78
+
+[sub_resource type="Resource" id="Resource_5x8um"]
+script = ExtResource("1")
+id = 14
+codename = "star"
+first_name = "Summer"
+last_name = "Knightly"
+portrait = "res://shared/assets/portraits/star.png"
+meta = {}
+first_name_phrase_id = 79
+last_name_phrase_id = 80
+
+[sub_resource type="Resource" id="Resource_gtorv"]
+script = ExtResource("1")
+id = 15
+codename = "professor"
+first_name = "Oriel"
+last_name = "Toussaint"
+portrait = "res://shared/assets/portraits/professor.png"
+meta = {}
+first_name_phrase_id = 81
+last_name_phrase_id = 82
+
+[sub_resource type="Resource" id="Resource_4ufqp"]
+script = ExtResource("1")
+id = 16
+codename = "projection_worker"
+first_name = "Andy"
+last_name = "Lemmons"
+portrait = "res://shared/assets/portraits/projection_worker.png"
+meta = {}
+first_name_phrase_id = 85
+last_name_phrase_id = 86
+
+[sub_resource type="Resource" id="Resource_b8p8w"]
+script = ExtResource("1")
+id = 17
+codename = "cinema_owner"
+first_name = "Sarah"
+last_name = "Cunningham"
+portrait = "res://shared/assets/portraits/cinema_owner.png"
+meta = {}
+first_name_phrase_id = 101
+last_name_phrase_id = 102
+
+[sub_resource type="Resource" id="Resource_vpw4k"]
+script = ExtResource("1")
+id = 18
+codename = "cinema_customer_01"
+first_name = "Mike"
+last_name = "Lendl"
+portrait = "res://shared/assets/portraits/cinema_customer01.png"
+meta = {}
+first_name_phrase_id = 99
+last_name_phrase_id = 100
+
+[sub_resource type="Resource" id="Resource_ldyrv"]
+script = ExtResource("1")
+id = 19
+codename = "cinema_customer02"
+first_name = "Laura"
+last_name = "Parker"
+portrait = "res://shared/assets/portraits/cxinema_customer02.png"
+meta = {}
+first_name_phrase_id = 97
+last_name_phrase_id = 98
+
+[sub_resource type="Resource" id="Resource_clprg"]
+script = ExtResource("1")
+id = 20
+codename = "cinema_customer03"
+first_name = "Annie"
+last_name = "Kishimoto"
+portrait = "res://shared/assets/portraits/cinema_customer03.png"
+meta = {}
+first_name_phrase_id = 87
+last_name_phrase_id = 88
+
+[sub_resource type="Resource" id="Resource_em7br"]
+script = ExtResource("1")
+id = 21
+codename = "cinema_customer04"
+first_name = "Beck"
+last_name = "Mason"
+portrait = "res://shared/assets/portraits/cinema_customer04.png"
+meta = {}
+first_name_phrase_id = 89
+last_name_phrase_id = 90
+
+[sub_resource type="Resource" id="Resource_63shp"]
+script = ExtResource("1")
+id = 22
+codename = "champ"
+first_name = "Champ"
+last_name = "Vincent"
+portrait = "res://shared/assets/portraits/champ.png"
+meta = {}
+first_name_phrase_id = 91
+last_name_phrase_id = 92
+
+[sub_resource type="Resource" id="Resource_kuci8"]
+script = ExtResource("1")
+id = 23
+codename = "robot_suit"
+first_name = "Doug"
+last_name = "Baxter"
+portrait = "res://shared/assets/portraits/robot_suit.png"
+meta = {}
+first_name_phrase_id = 93
+last_name_phrase_id = 94
+
+[sub_resource type="Resource" id="Resource_p4kj0"]
+script = ExtResource("1")
+id = 24
+codename = "cinema_customer_05"
+first_name = "Jenny"
+last_name = "Chen"
+portrait = "res://shared/assets/portraits/cinema_customer05.png"
+meta = {}
+first_name_phrase_id = 95
+last_name_phrase_id = 96
+
+[sub_resource type="Resource" id="Resource_tuimn"]
+script = ExtResource("1")
+id = 25
+codename = "cinema_customer06"
+first_name = "Tom"
+last_name = "Powers"
+portrait = "res://shared/assets/portraits/customer_06.png"
+meta = {}
+first_name_phrase_id = 103
+last_name_phrase_id = 104
+
+[sub_resource type="Resource" id="Resource_nla47"]
+script = ExtResource("1")
+id = 26
+codename = "asylum_extra"
+first_name = "Morg"
+last_name = "Brakka"
+portrait = "res://acts/full_game/introductory_arc/asylum/assets/portraits/warden.png"
+meta = {}
+first_name_phrase_id = 162
+last_name_phrase_id = 163
+
+[sub_resource type="Resource" id="Resource_dolge"]
+script = ExtResource("1")
+id = 27
+codename = "collector"
+first_name = "Tesa"
+last_name = "Nevari"
+portrait = "res://shared/assets/portraits/collector.png"
+meta = {}
+first_name_phrase_id = 187
+last_name_phrase_id = 188
+
+[sub_resource type="Resource" id="Resource_h61ig"]
+script = ExtResource("1")
+id = 28
+codename = "manager"
+first_name = "Tim"
+last_name = "Spender"
+portrait = "res://shared/assets/portraits/manager.png"
+meta = {}
+first_name_phrase_id = 189
+last_name_phrase_id = 190
+
+[sub_resource type="Resource" id="Resource_oypai"]
+script = ExtResource("1")
+id = 29
+codename = "team_leader"
+first_name = "Marie"
+last_name = "Westlake"
+portrait = "res://shared/assets/portraits/team_leader.png"
+meta = {}
+first_name_phrase_id = 191
+last_name_phrase_id = 192
+
+[sub_resource type="Resource" id="Resource_fuvui"]
+script = ExtResource("1")
+id = 30
+codename = "follower_phone"
+first_name = "Riley"
+last_name = "Robinson"
+portrait = "res://shared/assets/portraits/follower_phone.png"
+meta = {}
+first_name_phrase_id = 193
+last_name_phrase_id = 194
+
+[sub_resource type="Resource" id="Resource_84mxg"]
+script = ExtResource("1")
+id = 31
+codename = "security_stabbed"
+first_name = "Bruce"
+last_name = "Myson"
+portrait = "res://shared/assets/portraits/security_stabbed.png"
+meta = {}
+first_name_phrase_id = 195
+last_name_phrase_id = 196
+
+[sub_resource type="Resource" id="Resource_ctjm1"]
+script = ExtResource("1")
+id = 32
+codename = "security_tending"
+first_name = "Billy"
+last_name = "Greer"
+portrait = "res://shared/assets/portraits/security_tending.png"
+meta = {}
+first_name_phrase_id = 197
+last_name_phrase_id = 198
+
+[sub_resource type="Resource" id="Resource_tj67l"]
+script = ExtResource("1")
+id = 33
+codename = "cousin"
+first_name = "Alex"
+last_name = "Remington"
+portrait = "res://shared/assets/portraits/cousin.png"
+meta = {}
+first_name_phrase_id = 199
+last_name_phrase_id = 200
+
+[sub_resource type="Resource" id="Resource_pg368"]
+script = ExtResource("1")
+id = 34
+codename = "follower_cowering"
+first_name = "Charlie"
+last_name = "Hall"
+portrait = "res://shared/assets/portraits/follower_cowering.png"
+meta = {}
+first_name_phrase_id = 201
+last_name_phrase_id = 202
+
+[sub_resource type="Resource" id="Resource_6stjd"]
+script = ExtResource("1")
+id = 35
+codename = "musician"
+first_name = "Vilmar"
+last_name = "Prado"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 244
+last_name_phrase_id = 245
+
+[sub_resource type="Resource" id="Resource_a4b0w"]
+script = ExtResource("1")
+id = 36
+codename = "winner"
+first_name = "Atharv"
+last_name = "Reddy"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 278
+last_name_phrase_id = 234
+
+[sub_resource type="Resource" id="Resource_7v21q"]
+script = ExtResource("1")
+id = 37
+codename = "host"
+first_name = "Dante"
+last_name = "Longo"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 235
+last_name_phrase_id = 236
+
+[sub_resource type="Resource" id="Resource_aabrr"]
+script = ExtResource("1")
+id = 38
+codename = "ballerina"
+first_name = "Regina"
+last_name = "Littlemore"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 237
+last_name_phrase_id = 238
+
+[sub_resource type="Resource" id="Resource_vlxeu"]
+script = ExtResource("1")
+id = 39
+codename = "cameraman"
+first_name = "Mitchell"
+last_name = "Burgin"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 167
+last_name_phrase_id = 241
+
+[sub_resource type="Resource" id="Resource_en5yn"]
+script = ExtResource("1")
+id = 40
+codename = "puppeteer"
+first_name = "Cameron"
+last_name = "Flake"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 246
+last_name_phrase_id = 247
+
+[sub_resource type="Resource" id="Resource_mb0jr"]
+script = ExtResource("1")
+id = 41
+codename = "magician"
+first_name = "Nola"
+last_name = "Rockow"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 242
+last_name_phrase_id = 243
+
+[sub_resource type="Resource" id="Resource_u66bw"]
+script = ExtResource("1")
+id = 42
+codename = "juggler"
+first_name = "Jamey"
+last_name = "Albright"
+portrait = "res://shared/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 239
+last_name_phrase_id = 240
+
+[sub_resource type="Resource" id="Resource_y3ug2"]
+script = ExtResource("1")
+id = 43
+codename = "bad_board_member"
+first_name = "Nathan"
+last_name = "Hoyle"
+portrait = "res://shared/assets/portraits/newbadboard.png"
+meta = {}
+first_name_phrase_id = 272
+last_name_phrase_id = 273
+
+[sub_resource type="Resource" id="Resource_ger6d"]
+script = ExtResource("1")
+id = 44
+codename = "bad_engineer"
+first_name = "Eugene"
+last_name = "Marmot"
+portrait = "res://shared/assets/portraits/badengineer_burningman.png"
+meta = {}
+first_name_phrase_id = 368
+last_name_phrase_id = 369
+
+[sub_resource type="Resource" id="Resource_fhrxj"]
+script = ExtResource("1")
+id = 45
+codename = "philanthropist"
+first_name = "Isaac"
+last_name = "Newman"
+portrait = "res://shared/assets/portraits/uncledead.png"
+meta = {}
+first_name_phrase_id = 279
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_gue05"]
+script = ExtResource("1")
+id = 46
+codename = "bridge_man"
+first_name = "Ronald"
+last_name = "Carter"
+portrait = "res://shared/assets/portraits/husband.png"
+meta = {}
+first_name_phrase_id = 284
+last_name_phrase_id = 286
+
+[sub_resource type="Resource" id="Resource_flvtx"]
+script = ExtResource("1")
+id = 47
+codename = "bridge_lady"
+first_name = "Debra"
+last_name = "Carter"
+portrait = "res://shared/assets/portraits/whife.png"
+meta = {}
+first_name_phrase_id = 285
+last_name_phrase_id = 286
+
+[sub_resource type="Resource" id="Resource_rnknk"]
+script = ExtResource("1")
+id = 48
+codename = "agent_undercover"
+first_name = "Robbie"
+last_name = "Froberg"
+portrait = "res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent.png"
+meta = {}
+first_name_phrase_id = 332
+last_name_phrase_id = 333
+
+[sub_resource type="Resource" id="Resource_whyng"]
+script = ExtResource("1")
+id = 49
+codename = "disguised_agent"
+first_name = "Augie"
+last_name = "Tamine"
+portrait = "res://shared/assets/portraits/disguised_agent.png"
+meta = {}
+first_name_phrase_id = 560
+last_name_phrase_id = 561
+
+[sub_resource type="Resource" id="Resource_cenjc"]
+script = ExtResource("1")
+id = 50
+codename = "rationalist"
+first_name = "Lucien"
+last_name = "Lumley"
+portrait = "res://shared/assets/portraits/rationalist.png"
+meta = {}
+first_name_phrase_id = 370
+last_name_phrase_id = 371
+
+[sub_resource type="Resource" id="Resource_614nc"]
+script = ExtResource("1")
+id = 51
+codename = "dead_worker"
+first_name = "Joel"
+last_name = "Kregson"
+portrait = "res://shared/assets/portraits/worker_dead.png"
+meta = {}
+first_name_phrase_id = 352
+last_name_phrase_id = 353
+
+[sub_resource type="Resource" id="Resource_671qy"]
+script = ExtResource("1")
+id = 52
+codename = "homeles_construction_yard"
+first_name = "Uria"
+last_name = "Brown"
+portrait = "res://shared/assets/portraits/homeless_construction.png"
+meta = {}
+first_name_phrase_id = 358
+last_name_phrase_id = 359
+
+[sub_resource type="Resource" id="Resource_5wpas"]
+script = ExtResource("1")
+id = 53
+codename = "worker_1"
+first_name = "Ted"
+last_name = "Werter"
+portrait = "res://shared/assets/portraits/construction_worker1.png"
+meta = {}
+first_name_phrase_id = 354
+last_name_phrase_id = 355
+
+[sub_resource type="Resource" id="Resource_fve2j"]
+script = ExtResource("1")
+id = 54
+codename = "worker2"
+first_name = "Monty"
+last_name = "Totsky"
+portrait = "res://shared/assets/portraits/construction_worker3.png"
+meta = {}
+first_name_phrase_id = 356
+last_name_phrase_id = 357
+
+[sub_resource type="Resource" id="Resource_vomfx"]
+script = ExtResource("1")
+id = 55
+codename = "worker3"
+first_name = "Bill"
+last_name = "Jenkins"
+portrait = "res://shared/assets/portraits/construction_worker2.png"
+meta = {}
+first_name_phrase_id = 364
+last_name_phrase_id = 365
+
+[sub_resource type="Resource" id="Resource_er52d"]
+script = ExtResource("1")
+id = 56
+codename = "detective1"
+first_name = "Roy"
+last_name = "Semson"
+portrait = "res://shared/assets/portraits/policeman2_construction.png"
+meta = {}
+first_name_phrase_id = 360
+last_name_phrase_id = 361
+
+[sub_resource type="Resource" id="Resource_nd2lm"]
+script = ExtResource("1")
+id = 57
+codename = "detective2"
+first_name = "Ian"
+last_name = "Worth"
+portrait = "res://shared/assets/portraits/policeman1_construction.png"
+meta = {}
+first_name_phrase_id = 366
+last_name_phrase_id = 367
+
+[sub_resource type="Resource" id="Resource_bqlpn"]
+script = ExtResource("1")
+id = 58
+codename = "reporter"
+first_name = "Miranda"
+last_name = "Meadows"
+portrait = "res://shared/assets/portraits/reporter.png"
+meta = {}
+first_name_phrase_id = 362
+last_name_phrase_id = 363
+
+[sub_resource type="Resource" id="Resource_xreen"]
+script = ExtResource("1")
+id = 59
+codename = "finger_rationalist"
+first_name = "Jack"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/fprationalistflask.png"
+meta = {}
+first_name_phrase_id = 491
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_hr28s"]
+script = ExtResource("1")
+id = 60
+codename = "finger_badboard"
+first_name = "Nathan"
+last_name = "Hoyle"
+portrait = "res://shared/assets/portraits/fpmanagerdoor.png"
+meta = {}
+first_name_phrase_id = 272
+last_name_phrase_id = 273
+
+[sub_resource type="Resource" id="Resource_r4m5q"]
+script = ExtResource("1")
+id = 61
+codename = "finger_bad_engineer"
+first_name = "Eugene"
+last_name = "Marmot"
+portrait = "res://shared/assets/portraits/fpbadengbook.png"
+meta = {}
+first_name_phrase_id = 368
+last_name_phrase_id = 369
+
+[sub_resource type="Resource" id="Resource_kyise"]
+script = ExtResource("1")
+id = 62
+codename = "finger_professor"
+first_name = "Oriel"
+last_name = "Toussaint"
+portrait = "res://shared/assets/portraits/fphistorianglasses.png"
+meta = {}
+first_name_phrase_id = 81
+last_name_phrase_id = 82
+
+[sub_resource type="Resource" id="Resource_5y6rs"]
+script = ExtResource("1")
+id = 63
+codename = "finger_team_lead"
+first_name = "Marie"
+last_name = "Westlake"
+portrait = "res://shared/assets/portraits/fpteamleadblot.png"
+meta = {}
+first_name_phrase_id = 191
+last_name_phrase_id = 192
+
+[sub_resource type="Resource" id="Resource_kkyuy"]
+script = ExtResource("1")
+id = 64
+codename = "finger_manager"
+first_name = "Tim"
+last_name = "Spender"
+portrait = "res://shared/assets/portraits/fpbadboardwhiskey.png"
+meta = {}
+first_name_phrase_id = 189
+last_name_phrase_id = 190
+
+[sub_resource type="Resource" id="Resource_jpjma"]
+script = ExtResource("1")
+id = 65
+codename = "crying_keeper"
+first_name = "Marcie"
+last_name = "Palmer"
+portrait = "res://acts/full_game/research_arc/aviary/assets/Marcie.png"
+meta = {}
+first_name_phrase_id = 459
+last_name_phrase_id = 456
+
+[sub_resource type="Resource" id="Resource_nw2g0"]
+script = ExtResource("1")
+id = 66
+codename = "shouting_keeper"
+first_name = "Crystal"
+last_name = "Moore"
+portrait = "res://acts/full_game/research_arc/aviary/assets/Crystal.png"
+meta = {}
+first_name_phrase_id = 455
+last_name_phrase_id = 460
+
+[sub_resource type="Resource" id="Resource_827np"]
+script = ExtResource("1")
+id = 67
+codename = "dead_keeper"
+first_name = "Declan"
+last_name = "Astor"
+portrait = "res://acts/full_game/research_arc/aviary/assets/Declan.png"
+meta = {}
+first_name_phrase_id = 457
+last_name_phrase_id = 458
+
+[sub_resource type="Resource" id="Resource_sefis"]
+script = ExtResource("1")
+id = 68
+codename = "police_chief"
+first_name = "Sebastian"
+last_name = "Walsh"
+portrait = "res://shared/assets/portraits/police_chief.png"
+meta = {}
+first_name_phrase_id = 173
+last_name_phrase_id = 174
+
+[sub_resource type="Resource" id="Resource_80ycp"]
+script = ExtResource("1")
+id = 69
+codename = "genius_daughter"
+first_name = "Elizabeth"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/genius_daughter.png"
+meta = {}
+first_name_phrase_id = 490
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_12s82"]
+script = ExtResource("1")
+id = 70
+codename = "journalist"
+first_name = "Brenda"
+last_name = "Mitchell"
+portrait = "res://shared/assets/portraits/journalist.png"
+meta = {}
+first_name_phrase_id = 492
+last_name_phrase_id = 167
+
+[sub_resource type="Resource" id="Resource_a0s0t"]
+script = ExtResource("1")
+id = 71
+codename = "rationalist_conference"
+first_name = "Jack"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/rationalist_conference.png"
+meta = {}
+first_name_phrase_id = 491
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_qk28p"]
+script = ExtResource("1")
+id = 72
+codename = "philanthropist_conference"
+first_name = "Isaac"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/isaac_conferencepng"
+meta = {}
+first_name_phrase_id = 279
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_iv16o"]
+script = ExtResource("1")
+id = 73
+codename = "red_bird"
+first_name = "The Red-Breasted"
+last_name = "Heron"
+portrait = "res://acts/full_game/research_arc/aviary/assets/heronclose.png"
+meta = {}
+first_name_phrase_id = 468
+last_name_phrase_id = 462
+
+[sub_resource type="Resource" id="Resource_haja2"]
+script = ExtResource("1")
+id = 74
+codename = "murder_bird"
+first_name = "The Masked"
+last_name = "Grouse"
+portrait = "res://acts/full_game/research_arc/aviary/assets/maskedclose.png"
+meta = {}
+first_name_phrase_id = 471
+last_name_phrase_id = 463
+
+[sub_resource type="Resource" id="Resource_rnbw2"]
+script = ExtResource("1")
+id = 75
+codename = "screaming_parrot"
+first_name = "The Deathrattle"
+last_name = "Lory"
+portrait = "res://acts/full_game/research_arc/aviary/assets/loryclose.png"
+meta = {}
+first_name_phrase_id = 469
+last_name_phrase_id = 464
+
+[sub_resource type="Resource" id="Resource_igjeb"]
+script = ExtResource("1")
+id = 76
+codename = "bracelet_bird"
+first_name = "The Bleary-Eyed"
+last_name = "Flower-Piercer"
+portrait = "res://acts/full_game/research_arc/aviary/assets/flowerclose.png"
+meta = {}
+first_name_phrase_id = 467
+last_name_phrase_id = 461
+
+[sub_resource type="Resource" id="Resource_5rrjf"]
+script = ExtResource("1")
+id = 77
+codename = "attacking_bird"
+first_name = "Nythalic's"
+last_name = "Herald"
+portrait = "res://acts/full_game/research_arc/aviary/assets/heraldclose.png"
+meta = {}
+first_name_phrase_id = 470
+last_name_phrase_id = 465
+
+[sub_resource type="Resource" id="Resource_gg3sn"]
+script = ExtResource("1")
+id = 78
+codename = "detective1_conference"
+first_name = "Roy"
+last_name = "Samson"
+portrait = "res://shared/assets/portraits/policeman2_construction.png"
+meta = {}
+first_name_phrase_id = 360
+last_name_phrase_id = 361
+
+[sub_resource type="Resource" id="Resource_gt2kg"]
+script = ExtResource("1")
+id = 79
+codename = "detective2_conference"
+first_name = "Ian"
+last_name = "Worth"
+portrait = "res://shared/assets/portraits/policeman1_construction.png"
+meta = {}
+first_name_phrase_id = 366
+last_name_phrase_id = 367
+
+[sub_resource type="Resource" id="Resource_nl37a"]
+script = ExtResource("1")
+id = 80
+codename = "beach_model_eve"
+first_name = "Eve"
+last_name = "Robertson"
+portrait = "res://shared/assets/portraits/eve_beach.png"
+meta = {}
+first_name_phrase_id = 641
+last_name_phrase_id = 624
+
+[sub_resource type="Resource" id="Resource_p41cs"]
+script = ExtResource("1")
+id = 81
+codename = "beach_model_jennifer"
+first_name = "Jennifer"
+last_name = "Gibson"
+portrait = "res://shared/assets/portraits/jennifer_beach.png"
+meta = {}
+first_name_phrase_id = 626
+last_name_phrase_id = 627
+
+[sub_resource type="Resource" id="Resource_ck0gk"]
+script = ExtResource("1")
+id = 82
+codename = "female_model_beach_victim"
+first_name = "Amy"
+last_name = "Wood"
+portrait = "res://shared/assets/portraits/beach_alergic_model.png"
+meta = {}
+first_name_phrase_id = 625
+last_name_phrase_id = 186
+
+[sub_resource type="Resource" id="Resource_ve6qa"]
+script = ExtResource("1")
+id = 83
+codename = "beach_paramedic"
+first_name = "Roger"
+last_name = "Simpson"
+portrait = "res://shared/assets/portraits/beach_paramedic.png"
+meta = {}
+first_name_phrase_id = 759
+last_name_phrase_id = 640
+
+[sub_resource type="Resource" id="Resource_p05ck"]
+script = ExtResource("1")
+id = 84
+codename = "beach_medic"
+first_name = "Sofia"
+last_name = "Cano"
+portrait = "res://shared/assets/portraits/beach_medic.png"
+meta = {}
+first_name_phrase_id = 634
+last_name_phrase_id = 635
+
+[sub_resource type="Resource" id="Resource_gqp0x"]
+script = ExtResource("1")
+id = 85
+codename = "opig_photographer"
+first_name = "Darius"
+last_name = "King"
+portrait = "res://shared/assets/portraits/darius_beach.png"
+meta = {}
+first_name_phrase_id = 630
+last_name_phrase_id = 631
+
+[sub_resource type="Resource" id="Resource_6kgni"]
+script = ExtResource("1")
+id = 86
+codename = "casting_agent"
+first_name = "Sandra"
+last_name = "Harper"
+portrait = "res://shared/assets/portraits/casting_agent.png"
+meta = {}
+first_name_phrase_id = 753
+last_name_phrase_id = 629
+
+[sub_resource type="Resource" id="Resource_07flo"]
+script = ExtResource("1")
+id = 87
+codename = "beach_rationalist"
+first_name = "Jack"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/jack_beach.png"
+meta = {}
+first_name_phrase_id = 491
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_rh1xm"]
+script = ExtResource("1")
+id = 88
+codename = "beach_bad_engineer"
+first_name = "Eugene"
+last_name = "Marmot"
+portrait = "res://shared/assets/portraits/marmot_beach.png"
+meta = {}
+first_name_phrase_id = 368
+last_name_phrase_id = 369
+
+[sub_resource type="Resource" id="Resource_2wu11"]
+script = ExtResource("1")
+id = 89
+codename = "beach_organizer"
+first_name = "Marie"
+last_name = "Westlake"
+portrait = "res://shared/assets/portraits/marie_beach.png"
+meta = {}
+first_name_phrase_id = 191
+last_name_phrase_id = 192
+
+[sub_resource type="Resource" id="Resource_84xoi"]
+script = ExtResource("1")
+id = 90
+codename = "boardroom_lover"
+first_name = "Jasmine"
+last_name = "Patel"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/lover_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 652
+last_name_phrase_id = 653
+
+[sub_resource type="Resource" id="Resource_qrf0p"]
+script = ExtResource("1")
+id = 91
+codename = "boardroom_wife"
+first_name = "Annette"
+last_name = "Spender"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/wife_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 661
+last_name_phrase_id = 190
+
+[sub_resource type="Resource" id="Resource_a7ocp"]
+script = ExtResource("1")
+id = 92
+codename = "boardroom_intern"
+first_name = "Tristan"
+last_name = "Dreyfuss"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/intern_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 704
+last_name_phrase_id = 702
+
+[sub_resource type="Resource" id="Resource_1bgfo"]
+script = ExtResource("1")
+id = 93
+codename = "boardroom_boss"
+first_name = "Nathan"
+last_name = "Hoyle"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/boss_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 272
+last_name_phrase_id = 273
+
+[sub_resource type="Resource" id="Resource_2cqg0"]
+script = ExtResource("1")
+id = 94
+codename = "boardroom_manager"
+first_name = "Tim"
+last_name = "Spender"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/manager_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 189
+last_name_phrase_id = 190
+
+[sub_resource type="Resource" id="Resource_ajy0s"]
+script = ExtResource("1")
+id = 95
+codename = "boardroom_organiser"
+first_name = "Marie"
+last_name = "Westlake"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/organiser_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 191
+last_name_phrase_id = 192
+
+[sub_resource type="Resource" id="Resource_ny803"]
+script = ExtResource("1")
+id = 96
+codename = "boardroom_rationalist"
+first_name = "Jack"
+last_name = "Nowak"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/rationalist_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 491
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_7nm02"]
+script = ExtResource("1")
+id = 97
+codename = "boardroom_collector"
+first_name = "Tesa"
+last_name = "Nevari"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/collector_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 187
+last_name_phrase_id = 188
+
+[sub_resource type="Resource" id="Resource_e5cxo"]
+script = ExtResource("1")
+id = 98
+codename = "boardroom_bad_engineer"
+first_name = "Eugene"
+last_name = "Marmot"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/bad_engineer_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 368
+last_name_phrase_id = 369
+
+[sub_resource type="Resource" id="Resource_4ru0i"]
+script = ExtResource("1")
+id = 99
+codename = "boardroom_secretary"
+first_name = "Jeremy"
+last_name = "Drake"
+portrait = "res://acts/full_game/conclusion_arc/boardroom/assets/sketches/boardroom_portraits/secretary_portrait_boardroom.png"
+meta = {}
+first_name_phrase_id = 48
+last_name_phrase_id = 703
+
+[sub_resource type="Resource" id="Resource_xuemt"]
+script = ExtResource("1")
+id = 100
+codename = "Landlord"
+first_name = "Sonny"
+last_name = "Sawyer"
+portrait = "res://shared/assets/portraits/x_deadman.png"
+meta = {}
+first_name_phrase_id = 729
+last_name_phrase_id = 730
+
+[sub_resource type="Resource" id="Resource_gnmyc"]
+script = ExtResource("1")
+id = 101
+codename = "Toddler"
+first_name = "Patience"
+last_name = "Winthrop"
+portrait = "res://shared/assets/portraits/x_patience.png"
+meta = {}
+first_name_phrase_id = 727
+last_name_phrase_id = 726
+
+[sub_resource type="Resource" id="Resource_gkp1h"]
+script = ExtResource("1")
+id = 102
+codename = "ComplexMother"
+first_name = "Constance"
+last_name = "Winthrop"
+portrait = "res://shared/assets/portraits/x_constance.png"
+meta = {}
+first_name_phrase_id = 725
+last_name_phrase_id = 726
+
+[sub_resource type="Resource" id="Resource_4gsin"]
+script = ExtResource("1")
+id = 103
+codename = "ComplexFather"
+first_name = "Earnest"
+last_name = "Winthrop"
+portrait = "res://shared/assets/portraits/x_earnest.png"
+meta = {}
+first_name_phrase_id = 728
+last_name_phrase_id = 726
+
+[sub_resource type="Resource" id="Resource_8a4h4"]
+script = ExtResource("1")
+id = 104
+codename = "ComplexPI"
+first_name = "Lavona"
+last_name = "Colms"
+portrait = "res://shared/assets/portraits/x_colms.png"
+meta = {}
+first_name_phrase_id = 718
+last_name_phrase_id = 719
+
+[sub_resource type="Resource" id="Resource_fbfdl"]
+script = ExtResource("1")
+id = 105
+codename = "ComplexFishingFather"
+first_name = "Issa"
+last_name = "Nakana"
+portrait = "res://shared/assets/portraits/x_issa.png"
+meta = {}
+first_name_phrase_id = 717
+last_name_phrase_id = 716
+
+[sub_resource type="Resource" id="Resource_muwtn"]
+script = ExtResource("1")
+id = 106
+codename = "ComplexFishingSon"
+first_name = "Kai"
+last_name = "Nakana"
+portrait = "res://shared/assets/portraits/x_boy.png"
+meta = {}
+first_name_phrase_id = 715
+last_name_phrase_id = 716
+
+[sub_resource type="Resource" id="Resource_4cpwt"]
+script = ExtResource("1")
+id = 107
+codename = "ComplexBoozeMom"
+first_name = "Sabrina"
+last_name = "Knox"
+portrait = "res://shared/assets/portraits/x_knox.png"
+meta = {}
+first_name_phrase_id = 732
+last_name_phrase_id = 733
+
+[sub_resource type="Resource" id="Resource_nqyqf"]
+script = ExtResource("1")
+id = 108
+codename = "ComplexBoozeDaughter"
+first_name = "Jane"
+last_name = "Knox"
+portrait = "res://shared/assets/portraits/x_jane.png"
+meta = {}
+first_name_phrase_id = 731
+last_name_phrase_id = 733
+
+[sub_resource type="Resource" id="Resource_sssev"]
+script = ExtResource("1")
+id = 109
+codename = "ComplexRoomate1"
+first_name = "Bo"
+last_name = "Steensen"
+portrait = "res://shared/assets/portraits/x_taiyo.png"
+meta = {}
+first_name_phrase_id = 724
+last_name_phrase_id = 1084
+
+[sub_resource type="Resource" id="Resource_knlu8"]
+script = ExtResource("1")
+id = 110
+codename = "ComplexRoomate2"
+first_name = "Spencer"
+last_name = "Wright"
+portrait = "res://shared/assets/portraits/x_spencer.png"
+meta = {}
+first_name_phrase_id = 722
+last_name_phrase_id = 723
+
+[sub_resource type="Resource" id="Resource_x7m5g"]
+script = ExtResource("1")
+id = 111
+codename = "ComplexTailor"
+first_name = "Cheyenne"
+last_name = "Bird"
+portrait = "res://shared/assets/portraits/x_cheyenne.png"
+meta = {}
+first_name_phrase_id = 720
+last_name_phrase_id = 721
+
+[sub_resource type="Resource" id="Resource_2ad7f"]
+script = ExtResource("1")
+id = 112
+codename = "concerned_mother"
+first_name = "Odetta"
+last_name = "Amstel"
+portrait = "res://shared/assets/portraits/concernedmother.png"
+meta = {}
+first_name_phrase_id = 849
+last_name_phrase_id = 847
+
+[sub_resource type="Resource" id="Resource_gjbdm"]
+script = ExtResource("1")
+id = 113
+codename = "grillmaster"
+first_name = "Tobias"
+last_name = "Amstel"
+portrait = "res://shared/assets/portraits/grillmaster.png"
+meta = {}
+first_name_phrase_id = 855
+last_name_phrase_id = 847
+
+[sub_resource type="Resource" id="Resource_quimj"]
+script = ExtResource("1")
+id = 114
+codename = "hippieleader"
+first_name = "Penny"
+last_name = "Coolidge"
+portrait = "res://shared/assets/portraits/hippieleader.png"
+meta = {}
+first_name_phrase_id = 851
+last_name_phrase_id = 852
+
+[sub_resource type="Resource" id="Resource_5kt8t"]
+script = ExtResource("1")
+id = 115
+codename = "pool_boy"
+first_name = "Jeffrey"
+last_name = "Amstel"
+portrait = "res://shared/assets/portraits/poolboy.png"
+meta = {}
+first_name_phrase_id = 848
+last_name_phrase_id = 847
+
+[sub_resource type="Resource" id="Resource_dmpub"]
+script = ExtResource("1")
+id = 116
+codename = "rebel_daughter"
+first_name = "Andi"
+last_name = "Shaw"
+portrait = "res://shared/assets/portraits/rebeldaughter.png"
+meta = {}
+first_name_phrase_id = 845
+last_name_phrase_id = 846
+
+[sub_resource type="Resource" id="Resource_gf4i6"]
+script = ExtResource("1")
+id = 117
+codename = "suburban_spy"
+first_name = "Corbyn"
+last_name = "Shaw"
+portrait = "res://shared/assets/portraits/suburbanspy.png"
+meta = {}
+first_name_phrase_id = 850
+last_name_phrase_id = 846
+
+[sub_resource type="Resource" id="Resource_ovnmc"]
+script = ExtResource("1")
+id = 118
+codename = "dark_gangster"
+first_name = "Luke"
+last_name = "Brown"
+portrait = "res://shared/assets/portraits/dark_experiments_elijah.png"
+meta = {}
+first_name_phrase_id = 358
+last_name_phrase_id = 359
+
+[sub_resource type="Resource" id="Resource_xcnlg"]
+script = ExtResource("1")
+id = 119
+codename = "dark_william"
+first_name = "Dirty"
+last_name = "William"
+portrait = "res://shared/assets/portraits/dark_experiments_william.png"
+meta = {}
+first_name_phrase_id = 496
+last_name_phrase_id = 497
+
+[sub_resource type="Resource" id="Resource_o8m1h"]
+script = ExtResource("1")
+id = 120
+codename = "dark_orion"
+first_name = "Orion"
+last_name = "Sky"
+portrait = "res://shared/assets/portraits/dark_experiments_orion.png"
+meta = {}
+first_name_phrase_id = 918
+last_name_phrase_id = 933
+
+[sub_resource type="Resource" id="Resource_udws0"]
+script = ExtResource("1")
+id = 121
+codename = "dark_phil"
+first_name = "Funny"
+last_name = "Phil"
+portrait = "res://shared/assets/portraits/dark_experiments_phil.png"
+meta = {}
+first_name_phrase_id = 920
+last_name_phrase_id = 921
+
+[sub_resource type="Resource" id="Resource_ll52u"]
+script = ExtResource("1")
+id = 122
+codename = "dark_harry"
+first_name = "Harry"
+last_name = "Stone"
+portrait = "res://shared/assets/portraits/dark_experiments_harry.png"
+meta = {}
+first_name_phrase_id = 924
+last_name_phrase_id = 925
+
+[sub_resource type="Resource" id="Resource_4quxf"]
+script = ExtResource("1")
+id = 123
+codename = "dark_gabriel"
+first_name = "Gabriel"
+last_name = "Girard"
+portrait = "res://shared/assets/portraits/dark_experiments_gabriel.png"
+meta = {}
+first_name_phrase_id = 926
+last_name_phrase_id = 927
+
+[sub_resource type="Resource" id="Resource_stpye"]
+script = ExtResource("1")
+id = 124
+codename = "dark_olivia"
+first_name = "Olivia"
+last_name = "Girard"
+portrait = "res://shared/assets/portraits/dark_experiments_olivia.png"
+meta = {}
+first_name_phrase_id = 928
+last_name_phrase_id = 927
+
+[sub_resource type="Resource" id="Resource_qf0j1"]
+script = ExtResource("1")
+id = 125
+codename = "dark_brock"
+first_name = "Brock"
+last_name = "Sterling"
+portrait = "res://shared/assets/portraits/dark_experiments_brock.png"
+meta = {}
+first_name_phrase_id = 929
+last_name_phrase_id = 930
+
+[sub_resource type="Resource" id="Resource_yvc1w"]
+script = ExtResource("1")
+id = 126
+codename = "dark_tucker"
+first_name = "Tucker"
+last_name = "Hatz"
+portrait = "res://shared/assets/portraits/dark_experiments_tucker.png"
+meta = {}
+first_name_phrase_id = 931
+last_name_phrase_id = 932
+
+[sub_resource type="Resource" id="Resource_pu1p5"]
+script = ExtResource("1")
+id = 127
+codename = "burning_professor"
+first_name = "Oriel"
+last_name = "Toussaint"
+portrait = "res://shared/assets/portraits/professor_burningman.png"
+meta = {}
+first_name_phrase_id = 81
+last_name_phrase_id = 82
+
+[sub_resource type="Resource" id="Resource_q63vx"]
+script = ExtResource("1")
+id = 128
+codename = "burning_rationalist"
+first_name = "Jack"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/rationalist_burningman.png"
+meta = {}
+first_name_phrase_id = 491
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_03oma"]
+script = ExtResource("1")
+id = 129
+codename = "injury_badengineer"
+first_name = "Eugene"
+last_name = "Marmot"
+portrait = "res://shared/assets/portraits/badengineer_injury.png"
+meta = {}
+first_name_phrase_id = 368
+last_name_phrase_id = 369
+
+[sub_resource type="Resource" id="Resource_6qb34"]
+script = ExtResource("1")
+id = 130
+codename = "injury_rationalist"
+first_name = "Jack"
+last_name = "Nowak"
+portrait = "res://shared/assets/portraits/rationalist_injury.png"
+meta = {}
+first_name_phrase_id = 491
+last_name_phrase_id = 280
+
+[sub_resource type="Resource" id="Resource_oam7n"]
+script = ExtResource("1")
+id = 131
+codename = "eviction_manager"
+first_name = "Tim"
+last_name = "Spender"
+portrait = "res://shared/assets/portraits/badboard_eviction.png"
+meta = {}
+first_name_phrase_id = 189
+last_name_phrase_id = 190
+
+[sub_resource type="Resource" id="Resource_ca5a3"]
+script = ExtResource("1")
+id = 132
+codename = "eviction_teamlead"
+first_name = "Marie"
+last_name = "Westlake"
+portrait = "res://shared/assets/portraits/teamlead_eviction.png"
+meta = {}
+first_name_phrase_id = 191
+last_name_phrase_id = 192
+
+[sub_resource type="Resource" id="Resource_sxpd4"]
+script = ExtResource("1")
+id = 133
+codename = "collector_eviction"
+first_name = "Tesa"
+last_name = "Nevari"
+portrait = "res://shared/assets/portraits/collector_eviction.png"
+meta = {}
+first_name_phrase_id = 187
+last_name_phrase_id = 188
+
+[sub_resource type="Resource" id="Resource_04njt"]
+script = ExtResource("1")
+id = 134
+codename = "complex_killer"
+first_name = "Kenneth"
+last_name = "Ozola"
+portrait = "res://shared/assets/portraits/x_myson.png"
+meta = {}
+first_name_phrase_id = 1074
+last_name_phrase_id = 1121
+
+[sub_resource type="Resource" id="Resource_xtwhi"]
+script = ExtResource("1")
+id = 135
+codename = "audio_technician"
+first_name = "Audio"
+last_name = "technician"
+portrait = "res://shared/assets/portraits/audio_technician.png"
+meta = {}
+first_name_phrase_id = 1262
+last_name_phrase_id = 1263
+
+[sub_resource type="Resource" id="Resource_2jolt"]
+script = ExtResource("1")
+id = 136
+codename = "fat_guest"
+first_name = "Menni"
+last_name = "Lebop"
+portrait = "res://shared/assets/portraits/fat_guest.png"
+meta = {}
+first_name_phrase_id = 1264
+last_name_phrase_id = 1265
+
+[sub_resource type="Resource" id="Resource_esy0f"]
+script = ExtResource("1")
+id = 137
+codename = "palace_guard"
+first_name = "Triskan"
+last_name = "Zeldorf"
+portrait = "res://shared/assets/portraits/palace_guard.png"
+meta = {}
+first_name_phrase_id = 1266
+last_name_phrase_id = 1267
+
+[sub_resource type="Resource" id="Resource_cbxky"]
+script = ExtResource("1")
+id = 138
+codename = "king"
+first_name = "Lutri"
+last_name = "Manzek"
+portrait = "res://shared/assets/portraits/king.png"
+meta = {}
+first_name_phrase_id = 1268
+last_name_phrase_id = 1330
+
+[sub_resource type="Resource" id="Resource_qpky7"]
+script = ExtResource("1")
+id = 139
+codename = "prince"
+first_name = "Zerek"
+last_name = "Manzek"
+portrait = "res://shared/assets/portraits/prince.png"
+meta = {}
+first_name_phrase_id = 1255
+last_name_phrase_id = 1330
+
+[sub_resource type="Resource" id="Resource_10hto"]
+script = ExtResource("1")
+id = 140
+codename = "princess"
+first_name = "Liva"
+last_name = "Manzek"
+portrait = "res://shared/assets/portraits/princess.png"
+meta = {}
+first_name_phrase_id = 1253
+last_name_phrase_id = 1330
+
+[sub_resource type="Resource" id="Resource_7to2k"]
+script = ExtResource("1")
+id = 141
+codename = "spiritual_advisor"
+first_name = "First"
+last_name = "sentinel"
+portrait = "res://shared/assets/portraits/spiritual_advisor.png"
+meta = {}
+first_name_phrase_id = 1256
+last_name_phrase_id = 1257
+
+[sub_resource type="Resource" id="Resource_m6o0c"]
+script = ExtResource("1")
+id = 142
+codename = "usher"
+first_name = "Beka"
+last_name = "Shabak"
+portrait = "res://shared/assets/portraits/usher.png"
+meta = {}
+first_name_phrase_id = 1269
+last_name_phrase_id = 1270
+
+[sub_resource type="Resource" id="Resource_dj5e4"]
+script = ExtResource("1")
+id = 143
+codename = "guru"
+first_name = "Pravi"
+last_name = "Nagasai"
+portrait = "res://shared/assets/portraits/guru.png"
+meta = {}
+first_name_phrase_id = 1369
+last_name_phrase_id = 1370
+
+[sub_resource type="Resource" id="Resource_7cw2m"]
+script = ExtResource("1")
+id = 144
+codename = "psycho"
+first_name = "Ori"
+last_name = "Nagasai"
+portrait = "res://shared/assets/portraits/psycho.png"
+meta = {}
+first_name_phrase_id = 1371
+last_name_phrase_id = 1370
+
+[sub_resource type="Resource" id="Resource_4j0cr"]
+script = ExtResource("1")
+id = 145
+codename = "materialist"
+first_name = "Koi"
+last_name = "Nagasai"
+portrait = "res://shared/assets/portraits/materialist.png"
+meta = {}
+first_name_phrase_id = 1372
+last_name_phrase_id = 1370
+
+[sub_resource type="Resource" id="Resource_3cqg0"]
+script = ExtResource("1")
+id = 146
+codename = "mother"
+first_name = "Quansa"
+last_name = "Rafeli"
+portrait = "res://shared/assets/portraits/mother.png"
+meta = {}
+first_name_phrase_id = 1373
+last_name_phrase_id = 1374
+
+[sub_resource type="Resource" id="Resource_hd2jm"]
+script = ExtResource("1")
+id = 147
+codename = "scribe"
+first_name = "Gresto"
+last_name = "Nozi"
+portrait = "res://shared/assets/portraits/scribe.png"
+meta = {}
+first_name_phrase_id = 1375
+last_name_phrase_id = 1376
+
+[sub_resource type="Resource" id="Resource_6l65c"]
+script = ExtResource("1")
+id = 148
+codename = "apprentice"
+first_name = "Nina"
+last_name = "Tranta"
+portrait = "res://shared/assets/portraits/apprentice.png"
+meta = {}
+first_name_phrase_id = 1377
+last_name_phrase_id = 1378
+
+[sub_resource type="Resource" id="Resource_62p4d"]
+script = ExtResource("1")
+id = 149
+codename = "doctor"
+first_name = "Jolene"
+last_name = "Prenzi"
+portrait = "res://shared/assets/portraits/doctor.png"
+meta = {}
+first_name_phrase_id = 1379
+last_name_phrase_id = 1380
+
+[sub_resource type="Resource" id="Resource_rabsp"]
+script = ExtResource("1")
+id = 150
+codename = "quack"
+first_name = "Ralo"
+last_name = "Crish"
+portrait = "res://shared/assets/portraits/quack.png"
+meta = {}
+first_name_phrase_id = 1381
+last_name_phrase_id = 1382
+
+[sub_resource type="Resource" id="Resource_3asuo"]
+script = ExtResource("1")
+id = 151
+codename = "OrchardSon"
+first_name = "Ethem"
+last_name = "Lurvel"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/portraits/Ethem.png"
+meta = {}
+first_name_phrase_id = 1643
+last_name_phrase_id = 1649
+
+[sub_resource type="Resource" id="Resource_3sb34"]
+script = ExtResource("1")
+id = 152
+codename = "OrchardDead"
+first_name = "Luram"
+last_name = "Lurvel"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/closeups/body.png"
+meta = {}
+first_name_phrase_id = 1642
+last_name_phrase_id = 1649
+
+[sub_resource type="Resource" id="Resource_10347"]
+script = ExtResource("1")
+id = 153
+codename = "OrchardWife"
+first_name = "Vel"
+last_name = "Lurvel"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/portraits/Vel.png"
+meta = {}
+first_name_phrase_id = 1645
+last_name_phrase_id = 1649
+
+[sub_resource type="Resource" id="Resource_xpi81"]
+script = ExtResource("1")
+id = 154
+codename = "OrchardDad"
+first_name = "Tanis"
+last_name = "Tanska"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/portraits/Tanis.png"
+meta = {}
+first_name_phrase_id = 1648
+last_name_phrase_id = 1650
+
+[sub_resource type="Resource" id="Resource_pnskr"]
+script = ExtResource("1")
+id = 155
+codename = "OrchardMom"
+first_name = "Raska"
+last_name = "Tanska"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/portraits/Raska.png"
+meta = {}
+first_name_phrase_id = 1647
+last_name_phrase_id = 1650
+
+[sub_resource type="Resource" id="Resource_bf02t"]
+script = ExtResource("1")
+id = 156
+codename = "OrchardNephew"
+first_name = "Omori"
+last_name = "Yelda"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/portraits/Omori.png"
+meta = {}
+first_name_phrase_id = 1644
+last_name_phrase_id = 1651
+
+[sub_resource type="Resource" id="Resource_tnmv4"]
+script = ExtResource("1")
+id = 157
+codename = "OrchardSibling"
+first_name = "Nada"
+last_name = "Yelda"
+portrait = "res://acts/inquisition_dlc/1_orchard/assets/portraits/Nado.png"
+meta = {}
+first_name_phrase_id = 1646
+last_name_phrase_id = 1651
+
+[sub_resource type="Resource" id="Resource_ar55k"]
+script = ExtResource("1")
+id = 158
+codename = "follower2"
+first_name = "Helen"
+last_name = "Martin"
+portrait = "res://shared/assets/portraits/follower2.png"
+meta = {}
+first_name_phrase_id = 1673
+last_name_phrase_id = 1674
+
+[sub_resource type="Resource" id="Resource_gprpf"]
+script = ExtResource("1")
+id = 159
+codename = "follower3"
+first_name = "Maggie"
+last_name = "Carter"
+portrait = "res://shared/assets/portraits/follower3.png"
+meta = {}
+first_name_phrase_id = 1449
+last_name_phrase_id = 1677
+
+[sub_resource type="Resource" id="Resource_y1e8d"]
+script = ExtResource("1")
+id = 160
+codename = "follower4"
+first_name = "Nina"
+last_name = "Lavell"
+portrait = "res://shared/assets/portraits/follower4.png"
+meta = {}
+first_name_phrase_id = 1732
+last_name_phrase_id = 1733
+
+[sub_resource type="Resource" id="Resource_iyp13"]
+script = ExtResource("1")
+id = 161
+codename = "follower1"
+first_name = "Lizzie"
+last_name = "Young"
+portrait = "res://shared/assets/portraits/follower1.png"
+meta = {}
+first_name_phrase_id = 1675
+last_name_phrase_id = 638
+
+[sub_resource type="Resource" id="Resource_moy2q"]
+script = ExtResource("1")
+id = 162
+codename = "servant"
+first_name = "Jamati"
+last_name = "Pirra"
+portrait = "res://shared/assets/portraits/servant.png"
+meta = {}
+first_name_phrase_id = 1477
+last_name_phrase_id = 1478
+
+[sub_resource type="Resource" id="Resource_axwoi"]
+script = ExtResource("1")
+id = 163
+codename = "forklift_operator"
+first_name = "Sorin"
+last_name = "Rivak"
+portrait = "res://shared/assets/portraits/forklift_operator.png"
+meta = {}
+first_name_phrase_id = 1678
+last_name_phrase_id = 1679
+
+[sub_resource type="Resource" id="Resource_tkjrf"]
+script = ExtResource("1")
+id = 164
+codename = "bribed_foreman"
+first_name = "Malden"
+last_name = "Valmar"
+portrait = "res://shared/assets/portraits/bribed_foreman.png"
+meta = {}
+first_name_phrase_id = 1680
+last_name_phrase_id = 1681
+
+[sub_resource type="Resource" id="Resource_3ifwo"]
+script = ExtResource("1")
+id = 165
+codename = "materialist_compound"
+first_name = "Koi"
+last_name = "Nagasai"
+portrait = "res://shared/assets/portraits/materialist_compound.png"
+meta = {}
+first_name_phrase_id = 1372
+last_name_phrase_id = 1370
+
+[sub_resource type="Resource" id="Resource_47fhc"]
+script = ExtResource("1")
+id = 166
+codename = "scribe_compound"
+first_name = "Gresto"
+last_name = "Nozi"
+portrait = "res://shared/assets/portraits/scribe_compound.png"
+meta = {}
+first_name_phrase_id = 1375
+last_name_phrase_id = 1376
+
+[resource]
+script = ExtResource("2")
+data = Array[ExtResource("1")]([SubResource("Resource_fn5fr"), SubResource("Resource_h3ct6"), SubResource("Resource_0j830"), SubResource("Resource_wswhm"), SubResource("Resource_6jfnp"), SubResource("Resource_cukoa"), SubResource("Resource_cybda"), SubResource("Resource_moh0t"), SubResource("Resource_1jsu8"), SubResource("Resource_83ir6"), SubResource("Resource_itbcu"), SubResource("Resource_mrbl1"), SubResource("Resource_iik2y"), SubResource("Resource_5x8um"), SubResource("Resource_gtorv"), SubResource("Resource_4ufqp"), SubResource("Resource_b8p8w"), SubResource("Resource_vpw4k"), SubResource("Resource_ldyrv"), SubResource("Resource_clprg"), SubResource("Resource_em7br"), SubResource("Resource_63shp"), SubResource("Resource_kuci8"), SubResource("Resource_p4kj0"), SubResource("Resource_tuimn"), SubResource("Resource_nla47"), SubResource("Resource_dolge"), SubResource("Resource_h61ig"), SubResource("Resource_oypai"), SubResource("Resource_fuvui"), SubResource("Resource_84mxg"), SubResource("Resource_ctjm1"), SubResource("Resource_tj67l"), SubResource("Resource_pg368"), SubResource("Resource_6stjd"), SubResource("Resource_a4b0w"), SubResource("Resource_7v21q"), SubResource("Resource_aabrr"), SubResource("Resource_vlxeu"), SubResource("Resource_en5yn"), SubResource("Resource_mb0jr"), SubResource("Resource_u66bw"), SubResource("Resource_y3ug2"), SubResource("Resource_ger6d"), SubResource("Resource_fhrxj"), SubResource("Resource_gue05"), SubResource("Resource_flvtx"), SubResource("Resource_rnknk"), SubResource("Resource_whyng"), SubResource("Resource_cenjc"), SubResource("Resource_614nc"), SubResource("Resource_671qy"), SubResource("Resource_5wpas"), SubResource("Resource_fve2j"), SubResource("Resource_vomfx"), SubResource("Resource_er52d"), SubResource("Resource_nd2lm"), SubResource("Resource_bqlpn"), SubResource("Resource_xreen"), SubResource("Resource_hr28s"), SubResource("Resource_r4m5q"), SubResource("Resource_kyise"), SubResource("Resource_5y6rs"), SubResource("Resource_kkyuy"), SubResource("Resource_jpjma"), SubResource("Resource_nw2g0"), SubResource("Resource_827np"), SubResource("Resource_sefis"), SubResource("Resource_80ycp"), SubResource("Resource_12s82"), SubResource("Resource_a0s0t"), SubResource("Resource_qk28p"), SubResource("Resource_iv16o"), SubResource("Resource_haja2"), SubResource("Resource_rnbw2"), SubResource("Resource_igjeb"), SubResource("Resource_5rrjf"), SubResource("Resource_gg3sn"), SubResource("Resource_gt2kg"), SubResource("Resource_nl37a"), SubResource("Resource_p41cs"), SubResource("Resource_ck0gk"), SubResource("Resource_ve6qa"), SubResource("Resource_p05ck"), SubResource("Resource_gqp0x"), SubResource("Resource_6kgni"), SubResource("Resource_07flo"), SubResource("Resource_rh1xm"), SubResource("Resource_2wu11"), SubResource("Resource_84xoi"), SubResource("Resource_qrf0p"), SubResource("Resource_a7ocp"), SubResource("Resource_1bgfo"), SubResource("Resource_2cqg0"), SubResource("Resource_ajy0s"), SubResource("Resource_ny803"), SubResource("Resource_7nm02"), SubResource("Resource_e5cxo"), SubResource("Resource_4ru0i"), SubResource("Resource_xuemt"), SubResource("Resource_gnmyc"), SubResource("Resource_gkp1h"), SubResource("Resource_4gsin"), SubResource("Resource_8a4h4"), SubResource("Resource_fbfdl"), SubResource("Resource_muwtn"), SubResource("Resource_4cpwt"), SubResource("Resource_nqyqf"), SubResource("Resource_sssev"), SubResource("Resource_knlu8"), SubResource("Resource_x7m5g"), SubResource("Resource_2ad7f"), SubResource("Resource_gjbdm"), SubResource("Resource_quimj"), SubResource("Resource_5kt8t"), SubResource("Resource_dmpub"), SubResource("Resource_gf4i6"), SubResource("Resource_ovnmc"), SubResource("Resource_xcnlg"), SubResource("Resource_o8m1h"), SubResource("Resource_udws0"), SubResource("Resource_ll52u"), SubResource("Resource_4quxf"), SubResource("Resource_stpye"), SubResource("Resource_qf0j1"), SubResource("Resource_yvc1w"), SubResource("Resource_pu1p5"), SubResource("Resource_q63vx"), SubResource("Resource_03oma"), SubResource("Resource_6qb34"), SubResource("Resource_oam7n"), SubResource("Resource_ca5a3"), SubResource("Resource_sxpd4"), SubResource("Resource_04njt"), SubResource("Resource_xtwhi"), SubResource("Resource_2jolt"), SubResource("Resource_esy0f"), SubResource("Resource_cbxky"), SubResource("Resource_qpky7"), SubResource("Resource_10hto"), SubResource("Resource_7to2k"), SubResource("Resource_m6o0c"), SubResource("Resource_dj5e4"), SubResource("Resource_7cw2m"), SubResource("Resource_4j0cr"), SubResource("Resource_3cqg0"), SubResource("Resource_hd2jm"), SubResource("Resource_6l65c"), SubResource("Resource_62p4d"), SubResource("Resource_rabsp"), SubResource("Resource_3asuo"), SubResource("Resource_3sb34"), SubResource("Resource_10347"), SubResource("Resource_xpi81"), SubResource("Resource_pnskr"), SubResource("Resource_bf02t"), SubResource("Resource_tnmv4"), SubResource("Resource_ar55k"), SubResource("Resource_gprpf"), SubResource("Resource_y1e8d"), SubResource("Resource_iyp13"), SubResource("Resource_moy2q"), SubResource("Resource_axwoi"), SubResource("Resource_tkjrf"), SubResource("Resource_3ifwo"), SubResource("Resource_47fhc")])
+index = {
+1: 0,
+2: 1,
+3: 2,
+4: 3,
+5: 4,
+6: 5,
+7: 6,
+8: 7,
+9: 8,
+10: 9,
+11: 10,
+12: 11,
+13: 12,
+14: 13,
+15: 14,
+16: 15,
+17: 16,
+18: 17,
+19: 18,
+20: 19,
+21: 20,
+22: 21,
+23: 22,
+24: 23,
+25: 24,
+26: 25,
+27: 26,
+28: 27,
+29: 28,
+30: 29,
+31: 30,
+32: 31,
+33: 32,
+34: 33,
+35: 34,
+36: 35,
+37: 36,
+38: 37,
+39: 38,
+40: 39,
+41: 40,
+42: 41,
+43: 42,
+44: 43,
+45: 44,
+46: 45,
+47: 46,
+48: 47,
+49: 48,
+50: 49,
+51: 50,
+52: 51,
+53: 52,
+54: 53,
+55: 54,
+56: 55,
+57: 56,
+58: 57,
+59: 58,
+60: 59,
+61: 60,
+62: 61,
+63: 62,
+64: 63,
+65: 64,
+66: 65,
+67: 66,
+68: 67,
+69: 68,
+70: 69,
+71: 70,
+72: 71,
+73: 72,
+74: 73,
+75: 74,
+76: 75,
+77: 76,
+78: 77,
+79: 78,
+80: 79,
+81: 80,
+82: 81,
+83: 82,
+84: 83,
+85: 84,
+86: 85,
+87: 86,
+88: 87,
+89: 88,
+90: 89,
+91: 90,
+92: 91,
+93: 92,
+94: 93,
+95: 94,
+96: 95,
+97: 96,
+98: 97,
+99: 98,
+100: 99,
+101: 100,
+102: 101,
+103: 102,
+104: 103,
+105: 104,
+106: 105,
+107: 106,
+108: 107,
+109: 108,
+110: 109,
+111: 110,
+112: 111,
+113: 112,
+114: 113,
+115: 114,
+116: 115,
+117: 116,
+118: 117,
+119: 118,
+120: 119,
+121: 120,
+122: 121,
+123: 122,
+124: 123,
+125: 124,
+126: 125,
+127: 126,
+128: 127,
+129: 128,
+130: 129,
+131: 130,
+132: 131,
+133: 132,
+134: 133,
+135: 134,
+136: 135,
+137: 136,
+138: 137,
+139: 138,
+140: 139,
+141: 140,
+142: 141,
+143: 142,
+144: 143,
+145: 144,
+146: 145,
+147: 146,
+148: 147,
+149: 148,
+150: 149,
+151: 150,
+152: 151,
+153: 152,
+154: 153,
+155: 154,
+156: 155,
+157: 156,
+158: 157,
+159: 158,
+160: 159,
+161: 160,
+162: 161,
+163: 162,
+164: 163,
+165: 164,
+166: 165
+}

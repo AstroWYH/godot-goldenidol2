@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=4 uid="uid://d4f5qr1nnxf10"]
+
+[ext_resource type="Texture2D" uid="uid://dwqjcdy3it50v" path="res://acts/full_game/introductory_arc/hub/assets/victory1.png" id="1"]
+[ext_resource type="Script" path="res://shared/ui/hub/victory_dialog_button.gd" id="2"]
+
+[node name="TextureButton" type="TextureButton"]
+offset_right = 150.0
+offset_bottom = 158.0
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("1")
+script = ExtResource("2")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

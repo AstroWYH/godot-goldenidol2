@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://chctr57sprv8f"
+path="res://shared/translation/1-intro-arc.de.translation"
+
+[deps]
+
+source_file="res://shared/translation/1-intro-arc.csv"
+dest_files=["res://shared/translation/1-intro-arc.de.translation", "res://shared/translation/1-intro-arc.en.translation", "res://shared/translation/1-intro-arc.es.translation", "res://shared/translation/1-intro-arc.es_MX.translation", "res://shared/translation/1-intro-arc.fr.translation", "res://shared/translation/1-intro-arc.it.translation", "res://shared/translation/1-intro-arc.ja.translation", "res://shared/translation/1-intro-arc.ko.translation", "res://shared/translation/1-intro-arc.pl.translation", "res://shared/translation/1-intro-arc.pt_BR.translation", "res://shared/translation/1-intro-arc.tr.translation", "res://shared/translation/1-intro-arc.zh_TW.translation"]
+
+[params]
+
+dummy_value_ignore_me=0

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=4 uid="uid://hqqrli55ve5h"]
+
+[ext_resource type="Script" path="res://shared/ui/ingame_language_switcher/ingame_language_switcher.gd" id="1"]
+
+[node name="IngameLanguageSwitcher" type="OptionButton"]
+offset_right = 245.0
+offset_bottom = 50.0
+script = ExtResource("1")
+
+[connection signal="item_selected" from="." to="." method="_on_option_button_item_selected"]

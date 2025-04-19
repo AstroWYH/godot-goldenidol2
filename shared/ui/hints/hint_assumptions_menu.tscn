@@ -1,0 +1,88 @@
+[gd_scene load_steps=7 format=4 uid="uid://bl5jige7wacfu"]
+
+[ext_resource type="Script" path="res://shared/ui/hints/hint_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="2"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
+[ext_resource type="Theme" uid="uid://ci01d6um0b6kl" path="res://shared/assets/themes/hint_back_button.tres" id="5"]
+[ext_resource type="Script" path="res://shared/ui/hints/back_button.gd" id="6"]
+
+[node name="HintMainMenu" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.294118, 0.294118, 0.294118, 0)
+script = ExtResource("1")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -640.0
+offset_top = -391.0
+offset_right = 640.0
+offset_bottom = 391.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+texture = ExtResource("2")
+
+[node name="Control" type="Control" parent="TextureRect"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label7" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 702.0
+offset_top = 79.0
+offset_right = 1182.0
+offset_bottom = 628.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 42
+text = "HINT_ASSUMPTIONS_CONTENT_2"
+autowrap_mode = 2
+
+[node name="Label" type="Label" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.04218750074505806
+offset_left = 89.0
+offset_top = 41.0
+offset_right = 513.0
+offset_bottom = 221.0
+theme = ExtResource("4")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_constants/line_spacing = 0
+theme_override_font_sizes/font_size = 48
+text = "HINT_ASSUMPTIONS_BUTTON"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="Label8" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 89.0
+offset_top = 242.0
+offset_right = 569.0
+offset_bottom = 547.0
+theme = ExtResource("3")
+theme_override_colors/font_color = Color(0.12549, 0.121569, 0.219608, 1)
+theme_override_font_sizes/font_size = 42
+text = "HINT_ASSUMPTIONS_CONTENT_1"
+autowrap_mode = 2
+
+[node name="BackButton" type="Button" parent="." node_paths=PackedStringArray("remove_this_on_click")]
+layout_mode = 0
+offset_left = 531.0
+offset_top = 789.0
+offset_right = 798.0
+offset_bottom = 842.0
+theme = ExtResource("5")
+text = "HINTS_BACK"
+script = ExtResource("6")
+remove_this_on_click = NodePath("..")

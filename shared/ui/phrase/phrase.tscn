@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=4 uid="uid://dgvi5egu46p4d"]
+
+[ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="1"]
+[ext_resource type="Script" path="res://shared/ui/phrase/phrase.gd" id="2"]
+[ext_resource type="PackedScene" uid="uid://bv53uxmxt560k" path="res://shared/ui/draggable/draggable.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://blm2kkrl7bg3v" path="res://shared/puzzle/puzzle_piece/puzzle_piece.tscn" id="4"]
+
+[node name="Phrase" type="Button"]
+custom_minimum_size = Vector2(70, 40)
+offset_right = 143.0
+offset_bottom = 40.0
+mouse_default_cursor_shape = 2
+theme = ExtResource("1")
+text = "This is a phrase"
+script = ExtResource("2")
+
+[node name="Draggable" parent="." instance=ExtResource("3")]
+layout_mode = 1
+tag = "phrase"
+slotted_layout_preset = 15
+
+[node name="PuzzlePiece" parent="." instance=ExtResource("4")]

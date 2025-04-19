@@ -1,0 +1,120 @@
+[gd_scene load_steps=8 format=4 uid="uid://qd5acj3mtcpb"]
+
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/bottom_panel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://bts7hlyp1vjkm" path="res://shared/assets/frames/frame_new_ui.png" id="2"]
+[ext_resource type="Theme" uid="uid://cd6xcm0r6ceqx" path="res://shared/assets/themes/btn_round.tres" id="3"]
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/navigation_button.gd" id="4"]
+[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/hint_button.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://cpss7gy4yj7c" path="res://shared/ui/progress_indicator/progress_indicator.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://bh158numnxs4k" path="res://shared/ui/thinking_toggle/thinking_toggle_button.tscn" id="7"]
+
+[node name="BottomPanel" type="Control" groups=["bottom_panel", "hide_for_capturing"]]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_top = 15.0
+offset_bottom = 15.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1")
+
+[node name="MarginContainer" type="MarginContainer" parent="." groups=["hide_for_capturing"]]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -194.5
+offset_top = -134.0
+offset_right = 194.5
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = -25
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = -25
+theme_override_constants/margin_bottom = 0
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer/MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2")
+patch_margin_left = 34
+patch_margin_top = 34
+patch_margin_right = 34
+patch_margin_bottom = 34
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+mouse_filter = 2
+theme_override_constants/separation = 15
+
+[node name="BackButton" type="Button" parent="MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(66, 66)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("3")
+theme_type_variation = &"options"
+
+[node name="NavigationButton" type="Button" parent="MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(66, 66)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("3")
+theme_type_variation = &"navigation"
+script = ExtResource("4")
+
+[node name="HintButton" type="Button" parent="MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(66, 66)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+theme = ExtResource("3")
+theme_type_variation = &"help"
+script = ExtResource("5")
+
+[node name="ProgressIndicator" parent="MarginContainer/HBoxContainer" instance=ExtResource("6")]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 75)
+layout_mode = 2
+
+[node name="CardContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Switch" parent="MarginContainer/HBoxContainer" instance=ExtResource("7")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[connection signal="mouse_entered" from="MarginContainer/HBoxContainer/BackButton" to="MarginContainer/HBoxContainer/BackButton" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="MarginContainer/HBoxContainer/BackButton" to="MarginContainer/HBoxContainer/BackButton" method="_on_mouse_exited"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/BackButton" to="MarginContainer" method="_on_back_button_pressed"]
+[connection signal="switch_pressed" from="MarginContainer/HBoxContainer/Switch" to="MarginContainer" method="_on_bottom_bar_switch_pressed"]
