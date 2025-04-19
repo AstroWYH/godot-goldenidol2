@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=4 uid="uid://6k06dxr38kp1"]
+
+[ext_resource type="Texture2D" uid="uid://rk8b6e7kjo0w" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/gun.png" id="1"]
+
+[node name="GunPanel" type="Panel"]
+offset_left = 821.3189697265625
+offset_top = -108.36799621582031
+offset_right = 1370.3199462890625
+offset_bottom = 150.6320037841797
+
+[node name="GunSprite" type="Sprite2D" parent="."]
+position = Vector2(280.737, 122.048)
+rotation = 0.0047827898524701595
+texture = ExtResource("1")

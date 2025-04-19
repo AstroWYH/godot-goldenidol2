@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=4 uid="uid://6wnrmm8g5xl7"]
+
+[ext_resource type="Texture2D" uid="uid://bggpvlal6xy5y" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/comic_cu.png" id="1"]
+
+[node name="CrystalPanel" type="Panel"]
+offset_left = -3855.18994140625
+offset_top = -729.47900390625
+offset_right = -2956.18994140625
+offset_bottom = 183.52099609375
+
+[node name="ComicSprite" type="Sprite2D" parent="."]
+position = Vector2(446.272, 451.572)
+scale = Vector2(0.964765, 0.985735)
+texture = ExtResource("1")
+
+[node name="PlaqueLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 514.8270263671875
+offset_top = 191.6510009765625
+offset_right = 822.8270263671875
+offset_bottom = 865.6510009765625
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "MUSEUM_CRYSTAL_CONTENT"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

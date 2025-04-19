@@ -1,0 +1,770 @@
+[gd_scene load_steps=60 format=4 uid="uid://bgxfywn5ltcrh"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://b7a2x7s0x8rdi" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0006_Background.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c2t35mufvksfo" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0000_control.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b8suxatjtylbj" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0000s_0001_lens2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bsr50yewakw7f" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0000s_0002_lens3.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://boad1647ek76v" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0000s_0003_lens4.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cdcok0lw3yvgc" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0000s_0004_lens5.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://biakvcd41366j" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0000s_0000_lens1.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://d2ait2v7e1owc" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0005_comic.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://d2dhrw8itcvm8" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0004_disc1.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://oj484msrbm7i" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0003_disc2.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bwn33343bxqw8" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0002_redeye.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b6pivjryb60bh" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0001_blueeye.png" id="13"]
+[ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="14"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="15"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="16"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="17"]
+[ext_resource type="Resource" uid="uid://lvtea2bmkprs" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_picture_puzzle_meta.tres" id="18"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="19"]
+[ext_resource type="Texture2D" uid="uid://cgufd8hf032ua" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/blue_eye1.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bex8vyjkhilw4" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/blue_eye2.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b05lctr6oyyfg" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/red_eye1.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://leyk7oxjjlh0" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/red_eye2.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c22dkd4e7nvig" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/red_eye3.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c05qlysmln5hf" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0001s_0005_empty.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://jlw70xue3ysl" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0001s_0007_brain2.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c18f561rhu78t" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0001s_0006_brain3.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bvg208410ekbq" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/pink_brain1.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://byw7wt3uygle" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/pink_brain2.png" id="29"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="30"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="31"]
+[ext_resource type="Resource" uid="uid://ncoy0jg6ssaf" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_phrase_puzzle_meta.tres" id="32"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="33"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="34"]
+[ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="35"]
+[ext_resource type="Resource" uid="uid://dj80o2ucep88p" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_scroll1_puzzle_meta.tres" id="36"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="37"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="38"]
+[ext_resource type="Resource" uid="uid://oruas0fjqo2g" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_scroll2_puzzle_meta.tres" id="39"]
+[ext_resource type="PackedScene" uid="uid://bmxayvqf2j8pc" path="res://shared/ui/hub/puzzle_part_hider.tscn" id="40"]
+[ext_resource type="Resource" uid="uid://w1wc3sflpp5i" path="res://acts/full_game/colecting_parts_arc/retreat/puzzles/retreat_scroll_puzzle2_meta.tres" id="41"]
+
+[sub_resource type="Resource" id="Resource_762h6"]
+script = ExtResource("15")
+linked_item_ref_id = 1168
+
+[sub_resource type="Resource" id="Resource_btl0b"]
+script = ExtResource("15")
+linked_item_ref_id = 909
+
+[sub_resource type="Resource" id="Resource_ahnvu"]
+script = ExtResource("15")
+linked_item_ref_id = 1169
+
+[sub_resource type="Resource" id="Resource_3t4s3"]
+script = ExtResource("15")
+linked_item_ref_id = 1170
+
+[sub_resource type="Resource" id="Resource_u88xw"]
+script = ExtResource("15")
+linked_item_ref_id = 1171
+
+[sub_resource type="Resource" id="Resource_51k66"]
+script = ExtResource("15")
+linked_item_ref_id = 1087
+
+[sub_resource type="Resource" id="Resource_dtl25"]
+script = ExtResource("15")
+linked_item_ref_id = 1086
+
+[sub_resource type="Resource" id="Resource_4mgt2"]
+script = ExtResource("15")
+linked_item_ref_id = 1086
+
+[sub_resource type="Resource" id="Resource_2dtmp"]
+script = ExtResource("15")
+linked_item_ref_id = 1172
+
+[sub_resource type="Resource" id="Resource_jhst8"]
+script = ExtResource("15")
+linked_item_ref_id = 1173
+
+[sub_resource type="Resource" id="Resource_isc1u"]
+script = ExtResource("15")
+linked_item_ref_id = 975
+
+[sub_resource type="Resource" id="Resource_ptgcw"]
+script = ExtResource("15")
+linked_item_ref_id = 1174
+
+[sub_resource type="Resource" id="Resource_5o54g"]
+script = ExtResource("15")
+linked_item_ref_id = 1175
+
+[sub_resource type="Resource" id="Resource_554yp"]
+script = ExtResource("15")
+linked_item_ref_id = 1176
+
+[sub_resource type="Resource" id="Resource_6a0ct"]
+script = ExtResource("15")
+linked_item_ref_id = 987
+
+[sub_resource type="Resource" id="Resource_rbnij"]
+script = ExtResource("15")
+linked_item_ref_id = 985
+
+[sub_resource type="Resource" id="Resource_cichc"]
+script = ExtResource("15")
+linked_item_ref_id = 986
+
+[sub_resource type="Resource" id="Resource_o7ise"]
+script = ExtResource("15")
+linked_item_ref_id = 988
+
+[node name="IdolFunctionsPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 1151.0
+offset_bottom = 957.0
+is_arc_win_condition = true
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="Background" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(561.975, 467.614)
+scale = Vector2(1.24894, 1.09503)
+texture = ExtResource("2")
+
+[node name="ControlsSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(485, 357)
+scale = Vector2(0.65122, 0.651219)
+texture = ExtResource("3")
+
+[node name="Lens1Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="2"]
+position = Vector2(599, 102)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("4")
+
+[node name="Lens2Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="3"]
+position = Vector2(489, 103)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("5")
+
+[node name="Lens3Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="4"]
+position = Vector2(378, 103)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("6")
+
+[node name="Lens4Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="5"]
+position = Vector2(263, 104.8)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("7")
+
+[node name="Lens5Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="6"]
+position = Vector2(707, 99.8)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("8")
+
+[node name="ComicSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="7"]
+position = Vector2(484, 686)
+texture = ExtResource("9")
+
+[node name="Disk1Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="8"]
+position = Vector2(873.5, 110.5)
+texture = ExtResource("10")
+
+[node name="Disk2Sprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="9"]
+position = Vector2(977.5, 110.5)
+texture = ExtResource("11")
+
+[node name="RedCrystalSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="10"]
+position = Vector2(858, 406)
+texture = ExtResource("12")
+
+[node name="BlueCrystalSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="11"]
+position = Vector2(990.5, 407.5)
+texture = ExtResource("13")
+
+[node name="ComicLabel1" type="Label" parent="Frame/MarginContainer/Background" index="12"]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 470.0
+offset_right = 304.0
+offset_bottom = 493.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "1"
+
+[node name="ComicLabel2" type="Label" parent="Frame/MarginContainer/Background" index="13"]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 470.0
+offset_right = 544.0
+offset_bottom = 493.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "2"
+
+[node name="ComicLabel3" type="Label" parent="Frame/MarginContainer/Background" index="14"]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 620.0
+offset_right = 304.0
+offset_bottom = 643.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "3"
+
+[node name="ComicLabel4" type="Label" parent="Frame/MarginContainer/Background" index="15"]
+layout_mode = 0
+offset_left = 505.0
+offset_top = 621.0
+offset_right = 545.0
+offset_bottom = 644.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "4"
+
+[node name="Phrases" parent="Frame" index="1" instance=ExtResource("14")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 94.0
+offset_top = 478.0
+offset_right = 94.0
+offset_bottom = 478.0
+grow_horizontal = 1
+grow_vertical = 1
+phrases = [SubResource("Resource_762h6"), SubResource("Resource_btl0b"), SubResource("Resource_ahnvu"), SubResource("Resource_3t4s3"), SubResource("Resource_u88xw"), SubResource("Resource_51k66"), SubResource("Resource_dtl25"), SubResource("Resource_4mgt2"), SubResource("Resource_2dtmp"), SubResource("Resource_jhst8"), SubResource("Resource_isc1u"), SubResource("Resource_ptgcw"), SubResource("Resource_5o54g"), SubResource("Resource_554yp"), SubResource("Resource_6a0ct"), SubResource("Resource_rbnij"), SubResource("Resource_cichc"), SubResource("Resource_o7ise")]
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("16")]
+layout_mode = 1
+metadata/_edit_lock_ = true
+
+[node name="PicturePuzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("17")]
+layout_mode = 1
+offset_left = 355.0
+offset_top = 931.0
+offset_right = -624.0
+offset_bottom = 3.0
+puzzle_meta = ExtResource("18")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/PicturePuzzle" index="1" instance=ExtResource("19")]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 23.0
+offset_right = -817.0
+offset_bottom = -587.0
+metadata/_edit_lock_ = true
+
+[node name="Container" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 1218.5
+offset_top = -243.0
+offset_right = 1218.5
+offset_bottom = -243.0
+mouse_filter = 1
+
+[node name="BlueCrystal1" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="0"]
+anchors_preset = 0
+offset_left = -932.0
+offset_top = 133.0
+offset_right = -916.0
+offset_bottom = 148.0
+
+[node name="BlueCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/BlueCrystal1" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("20")
+stretch_mode = 2
+
+[node name="BlueCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/BlueCrystal1" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("21")
+stretch_mode = 2
+
+[node name="RedCrystal2" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="1"]
+anchors_preset = 0
+offset_left = -680.0
+offset_top = 133.0
+offset_right = -664.0
+offset_bottom = 148.0
+
+[node name="RedCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal2" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("22")
+stretch_mode = 2
+
+[node name="RedCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal2" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("23")
+stretch_mode = 2
+
+[node name="RedCrystal3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal2" index="2"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("24")
+stretch_mode = 2
+
+[node name="RedCrystal2_2" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="2"]
+anchors_preset = 0
+offset_left = -599.0
+offset_top = 109.5
+offset_right = -583.0
+offset_bottom = 124.5
+
+[node name="RedCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal2_2" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("22")
+stretch_mode = 2
+
+[node name="RedCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal2_2" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("23")
+stretch_mode = 2
+
+[node name="RedCrystal3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal2_2" index="2"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("24")
+stretch_mode = 2
+
+[node name="Brain2" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="3"]
+anchors_preset = 0
+offset_left = -589.0
+offset_top = 96.5
+offset_right = -558.0
+offset_bottom = 125.5
+
+[node name="NoBrain" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain2" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+offset_right = 30.0
+offset_bottom = 29.0
+texture = ExtResource("25")
+stretch_mode = 2
+
+[node name="RedCrystal3" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="4"]
+anchors_preset = 0
+offset_left = -933.0
+offset_top = 282.5
+offset_right = -917.0
+offset_bottom = 297.5
+
+[node name="RedCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal3" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("22")
+stretch_mode = 2
+
+[node name="RedCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal3" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("23")
+stretch_mode = 2
+
+[node name="RedCrystal3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/RedCrystal3" index="2"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("24")
+stretch_mode = 2
+
+[node name="Brain3" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="5"]
+anchors_preset = 0
+offset_left = -881.0
+offset_top = 352.5
+offset_right = -850.0
+offset_bottom = 381.5
+
+[node name="BlueBrain" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain3" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("26")
+stretch_mode = 2
+
+[node name="BlueBrain2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain3" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("27")
+stretch_mode = 2
+
+[node name="Brain3_2" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="6"]
+anchors_preset = 0
+offset_left = -836.0
+offset_top = 362.5
+offset_right = -805.0
+offset_bottom = 391.5
+
+[node name="BlueBrain2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain3_2" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+offset_right = 31.0
+offset_bottom = 29.0
+texture = ExtResource("27")
+stretch_mode = 2
+
+[node name="BlueBrain" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain3_2" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("26")
+stretch_mode = 2
+
+[node name="BlueCrystal4" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="7"]
+anchors_preset = 0
+offset_left = -681.0
+offset_top = 282.5
+offset_right = -665.0
+offset_bottom = 297.5
+
+[node name="BlueCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/BlueCrystal4" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("20")
+stretch_mode = 2
+
+[node name="BlueCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/BlueCrystal4" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("21")
+stretch_mode = 2
+
+[node name="Brain4" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="8"]
+anchors_preset = 0
+offset_left = -641.0
+offset_top = 352.5
+offset_right = -610.0
+offset_bottom = 381.5
+
+[node name="PinkBrain1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain4" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("28")
+stretch_mode = 2
+
+[node name="PinkBrain2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain4" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("29")
+stretch_mode = 2
+
+[node name="Brain4_2" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="9"]
+anchors_preset = 0
+offset_left = -596.0
+offset_top = 361.5
+offset_right = -565.0
+offset_bottom = 390.5
+
+[node name="PinkBrain1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain4_2" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("28")
+stretch_mode = 2
+
+[node name="PinkBrain2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container/Brain4_2" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 0
+texture = ExtResource("29")
+stretch_mode = 2
+
+[node name="Inventory" parent="PuzzleGroup/PicturePuzzle" index="2" instance=ExtResource("30")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 933.0
+offset_top = -181.0
+offset_right = 933.0
+offset_bottom = -181.0
+grow_horizontal = 1
+grow_vertical = 1
+mouse_filter = 1
+infinite = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PuzzleGroup/PicturePuzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = -1098.0
+offset_top = -230.0
+offset_right = -1058.0
+offset_bottom = 125.0
+theme_override_constants/separation = 15
+
+[node name="BlueCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="0"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("20")
+stretch_mode = 2
+
+[node name="BlueCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="1"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("21")
+stretch_mode = 2
+
+[node name="RedCrystal1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="2"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("22")
+stretch_mode = 2
+
+[node name="RedCrystal2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="3"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("23")
+stretch_mode = 2
+
+[node name="RedCrystal3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="4"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("24")
+stretch_mode = 2
+
+[node name="PinkBrain1" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="5"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("28")
+stretch_mode = 2
+
+[node name="PinkBrain2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="6"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("29")
+stretch_mode = 2
+
+[node name="BlueBrain" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="7"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("26")
+stretch_mode = 2
+
+[node name="BlueBrain2" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="8"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("27")
+stretch_mode = 2
+
+[node name="NoBrain" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/VBoxContainer" index="9"]
+custom_minimum_size = Vector2(16, 15)
+layout_mode = 2
+texture = ExtResource("25")
+stretch_mode = 2
+
+[node name="PhrasePuzzle" parent="PuzzleGroup" index="1" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("31")]
+layout_mode = 1
+offset_left = 77.0
+offset_top = 60.0
+offset_right = -902.0
+offset_bottom = -857.0
+puzzle_meta = ExtResource("32")
+phrase_grids = [NodePath("../../Frame/Phrases")]
+
+[node name="PhrasePuzzleSlot1" parent="PuzzleGroup/PhrasePuzzle" index="1" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 235.0
+offset_top = 269.0
+offset_right = 235.0
+offset_bottom = 269.0
+answer_item_ref_id = 1086
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/PhrasePuzzle" index="2" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 236.0
+offset_top = 316.0
+offset_right = 236.0
+offset_bottom = 316.0
+answer_item_ref_id = 1087
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/PhrasePuzzle" index="3" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 495.0
+offset_top = 272.0
+offset_right = 495.0
+offset_bottom = 272.0
+answer_item_ref_id = 1168
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/PhrasePuzzle" index="4" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 496.0
+offset_top = 315.0
+offset_right = 496.0
+offset_bottom = 315.0
+answer_item_ref_id = 909
+
+[node name="PhrasePuzzleSlot5" parent="PuzzleGroup/PhrasePuzzle" index="5" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 365.0
+offset_top = 198.0
+offset_right = 365.0
+offset_bottom = 198.0
+answer_item_ref_id = 1169
+
+[node name="PhrasePuzzleSlot6" parent="PuzzleGroup/PhrasePuzzle" index="6" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 145.0
+offset_top = 102.0
+offset_right = 145.0
+offset_bottom = 102.0
+answer_item_ref_id = 988
+
+[node name="PhrasePuzzleSlot7" parent="PuzzleGroup/PhrasePuzzle" index="7" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 254.0
+offset_top = 102.0
+offset_right = 254.0
+offset_bottom = 102.0
+answer_item_ref_id = 986
+
+[node name="PhrasePuzzleSlot8" parent="PuzzleGroup/PhrasePuzzle" index="8" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 365.0
+offset_top = 102.0
+offset_right = 365.0
+offset_bottom = 102.0
+answer_item_ref_id = 985
+
+[node name="PhrasePuzzleSlot9" parent="PuzzleGroup/PhrasePuzzle" index="9" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 476.0
+offset_top = 102.0
+offset_right = 476.0
+offset_bottom = 102.0
+answer_item_ref_id = 987
+
+[node name="PhrasePuzzleSlot10" parent="PuzzleGroup/PhrasePuzzle" index="10" instance=ExtResource("33")]
+layout_mode = 1
+offset_left = 587.0
+offset_top = 102.0
+offset_right = 587.0
+offset_bottom = 102.0
+answer_item_ref_id = 1173
+
+[node name="ScrollPuzzle1" parent="PuzzleGroup" index="2" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("34")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 788.0
+offset_top = 172.0
+offset_right = -3.0
+offset_bottom = -566.0
+theme = ExtResource("35")
+puzzle_meta = ExtResource("36")
+text = "Red pips show how much [id=1] is stored on a disk. Disks never [id=2]."
+phrase_grids = [NodePath("../../Frame/Phrases")]
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/ScrollPuzzle1" index="2" instance=ExtResource("37")]
+accepted_types = 128
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle1/1" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1168
+
+[node name="2" parent="PuzzleGroup/ScrollPuzzle1" index="3" instance=ExtResource("37")]
+accepted_types = 128
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle1/2" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1172
+
+[node name="ScrollPuzzle2" parent="PuzzleGroup" index="3" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("34")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 788.0
+offset_top = 480.0
+offset_right = -3.0
+offset_bottom = -9.0
+theme = ExtResource("35")
+puzzle_meta = ExtResource("39")
+text = "When the crystal is red, the I.D.O.L. is [id=1] and the [id=2] command does [id=3]. When the crystal is blue, the I.D.O.L. is [id=4]. To empty the I.D.O.L., use the [id=5] command on either an [id=6] [id=7] or a [id=8] [id=9].
+ "
+phrase_grids = [NodePath("../../Frame/Phrases")]
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/ScrollPuzzle2" index="2" instance=ExtResource("37")]
+accepted_types = 128
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/1" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1175
+
+[node name="2" parent="PuzzleGroup/ScrollPuzzle2" index="3" instance=ExtResource("37")]
+accepted_types = 128
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/2" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1087
+
+[node name="3" parent="PuzzleGroup/ScrollPuzzle2" index="4" instance=ExtResource("37")]
+accepted_types = 128
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/3" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 975
+
+[node name="4" parent="PuzzleGroup/ScrollPuzzle2" index="5" instance=ExtResource("37")]
+accepted_types = 128
+id = 4
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/4" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1174
+
+[node name="5" parent="PuzzleGroup/ScrollPuzzle2" index="6" instance=ExtResource("37")]
+accepted_types = 128
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/5" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1086
+
+[node name="6" parent="PuzzleGroup/ScrollPuzzle2" index="7" instance=ExtResource("37")]
+accepted_types = 128
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/6" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1174
+
+[node name="7" parent="PuzzleGroup/ScrollPuzzle2" index="8" instance=ExtResource("37")]
+accepted_types = 128
+id = 7
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/7" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1170
+
+[node name="8" parent="PuzzleGroup/ScrollPuzzle2" index="9" instance=ExtResource("37")]
+accepted_types = 128
+id = 8
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/8" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1176
+
+[node name="9" parent="PuzzleGroup/ScrollPuzzle2" index="10" instance=ExtResource("37")]
+accepted_types = 128
+id = 9
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/ScrollPuzzle2/9" index="0" instance=ExtResource("38")]
+answer_item_ref_id = 1171
+
+[node name="SegmentCover1" parent="." index="5" instance=ExtResource("40")]
+visible = false
+layout_mode = 0
+offset_left = 27.0
+offset_top = 34.0
+offset_right = 348.0
+offset_bottom = 361.0
+puzzle_metas = [ExtResource("41")]
+
+[editable path="Frame"]

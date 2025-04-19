@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=3 format=4 uid="uid://c46amcsry23tq"]
+
+[ext_resource type="Texture2D" uid="uid://c67jy1r11gyja" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/warehouse.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+location_id = 2
+path = "res://acts/full_game/conclusion_arc/dark_experiments/locations/warehouse_location.tscn"
+background = ExtResource("1")
+audio_side_effect = 0
+music_layers = []
+ambience_layers = []
+music_layer_ids = [0, 1]

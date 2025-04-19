@@ -1,0 +1,977 @@
+[gd_scene load_steps=123 format=4 uid="uid://bkx4gwmepeyrt"]
+
+[ext_resource type="Texture2D" uid="uid://dbqx0th88nlx3" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/tvcoridor.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://51wlwkrqqko6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cfw0pnkorrqmp" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://5du5xbyslrr7" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d3m8la2n8351f" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bnb3qlc1md8fl" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dnpyjpess3jnm" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cc1ijmtwra835" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cqetwhk1qpy" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://r5g4a5a7pndk" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dmt8ysw2lr2ew" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b3di1sctp6lp7" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dl880rlyt8bxt" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cu3l0paly0i8t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bya12xjf6vnaa" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c80smgxqvc0ov" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bcqr5ap3wx4na" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b18ju4ste63yr" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://c7ntibav0hxjk" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dnlpfq825iynh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://b4xs0vj12mtts" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://uwxc3f8dynlr" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://driosnt2fumm2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bxtvoe2c3flkx" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://d0gsup7hr7akh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dnye4u76prefb" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c03fvim2hxhf8" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://ysdcqhdr7c33" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dskgnolbk5wcn" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d3408bxtmf3xh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://pkxhduu1uug1" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://7w3qedv4d5qp" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c0fbww3yb43bx" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cplpc35c1imlo" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c6pt3qbdup7gr" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://b70u4wrqhqoql" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://csa1cxthr1tci" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00035.png" id="37"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="38"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="39"]
+[ext_resource type="Texture2D" uid="uid://cxmq3fr1uubhc" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00000.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://nm8y4fsn6wg2" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00001.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b1dgq2d6377ff" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00002.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://ck2v5wux7ybso" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00003.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://biayrt0hixkd5" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00004.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://ciuhu4yqhwk7q" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00005.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bukpptyufggxu" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00006.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://da2wy8yxt0n2p" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00007.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://olvn338fowxe" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00008.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cr6ld50u0fyix" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00009.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bjv6cv2rf28ns" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00010.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cx3obkxpi73dr" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00011.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bahdhs2lesudi" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00012.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://b5s6ko5jkugd0" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00013.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cbxr478dyk1xx" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00014.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://b0vuqnpusvuhh" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00015.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bxtric1ioqyef" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00016.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://dert7qluugbim" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00017.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://cs28d47851au4" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00018.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://st3ptpu0o486" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00019.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://de27s0w2tw4p0" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00020.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://4jqco37hes0u" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00021.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://5pmfqghhgwxc" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00022.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://bhnle45y4mowj" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00023.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://sdd8sek7n2ry" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00024.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://d3br27lipdy5k" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00025.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://cltdvyhg88jgr" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00026.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://cn3kx842d31ac" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00027.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://cc08c0xxu0a4n" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00028.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://ddsmi2e58113u" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00029.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://chbay60ple8hj" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00030.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://4p3htbr7i34" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00031.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://h68nlt8gib3" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00032.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://c346r24kgjn2l" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00033.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://xdsqacuyxneb" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00034.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://dc5vmtwgtr1o7" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00035.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="78"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="79"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="80"]
+[ext_resource type="Texture2D" uid="uid://ciibdpiew8hrp" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/checkmarcfull.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://dxyx5xx8xeppm" path="res://acts/full_game/conclusion_arc/finale/assets/key.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://2nebutpfi734" path="res://shared/assets/objects/perfume.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://bvupq5cj1pj7n" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00000.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://duokhns7fffrw" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00001.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://g7men761y1kd" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00002.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://csvmsxcq03dkl" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00003.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://x7lvbh4w6gjw" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00004.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://dh7eiylwyrfbd" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00005.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://jgyi0ca0rgar" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00006.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://cgjcl1ndvbgvt" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00007.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://bh6dgx33cq45x" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00008.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://c5ngxi23g8qoh" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00009.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://crctlhnn4riwm" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00010.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://cmercjl4as6wu" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00011.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://djhn4l4mql831" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00012.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://dbk7bgbslrfs5" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00013.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://0hexa8e3c8ta" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00014.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://b16j7johm2whe" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00015.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://d118mjbsb4dhw" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00016.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://dewuk2miwigl7" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00017.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://ufaradqdh142" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00018.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bnav8oonq7il3" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00019.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://bii1creyj7m0t" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00020.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://cmhwrf46ihras" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00021.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://bu3gtw0yu0a3g" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00022.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://c3ba6itsnw0we" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00023.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://dj8wf57da840m" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00024.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://twgottpgvifi" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00025.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://4x370h3cd61k" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00026.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://64ilysmty6nw" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00027.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://bsm1jh8rj5066" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00028.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://cgfypditj2e0v" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00029.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://bfdxubcb0wp46" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00030.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://c0eafp07p1jy1" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00031.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://c6ve6x2b25041" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00032.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://ccwaxy65rai7q" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00033.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://dqxu58ny4difq" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00034.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://co4e3lru3otyw" path="res://shared/assets/portraits/tim_with_jacket/Tim_jacket_00035.png" id="119"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q4ats"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7raeu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mnbup"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}],
+"loop": true,
+"name": &"JacketLoop",
+"speed": 24.0
+}]
+
+[node name="HallwayPanel" type="Panel"]
+offset_left = 1355.0
+offset_top = -464.0
+offset_right = 2174.0
+offset_bottom = 57.0
+
+[node name="HallwaySprite" type="Sprite2D" parent="."]
+position = Vector2(409.834, 258.301)
+texture = ExtResource("1")
+
+[node name="AnimatedHallwaySprite2D" type="AnimatedSprite2D" parent="HallwaySprite"]
+position = Vector2(74.1189, 67.2285)
+sprite_frames = SubResource("SpriteFrames_q4ats")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.6868699789047241
+
+[node name="WestlakeSpot" parent="." instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 254.0
+offset_top = 95.0
+offset_right = -279.0
+offset_bottom = -15.0
+scale = Vector2(1, 0.999)
+hotspot_id = "If7"
+
+[node name="Indicators" parent="WestlakeSpot" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="WestlakeSpot/Indicators" index="0"]
+modulate = Color(0.93192, 0.703114, 0.378749, 1)
+position = Vector2(-106.044, 188.877)
+frame_progress = 0.47025400400161743
+
+[node name="FocusIndicator" parent="WestlakeSpot/Indicators" index="1"]
+visible = false
+position = Vector2(-105.044, 192.877)
+
+[node name="WestlakePanel" type="Panel" parent="WestlakeSpot"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.2029999941587448
+anchor_top = 0.1979999989271164
+anchor_right = -0.2029999941587448
+anchor_bottom = 0.1979999989271164
+offset_left = -199.09300231933594
+offset_top = -768.1400146484375
+offset_right = 433.9070129394531
+offset_bottom = -302.1400146484375
+
+[node name="WestlakeSpeech" type="Label" parent="WestlakeSpot/WestlakePanel"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 25.0
+offset_right = 594.0
+offset_bottom = 117.0
+theme_override_fonts/font = ExtResource("39")
+theme_override_font_sizes/font_size = 24
+text = "FINALE_MARIE_SPEECH_3"
+autowrap_mode = 2
+
+[node name="WestlakeSprite" type="AnimatedSprite2D" parent="WestlakeSpot/WestlakePanel"]
+position = Vector2(183.913, 278.833)
+scale = Vector2(0.830432, 0.830432)
+sprite_frames = SubResource("SpriteFrames_7raeu")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame = 33
+frame_progress = 0.5508440136909485
+flip_h = true
+
+[node name="A4LaminatedIco" type="Sprite2D" parent="WestlakeSpot/WestlakePanel"]
+position = Vector2(379.151, 318.394)
+scale = Vector2(1.00322, 1.00683)
+texture = ExtResource("76")
+
+[node name="MovementProtocol" parent="WestlakeSpot/WestlakePanel" instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 325.0
+offset_top = 212.0
+offset_right = -195.0
+offset_bottom = -75.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "EwL"
+
+[node name="Indicators" parent="WestlakeSpot/WestlakePanel/MovementProtocol" index="0"]
+offset_left = 0.3666920065879822
+offset_top = 11.073699951171875
+offset_right = 0.3666920065879822
+offset_bottom = 11.073699951171875
+
+[node name="Highlighter" parent="WestlakeSpot/WestlakePanel/MovementProtocol/Indicators" index="0"]
+modulate = Color(0.795151, 0.778354, 0.690493, 1)
+position = Vector2(-17.0579, -0.858887)
+
+[node name="FocusIndicator" parent="WestlakeSpot/WestlakePanel/MovementProtocol/Indicators" index="1"]
+position = Vector2(-16.0579, 3.14111)
+
+[node name="MovementProtocolPanel2" type="Panel" parent="WestlakeSpot/WestlakePanel/MovementProtocol"]
+layout_mode = 0
+offset_left = -36.11600112915039
+offset_top = -1227.3299560546875
+offset_right = 661.8839721679688
+offset_bottom = -313.3280029296875
+
+[node name="ProtocolSprite" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2"]
+modulate = Color(0.921569, 0.94902, 0.741176, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = -12.0
+offset_bottom = -19.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("77")
+stretch_mode = 1
+
+[node name="TextureRect" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
+modulate = Color(1, 1, 1, 0.611765)
+position = Vector2(475.562, 218.54)
+rotation = 0.12974399328231812
+texture = ExtResource("78")
+region_enabled = true
+region_rect = Rect2(211.421, 0, 388.579, 230.024)
+
+[node name="TextureRect2" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
+modulate = Color(1, 1, 1, 0.611765)
+position = Vector2(240.808, 420.913)
+rotation = 3.162869930267334
+texture = ExtResource("78")
+region_enabled = true
+region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
+
+[node name="TextureRect3" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
+modulate = Color(1, 1, 1, 0.611765)
+position = Vector2(445.465, 469.241)
+rotation = 0.048663098365068436
+texture = ExtResource("78")
+region_enabled = true
+region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
+
+[node name="TextureRect4" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
+modulate = Color(1, 1, 1, 0.611765)
+position = Vector2(233.786, 788.406)
+rotation = 3.144789934158325
+scale = Vector2(1.23265, 1)
+texture = ExtResource("78")
+region_enabled = true
+region_rect = Rect2(211.421, 378.835, 388.579, 199.301)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2"]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 40.0
+offset_right = 657.0
+offset_bottom = 845.0
+theme_override_constants/separation = 5
+
+[node name="Title" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("79")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_TITLE"
+autowrap_mode = 2
+
+[node name="LabSubtitle" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_LAB_SUBTITLE"
+autowrap_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("81")
+
+[node name="Task" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_TASK1"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+texture = ExtResource("81")
+
+[node name="Task" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_TASK2"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+texture = ExtResource("81")
+stretch_mode = 2
+
+[node name="Task" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_TASK3"
+autowrap_mode = 2
+
+[node name="Signatures" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Eugene" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures/Eugene"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_EUGENE"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures/Eugene"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="Marie" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures/Marie"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_MARIE"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures/Marie"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="Jack" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures/Jack"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_JACK"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures/Jack"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer5"]
+layout_mode = 2
+texture = ExtResource("81")
+stretch_mode = 2
+
+[node name="Task" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_TASK4"
+autowrap_mode = 2
+
+[node name="Signatures2" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Marie" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures2"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures2/Marie"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_MARIE"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures2/Marie"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="Billy" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures2"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures2/Billy"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_BILLY"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures2/Billy"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="StationSubtitle" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_TV_SUBTITLE"
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+texture = ExtResource("81")
+stretch_mode = 2
+
+[node name="Task" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(540, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_TASK5"
+autowrap_mode = 2
+
+[node name="Signatures3" type="HBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+layout_mode = 2
+
+[node name="Eugene" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures3"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures3/Eugene"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_EUGENE"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures3/Eugene"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="Jack" type="VBoxContainer" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures3"]
+layout_mode = 2
+
+[node name="Name" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures3/Jack"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_NAME_JACK"
+autowrap_mode = 2
+
+[node name="Signature" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer/Signatures3/Jack"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "FINALE_MARIE_PROTOCOL_SIGNATURE"
+autowrap_mode = 2
+
+[node name="StationSubtitle2" type="Label" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/VBoxContainer"]
+custom_minimum_size = Vector2(550, 50)
+layout_mode = 2
+theme = ExtResource("80")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "FINALE_MARIE_PROTOCOL_ENDING"
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="Key" type="Sprite2D" parent="WestlakeSpot/WestlakePanel"]
+position = Vector2(528.579, 344.02)
+texture = ExtResource("82")
+
+[node name="SpenderSpot" parent="." instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 550.0
+offset_top = 108.0
+offset_right = -18.0
+offset_bottom = -15.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "cNY"
+
+[node name="Indicators" parent="SpenderSpot" index="0"]
+offset_left = 9.48643970489502
+offset_top = 5.825439929962158
+offset_right = 9.48643970489502
+offset_bottom = 5.825439929962158
+
+[node name="Highlighter" parent="SpenderSpot/Indicators" index="0"]
+modulate = Color(0.82, 0.76465, 0.451, 1)
+position = Vector2(65.1882, 143.19)
+frame_progress = 0.5492619872093201
+
+[node name="FocusIndicator" parent="SpenderSpot/Indicators" index="1"]
+visible = false
+position = Vector2(66.1882, 147.19)
+
+[node name="SpenderPanel" type="Panel" parent="SpenderSpot"]
+layout_mode = 0
+offset_left = 290.9939880371094
+offset_top = -648.6099853515625
+offset_right = 927.9929809570313
+offset_bottom = -203.61000061035156
+
+[node name="SpenderSpeech" type="Label" parent="SpenderSpot/SpenderPanel"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 25.0
+offset_right = 323.0
+offset_bottom = 146.0
+theme_override_fonts/font = ExtResource("39")
+theme_override_font_sizes/font_size = 24
+text = "FINALE_TIM_SPEECH_3"
+autowrap_mode = 2
+
+[node name="BottleOfFragrance" type="Sprite2D" parent="SpenderSpot/SpenderPanel"]
+position = Vector2(138.952, 255.118)
+scale = Vector2(0.993402, 0.996602)
+texture = ExtResource("83")
+
+[node name="BottleSpot" parent="SpenderSpot/SpenderPanel" instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 87.60150146484375
+offset_top = 204.14599609375
+offset_right = -402.39801025390625
+offset_bottom = -58.854698181152344
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "ZRN"
+text = "FINALE_PERFUME_TOOLTIP"
+
+[node name="Indicators" parent="SpenderSpot/SpenderPanel/BottleSpot" index="0"]
+offset_left = 0.3666920065879822
+offset_top = 11.073699951171875
+offset_right = 0.3666920065879822
+offset_bottom = 11.073699951171875
+
+[node name="Highlighter" parent="SpenderSpot/SpenderPanel/BottleSpot/Indicators" index="0"]
+modulate = Color(0.792157, 0.368627, 0.784314, 1)
+position = Vector2(-57.3721, 5.18976)
+scale = Vector2(0.494611, 0.494611)
+
+[node name="FocusIndicator" parent="SpenderSpot/SpenderPanel/BottleSpot/Indicators" index="1"]
+position = Vector2(-56.2805, 9.24631)
+
+[node name="SpenderSprite2" type="AnimatedSprite2D" parent="SpenderSpot/SpenderPanel"]
+position = Vector2(435.855, 237.878)
+scale = Vector2(0.904697, 0.904697)
+sprite_frames = SubResource("SpriteFrames_mnbup")
+animation = &"JacketLoop"
+autoplay = "JacketLoop"
+frame = 18
+frame_progress = 0.10275500267744064
+
+[editable path="WestlakeSpot"]
+[editable path="WestlakeSpot/WestlakePanel/MovementProtocol"]
+[editable path="SpenderSpot"]
+[editable path="SpenderSpot/SpenderPanel/BottleSpot"]

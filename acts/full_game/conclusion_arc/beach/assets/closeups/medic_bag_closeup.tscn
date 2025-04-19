@@ -1,0 +1,199 @@
+[gd_scene load_steps=10 format=4 uid="uid://hldur62amgff"]
+
+[ext_resource type="Texture2D" uid="uid://je7jxh457u71" path="res://shared/assets/papers/BigBook_Icon.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://fdri7s825jil" path="res://shared/assets/papers/BigBook_Open.png" id="4"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="5"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
+
+[sub_resource type="Resource" id="Resource_mw0tg"]
+script = ExtResource("3")
+linked_item_ref_id = 874
+
+[sub_resource type="Resource" id="Resource_jyojd"]
+script = ExtResource("3")
+linked_item_ref_id = 875
+
+[sub_resource type="Resource" id="Resource_wqoiv"]
+script = ExtResource("3")
+linked_item_ref_id = 768
+
+[node name="MedicBagCloseup" type="Panel"]
+offset_left = 1120.800048828125
+offset_top = 280.9549865722656
+offset_right = 1921.800048828125
+offset_bottom = 893.9559936523438
+
+[node name="BookSprite" type="Sprite2D" parent="."]
+position = Vector2(199.32, 411.398)
+texture = ExtResource("1")
+
+[node name="BookSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 96.0
+offset_top = 260.0
+offset_right = -495.0
+offset_bottom = -82.0009994506836
+hotspot_id = "BFS"
+extra_items_unlocked = [SubResource("Resource_mw0tg"), SubResource("Resource_jyojd"), SubResource("Resource_wqoiv")]
+
+[node name="Indicators" parent="BookSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="BookSpot/Indicators" index="0"]
+modulate = Color(0.703537, 0.650746, 0.64887, 1)
+position = Vector2(1, 1.06824)
+
+[node name="FocusIndicator" parent="BookSpot/Indicators" index="1"]
+position = Vector2(2, 5.06824)
+
+[node name="NotePanel" type="Panel" parent="BookSpot"]
+layout_mode = 0
+offset_left = -305.0
+offset_top = 663.0
+offset_right = 658.0
+offset_bottom = 1309.0
+
+[node name="Sprite2D" type="Sprite2D" parent="BookSpot/NotePanel"]
+position = Vector2(479.2, 316.045)
+texture = ExtResource("4")
+
+[node name="Page1" type="VBoxContainer" parent="BookSpot/NotePanel"]
+layout_mode = 0
+offset_left = 91.19989776611328
+offset_top = 59.04499816894531
+offset_right = 461.20001220703125
+offset_bottom = 503.0450134277344
+
+[node name="Header" type="HBoxContainer" parent="BookSpot/NotePanel/Page1"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="BookSpot/NotePanel/Page1/Header"]
+custom_minimum_size = Vector2(160, 30)
+layout_mode = 2
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "BEACH_MEDIC_SYMPTOMS"
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="BookSpot/NotePanel/Page1/Header"]
+custom_minimum_size = Vector2(160, 30)
+layout_mode = 2
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "BEACH_MEDIC_CAUSE"
+autowrap_mode = 3
+
+[node name="Row1" type="HBoxContainer" parent="BookSpot/NotePanel/Page1"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="BookSpot/NotePanel/Page1/Row1"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_OPIOID_SYMPTOM"
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="BookSpot/NotePanel/Page1/Row1"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_OPIOID_CAUSE"
+autowrap_mode = 2
+
+[node name="Row2" type="HBoxContainer" parent="BookSpot/NotePanel/Page1"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="BookSpot/NotePanel/Page1/Row2"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_NICOTINE_SYMPTOM"
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="BookSpot/NotePanel/Page1/Row2"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_NICOTINE_CAUSE"
+autowrap_mode = 2
+
+[node name="Page2" type="VBoxContainer" parent="BookSpot/NotePanel"]
+layout_mode = 0
+offset_left = 498.20001220703125
+offset_top = 59.04499816894531
+offset_right = 868.2000122070313
+offset_bottom = 503.0450134277344
+
+[node name="Header" type="HBoxContainer" parent="BookSpot/NotePanel/Page2"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="BookSpot/NotePanel/Page2/Header"]
+custom_minimum_size = Vector2(160, 30)
+layout_mode = 2
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "BEACH_MEDIC_SYMPTOMS"
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="BookSpot/NotePanel/Page2/Header"]
+custom_minimum_size = Vector2(160, 30)
+layout_mode = 2
+theme = ExtResource("5")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "BEACH_MEDIC_CAUSE"
+autowrap_mode = 3
+
+[node name="Row1" type="HBoxContainer" parent="BookSpot/NotePanel/Page2"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="BookSpot/NotePanel/Page2/Row1"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_SODIUM_SYMPTOM"
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="BookSpot/NotePanel/Page2/Row1"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_SODIUM_CAUSE"
+autowrap_mode = 2
+
+[node name="Row2" type="HBoxContainer" parent="BookSpot/NotePanel/Page2"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="BookSpot/NotePanel/Page2/Row2"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_ALLERGY_SYMPTOM"
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="BookSpot/NotePanel/Page2/Row2"]
+custom_minimum_size = Vector2(170, 200)
+layout_mode = 2
+theme = ExtResource("6")
+theme_override_font_sizes/font_size = 22
+text = "BEACH_MEDIC_ALLERGY_CAUSE"
+autowrap_mode = 2
+
+[editable path="BookSpot"]

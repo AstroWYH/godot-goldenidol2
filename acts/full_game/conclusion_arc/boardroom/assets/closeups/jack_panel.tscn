@@ -1,0 +1,308 @@
+[gd_scene load_steps=51 format=4 uid="uid://d2uxpcke0ccyq"]
+
+[ext_resource type="Texture2D" uid="uid://d0x7s5xqxcfua" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c5e3gh88i3ibc" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ct2h3amu6y4r1" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://0hgqb17f36ig" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ddb2co1ef0f0f" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://i1wb6l82ti2l" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dkr4dyqf60ntd" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://doh05ipoio6cc" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cdcybeuntpltv" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c56b7m7sxnb8h" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bc3k4dsy8rfw3" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bita70pr763gi" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cioapxso1a64m" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://oquhlnty05at" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cng62y6n6cepe" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dbl4o2urfcp2j" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d28xa7flrd3a3" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d08bkm86pexlg" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://l2lg5r7s7gsp" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://daomlbxli26ax" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cl2ncoghice61" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bx683qg3ia0b0" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dfm6r1l7274lt" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://8plmx0sul6sr" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ce6b21esc5rfe" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cm6wdodfo0kxp" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://oec27dh8hlh" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b52lpn08hk43y" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bfuhtjn3cdwbp" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cv7yd8gaxy5vj" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://d3jokoxetq8m2" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bwcxrbw0bxk5u" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://djsvjohj7mtme" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c3u30qwum3to6" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b78t3fsme1qvx" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dj115iokq28t" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c4l4nietue5vr" path="res://shared/assets/papers/paperonclipboardsmall.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c3fl3d3unqfoa" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/lens.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://du87mipqsgb4s" path="res://shared/assets/papers/nametag_clean.png" id="39"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="40"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="41"]
+[ext_resource type="Texture2D" uid="uid://k2up3ltpy1bw" path="res://shared/assets/papers/paperonclipboard.png" id="42"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wyhlj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_0on0p"]
+script = ExtResource("41")
+linked_item_ref_id = 368
+
+[sub_resource type="Resource" id="Resource_k5w20"]
+script = ExtResource("41")
+linked_item_ref_id = 187
+
+[sub_resource type="Resource" id="Resource_uitft"]
+script = ExtResource("41")
+linked_item_ref_id = 1107
+
+[sub_resource type="Resource" id="Resource_m10r1"]
+script = ExtResource("41")
+linked_item_ref_id = 1108
+
+[sub_resource type="Resource" id="Resource_o0fqj"]
+script = ExtResource("41")
+linked_item_ref_id = 658
+
+[sub_resource type="Resource" id="Resource_qxpq8"]
+script = ExtResource("41")
+linked_item_ref_id = 190
+
+[sub_resource type="Resource" id="Resource_6ok55"]
+script = ExtResource("41")
+linked_item_ref_id = 191
+
+[node name="JackPanel" type="Panel"]
+offset_left = -1533.0
+offset_top = -1195.0
+offset_right = -694.0
+offset_bottom = -582.0
+
+[node name="JackSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 52.0
+offset_right = 755.0
+offset_bottom = 169.0
+text = "BOARDROOM_JACK_SPEECH"
+autowrap_mode = 3
+
+[node name="JackSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(599.501, 384.245)
+sprite_frames = SubResource("SpriteFrames_wyhlj")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.9616960287094116
+
+[node name="ClipboardSprite" type="Sprite2D" parent="."]
+position = Vector2(348.097, 327.051)
+scale = Vector2(0.715007, 0.715007)
+texture = ExtResource("37")
+
+[node name="LensSprite" type="Sprite2D" parent="."]
+position = Vector2(135.756, 507.664)
+rotation = 1.5707999467849731
+texture = ExtResource("38")
+
+[node name="LanyardSprite" type="Sprite2D" parent="."]
+position = Vector2(137.759, 290.928)
+texture = ExtResource("39")
+
+[node name="LanyardLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 304.0
+offset_right = 243.0
+offset_bottom = 381.0
+theme_override_colors/font_color = Color(0.406465, 0.322751, 0.172574, 1)
+text = "BOARDROOM_JACK_TAG_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="ClipboardSpot" parent="." instance=ExtResource("40")]
+layout_mode = 1
+offset_left = 266.0
+offset_top = 204.0
+offset_right = -405.0
+offset_bottom = -157.0
+hotspot_id = "8BD"
+extra_items_unlocked = [SubResource("Resource_0on0p"), SubResource("Resource_k5w20"), SubResource("Resource_uitft"), SubResource("Resource_m10r1"), SubResource("Resource_o0fqj"), SubResource("Resource_qxpq8"), SubResource("Resource_6ok55")]
+
+[node name="Indicators" parent="ClipboardSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="ClipboardSpot/Indicators" index="0"]
+modulate = Color(0.330423, 0.731005, 0.759723, 1)
+position = Vector2(33.1324, -17.0778)
+
+[node name="FocusIndicator" parent="ClipboardSpot/Indicators" index="1"]
+position = Vector2(34.1324, -13.0778)
+
+[node name="ClipboardPanel" type="Panel" parent="ClipboardSpot"]
+layout_mode = 0
+offset_left = -138.0
+offset_top = -1180.0
+offset_right = 502.0
+offset_bottom = -280.0
+
+[node name="ClipboardSprite" type="Sprite2D" parent="ClipboardSpot/ClipboardPanel"]
+position = Vector2(316.06, 440.955)
+texture = ExtResource("42")
+
+[node name="ClipboardLabel" type="RichTextLabel" parent="ClipboardSpot/ClipboardPanel"]
+clip_contents = false
+layout_mode = 0
+offset_left = 96.0
+offset_top = 139.0
+offset_right = 532.0
+offset_bottom = 777.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.219608, 0.219608, 0.219608, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "BOARDROOM_JACK_TODO_CONTENT"
+autowrap_mode = 2
+
+[node name="LensSpot" parent="." instance=ExtResource("40")]
+layout_mode = 1
+offset_left = 57.0
+offset_top = 434.0
+offset_right = -623.0
+offset_bottom = -37.0
+hotspot_id = "eE9"
+text = "BOARDROOM_JACK_LENS_TOOLTIP"
+
+[node name="Indicators" parent="LensSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="LensSpot/Indicators" index="0"]
+modulate = Color(8.90931e-07, 0.692066, 0.442487, 1)
+position = Vector2(64.3396, -22.3141)
+
+[node name="FocusIndicator" parent="LensSpot/Indicators" index="1"]
+position = Vector2(65.3396, -18.3141)
+
+[editable path="ClipboardSpot"]
+[editable path="LensSpot"]

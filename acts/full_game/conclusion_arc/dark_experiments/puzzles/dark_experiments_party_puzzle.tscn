@@ -1,0 +1,307 @@
+[gd_scene load_steps=12 format=4 uid="uid://djft4ya06tac7"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
+[ext_resource type="Texture2D" uid="uid://m4d8kcb3lpa7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/party_puzzle/tucker.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cjfvmthchilxe" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/party_puzzle/brock.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d1sh78048w36m" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/party_puzzle/arabella.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://lf6bxdfhmxtg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/party_puzzle/cordelia.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://q5h4ji38nr7d" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/party_puzzle/olivia.png" id="7"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="9"]
+[ext_resource type="Resource" uid="uid://bbi3lbin0lcbu" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_party_puzzle.tres" id="10"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="11"]
+
+[node name="PartyPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 434.0
+offset_bottom = 953.0
+puzzle_group = NodePath("PuzzleGroup")
+metadata/_edit_lock_ = true
+
+[node name="Frame" parent="." index="0"]
+offset_right = 6.0
+offset_bottom = -75.0
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 0
+offset_left = -4.0
+offset_top = -5.0
+offset_right = 422.0
+offset_bottom = 859.0
+mouse_filter = 1
+color = Color(0.196078, 0.235294, 0.223529, 1)
+
+[node name="Page1Label3" type="Label" parent="Frame/MarginContainer/Background/ColorRect" index="0"]
+layout_mode = 0
+offset_left = 191.0
+offset_top = 38.0
+offset_right = 387.0
+offset_bottom = 122.0
+mouse_filter = 1
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "WAREHOUSE_SCENARIO_TIMELINE_PUZZLE_TEXT"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Page1Label4" type="Label" parent="Frame/MarginContainer/Background/ColorRect" index="1"]
+layout_mode = 0
+offset_left = 191.0
+offset_top = 192.0
+offset_right = 387.0
+offset_bottom = 276.0
+mouse_filter = 1
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "WAREHOUSE_SCENARIO_TIMELINE_PUZZLE_TEXT"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Page1Label5" type="Label" parent="Frame/MarginContainer/Background/ColorRect" index="2"]
+layout_mode = 0
+offset_left = 197.0
+offset_top = 355.0
+offset_right = 393.0
+offset_bottom = 439.0
+mouse_filter = 1
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "WAREHOUSE_SCENARIO_TIMELINE_PUZZLE_TEXT"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Page1Label6" type="Label" parent="Frame/MarginContainer/Background/ColorRect" index="3"]
+layout_mode = 0
+offset_left = 197.0
+offset_top = 521.0
+offset_right = 393.0
+offset_bottom = 605.0
+mouse_filter = 1
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "WAREHOUSE_SCENARIO_TIMELINE_PUZZLE_TEXT"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="Page1Label7" type="Label" parent="Frame/MarginContainer/Background/ColorRect" index="4"]
+layout_mode = 0
+offset_left = 186.0
+offset_top = 675.0
+offset_right = 382.0
+offset_bottom = 759.0
+mouse_filter = 1
+theme = ExtResource("2")
+theme_override_font_sizes/font_size = 24
+text = "WAREHOUSE_SCENARIO_TIMELINE_PUZZLE_TEXT"
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 2
+
+[node name="ComfyContainer" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(137, 79.7431)
+texture = ExtResource("3")
+
+[node name="ComfyContainer2" type="Sprite2D" parent="Frame/MarginContainer/Background" index="2"]
+position = Vector2(134, 240)
+texture = ExtResource("4")
+
+[node name="ComfyContainer3" type="Sprite2D" parent="Frame/MarginContainer/Background" index="3"]
+position = Vector2(137, 404)
+texture = ExtResource("5")
+
+[node name="ComfyContainer4" type="Sprite2D" parent="Frame/MarginContainer/Background" index="4"]
+position = Vector2(137, 568)
+texture = ExtResource("6")
+
+[node name="ComfyContainer5" type="Sprite2D" parent="Frame/MarginContainer/Background" index="5"]
+position = Vector2(138, 729)
+texture = ExtResource("7")
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+offset_left = -34.0
+offset_right = 5.0
+offset_bottom = 39.0
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("8")]
+layout_mode = 1
+offset_left = 399.0
+offset_top = 195.0
+offset_right = -339.0
+offset_bottom = -308.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = 644.0
+offset_top = 61.0
+offset_right = 644.0
+offset_bottom = 61.0
+puzzle_meta = ExtResource("10")
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -848.0
+offset_top = -109.0
+offset_right = -848.0
+offset_bottom = -335.0
+answer_item_ref_id = 931
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -739.0
+offset_top = -108.0
+offset_right = -739.0
+offset_bottom = -334.0
+answer_item_ref_id = 932
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -848.0
+offset_top = 54.0
+offset_right = -848.0
+offset_bottom = -172.0
+answer_item_ref_id = 929
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -737.0
+offset_top = 54.0
+offset_right = -737.0
+offset_bottom = -172.0
+answer_item_ref_id = 930
+
+[node name="PhrasePuzzleSlot5" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -848.0
+offset_top = 214.0
+offset_right = -848.0
+offset_bottom = -12.0
+answer_item_ref_id = 983
+
+[node name="PhrasePuzzleSlot6" parent="PuzzleGroup/Puzzle" index="6" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -739.0
+offset_top = 215.0
+offset_right = -739.0
+offset_bottom = -11.0
+answer_item_ref_id = 984
+
+[node name="PhrasePuzzleSlot7" parent="PuzzleGroup/Puzzle" index="7" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -860.0
+offset_top = 379.0
+offset_right = -860.0
+offset_bottom = 153.0
+answer_item_ref_id = 981
+
+[node name="PhrasePuzzleSlot8" parent="PuzzleGroup/Puzzle" index="8" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -751.0
+offset_top = 380.0
+offset_right = -751.0
+offset_bottom = 154.0
+answer_item_ref_id = 982
+
+[node name="PhrasePuzzleSlot9" parent="PuzzleGroup/Puzzle" index="9" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -861.0
+offset_top = 539.0
+offset_right = -861.0
+offset_bottom = 313.0
+answer_item_ref_id = 928
+
+[node name="PhrasePuzzleSlot10" parent="PuzzleGroup/Puzzle" index="10" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -748.0
+offset_top = 538.0
+offset_right = -748.0
+offset_bottom = 312.0
+answer_item_ref_id = 927
+
+[node name="PhrasePuzzleSlot11" parent="PuzzleGroup/Puzzle" index="11" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -595.0
+offset_top = -125.0
+offset_right = -595.0
+offset_bottom = -351.0
+answer_item_ref_id = 929
+
+[node name="PhrasePuzzleSlot12" parent="PuzzleGroup/Puzzle" index="12" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -595.0
+offset_top = -84.0
+offset_right = -595.0
+offset_bottom = -310.0
+answer_item_ref_id = 930
+
+[node name="PhrasePuzzleSlot13" parent="PuzzleGroup/Puzzle" index="13" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -595.0
+offset_top = 30.0
+offset_right = -595.0
+offset_bottom = -196.0
+answer_item_ref_id = 928
+
+[node name="PhrasePuzzleSlot14" parent="PuzzleGroup/Puzzle" index="14" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -595.0
+offset_top = 72.0
+offset_right = -595.0
+offset_bottom = -154.0
+answer_item_ref_id = 927
+
+[node name="PhrasePuzzleSlot15" parent="PuzzleGroup/Puzzle" index="15" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -595.0
+offset_top = 192.0
+offset_right = -595.0
+offset_bottom = -34.0
+answer_item_ref_id = 931
+
+[node name="PhrasePuzzleSlot16" parent="PuzzleGroup/Puzzle" index="16" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -595.0
+offset_top = 233.0
+offset_right = -595.0
+offset_bottom = 7.0
+answer_item_ref_id = 932
+
+[node name="PhrasePuzzleSlot17" parent="PuzzleGroup/Puzzle" index="17" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -599.0
+offset_top = 355.0
+offset_right = -599.0
+offset_bottom = 129.0
+answer_item_ref_id = 926
+
+[node name="PhrasePuzzleSlot18" parent="PuzzleGroup/Puzzle" index="18" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -599.0
+offset_top = 396.0
+offset_right = -599.0
+offset_bottom = 170.0
+answer_item_ref_id = 927
+
+[node name="PhrasePuzzleSlot19" parent="PuzzleGroup/Puzzle" index="19" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -602.0
+offset_top = 512.0
+offset_right = -602.0
+offset_bottom = 286.0
+answer_item_ref_id = 983
+
+[node name="PhrasePuzzleSlot20" parent="PuzzleGroup/Puzzle" index="20" instance=ExtResource("11")]
+layout_mode = 1
+offset_left = -603.0
+offset_top = 556.0
+offset_right = -603.0
+offset_bottom = 330.0
+answer_item_ref_id = 984
+
+[editable path="Frame"]

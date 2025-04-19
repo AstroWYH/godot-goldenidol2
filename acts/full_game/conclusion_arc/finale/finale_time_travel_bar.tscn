@@ -1,0 +1,183 @@
+[gd_scene load_steps=35 format=4 uid="uid://b34fgkvdxm2h1"]
+
+[ext_resource type="PackedScene" uid="uid://cnkfopi0yvnsu" path="res://shared/ui/location_button/travel_bar.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://b6tnh80aut1bi" path="res://shared/ui/location_button/change_location_button.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://bfv4g2e06y04g" path="res://shared/ui/top_bar/btn_orange_idle.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c0h1hb7exawq8" path="res://shared/ui/top_bar/btn_orange_over.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://de1at4f7f0r6t" path="res://shared/ui/top_bar/btn_orange_active.png" id="5"]
+[ext_resource type="Resource" uid="uid://daapme3sids2e" path="res://acts/full_game/conclusion_arc/finale/locations/presentation_location.tres" id="6"]
+[ext_resource type="Resource" uid="uid://bfyf5fc034jjg" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_opig.tres" id="7"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="8"]
+[ext_resource type="Texture2D" uid="uid://bqg18qbp4h2ls" path="res://shared/ui/top_bar/btn_wolf1_idle.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://biwwqmqmxl8ut" path="res://shared/ui/top_bar/btn_wolf1_over.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://8hi8wyhwu74n" path="res://shared/ui/top_bar/btn_wolf1_active.png" id="11"]
+[ext_resource type="Resource" uid="uid://dcnrat22wu5bg" path="res://acts/full_game/conclusion_arc/finale/locations/guard_replacement_location_meta.tres" id="12"]
+[ext_resource type="Resource" uid="uid://dvxsnr4gho5yy" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_idol.tres" id="13"]
+[ext_resource type="Texture2D" uid="uid://bk0rj5p6k6nak" path="res://shared/ui/top_bar/btn_wolf2_idle.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cd05bcujvvu0e" path="res://shared/ui/top_bar/btn_wolf2_over.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://o78hx8ns3xll" path="res://shared/ui/top_bar/btn_wolf2_active.png" id="16"]
+[ext_resource type="Resource" uid="uid://o0awu3lutq3q" path="res://acts/full_game/conclusion_arc/finale/locations/isaac_replacement_location_meta.tres" id="17"]
+[ext_resource type="Resource" uid="uid://cruv74g11gbg8" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_events.tres" id="18"]
+[ext_resource type="Script" path="res://acts/full_game/conclusion_arc/finale/harmony_change_location_button.gd" id="19"]
+[ext_resource type="Resource" uid="uid://cnurbp41v5sh6" path="res://acts/full_game/conclusion_arc/finale/locations/map_location1_meta.tres" id="20"]
+[ext_resource type="Texture2D" uid="uid://cd65w3o6buu6t" path="res://shared/ui/top_bar/clocks_divider.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ccipx3jjtrmk6" path="res://shared/ui/top_bar/btn_clock_02_idle.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://6fqgt3b5y8n5" path="res://shared/ui/top_bar/btn_clock_02_over.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bluud4cehxt5f" path="res://shared/ui/top_bar/btn_clock_02_active.png" id="24"]
+[ext_resource type="Resource" uid="uid://do6cjpsuv5yrc" path="res://acts/full_game/conclusion_arc/finale/locations/map_location2_meta.tres" id="25"]
+[ext_resource type="Texture2D" uid="uid://dktr7em6n67i4" path="res://shared/ui/top_bar/btn_clock_03_idle.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dopo43etc7tbo" path="res://shared/ui/top_bar/btn_clock_03_over.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cqx73g3kyfmmo" path="res://shared/ui/top_bar/btn_clock_03_active.png" id="28"]
+[ext_resource type="Resource" uid="uid://c11r00m4pj8d8" path="res://acts/full_game/conclusion_arc/finale/locations/map_location3_meta.tres" id="29"]
+[ext_resource type="Texture2D" uid="uid://df6kgb24mcmdy" path="res://shared/ui/top_bar/btn_clock_04_idle.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://by2ngxq3vv764" path="res://shared/ui/top_bar/btn_clock_04_over.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://d0rlabb2vvdon" path="res://shared/ui/top_bar/btn_clock_04_active.png" id="32"]
+[ext_resource type="Resource" uid="uid://bjlfywc7cwgvw" path="res://acts/full_game/conclusion_arc/finale/locations/map_location_4_meta.tres" id="33"]
+[ext_resource type="Resource" uid="uid://claoxjmf5h35k" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_hunter.tres" id="34"]
+
+[node name="TimeTravelBar" node_paths=PackedStringArray("travel_button_list") instance=ExtResource("1")]
+travel_button_list = [NodePath("VBoxContainer/December 16/Harmony"), NodePath("VBoxContainer/December 16/Travel"), NodePath("VBoxContainer/December 16/Arrival"), NodePath("VBoxContainer/December 16/TVStation"), NodePath("December 17/Presentation"), NodePath("December 17/GuardReplacement"), NodePath("December 17/Bridge")]
+immutable_focus_neighbors = false
+
+[node name="December 17" type="HBoxContainer" parent="." index="0"]
+layout_mode = 1
+offset_right = 492.0
+offset_bottom = 120.0
+
+[node name="Presentation" parent="December 17" index="0" instance=ExtResource("2")]
+layout_mode = 2
+texture_normal = ExtResource("3")
+texture_hover = ExtResource("4")
+texture_disabled = ExtResource("5")
+target_location_meta = ExtResource("6")
+transition_sound = 16
+locked = true
+required_puzzles = [ExtResource("7")]
+
+[node name="Label" type="Label" parent="December 17/Presentation" index="0"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 112.0
+offset_right = 109.0
+offset_bottom = 145.0
+theme = ExtResource("8")
+text = "FINALE_TIMETRAVEL_DATE_1"
+horizontal_alignment = 1
+
+[node name="GuardReplacement" parent="December 17" index="1" instance=ExtResource("2")]
+layout_mode = 2
+texture_normal = ExtResource("9")
+texture_hover = ExtResource("10")
+texture_disabled = ExtResource("11")
+target_location_meta = ExtResource("12")
+transition_sound = 16
+locked = true
+required_puzzles = [ExtResource("13")]
+
+[node name="Label" type="Label" parent="December 17/GuardReplacement" index="0"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 112.0
+offset_right = 109.0
+offset_bottom = 145.0
+theme = ExtResource("8")
+text = "FINALE_TIMETRAVEL_DATE_2"
+horizontal_alignment = 1
+
+[node name="Bridge" parent="December 17" index="2" instance=ExtResource("2")]
+layout_mode = 2
+focus_neighbor_right = NodePath("../../VBoxContainer/December 16/Harmony")
+texture_normal = ExtResource("14")
+texture_hover = ExtResource("15")
+texture_disabled = ExtResource("16")
+target_location_meta = ExtResource("17")
+transition_sound = 16
+locked = true
+required_puzzles = [ExtResource("18")]
+
+[node name="Label" type="Label" parent="December 17/Bridge" index="0"]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 112.0
+offset_right = 109.0
+offset_bottom = 145.0
+theme = ExtResource("8")
+text = "FINALE_TIMETRAVEL_DATE_3"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." index="1"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -444.0
+offset_bottom = 120.0
+grow_horizontal = 0
+theme_override_constants/separation = -5
+
+[node name="December 16" type="HBoxContainer" parent="VBoxContainer" index="0"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = -12
+alignment = 2
+
+[node name="Harmony" parent="VBoxContainer/December 16" index="0" node_paths=PackedStringArray("december_17_buttons") instance=ExtResource("2")]
+layout_mode = 2
+focus_neighbor_right = NodePath("../Travel")
+script = ExtResource("19")
+december_17_buttons = [NodePath("../../../December 17/Presentation"), NodePath("../../../December 17/GuardReplacement"), NodePath("../../../December 17/Bridge")]
+target_location_meta = ExtResource("20")
+transition_sound = 16
+
+[node name="Sprite2D" type="Sprite2D" parent="VBoxContainer/December 16/Harmony" index="0"]
+show_behind_parent = true
+position = Vector2(114, 63)
+texture = ExtResource("21")
+
+[node name="Sprite2D2" type="Sprite2D" parent="VBoxContainer/December 16/Harmony" index="1"]
+position = Vector2(222, 63)
+texture = ExtResource("21")
+
+[node name="Travel" parent="VBoxContainer/December 16" index="1" instance=ExtResource("2")]
+layout_mode = 2
+focus_neighbor_left = NodePath("../Harmony")
+focus_neighbor_right = NodePath("../Arrival")
+texture_normal = ExtResource("22")
+texture_hover = ExtResource("23")
+texture_disabled = ExtResource("24")
+target_location_meta = ExtResource("25")
+transition_sound = 16
+
+[node name="Arrival" parent="VBoxContainer/December 16" index="2" instance=ExtResource("2")]
+z_index = 1
+layout_mode = 2
+focus_neighbor_left = NodePath("../Travel")
+focus_neighbor_right = NodePath("../TVStation")
+texture_normal = ExtResource("26")
+texture_hover = ExtResource("27")
+texture_disabled = ExtResource("28")
+target_location_meta = ExtResource("29")
+transition_sound = 16
+
+[node name="TVStation" parent="VBoxContainer/December 16" index="3" instance=ExtResource("2")]
+layout_mode = 2
+focus_neighbor_left = NodePath("../Arrival")
+texture_normal = ExtResource("30")
+texture_hover = ExtResource("31")
+texture_disabled = ExtResource("32")
+target_location_meta = ExtResource("33")
+transition_sound = 16
+locked = true
+required_puzzles = [ExtResource("34")]
+
+[node name="Sprite2D2" type="Sprite2D" parent="VBoxContainer/December 16/TVStation" index="0"]
+show_behind_parent = true
+position = Vector2(6, 63)
+texture = ExtResource("21")
+
+[node name="Label" type="Label" parent="VBoxContainer" index="1"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme = ExtResource("8")
+text = "FINALE_TIMETRAVEL_DATE_4"
+horizontal_alignment = 1

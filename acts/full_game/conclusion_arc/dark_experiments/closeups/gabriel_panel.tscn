@@ -1,0 +1,211 @@
+[gd_scene load_steps=43 format=4 uid="uid://dxpj800kb6sab"]
+
+[ext_resource type="Texture2D" uid="uid://iod4qq8ao84t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bkrboy8yqtrwx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cpfl0l41cm55r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cmleqbrbqpdx6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cvnufb4nuhp6v" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dq6n6f64vv8bh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bxembo5wjm763" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bfv56kevawljx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bg4j1dlysgepg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ddse68udtr82" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://exak6ljkpoey" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://do3ynq00e8ht5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cqs7pdpcunaxw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dyq3fxbxcm4q2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://4igp1d8qnp0x" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cn8745bkbm0v2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://550cv1sesat5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cuycqcpavktsi" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bkf137daf6hyf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dkitl3hnnrvln" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://1y30joxa1mlu" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://d1yap5bc11bat" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://clh7poc0eqyem" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://11fx8qha07vd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://yiiavfj70umh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://7oo8fd4gc7h0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://rpra1sf62sep" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dvbai7srj7m8s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cyiaplkslqdgc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://v57ltr6f2rcr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cvhmix4a28lfw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://pu83tyjiaklf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cr0xdxrwf0i0r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cgpftjjy4hdw1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://x38lbwdh3yk8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dmj0u83gf0sbd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://f730mhgrn4pa" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c642gprbsmknr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://m83hnxxysj8k" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://r1i3i7owrhm8" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/ring.png" id="40"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="41"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vl578"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="GabrielPanel" type="Panel"]
+offset_left = 501.0
+offset_top = -1612.0
+offset_right = 1280.0
+offset_bottom = -1092.0
+
+[node name="GabrielSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 40.0
+offset_right = 418.0
+offset_bottom = 169.0
+text = "WAREHOUSE_GABRIEL_SPEECH"
+autowrap_mode = 3
+
+[node name="GabrielSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(553.694, 293.503)
+sprite_frames = SubResource("SpriteFrames_vl578")
+autoplay = "default"
+frame_progress = 0.7634580135345459
+
+[node name="RingSprite" type="Sprite2D" parent="."]
+position = Vector2(201, 405)
+texture = ExtResource("40")
+
+[node name="RingSpot" parent="." instance=ExtResource("41")]
+layout_mode = 1
+offset_left = 150.0
+offset_top = 342.0
+offset_right = -530.0
+offset_bottom = -89.0
+hotspot_id = "UD_"
+text = "WAREHOUSE_RING_TOOLTIP"
+
+[node name="Highlighter" parent="RingSpot/Indicators" index="0"]
+modulate = Color(0.832441, 0.553335, 0.206631, 1)
+position = Vector2(0.111366, -13.0358)
+
+[node name="FocusIndicator" parent="RingSpot/Indicators" index="1"]
+position = Vector2(1.11137, -9.03576)
+
+[editable path="RingSpot"]

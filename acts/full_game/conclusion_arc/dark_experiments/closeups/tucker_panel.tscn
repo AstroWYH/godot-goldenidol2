@@ -1,0 +1,283 @@
+[gd_scene load_steps=45 format=4 uid="uid://defatchh0fvqg"]
+
+[ext_resource type="Texture2D" uid="uid://b4esa8dtmsj02" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b3mets72hljle" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://mp1lsmq4crr1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dssrlce7bohft" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bavgqi6j0l7ce" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://da5feg1j62mmv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bsludcp3c5f1w" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cdekbygj4bk71" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b53b2vev3tf4t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://clx8g27pjwe3m" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cl4u8fbn4sg1t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c8thp5kqnmnh3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dxpvayxtgixkw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bfyu6qkr0thfn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://pj0rej2vynnw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bdetn17mk8jwl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d1on0a7abuqm4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://bmg6pvd46kslb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b2js3wkexmorj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cj52o2yn3ma4h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://0uelbfcfqi4b" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cv4t5r03e2674" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bio4lebftvaru" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ettcdee046ia" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cqjn8140qx4ke" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bvjq8kkes75ss" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cm6hvnej0fs7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dw4muiqrmsytl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bd28sxexan8t8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dbe8jrp2g2ofp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://ci5kiug11vlq2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bni56wcbkt0ti" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://nhqmjgno3uh7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://n1c0sohysdhx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c8nup3w04vdmq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c062cvp8i1aha" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://2w7mnlcny1vc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bbylcanb6pg2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://c1wdhn3cerfgk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://d3lyj8sfjatfb" path="res://shared/assets/papers/note_yacht_names.png" id="40"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="41"]
+[ext_resource type="Texture2D" uid="uid://bs25rx5fsxrck" path="res://shared/assets/papers/Check_ICO.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="43"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tqcdp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="TuckerPanel" type="Panel"]
+offset_left = -1624.6099853515625
+offset_top = 915.1090087890625
+offset_right = -900.6090087890625
+offset_bottom = 1452.1099853515625
+
+[node name="TuckerSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 36.518001556396484
+offset_top = 18.12420082092285
+offset_right = 623.5180053710938
+offset_bottom = 135.12399291992188
+text = "WAREHOUSE_TUCKER_SPEECH"
+autowrap_mode = 3
+
+[node name="TuckerSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(186.699, 318.93)
+scale = Vector2(0.916233, 0.916233)
+sprite_frames = SubResource("SpriteFrames_tqcdp")
+autoplay = "default"
+frame_progress = 0.8071889877319336
+
+[node name="PaperSprite" type="Sprite2D" parent="."]
+position = Vector2(518.61, 343.297)
+texture = ExtResource("40")
+
+[node name="Page1Label2" type="Label" parent="PaperSprite"]
+anchors_preset = -1
+anchor_left = 0.0007812500116415322
+anchor_top = -0.005524860229343176
+anchor_right = 0.0007812500116415322
+offset_left = -161.125
+offset_top = -62.0
+offset_right = 155.875
+offset_bottom = 63.0
+mouse_filter = 1
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 23
+text = "WAREHOUSE_BROCK_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="BusinessCardSpot" parent="." instance=ExtResource("41")]
+layout_mode = 1
+offset_left = 509.0
+offset_top = 118.0
+offset_right = -58.0
+offset_bottom = -279.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "pOh"
+unlocked_item_ref_id = 932
+
+[node name="Indicators" parent="BusinessCardSpot" index="0"]
+offset_left = -9.957070350646973
+offset_top = 28.98069953918457
+offset_right = -9.957070350646973
+offset_bottom = 28.98069953918457
+
+[node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
+modulate = Color(0.691357, 0.691357, 0.691357, 1)
+
+[node name="PaperSprite" type="Sprite2D" parent="BusinessCardSpot"]
+position = Vector2(59.6281, 90.4051)
+texture = ExtResource("42")
+
+[node name="PaperSprite2" type="Sprite2D" parent="BusinessCardSpot"]
+position = Vector2(73.2349, 75.5123)
+texture = ExtResource("42")
+
+[node name="PaperSprite3" type="Sprite2D" parent="BusinessCardSpot"]
+position = Vector2(82.2639, 62.4235)
+texture = ExtResource("42")
+
+[node name="CardPanel" type="Panel" parent="BusinessCardSpot"]
+layout_mode = 0
+offset_left = -234.76699829101563
+offset_top = -387.42498779296875
+offset_right = 181.23300170898438
+offset_bottom = -157.4250030517578
+
+[node name="Message3ColorRect" type="TextureRect" parent="BusinessCardSpot/CardPanel"]
+modulate = Color(0.683874, 0.749331, 0.745636, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = -10.0
+offset_bottom = -13.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0016687499592080712
+texture = ExtResource("43")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Message3Text" type="RichTextLabel" parent="BusinessCardSpot/CardPanel"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 19.0
+offset_right = 385.0
+offset_bottom = 212.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.203322, 0.203322, 0.203322, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_TUCKER_CARD"
+scroll_active = false
+
+[editable path="BusinessCardSpot"]

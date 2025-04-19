@@ -1,0 +1,91 @@
+[gd_scene load_steps=6 format=4 uid="uid://wybn3r15h7oy"]
+
+[ext_resource type="Script" path="res://shared/ui/hub/victory_dialog_from_hub.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://dtyysjyd67h01" path="res://shared/assets/frames/frame_transparent_blue.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bjuynef5taie7" path="res://acts/full_game/conclusion_arc/finale/assets/victoryscreen2.png" id="3"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="5"]
+
+[node name="ScenarioVictory" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.396078)
+script = ExtResource("1")
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -789.0
+offset_top = -477.0
+offset_right = 789.0
+offset_bottom = 477.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="MarginContainer2" type="MarginContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = -10
+theme_override_constants/margin_top = -10
+theme_override_constants/margin_right = -10
+theme_override_constants/margin_bottom = -10
+metadata/_edit_lock_ = true
+
+[node name="NinePatchRect" type="NinePatchRect" parent="ColorRect/MarginContainer2"]
+layout_mode = 2
+texture = ExtResource("2")
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+
+[node name="Sprite2D" type="Sprite2D" parent="ColorRect"]
+unique_name_in_owner = true
+position = Vector2(1050, 478)
+texture = ExtResource("3")
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 88.0
+offset_right = 550.0
+offset_bottom = 857.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Header" type="Label" parent="ColorRect/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(460, 100)
+layout_mode = 2
+theme = ExtResource("4")
+theme_override_font_sizes/font_size = 30
+text = "VICTORY_DIALOG_TITLE"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Label" type="Label" parent="ColorRect/MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5")
+theme_override_font_sizes/font_size = 24
+text = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="hidden" from="." to="." method="_on_hidden"]

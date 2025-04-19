@@ -1,0 +1,475 @@
+[gd_scene load_steps=36 format=4 uid="uid://due86h84tjvla"]
+
+[ext_resource type="Texture2D" uid="uid://eyeur1in4n1p" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/researchroom.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://icyl7ennp5sd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/GangsterMoodboard.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://je7jxh457u71" path="res://shared/assets/papers/BigBook_Icon.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://fdri7s825jil" path="res://shared/assets/papers/BigBook_Open.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="9"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="10"]
+[ext_resource type="Texture2D" uid="uid://bb26yspj5cyrr" path="res://shared/assets/common_symbols/checkmark.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c1x2ho17vxef7" path="res://shared/assets/common_symbols/cross.png" id="12"]
+
+[sub_resource type="Resource" id="Resource_vjlwr"]
+script = ExtResource("3")
+linked_item_ref_id = 922
+
+[sub_resource type="Resource" id="Resource_bl3e1"]
+script = ExtResource("3")
+linked_item_ref_id = 923
+
+[sub_resource type="Resource" id="Resource_3mnc0"]
+script = ExtResource("3")
+linked_item_ref_id = 358
+
+[sub_resource type="Resource" id="Resource_l8rkt"]
+script = ExtResource("3")
+linked_item_ref_id = 359
+
+[sub_resource type="Resource" id="Resource_54gvj"]
+script = ExtResource("3")
+linked_item_ref_id = 924
+
+[sub_resource type="Resource" id="Resource_5pjbb"]
+script = ExtResource("3")
+linked_item_ref_id = 925
+
+[sub_resource type="Resource" id="Resource_6kogj"]
+script = ExtResource("3")
+linked_item_ref_id = 496
+
+[sub_resource type="Resource" id="Resource_a6qug"]
+script = ExtResource("3")
+linked_item_ref_id = 497
+
+[sub_resource type="Resource" id="Resource_k6ir4"]
+script = ExtResource("3")
+linked_item_ref_id = 918
+
+[sub_resource type="Resource" id="Resource_tjpn4"]
+script = ExtResource("3")
+linked_item_ref_id = 933
+
+[sub_resource type="Resource" id="Resource_svctw"]
+script = ExtResource("3")
+linked_item_ref_id = 920
+
+[sub_resource type="Resource" id="Resource_r0aob"]
+script = ExtResource("3")
+linked_item_ref_id = 921
+
+[sub_resource type="Resource" id="Resource_g36qd"]
+script = ExtResource("3")
+linked_item_ref_id = 916
+
+[sub_resource type="Resource" id="Resource_wewei"]
+script = ExtResource("3")
+linked_item_ref_id = 1015
+
+[sub_resource type="Resource" id="Resource_l1lej"]
+script = ExtResource("3")
+linked_item_ref_id = 1015
+
+[sub_resource type="Resource" id="Resource_twa1t"]
+script = ExtResource("3")
+linked_item_ref_id = 358
+
+[sub_resource type="Resource" id="Resource_0wc4f"]
+script = ExtResource("3")
+linked_item_ref_id = 1020
+
+[sub_resource type="Resource" id="Resource_61ord"]
+script = ExtResource("3")
+linked_item_ref_id = 1013
+
+[sub_resource type="Resource" id="Resource_xpxf2"]
+script = ExtResource("3")
+linked_item_ref_id = 705
+
+[sub_resource type="Resource" id="Resource_d0b3b"]
+script = ExtResource("3")
+linked_item_ref_id = 221
+
+[sub_resource type="Resource" id="Resource_l3nll"]
+script = ExtResource("3")
+linked_item_ref_id = 215
+
+[sub_resource type="Resource" id="Resource_crsfc"]
+script = ExtResource("3")
+linked_item_ref_id = 1036
+
+[sub_resource type="Resource" id="Resource_wraeg"]
+script = ExtResource("3")
+linked_item_ref_id = 1016
+
+[node name="Room3Panel" type="Panel"]
+offset_left = -585.0
+offset_top = -1620.0
+offset_right = 242.0
+offset_bottom = -1059.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(14.0831, 6.51739)
+texture = ExtResource("1")
+centered = false
+
+[node name="CorkBoardSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 692.0
+offset_top = 141.0
+offset_right = -39.0
+offset_bottom = -260.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Y16"
+extra_items_unlocked = [SubResource("Resource_vjlwr"), SubResource("Resource_bl3e1"), SubResource("Resource_3mnc0"), SubResource("Resource_l8rkt"), SubResource("Resource_54gvj"), SubResource("Resource_5pjbb"), SubResource("Resource_6kogj"), SubResource("Resource_a6qug"), SubResource("Resource_k6ir4"), SubResource("Resource_tjpn4"), SubResource("Resource_svctw"), SubResource("Resource_r0aob"), SubResource("Resource_g36qd"), SubResource("Resource_wewei")]
+
+[node name="Indicators" parent="CorkBoardSpot" index="0"]
+offset_left = -9.957070350646973
+offset_top = 28.98069953918457
+offset_right = -9.957070350646973
+offset_bottom = 28.98069953918457
+
+[node name="Highlighter" parent="CorkBoardSpot/Indicators" index="0"]
+modulate = Color(0.751217, 0.674235, 0.491624, 1)
+position = Vector2(26.7873, 62.7559)
+
+[node name="FocusIndicator" parent="CorkBoardSpot/Indicators" index="1"]
+position = Vector2(26.7873, 64.7695)
+
+[node name="CorkBoardPanel" type="Panel" parent="CorkBoardSpot"]
+layout_mode = 0
+offset_left = -811.0
+offset_top = -1021.0
+offset_right = 154.0
+offset_bottom = -283.0
+
+[node name="GangsterMoodboard" type="Sprite2D" parent="CorkBoardSpot/CorkBoardPanel"]
+position = Vector2(8.83852, 8.21491)
+texture = ExtResource("4")
+centered = false
+
+[node name="Label2" type="Label" parent="CorkBoardSpot/CorkBoardPanel"]
+layout_mode = 0
+offset_left = 642.9869995117188
+offset_top = 272.0
+offset_right = 815.9869995117188
+offset_bottom = 434.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 21
+text = "WAREHOUSE_HUNTER_BOARD_EFFECT_NOTE"
+autowrap_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CorkBoardSpot/CorkBoardPanel"]
+layout_mode = 0
+offset_left = 68.98709869384766
+offset_top = 41.0
+offset_right = 329.98699951171875
+offset_bottom = 377.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "WAREHOUSE_HUNTER_BOARD_LIST"
+scroll_active = false
+
+[node name="Label" type="Label" parent="CorkBoardSpot/CorkBoardPanel"]
+layout_mode = 0
+offset_left = 34.987098693847656
+offset_top = 420.0
+offset_right = 215.98699951171875
+offset_bottom = 544.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "WAREHOUSE_HUNTER_BOARD_BANDIT_NOTE"
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="DeskSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 623.0
+offset_top = 300.0
+offset_right = -106.0
+offset_bottom = -206.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "PyM"
+
+[node name="Indicators" parent="DeskSpot" index="0"]
+offset_left = -9.957070350646973
+offset_top = 28.98069953918457
+offset_right = -9.957070350646973
+offset_bottom = 28.98069953918457
+
+[node name="Highlighter" parent="DeskSpot/Indicators" index="0"]
+modulate = Color(0.5472, 0.70272, 0.72, 1)
+position = Vector2(26.7067, -11.8943)
+
+[node name="FocusIndicator" parent="DeskSpot/Indicators" index="1"]
+position = Vector2(25.7035, -10.8874)
+
+[node name="DeskPanel" type="Panel" parent="DeskSpot"]
+layout_mode = 0
+offset_left = 457.531005859375
+offset_top = -481.7229919433594
+offset_right = 919.531005859375
+offset_bottom = -157.72300720214844
+
+[node name="PaperSprite" type="Sprite2D" parent="DeskSpot/DeskPanel"]
+position = Vector2(103.332, 173.175)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("5")
+
+[node name="NotebookSprite" type="Sprite2D" parent="DeskSpot/DeskPanel"]
+position = Vector2(336.079, 159.079)
+scale = Vector2(1.08332, 1.08332)
+texture = ExtResource("6")
+
+[node name="NotebookSpot" parent="DeskSpot/DeskPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 243.0
+offset_top = 38.0
+offset_right = -31.0
+offset_bottom = -37.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "oFD"
+extra_items_unlocked = [SubResource("Resource_l1lej"), SubResource("Resource_twa1t"), SubResource("Resource_0wc4f"), SubResource("Resource_61ord")]
+
+[node name="Indicators" parent="DeskSpot/DeskPanel/NotebookSpot" index="0"]
+offset_left = 158.9969940185547
+offset_top = -6.811389923095703
+offset_right = 158.9969940185547
+offset_bottom = -6.811389923095703
+
+[node name="Highlighter" parent="DeskSpot/DeskPanel/NotebookSpot/Indicators" index="0"]
+modulate = Color(0.308408, 0.266784, 0.238975, 1)
+position = Vector2(-171.781, 60.2118)
+
+[node name="FocusIndicator" parent="DeskSpot/DeskPanel/NotebookSpot/Indicators" index="1"]
+position = Vector2(-170.781, 64.2118)
+
+[node name="NotebookPanel" type="Panel" parent="DeskSpot/DeskPanel/NotebookSpot"]
+layout_mode = 0
+offset_left = 445.0
+offset_top = -80.0
+offset_right = 1408.0
+offset_bottom = 579.0
+
+[node name="SubmissionsSprite" type="Sprite2D" parent="DeskSpot/DeskPanel/NotebookSpot/NotebookPanel"]
+position = Vector2(485, 321)
+texture = ExtResource("7")
+
+[node name="Page1Label2" type="RichTextLabel" parent="DeskSpot/DeskPanel/NotebookSpot/NotebookPanel"]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 49.0
+offset_right = 473.0
+offset_bottom = 537.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_HUNTER_NOTEBOOK_PAGE1"
+fit_content = true
+scroll_active = false
+
+[node name="Page1Label3" type="RichTextLabel" parent="DeskSpot/DeskPanel/NotebookSpot/NotebookPanel"]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 49.0
+offset_right = 876.0
+offset_bottom = 537.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+theme_override_font_sizes/bold_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_HUNTER_NOTEBOOK_PAGE2"
+fit_content = true
+scroll_active = false
+
+[node name="PaperSpot" parent="DeskSpot/DeskPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 51.0
+offset_top = 91.0
+offset_right = -302.0
+offset_bottom = -85.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "6rE"
+extra_items_unlocked = [SubResource("Resource_xpxf2"), SubResource("Resource_d0b3b"), SubResource("Resource_l3nll"), SubResource("Resource_crsfc"), SubResource("Resource_wraeg")]
+
+[node name="Indicators" parent="DeskSpot/DeskPanel/PaperSpot" index="0"]
+offset_left = -9.957070350646973
+offset_top = 28.98069953918457
+offset_right = -9.957070350646973
+offset_bottom = 28.98069953918457
+
+[node name="Highlighter" parent="DeskSpot/DeskPanel/PaperSpot/Indicators" index="0"]
+modulate = Color(0.885164, 0.851105, 0.637632, 1)
+position = Vector2(7.3294, -18.0796)
+
+[node name="FocusIndicator" parent="DeskSpot/DeskPanel/PaperSpot/Indicators" index="1"]
+position = Vector2(8.3294, -14.0796)
+
+[node name="PaperPanel" type="Panel" parent="DeskSpot/DeskPanel/PaperSpot"]
+layout_mode = 0
+offset_left = -208.0
+offset_top = 259.0
+offset_right = 307.0
+offset_bottom = 938.0
+
+[node name="TextureRect" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel"]
+modulate = Color(0.870588, 0.901961, 0.705882, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = 503.0
+offset_bottom = 661.0
+texture = ExtResource("8")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D9" type="Sprite2D" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/TextureRect"]
+position = Vector2(208.325, 473.412)
+rotation = 3.118259906768799
+skew = -0.008633850142359734
+texture = ExtResource("9")
+region_enabled = true
+region_rect = Rect2(142, 384.149, 454, 213.473)
+
+[node name="Sprite2D8" type="Sprite2D" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(295.602, 209)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("9")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(222.602, 361)
+rotation = 6.295479774475098
+scale = Vector2(0.807298, 1)
+texture = ExtResource("9")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel"]
+layout_mode = 0
+offset_left = 35.7328987121582
+offset_top = 23.31060028076172
+offset_right = 528.7329711914063
+offset_bottom = 703.3109741210938
+
+[node name="Title" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_font_sizes/font_size = 36
+text = "WAREHOUSE_IDOL_RANGE_NOTE_TITLE"
+autowrap_mode = 2
+
+[node name="Legend" type="HBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="EmptySpace" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Legend"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("10")
+
+[node name="Legend1" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Legend"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("10")
+text = "WAREHOUSE_LOCAL"
+autowrap_mode = 2
+
+[node name="Legend2" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Legend"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme = ExtResource("10")
+text = "WAREHOUSE_REMOTE"
+autowrap_mode = 2
+
+[node name="Take" type="HBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Command" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Take"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("10")
+text = "WAREHOUSE_TAKE"
+autowrap_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Take"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="Crossmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Take"]
+layout_mode = 2
+texture = ExtResource("12")
+
+[node name="Give" type="HBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Command" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Give"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("10")
+text = "WAREHOUSE_GIVE"
+autowrap_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Give"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="Checkmark2" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Give"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="Amount" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("10")
+theme_override_font_sizes/font_size = 36
+text = "WAREHOUSE_AMOUNT"
+
+[node name="Some" type="HBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Some" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Some"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("10")
+text = "WAREHOUSE_SOME"
+autowrap_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Some"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="Crossmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/Some"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="All" type="HBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="All" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/All"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = ExtResource("10")
+text = "WAREHOUSE_ALL"
+autowrap_mode = 2
+
+[node name="Checkmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/All"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[node name="Crossmark" type="TextureRect" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer/All"]
+layout_mode = 2
+texture = ExtResource("11")
+
+[editable path="CorkBoardSpot"]
+[editable path="DeskSpot"]
+[editable path="DeskSpot/DeskPanel/NotebookSpot"]
+[editable path="DeskSpot/DeskPanel/PaperSpot"]

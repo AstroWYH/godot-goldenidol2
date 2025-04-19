@@ -1,0 +1,345 @@
+[gd_scene load_steps=20 format=4 uid="uid://chgud4q6hot1i"]
+
+[ext_resource type="Texture2D" uid="uid://h6dmhabprx8c" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/suitcase.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://je7jxh457u71" path="res://shared/assets/papers/BigBook_Icon.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bm6a0cex7knxd" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/drugs_item_3.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="7"]
+[ext_resource type="Resource" uid="uid://bn6x4k54fghdl" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_photo_puzzle_meta.tres" id="8"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="9"]
+[ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://pmmkl0q3b5mk" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_1.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bhrgf30bqqvro" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_2.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dt2p6emt42exc" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_3.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://chfxbbsp7trdu" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_4.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://ip83dd2sufan" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_5.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://3gl0p5r7bxbm" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_6.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bixswes0ljnoc" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_7.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://duwojhgkyv1ua" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_8.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://5y04equrjd3t" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_9.png" id="19"]
+
+[node name="SuitCaseCloseup" type="Panel"]
+offset_left = -780.2529907226563
+offset_top = -2523.580078125
+offset_right = 20.736900329589844
+offset_bottom = -1910.5799560546875
+
+[node name="Bag" type="Sprite2D" parent="."]
+position = Vector2(166.267, 416.419)
+scale = Vector2(0.187596, 0.187596)
+texture = ExtResource("1")
+
+[node name="Paper" type="Sprite2D" parent="."]
+position = Vector2(232.373, 151.515)
+texture = ExtResource("2")
+
+[node name="PhotoCatalogue" type="Sprite2D" parent="."]
+position = Vector2(578.93, 197.676)
+texture = ExtResource("3")
+
+[node name="Tablets" type="Sprite2D" parent="."]
+position = Vector2(495.796, 461.573)
+scale = Vector2(0.423928, 0.423928)
+texture = ExtResource("4")
+
+[node name="PaperSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 156.0
+offset_top = 59.0
+offset_right = -489.989990234375
+offset_bottom = -385.0
+hotspot_id = "RMK"
+
+[node name="Indicators" parent="PaperSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="PaperSpot/Indicators" index="0"]
+modulate = Color(0.893081, 0.838978, 0.628185, 1)
+position = Vector2(3.86031, -11.4861)
+
+[node name="FocusIndicator" parent="PaperSpot/Indicators" index="1"]
+position = Vector2(4.86031, -7.48606)
+
+[node name="CataloguePanel" type="Panel" parent="PaperSpot"]
+layout_mode = 0
+offset_left = -888.0
+offset_top = -268.0
+offset_right = -335.0
+offset_bottom = 506.0
+
+[node name="TextureRect" type="TextureRect" parent="PaperSpot/CataloguePanel"]
+modulate = Color(0.909804, 0.933333, 0.729412, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = 540.0
+offset_bottom = 754.0
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="PaperSpot/CataloguePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(345.253, 155)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("7")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="PaperSpot/CataloguePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(254.253, 380.58)
+rotation = 6.274909973144531
+scale = Vector2(1.13284, 1)
+texture = ExtResource("7")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Sprite2D9" type="Sprite2D" parent="PaperSpot/CataloguePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(184.253, 512.58)
+rotation = -3.117079973220825
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("7")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="1" type="Label" parent="PaperSpot/CataloguePanel"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 20.0
+offset_right = 522.0
+offset_bottom = 743.0
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "BEACH_MODEL_LIST"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="CatalogueSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 491.0
+offset_top = 44.0
+offset_right = -141.99000549316406
+offset_bottom = -298.0
+hotspot_id = "mYn"
+unlocked_puzzles = [ExtResource("8")]
+
+[node name="Indicators" parent="CatalogueSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="CatalogueSpot/Indicators" index="0"]
+modulate = Color(0.55931, 0.478175, 0.444315, 1)
+position = Vector2(8.91677, -0.499638)
+
+[node name="FocusIndicator" parent="CatalogueSpot/Indicators" index="1"]
+position = Vector2(9.91677, 3.50036)
+
+[node name="CataloguePanel" type="Panel" parent="CatalogueSpot"]
+layout_mode = 0
+offset_left = -277.0
+offset_top = -1214.0
+offset_right = 623.0
+offset_bottom = -327.0
+
+[node name="ColorRect" type="TextureRect" parent="CatalogueSpot/CataloguePanel"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 6.0
+offset_right = 892.0
+offset_bottom = 874.0
+theme = ExtResource("9")
+texture = ExtResource("10")
+stretch_mode = 1
+
+[node name="1" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 616.0
+offset_top = 779.0
+offset_right = 858.0
+offset_bottom = 845.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_AMY_NAME"
+autowrap_mode = 3
+
+[node name="2" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 610.0
+offset_top = 230.0
+offset_right = 856.0
+offset_bottom = 296.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_JENNIFER_NAME"
+autowrap_mode = 3
+
+[node name="3" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 319.0
+offset_top = 230.0
+offset_right = 573.0
+offset_bottom = 296.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_DEBBIE_NAME"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="4" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 3.2529900074005127
+offset_top = 503.0
+offset_right = 273.25299072265625
+offset_bottom = 569.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_WENDY_NAME"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="5" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 615.0
+offset_top = 503.0
+offset_right = 856.0
+offset_bottom = 569.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_VICKI_NAME"
+autowrap_mode = 3
+
+[node name="6" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 309.0
+offset_top = 503.0
+offset_right = 572.0
+offset_bottom = 569.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_EVE_NAME"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="7" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 48.25299835205078
+offset_top = 233.0
+offset_right = 271.25299072265625
+offset_bottom = 299.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_SASHA_NAME"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="8" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 331.0
+offset_top = 781.0
+offset_right = 551.0
+offset_bottom = 847.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_PAM_NAME"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="9" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+layout_mode = 0
+offset_left = 73.25299835205078
+offset_top = 781.0
+offset_right = 268.25299072265625
+offset_bottom = 847.0
+theme = ExtResource("9")
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "BEACH_KELLY_NAME"
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(168.787, 119.055)
+texture = ExtResource("11")
+
+[node name="Sprite2D2" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(441.225, 119.055)
+texture = ExtResource("12")
+
+[node name="Sprite2D3" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(712.66, 119.055)
+texture = ExtResource("13")
+
+[node name="Sprite2D4" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(168.787, 398.608)
+texture = ExtResource("14")
+
+[node name="Sprite2D5" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(441.225, 398.608)
+texture = ExtResource("15")
+
+[node name="Sprite2D6" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(712.66, 398.608)
+texture = ExtResource("16")
+
+[node name="Sprite2D7" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(168.787, 675.55)
+texture = ExtResource("17")
+
+[node name="Sprite2D8" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(441.225, 675.55)
+texture = ExtResource("18")
+
+[node name="Sprite2D9" type="Sprite2D" parent="CatalogueSpot/CataloguePanel/ColorRect"]
+position = Vector2(712.66, 675.55)
+texture = ExtResource("19")
+
+[node name="TabletSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 433.0
+offset_top = 347.0
+offset_right = -241.99000549316406
+offset_bottom = -79.0
+hotspot_id = "RgS"
+text = "BEACH_GENIUS_TABLET_TOOLTIP"
+
+[node name="Indicators" parent="TabletSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="TabletSpot/Indicators" index="0"]
+modulate = Color(0.635799, 0.6358, 0.635799, 1)
+
+[node name="Case numbers" type="Label" parent="."]
+layout_mode = 0
+offset_left = 511.0
+offset_top = 130.447998046875
+offset_right = 636.0
+offset_bottom = 259.447998046875
+rotation = 0.035226501524448395
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "BEACH_MODEL_CATALOGUE_LABEL"
+autowrap_mode = 3
+
+[editable path="PaperSpot"]
+[editable path="CatalogueSpot"]
+[editable path="TabletSpot"]

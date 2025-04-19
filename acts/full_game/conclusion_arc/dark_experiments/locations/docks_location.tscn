@@ -1,0 +1,916 @@
+[gd_scene load_steps=177 format=4]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://dvd78q1dq2kfc" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/docks_location_meta.tres" id="2"]
+[ext_resource type="Shader" path="res://shared/assets/effects/water.gdshader" id="3"]
+[ext_resource type="Texture2D" uid="uid://u6ahgghhtnou" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/ReflectionLights/ReflectionLights00000.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://de51lsppa2yhx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00000.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dbgplsjx28yvt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00001.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c0hqt22ykt28s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00002.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://csctmls7go8n5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00003.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dtarsl77se46v" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00004.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cbbch648olcmd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00005.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bjjcbredk4y3i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00006.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://3jphophfah5t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00007.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://b64ep165b3r64" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00008.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dpq8rvhwglkrv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00009.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b3rk17uevy6k4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00010.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cknawy5wf0rh0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00011.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://kya4knl5ptt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00012.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://c2irg4aepg3bg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00013.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b3n04kmsdrtyw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00014.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cx1voirj2n624" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00015.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bg218pfmhti8l" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00016.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cgpnmu08geduf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00017.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cx5jdfy0milai" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00018.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://c1b7ub27ide1h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00019.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://da4uosvik5t3t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00020.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://1ig4olslj07r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00021.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://grrd5igkuro5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00022.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://buvj27l2ic50d" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00023.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://due6qm7o41ath" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00024.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cgypm5nwlrtno" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00025.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bnifu3iduwy7o" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00026.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dt5etpfwtjge7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00027.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://d1twgjry2nefl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00028.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dfb8roekmaqeb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00029.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://be30rg4wm3feh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00030.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cqqg3wuwlc6d2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00031.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://be1lshymp3ryn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00032.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://4x2a8fqsvlku" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00033.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://c4wcmemuiyitf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00034.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dgcv2271gu8tv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00035.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cvbc2r0xvpr3k" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00036.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b2xmtmc3xi6lb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00037.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bq0l8lynhcge6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00038.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bxjw464c4hok8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00039.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://w6dwcef6ya33" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00040.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cbqmg1b55vwj0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00041.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://c8ijegqclbjjo" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00042.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bqvcdaemeiulm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00043.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cuqlfi86ly5cn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00044.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://0vjvtyfegkk2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00045.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://c5o4w8a6g1gvk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00046.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://s8xiv2tonskt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00047.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://dwrh34ww7l6fo" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00048.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://kvik0jxafil" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00049.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://cjbceleygdyx8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00050.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bt00ju5k6mndd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00051.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bjgdcwt6gepoy" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00052.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://8ub57a805rio" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00053.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://d06kxwe33empk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00054.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://ddys0n3q42b6e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00055.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://o1c8mdqomi7t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00056.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://xr6ypmjd46sm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00057.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://xy25i3bgxyxb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00058.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://dd7do6jxpcj0e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00059.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://dgucel5h4c5t6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00000.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://twoh7ok6v4dl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00001.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://csevkfnf0h4oq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00002.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://inyieijglq20" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00003.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://b437u1ckvnopr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00004.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://ctu0khiqjj4wv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00005.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://xa7jxgb1o7yh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00006.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://boe6rdkhw4re8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00007.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://byy1i3qgo7jv6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00008.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://gpodifinw6o6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00009.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://bc41i2vu8hu2a" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00010.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://b6iqgssvhliic" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00011.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://d0cg7jox3f4di" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00012.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://fmxeq0c4ljvg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00013.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://dmnm45o7amhox" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00014.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cd7af4x8av51s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00015.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://d24etnhlmbooj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00016.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://y1dils5sfpix" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00017.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://21ey6kewpfsr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00018.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://yb6oso8httif" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00019.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://cixqre1cj7jtn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00020.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://r13n5sxruh7r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00021.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://c6oe5rhc1axa4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00022.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://b80xnxh5qld1g" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00023.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://b7mqdgl60tfad" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00024.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://c4gro0gkup68a" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00025.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://dwki54eth2ayg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00026.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://boqwh3ajkdrqe" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00027.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://f3cfd5bjyrxs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00028.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://k1rvr512ahh3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00029.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://bmaj7ls2supjs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00030.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://b7gs61gux8yn0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00031.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://b2yqfsvwrfn3a" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00032.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://bynd8poxawae0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00033.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://38eylwweybhy" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00034.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://dyxi8o45sngok" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00035.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://c72s6nbp3fnra" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00036.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://doump1p6glppk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00037.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://c3dqudoml0g7n" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00038.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://cjuyrxqk65a1v" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00039.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://dwxlkslhsvuai" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00040.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://cejwnxhxmyx8s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00041.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://blb0lgrja8p1h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00042.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://dx7blbdp7lgv3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00043.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://br0fht8qectms" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00044.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://cfuamayhl71i8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00045.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://buao83ip5xd5d" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00046.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://bbdopmu657eu6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/HookSwing/Hook_00047.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://8cluerebx78v" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/DocksFG.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://oghuqfgkkv4e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00000.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://1o11httebu5x" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00001.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://b6yxs24pja1qc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00002.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://bkg0lwnfal1hf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00003.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://cvro3f7v66sss" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00004.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://blrutgm52eku1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00005.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://cndbqk8yhgap0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00006.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://bu3hs4riofmq1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00007.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://bsjutq03mng" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00008.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://duglpkujp6l7s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00009.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://cstankheors3s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00010.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://bvpk27o7i2c08" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00011.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://ile8vtqy3qqv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00012.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://c80tgrrvvcfks" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00013.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://bhtq2fg7jlx2i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00014.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://dqp4kssa8atcs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00015.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://dr463bklk4ql3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00016.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://dbueihtbiqegs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00017.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://b0yc4kjlu5tur" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00018.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://icsv8clkepfp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00019.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://cnthpkc7dfkrt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00020.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://di7lyr3lqswk4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00021.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://chej41s41njdc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00022.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://c6w6a35bpjj1s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00023.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://brvpmwao2syjf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00024.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://dec37cavi86kh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00025.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://ywrbkj7nv06e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00026.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://brdg5pixs41gl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00027.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://d1na3krep76nr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00028.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://u644tvv7bucb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00029.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://d0uhvswbmyxdf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00030.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://gdmv60joymcq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00031.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://c67u1pne33urf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00032.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://bmc4j4ocj172o" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00033.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://dd6iblnyy3ihv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00034.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://vj5rgqjbayws" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00035.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://wi225putu7fa" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00036.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://ch22gtd8fkm50" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00037.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://e252x5djfav7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00038.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://00yerw7rma07" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00039.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://bgqxf3dmsyq4r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00040.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://dwx6ooafisrmk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00041.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://ca50g4coybw7r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00042.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://dfy3gv1mu634h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00043.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://div73p6yuf35u" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00044.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://dac30m1vlibrb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00045.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://dhicfddg6htjs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00046.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://0p26bxw8oxe8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/BumLight/BumLight_00047.png" id="161"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="162"]
+[ext_resource type="Resource" uid="uid://dmt5c8hslp3xa" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location_meta.tres" id="163"]
+[ext_resource type="Resource" uid="uid://c46amcsry23tq" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/warehouse_location_meta.tres" id="164"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="165"]
+[ext_resource type="Resource" uid="uid://d4a7s1lepir6" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_ranking_puzzle.tres" id="166"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dsgu6"]
+shader = ExtResource("3")
+shader_parameter/wave_freq = 1.0
+shader_parameter/wave_count = 0.6
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5p7bf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6xmsp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}],
+"loop": true,
+"name": &"Loop",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i8ftl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}],
+"loop": true,
+"name": &"Loop",
+"speed": 12.0
+}]
+
+[sub_resource type="Resource" id="Resource_7i7hw"]
+script = ExtResource("165")
+linked_item_ref_id = 1113
+
+[sub_resource type="Resource" id="Resource_0xk0f"]
+script = ExtResource("165")
+linked_item_ref_id = 1112
+
+[sub_resource type="Resource" id="Resource_4kv4u"]
+script = ExtResource("165")
+linked_item_ref_id = 1111
+
+[sub_resource type="Resource" id="Resource_5a1lq"]
+script = ExtResource("165")
+linked_item_ref_id = 1112
+
+[sub_resource type="Resource" id="Resource_cboym"]
+script = ExtResource("165")
+linked_item_ref_id = 1114
+
+[sub_resource type="Resource" id="Resource_7vs4s"]
+script = ExtResource("165")
+linked_item_ref_id = 1115
+
+[node name="Location2" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="Refection2" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_dsgu6")
+position = Vector2(1359, 196)
+texture = ExtResource("4")
+
+[node name="Yacht" type="AnimatedSprite2D" parent="."]
+position = Vector2(898, 206)
+sprite_frames = SubResource("SpriteFrames_5p7bf")
+autoplay = "default"
+frame_progress = 0.41374099254608154
+
+[node name="HookSwing" type="AnimatedSprite2D" parent="."]
+position = Vector2(1549, 279)
+sprite_frames = SubResource("SpriteFrames_6xmsp")
+animation = &"Loop"
+autoplay = "Loop"
+frame_progress = 0.47291499376296997
+
+[node name="DocksForeground" type="Sprite2D" parent="."]
+position = Vector2(959, 539)
+texture = ExtResource("113")
+
+[node name="BumLight" type="AnimatedSprite2D" parent="."]
+position = Vector2(1056, 886)
+sprite_frames = SubResource("SpriteFrames_i8ftl")
+animation = &"Loop"
+autoplay = "Loop"
+frame_progress = 0.31918299198150635
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ToYacthSpot" parent="Hotspots" instance=ExtResource("162")]
+layout_mode = 1
+offset_left = 762.0
+offset_top = 70.0
+offset_right = 985.0
+offset_bottom = 216.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Rlv"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("163")
+
+[node name="Indicators" parent="Hotspots/ToYacthSpot" index="0"]
+offset_left = 36.73320007324219
+offset_top = 43.14659881591797
+offset_right = 36.73320007324219
+offset_bottom = 43.14659881591797
+rotation = 3.141590118408203
+
+[node name="Highlighter" parent="Hotspots/ToYacthSpot/Indicators" index="0"]
+modulate = Color(1, 0.856347, 0.481254, 1)
+position = Vector2(0.477554, -57.6705)
+animation = &"location"
+
+[node name="FocusIndicator" parent="Hotspots/ToYacthSpot/Indicators" index="1"]
+position = Vector2(0.477554, -54.6603)
+
+[node name="ToWarehouseSpot" parent="Hotspots" instance=ExtResource("162")]
+layout_mode = 1
+offset_left = 322.0
+offset_top = 380.0
+offset_right = 506.0
+offset_bottom = 788.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Tse"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("164")
+
+[node name="Indicators" parent="Hotspots/ToWarehouseSpot" index="0"]
+offset_left = 12.901200294494629
+offset_top = 235.80099487304688
+offset_right = 12.901200294494629
+offset_bottom = 235.80099487304688
+rotation = 3.141590118408203
+
+[node name="Highlighter" parent="Hotspots/ToWarehouseSpot/Indicators" index="0"]
+modulate = Color(0.544, 0.68, 0.6596, 1)
+position = Vector2(-36.5818, -105.807)
+rotation = -1.5707999467849731
+animation = &"location"
+
+[node name="FocusIndicator" parent="Hotspots/ToWarehouseSpot/Indicators" index="1"]
+position = Vector2(-30.5721, -106.811)
+scale = Vector2(1, 0.999996)
+
+[node name="HarryContainerSpot" parent="Hotspots" instance=ExtResource("162")]
+layout_mode = 1
+offset_left = 540.0
+offset_top = 601.0
+offset_right = 660.0
+offset_bottom = 723.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Y33"
+extra_items_unlocked = [SubResource("Resource_7i7hw"), SubResource("Resource_0xk0f")]
+
+[node name="Indicators" parent="Hotspots/HarryContainerSpot" index="0"]
+offset_left = -2.630079984664917
+offset_top = 93.31710052490234
+offset_right = -2.630079984664917
+offset_bottom = 93.31710052490234
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="Hotspots/HarryContainerSpot/Indicators" index="0"]
+modulate = Color(0.568285, 0.668785, 0.564753, 1)
+frame_progress = 0.9294099807739258
+
+[node name="FocusIndicator" parent="Hotspots/HarryContainerSpot/Indicators" index="1"]
+visible = false
+
+[node name="HarryContainerPanel" parent="Hotspots/HarryContainerSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/harry_container_panel.tscn"]
+layout_mode = 0
+offset_left = -1578.5400390625
+offset_top = 916.1129760742188
+offset_right = -751.5390014648438
+offset_bottom = 1475.1099853515625
+
+[node name="HomelessGatheringSpot" parent="Hotspots" instance=ExtResource("162")]
+layout_mode = 1
+offset_left = 1104.0
+offset_top = 717.0
+offset_right = 1221.0
+offset_bottom = 867.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "nlr"
+
+[node name="Indicators" parent="Hotspots/HomelessGatheringSpot" index="0"]
+offset_left = 6.636750221252441
+offset_top = 63.21480178833008
+offset_right = 6.636750221252441
+offset_bottom = 63.21480178833008
+
+[node name="Highlighter" parent="Hotspots/HomelessGatheringSpot/Indicators" index="0"]
+modulate = Color(0.76, 0.595333, 0, 1)
+position = Vector2(-12.5338, -14.8182)
+
+[node name="FocusIndicator" parent="Hotspots/HomelessGatheringSpot/Indicators" index="1"]
+visible = false
+position = Vector2(-13.537, -12.825)
+
+[node name="HomelessCloseupPanel" parent="Hotspots/HomelessGatheringSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/homeless_closeup_panel.tscn"]
+layout_mode = 0
+offset_left = -3037.8798828125
+offset_top = -1537.219970703125
+offset_right = -2183.8798828125
+offset_bottom = -897.2230224609375
+
+[node name="RedContainerSpot" parent="Hotspots" instance=ExtResource("162")]
+layout_mode = 1
+offset_left = 1295.0
+offset_top = 788.0
+offset_right = 1470.0
+offset_bottom = 947.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "1eK"
+extra_items_unlocked = [SubResource("Resource_4kv4u"), SubResource("Resource_5a1lq")]
+
+[node name="Indicators" parent="Hotspots/RedContainerSpot" index="0"]
+offset_left = -2.630079984664917
+offset_top = 93.31710052490234
+offset_right = -2.630079984664917
+offset_bottom = 93.31710052490234
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="Hotspots/RedContainerSpot/Indicators" index="0"]
+modulate = Color(0.632709, 0.4179, 0.332977, 1)
+position = Vector2(-18.2445, -20.8386)
+
+[node name="FocusIndicator" parent="Hotspots/RedContainerSpot/Indicators" index="1"]
+position = Vector2(-17.2445, -16.8386)
+
+[node name="SleepingContainerPanel" parent="Hotspots/RedContainerSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/sleeping_container_panel.tscn"]
+layout_mode = 0
+offset_left = -217.3489990234375
+offset_top = 824.802978515625
+offset_right = 606.6510009765625
+offset_bottom = 1271.800048828125
+
+[node name="ShiptSpot" parent="Hotspots" instance=ExtResource("162")]
+layout_mode = 1
+offset_left = 1649.0
+offset_top = 502.0
+offset_right = 1865.0
+offset_bottom = 673.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "uin"
+extra_items_unlocked = [SubResource("Resource_cboym"), SubResource("Resource_7vs4s")]
+unlocked_puzzles = [ExtResource("166")]
+
+[node name="Indicators" parent="Hotspots/ShiptSpot" index="0"]
+offset_left = -2.630079984664917
+offset_top = 93.31710052490234
+offset_right = -2.630079984664917
+offset_bottom = 93.31710052490234
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="Hotspots/ShiptSpot/Indicators" index="0"]
+modulate = Color(0.816239, 0.868998, 0.823607, 1)
+position = Vector2(-7.70587, -27.9001)
+frame_progress = 0.2901740074157715
+
+[node name="FocusIndicator" parent="Hotspots/ShiptSpot/Indicators" index="1"]
+position = Vector2(-6.70588, -23.9001)
+
+[node name="ShipPanel" parent="Hotspots/ShiptSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/ship_panel.tscn"]
+layout_mode = 0
+offset_left = 1197.9200439453125
+offset_top = -508.72900390625
+offset_right = 2031.9200439453125
+offset_bottom = 31.271400451660156
+
+[editable path="Hotspots/ToYacthSpot"]
+[editable path="Hotspots/ToWarehouseSpot"]
+[editable path="Hotspots/HarryContainerSpot"]
+[editable path="Hotspots/HomelessGatheringSpot"]
+[editable path="Hotspots/RedContainerSpot"]
+[editable path="Hotspots/ShiptSpot"]

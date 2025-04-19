@@ -1,0 +1,337 @@
+[gd_scene load_steps=58 format=4 uid="uid://d1uwqnj7qnjul"]
+
+[ext_resource type="Texture2D" uid="uid://58e86dk6ne18" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/security.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ddw6chlucrant" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bdfnrn5ljwymk" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://idhqxkc6d3nj" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dep74td40b1bg" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cbt82rvn5bhp7" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cmpnw08g0wwwf" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bl4m76h25mfit" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://ecs51iuvn1et" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://ve657oe0so4l" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://c3se6ypse3jfv" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://flsu8q30wf6p" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://i1ibx2vg6ig5" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bpqxoivmow5v" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bflxvvs5od43x" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://qpmm8bh75ycx" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://051nbis2ryae" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://4a71tehut0ad" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://kufyc1wdnlv6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b62wdgorferkr" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ccfrk54aj5d7w" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bp6q43e7mx5n4" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://l8a1nja4uqmm" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://bdratqwy7mx1y" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://de6djdd62hc6q" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cp84qyq4ptv4e" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bf7qp525a4k7q" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://d2gr4p1wmll5l" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dp3juu13nqvwj" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bof3dk62waanx" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bju6fivh6ft0n" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://ckt3sf0wumio3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cxbt34mn8oxuo" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://b7caf41se0jem" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cfkee82f5l3vi" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://c2yeluutsfshg" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bstkhsnm5np51" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://8db253r32vrm" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://mi317xmoked7" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://b2al2v3mhsgkw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bcu83128453pr" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/securityforeground.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://cabq430qyu20c" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/smoke.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://chx5hih1mpf4j" path="res://shared/shaders/SmokeParticleTest.png" id="43"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="44"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="45"]
+
+[sub_resource type="Animation" id="Animation_5a2be"]
+resource_name = "new_animation"
+length = 5.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SecuritySprite/SecuritySmoke:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5, 5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(0.9, 1.2), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vnro1"]
+_data = {
+"new_animation": SubResource("Animation_5a2be")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hbvk8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_5krqo"]
+particles_animation = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = true
+
+[sub_resource type="Curve" id="Curve_plwwg"]
+max_value = 200.0
+_data = [Vector2(0, 48.4008), 0.0, -64.36090087890625, 0, 0, Vector2(1, 2.40588), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_vcddo"]
+curve = SubResource("Curve_plwwg")
+
+[sub_resource type="Gradient" id="Gradient_046gp"]
+offsets = PackedFloat32Array(0, 0.349442, 1)
+colors = PackedColorArray(0.203922, 0.411765, 0.137255, 0, 0.831373, 0.768627, 0.466667, 0.239216, 0.683436, 0.682116, 0.508053, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ic3gj"]
+gradient = SubResource("Gradient_046gp")
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_44g63"]
+
+[sub_resource type="Curve" id="Curve_b4wym"]
+_data = [Vector2(0, 0.632041), 0.0, 0.7095119953155518, 0, 0, Vector2(1, 0.495896), -0.011748399585485458, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_yils5"]
+curve = SubResource("Curve_b4wym")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_m6tgp"]
+particle_flag_disable_z = true
+emission_shape_scale = Vector3(2.6, 2.6, 2.6)
+emission_shape = 1
+emission_sphere_radius = 116.37999725341797
+angular_velocity_min = 2.0
+angular_velocity_max = 10.0
+directional_velocity_min = 1.4988000668044246e-14
+directional_velocity_max = 1.4988000668044246e-14
+directional_velocity_curve = SubResource("CurveXYZTexture_44g63")
+radial_velocity_min = 1.0
+radial_velocity_max = 4.0
+gravity = Vector3(20, 40, 20)
+attractor_interaction_enabled = false
+scale_min = 3.0
+scale_max = 4.0
+scale_curve = SubResource("CurveTexture_yils5")
+color_ramp = SubResource("GradientTexture1D_ic3gj")
+anim_speed_max = 1.0
+anim_speed_curve = SubResource("CurveTexture_vcddo")
+turbulence_enabled = true
+turbulence_noise_strength = 10.0
+turbulence_noise_scale = 4.0
+turbulence_influence_min = 0.6629999876022339
+turbulence_influence_max = 1.0
+turbulence_initial_displacement_max = 4.0
+
+[node name="EntryPanel" type="Panel"]
+offset_left = 1741.0
+offset_top = 711.0
+offset_right = 2535.0
+offset_bottom = 1414.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vnro1")
+}
+autoplay = "new_animation"
+
+[node name="SecuritySprite" type="Sprite2D" parent="."]
+position = Vector2(399.437, 347.597)
+texture = ExtResource("1")
+
+[node name="AnimatedSecuritySprite2D" type="AnimatedSprite2D" parent="SecuritySprite"]
+position = Vector2(55.0885, -45.1534)
+sprite_frames = SubResource("SpriteFrames_hbvk8")
+autoplay = "default"
+frame_progress = 0.8720189929008484
+
+[node name="Security2D" type="Sprite2D" parent="SecuritySprite"]
+texture = ExtResource("41")
+
+[node name="SecuritySmoke" type="Sprite2D" parent="SecuritySprite"]
+visible = false
+position = Vector2(766.231, -22.0749)
+scale = Vector2(0.970102, 1.0598)
+texture = ExtResource("42")
+
+[node name="SmokeParticles" type="GPUParticles2D" parent="SecuritySprite"]
+material = SubResource("CanvasItemMaterial_5krqo")
+position = Vector2(15.0248, 11.0377)
+amount = 35
+process_material = SubResource("ParticleProcessMaterial_m6tgp")
+texture = ExtResource("43")
+lifetime = 4.0
+preprocess = 2.0
+speed_scale = 1.3
+randomness = 1.0
+fixed_fps = 24
+interpolate = false
+fract_delta = false
+
+[node name="SecurityLabel" type="Label" parent="SecuritySprite"]
+offset_left = 15.0
+offset_top = -311.0
+offset_right = 233.0
+offset_bottom = -249.0
+rotation = -0.09113410115242004
+theme = ExtResource("44")
+theme_override_colors/font_color = Color(0.027451, 0.0431373, 0.0392157, 1)
+theme_override_font_sizes/font_size = 30
+text = "SECURITY_TOOLTIP"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="SecuritySmokeSpot" parent="." instance=ExtResource("45")]
+layout_mode = 1
+offset_left = 261.2149963378906
+offset_top = 166.98300170898438
+offset_right = -265.7850036621094
+offset_bottom = -251.01699829101563
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "n8T"
+text = "FINALE_SPRAYED_GUARD_TOOLTIP"
+
+[node name="Indicators" parent="SecuritySmokeSpot" index="0"]
+offset_left = -5.281169891357422
+offset_top = -7.2765398025512695
+offset_right = -5.281169891357422
+offset_bottom = -7.2765398025512695
+
+[node name="Highlighter" parent="SecuritySmokeSpot/Indicators" index="0"]
+modulate = Color(0.464845, 0.660378, 0.257802, 1)
+position = Vector2(16.9517, 101.758)
+scale = Vector2(0.494129, 0.494129)
+frame_progress = 0.9705960154533386
+
+[node name="FocusIndicator" parent="SecuritySmokeSpot/Indicators" index="1"]
+position = Vector2(18.0515, 105.82)
+
+[editable path="SecuritySmokeSpot"]

@@ -1,0 +1,271 @@
+[gd_scene load_steps=62 format=4 uid="uid://dnbklxdw8g4pd"]
+
+[ext_resource type="Texture2D" uid="uid://db0mtrshp6dub" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://byfqxxf1rva4b" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cypivg53pp27n" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ckk5k625jy7nf" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://8nws3lntedh" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://c7adrjkbsbbs3" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dkuiwen2qtw68" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bhflinsx0uuc" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://3m22r7wqp6p6" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cbirxrjs2d8b7" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://deq2d5k64ipjf" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c68a3gfo5i50w" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cejyhqlpl6wn0" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://fdktrkg86n6i" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bcorc4gsulrca" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dhxglqcb6vt2x" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dprd03ap8qrh7" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://0g178qtcrahi" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cy8w83tbx46c3" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cv6aojg8kol4y" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://d3b7tsw2c1x1p" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://n0vthob66iay" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bx0kk0bkt7goo" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://d1shw241w52r6" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://cprqwifwokoqg" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://d2kn1bphb0dg8" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dr0eeayo7lgnk" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://r33pvm2pl3ys" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://6tkutcth6s7v" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bw5mlh8jq053x" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://2ll8neiirkn7" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cd0py02red25g" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dx178aiywl0ih" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://b4pk4s8qr4hnx" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dl4s0g8eya2fi" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://crjpfbrrda081" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dnqj5kaco8nnc" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bdnh5n4rag6d4" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bln4c7fjf2kok" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cqqddhu5ybhpt" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://2yc78qcgmmcw" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://11xr7qy37isp" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cmbuott0wkgbl" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cyktsl18vfdox" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dpyw80bnf8mtu" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://drnjd1kc5jyrf" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://xn6n15clquuo" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://cnesxnw7stuj7" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://7gldvp00udvr" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cqkqkk52rk3oj" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://tdnvvtrrom3q" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://c8rim1ctnnmko" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://npfvnynwlpak" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://b1vut7spbgnh4" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_053.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://6r1g1l72u6u1" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_054.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://cn374yqn38ebi" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_055.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bewkeykihf82t" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_056.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dk27rhqhv26e7" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_057.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://d2gwqdpyoaceq" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_058.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://tp0i8jq1f2sx" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_059.png" id="60"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v8ijp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="AnnettePanel" type="Panel"]
+offset_left = -432.0
+offset_top = 976.0
+offset_right = 369.0
+offset_bottom = 1508.0
+
+[node name="AnnetteSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.09640121459961
+offset_top = 52.17720031738281
+offset_right = 683.0960083007813
+offset_bottom = 169.177001953125
+text = "BOARDROOM_WIFE_SPEECH"
+autowrap_mode = 3
+
+[node name="AnnetteSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(232.373, 308.046)
+sprite_frames = SubResource("SpriteFrames_v8ijp")
+autoplay = "default"
+frame_progress = 0.6728000044822693

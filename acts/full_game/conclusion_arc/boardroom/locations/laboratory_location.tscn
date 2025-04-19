@@ -1,0 +1,1529 @@
+[gd_scene load_steps=269 format=4]
+
+[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Resource" uid="uid://ccepx7dccl7x7" path="res://acts/full_game/conclusion_arc/boardroom/locations/laboratory_location_meta.tres" id="2"]
+[ext_resource type="Texture2D" uid="uid://ds3gxm612lqyy" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://i3wjsb4aicsq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dwho2mewf2elw" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ck0nmg8nyur6w" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://byq6rildujy4x" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dtr48faflv32w" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b64710n8ulgqr" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://crxmpwud8a4rx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://ckhr7is8taexo" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://ndoepugjb064" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://c6pxxt2lvrigl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://chyowr5jsywsx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bbg0t0wj3e8kx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://wo6sgr2qg0x" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cd1n22m62k82i" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://3n3m1jbq12nf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://w36vavu7wwq1" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cgjmfl44y6pw5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://b65gsxar36hsp" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://deyrajgsog1ay" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://710tckyiwdir" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dn2frk3wvaxww" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bfbb0tsq1il7d" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cvshbgqi7djrm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://cslh2s8wxdpjb" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://pkfjnl4wb12o" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dy2ueegsjpubl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://onjp8x48k2pv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://qdi8uqlvaes7" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cjbdvv1aslbip" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bux46t5ayl6yf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_030.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dqhf0cnlx8ysq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_031.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://x4ohnv5crq84" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_032.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://b3in5d3o1g1c5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_033.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dpqq85q4lryru" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_034.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://r5gphw0vvwvm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_035.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://djonkxtjye42" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_036.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bgxdimxo5qfbe" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_037.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://bmluwrp07n171" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_038.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dgqv8qfeoc4pr" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_039.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://c5780ihjnafin" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_040.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://tbjj5mg7pclq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_041.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bva87iamicm7i" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_042.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://b0beq8ldock6s" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_043.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bes35gdre08cv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_044.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://jdvhf251qvs4" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_045.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://c3abhbhvc4868" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_046.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://dc272inl7bt87" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_047.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://c65nf56uadult" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_048.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://did57dftuwehx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_049.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://bocfytdsmvgxy" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_000.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cg6jsmurf4h0x" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_001.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://dn5ahtppat8og" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_002.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://tuwp8gib8og4" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_003.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://6tefgk1nep82" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_004.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dlca6fjd2lrml" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_005.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://dnhqqhjifm5xo" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_006.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://n8pm728v1u0p" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_007.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://chy0cmudwgf0v" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_008.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://cpvdwfommjo1d" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_009.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://cr1a1s8vou3gg" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_010.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://ct3sjfrgryjbx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_011.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://c51e1hijfastt" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_012.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://oq1ewf7i617l" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_013.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://dy0c8fsjigg44" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_014.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://drwrpvwvxa6gj" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_015.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bd3let2mqn0pn" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_016.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://dhmwp1q7j2rq2" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_017.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://cb7562l4s6o3w" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_018.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://bvsfd7ch6ujd6" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_019.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://fi8negrdlhp0" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_020.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://dnct0kjfhmap" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_021.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://bjjca0bf35ymr" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_022.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://b8pxskgly5bpv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_023.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://d05xfgi0odvns" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_024.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://uhm316n84t37" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_025.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://dti6covg8s53y" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_026.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cvbqpq6msb2yr" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_027.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://b75qlqst4k3av" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_028.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://di5sx88hhf23m" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_029.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://cl8i4rc5582me" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_030.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://cqrqfmv8svn54" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_031.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://dtpvyxrirnvgv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_032.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://3wrg3snlx58v" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_033.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://d2od3rxebnrnl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_034.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://bwu43au05sb5k" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_035.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://cowss4chr8k2j" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_036.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bruo5qcbrd5mf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_037.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://bjkhv7gkiinlm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_038.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://b3r58ftdckjim" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_039.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://tfdf3rekrcta" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_040.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://cpohh7ra7vxal" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_041.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://ctdj0c17jujrd" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_042.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://cms26t86gaw3r" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_043.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://dq74w80pc23dd" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_044.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://d171nyrjlr15a" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_045.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://dveach3ry57ry" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_046.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://dasx4b2cpi7ol" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_047.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://bas5lbn0282m3" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_048.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://q0r0n1nqks4h" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/mary/mary_lab_049.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bxm8fpd348e6n" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_000.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://besxhlufbig10" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_001.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://cmjjibhnwdroq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_002.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://bsrtxgrxtd0k5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_003.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://blw12aosbdrkg" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_004.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://b6n2w3oviqgop" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_005.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://b6epfhv15gxt6" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_006.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://cg0cen70rg3a" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_007.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://0nv63qu4jcsd" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_008.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://dg2ue33faxnod" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_009.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://goob6dtpqeoj" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_010.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://2de1dkp3h8l0" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_011.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://daca4nf8j7qu5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_012.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://dpw2cxqgqeal6" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_013.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://clpi2aygdoa2m" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_014.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://blha453qrqcwq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_015.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://cqxbdhlytp4kq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_016.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://bghm8f3qbj1he" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_017.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://dl7wjcv5bdevm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_018.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://u7gmrq0akyu5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_019.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://bd6bg1p2kblma" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_020.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://jgnuolvika38" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_021.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://dwbgwnlviwhs5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_022.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://ccikx07m72vsm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_023.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://d1xw7bgcl8xlv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_024.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://b3xe8eaotc4xs" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_025.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://cnmkcku21hg2y" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_026.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://db3mj3vp35pc6" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_027.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://ctv2rtf2hwigo" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_028.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://c3cmpiijnl3l" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_029.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://bc8ciabqcrmlf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_030.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://2w250fb2rbxb" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_031.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://b3v2pkjig3k4x" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_032.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://w22sir8i003v" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_033.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://bq0d56j85oxw5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_034.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://dmbq0575gtprv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_035.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://c7agyio3xapeb" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_036.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://dsu51kn26jyaq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_037.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://d4hh1bldtutxc" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_038.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://cd8igp73qkxw7" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_039.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://crl3damk7gce5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_040.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://6w8gstw4axod" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_041.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://vdsxna0ear4q" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_042.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://bvofjk47husdm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_043.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://bgn6k8stendpx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_044.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://bo4iol01kt55k" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_045.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://dexl1gjn6t4wt" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_046.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://djuhrvt10uho" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/figures/tesaandjack_047.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://d3nafr7dgitgl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_000.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://cqbhyvjdm5hu4" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_001.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://dnby8e4mr7c0b" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_002.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://6t8obtgwvuqs" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_003.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://71pghmq8hnje" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_004.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://ciqptarjsga0t" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_005.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://cwo86p5h7w0be" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_006.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://4io2wtv8gwf5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_007.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://tudd8y1ky7vx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_008.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://bshp0lj365rag" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_009.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://1alymqo6csup" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_010.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://c7cncuq8vjuhh" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_011.png" id="162"]
+[ext_resource type="Texture2D" uid="uid://caiyiw1udcgvv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_012.png" id="163"]
+[ext_resource type="Texture2D" uid="uid://7w48ob2blyo" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_013.png" id="164"]
+[ext_resource type="Texture2D" uid="uid://bt4qh75igmw1i" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_014.png" id="165"]
+[ext_resource type="Texture2D" uid="uid://b6jq8y113711o" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_015.png" id="166"]
+[ext_resource type="Texture2D" uid="uid://xjsdl4y62f00" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_016.png" id="167"]
+[ext_resource type="Texture2D" uid="uid://di7ao7rbhihu6" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_017.png" id="168"]
+[ext_resource type="Texture2D" uid="uid://bbxmtyd3m63eg" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_018.png" id="169"]
+[ext_resource type="Texture2D" uid="uid://ctfiev5ju5rhu" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_019.png" id="170"]
+[ext_resource type="Texture2D" uid="uid://b0frm33osfanl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_020.png" id="171"]
+[ext_resource type="Texture2D" uid="uid://cyee1cwgp8gir" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_021.png" id="172"]
+[ext_resource type="Texture2D" uid="uid://cci5b2tuptdxx" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_022.png" id="173"]
+[ext_resource type="Texture2D" uid="uid://cy0rd20jbqpg5" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_023.png" id="174"]
+[ext_resource type="Texture2D" uid="uid://ckon8adcmr8lv" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_024.png" id="175"]
+[ext_resource type="Texture2D" uid="uid://ba5mcyapn85h7" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_025.png" id="176"]
+[ext_resource type="Texture2D" uid="uid://d35tkdnxc6ruc" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_026.png" id="177"]
+[ext_resource type="Texture2D" uid="uid://c64ywl7umbhya" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_027.png" id="178"]
+[ext_resource type="Texture2D" uid="uid://bnl4qkgv6ydhf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_028.png" id="179"]
+[ext_resource type="Texture2D" uid="uid://dk41q8x4pcd66" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_029.png" id="180"]
+[ext_resource type="Texture2D" uid="uid://d1p3w3xfsk3rm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_030.png" id="181"]
+[ext_resource type="Texture2D" uid="uid://ctla3s2p4oxjg" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_031.png" id="182"]
+[ext_resource type="Texture2D" uid="uid://ciqw3ic7bthcg" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_032.png" id="183"]
+[ext_resource type="Texture2D" uid="uid://btbehgsb5xjar" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_033.png" id="184"]
+[ext_resource type="Texture2D" uid="uid://clfxoln3dbk70" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_034.png" id="185"]
+[ext_resource type="Texture2D" uid="uid://8n6utjhl1eqp" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/cameraman/operator_035.png" id="186"]
+[ext_resource type="Texture2D" uid="uid://bw1mchjykv22b" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_000.png" id="187"]
+[ext_resource type="Texture2D" uid="uid://d0em1d5r5ufwb" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_001.png" id="188"]
+[ext_resource type="Texture2D" uid="uid://cyk3elotr2pua" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_002.png" id="189"]
+[ext_resource type="Texture2D" uid="uid://c6oajgxrd3u4m" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_003.png" id="190"]
+[ext_resource type="Texture2D" uid="uid://ctprvy6dq7sbt" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_004.png" id="191"]
+[ext_resource type="Texture2D" uid="uid://bryanexfuwmml" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_005.png" id="192"]
+[ext_resource type="Texture2D" uid="uid://cefchtnn30avp" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_006.png" id="193"]
+[ext_resource type="Texture2D" uid="uid://dvgjs21q1dyl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_007.png" id="194"]
+[ext_resource type="Texture2D" uid="uid://db1b55g47b10r" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_008.png" id="195"]
+[ext_resource type="Texture2D" uid="uid://trybok5j1k8p" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_009.png" id="196"]
+[ext_resource type="Texture2D" uid="uid://d228xjm88cqm4" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_010.png" id="197"]
+[ext_resource type="Texture2D" uid="uid://dtiso3ty7u6mn" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_011.png" id="198"]
+[ext_resource type="Texture2D" uid="uid://c2n2xx0wvvnlf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_012.png" id="199"]
+[ext_resource type="Texture2D" uid="uid://kv6thc60pte" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_013.png" id="200"]
+[ext_resource type="Texture2D" uid="uid://ck0pj4nbpqqo1" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_014.png" id="201"]
+[ext_resource type="Texture2D" uid="uid://bhj6bixy0anll" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_015.png" id="202"]
+[ext_resource type="Texture2D" uid="uid://kbvu3xqyaqqc" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_016.png" id="203"]
+[ext_resource type="Texture2D" uid="uid://bu0qiqtckgdqm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_017.png" id="204"]
+[ext_resource type="Texture2D" uid="uid://deskhv8d2mma7" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_018.png" id="205"]
+[ext_resource type="Texture2D" uid="uid://cm17ef1mq7j7n" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_019.png" id="206"]
+[ext_resource type="Texture2D" uid="uid://yo7fcpycmqk8" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_020.png" id="207"]
+[ext_resource type="Texture2D" uid="uid://e41m3st1rs5s" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_021.png" id="208"]
+[ext_resource type="Texture2D" uid="uid://cqbrggakaqgge" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_022.png" id="209"]
+[ext_resource type="Texture2D" uid="uid://buc785eeo2lsp" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_023.png" id="210"]
+[ext_resource type="Texture2D" uid="uid://bjosox586c78x" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_024.png" id="211"]
+[ext_resource type="Texture2D" uid="uid://cjson2x0afgff" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_025.png" id="212"]
+[ext_resource type="Texture2D" uid="uid://mk66uxnmwr3h" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_026.png" id="213"]
+[ext_resource type="Texture2D" uid="uid://cotdgn3lji05s" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_027.png" id="214"]
+[ext_resource type="Texture2D" uid="uid://15uqd4n2ee6o" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_028.png" id="215"]
+[ext_resource type="Texture2D" uid="uid://povbb11xbm6b" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_029.png" id="216"]
+[ext_resource type="Texture2D" uid="uid://bnhcd3paiw1g6" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_030.png" id="217"]
+[ext_resource type="Texture2D" uid="uid://re28gpkkvpl" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_031.png" id="218"]
+[ext_resource type="Texture2D" uid="uid://b6xamnw4ugqe4" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_032.png" id="219"]
+[ext_resource type="Texture2D" uid="uid://cspt0wkx4ttjq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_033.png" id="220"]
+[ext_resource type="Texture2D" uid="uid://bniqn862xq7qm" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_034.png" id="221"]
+[ext_resource type="Texture2D" uid="uid://g52o7btfh05r" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/fool/fool_035.png" id="222"]
+[ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="223"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="224"]
+[ext_resource type="Resource" uid="uid://cqwt4oape2kpc" path="res://acts/full_game/conclusion_arc/boardroom/locations/boardroom_location_meta.tres" id="225"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="226"]
+[ext_resource type="PackedScene" uid="uid://ctofxxh7keio" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/mechanism_panel.tscn" id="227"]
+[ext_resource type="PackedScene" uid="uid://d2uxpcke0ccyq" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/jack_panel.tscn" id="228"]
+[ext_resource type="PackedScene" uid="uid://crpn2ih4mhsgo" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/phone_panel2.tscn" id="229"]
+[ext_resource type="PackedScene" uid="uid://bb81cag4hph24" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/nevari_panel.tscn" id="230"]
+[ext_resource type="PackedScene" uid="uid://bytuhhlex8nx1" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/spender_panel.tscn" id="231"]
+[ext_resource type="Texture2D" uid="uid://bw6dysy8wmj" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/elephant2.png" id="232"]
+[ext_resource type="PackedScene" uid="uid://bsuwaxpwlnw2c" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/marmot_panel.tscn" id="233"]
+[ext_resource type="PackedScene" uid="uid://wi6bvdy5t3u4" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/westlake_panel.tscn" id="234"]
+[ext_resource type="PackedScene" uid="uid://dstboo713lq40" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/camera_panel.tscn" id="235"]
+[ext_resource type="PackedScene" uid="uid://bopf3ls15u1sx" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/cameraman_panel.tscn" id="236"]
+[ext_resource type="Texture2D" uid="uid://k2up3ltpy1bw" path="res://shared/assets/papers/paperonclipboard.png" id="237"]
+[ext_resource type="Texture2D" uid="uid://n0hx0u8pey6m" path="res://shared/assets/objects/pencil.png" id="238"]
+
+[sub_resource type="Animation" id="Animation_h1kut"]
+resource_name = "new_animation"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PointLight2D:energy")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.1, 0.4]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1byaf"]
+_data = {
+"new_animation": SubResource("Animation_h1kut")
+}
+
+[sub_resource type="Gradient" id="Gradient_xjeay"]
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_8dtqh"]
+gradient = SubResource("Gradient_xjeay")
+fill = 1
+fill_from = Vector2(0.496732, 0.490196)
+fill_to = Vector2(0.856209, 0.130719)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1hc4t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oyauu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xhhkh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oiobf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186")
+}],
+"loop": true,
+"name": &"default",
+"speed": 16.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_28wqb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("187")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_uadah"]
+script = ExtResource("226")
+linked_item_ref_id = 705
+
+[sub_resource type="Resource" id="Resource_w63ig"]
+script = ExtResource("226")
+linked_item_ref_id = 221
+
+[sub_resource type="Resource" id="Resource_t8cgj"]
+script = ExtResource("226")
+linked_item_ref_id = 296
+
+[sub_resource type="Resource" id="Resource_tpjme"]
+script = ExtResource("226")
+linked_item_ref_id = 215
+
+[sub_resource type="Resource" id="Resource_u2pj3"]
+script = ExtResource("226")
+linked_item_ref_id = 651
+
+[sub_resource type="Resource" id="Resource_o5lxe"]
+script = ExtResource("226")
+linked_item_ref_id = 280
+
+[sub_resource type="Resource" id="Resource_ie5ge"]
+script = ExtResource("226")
+linked_item_ref_id = 368
+
+[sub_resource type="Resource" id="Resource_hsesy"]
+script = ExtResource("226")
+linked_item_ref_id = 738
+
+[sub_resource type="Resource" id="Resource_d473k"]
+script = ExtResource("226")
+linked_item_ref_id = 739
+
+[sub_resource type="Resource" id="Resource_3adia"]
+script = ExtResource("226")
+linked_item_ref_id = 742
+
+[sub_resource type="Resource" id="Resource_fup0s"]
+script = ExtResource("226")
+linked_item_ref_id = 188
+
+[sub_resource type="Resource" id="Resource_cldlf"]
+script = ExtResource("226")
+linked_item_ref_id = 738
+
+[sub_resource type="Resource" id="Resource_3ylcy"]
+script = ExtResource("226")
+linked_item_ref_id = 491
+
+[sub_resource type="Resource" id="Resource_47jxt"]
+script = ExtResource("226")
+linked_item_ref_id = 502
+
+[sub_resource type="Resource" id="Resource_ij5xk"]
+script = ExtResource("226")
+linked_item_ref_id = 649
+
+[sub_resource type="Resource" id="Resource_ce5qh"]
+script = ExtResource("226")
+linked_item_ref_id = 818
+
+[sub_resource type="Resource" id="Resource_ilbpj"]
+script = ExtResource("226")
+linked_item_ref_id = 369
+
+[sub_resource type="Resource" id="Resource_vyr2k"]
+script = ExtResource("226")
+linked_item_ref_id = 189
+
+[sub_resource type="Resource" id="Resource_316ji"]
+script = ExtResource("226")
+linked_item_ref_id = 192
+
+[sub_resource type="Resource" id="Resource_3fp0m"]
+script = ExtResource("226")
+linked_item_ref_id = 190
+
+[sub_resource type="Resource" id="Resource_auqa7"]
+script = ExtResource("226")
+linked_item_ref_id = 740
+
+[node name="Location" type="Node2D"]
+script = ExtResource("1")
+location_meta = ExtResource("2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_1byaf")
+}
+autoplay = "new_animation"
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+visible = false
+position = Vector2(936, 603)
+scale = Vector2(39.1484, 24.7422)
+energy = 0.10000000149011612
+range_z_max = 0
+range_layer_max = -1
+texture = SubResource("GradientTexture2D_8dtqh")
+
+[node name="AnimatedSpriteSpender" type="AnimatedSprite2D" parent="."]
+position = Vector2(1022, 484)
+sprite_frames = SubResource("SpriteFrames_1hc4t")
+autoplay = "default"
+frame_progress = 0.9336190223693848
+
+[node name="AnimatedSpriteWestlake" type="AnimatedSprite2D" parent="."]
+position = Vector2(1224, 471)
+sprite_frames = SubResource("SpriteFrames_oyauu")
+autoplay = "default"
+frame_progress = 0.2617560029029846
+
+[node name="AnimatedSpriteTwoNerds" type="AnimatedSprite2D" parent="."]
+position = Vector2(544, 523)
+sprite_frames = SubResource("SpriteFrames_xhhkh")
+autoplay = "default"
+frame_progress = 0.9458720088005066
+
+[node name="AnimatedSpriteCameraMan" type="AnimatedSprite2D" parent="."]
+z_index = 1
+position = Vector2(1535, 586)
+sprite_frames = SubResource("SpriteFrames_oiobf")
+autoplay = "default"
+frame = 27
+frame_progress = 0.7447540163993835
+
+[node name="AnimatedSpriteMarmot" type="AnimatedSprite2D" parent="."]
+z_index = 1
+position = Vector2(952, 724)
+sprite_frames = SubResource("SpriteFrames_28wqb")
+autoplay = "default"
+frame_progress = 0.6448040008544922
+
+[node name="Node2D" type="Node2D" parent="."]
+skew = 0.10995599627494812
+
+[node name="ZoneLabel2" type="Label" parent="Node2D"]
+offset_left = 1264.27001953125
+offset_top = 1041.2900390625
+offset_right = 1554.27001953125
+offset_bottom = 1140.2900390625
+rotation = -1.521720051765442
+scale = Vector2(1, 2)
+theme = ExtResource("223")
+theme_override_colors/font_color = Color(0.721569, 0.619608, 0.0588235, 1)
+text = "BOARDROOM_STAND_CLEAR"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="ZoneLabel1" type="Label" parent="."]
+visible = false
+offset_left = 1120.0
+offset_top = 1029.0
+offset_right = 1410.0
+offset_bottom = 1157.0
+rotation = -1.4902199506759644
+theme_override_font_sizes/font_size = 75
+text = "ZOI"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Hotspots" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ToBoardroomSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = -204.0
+offset_top = -178.0
+offset_right = 525.0
+offset_bottom = 157.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "54O"
+hotspot_type = 2
+hover_cursor = 3
+target_location_meta = ExtResource("225")
+
+[node name="Indicators" parent="Hotspots/ToBoardroomSpot" index="0"]
+offset_left = -3.8887600898742676
+offset_top = 280.9549865722656
+offset_right = -3.8887600898742676
+offset_bottom = 280.9549865722656
+rotation = 3.141590118408203
+
+[node name="Highlighter" parent="Hotspots/ToBoardroomSpot/Indicators" index="0"]
+modulate = Color(0.235294, 0.478431, 0.592157, 1)
+
+[node name="MechanismSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = -159.0
+offset_top = 473.0
+offset_right = 210.0
+offset_bottom = 916.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Hco"
+extra_items_unlocked = [SubResource("Resource_uadah"), SubResource("Resource_w63ig"), SubResource("Resource_t8cgj"), SubResource("Resource_tpjme"), SubResource("Resource_u2pj3")]
+
+[node name="Indicators" parent="Hotspots/MechanismSpot" index="0"]
+offset_left = 109.00299835205078
+offset_top = 219.7469940185547
+offset_right = 109.00299835205078
+offset_bottom = 219.7469940185547
+
+[node name="Highlighter" parent="Hotspots/MechanismSpot/Indicators" index="0"]
+modulate = Color(0.243137, 0.494118, 0.611765, 1)
+position = Vector2(14.5101, -22.8458)
+
+[node name="FocusIndicator" parent="Hotspots/MechanismSpot/Indicators" index="1"]
+position = Vector2(15.5101, -18.8458)
+
+[node name="MechanismPanel" parent="Hotspots/MechanismSpot" instance=ExtResource("227")]
+layout_mode = 0
+offset_left = -896.4400024414063
+offset_top = -204.6959991455078
+offset_right = -146.44000244140625
+offset_bottom = 599.3040161132813
+
+[node name="JackNowakSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 369.0
+offset_top = 235.0
+offset_right = 566.0
+offset_bottom = 748.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "MxD"
+unlocked_character_ref_id = 96
+extra_items_unlocked = [SubResource("Resource_o5lxe"), SubResource("Resource_ie5ge")]
+
+[node name="Indicators" parent="Hotspots/JackNowakSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="Highlighter" parent="Hotspots/JackNowakSpot/Indicators" index="0"]
+modulate = Color(0.231373, 0.47451, 0.584314, 1)
+position = Vector2(3.57081, -17.058)
+
+[node name="FocusIndicator" parent="Hotspots/JackNowakSpot/Indicators" index="1"]
+position = Vector2(3.05473, -13.8284)
+
+[node name="JackPanel" parent="Hotspots/JackNowakSpot" instance=ExtResource("228")]
+layout_mode = 0
+offset_left = -1550.489990234375
+offset_top = -682.3179931640625
+offset_right = -711.489990234375
+offset_bottom = -69.31849670410156
+
+[node name="PhoneSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 372.0
+offset_top = 769.0
+offset_right = 648.0
+offset_bottom = 942.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "BXW"
+extra_items_unlocked = [SubResource("Resource_hsesy"), SubResource("Resource_d473k")]
+extra_hypothetical_items_unlocked = [SubResource("Resource_3adia")]
+
+[node name="Indicators" parent="Hotspots/PhoneSpot" index="0"]
+offset_left = 93.48100280761719
+offset_top = 142.48399353027344
+offset_right = 93.48100280761719
+offset_bottom = 142.48399353027344
+
+[node name="Highlighter" parent="Hotspots/PhoneSpot/Indicators" index="0"]
+modulate = Color(0.41024, 0.41024, 0.41024, 1)
+position = Vector2(-20.624, -57.9646)
+
+[node name="FocusIndicator" parent="Hotspots/PhoneSpot/Indicators" index="1"]
+position = Vector2(-19.624, -53.9646)
+
+[node name="PhonePanel" parent="Hotspots/PhoneSpot" instance=ExtResource("229")]
+layout_mode = 0
+offset_left = -1183.9000244140625
+offset_top = 439.4930114746094
+offset_right = -789.9010009765625
+offset_bottom = 886.4929809570313
+
+[node name="TesaNevariSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 625.0
+offset_top = 275.0
+offset_right = 779.0
+offset_bottom = 621.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "NEQ"
+unlocked_character_ref_id = 97
+extra_items_unlocked = [SubResource("Resource_fup0s"), SubResource("Resource_cldlf"), SubResource("Resource_3ylcy"), SubResource("Resource_47jxt")]
+
+[node name="Indicators" parent="Hotspots/TesaNevariSpot" index="0"]
+offset_left = -30.405099868774414
+offset_top = 31.106199264526367
+offset_right = -30.405099868774414
+offset_bottom = 31.106199264526367
+
+[node name="Highlighter" parent="Hotspots/TesaNevariSpot/Indicators" index="0"]
+position = Vector2(-3.00649, -7.79484)
+
+[node name="FocusIndicator" parent="Hotspots/TesaNevariSpot/Indicators" index="1"]
+position = Vector2(-2.00649, -3.79484)
+
+[node name="NevariPanel" parent="Hotspots/TesaNevariSpot" instance=ExtResource("230")]
+layout_mode = 0
+offset_left = -821.3189697265625
+offset_top = -1127.8299560546875
+offset_right = -20.319000244140625
+offset_bottom = -534.8319702148438
+
+[node name="TimSpender" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 952.0
+offset_top = 215.0
+offset_right = 1071.0
+offset_bottom = 534.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "z-O"
+unlocked_character_ref_id = 94
+extra_items_unlocked = [SubResource("Resource_ij5xk")]
+
+[node name="Indicators" parent="Hotspots/TimSpender" index="0"]
+offset_left = -10.855199813842773
+offset_top = 162.552001953125
+offset_right = -10.855199813842773
+offset_bottom = 162.552001953125
+
+[node name="Highlighter" parent="Hotspots/TimSpender/Indicators" index="0"]
+position = Vector2(-46.6094, -76.2587)
+
+[node name="FocusIndicator" parent="Hotspots/TimSpender/Indicators" index="1"]
+position = Vector2(-45.0756, -75.2046)
+
+[node name="SpenderPanel" parent="Hotspots/TimSpender" instance=ExtResource("231")]
+layout_mode = 0
+offset_left = -153.0
+offset_top = -1040.5400390625
+offset_right = 648.0
+offset_bottom = -494.5360107421875
+
+[node name="DrawingSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 795.0
+offset_top = 677.0
+offset_right = 854.0
+offset_bottom = 748.0
+hotspot_id = "Phz"
+extra_hypothetical_items_unlocked = [SubResource("Resource_ce5qh")]
+
+[node name="Indicators" parent="Hotspots/DrawingSpot" index="0"]
+z_index = 2
+offset_left = -48.5
+offset_top = 89.0
+offset_right = -48.5
+offset_bottom = 89.0
+
+[node name="Highlighter" parent="Hotspots/DrawingSpot/Indicators" index="0"]
+modulate = Color(0.60733, 0.506691, 0.348292, 1)
+position = Vector2(31.5, -30.75)
+
+[node name="FocusIndicator" parent="Hotspots/DrawingSpot/Indicators" index="1"]
+position = Vector2(32.5, -26.75)
+
+[node name="DrawingPanel" type="Panel" parent="Hotspots/DrawingSpot"]
+layout_mode = 0
+offset_left = -511.0
+offset_top = 881.0
+offset_right = -35.0
+offset_bottom = 1538.0
+
+[node name="PageSprite" type="Sprite2D" parent="Hotspots/DrawingSpot/DrawingPanel"]
+position = Vector2(234, 318)
+texture = ExtResource("232")
+
+[node name="DrawingLabel" type="Label" parent="Hotspots/DrawingSpot/DrawingPanel"]
+layout_mode = 0
+offset_left = 111.0
+offset_top = 60.0
+offset_right = 387.0
+offset_bottom = 103.0
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "BOARDROOM_ELEPHANT_NOTE"
+autowrap_mode = 3
+
+[node name="MarmotSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 914.0
+offset_top = 478.0
+offset_right = 1039.0
+offset_bottom = 901.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Hbp"
+unlocked_character_ref_id = 98
+extra_items_unlocked = [SubResource("Resource_ilbpj"), SubResource("Resource_vyr2k")]
+
+[node name="Indicators" parent="Hotspots/MarmotSpot" index="0"]
+z_index = 2
+offset_left = 14.656100273132324
+offset_top = 205.69900512695313
+offset_right = 14.656100273132324
+offset_bottom = 205.69900512695313
+
+[node name="Highlighter" parent="Hotspots/MarmotSpot/Indicators" index="0"]
+modulate = Color(0.740773, 0.828948, 0.820852, 1)
+position = Vector2(21.5208, 13.2772)
+
+[node name="FocusIndicator" parent="Hotspots/MarmotSpot/Indicators" index="1"]
+position = Vector2(22.5208, 17.2772)
+
+[node name="MarmotPanel" parent="Hotspots/MarmotSpot" instance=ExtResource("233")]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 896.0
+offset_right = 797.0
+offset_bottom = 1465.0
+
+[node name="WestlakeSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 1142.0
+offset_top = 219.0
+offset_right = 1250.0
+offset_bottom = 405.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "aSh"
+unlocked_character_ref_id = 95
+extra_items_unlocked = [SubResource("Resource_316ji"), SubResource("Resource_3fp0m")]
+
+[node name="Indicators" parent="Hotspots/WestlakeSpot" index="0"]
+offset_left = 18.148000717163086
+offset_top = 162.552001953125
+offset_right = 18.148000717163086
+offset_bottom = 162.552001953125
+
+[node name="WestlakePanel" parent="Hotspots/WestlakeSpot" instance=ExtResource("234")]
+layout_mode = 0
+offset_left = 772.0
+offset_top = -1127.0
+offset_right = 1573.0
+offset_bottom = -546.0
+
+[node name="CameraSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 1317.0
+offset_top = 356.0
+offset_right = 1481.0
+offset_bottom = 743.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "DJN"
+
+[node name="Indicators" parent="Hotspots/CameraSpot" index="0"]
+z_index = 2
+offset_left = 18.19300079345703
+offset_top = 126.43000030517578
+offset_right = 18.19300079345703
+offset_bottom = 126.43000030517578
+
+[node name="Highlighter" parent="Hotspots/CameraSpot/Indicators" index="0"]
+position = Vector2(-12.5338, -16.8254)
+
+[node name="FocusIndicator" parent="Hotspots/CameraSpot/Indicators" index="1"]
+position = Vector2(-11.5338, -12.8254)
+
+[node name="CameraPanel" parent="Hotspots/CameraSpot" instance=ExtResource("235")]
+layout_mode = 0
+offset_left = 916.0
+offset_top = -53.0
+offset_right = 1496.0
+offset_bottom = 490.0
+
+[node name="CameramanSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 1557.0
+offset_top = 386.0
+offset_right = 1724.0
+offset_bottom = 669.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "kJ_"
+unlocked_character_ref_id = 92
+extra_items_unlocked = [SubResource("Resource_auqa7")]
+
+[node name="Indicators" parent="Hotspots/CameramanSpot" index="0"]
+z_index = 2
+offset_left = 1.669010043144226
+offset_top = 148.5050048828125
+offset_right = 1.669010043144226
+offset_bottom = 148.5050048828125
+
+[node name="Highlighter" parent="Hotspots/CameramanSpot/Indicators" index="0"]
+modulate = Color(0.791999, 0.791999, 0.791999, 1)
+position = Vector2(61.5851, -24.8527)
+
+[node name="FocusIndicator" parent="Hotspots/CameramanSpot/Indicators" index="1"]
+position = Vector2(62.5851, -20.8527)
+
+[node name="CameramanPanel" parent="Hotspots/CameramanSpot" instance=ExtResource("236")]
+layout_mode = 0
+offset_left = 742.0
+offset_top = 725.0
+offset_right = 1543.0
+offset_bottom = 1307.0
+
+[node name="PadSpot" parent="Hotspots" instance=ExtResource("224")]
+layout_mode = 1
+offset_left = 1814.0
+offset_top = 408.0
+offset_right = 1873.0
+offset_bottom = 443.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "exZ"
+
+[node name="Indicators" parent="Hotspots/PadSpot" index="0"]
+offset_left = 25.135099411010742
+offset_top = 77.26249694824219
+offset_right = 25.135099411010742
+offset_bottom = 77.26249694824219
+
+[node name="Highlighter" parent="Hotspots/PadSpot/Indicators" index="0"]
+modulate = Color(0.372251, 0.372251, 0.372251, 1)
+position = Vector2(-7.0515, -24.8897)
+frame_progress = 0.679652988910675
+
+[node name="FocusIndicator" parent="Hotspots/PadSpot/Indicators" index="1"]
+position = Vector2(-8.56922, -21.6602)
+
+[node name="PadPanel" type="Panel" parent="Hotspots/PadSpot"]
+layout_mode = 0
+offset_left = 1651.6500244140625
+offset_top = -497.6910095214844
+offset_right = 2276.64990234375
+offset_bottom = 407.3089904785156
+pivot_offset = Vector2(-291.466, -169.576)
+
+[node name="PadSprite" type="Sprite2D" parent="Hotspots/PadSpot/PadPanel"]
+position = Vector2(307.271, 431.044)
+texture = ExtResource("237")
+
+[node name="Sprite2D" type="Sprite2D" parent="Hotspots/PadSpot/PadPanel"]
+position = Vector2(130.988, 267.489)
+texture = ExtResource("238")
+
+[editable path="Hotspots/ToBoardroomSpot"]
+[editable path="Hotspots/MechanismSpot"]
+[editable path="Hotspots/JackNowakSpot"]
+[editable path="Hotspots/PhoneSpot"]
+[editable path="Hotspots/TesaNevariSpot"]
+[editable path="Hotspots/TimSpender"]
+[editable path="Hotspots/DrawingSpot"]
+[editable path="Hotspots/MarmotSpot"]
+[editable path="Hotspots/WestlakeSpot"]
+[editable path="Hotspots/CameraSpot"]
+[editable path="Hotspots/CameramanSpot"]
+[editable path="Hotspots/PadSpot"]

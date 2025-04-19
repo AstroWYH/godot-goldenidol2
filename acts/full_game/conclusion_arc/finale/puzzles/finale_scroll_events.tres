@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=4 format=4 uid="uid://cruv74g11gbg8"]
+
+[ext_resource type="Texture2D" uid="uid://d3arybqdnhi8e" path="res://shared/ui/Icons/ICO_0041_Broadcast.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="2"]
+[ext_resource type="Resource" uid="uid://c563p4fu8uale" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_epilogue.tres" id="3"]
+
+[resource]
+script = ExtResource("2")
+puzzle_id = 554
+puzzle_name = "FINALE_EVENTS_PUZZLE_NAME"
+puzzle_icon = ExtResource("1")
+arc_puzzle = false
+locked_by_default = true
+hide_card_when_locked = false
+unlocks_puzzles_on_solve = [ExtResource("3")]
+unlocks_segments_on_solve = []
+escalate_music_on_solve = false
+escalation_level = 0
+segmentation_mode = 0
+specified_segments = []

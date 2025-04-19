@@ -1,0 +1,83 @@
+[gd_scene load_steps=5 format=4 uid="uid://dopi6hj6e6vn"]
+
+[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://b3mysr22fgt4x" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/poster.png" id="2"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="3"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
+
+[node name="Control2" type="ColorRect"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.294118, 0.294118, 0.294118, 0.301961)
+script = ExtResource("1")
+
+[node name="PosterPanel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 1276.0
+offset_top = 99.0
+offset_right = 1853.0
+offset_bottom = 874.0
+
+[node name="PosterSprite" type="Sprite2D" parent="PosterPanel"]
+position = Vector2(289, 385)
+texture = ExtResource("2")
+
+[node name="PosterLabel1" type="RichTextLabel" parent="PosterPanel"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 19.0
+offset_right = 567.0
+offset_bottom = 104.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/bold_font = ExtResource("3")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 58
+bbcode_enabled = true
+text = "[center][b]I.D.O.L. user guide[/b][/center]"
+
+[node name="PosterLabel2" type="RichTextLabel" parent="PosterPanel"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 270.0
+offset_right = 259.0
+offset_bottom = 399.0
+mouse_filter = 1
+theme = ExtResource("4")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 26
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]If the focus crystal is blue, the I.D.O.L. is empty.[/center]"
+
+[node name="PosterLabel3" type="RichTextLabel" parent="PosterPanel"]
+layout_mode = 0
+offset_left = 297.0
+offset_top = 270.0
+offset_right = 520.0
+offset_bottom = 385.0
+mouse_filter = 1
+theme = ExtResource("4")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 26
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]If the focus crystal is red, the I.D.O.L. is full.[/center]"
+
+[node name="PosterLabel4" type="RichTextLabel" parent="PosterPanel"]
+layout_mode = 0
+offset_left = 45.0
+offset_top = 419.0
+offset_right = 513.0
+offset_bottom = 727.0
+mouse_filter = 1
+theme = ExtResource("4")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 26
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "[center]If the I.D.O.L. contains information, to successfully use the ‘give' command, there must be a valid information vessel within range (either a blank Lemurian data disk, or a living, awake human being).
+
+For the I.D.O.L. to perform any function, the ‘matter' button must be switched on.[/center]"
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]

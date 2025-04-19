@@ -1,0 +1,92 @@
+[gd_scene load_steps=6 format=4 uid="uid://cpgw2vqcqxu21"]
+
+[ext_resource type="Texture2D" uid="uid://bhxrkuuysuh7y" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/sleeping_room_ship_updated2.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cy6tgqrd232ro" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/harmonica.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bfc8wbrbp0ywt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/EmptyBottlesFew.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dkri48qrfa3jx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/SweterKaudze.png" id="5"]
+
+[node name="ShipPanel" type="Panel"]
+offset_left = 920.0
+offset_top = -1393.0
+offset_right = 1754.0
+offset_bottom = -853.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(11.0179, 8.0247)
+texture = ExtResource("1")
+centered = false
+
+[node name="PhilStashSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 615.0
+offset_top = 378.0
+offset_right = -73.0
+offset_bottom = -20.0
+scale = Vector2(0.998394, 0.996602)
+pivot_offset = Vector2(-1410.96, -558.726)
+hotspot_id = "Gko"
+
+[node name="Indicators" parent="PhilStashSpot" index="0"]
+offset_left = -2.630079984664917
+offset_top = 93.31710052490234
+offset_right = -2.630079984664917
+offset_bottom = 93.31710052490234
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="PhilStashSpot/Indicators" index="0"]
+modulate = Color(0.297989, 0.197491, 0.0871221, 1)
+position = Vector2(-27.0532, -58.498)
+
+[node name="FocusIndicator" parent="PhilStashSpot/Indicators" index="1"]
+position = Vector2(-28.0564, -52.457)
+
+[node name="PhilStashPanel" type="Panel" parent="PhilStashSpot"]
+layout_mode = 0
+offset_left = 295.0
+offset_top = -328.0
+offset_right = 979.0
+offset_bottom = 126.0
+
+[node name="HarmonicaSprite" type="Sprite2D" parent="PhilStashSpot/PhilStashPanel"]
+position = Vector2(278.567, 343.548)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("3")
+
+[node name="HarmonicaSpot" parent="PhilStashSpot/PhilStashPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 199.0
+offset_top = 286.0
+offset_right = -323.0
+offset_bottom = -52.0
+scale = Vector2(0.998394, 0.996602)
+pivot_offset = Vector2(-1410.96, -558.726)
+hotspot_id = "Fwj"
+text = "WAREHOUSE_HARMONICA_TOOLTIP"
+
+[node name="Indicators" parent="PhilStashSpot/PhilStashPanel/HarmonicaSpot" index="0"]
+offset_left = -7.513189792633057
+offset_top = 21.83340072631836
+offset_right = -7.513189792633057
+offset_bottom = 21.83340072631836
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="PhilStashSpot/PhilStashPanel/HarmonicaSpot/Indicators" index="0"]
+modulate = Color(0.605274, 0.605274, 0.605274, 1)
+position = Vector2(33.3485, 5.52683)
+
+[node name="FocusIndicator" parent="PhilStashSpot/PhilStashPanel/HarmonicaSpot/Indicators" index="1"]
+position = Vector2(34.3485, 9.52682)
+
+[node name="EmptyBottlesFew" type="Sprite2D" parent="PhilStashSpot/PhilStashPanel"]
+position = Vector2(32.2814, 32.1543)
+texture = ExtResource("4")
+centered = false
+
+[node name="SweterKaudze" type="Sprite2D" parent="PhilStashSpot/PhilStashPanel"]
+position = Vector2(471.692, 185.193)
+scale = Vector2(1.00322, 1.00683)
+texture = ExtResource("5")
+
+[editable path="PhilStashSpot"]
+[editable path="PhilStashSpot/PhilStashPanel/HarmonicaSpot"]

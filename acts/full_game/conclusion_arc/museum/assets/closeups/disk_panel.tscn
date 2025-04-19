@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=4 uid="uid://bf6a5if51i4r4"]
+
+[ext_resource type="Texture2D" uid="uid://rn2b764hqhd5" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/disc.png" id="1"]
+
+[node name="DiskPanel" type="Panel"]
+offset_left = -391.6289978027344
+offset_top = -1608.469970703125
+offset_right = 248.37100219726563
+offset_bottom = -851.4660034179688
+
+[node name="DiskSprite" type="Sprite2D" parent="."]
+position = Vector2(320.307, 374.181)
+scale = Vector2(0.842583, 0.842583)
+texture = ExtResource("1")

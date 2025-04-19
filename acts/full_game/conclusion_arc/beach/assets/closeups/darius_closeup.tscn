@@ -1,0 +1,413 @@
+[gd_scene load_steps=68 format=4 uid="uid://d3u47nwrpfbvv"]
+
+[ext_resource type="Texture2D" uid="uid://bas7ijyslhmss" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cutb41s81hroc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ulufmswhf2jo" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://ya8gadekuweu" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cf51qjf7031ij" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cepkjxkjef8ex" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cno66ny7ykyky" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://bfqvcumknjovh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cliyoxsfl68hw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://itx7lpoulduw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dfu7cled62q2d" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://p3dbaiwovuvf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://qb03xuamx8go" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bffw5fimofj5h" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cl8tvofh36p4f" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bu0mgmips6urd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b0irbpngm3y3r" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://pbxh08rnm517" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bvfipv1go1jr0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cbrcnucg7d6q3" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://56fg6jkff14q" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://cc75uwdds7na0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://cgnnpqndvt20o" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dd77hic01liw8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://fmsxm48s7v7r" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cilinteu4fyci" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dgbho31d7vosm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dwfqfooxosvfg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://s0mtpsr1k5gm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bi4np3x6wyh6x" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cf4v8v2ywd3er" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://d0jvuakeilwat" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://do17qm84d53bu" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://berax31sqlg4w" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dd3fkdpaj6odh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bni2h024lwprs" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://o6g5ak2he5rm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dr736drau3057" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://dnxy11yr7k6ys" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://c7mp4s7kj21l3" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://d3cda8l1yferb" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bgrgohkagk4m4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://df6ir37hndlyw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dnpvydi8yl33u" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bgenvsvd2olgq" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://dpvrvbj4img1m" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://csbc33ddpt7fa" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://73rv2x0ualhm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bgadir78ifxbm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://jlgxuum1jlcc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://dykykkk53rffc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bbgdbutxa8v4i" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://dwq6ems5ghsmq" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="54"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="55"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="56"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://6onkp64rtl5i" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_front_small.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://gmfr3ls3uyoh" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_back_small.png" id="60"]
+[ext_resource type="Resource" uid="uid://bn6x4k54fghdl" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_photo_puzzle_meta.tres" id="61"]
+[ext_resource type="Texture2D" uid="uid://dxcmpgk5y7sad" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_front.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://d0j5kxlc6lx5v" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_back.png" id="63"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5yhtl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_7ypja"]
+script = ExtResource("56")
+linked_item_ref_id = 643
+
+[sub_resource type="Resource" id="Resource_0otl8"]
+script = ExtResource("56")
+linked_item_ref_id = 191
+
+[sub_resource type="Resource" id="Resource_v650p"]
+script = ExtResource("56")
+linked_item_ref_id = 192
+
+[node name="DariusCloseup" type="Panel"]
+offset_left = 1019.0
+offset_top = -750.0
+offset_right = 1882.0
+offset_bottom = -137.0
+
+[node name="DariusSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 53.085201263427734
+offset_top = 25.085100173950195
+offset_right = 676.0850219726563
+offset_bottom = 142.0850067138672
+text = "BEACH_DARIUS_SPEECH"
+autowrap_mode = 3
+
+[node name="DariusFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(23, 244)
+sprite_frames = SubResource("SpriteFrames_5yhtl")
+autoplay = "default"
+frame_progress = 0.19700700044631958
+centered = false
+
+[node name="LetterSprite" type="Sprite2D" parent="."]
+position = Vector2(653.049, 470.602)
+texture = ExtResource("54")
+
+[node name="NoteSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 609.0
+offset_top = 389.0
+offset_right = -153.0
+offset_bottom = -94.0
+hotspot_id = "v9c"
+extra_items_unlocked = [SubResource("Resource_7ypja"), SubResource("Resource_0otl8"), SubResource("Resource_v650p")]
+
+[node name="Indicators" parent="NoteSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="NoteSpot/Indicators" index="0"]
+modulate = Color(0.578943, 0.587659, 0.583457, 1)
+
+[node name="NotePanel" type="Panel" parent="NoteSpot"]
+layout_mode = 0
+offset_left = 367.0
+offset_top = -198.0
+offset_right = 744.0
+offset_bottom = 313.0
+
+[node name="TextureRect" type="TextureRect" parent="NoteSpot/NotePanel"]
+modulate = Color(0.690196, 0.611765, 0.568627, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = 367.0
+offset_bottom = 494.0
+texture = ExtResource("57")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(175, 155)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("58")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(176, 401)
+rotation = 6.402040004730225
+scale = Vector2(0.807298, 1)
+texture = ExtResource("58")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Case numbers" type="Label" parent="NoteSpot/NotePanel"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 36.0
+offset_right = 355.0
+offset_bottom = 480.0
+theme_override_colors/font_color = Color(0.2162, 0.21712, 0.23, 1)
+text = "BEACH_DARIUS_TODO_CONTENT"
+autowrap_mode = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(483.412, 184.077)
+texture = ExtResource("59")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(698.759, 255.319)
+texture = ExtResource("60")
+
+[node name="PhotoFrontSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 403.10400390625
+offset_top = 96.0
+offset_right = -276.89599609375
+offset_bottom = -339.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "OX8"
+unlocked_puzzles = [ExtResource("61")]
+
+[node name="Indicators" parent="PhotoFrontSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="Highlighter" parent="PhotoFrontSpot/Indicators" index="0"]
+modulate = Color(0.309417, 0.650965, 0.724906, 1)
+position = Vector2(5.0127, -10.9454)
+
+[node name="FocusIndicator" parent="PhotoFrontSpot/Indicators" index="1"]
+position = Vector2(5.00952, -8.95901)
+
+[node name="PhotoFrontCloseup" type="Panel" parent="PhotoFrontSpot"]
+layout_mode = 0
+offset_left = 1746.0
+offset_top = -469.0
+offset_right = 2648.0
+offset_bottom = 148.0
+
+[node name="Sprite2D" type="Sprite2D" parent="PhotoFrontSpot/PhotoFrontCloseup"]
+position = Vector2(453.095, 307.538)
+texture = ExtResource("62")
+
+[node name="PhotoBackSpot" parent="." instance=ExtResource("55")]
+layout_mode = 1
+offset_left = 599.0659790039063
+offset_top = 142.0
+offset_right = -34.93410110473633
+offset_bottom = -263.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "lJ2"
+
+[node name="Indicators" parent="PhotoBackSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="Highlighter" parent="PhotoBackSpot/Indicators" index="0"]
+modulate = Color(0.309804, 0.65098, 0.72549, 1)
+position = Vector2(4.00977, 3.15028)
+
+[node name="FocusIndicator" parent="PhotoBackSpot/Indicators" index="1"]
+position = Vector2(4.00659, 7.15028)
+
+[node name="PhotoBackCloseup" type="Panel" parent="PhotoBackSpot"]
+layout_mode = 0
+offset_left = 1534.0
+offset_top = 376.0
+offset_right = 2350.0
+offset_bottom = 1001.0
+
+[node name="Sprite2D" type="Sprite2D" parent="PhotoBackSpot/PhotoBackCloseup"]
+position = Vector2(409.412, 307.537)
+texture = ExtResource("63")
+
+[editable path="NoteSpot"]
+[editable path="PhotoFrontSpot"]
+[editable path="PhotoBackSpot"]

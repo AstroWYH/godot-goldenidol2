@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=4 uid="uid://0dqg544xswo7"]
+
+[ext_resource type="Texture2D" uid="uid://dgxwvomhedyap" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/holdingcell.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cer6wnroer2vi" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/deader.png" id="3"]
+
+[node name="DeadBodyContainerPanel" type="Panel"]
+offset_left = -335.0
+offset_top = 452.0
+offset_right = 635.0
+offset_bottom = 1103.0
+
+[node name="BigBossSprite" type="Sprite2D" parent="."]
+position = Vector2(479.705, 319.785)
+texture = ExtResource("1")
+
+[node name="DeadBodySpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 170.73599243164063
+offset_top = 248.3800048828125
+offset_right = -467.2640075683594
+offset_bottom = -109.62000274658203
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "dGK"
+
+[node name="Indicators" parent="DeadBodySpot" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="DeadBodySpot/Indicators" index="0"]
+modulate = Color(0.561681, 0.574877, 0.346287, 1)
+position = Vector2(53.0848, -50.9546)
+
+[node name="FocusIndicator" parent="DeadBodySpot/Indicators" index="1"]
+position = Vector2(52.0783, -40.9137)
+
+[node name="PhilPanel" type="Panel" parent="DeadBodySpot"]
+layout_mode = 0
+offset_left = -83.0
+offset_top = 520.0
+offset_right = 684.0
+offset_bottom = 1088.0
+
+[node name="PhilSprite" type="Sprite2D" parent="DeadBodySpot/PhilPanel"]
+position = Vector2(504.619, 329.234)
+texture = ExtResource("3")
+
+[node name="PhilSpot" parent="DeadBodySpot/PhilPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 249.0
+offset_top = 38.0
+offset_right = -80.0
+offset_bottom = -60.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "qjq"
+text = "WAREHOUSE_HARRY_BODY_TOOLTIP"
+
+[node name="Indicators" parent="DeadBodySpot/PhilPanel/PhilSpot" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="DeadBodySpot/PhilPanel/PhilSpot/Indicators" index="0"]
+modulate = Color(0.560784, 0.576471, 0.345098, 1)
+position = Vector2(-71.2615, 32.8177)
+
+[node name="FocusIndicator" parent="DeadBodySpot/PhilPanel/PhilSpot/Indicators" index="1"]
+position = Vector2(-70.2615, 36.8177)
+
+[editable path="DeadBodySpot"]
+[editable path="DeadBodySpot/PhilPanel/PhilSpot"]

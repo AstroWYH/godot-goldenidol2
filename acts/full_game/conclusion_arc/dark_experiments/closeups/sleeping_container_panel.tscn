@@ -1,0 +1,420 @@
+[gd_scene load_steps=29 format=4 uid="uid://4s8gvwkdwi4l"]
+
+[ext_resource type="Texture2D" uid="uid://dckfdfm170e5d" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/sleeping_room_container_updated.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://blyrs0vbkdgdc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/Rugs2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dky26cxg32q3l" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/SewingKit.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dqcu04wyanuv4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/BoxOfButtons.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bfc8wbrbp0ywt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/EmptyBottlesFew.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://je7jxh457u71" path="res://shared/assets/papers/BigBook_Icon.png" id="7"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="8"]
+[ext_resource type="Texture2D" uid="uid://fdri7s825jil" path="res://shared/assets/papers/BigBook_Open.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dwfo61w75xcnn" path="res://shared/assets/papers/SmallNotebook_Icon.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://uqcayoj2d3nc" path="res://shared/assets/papers/SmallNotebook_Open.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bp47g3pjtjwy3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/needles.png" id="15"]
+
+[sub_resource type="Resource" id="Resource_d4ywv"]
+script = ExtResource("8")
+linked_item_ref_id = 924
+
+[sub_resource type="Resource" id="Resource_myeqx"]
+script = ExtResource("8")
+linked_item_ref_id = 497
+
+[sub_resource type="Resource" id="Resource_aanmr"]
+script = ExtResource("8")
+linked_item_ref_id = 358
+
+[sub_resource type="Resource" id="Resource_my2m1"]
+script = ExtResource("8")
+linked_item_ref_id = 611
+
+[sub_resource type="Resource" id="Resource_0s7ld"]
+script = ExtResource("8")
+linked_item_ref_id = 618
+
+[sub_resource type="Resource" id="Resource_0re3g"]
+script = ExtResource("8")
+linked_item_ref_id = 921
+
+[sub_resource type="Resource" id="Resource_xhxv3"]
+script = ExtResource("8")
+linked_item_ref_id = 924
+
+[sub_resource type="Resource" id="Resource_ohh44"]
+script = ExtResource("8")
+linked_item_ref_id = 358
+
+[sub_resource type="Resource" id="Resource_uaspl"]
+script = ExtResource("8")
+linked_item_ref_id = 611
+
+[sub_resource type="Resource" id="Resource_1smwg"]
+script = ExtResource("8")
+linked_item_ref_id = 918
+
+[sub_resource type="Resource" id="Resource_350in"]
+script = ExtResource("8")
+linked_item_ref_id = 916
+
+[sub_resource type="Resource" id="Resource_outbp"]
+script = ExtResource("8")
+linked_item_ref_id = 920
+
+[sub_resource type="Resource" id="Resource_ylls4"]
+script = ExtResource("8")
+linked_item_ref_id = 921
+
+[node name="SleepingContainerPanel" type="Panel"]
+offset_left = 1130.0
+offset_top = -439.0
+offset_right = 1954.0
+offset_bottom = 8.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(12, 7)
+texture = ExtResource("1")
+centered = false
+
+[node name="OrionStashSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 239.0
+offset_top = 282.0
+offset_right = -483.0
+offset_bottom = -68.0
+scale = Vector2(0.998394, 0.996602)
+pivot_offset = Vector2(-1410.96, -558.726)
+hotspot_id = "-43"
+
+[node name="Indicators" parent="OrionStashSpot" index="0"]
+offset_left = -2.630079984664917
+offset_top = 93.31710052490234
+offset_right = -2.630079984664917
+offset_bottom = 93.31710052490234
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="OrionStashSpot/Indicators" index="0"]
+modulate = Color(0.717921, 0.511169, 0.286705, 1)
+position = Vector2(5.7408, -53.4738)
+
+[node name="FocusIndicator" parent="OrionStashSpot/Indicators" index="1"]
+position = Vector2(6.7408, -49.4738)
+
+[node name="OrionStashPanel" type="Panel" parent="OrionStashSpot"]
+layout_mode = 0
+offset_left = -226.0
+offset_top = 333.0
+offset_right = 444.0
+offset_bottom = 858.0
+
+[node name="Rugs2" type="Sprite2D" parent="OrionStashSpot/OrionStashPanel"]
+position = Vector2(64.9475, 54.9913)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("3")
+centered = false
+
+[node name="SewingKit" type="Sprite2D" parent="OrionStashSpot/OrionStashPanel"]
+position = Vector2(242.518, 296.63)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("4")
+centered = false
+
+[node name="BoxOfButtons" type="Sprite2D" parent="OrionStashSpot/OrionStashPanel"]
+position = Vector2(308.73, 82.1756)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("5")
+centered = false
+
+[node name="EmptyBottlesFew" type="Sprite2D" parent="OrionStashSpot/OrionStashPanel"]
+position = Vector2(532.448, 286.562)
+scale = Vector2(0.997396, 0.996602)
+texture = ExtResource("6")
+
+[node name="DiarySprite" type="Sprite2D" parent="OrionStashSpot/OrionStashPanel"]
+position = Vector2(55.9187, 260.384)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("7")
+centered = false
+
+[node name="OrionDiarySpot" parent="OrionStashSpot/OrionStashPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 39.0
+offset_top = 251.0
+offset_right = -464.0
+offset_bottom = -53.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "YOH"
+extra_items_unlocked = [SubResource("Resource_d4ywv"), SubResource("Resource_myeqx"), SubResource("Resource_aanmr"), SubResource("Resource_my2m1"), SubResource("Resource_0s7ld"), SubResource("Resource_0re3g")]
+
+[node name="Indicators" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot" index="0"]
+offset_left = -12.726300239562988
+offset_top = 14.730500221252441
+offset_right = -12.726300239562988
+offset_bottom = 14.730500221252441
+
+[node name="Highlighter" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/Indicators" index="0"]
+modulate = Color(0.564962, 0.564962, 0.564962, 1)
+position = Vector2(23.0008, -20.2692)
+
+[node name="FocusIndicator" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/Indicators" index="1"]
+position = Vector2(24.0008, -16.2692)
+
+[node name="OrionStashPanel" type="Panel" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot"]
+layout_mode = 0
+offset_left = -165.0
+offset_top = 412.0
+offset_right = 779.0
+offset_bottom = 1039.0
+
+[node name="Sprite2D" type="Sprite2D" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/OrionStashPanel"]
+position = Vector2(473.362, 314.704)
+texture = ExtResource("9")
+
+[node name="Page1Label" type="RichTextLabel" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/OrionStashPanel"]
+layout_mode = 0
+offset_left = 80.97109985351563
+offset_top = 48.0
+offset_right = 456.97100830078125
+offset_bottom = 516.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_ORION_DIARY_1"
+fit_content = true
+scroll_active = false
+autowrap_mode = 2
+
+[node name="Page1Label2" type="RichTextLabel" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/OrionStashPanel"]
+layout_mode = 0
+offset_left = 499.97100830078125
+offset_top = 51.0
+offset_right = 862.9710083007813
+offset_bottom = 525.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_ORION_DIARY_2"
+fit_content = true
+scroll_active = false
+autowrap_mode = 2
+
+[node name="WilliamStashSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 696.0
+offset_top = 289.0
+offset_right = -40.0
+offset_bottom = -58.0
+scale = Vector2(0.998394, 0.996602)
+pivot_offset = Vector2(-1410.96, -558.726)
+hotspot_id = "vxw"
+
+[node name="Indicators" parent="WilliamStashSpot2" index="0"]
+offset_left = -2.630079984664917
+offset_top = 93.31710052490234
+offset_right = -2.630079984664917
+offset_bottom = 93.31710052490234
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="WilliamStashSpot2/Indicators" index="0"]
+modulate = Color(0.717647, 0.509804, 0.286275, 1)
+position = Vector2(-16.6195, -68.5523)
+
+[node name="FocusIndicator" parent="WilliamStashSpot2/Indicators" index="1"]
+position = Vector2(-15.6195, -64.5523)
+
+[node name="WilliamStashPanel" type="Panel" parent="WilliamStashSpot2"]
+layout_mode = 0
+offset_left = 273.07501220703125
+offset_top = -321.8009948730469
+offset_right = 1015.0700073242188
+offset_bottom = 204.19900512695313
+
+[node name="WilliamPeopleNotesSprite" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel"]
+position = Vector2(139.064, 238.943)
+texture = ExtResource("10")
+
+[node name="WilliamNotesSprite" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel"]
+position = Vector2(566.49, 252.489)
+texture = ExtResource("11")
+
+[node name="WilliamNotesSpot" parent="WilliamStashSpot2/WilliamStashPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 473.0
+offset_top = 82.0
+offset_right = -70.99500274658203
+offset_bottom = -136.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Oeb"
+
+[node name="Indicators" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot" index="0"]
+offset_left = -12.726300239562988
+offset_top = 28.075199127197266
+offset_right = -12.726300239562988
+offset_bottom = 28.075199127197266
+
+[node name="Highlighter" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/Indicators" index="0"]
+modulate = Color(0.561527, 0.677534, 0.437671, 1)
+position = Vector2(9.79465, -12.9826)
+scale = Vector2(0.485982, 0.485982)
+
+[node name="FocusIndicator" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/Indicators" index="1"]
+position = Vector2(11.033, -8.83544)
+
+[node name="WilliamNotesPanel" type="Panel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot"]
+layout_mode = 0
+offset_left = 469.5509948730469
+offset_top = -91.26390075683594
+offset_right = 1084.550048828125
+offset_bottom = 371.7359924316406
+
+[node name="Sprite2D" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/WilliamNotesPanel"]
+position = Vector2(310.787, 225.959)
+texture = ExtResource("12")
+
+[node name="Page1Label" type="RichTextLabel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/WilliamNotesPanel"]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 57.0
+offset_right = 284.0
+offset_bottom = 386.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "WAREHOUSE_WILLIAM_DWELLING_NOTE1"
+fit_content = true
+scroll_active = false
+
+[node name="Page1Label3" type="RichTextLabel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/WilliamNotesPanel"]
+layout_mode = 0
+offset_left = 356.0
+offset_top = 56.0
+offset_right = 568.0
+offset_bottom = 379.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "WAREHOUSE_WILLIAM_DWELLING_NOTE2"
+fit_content = true
+scroll_active = false
+
+[node name="WilliamPeopleNotes" parent="WilliamStashSpot2/WilliamStashPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 68.0
+offset_top = 141.0
+offset_right = -531.9949951171875
+offset_bottom = -216.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "lnW"
+extra_items_unlocked = [SubResource("Resource_xhxv3"), SubResource("Resource_ohh44"), SubResource("Resource_uaspl"), SubResource("Resource_1smwg"), SubResource("Resource_350in"), SubResource("Resource_outbp"), SubResource("Resource_ylls4")]
+
+[node name="Indicators" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes" index="0"]
+offset_left = -12.726300239562988
+offset_top = 22.236099243164063
+offset_right = -12.726300239562988
+offset_bottom = 22.236099243164063
+
+[node name="Highlighter" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/Indicators" index="0"]
+modulate = Color(0.771186, 0.775051, 0.715267, 1)
+position = Vector2(6.29623, -9.80512)
+
+[node name="FocusIndicator" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/Indicators" index="1"]
+position = Vector2(7.29623, -5.80512)
+
+[node name="WilliamPeopleNotesPanel" type="Panel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes"]
+layout_mode = 0
+offset_left = -19.0
+offset_top = 405.0
+offset_right = 403.0
+offset_bottom = 1012.0
+
+[node name="TextureRect" type="TextureRect" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel"]
+modulate = Color(0.898039, 0.929412, 0.72549, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 411.0
+offset_bottom = 589.0
+texture = ExtResource("13")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D10" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.623529)
+position = Vector2(149.477, 146.045)
+rotation = -2.966059923171997
+scale = Vector2(0.651742, 0.651743)
+skew = -0.008641719818115234
+texture = ExtResource("14")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D8" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(210.392, 253.608)
+rotation = 0.14331099390983582
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("14")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(228.731, 477.292)
+rotation = 6.302949905395508
+scale = Vector2(0.807298, 1)
+texture = ExtResource("14")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Page1Label" type="RichTextLabel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel"]
+layout_mode = 0
+offset_left = 31.057899475097656
+offset_top = 28.191200256347656
+offset_right = 383.0580139160156
+offset_bottom = 564.1909790039063
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.20922, 0.22, 0.1276, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_WILLIAM_FRIEND_LIST"
+fit_content = true
+scroll_active = false
+
+[node name="NeedleSpot" parent="WilliamStashSpot2/WilliamStashPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 262.0
+offset_top = 147.0
+offset_right = -334.9949951171875
+offset_bottom = -196.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "yHl"
+text = "WAREHOUSE_NEEDLE_TOOLTIP"
+
+[node name="Indicators" parent="WilliamStashSpot2/WilliamStashPanel/NeedleSpot" index="0"]
+offset_left = -12.726300239562988
+offset_top = 36.35219955444336
+offset_right = -12.726300239562988
+offset_bottom = 36.35219955444336
+
+[node name="Highlighter" parent="WilliamStashSpot2/WilliamStashPanel/NeedleSpot/Indicators" index="0"]
+modulate = Color(0.276749, 0.467335, 0.323681, 1)
+
+[node name="Sprite" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/NeedleSpot"]
+position = Vector2(64.3093, 103.81)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("15")
+
+[editable path="OrionStashSpot"]
+[editable path="OrionStashSpot/OrionStashPanel/OrionDiarySpot"]
+[editable path="WilliamStashSpot2"]
+[editable path="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot"]
+[editable path="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes"]
+[editable path="WilliamStashSpot2/WilliamStashPanel/NeedleSpot"]

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=3 format=4 uid="uid://cnj7sel856efs"]
+
+[ext_resource type="Texture2D" uid="uid://lmn5jyhdn5y" path="res://acts/full_game/conclusion_arc/beach/assets/ambulance_backround.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+location_id = 1
+path = "res://acts/full_game/conclusion_arc/beach/locations/ambulance_location.tscn"
+background = ExtResource("1")
+audio_side_effect = 3
+music_layers = []
+ambience_layers = []
+music_layer_ids = [0]

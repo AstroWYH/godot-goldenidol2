@@ -1,0 +1,125 @@
+[gd_scene load_steps=22 format=4 uid="uid://bb81cag4hph24"]
+
+[ext_resource type="Texture2D" uid="uid://cngcevo6k3v8k" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c12vjvhsbb4w1" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b6sbpy80umn2s" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://y82egfunjtrj" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://qa54mkvmsubj" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cikq4nw1ucfbd" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://ce7ww61volh88" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://ik1b6hq473ul" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bn3u6oldvl10v" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cbnx8k41fhdfp" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://boittrmwmhgoq" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://nn8nqanc2hce" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dhilqykmjw1kw" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cdjkgu6dyw1l7" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://crjr5envnario" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b86m4c3v1yx2w" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://rxc21py7ax6x" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cdoj8kn0s1snx" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://wcf27qslwvd3" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://du87mipqsgb4s" path="res://shared/assets/papers/nametag_clean.png" id="20"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rbtob"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="NevariPanel" type="Panel"]
+offset_left = -607.0
+offset_top = -1268.0
+offset_right = 194.0
+offset_bottom = -675.0
+
+[node name="NevariSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.048099517822266
+offset_top = 24.077999114990234
+offset_right = 708.0479736328125
+offset_bottom = 141.0780029296875
+text = "BOARDROOM_TESA_SPEECH"
+autowrap_mode = 3
+
+[node name="NevariSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(581.931, 353.196)
+sprite_frames = SubResource("SpriteFrames_rbtob")
+autoplay = "default"
+frame = 14
+frame_progress = 0.06236790120601654
+
+[node name="LanyardSprite" type="Sprite2D" parent="."]
+position = Vector2(184.293, 312.057)
+texture = ExtResource("20")
+
+[node name="LanyardLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 323.0
+offset_right = 290.0
+offset_bottom = 399.0
+theme_override_colors/font_color = Color(0.406465, 0.322751, 0.172574, 1)
+text = "BOARDROOM_TESA_TAG_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

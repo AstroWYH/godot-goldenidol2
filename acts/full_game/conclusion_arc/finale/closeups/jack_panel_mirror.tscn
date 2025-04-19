@@ -1,0 +1,556 @@
+[gd_scene load_steps=122 format=4 uid="uid://dig4kp0n4d7kk"]
+
+[ext_resource type="Texture2D" uid="uid://ybj0lu2srsst" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dkxdbfsswigsa" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c4d5w1qojyecu" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://0y2txacjcqbo" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c2cv83fn7pq5t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dlhull0yqjhuo" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bujg2k1ylwnfj" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b5ayu7ko8cqs0" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dbw7e8wviub3t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cdxu1dgsx5qx2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bvrfyoy1xqxin" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dijlgt1oygjx2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dj0ljgm250bp3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b425hnsrqvfwa" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dxraygm851ves" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b8auy2j6x51cu" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cjl7trwm2spd4" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://diuhv8mgfnwpb" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cs8l7l1q724od" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://du3bp8r3utwyd" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://c5h2ls77b4wlw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bq6kwotj2mmqf" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://5utmk3x57p57" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b176tvbgomy04" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bkluvrqpfaqex" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bpssmwn3byuw8" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://c5qq6iyvp3ss2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cdm1jxexc1dye" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bultq2mvr6frj" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://da8gipkwe05hs" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://74u0hnjvqnjw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bnl1ht5gd71mu" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://lmiu0nbir2ky" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cnavpohqeqyac" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://d4eh3m4t15whf" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bm3rfskkvkes8" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dnf4lbncntdcu" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dj2snlddhw1s0" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://crf2whxvl6rms" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_038.png" id="39"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="40"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="41"]
+[ext_resource type="Texture2D" uid="uid://cbic16juahb0o" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00000.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cut7d0go5rmha" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00001.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://gqrp6411lc2t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00002.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dbjds8sq56lmf" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00003.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://o3pufnjyiq00" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00004.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bp6wbir2acw6i" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00005.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://h5qt501m7ov1" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00006.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://d1mu0kkkksy4f" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00007.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://j86u3mdo6ka6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00008.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://c11grinqe100y" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00009.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://dnyn1v0stdh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00010.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://hqpqcg51w8fm" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00011.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://cg3xp43bb6l8g" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00012.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://sv2jb7vsxb2d" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00013.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://dre8e6edxakao" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00014.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://4btay0fhs3wn" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00015.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dukdjgv55fqv" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00016.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://blobaktexwcpi" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00017.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://btx4ik8qt7sva" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00018.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://c0l0upl7s70ei" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00019.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://dcfgkgsdbhqn8" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00020.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://bf630lqj7dkco" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00021.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://cdtbwvkpeojbk" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00022.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://daqesnaicgbb7" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00023.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bcqsx2lpmyl5l" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00024.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://cui3861so0o3u" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00025.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://bcv2h4d156t2p" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00026.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bro4f16trvtn0" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00027.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://w0kogp6ufvcn" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00028.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://crmit7n5ig3do" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00029.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://1mhdnpm5mbyu" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00030.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://d2jn3j2p13a1q" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00031.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://dbj2gvvvsc56i" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00032.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://djin6r37p121u" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00033.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://behjxkfsywwcw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00034.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://b7g70fmf1yu5t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00035.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://8xycl58r5vtc" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00036.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://cwm31i840xpeh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00037.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://bwarvk1o0oy2a" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00038.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://c54unu2nrjgc" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00039.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://bo3kqtlfjjh6x" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00040.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://bjqpxpvr0dl7s" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00041.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://djpljc70yejdr" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00042.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://h6fbr6htrl1v" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00043.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://ccyk71r7mucqi" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00044.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://bn1gf442jwf2e" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00045.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://ygbtivqnfhcy" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00046.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://cnh571hn5ibqj" path="res://acts/full_game/conclusion_arc/finale/assets/animations/jack_mirror/JackFinaleMirror_00047.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://1qxe6wh2runf" path="res://shared/assets/portraits/jack/racionalist_000.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://btfipu741ismq" path="res://shared/assets/portraits/jack/racionalist_001.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://dbfkqromxc2xq" path="res://shared/assets/portraits/jack/racionalist_002.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://318p2t6nm7nn" path="res://shared/assets/portraits/jack/racionalist_003.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://d1p6mq4oqht8u" path="res://shared/assets/portraits/jack/racionalist_004.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://d4iih5f02gym0" path="res://shared/assets/portraits/jack/racionalist_005.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://cgknrq7dathic" path="res://shared/assets/portraits/jack/racionalist_006.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://cjrft3gnsmkbo" path="res://shared/assets/portraits/jack/racionalist_007.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://kuwa1afom0sv" path="res://shared/assets/portraits/jack/racionalist_008.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://b06nl4muf7d64" path="res://shared/assets/portraits/jack/racionalist_009.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://6nnwlktudimk" path="res://shared/assets/portraits/jack/racionalist_010.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://bpu8n0agfkn1n" path="res://shared/assets/portraits/jack/racionalist_011.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cajs1dakffmme" path="res://shared/assets/portraits/jack/racionalist_012.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://bx1a31766ky05" path="res://shared/assets/portraits/jack/racionalist_013.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://d10pw4v5nwure" path="res://shared/assets/portraits/jack/racionalist_014.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://dxwr46nec3sxp" path="res://shared/assets/portraits/jack/racionalist_015.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://cry6sqg0670jy" path="res://shared/assets/portraits/jack/racionalist_016.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://f80qp23vux2w" path="res://shared/assets/portraits/jack/racionalist_017.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://dvuffxalvq0u3" path="res://shared/assets/portraits/jack/racionalist_018.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://ce2nohogg1vd3" path="res://shared/assets/portraits/jack/racionalist_019.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://biww8qx7gd4wc" path="res://shared/assets/portraits/jack/racionalist_020.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://ccs2toup3hi2u" path="res://shared/assets/portraits/jack/racionalist_021.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://btv8c4h1j6jtv" path="res://shared/assets/portraits/jack/racionalist_022.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://cdbs6a0718ped" path="res://shared/assets/portraits/jack/racionalist_023.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://davb0j57csoxp" path="res://shared/assets/portraits/jack/racionalist_024.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://qwnpol3ghpoh" path="res://shared/assets/portraits/jack/racionalist_025.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://cgv5kdoyl67d4" path="res://shared/assets/portraits/jack/racionalist_026.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://bgohrgndgwnem" path="res://shared/assets/portraits/jack/racionalist_027.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://dt0yai7vc48v4" path="res://shared/assets/portraits/jack/racionalist_028.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://dgkqxn1j3m81i" path="res://shared/assets/portraits/jack/racionalist_029.png" id="119"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mlg45"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_opj2l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}],
+"loop": true,
+"name": &"JackLoop",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="JackPanel" type="Panel"]
+offset_left = -1416.27001953125
+offset_top = 1017.4600219726563
+offset_right = -859.2750244140625
+offset_bottom = 1539.4599609375
+
+[node name="JackSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(279.63, 254.71)
+sprite_frames = SubResource("SpriteFrames_mlg45")
+autoplay = "default"
+frame = 29
+frame_progress = 0.7542139887809753
+
+[node name="MirrorSpot2" parent="." instance=ExtResource("40")]
+layout_mode = 1
+offset_left = 110.88300323486328
+offset_top = 40.2234001159668
+offset_right = -46.1171989440918
+offset_bottom = -221.77699279785156
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "eXE"
+
+[node name="Indicators" parent="MirrorSpot2" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="MirrorSpot2/Indicators" index="0"]
+modulate = Color(0.308216, 0.20637, 0.134066, 1)
+position = Vector2(41.4721, 29.5771)
+frame_progress = 0.8014460206031799
+
+[node name="FocusIndicator" parent="MirrorSpot2/Indicators" index="1"]
+position = Vector2(42.4721, 33.5771)
+
+[node name="JackCloseupPanel" type="Panel" parent="MirrorSpot2"]
+layout_mode = 0
+offset_left = -1180.31005859375
+offset_top = 209.177001953125
+offset_right = -556.31298828125
+offset_bottom = 685.177001953125
+
+[node name="JackSpeech" type="Label" parent="MirrorSpot2/JackCloseupPanel"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 25.0
+offset_right = 255.0
+offset_bottom = 118.0
+theme_override_fonts/font = ExtResource("41")
+theme_override_font_sizes/font_size = 24
+text = "FINALE_ISAAC_SPEECH"
+autowrap_mode = 3
+
+[node name="JackSprite" type="AnimatedSprite2D" parent="MirrorSpot2/JackCloseupPanel"]
+position = Vector2(398.09, 234.745)
+sprite_frames = SubResource("SpriteFrames_opj2l")
+animation = &"JackLoop"
+autoplay = "JackLoop"
+frame_progress = 0.24837200343608856
+
+[editable path="MirrorSpot2"]

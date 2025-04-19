@@ -1,0 +1,204 @@
+[gd_scene load_steps=20 format=4 uid="uid://jitbgbdf30mk"]
+
+[ext_resource type="Texture2D" uid="uid://466gegyx38yr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/harry_room_updated.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://cx575xmhykqoe" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/Rugs.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://islvu4uwlc00" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/EmptyBottlesMuch.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bkwnc5olskc6q" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/Flashlight.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bnfchnujfmj1i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/FotoAlbums.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cy5wjvn5mb871" path="res://shared/assets/papers/A4_V1_ICO.png" id="7"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="8"]
+[ext_resource type="Resource" uid="uid://diincduyqpm5x" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_bum_timeline_mtea.tres" id="9"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="11"]
+
+[sub_resource type="Resource" id="Resource_t7h4v"]
+script = ExtResource("8")
+linked_item_ref_id = 922
+
+[sub_resource type="Resource" id="Resource_1by3y"]
+script = ExtResource("8")
+linked_item_ref_id = 923
+
+[sub_resource type="Resource" id="Resource_6d1cc"]
+script = ExtResource("8")
+linked_item_ref_id = 611
+
+[sub_resource type="Resource" id="Resource_npigr"]
+script = ExtResource("8")
+linked_item_ref_id = 618
+
+[sub_resource type="Resource" id="Resource_22ufe"]
+script = ExtResource("8")
+linked_item_ref_id = 358
+
+[sub_resource type="Resource" id="Resource_am7av"]
+script = ExtResource("8")
+linked_item_ref_id = 496
+
+[sub_resource type="Resource" id="Resource_paqvm"]
+script = ExtResource("8")
+linked_item_ref_id = 497
+
+[sub_resource type="Resource" id="Resource_ljroc"]
+script = ExtResource("8")
+linked_item_ref_id = 746
+
+[node name="HarryContainerPanel" type="Panel"]
+offset_left = -133.0
+offset_top = 890.0
+offset_right = 694.0
+offset_bottom = 1449.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(15.0242, 8.02752)
+texture = ExtResource("1")
+centered = false
+
+[node name="HarryStashSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 413.0
+offset_top = 349.0
+offset_right = -297.0
+offset_bottom = -85.0
+scale = Vector2(0.998394, 0.996602)
+pivot_offset = Vector2(-1410.96, -558.726)
+hotspot_id = "Jza"
+
+[node name="Indicators" parent="HarryStashSpot" index="0"]
+offset_left = -9.311619758605957
+offset_top = 63.35639953613281
+offset_right = -9.311619758605957
+offset_bottom = 63.35639953613281
+pivot_offset = Vector2(38.2621, 52.1773)
+
+[node name="Highlighter" parent="HarryStashSpot/Indicators" index="0"]
+modulate = Color(0.270592, 0.191325, 0.047347, 1)
+position = Vector2(-13.8903, -36.6238)
+
+[node name="FocusIndicator" parent="HarryStashSpot/Indicators" index="1"]
+position = Vector2(-13.8903, -34.6101)
+
+[node name="HarryStashPanel" type="Panel" parent="HarryStashSpot"]
+layout_mode = 0
+offset_left = -405.0
+offset_top = 269.0
+offset_right = 297.0
+offset_bottom = 732.0
+
+[node name="Rugs" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel"]
+position = Vector2(445.843, 162.026)
+texture = ExtResource("3")
+
+[node name="EmptyBottlesMuch" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel"]
+position = Vector2(179.576, 134.915)
+scale = Vector2(0.598601, 0.600755)
+texture = ExtResource("4")
+
+[node name="Flashlight" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel"]
+position = Vector2(562.217, 316.072)
+texture = ExtResource("5")
+
+[node name="FotoAlbums" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel"]
+position = Vector2(178.573, 329.234)
+texture = ExtResource("6")
+
+[node name="HarryNoteSprite" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel"]
+position = Vector2(381.262, 351.965)
+texture = ExtResource("7")
+
+[node name="HarryNoteSpot" parent="HarryStashSpot/HarryStashPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 326.0
+offset_top = 253.0
+offset_right = -264.0
+offset_bottom = -45.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "yqh"
+extra_items_unlocked = [SubResource("Resource_t7h4v"), SubResource("Resource_1by3y"), SubResource("Resource_6d1cc"), SubResource("Resource_npigr"), SubResource("Resource_22ufe"), SubResource("Resource_am7av"), SubResource("Resource_paqvm"), SubResource("Resource_ljroc")]
+unlocked_puzzles = [ExtResource("9")]
+
+[node name="Indicators" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot" index="0"]
+offset_left = -12.726300239562988
+offset_top = 14.730500221252441
+offset_right = -12.726300239562988
+offset_bottom = 14.730500221252441
+
+[node name="Highlighter" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/Indicators" index="0"]
+modulate = Color(0.621203, 0.468348, 0.370281, 1)
+position = Vector2(13.058, -7.88696)
+
+[node name="FocusIndicator" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/Indicators" index="1"]
+position = Vector2(12.0483, -0.856201)
+
+[node name="HarryNotesPanel" type="Panel" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot"]
+layout_mode = 0
+offset_left = -141.0
+offset_top = 321.0
+offset_right = 405.0
+offset_bottom = 1063.0
+
+[node name="TextureRect" type="TextureRect" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel"]
+modulate = Color(0.81, 0.641655, 0.4617, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 534.0
+offset_bottom = 725.0
+texture = ExtResource("10")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D9" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
+position = Vector2(222.439, 569.77)
+rotation = 3.118259906768799
+skew = -0.008633850142359734
+texture = ExtResource("11")
+region_enabled = true
+region_rect = Rect2(142, 384.149, 454, 213.473)
+
+[node name="Sprite2D10" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.623529)
+position = Vector2(146.194, 181.133)
+rotation = -3.12923002243042
+scale = Vector2(0.651742, 0.651743)
+skew = -0.008641719818115234
+texture = ExtResource("11")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D8" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(338.812, 202.277)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("11")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(243.507, 363.37)
+rotation = 6.302949905395508
+scale = Vector2(0.807298, 1)
+texture = ExtResource("11")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="HarryNoteText" type="RichTextLabel" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel"]
+layout_mode = 0
+offset_left = 36.39569854736328
+offset_top = 27.353500366210938
+offset_right = 518.39599609375
+offset_bottom = 714.35400390625
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.28549, 0.204322, 0.188111, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_HARRY_DIARY"
+fit_content = true
+scroll_active = false
+autowrap_mode = 2
+
+[editable path="HarryStashSpot"]
+[editable path="HarryStashSpot/HarryStashPanel/HarryNoteSpot"]

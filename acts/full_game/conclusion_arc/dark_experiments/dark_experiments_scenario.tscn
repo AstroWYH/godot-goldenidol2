@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=4]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://blyt8blb5jhn1" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_ranking_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://3bj6k8ykwbdd" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_bum_timeline_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://cw7jq36crcq4p" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://djft4ya06tac7" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_party_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://brjl322bredsi" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_scroll_puzzle.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://6p8xfvdi8ltt" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_scroll_puzzle2.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://dnu37hprpqhw1" path="res://acts/full_game/conclusion_arc/dark_experiments/dark_experiments_scenario.tres" id="9"]
+
+[node name="DarkExperimentsScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PicturePuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1234.0
+offset_top = 58.0
+offset_right = 1814.0
+offset_bottom = 923.0
+
+[node name="BumTimelinePuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 980.0
+offset_top = 67.0
+offset_right = 1881.0
+offset_bottom = 393.0
+
+[node name="DwellingPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 1014.0
+offset_top = 55.0
+offset_right = 1703.0
+offset_bottom = 903.0
+
+[node name="PartyPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 1178.0
+offset_top = 60.0
+offset_right = 1612.0
+offset_bottom = 1013.0
+
+[node name="ScrollPuzzle1" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 984.0
+offset_top = 176.0
+offset_right = 1821.0
+offset_bottom = 775.0
+is_win_condition = true
+
+[node name="ScrollPuzzle2" parent="ThinkingLayer" instance=ExtResource("7")]
+offset_left = 984.0
+offset_top = 176.0
+offset_right = 1821.0
+offset_bottom = 676.0
+is_win_condition = true
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("8")]
+scenario_meta = ExtResource("9")
+thinking_layer = NodePath("../ThinkingLayer")
+metadata/_edit_lock_ = true

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=2 format=4 uid="uid://e35c5wsbrwdh"]
+
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+puzzle_id = 5522
+puzzle_name = ""
+puzzle_icon = null
+arc_puzzle = false
+locked_by_default = true
+hide_card_when_locked = false
+unlocks_puzzles_on_solve = []
+unlocks_segments_on_solve = []
+escalate_music_on_solve = false
+escalation_level = 0
+segmentation_mode = 0
+specified_segments = []

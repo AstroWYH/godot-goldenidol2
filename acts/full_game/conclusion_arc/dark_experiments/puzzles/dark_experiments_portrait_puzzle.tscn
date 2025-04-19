@@ -1,0 +1,90 @@
+[gd_scene load_steps=6 format=4 uid="uid://loxtjnt0u85x"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dioppstaxf134" path="res://shared/ui/portrait_puzzle/portrait_puzzle.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://cr6te0hdlhx6f" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_portrait_puzzle_meta.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://btemkxm05phja" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.tscn" id="5"]
+
+[node name="PortraitPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 700.0
+offset_bottom = 487.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" parent="Frame/MarginContainer" index="1"]
+visible = true
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_mode = 1
+mouse_filter = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+puzzle_meta = ExtResource("4")
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle" index="1"]
+layout_mode = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 5
+
+[node name="Harry" parent="PuzzleGroup/Puzzle/GridContainer" index="0" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 122
+
+[node name="William" parent="PuzzleGroup/Puzzle/GridContainer" index="1" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 119
+
+[node name="Luke" parent="PuzzleGroup/Puzzle/GridContainer" index="2" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 118
+
+[node name="Orion" parent="PuzzleGroup/Puzzle/GridContainer" index="3" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 120
+
+[node name="Phil" parent="PuzzleGroup/Puzzle/GridContainer" index="4" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 121
+
+[node name="Tucker" parent="PuzzleGroup/Puzzle/GridContainer" index="5" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 126
+
+[node name="Brock" parent="PuzzleGroup/Puzzle/GridContainer" index="6" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 125
+
+[node name="Olivia" parent="PuzzleGroup/Puzzle/GridContainer" index="7" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 124
+
+[node name="Gabriel" parent="PuzzleGroup/Puzzle/GridContainer" index="8" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 123
+
+[editable path="Frame"]

@@ -1,0 +1,380 @@
+[gd_scene load_steps=52 format=4 uid="uid://b2e8vco5a0l6t"]
+
+[ext_resource type="Texture2D" uid="uid://bs25rx5fsxrck" path="res://shared/assets/papers/Check_ICO.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cy5wjvn5mb871" path="res://shared/assets/papers/A4_V1_ICO.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cpfdsjhj3ao22" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_000.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bayo0c8bgibwx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_001.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bdvpx6ryu7bij" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_002.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bk7mwwslwqgml" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_003.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://conxb3m3legkt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_004.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://rhqlgicl5okj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_005.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cx1s2sg5yu1u0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_006.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://8cci5rodnvbi" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_007.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://388tmng5jybu" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_008.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b7ck0528c6ywn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_009.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ce1g1l03ot3dq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_010.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cun6rnpbbrdkb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_011.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bseon42pj82sa" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_012.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cl73l6406ou6g" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_013.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cd2f4df5b2gfa" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_014.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://cxliint4qibrm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_015.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dsol31x7fyp23" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_016.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b1377hg7d1jrs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_017.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://d0qvkf6mumtju" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_018.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b5oiagsvdsds1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_019.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://vnxo2vps4ofc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_020.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b711dptmatcfg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_021.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://nmr0u0uka5mo" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_022.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ci0j877ajnyg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_023.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://b37f4666jd440" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_024.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bulub5tteg7gt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_025.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dkkekrb8tjdfm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_026.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dpv42hv6u7ryi" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_027.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://brqox73j1oxn3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_028.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bdjedsg0lvxvw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_029.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://mtsmcufikkyb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_030.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dupb3mhir1yf3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_031.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bmaxe3nmu64t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_032.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://wavjesneuqgg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_033.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bd6q1oiyqiue0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_034.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://jfe77tldce33" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_035.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://cl03fkd842esp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_036.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://lvsltjrliyel" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_037.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://05bsay5heouk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_038.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://d3lyj8sfjatfb" path="res://shared/assets/papers/note_yacht_names.png" id="42"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="43"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="44"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="46"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h2hty"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_77mmr"]
+script = ExtResource("44")
+linked_item_ref_id = 982
+
+[sub_resource type="Resource" id="Resource_k7525"]
+script = ExtResource("44")
+linked_item_ref_id = 926
+
+[sub_resource type="Resource" id="Resource_wevnq"]
+script = ExtResource("44")
+linked_item_ref_id = 928
+
+[sub_resource type="Resource" id="Resource_fpxch"]
+script = ExtResource("44")
+linked_item_ref_id = 927
+
+[node name="CordeliaPanel" type="Panel"]
+offset_left = -340.0
+offset_top = -1292.0
+offset_right = 584.0
+offset_bottom = -703.0
+
+[node name="PaperSprite2" type="Sprite2D" parent="."]
+position = Vector2(80.5323, 220.098)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("1")
+
+[node name="PaperSprite3" type="Sprite2D" parent="."]
+position = Vector2(94.1173, 205.256)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("1")
+
+[node name="PaperSprite4" type="Sprite2D" parent="."]
+position = Vector2(103.132, 192.211)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("1")
+
+[node name="PaperSprite5" type="Sprite2D" parent="."]
+position = Vector2(310, 232)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("2")
+
+[node name="CordeliaSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 30.048599243164063
+offset_top = 26.089099884033203
+offset_right = 483.04901123046875
+offset_bottom = 143.08900451660156
+text = "WAREHOUSE_CORDELIA_SPEECH"
+autowrap_mode = 3
+
+[node name="CordeliaSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(573, 323)
+sprite_frames = SubResource("SpriteFrames_h2hty")
+autoplay = "default"
+frame_progress = 0.9779260158538818
+
+[node name="PaperSprite" type="Sprite2D" parent="."]
+position = Vector2(136.657, 353.995)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("42")
+
+[node name="Page1Label2" type="Label" parent="PaperSprite"]
+offset_left = -192.9669952392578
+offset_top = -57.189300537109375
+offset_right = 195.0330047607422
+offset_bottom = 58.810699462890625
+mouse_filter = 1
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 23
+text = "WAREHOUSE_GABRIEL_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Invitation" parent="." instance=ExtResource("43")]
+layout_mode = 1
+offset_left = 266.0
+offset_top = 128.0
+offset_right = -550.0
+offset_bottom = -290.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "oJF"
+extra_items_unlocked = [SubResource("Resource_77mmr"), SubResource("Resource_k7525"), SubResource("Resource_wevnq"), SubResource("Resource_fpxch")]
+
+[node name="Indicators" parent="Invitation" index="0"]
+offset_left = -9.957070350646973
+offset_top = 28.98069953918457
+offset_right = -9.957070350646973
+offset_bottom = 28.98069953918457
+
+[node name="Highlighter" parent="Invitation/Indicators" index="0"]
+modulate = Color(0.648452, 0.506109, 0.460122, 1)
+position = Vector2(1.3925, -12.5113)
+
+[node name="FocusIndicator" parent="Invitation/Indicators" index="1"]
+position = Vector2(2.3925, -8.51134)
+
+[node name="GabrielPanel" type="Panel" parent="Invitation"]
+layout_mode = 0
+offset_left = -179.28799438476563
+offset_top = -782.6599731445313
+offset_right = 255.71200561523438
+offset_bottom = -152.66000366210938
+
+[node name="TextureRect" type="TextureRect" parent="Invitation/GabrielPanel"]
+modulate = Color(0.772549, 0.615686, 0.439216, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = 423.0
+offset_bottom = 614.0
+texture = ExtResource("45")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="Invitation/GabrielPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(228.121, 154.201)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("46")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="Invitation/GabrielPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(222.602, 361)
+rotation = 6.295479774475098
+scale = Vector2(0.807298, 1)
+texture = ExtResource("46")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Text" type="Label" parent="Invitation/GabrielPanel"]
+layout_mode = 0
+offset_left = 29.782800674438477
+offset_top = 22.730199813842773
+offset_right = 406.7829895019531
+offset_bottom = 613.72998046875
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 22
+text = "WAREHOUSE_INVITATION_CONTENT"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="BusinessCardSpot" parent="." instance=ExtResource("43")]
+layout_mode = 1
+offset_left = 21.0
+offset_top = 118.0
+offset_right = -763.0
+offset_bottom = -323.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "qBy"
+
+[node name="Indicators" parent="BusinessCardSpot" index="0"]
+offset_left = -0.8890079855918884
+offset_top = 27.092100143432617
+offset_right = -0.8890079855918884
+offset_bottom = 27.092100143432617
+
+[node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
+modulate = Color(0.690196, 0.690196, 0.690196, 1)
+position = Vector2(21.1991, -4.54905)
+
+[node name="FocusIndicator" parent="BusinessCardSpot/Indicators" index="1"]
+position = Vector2(22.1991, -0.549053)
+
+[node name="CardPanel" type="Panel" parent="BusinessCardSpot"]
+layout_mode = 0
+offset_left = -470.7560119628906
+offset_top = -26.088699340820313
+offset_right = -69.75599670410156
+offset_bottom = 218.91099548339844
+
+[node name="Message3ColorRect" type="TextureRect" parent="BusinessCardSpot/CardPanel"]
+modulate = Color(0.65098, 0.721569, 0.721569, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 6.0
+offset_right = -9.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0016687499592080712
+texture = ExtResource("45")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Message3Text" type="RichTextLabel" parent="BusinessCardSpot/CardPanel"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 21.0
+offset_right = 376.0
+offset_bottom = 220.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_CORDELIA_CARD"
+scroll_active = false
+
+[editable path="Invitation"]
+[editable path="BusinessCardSpot"]

@@ -1,0 +1,58 @@
+[gd_scene load_steps=10 format=4]
+
+[ext_resource type="PackedScene" uid="uid://b34fgkvdxm2h1" path="res://acts/full_game/conclusion_arc/finale/finale_time_travel_bar.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://d0ng37rke8jpd" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_opig_plan.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://b4qjnw1lt5638" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_idol_v2.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://tfe8y1d7pla3" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_hunter.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://c4a6tyc43sgc4" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_events.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://bk4qw3j2hfuke" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_puzzle_epilogue.tscn" id="7"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="8"]
+[ext_resource type="Resource" uid="uid://d2o2eeeju5fpr" path="res://acts/full_game/conclusion_arc/finale/finale_scenario.tres" id="9"]
+
+[node name="FinaleScenario" type="Node2D"]
+
+[node name="TopBar" type="CanvasLayer" parent="."]
+
+[node name="TimeTravelBar" parent="TopBar" instance=ExtResource("1")]
+anchors_preset = 10
+anchor_bottom = 0.0
+offset_bottom = 0.0
+grow_vertical = 1
+focus_mode = 2
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("2")]
+
+[node name="OpigPlanScroll" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1079.0
+offset_top = 46.0
+offset_right = 1853.0
+offset_bottom = 933.0
+
+[node name="IdolScroll" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 1087.0
+offset_top = 41.0
+offset_right = 1869.0
+offset_bottom = 998.0
+
+[node name="HunterScroll" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 941.0
+offset_top = 151.0
+offset_right = 1863.0
+offset_bottom = 917.0
+
+[node name="EventScroll" parent="ThinkingLayer" instance=ExtResource("6")]
+offset_left = 1006.0
+offset_top = 63.0
+offset_right = 1848.0
+offset_bottom = 950.0
+
+[node name="EpilogueScroll" parent="ThinkingLayer" instance=ExtResource("7")]
+offset_left = 902.0
+offset_top = 14.0
+offset_right = 1906.0
+offset_bottom = 969.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("8")]
+scenario_meta = ExtResource("9")
+thinking_layer = NodePath("../ThinkingLayer")

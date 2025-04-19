@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=4 uid="uid://bx2lil51ayi51"]
+
+[ext_resource type="Texture2D" uid="uid://cvgn5e1dgmmlm" path="res://acts/full_game/conclusion_arc/finale/assets/idol3.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://dc2elp352y4wj" path="res://acts/full_game/conclusion_arc/finale/assets/idolinside2.png" id="3"]
+
+[node name="IdolPanel" type="Panel"]
+offset_left = 2406.8701171875
+offset_top = -382.29901123046875
+offset_right = 3263.8701171875
+offset_bottom = 292.70098876953125
+
+[node name="IdolSprite" type="Sprite2D" parent="."]
+position = Vector2(440.708, 329.118)
+scale = Vector2(0.381754, 0.381753)
+texture = ExtResource("1")
+
+[node name="InsideIdolSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 276.0
+offset_top = 230.0
+offset_right = -246.0
+offset_bottom = -321.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Xt7"
+
+[node name="Indicators" parent="InsideIdolSpot" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="InsideIdolSpot/Indicators" index="0"]
+modulate = Color(0.391974, 0.0877262, 1.31551e-08, 1)
+position = Vector2(7.99686, -16.3611)
+frame_progress = 0.9638519883155823
+
+[node name="FocusIndicator" parent="InsideIdolSpot/Indicators" index="1"]
+position = Vector2(7.99686, -16.3611)
+
+[node name="BrokenPanel" type="Panel" parent="InsideIdolSpot"]
+layout_mode = 0
+offset_left = -1035.0
+offset_top = 135.0
+offset_right = -484.0
+offset_bottom = 759.0
+
+[node name="BrokenSprite" type="Sprite2D" parent="InsideIdolSpot/BrokenPanel"]
+position = Vector2(274.658, 304.685)
+texture = ExtResource("3")
+
+[editable path="InsideIdolSpot"]

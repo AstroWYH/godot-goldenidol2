@@ -1,0 +1,193 @@
+[gd_scene load_steps=39 format=4 uid="uid://bopf3ls15u1sx"]
+
+[ext_resource type="Texture2D" uid="uid://iq3dcocriq34" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://3k6vef14xedn" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cuk0quyj5ewy" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cvh6i1w8cjm44" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://6wtrakl2mk7f" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://17td1ji7r0om" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dawk3nf28etks" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b3fywu6fb5nhf" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cfxi1bn8jaa6x" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dmcj7bimsienq" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://tv2lletrl08q" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b2w0ufyqcvit6" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://ccccouvq8d8we" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://d0vf5i4evssfb" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://4isp7ynk57ui" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://427pnw1cjo1b" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://qe38g7c77ssc" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b2r5qm3whp28h" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://jyrddpjexthu" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cvc0hgeb1kx68" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dhy3m5h7qi0f6" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b3firldfncyfs" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b7u8xjcyg215t" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cichvnxxly1it" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://r1alnw552jl0" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dqtu3ifg6mnky" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dxg4dt4vy8qpr" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bowmbbq6oxd8n" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://duodry17qes8x" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://b2ko3n32aso4a" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cee2jx6yajc6j" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://botrvswkwx42b" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://b2nf2rwcc2egi" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bfanyvbhlp5gf" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dmnrfm6g2qamg" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dtaa7f3hq0a83" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://du87mipqsgb4s" path="res://shared/assets/papers/nametag_clean.png" id="37"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_og0qo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="CameramanPanel" type="Panel"]
+offset_left = 729.0
+offset_top = 171.0
+offset_right = 1530.0
+offset_bottom = 753.0
+
+[node name="CameramanSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 36.41999816894531
+offset_right = 731.0
+offset_bottom = 153.4199981689453
+text = "BOARDROOM_INTERN_SPEECH"
+autowrap_mode = 3
+
+[node name="CameramanSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(546.878, 363.42)
+sprite_frames = SubResource("SpriteFrames_og0qo")
+autoplay = "default"
+frame_progress = 0.38674500584602356
+
+[node name="LanyardSprite" type="Sprite2D" parent="."]
+position = Vector2(161.259, 350.42)
+texture = ExtResource("37")
+
+[node name="LanyardLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 366.96099853515625
+offset_right = 219.0
+offset_bottom = 444.96099853515625
+theme_override_colors/font_color = Color(0.733333, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "BOARDROOM_INTERN_TAG_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3

@@ -1,0 +1,365 @@
+[gd_scene load_steps=20 format=4 uid="uid://cw7jq36crcq4p"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="3"]
+[ext_resource type="Texture2D" uid="uid://ju2nrx4vr7el" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/dwelling_ownership_puzzle_background.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bgjrqyfeh5q0n" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/puzzles/frame.png" id="5"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="7"]
+[ext_resource type="Resource" uid="uid://cib7rimdswprb" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_puzzle.tres" id="8"]
+[ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="10"]
+[ext_resource type="Resource" uid="uid://cay34oe5pe228" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_puzzle_pictures.tres" id="11"]
+[ext_resource type="PackedScene" uid="uid://cw1fngeujeve4" path="res://shared/ui/picture_puzzle_answers/picture_puzzle_answers.tscn" id="12"]
+[ext_resource type="Texture2D" uid="uid://ddeb21mtjxc2c" path="res://shared/assets/portraits/dark_experiments_orion.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://d0kkqvjljuic8" path="res://shared/assets/portraits/dark_experiments_william.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://j3nqj04u4f6v" path="res://shared/assets/portraits/dark_experiments_phil.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dqdaw3hfbp81l" path="res://shared/assets/portraits/dark_experiments_harry.png" id="16"]
+[ext_resource type="PackedScene" uid="uid://b4kgt5hhkn2iu" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.tscn" id="17"]
+[ext_resource type="Texture2D" uid="uid://dlmstm3osh4lo" path="res://shared/assets/portraits/lukealive.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://xbskcrc6xhen" path="res://shared/assets/portraits/dark_experiments_elijah.png" id="19"]
+
+[node name="DwellingPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_right = 689.0
+offset_bottom = 848.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="0"]
+layout_mode = 0
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 670.0
+offset_bottom = 828.0
+mouse_filter = 1
+color = Color(0.133333, 0.12549, 0.203922, 1)
+
+[node name="Page1Label3" type="RichTextLabel" parent="Frame/MarginContainer/Background/ColorRect" index="0"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 29.0
+offset_right = 662.0
+offset_bottom = 64.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_fonts/normal_font = ExtResource("2")
+theme_override_fonts/bold_font = ExtResource("3")
+theme_override_font_sizes/normal_font_size = 21
+theme_override_font_sizes/bold_font_size = 21
+bbcode_enabled = true
+text = "WAREHOUSE_RESIDENTS_PUZZLE_TITLE"
+fit_content = true
+scroll_active = false
+autowrap_mode = 2
+
+[node name="Background" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(293, 211)
+texture = ExtResource("4")
+offset = Vector2(-59.608, 225.5)
+
+[node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background/Background" index="0"]
+offset_left = -36.0
+offset_top = -109.0
+offset_right = 64.0
+offset_bottom = -9.0
+mouse_filter = 1
+color = Color(1, 1, 1, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/ColorRect" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect2" type="ColorRect" parent="Frame/MarginContainer/Background/Background" index="1"]
+offset_left = -31.0
+offset_top = 144.0
+offset_right = 69.0
+offset_bottom = 244.0
+mouse_filter = 1
+color = Color(1, 1, 1, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/ColorRect2" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect3" type="ColorRect" parent="Frame/MarginContainer/Background/Background" index="2"]
+offset_left = -254.0
+offset_top = 463.0
+offset_right = -154.0
+offset_bottom = 563.0
+mouse_filter = 1
+color = Color(1, 1, 1, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/ColorRect3" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect4" type="ColorRect" parent="Frame/MarginContainer/Background/Background" index="3"]
+offset_left = -1.0
+offset_top = 463.0
+offset_right = 99.0
+offset_bottom = 563.0
+mouse_filter = 1
+color = Color(1, 1, 1, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/ColorRect4" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="GridContainer" type="GridContainer" parent="Frame/MarginContainer/Background/Background" index="4"]
+custom_minimum_size = Vector2(100, 100)
+offset_left = 216.0
+offset_top = -115.0
+offset_right = 316.0
+offset_bottom = 505.0
+mouse_filter = 2
+
+[node name="ColorRect4" type="ColorRect" parent="Frame/MarginContainer/Background/Background/GridContainer" index="0"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/GridContainer/ColorRect4" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect5" type="ColorRect" parent="Frame/MarginContainer/Background/Background/GridContainer" index="1"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/GridContainer/ColorRect5" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect6" type="ColorRect" parent="Frame/MarginContainer/Background/Background/GridContainer" index="2"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/GridContainer/ColorRect6" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect7" type="ColorRect" parent="Frame/MarginContainer/Background/Background/GridContainer" index="3"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/GridContainer/ColorRect7" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect8" type="ColorRect" parent="Frame/MarginContainer/Background/Background/GridContainer" index="4"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/GridContainer/ColorRect8" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="ColorRect9" type="ColorRect" parent="Frame/MarginContainer/Background/Background/GridContainer" index="5"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background/Background/GridContainer/ColorRect9" index="0"]
+texture = ExtResource("5")
+centered = false
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("6")]
+layout_mode = 1
+offset_left = 399.0
+offset_top = 195.0
+offset_right = -339.0
+offset_bottom = -308.0
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("7")]
+layout_mode = 1
+offset_left = -39.5
+offset_top = 118.0
+offset_right = -39.5
+offset_bottom = 118.0
+puzzle_meta = ExtResource("8")
+
+[node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -215.0
+offset_top = -193.0
+offset_right = -215.0
+offset_bottom = -419.0
+answer_item_ref_id = 924
+
+[node name="PhrasePuzzleSlot2" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -215.0
+offset_top = -146.0
+offset_right = -215.0
+offset_bottom = -372.0
+answer_item_ref_id = 925
+
+[node name="PhrasePuzzleSlot7" parent="PuzzleGroup/Puzzle" index="3" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -192.0
+offset_top = 67.0
+offset_right = -192.0
+offset_bottom = -159.0
+answer_item_ref_id = 920
+
+[node name="PhrasePuzzleSlot8" parent="PuzzleGroup/Puzzle" index="4" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -192.0
+offset_top = 114.0
+offset_right = -192.0
+offset_bottom = -112.0
+answer_item_ref_id = 921
+
+[node name="PhrasePuzzleSlot3" parent="PuzzleGroup/Puzzle" index="5" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -293.0
+offset_top = 275.0
+offset_right = -293.0
+offset_bottom = 49.0
+answer_item_ref_id = 918
+
+[node name="PhrasePuzzleSlot4" parent="PuzzleGroup/Puzzle" index="6" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -293.0
+offset_top = 322.0
+offset_right = -293.0
+offset_bottom = 96.0
+answer_item_ref_id = 933
+
+[node name="PhrasePuzzleSlot5" parent="PuzzleGroup/Puzzle" index="7" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -34.0
+offset_top = 273.0
+offset_right = -34.0
+offset_bottom = 47.0
+answer_item_ref_id = 496
+
+[node name="PhrasePuzzleSlot6" parent="PuzzleGroup/Puzzle" index="8" instance=ExtResource("9")]
+layout_mode = 1
+offset_left = -34.0
+offset_top = 320.0
+offset_right = -34.0
+offset_bottom = 94.0
+answer_item_ref_id = 497
+
+[node name="PicturePuzzle" parent="PuzzleGroup" index="1" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("10")]
+layout_mode = 1
+offset_left = 491.5
+offset_top = -49.0
+offset_right = 491.5
+offset_bottom = -49.0
+puzzle_meta = ExtResource("11")
+puzzle_inventory = NodePath("Inventory")
+puzzle_answers = NodePath("Answers")
+
+[node name="Answers" parent="PuzzleGroup/PicturePuzzle" index="1" instance=ExtResource("12")]
+layout_mode = 1
+offset_left = 32.0
+offset_top = 23.0
+offset_right = -817.0
+offset_bottom = -587.0
+
+[node name="Container" type="Control" parent="PuzzleGroup/PicturePuzzle/Answers" index="0"]
+anchors_preset = 0
+offset_left = 47.0
+offset_top = 47.0
+offset_right = 47.0
+offset_bottom = 47.0
+mouse_filter = 1
+
+[node name="Orion" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="0"]
+layout_mode = 0
+offset_left = -473.5
+offset_top = 601.5
+offset_right = -373.5
+offset_bottom = 701.5
+texture = ExtResource("13")
+
+[node name="William" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="1"]
+layout_mode = 0
+offset_left = -218.5
+offset_top = 603.5
+offset_right = -118.5
+offset_bottom = 703.5
+texture = ExtResource("14")
+
+[node name="Phil" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="2"]
+layout_mode = 0
+offset_left = -248.5
+offset_top = 279.5
+offset_right = -148.5
+offset_bottom = 379.5
+texture = ExtResource("15")
+
+[node name="Harry" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Answers/Container" index="3"]
+layout_mode = 0
+offset_left = -252.5
+offset_top = 29.5
+offset_right = -152.5
+offset_bottom = 129.5
+texture = ExtResource("16")
+
+[node name="Inventory" parent="PuzzleGroup/PicturePuzzle" index="2" instance=ExtResource("17")]
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 925.0
+offset_top = 6.0
+offset_right = 925.0
+offset_bottom = 6.0
+grow_horizontal = 1
+grow_vertical = 1
+mouse_filter = 1
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/PicturePuzzle/Inventory" index="0"]
+layout_mode = 0
+offset_left = -1273.0
+offset_top = -46.0
+offset_right = -1173.0
+offset_bottom = 574.0
+mouse_filter = 2
+
+[node name="Luke" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="0"]
+layout_mode = 2
+texture = ExtResource("18")
+
+[node name="Elijah" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="1"]
+layout_mode = 2
+texture = ExtResource("19")
+
+[node name="Orion" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="2"]
+layout_mode = 2
+texture = ExtResource("13")
+
+[node name="William" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="3"]
+layout_mode = 2
+texture = ExtResource("14")
+
+[node name="Phil" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="4"]
+layout_mode = 2
+texture = ExtResource("15")
+
+[node name="Harry" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="5"]
+layout_mode = 2
+texture = ExtResource("16")
+
+[editable path="Frame"]

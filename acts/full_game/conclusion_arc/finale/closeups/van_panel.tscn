@@ -1,0 +1,1151 @@
+[gd_scene load_steps=171 format=4 uid="uid://dhij7mrfr1m4r"]
+
+[ext_resource type="Texture2D" uid="uid://bgmub54usj6dk" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/bus.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://md34wtkfooca" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://biacqflrmerrg" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://etakanhq0j8n" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://d3edoelwf7x5b" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dou8rrrvkd4l2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://tqp3lro5c37a" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cj3jwfufowcvw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://eng0v72hj8fn" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://x4xxlen5t7cb" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bdg3mqak1lp6i" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bwi64v61vdvm6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bhhnycbnbs0s8" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://brrmh4h5mkh13" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dg5xd4rknn2uh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://bwyahuwyvx0xh" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://cb44hnlu47kw6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://nln67wp2ej84" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://dbwhghoe867o6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://du63jfqw51cmj" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bnfdgg5nw4ddl" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bnnrhqkxvk5l" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dfe8pf4g4xkt3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://deqjevp2y1yon" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://b5rd2tts8cifw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://mhj2ws81pa7l" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://2c7xcac73x06" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://cff7dcl71vxgs" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cdfbylthdxqa6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dqpcef8hqukhl" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dghnl006qcy37" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://blrlk3wwe4pbe" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://d0vph43k8yg06" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bmp8yuoftjp6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://mua3j338n42t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cciu8c67cnckw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://df5ds61tj4kxk" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://b5y885u4vmp16" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://b4tf8lqy75kn3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://cpxjny3oa1sqi" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_000.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bay8losif6iao" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_001.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bsujdmeuoxvy3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_002.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cek1j7cdhi3gx" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_003.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dyu5pt3rmxqpi" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_004.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bdk8cjvp1j4hv" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_005.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://ytefwad85yc6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_006.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://b01v7cvtpvsx7" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_007.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://b1t5qd5clpgv2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_008.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://b48yy4swriigq" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_009.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://b7i71qri322g3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_010.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://cljhkvysj3g1v" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_011.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://djbthttri6plp" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_012.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://blpikfaysxaas" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_013.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://doa88irfh60ao" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_014.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://yeuh64fkj05v" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_015.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://xnc6d1edgts6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_016.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://kq7g0khdj1q3" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_017.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://5evhpqsgyvdb" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_018.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://lbhuk6opqb45" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_019.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://beqpmgdl4yelf" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_020.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://bul2bahbxntcu" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_021.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dw7pa7xsgfjf6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_022.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://d4dwgoa2gcqjb" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_023.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://c5jxkljiwkkc4" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_024.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bv62m5lnd3n05" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_025.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://cacyp1sprs5ns" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_026.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://dgkrll2k74q7a" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_027.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://c7fqo0brhtv2q" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_028.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://bdsucn81lj8do" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_029.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://bipnmvvdra7te" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_030.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://xrqpp3flg68r" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_031.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://dp4ppab57vb77" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_032.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://h53qd6bvjxpr" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_033.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://dbkxk7fbkdfpp" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_034.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://dyfhtq0kk4bhx" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_035.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://n3d5vfg2lwnt" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_036.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://c7o76pg20bc76" path="res://acts/full_game/conclusion_arc/finale/assets/animations/busguard2/busguard2_037.png" id="78"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="79"]
+[ext_resource type="Texture2D" uid="uid://cdjq16h83skp5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00000.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://bjdx14a7p6fwx" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00001.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://8uxoisl8mlb4" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00002.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://dhtx8m67rf1ap" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00003.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://dyjo7k3ipryxa" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00004.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://b3jbvu7wipajp" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00005.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://r4npmbx1jbwn" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00006.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://d280268361vrf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00007.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://bihrb8yes301y" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00008.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://bf5qesgdn41p5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00009.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://dx1tbahqmfinq" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00010.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://dvr084qyjqdx8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00011.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://dbigpdgp4ff6w" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00012.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://cwrm1nusq6uup" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00013.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://bhs4fce0g4sr4" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00014.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://cktqps0j3in3r" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00015.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://05wn7d0k2s5k" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00016.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bt7hrc8pr73da" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00017.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://fuym8yvc6kao" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00018.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://cl16cg47omgd3" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00019.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://nnnm71wugc14" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00020.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://csrs1l3gl0w4o" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00021.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://bc1g1k0df6nl1" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00022.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://c4tjj5wvykfm8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00023.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://b2seogstlxn4s" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00024.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://lgnlj12wr554" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00025.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://sh2bfv8yt24a" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00026.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://dx3lgsg3nyovf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00027.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://ccqkmkjd02cum" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00028.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://c7sd2cfi7whws" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00029.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://bexnmwoki1ajn" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00030.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://gphcx4qj1sy7" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00031.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://cwyvmq2uvwqvw" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00032.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://beljeqbwswu3u" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00033.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://s4ibdx05ihcm" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00034.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://to4ts610toro" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00035.png" id="115"]
+[ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="116"]
+[ext_resource type="Texture2D" uid="uid://dj7wwxve2qvma" path="res://shared/assets/objects/guardspistol.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://y0u137rdy0vv" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/combinationsmall.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://demui8r58nf00" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/combination.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://bktfycs7xifda" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge_small.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://c8w1nhep6a2oa" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://d0mjrhtiy244e" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00000.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://e0qxtp04as1q" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00001.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://bhs5joi4kbrb5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00002.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://dgs8k32ip7rcm" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00003.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://d2xtwsm8rsufv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00004.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://bd3bu4rahyyet" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00005.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://drphx348jeup7" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00006.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://dqh0seecqj04x" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00007.png" id="129"]
+[ext_resource type="Texture2D" uid="uid://bp3tddoo5nkpf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00008.png" id="130"]
+[ext_resource type="Texture2D" uid="uid://cgbeio01dakcg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00009.png" id="131"]
+[ext_resource type="Texture2D" uid="uid://82ibxi8sqr64" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00010.png" id="132"]
+[ext_resource type="Texture2D" uid="uid://exqh7y0tyakv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00011.png" id="133"]
+[ext_resource type="Texture2D" uid="uid://p52q0hm457hn" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00012.png" id="134"]
+[ext_resource type="Texture2D" uid="uid://iknf6gdi0wo5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00013.png" id="135"]
+[ext_resource type="Texture2D" uid="uid://vif1x8nkhp8j" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00014.png" id="136"]
+[ext_resource type="Texture2D" uid="uid://bwl0qhyop43r8" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00015.png" id="137"]
+[ext_resource type="Texture2D" uid="uid://cm62eyfbu8nrg" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00016.png" id="138"]
+[ext_resource type="Texture2D" uid="uid://pvr3u0ab8lkc" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00017.png" id="139"]
+[ext_resource type="Texture2D" uid="uid://cffd3kaei348t" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00018.png" id="140"]
+[ext_resource type="Texture2D" uid="uid://g2v1uppugoo2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00019.png" id="141"]
+[ext_resource type="Texture2D" uid="uid://wex3gbmw3tnq" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00020.png" id="142"]
+[ext_resource type="Texture2D" uid="uid://xktispldgnhq" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00021.png" id="143"]
+[ext_resource type="Texture2D" uid="uid://jdd3ntyoirub" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00022.png" id="144"]
+[ext_resource type="Texture2D" uid="uid://bk6tj6vtkvip4" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00023.png" id="145"]
+[ext_resource type="Texture2D" uid="uid://cb2iyrfqdso4c" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00024.png" id="146"]
+[ext_resource type="Texture2D" uid="uid://wg7a718gd0x" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00025.png" id="147"]
+[ext_resource type="Texture2D" uid="uid://b8tgdnh088npj" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00026.png" id="148"]
+[ext_resource type="Texture2D" uid="uid://b5v4rg1uidu0i" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00027.png" id="149"]
+[ext_resource type="Texture2D" uid="uid://o2gfme1nk3gk" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00028.png" id="150"]
+[ext_resource type="Texture2D" uid="uid://bb6fmshalv0sl" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00029.png" id="151"]
+[ext_resource type="Texture2D" uid="uid://qr0danoduoaf" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00030.png" id="152"]
+[ext_resource type="Texture2D" uid="uid://cer044ebumtqi" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00031.png" id="153"]
+[ext_resource type="Texture2D" uid="uid://bg8nj3fg6inrv" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00032.png" id="154"]
+[ext_resource type="Texture2D" uid="uid://c1bibuvqybbo0" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00033.png" id="155"]
+[ext_resource type="Texture2D" uid="uid://dkt4hwr4ayaej" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00034.png" id="156"]
+[ext_resource type="Texture2D" uid="uid://djv5ewfm1xgm2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00035.png" id="157"]
+[ext_resource type="Texture2D" uid="uid://ch6rgh8oy0s7d" path="res://acts/full_game/conclusion_arc/finale/assets/disc.png" id="158"]
+[ext_resource type="Texture2D" uid="uid://dtq2vpv8rqgd4" path="res://acts/full_game/conclusion_arc/finale/assets/idol2.png" id="159"]
+[ext_resource type="Texture2D" uid="uid://d13xkbx7s5goj" path="res://acts/full_game/conclusion_arc/finale/assets/idolinside.png" id="160"]
+[ext_resource type="Texture2D" uid="uid://dfmum287pki0p" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/input.png" id="161"]
+[ext_resource type="Texture2D" uid="uid://dbdck1iw0bgb0" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/suitcaseopen2.png" id="162"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rffi8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Gradient" id="Gradient_r3itc"]
+colors = PackedColorArray(0.560784, 0.47451, 0.184314, 0.643137, 1, 1, 0.380392, 0.0705882)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_gb3sl"]
+gradient = SubResource("Gradient_r3itc")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xlvkc"]
+particle_flag_disable_z = true
+angle_min = -201.8000030517578
+angle_max = 147.89999389648438
+radial_velocity_min = -5.0
+radial_velocity_max = 10.0
+gravity = Vector3(0, 600, 0)
+scale_min = 0.5
+scale_max = 2.0
+color_ramp = SubResource("GradientTexture1D_gb3sl")
+hue_variation_min = -0.11999999731779099
+hue_variation_max = 0.10000000149011612
+anim_speed_min = 0.33000001311302185
+anim_speed_max = 1.8700000047683716
+anim_offset_min = 0.020500000566244125
+anim_offset_max = 0.07240000367164612
+turbulence_enabled = true
+collision_mode = 1
+collision_friction = 0.0
+collision_bounce = 0.3499999940395355
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4giud"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_7on8d"]
+polygon = PackedVector2Array(17.0273, 97.3304, 74.119, 98.3342, 77.1238, 142.484, -94.1512, 141.481, -105.169, 98.3339)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mqubu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_en1pi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[node name="VanPanel" type="Panel"]
+offset_left = -1760.0
+offset_top = -183.0
+offset_right = -845.0
+offset_bottom = 337.0
+
+[node name="BigBossSprite" type="Sprite2D" parent="."]
+position = Vector2(456.733, 256.873)
+texture = ExtResource("1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="BigBossSprite"]
+position = Vector2(234.551, -18.6854)
+sprite_frames = SubResource("SpriteFrames_rffi8")
+autoplay = "default"
+frame_progress = 0.8443989753723145
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="BigBossSprite"]
+position = Vector2(-308.321, 72.6252)
+amount = 48
+process_material = SubResource("ParticleProcessMaterial_xlvkc")
+texture = ExtResource("40")
+lifetime = 2.0
+explosiveness = 0.4399999976158142
+randomness = 0.2800000011920929
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="BigBossSprite"]
+position = Vector2(-198.144, 74.6316)
+sprite_frames = SubResource("SpriteFrames_4giud")
+autoplay = "default"
+frame_progress = 0.49053099751472473
+
+[node name="RigidBody2D" type="LightOccluder2D" parent="BigBossSprite"]
+position = Vector2(-323.345, 67.6078)
+occluder = SubResource("OccluderPolygon2D_7on8d")
+
+[node name="Guard1Spot" parent="." instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 101.0
+offset_top = 246.0
+offset_right = -492.0
+offset_bottom = -101.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Lxk"
+
+[node name="Indicators" parent="Guard1Spot" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="Guard1Spot/Indicators" index="0"]
+modulate = Color(0.281529, 0.532395, 0.537331, 1)
+position = Vector2(-150.226, -57.7116)
+frame_progress = 0.6316379904747009
+
+[node name="FocusIndicator" parent="Guard1Spot/Indicators" index="1"]
+position = Vector2(-149.226, -53.7116)
+
+[node name="BigBossPanel" type="Panel" parent="Guard1Spot"]
+layout_mode = 0
+offset_left = -981.0
+offset_top = -346.0
+offset_right = -256.0
+offset_bottom = 151.0
+
+[node name="SecurityStabbedSprite" type="AnimatedSprite2D" parent="Guard1Spot/BigBossPanel"]
+position = Vector2(212.766, 278.772)
+sprite_frames = SubResource("SpriteFrames_mqubu")
+autoplay = "default"
+frame_progress = 0.7797279953956604
+
+[node name="BigBossSpeech" type="Label" parent="Guard1Spot/BigBossPanel"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 38.0
+offset_right = 298.0
+offset_bottom = 138.0
+theme_override_fonts/font = ExtResource("116")
+theme_override_font_sizes/font_size = 24
+text = "FINALE_MYSON_SPEECH_1"
+autowrap_mode = 3
+
+[node name="GuardSprite3" type="Sprite2D" parent="Guard1Spot/BigBossPanel"]
+position = Vector2(540.292, 357.038)
+texture = ExtResource("117")
+
+[node name="Sprite" type="Sprite2D" parent="Guard1Spot/BigBossPanel"]
+position = Vector2(600.389, 185.454)
+texture = ExtResource("118")
+
+[node name="CodeSpot" parent="Guard1Spot/BigBossPanel" instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 521.260986328125
+offset_top = 112.20600128173828
+offset_right = -35.73860168457031
+offset_bottom = -243.79400634765625
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "2J-"
+
+[node name="Indicators" parent="Guard1Spot/BigBossPanel/CodeSpot" index="0"]
+offset_left = -7.355090141296387
+offset_top = 31.21179962158203
+offset_right = -7.355090141296387
+offset_bottom = 31.21179962158203
+
+[node name="Highlighter" parent="Guard1Spot/BigBossPanel/CodeSpot/Indicators" index="0"]
+modulate = Color(0.632576, 0.59199, 0.502211, 1)
+
+[node name="CodePanel" type="Panel" parent="Guard1Spot/BigBossPanel/CodeSpot"]
+layout_mode = 0
+offset_left = -97.0
+offset_top = -439.0
+offset_right = 326.0
+offset_bottom = -188.0
+
+[node name="Sprite" type="Sprite2D" parent="Guard1Spot/BigBossPanel/CodeSpot/CodePanel"]
+position = Vector2(214.03, 125.273)
+texture = ExtResource("119")
+
+[node name="TagSprite" type="Sprite2D" parent="Guard1Spot/BigBossPanel"]
+position = Vector2(432.119, 178.431)
+texture = ExtResource("120")
+
+[node name="TagSpot" parent="Guard1Spot/BigBossPanel" instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 347.9830017089844
+offset_top = 108.19200134277344
+offset_right = -211.01699829101563
+offset_bottom = -243.80799865722656
+hotspot_id = "wBa"
+
+[node name="Indicators" parent="Guard1Spot/BigBossPanel/TagSpot" index="0"]
+offset_left = -16.49720001220703
+offset_top = 28.990800857543945
+offset_right = -16.49720001220703
+offset_bottom = 28.990800857543945
+
+[node name="Highlighter" parent="Guard1Spot/BigBossPanel/TagSpot/Indicators" index="0"]
+modulate = Color(0.454116, 0.659539, 0.598581, 1)
+position = Vector2(9.02576, -22.0205)
+frame_progress = 0.028858499601483345
+
+[node name="FocusIndicator" parent="Guard1Spot/BigBossPanel/TagSpot/Indicators" index="1"]
+position = Vector2(10.0258, -18.0205)
+
+[node name="TagPanel" type="Panel" parent="Guard1Spot/BigBossPanel/TagSpot"]
+layout_mode = 0
+offset_left = -1099.530029296875
+offset_top = 26.177499771118164
+offset_right = -749.5289916992188
+offset_bottom = 290.1780090332031
+
+[node name="TagCloseupSprite" type="Sprite2D" parent="Guard1Spot/BigBossPanel/TagSpot/TagPanel"]
+position = Vector2(179, 122)
+texture = ExtResource("121")
+
+[node name="TagLabel1" type="Label" parent="Guard1Spot/BigBossPanel/TagSpot/TagPanel"]
+layout_mode = 0
+offset_left = 183.0
+offset_top = 158.0
+offset_right = 315.0
+offset_bottom = 202.0
+theme_override_colors/font_color = Color(0.207843, 0.572549, 0.556863, 1)
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("116")
+theme_override_font_sizes/font_size = 18
+text = "FINALE_GUARD_TAG_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="TagLabel2" type="Label" parent="Guard1Spot/BigBossPanel/TagSpot/TagPanel"]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 74.0
+offset_right = 198.0
+offset_bottom = 196.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("116")
+theme_override_font_sizes/font_size = 20
+text = "FINALE_LUKE_TAG"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Guard2Spot" parent="." instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 616.0
+offset_top = 97.0
+offset_right = -151.0
+offset_bottom = -149.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "RkP"
+
+[node name="Indicators" parent="Guard2Spot" index="0"]
+offset_left = 65.2782974243164
+offset_top = 74.2522964477539
+offset_right = 65.2782974243164
+offset_bottom = 74.2522964477539
+
+[node name="Highlighter" parent="Guard2Spot/Indicators" index="0"]
+modulate = Color(0.190659, 0.387039, 0.393205, 1)
+position = Vector2(-32.7737, 28.1502)
+frame_progress = 0.5579100251197815
+
+[node name="FocusIndicator" parent="Guard2Spot/Indicators" index="1"]
+position = Vector2(-33.3059, 34.3797)
+
+[node name="BigBossPanel" type="Panel" parent="Guard2Spot"]
+layout_mode = 0
+offset_left = -1687.0
+offset_top = 402.0
+offset_right = -964.0
+offset_bottom = 893.0
+
+[node name="SecurityTendingSprite" type="AnimatedSprite2D" parent="Guard2Spot/BigBossPanel"]
+position = Vector2(199.611, 273.295)
+sprite_frames = SubResource("SpriteFrames_en1pi")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.10744199901819229
+
+[node name="BigBossSpeech" type="Label" parent="Guard2Spot/BigBossPanel"]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 38.0
+offset_right = 697.0
+offset_bottom = 84.0
+theme_override_fonts/font = ExtResource("116")
+theme_override_font_sizes/font_size = 24
+text = "FINALE_GREER_SPEECH_2"
+autowrap_mode = 3
+
+[node name="TagSprite" type="Sprite2D" parent="Guard2Spot/BigBossPanel"]
+position = Vector2(390.248, 192.305)
+texture = ExtResource("120")
+
+[node name="TagSpot" parent="Guard2Spot/BigBossPanel" instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 340.0
+offset_top = 133.0
+offset_right = -278.0
+offset_bottom = -227.0
+hotspot_id = "Xh0"
+
+[node name="Indicators" parent="Guard2Spot/BigBossPanel/TagSpot" index="0"]
+offset_left = -14.602800369262695
+offset_top = 27.912799835205078
+offset_right = -14.602800369262695
+offset_bottom = 27.912799835205078
+
+[node name="Highlighter" parent="Guard2Spot/BigBossPanel/TagSpot/Indicators" index="0"]
+modulate = Color(0.454902, 0.658824, 0.6, 1)
+position = Vector2(9.02588, -19)
+frame_progress = 0.4181149899959564
+
+[node name="FocusIndicator" parent="Guard2Spot/BigBossPanel/TagSpot/Indicators" index="1"]
+position = Vector2(10.0259, -15)
+
+[node name="TagPanel" type="Panel" parent="Guard2Spot/BigBossPanel/TagSpot"]
+layout_mode = 0
+offset_left = -1099.530029296875
+offset_top = 26.177499771118164
+offset_right = -749.5289916992188
+offset_bottom = 290.1780090332031
+
+[node name="TagCloseupSprite" type="Sprite2D" parent="Guard2Spot/BigBossPanel/TagSpot/TagPanel"]
+position = Vector2(179, 122)
+texture = ExtResource("121")
+
+[node name="TagLabel2" type="Label" parent="Guard2Spot/BigBossPanel/TagSpot/TagPanel"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 71.0
+offset_right = 207.0
+offset_bottom = 186.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("116")
+theme_override_font_sizes/font_size = 20
+text = "FINALE_GREER_TAG"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TagLabel1" type="Label" parent="Guard2Spot/BigBossPanel/TagSpot/TagPanel"]
+layout_mode = 0
+offset_left = 182.0
+offset_top = 158.0
+offset_right = 315.0
+offset_bottom = 202.0
+theme_override_colors/font_color = Color(0.207843, 0.572549, 0.556863, 1)
+theme_override_constants/line_spacing = -8
+theme_override_fonts/font = ExtResource("116")
+theme_override_font_sizes/font_size = 18
+text = "FINALE_GUARD_TAG_LABEL"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="GuardSprite3" type="Sprite2D" parent="Guard2Spot/BigBossPanel"]
+position = Vector2(542.522, 326.48)
+texture = ExtResource("117")
+
+[node name="DiscSpot" parent="." instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 191.4810028076172
+offset_top = 139.85299682617188
+offset_right = -663.5189819335938
+offset_bottom = -286.1470031738281
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "0bE"
+
+[node name="Indicators" parent="DiscSpot" index="0"]
+offset_left = 3.250109910964966
+offset_top = 61.02669906616211
+offset_right = 3.250109910964966
+offset_bottom = 61.02669906616211
+
+[node name="Highlighter" parent="DiscSpot/Indicators" index="0"]
+modulate = Color(0.434453, 0.64, 0.3392, 1)
+position = Vector2(11.8947, -34.8487)
+frame_progress = 0.4303959906101227
+
+[node name="FocusIndicator" parent="DiscSpot/Indicators" index="1"]
+visible = false
+position = Vector2(10.3593, -29.6261)
+
+[node name="BigBossPanel" type="Panel" parent="DiscSpot"]
+layout_mode = 0
+offset_left = -198.0
+offset_top = 445.0
+offset_right = 150.0
+offset_bottom = 804.0
+
+[node name="BigBossSprite" type="Sprite2D" parent="DiscSpot/BigBossPanel"]
+position = Vector2(174.56, 178.209)
+scale = Vector2(0.895759, 0.895759)
+texture = ExtResource("158")
+
+[node name="IdolSpot" parent="." instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 362.0
+offset_top = 158.0
+offset_right = -352.0
+offset_bottom = -213.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "FKG"
+
+[node name="Indicators" parent="IdolSpot" index="0"]
+offset_left = 3.250109910964966
+offset_top = 61.02669906616211
+offset_right = 3.250109910964966
+offset_bottom = 61.02669906616211
+
+[node name="Highlighter" parent="IdolSpot/Indicators" index="0"]
+modulate = Color(0.854462, 0.276858, 0, 1)
+frame_progress = 0.5606970191001892
+
+[node name="BigBossPanel" type="Panel" parent="IdolSpot"]
+layout_mode = 0
+offset_left = -418.9880065917969
+offset_top = -1026.1099853515625
+offset_right = 84.01229858398438
+offset_bottom = -585.114990234375
+
+[node name="BigBossSprite" type="Sprite2D" parent="IdolSpot/BigBossPanel"]
+position = Vector2(244.786, 234.592)
+scale = Vector2(0.270466, 0.270466)
+texture = ExtResource("159")
+
+[node name="IdolInsideSpot" parent="IdolSpot/BigBossPanel" instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 189.0
+offset_top = 144.0
+offset_right = -145.0
+offset_bottom = -138.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "ECR"
+
+[node name="Indicators" parent="IdolSpot/BigBossPanel/IdolInsideSpot" index="0"]
+offset_left = 3.250109910964966
+offset_top = 61.02669906616211
+offset_right = 3.250109910964966
+offset_bottom = 61.02669906616211
+
+[node name="Highlighter" parent="IdolSpot/BigBossPanel/IdolInsideSpot/Indicators" index="0"]
+modulate = Color(0.992653, 0.768808, 0.73539, 1)
+frame_progress = 0.8455510139465332
+
+[node name="BigBossPanel" type="Panel" parent="IdolSpot/BigBossPanel/IdolInsideSpot"]
+layout_mode = 0
+offset_left = -1270.0999755859375
+offset_top = -299.0589904785156
+offset_right = -680.094970703125
+offset_bottom = 328.9410095214844
+
+[node name="BigBossSprite" type="Sprite2D" parent="IdolSpot/BigBossPanel/IdolInsideSpot/BigBossPanel"]
+position = Vector2(295.421, 310.151)
+texture = ExtResource("160")
+
+[node name="IdolInsideSpot2" parent="IdolSpot/BigBossPanel" instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 75.0
+offset_top = 137.0
+offset_right = -328.0
+offset_bottom = -170.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "I3d"
+
+[node name="Indicators" parent="IdolSpot/BigBossPanel/IdolInsideSpot2" index="0"]
+offset_left = 3.250109910964966
+offset_top = 61.02669906616211
+offset_right = 3.250109910964966
+offset_bottom = 61.02669906616211
+
+[node name="Highlighter" parent="IdolSpot/BigBossPanel/IdolInsideSpot2/Indicators" index="0"]
+modulate = Color(0.992157, 0.768627, 0.737255, 1)
+position = Vector2(17.1526, 25.9346)
+frame_progress = 0.8732830286026001
+
+[node name="FocusIndicator" parent="IdolSpot/BigBossPanel/IdolInsideSpot2/Indicators" index="1"]
+position = Vector2(15.5995, 34.1743)
+
+[node name="BigBossPanel" type="Panel" parent="IdolSpot/BigBossPanel/IdolInsideSpot2"]
+layout_mode = 0
+offset_left = -484.0
+offset_top = -662.0
+offset_right = 36.0
+offset_bottom = -273.0
+
+[node name="BigBossSprite" type="Sprite2D" parent="IdolSpot/BigBossPanel/IdolInsideSpot2/BigBossPanel"]
+position = Vector2(259.569, 190.138)
+texture = ExtResource("161")
+
+[node name="SuitCaseSpot" parent="." instance=ExtResource("79")]
+layout_mode = 1
+offset_left = 441.0
+offset_top = 328.0
+offset_right = -327.0
+offset_bottom = -100.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "u1F"
+
+[node name="Indicators" parent="SuitCaseSpot" index="0"]
+offset_left = 3.250109910964966
+offset_top = 61.02669906616211
+offset_right = 3.250109910964966
+offset_bottom = 61.02669906616211
+
+[node name="Highlighter" parent="SuitCaseSpot/Indicators" index="0"]
+modulate = Color(0.111879, 0.225663, 0.228667, 1)
+position = Vector2(-3.63373, -9.18231)
+frame_progress = 0.8795890212059021
+
+[node name="FocusIndicator" parent="SuitCaseSpot/Indicators" index="1"]
+position = Vector2(23.9017, -1.01429)
+
+[node name="SuitCasePanel" type="Panel" parent="SuitCaseSpot"]
+layout_mode = 0
+offset_left = 100.20999908447266
+offset_top = -940.968994140625
+offset_right = 623.2100219726563
+offset_bottom = -392.968994140625
+
+[node name="BigBossSprite" type="Sprite2D" parent="SuitCaseSpot/SuitCasePanel"]
+position = Vector2(271.361, 265.303)
+texture = ExtResource("162")
+
+[editable path="Guard1Spot"]
+[editable path="Guard1Spot/BigBossPanel/CodeSpot"]
+[editable path="Guard1Spot/BigBossPanel/TagSpot"]
+[editable path="Guard2Spot"]
+[editable path="Guard2Spot/BigBossPanel/TagSpot"]
+[editable path="DiscSpot"]
+[editable path="IdolSpot"]
+[editable path="IdolSpot/BigBossPanel/IdolInsideSpot"]
+[editable path="IdolSpot/BigBossPanel/IdolInsideSpot2"]
+[editable path="SuitCaseSpot"]

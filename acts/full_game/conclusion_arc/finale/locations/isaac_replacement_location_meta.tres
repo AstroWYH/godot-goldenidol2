@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=4 format=4 uid="uid://o0awu3lutq3q"]
+
+[ext_resource type="AudioStream" uid="uid://bppc0wgosbfln" path="res://shared/assets/sfx/ambiences/finale_tv_station_ambience.ogg" id="1"]
+[ext_resource type="Texture2D" uid="uid://b0fxgfncwnf42" path="res://acts/full_game/conclusion_arc/finale/assets/wolf2background.png" id="2"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="3"]
+
+[resource]
+script = ExtResource("3")
+location_id = 9
+path = "res://acts/full_game/conclusion_arc/finale/locations/isaac_replacement_location.tscn"
+background = ExtResource("2")
+audio_side_effect = 2
+music_layers = []
+ambience_layers = [ExtResource("1")]
+music_layer_ids = [0, 1]

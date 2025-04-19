@@ -1,0 +1,121 @@
+[gd_scene load_steps=16 format=4 uid="uid://oun5ap8t8n6n"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://dioppstaxf134" path="res://shared/ui/portrait_puzzle/portrait_puzzle.tscn" id="3"]
+[ext_resource type="Resource" uid="uid://b5p5d7xw2xb1q" path="res://acts/full_game/conclusion_arc/boardroom/puzzles/boardroom_portrait_puzzle_meta.tres" id="4"]
+[ext_resource type="PackedScene" uid="uid://btemkxm05phja" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.tscn" id="5"]
+[ext_resource type="Texture2D" uid="uid://c1cqclj8urwdg" path="res://shared/assets/portraits/mistress.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bpu6gbb3hxtx0" path="res://shared/assets/portraits/wife.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://jeidu0kdmx8d" path="res://shared/assets/portraits/nathan.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://kxcc2lohut0x" path="res://shared/assets/portraits/secretary.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c1rfx7kt7v2rh" path="res://shared/assets/portraits/manager.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bek0yyyihmw0v" path="res://shared/assets/portraits/mary_lab.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://d3sub5l0086s5" path="res://shared/assets/portraits/badengineerburning.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dbrjqgnrgoouj" path="res://shared/assets/portraits/jacknovak.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://b1xgqmusxwi7s" path="res://shared/assets/portraits/marielab.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://d3164k42w53l8" path="res://shared/assets/portraits/intern.png" id="15"]
+
+[node name="PortraitPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_left = 1033.0
+offset_top = 245.0
+offset_right = 1730.0
+offset_bottom = 762.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" parent="Frame/MarginContainer" index="1"]
+visible = true
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
+layout_mode = 1
+
+[node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("3")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = 7.0
+offset_top = 14.0
+offset_right = 7.0
+offset_bottom = 201.0
+mouse_filter = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+puzzle_meta = ExtResource("4")
+
+[node name="GridContainer" type="GridContainer" parent="PuzzleGroup/Puzzle" index="1"]
+layout_mode = 2
+theme_override_constants/h_separation = 20
+theme_override_constants/v_separation = 20
+columns = 5
+
+[node name="Lover" parent="PuzzleGroup/Puzzle/GridContainer" index="0" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 90
+custom_portrait = ExtResource("6")
+
+[node name="Wife" parent="PuzzleGroup/Puzzle/GridContainer" index="1" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 91
+custom_portrait = ExtResource("7")
+
+[node name="Boss" parent="PuzzleGroup/Puzzle/GridContainer" index="2" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 93
+custom_portrait = ExtResource("8")
+
+[node name="Secretary" parent="PuzzleGroup/Puzzle/GridContainer" index="3" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 99
+custom_portrait = ExtResource("9")
+
+[node name="Manager" parent="PuzzleGroup/Puzzle/GridContainer" index="4" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 94
+custom_portrait = ExtResource("10")
+
+[node name="Organiser" parent="PuzzleGroup/Puzzle/GridContainer" index="5" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 95
+custom_portrait = ExtResource("11")
+
+[node name="BadEngineer" parent="PuzzleGroup/Puzzle/GridContainer" index="6" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 98
+custom_portrait = ExtResource("12")
+
+[node name="Rationalist" parent="PuzzleGroup/Puzzle/GridContainer" index="7" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 96
+custom_portrait = ExtResource("13")
+
+[node name="Collector" parent="PuzzleGroup/Puzzle/GridContainer" index="8" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 97
+custom_portrait = ExtResource("14")
+
+[node name="Intern" parent="PuzzleGroup/Puzzle/GridContainer" index="9" instance=ExtResource("5")]
+layout_mode = 2
+color = Color(1, 0.494118, 0.219608, 0)
+link_character_ref_id = 92
+custom_portrait = ExtResource("15")
+
+[editable path="Frame"]

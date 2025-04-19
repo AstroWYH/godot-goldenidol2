@@ -1,0 +1,460 @@
+[gd_scene load_steps=109 format=4 uid="uid://blvifk361l4q7"]
+
+[ext_resource type="Texture2D" uid="uid://b4i2wvjbakjkg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dk5hk241bhcoc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cmvulmccwrxbf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d2oedhvbjmhep" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dqruy6mdok7s0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://g2t3nnq6l6ox" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://b2fl7odg2b6th" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://521lcrgpchm5" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c0nw3c5ieoot1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://55dxasw5ux37" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://brodwpwt8q1vg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bujerduw4gg7v" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://byvjx0hin8uo1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cgiwn53gma8q" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b178uc4ypedrs" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cct4c0p78n22k" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://c8ivsfljl5m4w" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://brmeo8f63f1eo" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b86whw0dgptpb" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://letctkmdg755" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cd4xxhwm0bocm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://b0eyaye0gjrjh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://brnu6yq3s0wgj" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dwttumeonfkam" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ss73k83xhodo" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cabbh42iytw7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://ckbiirs3m0wt2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dk5bpjx4gduop" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://ph6qcejw2c6g" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://c6f4d7eg7u5qs" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cnob6o77m6g1a" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://yebxcntxl0a8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cmh374nwbwea8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://doxpcww80xpyv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://ct8dvca2vnxau" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://douxto5hrhh16" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c8n42tgnmq5vx" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://uh7lrlnkqsvd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://ckpmxhnyyxbh7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bnyxbfnerf6dv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://3fbw273vcds6" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bfgcxj7guib41" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bjyx51avxh8n" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cmf604ya41r3k" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dt4dl15qemn5b" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://wmswmb0t37n8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://beim5u410hhay" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://b15jeyobayoop" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://ds7itop3y3lqf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://cdmi4fc2aa57j" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://rmlc24cqd3h4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://hkqc710y2gm1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://bldcli5vb12xx" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bmmijnt6s6px3" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_053.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://c3qhc3gqi1w25" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_054.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bjkci8ejppuln" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_055.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://jiy54y6gitir" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_056.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://bkb53vnll43da" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_057.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://bxtcbdedymv6k" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_058.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://b32cmxqfiac8w" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_059.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://c0ssibnh38fmi" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_060.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://e05cy1idsvra" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_061.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://6e4lbcf6otfa" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_062.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://c265hmt50lj2n" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_063.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://hqe4p3cyel38" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_064.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://tnj7mx35ae5a" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_065.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://bx8wy47vkjg4s" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_066.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://cue6mu25rhuel" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_067.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://qykxgp78s1ep" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_068.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://b3n5snwqorg01" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_069.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://cxav7akymbn5v" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_070.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://ch1xojs6w22sy" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_071.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://drrwpnr7efdg0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_072.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://dw11womohbx5c" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_073.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://d06lfnx01xqt2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_074.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://b0ehlmkmhta7p" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_075.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://b42cqo5lap3t8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_076.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://b1t1oko6d8k7f" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_077.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://mjpx113ys45p" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_078.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://xcs1gqws81u2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_079.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://dg5e1rmnjjei7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_080.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://b1236avcf7rwc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_081.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://d3skg6d8ojoi2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_082.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://blel271u44dvf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_083.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://bx1rgijswkdbv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_084.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://bqwkvwbve7pdw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_085.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://crsa1sok8u1lw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_086.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://c75ywsqvusudu" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_087.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://cvqii8q0whcwq" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_088.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://bt3idmdbr662e" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_089.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://bvkutnn1a7023" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_090.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://dh8jpo6c6vf16" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_091.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://b28yntf0rh0dx" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_092.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://dm1616uafdepf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_093.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://b6slk3w3670nq" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_094.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://da7ajem8pio3m" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_095.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://bp0tpr7wqda3p" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_096.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://cgn8pg7i1n6mh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_097.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://dg64nnxog44ti" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_098.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://bcl5pbug0rgg2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_099.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://b5w58v2gqly1m" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_100.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://djs1kjsefs72t" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_101.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://cawdd1f320ln8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_102.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://bvcqirq6oln3f" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_103.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://celj5g8t1jq47" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_104.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://3mpw7m4a8u6m" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_105.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://bf5mwii38nr6e" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_106.png" id="107"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jj5w5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="JenifferCloseup" type="Panel"]
+offset_left = -1566.0
+offset_top = 122.0
+offset_right = -721.0
+offset_bottom = 757.0
+
+[node name="JenifferSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 438.0
+offset_top = 52.0
+offset_right = 794.0
+offset_bottom = 312.0
+text = "BEACH_HAT_MODEL_SPEECH"
+autowrap_mode = 3
+
+[node name="JenifferFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(41.0618, 19.0648)
+sprite_frames = SubResource("SpriteFrames_jj5w5")
+autoplay = "default"
+frame_progress = 0.8683180212974548
+centered = false

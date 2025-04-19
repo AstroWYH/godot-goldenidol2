@@ -1,0 +1,356 @@
+[gd_scene load_steps=29 format=4 uid="uid://bqy8h4d8irl16"]
+
+[ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
+[ext_resource type="Texture2D" uid="uid://bw6nycu2cd1yg" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/comic_left - Copy.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bkcfd6ciapoa6" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/comic_right - Copy.png" id="3"]
+[ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="4"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="6"]
+[ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="7"]
+[ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="8"]
+[ext_resource type="Resource" uid="uid://fhximk2n1c2f" path="res://acts/full_game/conclusion_arc/museum/puzzles/comic_puzzle_meta.tres" id="9"]
+[ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="11"]
+[ext_resource type="Resource" uid="uid://dwagat73gw5mb" path="res://acts/full_game/conclusion_arc/museum/puzzles/comic_puzzle_second_meta.tres" id="12"]
+
+[sub_resource type="Resource" id="Resource_4jfsn"]
+script = ExtResource("5")
+linked_item_ref_id = 1167
+
+[sub_resource type="Resource" id="Resource_pydis"]
+script = ExtResource("5")
+linked_item_ref_id = 448
+
+[sub_resource type="Resource" id="Resource_j1oea"]
+script = ExtResource("5")
+linked_item_ref_id = 1125
+
+[sub_resource type="Resource" id="Resource_gikgm"]
+script = ExtResource("5")
+linked_item_ref_id = 1043
+
+[sub_resource type="Resource" id="Resource_qcm3f"]
+script = ExtResource("5")
+linked_item_ref_id = 573
+
+[sub_resource type="Resource" id="Resource_lrlv1"]
+script = ExtResource("5")
+linked_item_ref_id = 746
+
+[sub_resource type="Resource" id="Resource_8akpv"]
+script = ExtResource("5")
+linked_item_ref_id = 1177
+
+[sub_resource type="Resource" id="Resource_pbw23"]
+script = ExtResource("5")
+linked_item_ref_id = 1131
+
+[sub_resource type="Resource" id="Resource_w88wr"]
+script = ExtResource("5")
+linked_item_ref_id = 1140
+
+[sub_resource type="Resource" id="Resource_mu3xb"]
+script = ExtResource("5")
+linked_item_ref_id = 1138
+
+[sub_resource type="Resource" id="Resource_pbr23"]
+script = ExtResource("5")
+linked_item_ref_id = 1139
+
+[sub_resource type="Resource" id="Resource_t17a2"]
+script = ExtResource("5")
+linked_item_ref_id = 296
+
+[sub_resource type="Resource" id="Resource_ebjnv"]
+script = ExtResource("5")
+linked_item_ref_id = 651
+
+[sub_resource type="Resource" id="Resource_qqr30"]
+script = ExtResource("5")
+linked_item_ref_id = 1134
+
+[sub_resource type="Resource" id="Resource_b5oux"]
+script = ExtResource("5")
+linked_item_ref_id = 1132
+
+[sub_resource type="Resource" id="Resource_qtv17"]
+script = ExtResource("5")
+linked_item_ref_id = 1133
+
+[node name="ComicPuzzle" node_paths=PackedStringArray("puzzle_group") instance=ExtResource("1")]
+offset_left = 994.0
+offset_top = 83.0
+offset_right = 1916.0
+offset_bottom = 819.0
+puzzle_group = NodePath("PuzzleGroup")
+
+[node name="Frame" parent="." index="0"]
+metadata/_edit_lock_ = true
+
+[node name="BackgroundSprite1" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
+position = Vector2(346.6, 192)
+texture = ExtResource("2")
+
+[node name="BackgroundSprite2" type="Sprite2D" parent="Frame/MarginContainer/Background" index="1"]
+position = Vector2(346.6, 515)
+texture = ExtResource("3")
+
+[node name="Names" parent="Frame" index="1" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 27.0
+offset_top = 40.0
+offset_right = -629.0
+offset_bottom = -550.0
+color = Color(0.984314, 0.721569, 1, 0)
+phrases = [SubResource("Resource_4jfsn"), SubResource("Resource_pydis"), SubResource("Resource_j1oea")]
+cell_size = Vector2(140, 30)
+
+[node name="Objects" parent="Frame" index="2" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 26.0
+offset_top = 162.0
+offset_right = -637.0
+offset_bottom = -414.0
+color = Color(0.984314, 0.721569, 1, 0)
+phrases = [SubResource("Resource_gikgm"), SubResource("Resource_qcm3f"), SubResource("Resource_lrlv1"), SubResource("Resource_8akpv")]
+cell_size = Vector2(140, 30)
+
+[node name="Actions" parent="Frame" index="3" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 26.0
+offset_top = 318.0
+offset_right = -635.0
+offset_bottom = -231.0
+color = Color(0.984314, 0.721569, 1, 0)
+phrases = [SubResource("Resource_pbw23"), SubResource("Resource_w88wr"), SubResource("Resource_mu3xb"), SubResource("Resource_pbr23")]
+cell_size = Vector2(140, 30)
+
+[node name="Special" parent="Frame" index="4" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 25.0
+offset_top = 474.0
+offset_right = -636.0
+offset_bottom = -92.0
+color = Color(0.984314, 0.721569, 1, 0)
+phrases = [SubResource("Resource_t17a2"), SubResource("Resource_ebjnv")]
+cell_size = Vector2(140, 30)
+
+[node name="Numeral" parent="Frame" index="5" instance=ExtResource("4")]
+layout_mode = 1
+offset_left = 25.0
+offset_top = 565.0
+offset_right = -636.0
+offset_bottom = -45.0
+color = Color(0.984314, 0.721569, 1, 0)
+phrases = [SubResource("Resource_qqr30"), SubResource("Resource_b5oux"), SubResource("Resource_qtv17")]
+cell_size = Vector2(140, 30)
+
+[node name="PuzzleStateIndicator" parent="." index="1"]
+metadata/_edit_lock_ = true
+
+[node name="CloseButton" parent="." index="2"]
+metadata/_edit_lock_ = true
+
+[node name="PuzzleGroup" parent="." index="4" instance=ExtResource("6")]
+layout_mode = 1
+
+[node name="Puzzle1" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("7")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 511.0
+offset_top = 64.0
+offset_right = -28.0
+offset_bottom = -421.0
+theme = ExtResource("8")
+puzzle_meta = ExtResource("9")
+text = "MUSEUM_DRAWINGS_PUZZLE_CONTENT_1"
+phrase_grids = [NodePath("../../Frame/Names")]
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/Puzzle1" index="2" instance=ExtResource("10")]
+accepted_types = 1
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/1" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1167
+
+[node name="2" parent="PuzzleGroup/Puzzle1" index="3" instance=ExtResource("10")]
+accepted_types = 4
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/2" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1138
+
+[node name="3" parent="PuzzleGroup/Puzzle1" index="4" instance=ExtResource("10")]
+accepted_types = 16
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/3" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1133
+
+[node name="4" parent="PuzzleGroup/Puzzle1" index="5" instance=ExtResource("10")]
+accepted_types = 2
+id = 4
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/4" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 746
+
+[node name="5" parent="PuzzleGroup/Puzzle1" index="6" instance=ExtResource("10")]
+accepted_types = 8
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/5" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 296
+
+[node name="6" parent="PuzzleGroup/Puzzle1" index="7" instance=ExtResource("10")]
+accepted_types = 1
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/6" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1125
+
+[node name="7" parent="PuzzleGroup/Puzzle1" index="8" instance=ExtResource("10")]
+accepted_types = 4
+id = 7
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/7" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1139
+
+[node name="8" parent="PuzzleGroup/Puzzle1" index="9" instance=ExtResource("10")]
+accepted_types = 8
+id = 8
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/8" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 651
+
+[node name="9" parent="PuzzleGroup/Puzzle1" index="10" instance=ExtResource("10")]
+accepted_types = 2
+id = 9
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle1/9" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1043
+
+[node name="Puzzle2" parent="PuzzleGroup" index="1" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("7")]
+unique_name_in_owner = true
+layout_direction = 2
+layout_mode = 1
+offset_left = 508.0
+offset_top = 340.0
+offset_right = -17.0
+offset_bottom = -15.0
+scale = Vector2(0.989467, 1.0533)
+theme = ExtResource("8")
+puzzle_meta = ExtResource("12")
+text = "MUSEUM_DRAWINGS_PUZZLE_CONTENT_2"
+phrase_grids = [NodePath("../../Frame/Names")]
+preview_ids = true
+preview_answers = true
+
+[node name="1" parent="PuzzleGroup/Puzzle2" index="2" instance=ExtResource("10")]
+accepted_types = 1
+id = 1
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/1" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1167
+
+[node name="2" parent="PuzzleGroup/Puzzle2" index="3" instance=ExtResource("10")]
+accepted_types = 4
+id = 2
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/2" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1138
+
+[node name="3" parent="PuzzleGroup/Puzzle2" index="4" instance=ExtResource("10")]
+accepted_types = 16
+id = 3
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/3" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1133
+
+[node name="5" parent="PuzzleGroup/Puzzle2" index="5" instance=ExtResource("10")]
+accepted_types = 2
+id = 5
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/5" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 746
+
+[node name="6" parent="PuzzleGroup/Puzzle2" index="6" instance=ExtResource("10")]
+accepted_types = 8
+id = 6
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/6" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 296
+
+[node name="7" parent="PuzzleGroup/Puzzle2" index="7" instance=ExtResource("10")]
+accepted_types = 2
+id = 7
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/7" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1043
+
+[node name="8" parent="PuzzleGroup/Puzzle2" index="8" instance=ExtResource("10")]
+accepted_types = 4
+id = 8
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/8" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1139
+
+[node name="9" parent="PuzzleGroup/Puzzle2" index="9" instance=ExtResource("10")]
+accepted_types = 8
+id = 9
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/9" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 651
+
+[node name="10" parent="PuzzleGroup/Puzzle2" index="10" instance=ExtResource("10")]
+accepted_types = 1
+id = 10
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/10" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 448
+
+[node name="11" parent="PuzzleGroup/Puzzle2" index="11" instance=ExtResource("10")]
+accepted_types = 1
+id = 11
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/11" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 448
+
+[node name="12" parent="PuzzleGroup/Puzzle2" index="12" instance=ExtResource("10")]
+accepted_types = 4
+id = 12
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/12" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1131
+
+[node name="13" parent="PuzzleGroup/Puzzle2" index="13" instance=ExtResource("10")]
+accepted_types = 1
+id = 13
+valid_by_default = false
+
+[node name="Answer" parent="PuzzleGroup/Puzzle2/13" index="0" instance=ExtResource("11")]
+answer_item_ref_id = 1125
+
+[editable path="Frame"]

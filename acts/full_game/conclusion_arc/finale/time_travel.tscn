@@ -1,0 +1,34 @@
+[gd_scene load_steps=7 format=4 uid="uid://bwf6jyxckwxw5"]
+
+[ext_resource type="Texture2D" uid="uid://cylmwadqcund5" path="res://acts/full_game/conclusion_arc/finale/assets/orange.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://xiw5kt55lc8u" path="res://acts/full_game/conclusion_arc/finale/assets/clockmarker.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dm3i2ckw2wej5" path="res://acts/full_game/conclusion_arc/finale/assets/clock.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://o6f4fwv23ra4" path="res://acts/full_game/conclusion_arc/finale/assets/clock2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cu6sfidswh65g" path="res://acts/full_game/conclusion_arc/finale/assets/wolf.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://jkr82s665gno" path="res://acts/full_game/conclusion_arc/finale/assets/wolf2.png" id="6"]
+
+[node name="TimeTravel" type="Node2D"]
+
+[node name="Orange" type="Sprite2D" parent="."]
+position = Vector2(152, 139)
+texture = ExtResource("1")
+
+[node name="Clockmarker" type="Sprite2D" parent="."]
+position = Vector2(156, 137)
+texture = ExtResource("2")
+
+[node name="Clock" type="Sprite2D" parent="."]
+position = Vector2(1547, 94)
+texture = ExtResource("3")
+
+[node name="Clock2" type="Sprite2D" parent="."]
+position = Vector2(1842, 95)
+texture = ExtResource("4")
+
+[node name="Wolf" type="Sprite2D" parent="."]
+position = Vector2(394, 113)
+texture = ExtResource("5")
+
+[node name="Wolf2" type="Sprite2D" parent="."]
+position = Vector2(172, 411)
+texture = ExtResource("6")

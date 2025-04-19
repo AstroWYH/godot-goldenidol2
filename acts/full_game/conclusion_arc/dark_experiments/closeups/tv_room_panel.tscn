@@ -1,0 +1,115 @@
+[gd_scene load_steps=10 format=4 uid="uid://b8xrht0850gri"]
+
+[ext_resource type="Texture2D" uid="uid://ckmiv1we2q73d" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/livingroom.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="5"]
+
+[sub_resource type="Resource" id="Resource_f2kg8"]
+script = ExtResource("3")
+linked_item_ref_id = 1024
+
+[sub_resource type="Resource" id="Resource_2plw1"]
+script = ExtResource("3")
+linked_item_ref_id = 1015
+
+[sub_resource type="Resource" id="Resource_82njj"]
+script = ExtResource("3")
+linked_item_ref_id = 659
+
+[sub_resource type="Resource" id="Resource_w8lnn"]
+script = ExtResource("3")
+linked_item_ref_id = 660
+
+[node name="TVRoomPanel" type="Panel"]
+offset_left = -2293.0
+offset_top = -124.0
+offset_right = -1460.0
+offset_bottom = 457.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(418.67, 286.975)
+texture = ExtResource("1")
+
+[node name="LetterSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 631.0
+offset_top = 290.0
+offset_right = -128.0
+offset_bottom = -214.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "9PM"
+extra_items_unlocked = [SubResource("Resource_f2kg8"), SubResource("Resource_2plw1"), SubResource("Resource_82njj"), SubResource("Resource_w8lnn")]
+
+[node name="Indicators" parent="LetterSpot" index="0"]
+offset_left = -27.63920021057129
+offset_top = 46.882198333740234
+offset_right = -27.63920021057129
+offset_bottom = 46.882198333740234
+
+[node name="Highlighter" parent="LetterSpot/Indicators" index="0"]
+modulate = Color(0.485722, 0.701922, 0.627248, 1)
+position = Vector2(30.5709, -8.84572)
+
+[node name="FocusIndicator" parent="LetterSpot/Indicators" index="1"]
+position = Vector2(31.5709, -4.84572)
+
+[node name="HarryNotesPanel" type="Panel" parent="LetterSpot"]
+layout_mode = 0
+offset_left = 232.0
+offset_top = -307.0
+offset_right = 733.0
+offset_bottom = 397.0
+
+[node name="TextureRect" type="TextureRect" parent="LetterSpot/HarryNotesPanel"]
+modulate = Color(0.571945, 0.722913, 0.689567, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 6.9999799728393555
+offset_right = 490.0
+offset_bottom = 689.0
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D9" type="Sprite2D" parent="LetterSpot/HarryNotesPanel/TextureRect"]
+position = Vector2(210.602, 557)
+rotation = 3.118259906768799
+skew = -0.008633850142359734
+texture = ExtResource("5")
+region_enabled = true
+region_rect = Rect2(142, 384.149, 454, 213.473)
+
+[node name="Sprite2D8" type="Sprite2D" parent="LetterSpot/HarryNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(295.602, 209)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("5")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="LetterSpot/HarryNotesPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(222.602, 361)
+rotation = 6.295479774475098
+scale = Vector2(0.807298, 1)
+texture = ExtResource("5")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Page1Label3" type="RichTextLabel" parent="LetterSpot/HarryNotesPanel"]
+layout_mode = 0
+offset_left = 40.064300537109375
+offset_top = 35.119300842285156
+offset_right = 466.0639953613281
+offset_bottom = 667.1190185546875
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.206133, 0.297856, 0.277276, 1)
+bbcode_enabled = true
+text = "WAREHOUSE_TV_ROOM_TEXT"
+fit_content = true
+scroll_active = false
+
+[editable path="LetterSpot"]

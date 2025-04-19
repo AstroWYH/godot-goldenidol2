@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=3 format=4 uid="uid://dx1wodinds0q8"]
+
+[ext_resource type="Texture2D" uid="uid://bnj80jnaryn7o" path="res://acts/full_game/conclusion_arc/museum/assets/museumbackground.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+location_id = 1
+path = "res://acts/full_game/conclusion_arc/museum/locations/museum_location.tscn"
+background = ExtResource("1")
+audio_side_effect = 0
+music_layers = []
+ambience_layers = []
+music_layer_ids = [0]

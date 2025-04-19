@@ -1,0 +1,208 @@
+[gd_scene load_steps=40 format=4 uid="uid://civlltc8o46hy"]
+
+[ext_resource type="Texture2D" uid="uid://d0x7s5xqxcfua" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c5e3gh88i3ibc" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ct2h3amu6y4r1" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://0hgqb17f36ig" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ddb2co1ef0f0f" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://i1wb6l82ti2l" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dkr4dyqf60ntd" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://doh05ipoio6cc" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cdcybeuntpltv" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://c56b7m7sxnb8h" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bc3k4dsy8rfw3" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bita70pr763gi" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cioapxso1a64m" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://oquhlnty05at" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cng62y6n6cepe" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dbl4o2urfcp2j" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d28xa7flrd3a3" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://d08bkm86pexlg" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://l2lg5r7s7gsp" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://daomlbxli26ax" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cl2ncoghice61" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bx683qg3ia0b0" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://dfm6r1l7274lt" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://8plmx0sul6sr" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ce6b21esc5rfe" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cm6wdodfo0kxp" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://oec27dh8hlh" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b52lpn08hk43y" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bfuhtjn3cdwbp" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cv7yd8gaxy5vj" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://d3jokoxetq8m2" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bwcxrbw0bxk5u" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://djsvjohj7mtme" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c3u30qwum3to6" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b78t3fsme1qvx" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://dj115iokq28t" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://lrutng631iep" path="res://shared/assets/objects/disc3small.png" id="37"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="38"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_81k0w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}],
+"loop": true,
+"name": &"new_animation_1",
+"speed": 24.0
+}]
+
+[node name="JackCloseup" type="Panel"]
+offset_left = 123.0
+offset_top = 856.0
+offset_right = 924.0
+offset_bottom = 1546.0
+
+[node name="JackSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 52.0
+offset_right = 742.0
+offset_bottom = 181.0
+text = "BEACH_JACK_SPEECH"
+autowrap_mode = 3
+
+[node name="JackFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(17.2252, 248.754)
+sprite_frames = SubResource("SpriteFrames_81k0w")
+animation = &"new_animation_1"
+autoplay = "new_animation_1"
+frame_progress = 0.37655898928642273
+centered = false
+
+[node name="Seal" type="Sprite2D" parent="."]
+position = Vector2(452.925, 384.214)
+texture = ExtResource("37")
+
+[node name="SealSpot" parent="." instance=ExtResource("38")]
+layout_mode = 1
+offset_left = 399.8399963378906
+offset_top = 273.8389892578125
+offset_right = -290.1600036621094
+offset_bottom = -223.16099548339844
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "N6Z"
+text = "BEACH_DATA_DISK_TOOLTIP"
+
+[node name="Indicators" parent="SealSpot" index="0"]
+offset_left = -16.901899337768555
+offset_top = 29.098899841308594
+offset_right = -16.901899337768555
+offset_bottom = 29.098899841308594
+
+[node name="Highlighter" parent="SealSpot/Indicators" index="0"]
+modulate = Color(0.769241, 0.295301, 0.281286, 1)
+position = Vector2(9.02576, -2.89075)
+
+[node name="FocusIndicator" parent="SealSpot/Indicators" index="1"]
+position = Vector2(10.0258, 1.10925)
+
+[editable path="SealSpot"]

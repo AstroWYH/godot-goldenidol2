@@ -1,0 +1,371 @@
+[gd_scene load_steps=11 format=4 uid="uid://cr7esj5jwjmt6"]
+
+[ext_resource type="Texture2D" uid="uid://78jv31qtb8gu" path="res://acts/full_game/conclusion_arc/finale/assets/guardroom.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://bmfsqrfvx8t04" path="res://acts/full_game/conclusion_arc/finale/assets/idol1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d13xkbx7s5goj" path="res://acts/full_game/conclusion_arc/finale/assets/idolinside.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="6"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="7"]
+[ext_resource type="Texture2D" uid="uid://cjqfgr1xpy243" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/sink.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b3mysr22fgt4x" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/poster.png" id="9"]
+[ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="10"]
+
+[node name="IdolRoomPanel" type="Panel"]
+offset_left = 975.0
+offset_top = -226.0
+offset_right = 1915.0
+offset_bottom = 389.0
+
+[node name="BigBossSprite" type="Sprite2D" parent="."]
+position = Vector2(469, 304)
+texture = ExtResource("1")
+
+[node name="IdolSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 278.0
+offset_top = 291.0
+offset_right = -499.0
+offset_bottom = -87.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "hpX"
+
+[node name="Indicators" parent="IdolSpot" index="0"]
+offset_left = 12.879599571228027
+offset_top = 43.56740188598633
+offset_right = 12.879599571228027
+offset_bottom = 43.56740188598633
+
+[node name="Highlighter" parent="IdolSpot/Indicators" index="0"]
+modulate = Color(0.484883, 0.0639872, 0.0823382, 1)
+
+[node name="IdolCloseupPanel" type="Panel" parent="IdolSpot"]
+layout_mode = 0
+offset_left = -75.07879638671875
+offset_top = 389.7489929199219
+offset_right = 321.9209899902344
+offset_bottom = 790.7490234375
+
+[node name="IdolSprite" type="Sprite2D" parent="IdolSpot/IdolCloseupPanel"]
+position = Vector2(195.774, 208.895)
+scale = Vector2(0.220896, 0.213946)
+texture = ExtResource("3")
+
+[node name="IdolInsideSpot" parent="IdolSpot/IdolCloseupPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 175.0
+offset_top = 154.0
+offset_right = -143.0
+offset_bottom = -145.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "zcO"
+
+[node name="Indicators" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot" index="0"]
+offset_left = 3.250109910964966
+offset_top = 61.02669906616211
+offset_right = 3.250109910964966
+offset_bottom = 61.02669906616211
+
+[node name="Highlighter" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot/Indicators" index="0"]
+modulate = Color(0.486275, 0.0627451, 0.0823529, 1)
+frame_progress = 0.6652309894561768
+
+[node name="FocusIndicator" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot/Indicators" index="1"]
+visible = false
+
+[node name="IdolInside" type="Panel" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot"]
+layout_mode = 0
+offset_left = -190.0
+offset_top = 304.0
+offset_right = 400.0
+offset_bottom = 927.0
+
+[node name="IdolSprite" type="Sprite2D" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot/IdolInside"]
+position = Vector2(295.836, 308.345)
+texture = ExtResource("4")
+
+[node name="ProtocolSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 688.0
+offset_top = 375.0
+offset_right = -202.0
+offset_bottom = -98.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "VSR"
+
+[node name="Indicators" parent="ProtocolSpot" index="0"]
+offset_left = 6.644800186157227
+offset_top = 59.40299987792969
+offset_right = 6.644800186157227
+offset_bottom = 59.40299987792969
+
+[node name="Highlighter" parent="ProtocolSpot/Indicators" index="0"]
+modulate = Color(0.119205, 0.282087, 0.208699, 1)
+position = Vector2(0.106997, -18.5237)
+frame_progress = 0.7539629936218262
+
+[node name="FocusIndicator" parent="ProtocolSpot/Indicators" index="1"]
+position = Vector2(-0.447797, -12.3694)
+
+[node name="ProtocolPanel" type="Panel" parent="ProtocolSpot"]
+layout_mode = 0
+offset_left = 345.0
+offset_top = 442.0
+offset_right = 1069.0
+offset_bottom = 1238.0
+
+[node name="ProtocolSprite" type="TextureRect" parent="ProtocolSpot/ProtocolPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = -12.0
+offset_bottom = -19.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+stretch_mode = 1
+
+[node name="TextureRect" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
+position = Vector2(511.393, 264.428)
+texture = ExtResource("6")
+region_enabled = true
+region_rect = Rect2(211.421, 0, 388.579, 230.024)
+
+[node name="TextureRect2" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
+position = Vector2(129.78, 582.508)
+rotation = -4.903160095214844
+texture = ExtResource("6")
+region_enabled = true
+region_rect = Rect2(203.449, 363.777, 396.551, 217.016)
+
+[node name="TextureRect3" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
+position = Vector2(358.147, 249.376)
+rotation = -1.570430040359497
+texture = ExtResource("6")
+region_enabled = true
+region_rect = Rect2(98.0414, 230.909, 501.959, 150.583)
+
+[node name="TextureRect4" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
+position = Vector2(312.073, 510.263)
+rotation = -4.7035298347473145
+texture = ExtResource("6")
+region_enabled = true
+region_rect = Rect2(98.0414, 230.909, 501.959, 150.583)
+
+[node name="Names" type="Label" parent="ProtocolSpot/ProtocolPanel"]
+visible = false
+layout_mode = 0
+offset_left = 43.0
+offset_top = 24.0
+offset_right = 672.0
+offset_bottom = 585.0
+theme = ExtResource("7")
+text = "Upgraded security protocol
+ 
+Since the attack of the Empathy cult since the dismissal of our consultant, we have to take every precaution to ensure the safety of the I.D.O.L.
+ 
+1. An OPIG services certified guard should always be present with I.D.O.L.
+ 
+2. Keys to the lab are granted only to me, Marie, Tim and the shift guard.
+ 
+3. Idol control panel and the interrior is now protected with a pin-code that is available only to me, Marie and Jack.
+
+Eugene"
+autowrap_mode = 2
+
+[node name="ProtocolLabel" type="RichTextLabel" parent="ProtocolSpot/ProtocolPanel"]
+layout_mode = 0
+offset_left = 22.59040069580078
+offset_top = 21.575300216674805
+offset_right = 700.5900268554688
+offset_bottom = 674.5750122070313
+theme = ExtResource("7")
+bbcode_enabled = true
+text = "FINALE_EUGENE_PROTOCOL"
+scroll_active = false
+
+[node name="SinkSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 805.0
+offset_top = 227.0
+offset_right = -33.0
+offset_bottom = -249.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Qrj"
+
+[node name="Indicators" parent="SinkSpot" index="0"]
+offset_left = 6.644800186157227
+offset_top = 59.40299987792969
+offset_right = 6.644800186157227
+offset_bottom = 59.40299987792969
+
+[node name="Highlighter" parent="SinkSpot/Indicators" index="0"]
+modulate = Color(0.306923, 0.306923, 0.306923, 1)
+position = Vector2(24.9776, 2.28079)
+
+[node name="FocusIndicator" parent="SinkSpot/Indicators" index="1"]
+position = Vector2(25.9776, 6.28079)
+
+[node name="SinkPanel" type="Panel" parent="SinkSpot"]
+layout_mode = 0
+offset_left = 409.0
+offset_top = -423.0
+offset_right = 927.0
+offset_bottom = -34.0
+
+[node name="SinkSprite" type="Sprite2D" parent="SinkSpot/SinkPanel"]
+position = Vector2(11.0993, 9.29531)
+texture = ExtResource("8")
+centered = false
+
+[node name="SinSpot2" parent="SinkSpot/SinkPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 140.0
+offset_top = 199.0
+offset_right = -179.0
+offset_bottom = -61.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "dLW"
+text = "FINALE_VOMIT_TOOLTIP"
+
+[node name="Indicators" parent="SinkSpot/SinkPanel/SinSpot2" index="0"]
+offset_left = 23.922800064086914
+offset_top = 32.63629913330078
+offset_right = 23.922800064086914
+offset_bottom = 32.63629913330078
+
+[node name="Highlighter" parent="SinkSpot/SinkPanel/SinSpot2/Indicators" index="0"]
+modulate = Color(0.895404, 0.598661, 0.43643, 1)
+position = Vector2(-49.0184, 26.5815)
+frame_progress = 0.7877150177955627
+
+[node name="FocusIndicator" parent="SinkSpot/SinkPanel/SinSpot2/Indicators" index="1"]
+position = Vector2(-48.0184, 30.5815)
+
+[node name="ClipboardSpot3" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 125.0
+offset_top = 188.0
+offset_right = -702.0
+offset_bottom = -249.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "WVX"
+
+[node name="Indicators" parent="ClipboardSpot3" index="0"]
+offset_left = 6.644800186157227
+offset_top = 59.40299987792969
+offset_right = 6.644800186157227
+offset_bottom = 59.40299987792969
+
+[node name="Highlighter" parent="ClipboardSpot3/Indicators" index="0"]
+modulate = Color(0.373034, 0.338137, 0.0503079, 1)
+position = Vector2(-0.195487, 1.09262)
+
+[node name="FocusIndicator" parent="ClipboardSpot3/Indicators" index="1"]
+position = Vector2(0.804513, 5.09262)
+
+[node name="ClipboardPanel" type="Panel" parent="ClipboardSpot3"]
+layout_mode = 0
+offset_left = 307.0
+offset_top = -1008.0
+offset_right = 881.0
+offset_bottom = -231.0
+
+[node name="ClipboardSprite" type="Sprite2D" parent="ClipboardSpot3/ClipboardPanel"]
+position = Vector2(11.0993, 8.28848)
+texture = ExtResource("9")
+centered = false
+
+[node name="PosterLabel1" type="RichTextLabel" parent="ClipboardSpot3/ClipboardPanel"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 19.0
+offset_right = 557.0
+offset_bottom = 120.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/bold_font = ExtResource("10")
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 40
+bbcode_enabled = true
+text = "PINNACLE_POSTER_SNIPPET_TITLE"
+scroll_active = false
+
+[node name="PosterLabel2" type="RichTextLabel" parent="ClipboardSpot3/ClipboardPanel"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 270.0
+offset_right = 259.0
+offset_bottom = 406.0
+mouse_filter = 1
+theme = ExtResource("7")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "PINNACLE_POSTER_SNIPPET_1"
+scroll_active = false
+
+[node name="PosterLabel3" type="RichTextLabel" parent="ClipboardSpot3/ClipboardPanel"]
+layout_mode = 0
+offset_left = 297.0
+offset_top = 270.0
+offset_right = 520.0
+offset_bottom = 410.0
+mouse_filter = 1
+theme = ExtResource("7")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "PINNACLE_POSTER_SNIPPET_2"
+scroll_active = false
+
+[node name="PosterLabel4" type="RichTextLabel" parent="ClipboardSpot3/ClipboardPanel"]
+layout_mode = 0
+offset_left = 39.0
+offset_top = 419.0
+offset_right = 533.0
+offset_bottom = 751.0
+mouse_filter = 1
+theme = ExtResource("7")
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 27
+bbcode_enabled = true
+text = "PINNACLE_POSTER_SNIPPET_3"
+scroll_active = false
+
+[node name="DoorSpot2" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 17.0
+offset_top = 134.0
+offset_right = -883.0
+offset_bottom = -36.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "r8I"
+text = "FINALE_LAB_DOOR_TOOLTIP"
+
+[node name="Indicators" parent="DoorSpot2" index="0"]
+offset_left = -33.385501861572266
+offset_top = 70.16339874267578
+offset_right = -33.385501861572266
+offset_bottom = 70.16339874267578
+
+[node name="Highlighter" parent="DoorSpot2/Indicators" index="0"]
+modulate = Color(0.456271, 0.679854, 0.380727, 1)
+position = Vector2(20.5385, 74.7213)
+
+[node name="FocusIndicator" parent="DoorSpot2/Indicators" index="1"]
+position = Vector2(21.5385, 78.7213)
+
+[editable path="IdolSpot"]
+[editable path="IdolSpot/IdolCloseupPanel/IdolInsideSpot"]
+[editable path="ProtocolSpot"]
+[editable path="SinkSpot"]
+[editable path="SinkSpot/SinkPanel/SinSpot2"]
+[editable path="ClipboardSpot3"]
+[editable path="DoorSpot2"]

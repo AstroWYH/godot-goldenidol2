@@ -1,0 +1,412 @@
+[gd_scene load_steps=84 format=4 uid="uid://ci6680owvs643"]
+
+[ext_resource type="Texture2D" uid="uid://6owa2utyeckw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://wpcchyrn0vbb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://ddymymydmc06h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dguikerr74iou" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://2b7hys4pe6bu" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://doyxnpbem7xub" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bx6codp8yl80x" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://77aki1j7d72v" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://bcrtw8xn1y3fm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://b70qpttysr3lc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://gmgnlybdomd1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cuxn7082jmrib" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dvwsp82qftgu5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bsvtwfsjusrij" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://djvmve824plbm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://db02nj173hond" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://bs5uas0jtslm6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://b5b10lydmwyr6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bey2ae4iwm33r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://dudtxlhm7amwd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://dt1tvpkn6d4g" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://by7s06h6rxc3k" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b566c1yes2qvp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://ctytwg1p3dktp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://50sn0alxilvl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://c6woptfmliqoc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bj6r2ibtvvpxn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://54fvclmpdst6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://doub2giso4mah" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://ds0ib45emxlwn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dlhdiix8tjfuq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://ny2f7bp41vpy" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://ccrg5nildkilj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://yaxvpw8q7qgd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://cbp6dhwkgtofx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://ckdfvq42gq5x7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://qnhsgnncbvso" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://yri5f4fcear6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://bwh0q87e3m3ww" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://b0hlcwfimmpr7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://c10d78ay74lq6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://b1d226y6ljqad" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://deiiyl2msnm8u" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://bjvluwnfdu60o" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://2up2ixov8jit" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cug6yu5lm4k7u" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://cbdlp13emkqkc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://csao6osd61qv1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://ckk77s82yqsd1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bu8v57n05lgh3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cvlejvm0f5xd6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://ciqspcmalyke8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://b1e5cc0t1p6yq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://d25ldq7gcekjq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_053.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://bwebghb78jeo5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_054.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://8pvxb5xpug1n" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_055.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://bsj3txmtivrc2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_056.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://rq4rjep7ehi4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_057.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://cc8vdgiutwfba" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_058.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://crwqjj53i517f" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_059.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://cihygd8f3ojv1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_060.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://cxck56fu3n1o0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_061.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://b2euytdhaefn0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_062.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://hjjgx7vkvoxo" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_063.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://cpchu8kcu8t4i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_064.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://c3o4yoaqlwxcf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_065.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://bml0w6o1xhfci" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_066.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://btg2qq0pjyid3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_067.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://b6sppattwy50y" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_068.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://b6ydss7xu30a8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_069.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://dcqv541w5ajk0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_070.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://cp3fw57sasumv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_071.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://ckn04thpa6r6i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_072.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://xwqsxcdep70v" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_073.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://ck0xn4xcb6kra" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_074.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://d25rjaps00gy4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_075.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://mdvsh85f2eu6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_076.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://4r5vlate2gtx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_077.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://bqxqjlgjicysq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/cigarettes.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://cyc1y1gnfrbk" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/handgun.png" id="80"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="81"]
+[ext_resource type="Texture2D" uid="uid://cmjajaqqpyasx" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/keys2.png" id="82"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_au0er"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="GangsterPanel" type="Panel"]
+offset_left = -214.0
+offset_top = 782.0
+offset_right = 665.0
+offset_bottom = 1410.0
+
+[node name="Speech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 27.0
+offset_right = 849.0
+offset_bottom = 144.0
+text = "WAREHOUSE_LUKE_SPEECH"
+autowrap_mode = 3
+
+[node name="CharacterSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(343.314, 384.038)
+sprite_frames = SubResource("SpriteFrames_au0er")
+autoplay = "default"
+frame_progress = 0.46887698769569397
+
+[node name="CigarettesSprite" type="Sprite2D" parent="."]
+position = Vector2(606, 249)
+scale = Vector2(0.621536, 0.639086)
+texture = ExtResource("79")
+
+[node name="GunSprite" type="Sprite2D" parent="."]
+position = Vector2(673.251, 421.683)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("80")
+centered = false
+
+[node name="GunSpot" parent="." instance=ExtResource("81")]
+layout_mode = 1
+offset_left = 658.0
+offset_top = 417.0
+offset_right = -24.99959945678711
+offset_bottom = -39.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "s8e"
+text = "WAREHOUSE_GUN_TOOLTIP"
+
+[node name="Indicators" parent="GunSpot" index="0"]
+offset_left = -2.3072400093078613
+offset_top = 32.272499084472656
+offset_right = -2.3072400093078613
+offset_bottom = 32.272499084472656
+
+[node name="Highlighter" parent="GunSpot/Indicators" index="0"]
+modulate = Color(0.4125, 0.540833, 0.55, 1)
+position = Vector2(-15.6804, -25.4674)
+
+[node name="FocusIndicator" parent="GunSpot/Indicators" index="1"]
+position = Vector2(-14.6804, -21.4674)
+
+[node name="KeyRingSpot" parent="." instance=ExtResource("81")]
+layout_mode = 1
+offset_left = 665.0
+offset_top = 233.0
+offset_right = -25.0
+offset_bottom = -238.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Igb"
+text = "WAREHOUSE_KEYS_TOOLTIP"
+
+[node name="Indicators" parent="KeyRingSpot" index="0"]
+offset_left = -12.726300239562988
+offset_top = 14.730500221252441
+offset_right = -12.726300239562988
+offset_bottom = 14.730500221252441
+
+[node name="Highlighter" parent="KeyRingSpot/Indicators" index="0"]
+modulate = Color(0.77102, 0.616849, 0, 1)
+position = Vector2(5.4415, -12.1596)
+
+[node name="FocusIndicator" parent="KeyRingSpot/Indicators" index="1"]
+position = Vector2(6.4415, -8.15963)
+
+[node name="KeyRingSprite" type="Sprite2D" parent="KeyRingSpot"]
+position = Vector2(84.5107, 83.6386)
+scale = Vector2(1.00161, 1.00341)
+texture = ExtResource("82")
+
+[editable path="GunSpot"]
+[editable path="KeyRingSpot"]

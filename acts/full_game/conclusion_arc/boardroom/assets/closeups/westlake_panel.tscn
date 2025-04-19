@@ -1,0 +1,295 @@
+[gd_scene load_steps=49 format=4 uid="uid://wi6bvdy5t3u4"]
+
+[ext_resource type="Texture2D" uid="uid://bijhnst6e8biy" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b7ekei8feasyw" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bl6ovg1ten85s" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://0vcu45a7ngva" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://r3o4mdhgtsc8" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://1c5vqv0wp7b6" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://m62cttv5hjjw" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cgubx33ynd6p3" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b6o6lac8b8se5" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cbpmrfml1b86s" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bbte3dylvk4a5" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://dcg105ll0ohsi" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bmdck2xyx14tk" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://dcdv36ooep30a" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://u05cmfujqmld" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://b5wuixdb0ynof" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://d4nh0jtr8hv8p" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://il02a4bvajco" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bjpl7ntflgqby" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://daun0h5rcwsyg" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ceu4h1sg07prf" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ci36t77esh8ip" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://3uommg0w3o4d" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://by2255o6ig8ba" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bxrlnmwbujy1p" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://tvhm7sn8ia1d" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dv1lowrdxhbu5" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://diyosyv4h71dt" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://bmwjlkf058i50" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bro0skgu0ih6g" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://8c6kaymfjaec" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://cpwho8m6ji8tc" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://cg8mxwckfvepv" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dsbcuctyi78dk" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bshf4j6dyc46u" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://5h8bi4y4vjsb" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://b43287j1fidhs" path="res://shared/assets/papers/SmallNote_V2_ICO.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://du87mipqsgb4s" path="res://shared/assets/papers/nametag_clean.png" id="38"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="39"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="40"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="42"]
+[ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="43"]
+[ext_resource type="Texture2D" uid="uid://dysilr8alr1ku" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/signature_smaller.png" id="44"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jyjvf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_npim5"]
+script = ExtResource("40")
+linked_item_ref_id = 704
+
+[sub_resource type="Resource" id="Resource_j8n0d"]
+script = ExtResource("40")
+linked_item_ref_id = 702
+
+[sub_resource type="Resource" id="Resource_muk3g"]
+script = ExtResource("40")
+linked_item_ref_id = 108
+
+[node name="WestlakePanel" type="Panel"]
+offset_left = 1344.0
+offset_top = -1154.0
+offset_right = 2145.0
+offset_bottom = -573.0
+
+[node name="WestlakeSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 58.84000015258789
+offset_top = 34.91999816894531
+offset_right = 734.8400268554688
+offset_bottom = 151.9199981689453
+text = "BOARDROOM_MARIE_SPEECH"
+autowrap_mode = 3
+
+[node name="WestlakeSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(557.895, 341.92)
+sprite_frames = SubResource("SpriteFrames_jyjvf")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.371722012758255
+
+[node name="NDASprite" type="Sprite2D" parent="."]
+position = Vector2(312.5, 450.53)
+texture = ExtResource("37")
+
+[node name="LanyardSprite" type="Sprite2D" parent="."]
+position = Vector2(158.253, 248.845)
+texture = ExtResource("38")
+
+[node name="LanyardLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 261.0
+offset_right = 264.0
+offset_bottom = 338.0
+theme_override_colors/font_color = Color(0.406465, 0.322751, 0.172574, 1)
+text = "BOARDROOM_MARIE_TAG_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="NDASpot" parent="." instance=ExtResource("39")]
+layout_mode = 1
+offset_left = 248.0
+offset_top = 354.0
+offset_right = -427.0
+offset_bottom = -64.0
+hotspot_id = "Py8"
+extra_items_unlocked = [SubResource("Resource_npim5"), SubResource("Resource_j8n0d"), SubResource("Resource_muk3g")]
+
+[node name="Indicators" parent="NDASpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="NDASpot/Indicators" index="0"]
+modulate = Color(0.578247, 0.692375, 0.681009, 1)
+position = Vector2(13.0193, -11.9761)
+
+[node name="FocusIndicator" parent="NDASpot/Indicators" index="1"]
+position = Vector2(14.0193, -7.97614)
+
+[node name="NDAPanel" type="Panel" parent="NDASpot"]
+layout_mode = 0
+offset_left = -205.0
+offset_top = -1242.0
+offset_right = 398.0
+offset_bottom = -448.0
+
+[node name="TextureRect" type="TextureRect" parent="NDASpot/NDAPanel"]
+modulate = Color(0.890196, 0.913725, 0.921569, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 7.0
+offset_right = 591.0
+offset_bottom = 773.0
+texture = ExtResource("41")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="NDASpot/NDAPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(393.84, 102.92)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("42")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="NDASpot/NDAPanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(157.84, 630.92)
+rotation = 6.353240013122559
+scale = Vector2(0.807298, 1)
+texture = ExtResource("42")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NDASpot/NDAPanel"]
+layout_mode = 0
+offset_left = 27.84000015258789
+offset_top = 24.920000076293945
+offset_right = 562.8400268554688
+offset_bottom = 749.9199829101563
+alignment = 1
+
+[node name="Body" type="Label" parent="NDASpot/NDAPanel/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("43")
+text = "BOARDROOM_MARIE_NDA_CONTENT"
+autowrap_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="NDASpot/NDAPanel/VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("44")
+stretch_mode = 2
+
+[editable path="NDASpot"]

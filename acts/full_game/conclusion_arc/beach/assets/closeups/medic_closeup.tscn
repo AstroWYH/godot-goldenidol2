@@ -1,0 +1,245 @@
+[gd_scene load_steps=56 format=4 uid="uid://c1hkblu5j7fc6"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://bdjopwcd0voe1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dui7t2vjldvc0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://y1gxpagtf5jh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://boaw05s6cc5r4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://dg8bxyjgxw5c4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://dtrwsygb3yhed" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://ot3y1vu6gjtk" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c2qhffq6627fo" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://vx5q4wsj32xj" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://b58yw6yyt3gyc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://c7nvw2cv3gjen" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bdy5q7nhmwatr" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://bbxdrj23pxxdv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bw33q03xrfuu0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dsfkpw6iqn0ne" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://dbhp8xxmnmspy" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://hgq43utobort" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://07480gis4im7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://m2n5dqajmt13" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cl217hgmpkgxh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://jxmkg1ts510r" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://brt0ltroxabfy" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dkyj2y8du2yjh" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dvpengsask60d" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bi5dw5fybqgao" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://2aijtsdwomy6" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://bb0l2g8oclyhk" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://c1ty3x34kpejc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dxwycgfip8b68" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cfnr16qsiaa8q" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dhrmplw7d8rjk" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bgxrbtxexq7tc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c4gdmw33d1nes" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://djqjg2klls8ty" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bepgblj7tcmtb" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://c5n60360lsyxm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://o7x82831uaxy" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://jwmq3rscluqj" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ibcqsai5iu1i" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://c5wbp4xawnuj5" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://dsuiy0p8ffv1h" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dqe4jvculqyul" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://cdsigikm1kjf4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://dlkqjmg3m76lt" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://ctbqfiy4xmenc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://b4q7w4r7mlg0j" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bkefy4gljukth" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cglrmsac2wcty" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://bbrt6nkq8qqay" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bf5bhxr3hmggw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_049.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bk3lwkk2gvye6" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_050.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://c722nvxt3sn8r" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_051.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bktlcs4pt31ao" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_052.png" id="54"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g2xum"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="MedicCloseup" type="Panel"]
+offset_left = -643.0330200195313
+offset_top = 1118.800048828125
+offset_right = 157.968994140625
+offset_bottom = 1731.81005859375
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 44.07109832763672
+offset_top = 35.12099838256836
+offset_right = 667.0709838867188
+offset_bottom = 164.12100219726563
+theme = ExtResource("1")
+text = "BEACH_MEDIC_SPEECH"
+autowrap_mode = 3
+
+[node name="Character" type="AnimatedSprite2D" parent="."]
+position = Vector2(582.936, 396.348)
+sprite_frames = SubResource("SpriteFrames_g2xum")
+autoplay = "default"
+frame_progress = 0.04195699840784073

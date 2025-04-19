@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=4 uid="uid://buvv08i8xd2k0"]
+
+[ext_resource type="Texture2D" uid="uid://b1gemqu1q412l" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/Idolroom.png" id="1"]
+
+[node name="IdolPanel" type="Panel"]
+offset_left = 34.56779861450195
+offset_top = 847.1019897460938
+offset_right = 794.5679931640625
+offset_bottom = 1651.0999755859375
+
+[node name="IdolSprite" type="Sprite2D" parent="."]
+position = Vector2(378.095, 394.115)
+texture = ExtResource("1")

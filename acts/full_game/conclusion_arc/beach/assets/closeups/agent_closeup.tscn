@@ -1,0 +1,426 @@
+[gd_scene load_steps=78 format=4 uid="uid://dqqoytjo03a1r"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://4icipmch56k2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bfot2oe13vvom" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cu2ijab252af1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://ntq2q5ibcgsl" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ucujq2y2ae88" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bvnfb31nwrva2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b7dvpst2ugmwo" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://c3ehxuucv6qwd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://qyd3wtwlgyrl" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dpawxepq5r4u4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://y3uot88a07gd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dx5beruvfqt8f" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://da8ohcmpghfh8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://bqjekpriugfji" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://ductf7prp6j6m" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b7f4x1yc4bt57" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://1to0xuc5i3i7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://blpx741rqom1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://81s7jnpop7tx" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://bwexnmgrjlwp7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://y5qtqb65ntnn" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://bc27nk6a0w40t" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://b7qnlm83cjmxg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dy7ps40m5plff" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://b5higdcgml6di" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bt0a52bct5nin" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://3h7bbrsssbyv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://urmywf34mglg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://cfp51nk66htd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://dcsjt2m8ytfyy" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://b3cdxve6begut" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://be37nd1yo0w42" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://bpn6wljwfyi33" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://dl828cwgank7g" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cobswbixyrji6" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://ec1wovdq1k66" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://onn0uqx1jrgt" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://c645lsppvr7vx" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://w4gxqjx4q0gm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://dehmvalbk36au" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://h7g5xc3v6p6f" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://cgcq0nmnfflth" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://beh32argkj5ab" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://cr1a8y5xxyn8d" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bfudy4qpah7qd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://dg4rj7vt64r3a" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://dr4bmbixfnuba" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://ccjsuf541a0el" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_047.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://ckkynus45tp8l" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_048.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://cg4yydnarf0or" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_049.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://bpupsuwyd4hs6" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_050.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://jrfqm23hhp5r" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_051.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://c4dwhjb5603c4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_052.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://uaxsdndt75uj" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_053.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bnbl6ll8qx61s" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_054.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://b57aisgl3yyh6" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_055.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://d573o10lurm2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_056.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://cgf3dy2ur70pl" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_057.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://12b6n8fxdnpu" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_058.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://db0o2cqdyb3qc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_059.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://c57s5ubmifxdj" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_060.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://dabuwu6u1qvfb" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_061.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://q1trlqt86m0u" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_062.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://cdb5lj8ainkkr" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_063.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://bynl43yoi3lwl" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_064.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://cxshydjlsbn3q" path="res://shared/assets/papers/Noradijumlapina_ICO.png" id="68"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="69"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="70"]
+[ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://d0r5ly7sn32tw" path="res://shared/assets/papers/Noradijumlapina.png" id="73"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3gebo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_sritl"]
+script = ExtResource("70")
+linked_item_ref_id = 867
+
+[sub_resource type="Resource" id="Resource_t38jj"]
+script = ExtResource("70")
+linked_item_ref_id = 368
+
+[sub_resource type="Resource" id="Resource_ywjyp"]
+script = ExtResource("70")
+linked_item_ref_id = 369
+
+[node name="AgentCloseup" type="Panel"]
+offset_left = 111.17900085449219
+offset_top = 1060.5999755859375
+offset_right = 912.176025390625
+offset_bottom = 1673.6099853515625
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 34.054298400878906
+offset_top = 27.09600067138672
+offset_right = 747.0540161132813
+offset_bottom = 145.0959930419922
+theme = ExtResource("1")
+text = "BEACH_SANDRA_SPEECH"
+autowrap_mode = 3
+
+[node name="Agent" type="AnimatedSprite2D" parent="."]
+position = Vector2(557.821, 393.4)
+scale = Vector2(1.026, 1)
+sprite_frames = SubResource("SpriteFrames_3gebo")
+autoplay = "default"
+frame_progress = 0.7748039960861206
+
+[node name="LetterSprite" type="Sprite2D" parent="."]
+position = Vector2(192.309, 482.64)
+texture = ExtResource("67")
+
+[node name="NoteSprite" type="Sprite2D" parent="."]
+position = Vector2(319.513, 482.64)
+texture = ExtResource("68")
+
+[node name="NoteSpot" parent="." instance=ExtResource("69")]
+layout_mode = 1
+offset_left = 148.23800659179688
+offset_top = 401.364013671875
+offset_right = -569.7620239257813
+offset_bottom = -81.63359832763672
+hotspot_id = "Qhw"
+extra_items_unlocked = [SubResource("Resource_sritl"), SubResource("Resource_t38jj"), SubResource("Resource_ywjyp")]
+
+[node name="Indicators" parent="NoteSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="NoteSpot/Indicators" index="0"]
+modulate = Color(0.621524, 0.621524, 0.621524, 1)
+
+[node name="NotePanel" type="Panel" parent="NoteSpot"]
+layout_mode = 0
+offset_left = -132.0
+offset_top = 322.0
+offset_right = 417.0
+offset_bottom = 978.0
+
+[node name="TextureRect" type="TextureRect" parent="NoteSpot/NotePanel"]
+modulate = Color(0.690196, 0.611765, 0.568627, 1)
+layout_mode = 0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 535.0
+offset_bottom = 636.0
+texture = ExtResource("71")
+expand_mode = 1
+stretch_mode = 1
+
+[node name="Sprite2D8" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.447059)
+position = Vector2(342.583, 167.036)
+scale = Vector2(0.807284, 0.80732)
+skew = -0.004320859909057617
+texture = ExtResource("72")
+region_enabled = true
+region_rect = Rect2(142, 6.51494, 454, 222.943)
+
+[node name="Sprite2D7" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
+modulate = Color(1, 1, 1, 0.647059)
+position = Vector2(187.583, 426.036)
+rotation = 6.402040004730225
+scale = Vector2(0.807298, 1)
+texture = ExtResource("72")
+region_enabled = true
+region_rect = Rect2(142, 221.5, 454, 149.5)
+
+[node name="Case numbers" type="Label" parent="NoteSpot/NotePanel"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 59.0
+offset_right = 496.0
+offset_bottom = 566.0
+theme_override_colors/font_color = Color(0.2162, 0.21712, 0.23, 1)
+text = "BEACH_SANDRA_NOTE_CONTENT"
+autowrap_mode = 2
+
+[node name="NoteSpot2" parent="." instance=ExtResource("69")]
+layout_mode = 1
+offset_left = 272.0
+offset_top = 406.0
+offset_right = -428.99700927734375
+offset_bottom = -77.01000213623047
+hotspot_id = "Xkn"
+
+[node name="Indicators" parent="NoteSpot2" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="NoteSpot2/Indicators" index="0"]
+modulate = Color(0.760297, 0.760297, 0.760297, 1)
+
+[node name="NoteFromEugenePanel" type="Panel" parent="NoteSpot2"]
+layout_mode = 0
+offset_left = -941.0750122070313
+offset_top = 436.8680114746094
+offset_right = -392.07501220703125
+offset_bottom = 974.8679809570313
+
+[node name="NoteSprite" type="Sprite2D" parent="NoteSpot2/NoteFromEugenePanel"]
+position = Vector2(265.426, 256.873)
+texture = ExtResource("73")
+
+[node name="Case numbers" type="Label" parent="NoteSpot2/NoteFromEugenePanel"]
+layout_mode = 0
+offset_left = 77.0
+offset_top = 185.0
+offset_right = 466.0
+offset_bottom = 345.0
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+text = "BEACH_SANDRA_NOTE_FROM_EUGENE_CONTENT"
+autowrap_mode = 2
+
+[editable path="NoteSpot"]
+[editable path="NoteSpot2"]

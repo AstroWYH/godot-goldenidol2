@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=4 uid="uid://crpn2ih4mhsgo"]
+
+[ext_resource type="Texture2D" uid="uid://5pkjxm5y37ve" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/phone_broken.png" id="1"]
+
+[node name="PhonePanel" type="Panel"]
+offset_left = -507.0
+offset_top = 621.0
+offset_right = -113.0
+offset_bottom = 1068.0
+
+[node name="PhoneSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 37.0
+offset_right = 381.0
+offset_bottom = 88.0
+text = "BOARDROOM_WIFE_SPEECH"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PhoneSprite" type="Sprite2D" parent="."]
+position = Vector2(197.317, 251.855)
+texture = ExtResource("1")

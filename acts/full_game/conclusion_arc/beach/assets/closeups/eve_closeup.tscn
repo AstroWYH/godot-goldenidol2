@@ -1,0 +1,226 @@
+[gd_scene load_steps=51 format=4 uid="uid://cfn8ouaudlyts"]
+
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
+[ext_resource type="Texture2D" uid="uid://75wraww8gil0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_000.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b37d65obm8gg2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_001.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c2okl8tet87mw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_002.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://brsfdpakewy3" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_003.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://o8sonei4oekj" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_004.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bjio008i11yxf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_005.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://don1trlk6ansg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_006.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://b6pw7w1x5i02h" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_007.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://bnkjqu1h5fnkk" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_008.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dvneb65ujr37b" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_009.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://cqvph47e30lnf" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_010.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://cqvuaagacuo33" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_011.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ceero73vqfdu" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_012.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://xou74yscemi5" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_013.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://djb0le3foqfg7" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_014.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ks63dwmfquct" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_015.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://dbuxtm1ig2e0d" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_016.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cjrxkrgv6orxs" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_017.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://blgvrtlbgywh1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_018.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://mki5k403u6v3" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_019.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bcrcw4pf3irtw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_020.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c8x4w1o8i3qvm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_021.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://yxftdwnmvl7b" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_022.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ennjqs77aotq" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_023.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://ba2u3lyobpd0o" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_024.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dulgcx62xobhc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_025.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://b76un55hrvsn2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_026.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://cv1h7hs5b5gkd" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_027.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://duhiou4bycp8v" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_028.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://daldi4pjc7r7e" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_029.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://drr5uaii5tdcv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_030.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c1qshj4lm8i21" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_031.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dl2m1u4g262ph" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_032.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://c6sgewe8rteh8" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_033.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bxxcf8l3fl3ml" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_034.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://w5ob53145fgw" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_035.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://0r71dnkgf05a" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_036.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://3jtgxf4rwjwv" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_037.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://bghvaihlwnu0c" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_038.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://1urcnfpduh40" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_039.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://8hxywdxqej23" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_040.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://dibxramutdm2s" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_041.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://caftbxdrjwj32" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_042.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bvh6rsfb4un00" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_043.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://3jvdr7s3nwv4" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_044.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://c3upfr6bhrkrm" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_045.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bw8hmyoo07gtb" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_046.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://b11tmsu5y7ga3" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_047.png" id="49"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_spk6l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="EveCloseup" type="Panel"]
+offset_left = -1457.0
+offset_top = -584.0
+offset_right = -617.0
+offset_bottom = 51.0
+
+[node name="EveSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 394.0
+offset_top = 38.0
+offset_right = 801.0
+offset_bottom = 294.0
+theme = ExtResource("1")
+text = "BEACH_UMBRELLA_MODEL_SPEECH"
+autowrap_mode = 3
+
+[node name="EveFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(42.0671, 26.0883)
+sprite_frames = SubResource("SpriteFrames_spk6l")
+autoplay = "default"
+frame_progress = 0.9235960245132446
+centered = false

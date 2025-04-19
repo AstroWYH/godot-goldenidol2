@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=13 format=4 uid="uid://cy3o4kcgf0hkr"]
+
+[ext_resource type="AudioStream" uid="uid://d0lelaxn3bkua" path="res://shared/assets/sfx/ambiences/museum_ambience.ogg" id="1"]
+[ext_resource type="Resource" uid="uid://bylqfn1vow1bd" path="res://acts/full_game/conclusion_arc/hub/conclusion_arc_meta.tres" id="2"]
+[ext_resource type="Resource" uid="uid://d21ibitr6cdee" path="res://shared/ui/hints/hint_library/5_pinnacle/3_museum_1.tres" id="3"]
+[ext_resource type="Resource" uid="uid://70yttek6n0id" path="res://shared/ui/hints/hint_library/5_pinnacle/3_museum_2.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b82wfeaka6v41" path="res://shared/ui/hints/hint_library/5_pinnacle/3_museum_3.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dx1wodinds0q8" path="res://acts/full_game/conclusion_arc/museum/locations/museum_location.tres" id="6"]
+[ext_resource type="AudioStream" uid="uid://bib25jsbxjg3b" path="res://acts/full_game/conclusion_arc/museum/assets/music/museum_base_loop.ogg" id="7"]
+[ext_resource type="AudioStream" uid="uid://d3anpwii3lcib" path="res://acts/full_game/conclusion_arc/museum/assets/music/museum_escalation_loop.ogg" id="8"]
+[ext_resource type="Texture2D" uid="uid://baijcv6p5n6sk" path="res://shared/ui/hints/hint_illustrations/ancient_artifacts.png" id="9"]
+[ext_resource type="Resource" uid="uid://cv8fkmjlxb0k7" path="res://acts/full_game/conclusion_arc/boardroom/puzzles/boardroom_scroll1_puzzle_meta.tres" id="10"]
+[ext_resource type="Resource" uid="uid://dip16yyv3mbqp" path="res://acts/full_game/conclusion_arc/boardroom/puzzles/boardroom_scroll2_puzzle_meta.tres" id="11"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="12"]
+
+[resource]
+script = ExtResource("12")
+arc = ExtResource("2")
+id = 53
+name = "MUSEUM_SCENARIO_NAME"
+description = "MUSEUM_SCENARIO_DESCRIPTION"
+path = "res://acts/full_game/conclusion_arc/museum/museum_scenario.tscn"
+locations = [ExtResource("6")]
+required_puzzles = [ExtResource("10"), ExtResource("11")]
+max_spots = 28
+phrases_name = 12
+phrases_object = 11
+phrases_action = 12
+phrases_special = 8
+phrases_numeral = 4
+phrases_local = 0
+victory_screen_text = "MUSEUM_SCENARIO_VICTORY"
+victory_picture_path = "res://acts/full_game/conclusion_arc/museum/assets/victoryscreen.png"
+custom_victory_dialog_path = ""
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = []
+victory_unlocks_arc_phrases = []
+achievement_id = 22
+intermission_path_on_victory = ""
+intro_music = []
+loop_music = [ExtResource("7"), ExtResource("8")]
+ambience = [ExtResource("1")]
+escalation_layer_ids = [1]
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = []
+sfx_transposition = 2
+picture = ExtResource("9")
+hint_meta_list = [ExtResource("3"), ExtResource("4"), ExtResource("5")]
+no_inventory = false

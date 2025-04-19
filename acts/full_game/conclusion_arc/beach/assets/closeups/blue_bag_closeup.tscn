@@ -1,0 +1,109 @@
+[gd_scene load_steps=6 format=4 uid="uid://brr0r1sqg3dh7"]
+
+[ext_resource type="Texture2D" uid="uid://dicf4tgop80ui" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/blue_bag.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bqxqjlgjicysq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/cigarettes.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dy2rxppv1ukel" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/drugs_item_4.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cx55tvva3yuc0" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/red_lipstick.png" id="4"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="5"]
+
+[node name="BlueBagCloseup" type="Panel"]
+offset_left = -1106.780029296875
+offset_top = -1518.1600341796875
+offset_right = -305.7879943847656
+offset_bottom = -905.1589965820313
+
+[node name="CaseLetters" type="Label" parent="."]
+layout_mode = 0
+offset_left = 138.2220001220703
+offset_top = 156.53500366210938
+offset_right = 185.2220001220703
+offset_bottom = 194.53500366210938
+theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
+theme_override_font_sizes/font_size = 24
+text = "S.H."
+autowrap_mode = 3
+
+[node name="BagIcon" type="Sprite2D" parent="."]
+position = Vector2(159.256, 438.493)
+scale = Vector2(0.158444, 0.158444)
+texture = ExtResource("1")
+
+[node name="Cigarettes" type="Sprite2D" parent="."]
+position = Vector2(243.391, 143.488)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2")
+centered = false
+
+[node name="Euphoria" type="Sprite2D" parent="."]
+position = Vector2(484.781, 92.315)
+scale = Vector2(0.447977, 0.418453)
+texture = ExtResource("3")
+centered = false
+
+[node name="Lipstick" type="Sprite2D" parent="."]
+position = Vector2(526.846, 372.265)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4")
+centered = false
+
+[node name="CigaretteSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 235.0
+offset_top = 120.0
+offset_right = -460.989990234375
+offset_bottom = -332.0
+hotspot_id = "nne"
+text = "BEACH_SWEET_PINES_CIGARETTES_TOOLTIP"
+
+[node name="Indicators" parent="CigaretteSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="CigaretteSpot/Indicators" index="0"]
+modulate = Color(0.88241, 0.335182, 0.217767, 1)
+
+[node name="EuphoriaSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 495.0
+offset_top = 85.0
+offset_right = -120.99199676513672
+offset_bottom = -313.0010070800781
+hotspot_id = "WsO"
+text = "BEACH_SUNNIES_TOOLTIP"
+
+[node name="Indicators" parent="EuphoriaSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="EuphoriaSpot/Indicators" index="0"]
+modulate = Color(0.7, 0.385, 0.35, 1)
+position = Vector2(-34.6305, 15.6912)
+
+[node name="FocusIndicator" parent="EuphoriaSpot/Indicators" index="1"]
+position = Vector2(-33.6305, 19.6912)
+
+[node name="LipstickSpot" parent="." instance=ExtResource("5")]
+layout_mode = 1
+offset_left = 550.885009765625
+offset_top = 372.2650146484375
+offset_right = -145.10499572753906
+offset_bottom = -98.73480224609375
+hotspot_id = "OIa"
+text = "BEACH_RED_LIPSTICK_TOOLTIP"
+
+[node name="Indicators" parent="LipstickSpot" index="0"]
+offset_left = -4.5
+offset_top = 34.0
+offset_right = -4.5
+offset_bottom = 34.0
+
+[node name="Highlighter" parent="LipstickSpot/Indicators" index="0"]
+modulate = Color(0.8, 0.286933, 0.208, 1)
+
+[editable path="CigaretteSpot"]
+[editable path="EuphoriaSpot"]
+[editable path="LipstickSpot"]

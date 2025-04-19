@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=3 format=4 uid="uid://lvtea2bmkprs"]
+
+[ext_resource type="Texture2D" uid="uid://chob61p5dphcn" path="res://shared/ui/Icons/ICO_0030_IdolRules.png" id="1"]
+[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="2"]
+
+[resource]
+script = ExtResource("2")
+puzzle_id = 501
+puzzle_name = "PINNACLE_ARC_PUZZLE_NAME"
+puzzle_icon = ExtResource("1")
+arc_puzzle = true
+locked_by_default = false
+hide_card_when_locked = false
+unlocks_puzzles_on_solve = []
+unlocks_segments_on_solve = []
+escalate_music_on_solve = false
+escalation_level = 0
+segmentation_mode = 0
+specified_segments = []

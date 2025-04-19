@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=4]
+
+[ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
+[ext_resource type="PackedScene" uid="uid://cur7e5xpvkgqp" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_photo_puzzle.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://b5rap4x00ex0v" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_portrait_puzzle.tscn" id="3"]
+[ext_resource type="PackedScene" uid="uid://dna31fhvcgeyo" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_bag_puzzle.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://d0lfx0ybic0po" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_scroll_puzzle.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="6"]
+[ext_resource type="Resource" uid="uid://lj6iqricfkcc" path="res://acts/full_game/conclusion_arc/beach/beach_scenario.tres" id="7"]
+
+[node name="BeachScenario" type="Node2D"]
+
+[node name="ThinkingLayer" parent="." instance=ExtResource("1")]
+
+[node name="PhotoPuzzle" parent="ThinkingLayer" instance=ExtResource("2")]
+offset_left = 1041.0
+offset_top = 40.0
+offset_right = 1858.0
+offset_bottom = 934.0
+
+[node name="PortraitPuzzle" parent="ThinkingLayer" instance=ExtResource("3")]
+offset_left = 1092.0
+offset_top = 194.0
+offset_right = 1791.0
+offset_bottom = 710.0
+
+[node name="BeachBagPuzzle" parent="ThinkingLayer" instance=ExtResource("4")]
+offset_left = 878.0
+offset_top = 584.0
+offset_right = 1845.0
+offset_bottom = 925.0
+
+[node name="ScrollPuzzle" parent="ThinkingLayer" instance=ExtResource("5")]
+offset_left = 938.0
+offset_top = 138.0
+offset_right = 1796.0
+offset_bottom = 808.0
+
+[node name="Scenario" parent="." node_paths=PackedStringArray("thinking_layer") instance=ExtResource("6")]
+scenario_meta = ExtResource("7")
+thinking_layer = NodePath("../ThinkingLayer")

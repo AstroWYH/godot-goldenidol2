@@ -1,0 +1,582 @@
+[gd_scene load_steps=105 format=4 uid="uid://6hwxieatqxrx"]
+
+[ext_resource type="Texture2D" uid="uid://hx4ookiw8raw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://covbjl3hdwrpm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cktasg8ybeose" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cgf7avjutyqgq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bsdhdnjj57x38" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b7oqmdpc8m3y8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://d1prctw3g3ady" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d0fv73e45eo87" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cynl3gi3i3pln" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://4srdscof7ce4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://c7fx25jxwosk3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b612hm6cp4ad2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://6e5wud86pd2q" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://diwsushmpho86" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://b4m2hx2q0hrqn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://cbggyyakgd2ha" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ctgtstt6k01m0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://g6c13s4otb4n" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://codpb7gf012es" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://b62e7u0p8pflp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://drppqvo0jju7a" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dwxm2w7o0arbg" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://44hgtl60muoy" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dxm1fqvahhkbh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ymk4rx0r5i6m" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bsierwdph0xof" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://dp23uik80gsmt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://s36d8nngiihn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://b0b0w00trpv6t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://bbvlqy1h2x87x" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://c0vinxs5gm8n0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://c8wbbucch7uvh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c6s3xb50iq58e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://buw8okrfdht4t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://vl6auphb26vp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://ccpvoonw5blbe" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://bxplg8x0ko0bx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dq0pynq0c43je" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://6rirqr5or611" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://c4xjvbqhx610a" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://c20kwjcy5k0ks" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://daadb0il0je1s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://crgyagxo0fqd0" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dab4qjyjntujv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://5w4wtlq716bs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://bpvs2bhkb85af" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://da4404okpvsav" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://ug2uplf4mpxj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://btj7dv2iw8do2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://pnsamfk0g7cl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_049.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://bhgxaawjy5e7j" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_050.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://beu7fv16qh7h6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_051.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://bs5f1m5rah0wj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_052.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://8wjjnsted83j" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_053.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://1hibwbx7no3q" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_054.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://bxj05y3jlkc56" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_055.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://lqbddg4124mv" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_056.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://d37au5s23l4br" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_057.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://k7whofvobgbn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_058.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://b3prduxebmdc2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_059.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://cjb4jqfr3g26m" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_060.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://be1pj1iv70ise" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_061.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://vy1gacsu38xl" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_062.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://cn1fa5da7sp45" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_063.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://cadm5nn2n85np" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_064.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://ce8jrda7boje4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_065.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://b3f5hjwy6q18" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_066.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://1h0ckgc5pggn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_067.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://bhqnpuhb71dqr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_068.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://c4s8lx1dlpcpn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_069.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://eytag6qbrwhw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_070.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://dd2qkknuyejqd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_071.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://pc5modiu0yal" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_072.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://cr2okjy2t1xjs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_073.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://cfmy8i56lw072" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_074.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://qdg8vckrjbft" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_075.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://cl3tldu8jkabd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_076.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://cfd0ecus02786" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/homeless/homelessgroup_077.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://mhaygkiqauig" path="res://acts/demo/scenarios/seaside/assets/particle.png" id="79"]
+[ext_resource type="Script" path="res://shared/world/scenario/particle_controller.gd" id="80"]
+[ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://gexcrtjfpi6f" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/barrlefront.png" id="82"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="83"]
+[ext_resource type="PackedScene" uid="uid://c71emkupdkpgt" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/william_panel.tscn" id="84"]
+[ext_resource type="PackedScene" uid="uid://ci6680owvs643" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/gangster_panel.tscn" id="85"]
+[ext_resource type="PackedScene" uid="uid://dkutpjwm6u6xh" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/orion_panel.tscn" id="86"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="87"]
+[ext_resource type="PackedScene" uid="uid://djukgi20qvkm2" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/phil_panel.tscn" id="88"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yavuu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_6aat6"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_37l8w"]
+offsets = PackedFloat32Array(0.0115741, 0.0509259, 0.159722, 0.493056, 1)
+colors = PackedColorArray(1, 1, 0, 0, 0.0509804, 0.0509804, 0, 0.603922, 1, 0.422116, 0.114179, 1, 1, 0.0535438, 0.187001, 1, 1, 0.027451, 0.192157, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ddp17"]
+gradient = SubResource("Gradient_37l8w")
+
+[sub_resource type="Curve" id="Curve_nchfd"]
+_data = [Vector2(0.00215983, 0.968421), 0.0, 1.949470043182373, 0, 0, Vector2(1, 0), -0.48736798763275146, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_vnqfq"]
+curve = SubResource("Curve_nchfd")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_13nwl"]
+particle_flag_disable_z = true
+emission_shape = 1
+emission_sphere_radius = 32.0
+angle_max = 360.0
+direction = Vector3(0, -1, 0)
+spread = 30.0
+initial_velocity_min = 50.0
+initial_velocity_max = 100.0
+angular_velocity_min = 100.0
+angular_velocity_max = 100.0
+gravity = Vector3(0, 0, 0)
+scale_min = 0.6000000238418579
+scale_curve = SubResource("CurveTexture_vnqfq")
+color_ramp = SubResource("GradientTexture1D_ddp17")
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_7mcqf"]
+
+[sub_resource type="Gradient" id="Gradient_bisno"]
+offsets = PackedFloat32Array(0.0115741, 0.150463, 0.833333, 1)
+colors = PackedColorArray(1, 1, 0, 0, 0.137255, 0.223529, 0.188235, 0.247059, 0.364706, 0.690196, 0.623529, 0.176471, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_pukg8"]
+gradient = SubResource("Gradient_bisno")
+
+[sub_resource type="Curve" id="Curve_db5hu"]
+_data = [Vector2(0.0107991, 0.326316), 0.0, 1.949470043182373, 0, 0, Vector2(0.7473, 0.852632), -0.7995889782905579, -0.7995889782905579, 0, 0, Vector2(1, 0.526316), -1.8830100297927856, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_yja7n"]
+curve = SubResource("Curve_db5hu")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_mio8g"]
+particle_flag_disable_z = true
+angle_max = 360.0
+direction = Vector3(0, -1, 0)
+spread = 15.0
+initial_velocity_min = 218.72999572753906
+initial_velocity_max = 354.2300109863281
+angular_velocity_min = 100.0
+angular_velocity_max = 384.44000244140625
+gravity = Vector3(0, 0, 0)
+scale_min = 0.6000000238418579
+scale_curve = SubResource("CurveTexture_yja7n")
+color_ramp = SubResource("GradientTexture1D_pukg8")
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_esjxa"]
+blend_mode = 1
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_lc7w5"]
+lifetime_randomness = 0.1
+particle_flag_disable_z = true
+direction = Vector3(0, -1, 0)
+spread = 30.0
+initial_velocity_min = 69.95999908447266
+initial_velocity_max = 123.45999908447266
+gravity = Vector3(0, 98, 0)
+damping_max = 5.349999904632568
+scale_max = 2.0
+color = Color(1, 0.776471, 0.356863, 1)
+turbulence_noise_scale = 1.5099999904632568
+
+[sub_resource type="Resource" id="Resource_x002h"]
+script = ExtResource("87")
+linked_item_ref_id = 358
+
+[node name="HomelessCloseupPanel" type="Panel"]
+offset_left = -2255.0
+offset_top = -299.0
+offset_right = -1401.0
+offset_bottom = 341.0
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(424.059, 318.065)
+sprite_frames = SubResource("SpriteFrames_yavuu")
+autoplay = "default"
+frame_progress = 0.8860359787940979
+
+[node name="Flame3" type="GPUParticles2D" parent="Sprite2D" node_paths=PackedStringArray("parent_panel", "timer")]
+material = SubResource("CanvasItemMaterial_6aat6")
+position = Vector2(-53.0853, 163.556)
+amount = 256
+process_material = SubResource("ParticleProcessMaterial_13nwl")
+texture = ExtResource("79")
+lifetime = 2.0
+randomness = 0.1599999964237213
+trail_lifetime = 0.5
+script = ExtResource("80")
+parent_panel = NodePath("../..")
+timer = NodePath("Timer")
+
+[node name="smoke" type="GPUParticles2D" parent="Sprite2D/Flame3"]
+material = SubResource("CanvasItemMaterial_7mcqf")
+position = Vector2(-4, -23)
+scale = Vector2(0.5, 0.5)
+amount = 32
+process_material = SubResource("ParticleProcessMaterial_mio8g")
+texture = ExtResource("81")
+lifetime = 3.0
+randomness = 0.1599999964237213
+trail_lifetime = 0.5
+
+[node name="sparcles" type="GPUParticles2D" parent="Sprite2D/Flame3"]
+material = SubResource("CanvasItemMaterial_esjxa")
+position = Vector2(-2, -19)
+amount = 24
+process_material = SubResource("ParticleProcessMaterial_lc7w5")
+explosiveness = 0.20000000298023224
+
+[node name="Timer" type="Timer" parent="Sprite2D/Flame3"]
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(-47.0756, 200.682)
+texture = ExtResource("82")
+
+[node name="WilliamSpot" parent="." instance=ExtResource("83")]
+layout_mode = 1
+offset_left = 101.0
+offset_top = 14.0
+offset_right = -584.0
+offset_bottom = -24.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Ago"
+
+[node name="Indicators" parent="WilliamSpot" index="0"]
+modulate = Color(0.996078, 0.258824, 0, 1)
+offset_left = -48.50529861450195
+offset_top = 89.76290130615234
+offset_right = -48.50529861450195
+offset_bottom = 89.76290130615234
+
+[node name="Highlighter" parent="WilliamSpot/Indicators" index="0"]
+position = Vector2(32.2377, -39.1737)
+
+[node name="FocusIndicator" parent="WilliamSpot/Indicators" index="1"]
+position = Vector2(33.2377, -35.1737)
+
+[node name="WilliamPanel" parent="WilliamSpot" instance=ExtResource("84")]
+layout_mode = 0
+offset_left = -595.9569702148438
+offset_top = -848.8839721679688
+offset_right = 205.04299926757813
+offset_bottom = -173.88400268554688
+
+[node name="GangsterSpot" parent="." instance=ExtResource("83")]
+layout_mode = 1
+offset_left = 324.0
+offset_top = 42.0
+offset_right = -394.0
+offset_bottom = -265.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Yk3"
+
+[node name="Indicators" parent="GangsterSpot" index="0"]
+modulate = Color(0.0470588, 0.027451, 0.0117647, 1)
+offset_left = -45.02750015258789
+offset_top = 41.40760040283203
+offset_right = -45.02750015258789
+offset_bottom = 41.40760040283203
+
+[node name="Highlighter" parent="GangsterSpot/Indicators" index="0"]
+position = Vector2(11.5097, -10.8593)
+
+[node name="FocusIndicator" parent="GangsterSpot/Indicators" index="1"]
+position = Vector2(12.5097, -6.85926)
+
+[node name="GangsterPanel" parent="GangsterSpot" instance=ExtResource("85")]
+layout_mode = 0
+offset_left = 150.24099731445313
+offset_top = -824.802978515625
+offset_right = 1029.239990234375
+offset_bottom = -196.80299377441406
+
+[node name="OrionSpot" parent="." instance=ExtResource("83")]
+layout_mode = 1
+offset_left = 511.0
+offset_top = 50.0
+offset_right = -249.0
+offset_bottom = -285.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "3y_"
+
+[node name="Indicators" parent="OrionSpot" index="0"]
+offset_left = 11.386500358581543
+offset_top = 0.1549610048532486
+offset_right = 11.386500358581543
+offset_bottom = 0.1549610048532486
+
+[node name="Highlighter" parent="OrionSpot/Indicators" index="0"]
+modulate = Color(0.567281, 0.219294, 0.0861675, 1)
+
+[node name="OrionPanel" parent="OrionSpot" instance=ExtResource("86")]
+layout_mode = 0
+offset_left = 882.4169921875
+offset_top = -27.092100143432617
+offset_right = 1683.4100341796875
+offset_bottom = 585.9089965820313
+
+[node name="PhilSpot" parent="." instance=ExtResource("83")]
+layout_mode = 1
+offset_left = 664.0
+offset_top = 27.0
+offset_right = -55.0
+offset_bottom = -85.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "XC8"
+extra_items_unlocked = [SubResource("Resource_x002h")]
+
+[node name="Indicators" parent="PhilSpot" index="0"]
+modulate = Color(0.0470588, 0.027451, 0.0117647, 1)
+offset_left = 11.197400093078613
+offset_top = 24.24020004272461
+offset_right = 11.197400093078613
+offset_bottom = 24.24020004272461
+
+[node name="Highlighter" parent="PhilSpot/Indicators" index="0"]
+position = Vector2(-1.53221, -10.8593)
+
+[node name="FocusIndicator" parent="PhilSpot/Indicators" index="1"]
+position = Vector2(-0.532206, -6.85929)
+
+[node name="PhilPanel" parent="PhilSpot" instance=ExtResource("88")]
+layout_mode = 0
+offset_left = -109.17500305175781
+offset_top = 766.60498046875
+offset_right = 691.8209838867188
+offset_bottom = 1379.5999755859375
+
+[editable path="WilliamSpot"]
+[editable path="GangsterSpot"]
+[editable path="OrionSpot"]
+[editable path="PhilSpot"]

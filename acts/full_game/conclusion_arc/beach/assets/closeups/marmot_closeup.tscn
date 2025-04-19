@@ -1,0 +1,245 @@
+[gd_scene load_steps=52 format=4 uid="uid://rmuv1ngnhhuh"]
+
+[ext_resource type="Texture2D" uid="uid://dca8ut2js8yrw" path="res://shared/assets/portraits/idiot/fool2_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://35iedenhxbfg" path="res://shared/assets/portraits/idiot/fool2_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://irytrieroo2r" path="res://shared/assets/portraits/idiot/fool2_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cwhydau6c7wav" path="res://shared/assets/portraits/idiot/fool2_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bor7h87uymof7" path="res://shared/assets/portraits/idiot/fool2_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://u1sjqxpyunf3" path="res://shared/assets/portraits/idiot/fool2_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://csyvd82m4l65r" path="res://shared/assets/portraits/idiot/fool2_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://b2iqu3k7ovxcd" path="res://shared/assets/portraits/idiot/fool2_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://urpqfapc7m4o" path="res://shared/assets/portraits/idiot/fool2_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cmgxcyn41dlb0" path="res://shared/assets/portraits/idiot/fool2_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://ddc5ha2lgmpbb" path="res://shared/assets/portraits/idiot/fool2_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bjms5ptq48qjv" path="res://shared/assets/portraits/idiot/fool2_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://dxmubptpggk51" path="res://shared/assets/portraits/idiot/fool2_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://cle4ylwxbri3m" path="res://shared/assets/portraits/idiot/fool2_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://beus5n2gqi1h3" path="res://shared/assets/portraits/idiot/fool2_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://dxvvwsijrpcit" path="res://shared/assets/portraits/idiot/fool2_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b28vklc5rm4aw" path="res://shared/assets/portraits/idiot/fool2_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://hp1n4y6ui3b3" path="res://shared/assets/portraits/idiot/fool2_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://cpe5krft4bnya" path="res://shared/assets/portraits/idiot/fool2_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://sqi2xejw2snt" path="res://shared/assets/portraits/idiot/fool2_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://cyhbmd61ndvo4" path="res://shared/assets/portraits/idiot/fool2_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://bo0e6op7kcas3" path="res://shared/assets/portraits/idiot/fool2_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://c2owvotcgnn2c" path="res://shared/assets/portraits/idiot/fool2_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dxucwk5e2ymy1" path="res://shared/assets/portraits/idiot/fool2_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://c5dh7uavns00c" path="res://shared/assets/portraits/idiot/fool2_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://d3iy2gqlkcl4r" path="res://shared/assets/portraits/idiot/fool2_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://ttshd1lxa3cl" path="res://shared/assets/portraits/idiot/fool2_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dh1l1mfcw42mp" path="res://shared/assets/portraits/idiot/fool2_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://58gvap040aun" path="res://shared/assets/portraits/idiot/fool2_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dc55x4yjleugx" path="res://shared/assets/portraits/idiot/fool2_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cp1bukcnisv02" path="res://shared/assets/portraits/idiot/fool2_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://bs3nr5ahtluyp" path="res://shared/assets/portraits/idiot/fool2_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://c1m3uief13sfx" path="res://shared/assets/portraits/idiot/fool2_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://dfttqhfuit5r5" path="res://shared/assets/portraits/idiot/fool2_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://crsbgu6gyf5nt" path="res://shared/assets/portraits/idiot/fool2_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://br7m6jjj417ks" path="res://shared/assets/portraits/idiot/fool2_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://mvwg3b4udt3e" path="res://shared/assets/portraits/idiot/fool2_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://dtwdgakc3ttim" path="res://shared/assets/portraits/idiot/fool2_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://1ved2008hw8b" path="res://shared/assets/portraits/idiot/fool2_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://buulq4fsqccb2" path="res://shared/assets/portraits/idiot/fool2_039.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://74b0lvq7ioji" path="res://shared/assets/portraits/idiot/fool2_040.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://mnfmkduavefi" path="res://shared/assets/portraits/idiot/fool2_041.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://8awp3ivjs1bf" path="res://shared/assets/portraits/idiot/fool2_042.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dgjn7n68adk58" path="res://shared/assets/portraits/idiot/fool2_043.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://bua82iq760fi3" path="res://shared/assets/portraits/idiot/fool2_044.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://cmlt8f5wgmnx4" path="res://shared/assets/portraits/idiot/fool2_045.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://clymcrohdid1u" path="res://shared/assets/portraits/idiot/fool2_046.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://co2t6btvl8hod" path="res://shared/assets/portraits/idiot/fool2_047.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://cp5rjw04fjo5d" path="res://shared/assets/portraits/idiot/fool2_048.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://ngndl5qlrmga" path="res://shared/assets/portraits/idiot/fool2_049.png" id="50"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xuq7d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="MarmotCloseup" type="Panel"]
+offset_left = -753.2100219726563
+offset_top = 935.177978515625
+offset_right = 47.7849006652832
+offset_bottom = 1548.1800537109375
+
+[node name="Label" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 52.08399963378906
+offset_top = 48.16350173950195
+offset_right = 727.083984375
+offset_bottom = 243.16299438476563
+theme_override_font_sizes/font_size = 24
+text = "Bloody youngsters almost ruined the shoot. Sandra should have given us better models.
+ 
+Or maybe we should have used Genius. I take it daily and not only I feel great, but it boosts intellect and is full of disaccharide!
+Have you tried it, Jack?"
+autowrap_mode = 3
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 20.0
+offset_right = 751.0
+offset_bottom = 239.0
+text = "BEACH_EUGENE_SPEECH"
+autowrap_mode = 3
+
+[node name="MarmotFace" type="AnimatedSprite2D" parent="."]
+position = Vector2(4.00681, 201.685)
+sprite_frames = SubResource("SpriteFrames_xuq7d")
+autoplay = "default"
+centered = false

@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=17 format=4 uid="uid://dnu37hprpqhw1"]
+
+[ext_resource type="Resource" uid="uid://bylqfn1vow1bd" path="res://acts/full_game/conclusion_arc/hub/conclusion_arc_meta.tres" id="1"]
+[ext_resource type="Resource" uid="uid://dusrv05bkmwhj" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_1.tres" id="2"]
+[ext_resource type="Resource" uid="uid://nw8sx0iro3vg" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_12.tres" id="3"]
+[ext_resource type="Resource" uid="uid://cj6j38sxuhtwa" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_3.tres" id="4"]
+[ext_resource type="Resource" uid="uid://b5wtatrytwa53" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_4.tres" id="5"]
+[ext_resource type="Resource" uid="uid://dvd78q1dq2kfc" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/docks_location_meta.tres" id="6"]
+[ext_resource type="Resource" uid="uid://c46amcsry23tq" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/warehouse_location_meta.tres" id="7"]
+[ext_resource type="Resource" uid="uid://dmt5c8hslp3xa" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location_meta.tres" id="8"]
+[ext_resource type="Resource" uid="uid://bpkqfqli57fmw" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/deck_location_meta.tres" id="9"]
+[ext_resource type="AudioStream" uid="uid://cehgve63vcyck" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/music/dark_experiments_base_loop.ogg" id="10"]
+[ext_resource type="AudioStream" uid="uid://dwoqsaqr4d14i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/music/dark_experiments_warehouse_loop.ogg" id="11"]
+[ext_resource type="AudioStream" uid="uid://cpign633crqba" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/music/dark_experiments_boat_loop.ogg" id="12"]
+[ext_resource type="Texture2D" uid="uid://djooqynwcfwsb" path="res://shared/ui/hints/hint_illustrations/steelside_warehouse.png" id="13"]
+[ext_resource type="Resource" uid="uid://bjuc6dsnafnor" path="res://acts/full_game/conclusion_arc/museum/puzzles/museum_scroll_puzzle1_meta.tres" id="14"]
+[ext_resource type="Resource" uid="uid://b7s5p5unkh54i" path="res://acts/full_game/conclusion_arc/museum/puzzles/museum_scroll_puzzle2_meta.tres" id="15"]
+[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="16"]
+
+[resource]
+script = ExtResource("16")
+arc = ExtResource("1")
+id = 54
+name = "WAREHOUSE_SCENARIO_NAME"
+description = "WAREHOUSE_SCENARIO_DESCRIPTION"
+path = "res://acts/full_game/conclusion_arc/dark_experiments/dark_experiments_scenario.tscn"
+locations = [ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")]
+required_puzzles = [ExtResource("14"), ExtResource("15")]
+max_spots = 55
+phrases_name = 28
+phrases_object = 14
+phrases_action = 6
+phrases_special = 9
+phrases_numeral = 0
+phrases_local = 0
+victory_screen_text = "WAREHOUSE_SCENARIO_VICTORY"
+victory_picture_path = "res://acts/full_game/conclusion_arc/dark_experiments/assets/victoryscreen.png"
+victory_unlocks_segments = []
+victory_unlocks_arc_phrases = []
+achievement_id = 23
+intermission_path_on_victory = ""
+intro_music = []
+loop_music = [ExtResource("10"), ExtResource("11"), ExtResource("12")]
+ambience = []
+escalation_layer_ids = []
+stop_existing_music_on_escalation = false
+oneshot_layer_ids = []
+sfx_transposition = 2
+picture = ExtResource("13")
+hint_meta_list = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]

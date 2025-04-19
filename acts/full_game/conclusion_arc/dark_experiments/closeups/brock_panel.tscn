@@ -1,0 +1,268 @@
+[gd_scene load_steps=45 format=4 uid="uid://b5wpqg0auuwah"]
+
+[ext_resource type="Texture2D" uid="uid://38x5dbxxn4bp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://xloypo5ceg2h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://v6f4jmgvns1n" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d0x65a827ukhs" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://mh4a342sv7fy" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://whg2ks0808v5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://6u6gbpkar8to" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://cwibp80bcesu8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://cma81wdh8sg8r" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cwyclo3ffsfdm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://dxrs3okp8epml" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://bk7rcn43ryjgh" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bmdtcq43p4be7" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://ds4okf4348ba3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://jxfxqncejaft" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://d4gav4b6lm8hc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://drvtqb6x33bve" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://sl7sgdrlhab4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://chdfsuhlmco36" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://c6nwf31trnps8" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://ocis75wv52dm" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://dolnmqlvt1dqr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b464ojc0w14lq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://dbnjwmfm8ie5e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://dr6pqhlb4u0x3" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://cnr0r0bprr160" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bvqi6olff4bfa" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://dbrn3q7od685u" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://duqiwvbv4aqy5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://dv4ukrobbtdl2" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://cku35yvyu5hw1" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://pfiodbuh6rvt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bycyckmidtu0h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c2taet1atqro6" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b1a31rgjtccbu" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://cy4b6du7ew2ye" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dlruga3w27bhw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://b1j7dytuihhgr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://28l0mefhnl5f" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://cclq6umjso8bf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/fit2.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://d3lyj8sfjatfb" path="res://shared/assets/papers/note_yacht_names.png" id="41"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="42"]
+[ext_resource type="Texture2D" uid="uid://d04e8j4blu3ev" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/fit.png" id="43"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ch0ic"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="BrockPanel" type="Panel"]
+offset_left = -2228.0
+offset_top = 66.0
+offset_right = -1502.0
+offset_bottom = 645.0
+
+[node name="BrockSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 40.0
+offset_right = 702.0
+offset_bottom = 157.0
+text = "WAREHOUSE_BOCK_SPEECH"
+autowrap_mode = 3
+
+[node name="BrockSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(264.847, 352.422)
+sprite_frames = SubResource("SpriteFrames_ch0ic")
+autoplay = "default"
+frame_progress = 0.48533499240875244
+
+[node name="PaperSprite3" type="Sprite2D" parent="."]
+position = Vector2(516, 231)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("40")
+
+[node name="PaperSprite" type="Sprite2D" parent="."]
+position = Vector2(600, 439)
+scale = Vector2(0.998394, 0.996602)
+texture = ExtResource("41")
+
+[node name="Page1Label2" type="Label" parent="PaperSprite"]
+anchors_preset = -1
+anchor_left = -0.038333598524332047
+anchor_top = -0.25694799423217773
+anchor_right = -0.038333598524332047
+anchor_bottom = -0.022573400288820267
+offset_left = -58.093299865722656
+offset_top = -23.110700607299805
+offset_right = 68.90670013427734
+offset_bottom = 58.889400482177734
+mouse_filter = 1
+theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
+theme_override_font_sizes/font_size = 23
+text = "WAREHOUSE_OLIVIA_NAME"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="BusinessCardSpot" parent="." instance=ExtResource("42")]
+layout_mode = 1
+offset_left = 469.0
+offset_top = 164.0
+offset_right = -128.0
+offset_bottom = -244.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "N4u"
+unlocked_item_ref_id = 930
+
+[node name="Indicators" parent="BusinessCardSpot" index="0"]
+offset_left = -14.403499603271484
+offset_top = 54.18410110473633
+offset_right = -14.403499603271484
+offset_bottom = 54.18410110473633
+
+[node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
+modulate = Color(0.207843, 0.203922, 0.152941, 1)
+
+[node name="CardPanel" type="Panel" parent="BusinessCardSpot"]
+layout_mode = 0
+offset_left = -991.0
+offset_top = -53.0
+offset_right = -695.0
+offset_bottom = 366.0
+
+[node name="Message3ColorRect" type="Sprite2D" parent="BusinessCardSpot/CardPanel"]
+position = Vector2(11.0178, 7.0239)
+rotation = 0.0016687499592080712
+texture = ExtResource("43")
+centered = false
+
+[node name="Message3Text" type="RichTextLabel" parent="BusinessCardSpot/CardPanel"]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 34.0
+offset_right = 264.0
+offset_bottom = 326.0
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.141176, 0.133333, 0.0745098, 1)
+theme_override_font_sizes/normal_font_size = 22
+bbcode_enabled = true
+text = "WAREHOUSE_BROCK_CARD"
+scroll_active = false
+autowrap_mode = 2
+
+[editable path="BusinessCardSpot"]

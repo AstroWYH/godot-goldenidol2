@@ -1,0 +1,181 @@
+[gd_scene load_steps=17 format=4 uid="uid://ciglw07argaj2"]
+
+[ext_resource type="Texture2D" uid="uid://iyf53d3au3qk" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/bodyroom.png" id="1"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
+[ext_resource type="Texture2D" uid="uid://bqxqjlgjicysq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/cigarettes.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b0x1vq1iq80im" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/ammo_box.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cwsubnh4apwj4" path="res://shared/assets/papers/BrownBook_Icon.png" id="5"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="7"]
+
+[sub_resource type="Resource" id="Resource_oevhh"]
+script = ExtResource("6")
+linked_item_ref_id = 761
+
+[sub_resource type="Resource" id="Resource_pvm2h"]
+script = ExtResource("6")
+linked_item_ref_id = 870
+
+[sub_resource type="Resource" id="Resource_tb803"]
+script = ExtResource("6")
+linked_item_ref_id = 1033
+
+[sub_resource type="Resource" id="Resource_o7q3g"]
+script = ExtResource("6")
+linked_item_ref_id = 1034
+
+[sub_resource type="Resource" id="Resource_0l872"]
+script = ExtResource("6")
+linked_item_ref_id = 1035
+
+[sub_resource type="Resource" id="Resource_0qp5w"]
+script = ExtResource("6")
+linked_item_ref_id = 916
+
+[sub_resource type="Resource" id="Resource_a5c7h"]
+script = ExtResource("6")
+linked_item_ref_id = 917
+
+[sub_resource type="Resource" id="Resource_jijn8"]
+script = ExtResource("6")
+linked_item_ref_id = 521
+
+[sub_resource type="Resource" id="Resource_higwc"]
+script = ExtResource("6")
+linked_item_ref_id = 618
+
+[node name="Room1Panel" type="Panel"]
+offset_left = -1499.0
+offset_top = -347.0
+offset_right = -676.0
+offset_bottom = 213.0
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+position = Vector2(11.0196, 8.02755)
+texture = ExtResource("1")
+centered = false
+
+[node name="LockerSpot" parent="." instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 536.4539794921875
+offset_top = 312.8840026855469
+offset_right = -160.54600524902344
+offset_bottom = -118.11599731445313
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Vws"
+
+[node name="Indicators" parent="LockerSpot" index="0"]
+offset_left = 22.44529914855957
+offset_top = 46.36819839477539
+offset_right = 22.44529914855957
+offset_bottom = 46.36819839477539
+
+[node name="Highlighter" parent="LockerSpot/Indicators" index="0"]
+modulate = Color(0.753984, 0.753984, 0.753984, 1)
+position = Vector2(-52.8679, 33.6236)
+
+[node name="FocusIndicator" parent="LockerSpot/Indicators" index="1"]
+position = Vector2(-52.8679, 35.6373)
+
+[node name="LockerPanel" type="Panel" parent="LockerSpot"]
+layout_mode = 0
+offset_left = -709.0
+offset_top = 511.0
+offset_right = 218.0
+offset_bottom = 1189.0
+
+[node name="CigarettesSprite" type="Sprite2D" parent="LockerSpot/LockerPanel"]
+position = Vector2(180.17, 201.082)
+scale = Vector2(0.621536, 0.639086)
+texture = ExtResource("3")
+
+[node name="CigarettesSprite2" type="Sprite2D" parent="LockerSpot/LockerPanel"]
+position = Vector2(254.408, 248.403)
+scale = Vector2(0.621536, 0.639086)
+texture = ExtResource("3")
+
+[node name="AmmoBoxSprite" type="Sprite2D" parent="LockerSpot/LockerPanel"]
+position = Vector2(533.616, 185.507)
+scale = Vector2(0.726535, 0.726535)
+texture = ExtResource("4")
+
+[node name="BookSprite" type="Sprite2D" parent="LockerSpot/LockerPanel"]
+position = Vector2(759.931, 479.899)
+scale = Vector2(1.45478, 1.49586)
+texture = ExtResource("5")
+
+[node name="Label" type="Label" parent="LockerSpot/LockerPanel/BookSprite"]
+offset_left = -63.0
+offset_top = -70.0
+offset_right = 38.0
+offset_bottom = 65.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 17
+text = "WAREHOUSE_BANDIT_NOTEBOOK_LABEL"
+autowrap_mode = 2
+
+[node name="NoteBookSpot" parent="LockerSpot/LockerPanel" instance=ExtResource("2")]
+layout_mode = 1
+offset_left = 662.0
+offset_top = 306.0
+offset_right = -77.0
+offset_bottom = -74.0
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "MDT"
+extra_items_unlocked = [SubResource("Resource_oevhh"), SubResource("Resource_pvm2h"), SubResource("Resource_tb803"), SubResource("Resource_o7q3g"), SubResource("Resource_0l872"), SubResource("Resource_0qp5w"), SubResource("Resource_a5c7h"), SubResource("Resource_jijn8"), SubResource("Resource_higwc")]
+
+[node name="Indicators" parent="LockerSpot/LockerPanel/NoteBookSpot" index="0"]
+offset_left = -13.949399948120117
+offset_top = 39.47710037231445
+offset_right = -13.949399948120117
+offset_bottom = 39.47710037231445
+
+[node name="Highlighter" parent="LockerSpot/LockerPanel/NoteBookSpot/Indicators" index="0"]
+modulate = Color(0.803303, 0.610919, 0.352101, 1)
+position = Vector2(1.34277, -7.93729)
+
+[node name="FocusIndicator" parent="LockerSpot/LockerPanel/NoteBookSpot/Indicators" index="1"]
+position = Vector2(2.34277, -3.93729)
+
+[node name="NotebookPanel" type="Panel" parent="LockerSpot/LockerPanel/NoteBookSpot"]
+layout_mode = 0
+offset_left = -709.0
+offset_top = 511.0
+offset_right = 236.0
+offset_bottom = 1192.0
+
+[node name="CigarettesSprite" type="Sprite2D" parent="LockerSpot/LockerPanel/NoteBookSpot/NotebookPanel"]
+position = Vector2(472.865, 336.121)
+scale = Vector2(0.9, 0.99)
+texture = ExtResource("7")
+
+[node name="Page1Label" type="RichTextLabel" parent="LockerSpot/LockerPanel/NoteBookSpot/NotebookPanel"]
+clip_contents = false
+layout_mode = 0
+offset_left = 65.0
+offset_top = 48.0
+offset_right = 444.0
+offset_bottom = 581.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 23
+bbcode_enabled = true
+text = "WAREHOUSE_BANDIT_NOTEBOOK_CONTENT1"
+scroll_active = false
+autowrap_mode = 2
+
+[node name="Page2Label" type="RichTextLabel" parent="LockerSpot/LockerPanel/NoteBookSpot/NotebookPanel"]
+clip_contents = false
+layout_mode = 0
+offset_left = 486.0
+offset_top = 50.0
+offset_right = 871.0
+offset_bottom = 581.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 23
+bbcode_enabled = true
+text = "WAREHOUSE_BANDIT_NOTEBOOK_CONTENT2"
+scroll_active = false
+autowrap_mode = 2
+
+[editable path="LockerSpot"]
+[editable path="LockerSpot/LockerPanel/NoteBookSpot"]

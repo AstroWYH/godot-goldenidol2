@@ -1,0 +1,434 @@
+[gd_scene load_steps=55 format=4 uid="uid://clgh4xxc4ep3o"]
+
+[ext_resource type="Texture2D" uid="uid://f21ud5dwlcam" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_000.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bsbeda2jmfnbm" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_001.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cdsv2v8usqs7s" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_002.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cyedalfh06h2x" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_003.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://clx3tdtue8s2u" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_004.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://ce3oywjnd0mcl" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_005.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c0foa1urqomes" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_006.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://uuqpe3rfnnwo" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_007.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://g6qcb63ryhj1" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_008.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://hduh7k1jmplo" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_009.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://bncbmei0pf0qn" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_010.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://jao5iplxrfos" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_011.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://645pgnxvrw3k" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_012.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://klgcuhk11i1v" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_013.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://crdfn4kddtw4r" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_014.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://vqiwomopcwsj" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_015.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://beecfpglpucb3" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_016.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://ctsaeetmyuwn2" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_017.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://45cvy4n7egad" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_018.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://cutr6j8qcwdwd" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_019.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://csqyiwt0vt6ca" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_020.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://d1xgtu8m2lry5" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_021.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://b347agevfy200" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_022.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://5dwn6svqyopp" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_023.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ce8s2x1fto5g0" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_024.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bxvi6al18fdxl" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_025.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://db25dupv8g424" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_026.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://c7obomuype256" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_027.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://dhutj7h3xtq4a" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_028.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://0hmfk6fbh46h" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_029.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://c5ltwjy6h04o0" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_030.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://d1xx3xrdytsai" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_031.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://bk12ly163xvdr" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_032.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://c7im2r0i5c58x" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_033.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://bhro1gp664r6q" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_034.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://bgfal7elea6g" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_035.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://dltb55mkq6vqx" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_036.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://c8ic3ytg2skca" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_037.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://yoc3lvn15x85" path="res://acts/full_game/conclusion_arc/museum/assets/portraits/guard/guard_038.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://ck52ayhp648uv" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/taser_unspent.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://drscgam7l1wcq" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/newspaper.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c8r52h7v5qthw" path="res://shared/assets/papers/nametag.png" id="42"]
+[ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="43"]
+[ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="44"]
+[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="45"]
+[ext_resource type="Texture2D" uid="uid://cb4q71clyplxt" path="res://shared/assets/textures/paper_texture03.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://bm0psl4ie1ds1" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/NewspaperCloseup.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://bj3fqk56bwri6" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/discbw.png" id="49"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_e71sh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[sub_resource type="Resource" id="Resource_wu6ue"]
+script = ExtResource("45")
+linked_item_ref_id = 73
+
+[sub_resource type="Resource" id="Resource_icvbv"]
+script = ExtResource("45")
+linked_item_ref_id = 74
+
+[sub_resource type="Resource" id="Resource_tf2j5"]
+script = ExtResource("45")
+linked_item_ref_id = 1049
+
+[sub_resource type="Resource" id="Resource_kgfam"]
+script = ExtResource("45")
+linked_item_ref_id = 1059
+
+[node name="GuardPanel" type="Panel"]
+offset_left = 745.197021484375
+offset_top = 774.6320190429688
+offset_right = 1546.199951171875
+offset_bottom = 1387.6199951171875
+
+[node name="GuardSpeech" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 52.0
+offset_right = 724.0
+offset_bottom = 169.0
+text = "MUSEUM_GUARD_SPEECH"
+autowrap_mode = 3
+
+[node name="GuardSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(249.803, 368.368)
+sprite_frames = SubResource("SpriteFrames_e71sh")
+autoplay = "default"
+frame_progress = 0.403423011302948
+
+[node name="TazerSprite" type="Sprite2D" parent="."]
+position = Vector2(456.734, 249.849)
+scale = Vector2(1.26666, 1.26666)
+texture = ExtResource("40")
+
+[node name="NewspaperSprite" type="Sprite2D" parent="."]
+position = Vector2(667.862, 457.606)
+scale = Vector2(0.710281, 0.710281)
+texture = ExtResource("41")
+
+[node name="TagSprite" type="Sprite2D" parent="."]
+position = Vector2(680.092, 219.747)
+texture = ExtResource("42")
+
+[node name="TagLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 604.0
+offset_top = 230.0
+offset_right = 741.0
+offset_bottom = 309.0
+theme = ExtResource("43")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 18
+text = "MUSEUM_GUARD_TAG"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = true
+
+[node name="NewspaperSpot" parent="." instance=ExtResource("44")]
+layout_mode = 1
+offset_left = 543.802978515625
+offset_top = 363.3680114746094
+offset_right = -37.1974983215332
+offset_bottom = -83.62220001220703
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "vqN"
+extra_items_unlocked = [SubResource("Resource_wu6ue"), SubResource("Resource_icvbv")]
+
+[node name="Indicators" parent="NewspaperSpot" index="0"]
+offset_left = 50.48350143432617
+offset_top = 38.15729904174805
+offset_right = 50.48350143432617
+offset_bottom = 38.15729904174805
+
+[node name="Highlighter" parent="NewspaperSpot/Indicators" index="0"]
+modulate = Color(0.82606, 0.82606, 0.82606, 1)
+position = Vector2(-120.916, -9.85237)
+
+[node name="FocusIndicator" parent="NewspaperSpot/Indicators" index="1"]
+position = Vector2(-119.916, -5.85237)
+
+[node name="NewspaperPanel" type="Panel" parent="NewspaperSpot"]
+layout_mode = 0
+offset_left = -498.0
+offset_top = 343.0
+offset_right = 299.0
+offset_bottom = 1166.0
+
+[node name="NewspaperSprite" type="TextureRect" parent="NewspaperSpot/NewspaperPanel"]
+visible = false
+layout_mode = 0
+offset_left = 13.000100135803223
+offset_top = 7.0
+offset_right = 551.0
+offset_bottom = 764.0
+scale = Vector2(1.33008, 1.16661)
+texture = ExtResource("46")
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="NewspaperSpot/NewspaperPanel"]
+position = Vector2(399.196, 416.813)
+scale = Vector2(1.25939, 1.25725)
+texture = ExtResource("47")
+
+[node name="Sprite2D7" type="Sprite2D" parent="NewspaperSpot/NewspaperPanel"]
+modulate = Color(0.52, 0.512113, 0.4524, 0.435294)
+position = Vector2(395.893, 85.9156)
+rotation = -1.561519980430603
+scale = Vector2(1.25725, 1.18082)
+skew = -3.147129973513074e-05
+texture = ExtResource("48")
+region_enabled = true
+region_rect = Rect2(17.8041, 3.40325, 23.0303, 591.701)
+
+[node name="Sprite2D8" type="Sprite2D" parent="NewspaperSpot/NewspaperPanel"]
+modulate = Color(0.52, 0.512113, 0.4524, 0.435294)
+position = Vector2(393.005, 481.119)
+rotation = -0.0057141599245369434
+scale = Vector2(1.25939, 0.923485)
+skew = -6.484989717137069e-05
+texture = ExtResource("48")
+region_enabled = true
+region_rect = Rect2(17.8041, 3.40325, 23.0303, 591.701)
+
+[node name="Sprite2D9" type="Sprite2D" parent="NewspaperSpot/NewspaperPanel"]
+modulate = Color(0.52, 0.512113, 0.4524, 0.435294)
+position = Vector2(400.91, 201.308)
+rotation = -1.561519980430603
+scale = Vector2(1.25725, 1.18082)
+skew = -3.147129973513074e-05
+texture = ExtResource("48")
+region_enabled = true
+region_rect = Rect2(17.8041, 3.40325, 23.0303, 591.701)
+
+[node name="NewspaperLabel1" type="Label" parent="NewspaperSpot/NewspaperPanel"]
+layout_mode = 0
+offset_left = 50.4385986328125
+offset_top = 35.279300689697266
+offset_right = 694.4390258789063
+offset_bottom = 95.279296875
+theme_override_colors/font_color = Color(0.63, 0.55629, 0.4662, 1)
+text = "MUSEUM_NEWSPAPER_NAME"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="NewspaperLabel2" type="RichTextLabel" parent="NewspaperSpot/NewspaperPanel"]
+layout_mode = 0
+offset_left = 60.45370101928711
+offset_top = 131.91600036621094
+offset_right = 690.4539794921875
+offset_bottom = 174.91600036621094
+mouse_filter = 1
+theme_override_colors/default_color = Color(0.531821, 0.220282, 0.167794, 1)
+bbcode_enabled = true
+text = "MUSEUM_NEWSPAPER_TITLE"
+autowrap_mode = 2
+
+[node name="NewspaperLabel3" type="Label" parent="NewspaperSpot/NewspaperPanel"]
+layout_mode = 0
+offset_left = 65.78050231933594
+offset_top = 227.1820068359375
+offset_right = 385.7799987792969
+offset_bottom = 752.1820068359375
+theme_override_colors/font_color = Color(0.407843, 0.337255, 0.25098, 1)
+text = "MUSEUM_NEWSPAPER_BODY_1"
+autowrap_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NewspaperSpot/NewspaperPanel"]
+layout_mode = 0
+offset_left = 405.8559875488281
+offset_top = 229.3459930419922
+offset_right = 735.8560180664063
+offset_bottom = 786.3460083007813
+
+[node name="HBoxContainer" type="HBoxContainer" parent="NewspaperSpot/NewspaperPanel/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="TextureRect" type="TextureRect" parent="NewspaperSpot/NewspaperPanel/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("49")
+
+[node name="NewspaperLabel4" type="Label" parent="NewspaperSpot/NewspaperPanel/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.407843, 0.337255, 0.25098, 1)
+text = "MUSEUM_NEWSPAPER_BODY_2"
+autowrap_mode = 2
+
+[node name="NewspaperLabel5" type="Label" parent="NewspaperSpot/NewspaperPanel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.407843, 0.337255, 0.25098, 1)
+text = "MUSEUM_NEWSPAPER_BODY_3"
+autowrap_mode = 2
+
+[node name="SpearSpot" parent="." instance=ExtResource("44")]
+layout_mode = 1
+offset_left = 13.0
+offset_top = 252.0
+offset_right = -441.0010070800781
+offset_bottom = -17.989999771118164
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "Nw-"
+text = "MUSEUM_GUARD_TOOLTIP"
+extra_items_unlocked = [SubResource("Resource_tf2j5"), SubResource("Resource_kgfam")]
+
+[node name="Indicators" parent="SpearSpot" index="0"]
+offset_left = 96.38710021972656
+offset_top = 269.6860046386719
+offset_right = 96.38710021972656
+offset_bottom = 269.6860046386719
+
+[node name="Highlighter" parent="SpearSpot/Indicators" index="0"]
+modulate = Color(0.811866, 0.00181477, 0.961923, 1)
+position = Vector2(71.7017, -29.9889)
+frame_progress = 0.058567799627780914
+
+[node name="FocusIndicator" parent="SpearSpot/Indicators" index="1"]
+position = Vector2(72.7017, -25.9889)
+
+[node name="TaserSpot" parent="." instance=ExtResource("44")]
+layout_mode = 1
+offset_left = 368.0
+offset_top = 181.0
+offset_right = -256.0010070800781
+offset_bottom = -294.989990234375
+scale = Vector2(0.998394, 0.996602)
+hotspot_id = "s0y"
+text = "MUSEUM_TASER_TOOLTIP"
+unlocked_item_ref_id = 213
+
+[node name="Indicators" parent="TaserSpot" index="0"]
+offset_left = -7.649479866027832
+offset_top = 63.04249954223633
+offset_right = -7.649479866027832
+offset_bottom = 63.04249954223633
+
+[node name="Highlighter" parent="TaserSpot/Indicators" index="0"]
+modulate = Color(0.7524, 0.91476, 0.99, 1)
+position = Vector2(15.5213, -23.9476)
+frame_progress = 0.3146210014820099
+
+[node name="FocusIndicator" parent="TaserSpot/Indicators" index="1"]
+position = Vector2(16.5213, -19.9476)
+
+[editable path="NewspaperSpot"]
+[editable path="SpearSpot"]
+[editable path="TaserSpot"]

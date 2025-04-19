@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="LocationMeta" load_steps=5 format=4 uid="uid://dmt5c8hslp3xa"]
+
+[ext_resource type="AudioStream" uid="uid://dr74b2vyjonw7" path="res://shared/assets/sfx/ambiences/dark_experiments_yacht_ambience.ogg" id="1"]
+[ext_resource type="AudioStream" uid="uid://bv1tn7tm8hca3" path="res://shared/assets/sfx/ambiences/dark_experiments_docks_ambience.ogg" id="2"]
+[ext_resource type="Texture2D" uid="uid://dmgq4a7vg4fxt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/yacht.png" id="3"]
+[ext_resource type="Script" path="res://shared/resources/location_meta.gd" id="4"]
+
+[resource]
+script = ExtResource("4")
+location_id = 3
+path = "res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location.tscn"
+background = ExtResource("3")
+audio_side_effect = 0
+music_layers = []
+ambience_layers = [ExtResource("1"), ExtResource("2")]
+music_layer_ids = [0, 2]
