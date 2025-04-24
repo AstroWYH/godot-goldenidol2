@@ -1,11 +1,11 @@
-[gd_scene load_steps=29 format=4 uid="uid://cur7e5xpvkgqp"]
+[gd_scene load_steps=29 format=3 uid="uid://cur7e5xpvkgqp"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://dxcmpgk5y7sad" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_front.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://d3sj8373g3hlw" path="res://shared/assets/frames/frame_transparent_small.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://d0j5kxlc6lx5v" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_back.png" id="4"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="5"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="7"]
 [ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="8"]
 [ext_resource type="Resource" uid="uid://bn6x4k54fghdl" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_photo_puzzle_meta.tres" id="9"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://c7e763uxnd0iu"]
+[gd_scene load_steps=13 format=3 uid="uid://c7e763uxnd0iu"]
 
 [ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b6vyk1c5s0l0e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0001.png" id="2"]
@@ -41,7 +41,7 @@ position = Vector2(188, 275)
 sprite_frames = SubResource("SpriteFrames_woe66")
 autoplay = "default"
 frame = 1
-frame_progress = 0.249890998005867
+frame_progress = 0.249891
 
 [node name="Ledger" type="Sprite2D" parent="."]
 position = Vector2(450, 170)
@@ -81,7 +81,7 @@ offset_bottom = 11.0
 [node name="Highlighter" parent="KeySpot2/Indicators" index="0"]
 modulate = Color(0.419608, 0.576471, 0.533333, 1)
 position = Vector2(-36, -1)
-frame_progress = 0.18563200533390045
+frame_progress = 0.185632
 
 [node name="FocusIndicator" parent="KeySpot2/Indicators" index="1"]
 position = Vector2(-35, 3)
@@ -104,7 +104,7 @@ offset_bottom = -17.0
 [node name="Highlighter" parent="LedgerSpot2/Indicators" index="0"]
 modulate = Color(0.192157, 0.568627, 0.380392, 1)
 position = Vector2(-6, 40)
-frame_progress = 0.3019610047340393
+frame_progress = 0.301961
 
 [node name="FocusIndicator" parent="LedgerSpot2/Indicators" index="1"]
 position = Vector2(-5, 44)
@@ -132,7 +132,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(346, 90)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("10")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -140,7 +140,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="LedgerSpot2/GunCloseup/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(30, 185)
-rotation = 4.7023701667785645
+rotation = 4.70237
 scale = Vector2(0.807298, 1)
 texture = ExtResource("10")
 region_enabled = true

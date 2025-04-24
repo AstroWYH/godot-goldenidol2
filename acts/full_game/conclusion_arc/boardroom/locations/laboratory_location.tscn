@@ -1,6 +1,6 @@
-[gd_scene load_steps=269 format=4]
+[gd_scene load_steps=269 format=3 uid="uid://j0t8tw8dytcp"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://ccepx7dccl7x7" path="res://acts/full_game/conclusion_arc/boardroom/locations/laboratory_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ds3gxm612lqyy" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://i3wjsb4aicsq" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tim2/bman2_001.png" id="4"]
@@ -225,7 +225,7 @@
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="223"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="224"]
 [ext_resource type="Resource" uid="uid://cqwt4oape2kpc" path="res://acts/full_game/conclusion_arc/boardroom/locations/boardroom_location_meta.tres" id="225"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="226"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="226"]
 [ext_resource type="PackedScene" uid="uid://ctofxxh7keio" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/mechanism_panel.tscn" id="227"]
 [ext_resource type="PackedScene" uid="uid://d2uxpcke0ccyq" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/jack_panel.tscn" id="228"]
 [ext_resource type="PackedScene" uid="uid://crpn2ih4mhsgo" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/phone_panel2.tscn" id="229"]
@@ -258,7 +258,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1byaf"]
 _data = {
-"new_animation": SubResource("Animation_h1kut")
+&"new_animation": SubResource("Animation_h1kut")
 }
 
 [sub_resource type="Gradient" id="Gradient_xjeay"]
@@ -1068,7 +1068,7 @@ autoplay = "new_animation"
 visible = false
 position = Vector2(936, 603)
 scale = Vector2(39.1484, 24.7422)
-energy = 0.10000000149011612
+energy = 0.1
 range_z_max = 0
 range_layer_max = -1
 texture = SubResource("GradientTexture2D_8dtqh")
@@ -1077,19 +1077,19 @@ texture = SubResource("GradientTexture2D_8dtqh")
 position = Vector2(1022, 484)
 sprite_frames = SubResource("SpriteFrames_1hc4t")
 autoplay = "default"
-frame_progress = 0.9336190223693848
+frame_progress = 0.933619
 
 [node name="AnimatedSpriteWestlake" type="AnimatedSprite2D" parent="."]
 position = Vector2(1224, 471)
 sprite_frames = SubResource("SpriteFrames_oyauu")
 autoplay = "default"
-frame_progress = 0.2617560029029846
+frame_progress = 0.261756
 
 [node name="AnimatedSpriteTwoNerds" type="AnimatedSprite2D" parent="."]
 position = Vector2(544, 523)
 sprite_frames = SubResource("SpriteFrames_xhhkh")
 autoplay = "default"
-frame_progress = 0.9458720088005066
+frame_progress = 0.945872
 
 [node name="AnimatedSpriteCameraMan" type="AnimatedSprite2D" parent="."]
 z_index = 1
@@ -1097,24 +1097,24 @@ position = Vector2(1535, 586)
 sprite_frames = SubResource("SpriteFrames_oiobf")
 autoplay = "default"
 frame = 27
-frame_progress = 0.7447540163993835
+frame_progress = 0.744754
 
 [node name="AnimatedSpriteMarmot" type="AnimatedSprite2D" parent="."]
 z_index = 1
 position = Vector2(952, 724)
 sprite_frames = SubResource("SpriteFrames_28wqb")
 autoplay = "default"
-frame_progress = 0.6448040008544922
+frame_progress = 0.644804
 
 [node name="Node2D" type="Node2D" parent="."]
-skew = 0.10995599627494812
+skew = 0.109956
 
 [node name="ZoneLabel2" type="Label" parent="Node2D"]
-offset_left = 1264.27001953125
-offset_top = 1041.2900390625
-offset_right = 1554.27001953125
-offset_bottom = 1140.2900390625
-rotation = -1.521720051765442
+offset_left = 1264.27
+offset_top = 1041.29
+offset_right = 1554.27
+offset_bottom = 1140.29
+rotation = -1.52172
 scale = Vector2(1, 2)
 theme = ExtResource("223")
 theme_override_colors/font_color = Color(0.721569, 0.619608, 0.0588235, 1)
@@ -1129,7 +1129,7 @@ offset_left = 1120.0
 offset_top = 1029.0
 offset_right = 1410.0
 offset_bottom = 1157.0
-rotation = -1.4902199506759644
+rotation = -1.49022
 theme_override_font_sizes/font_size = 75
 text = "ZOI"
 horizontal_alignment = 1
@@ -1154,11 +1154,11 @@ hover_cursor = 3
 target_location_meta = ExtResource("225")
 
 [node name="Indicators" parent="Hotspots/ToBoardroomSpot" index="0"]
-offset_left = -3.8887600898742676
-offset_top = 280.9549865722656
-offset_right = -3.8887600898742676
-offset_bottom = 280.9549865722656
-rotation = 3.141590118408203
+offset_left = -3.88876
+offset_top = 280.955
+offset_right = -3.88876
+offset_bottom = 280.955
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToBoardroomSpot/Indicators" index="0"]
 modulate = Color(0.235294, 0.478431, 0.592157, 1)
@@ -1174,10 +1174,10 @@ hotspot_id = "Hco"
 extra_items_unlocked = [SubResource("Resource_uadah"), SubResource("Resource_w63ig"), SubResource("Resource_t8cgj"), SubResource("Resource_tpjme"), SubResource("Resource_u2pj3")]
 
 [node name="Indicators" parent="Hotspots/MechanismSpot" index="0"]
-offset_left = 109.00299835205078
-offset_top = 219.7469940185547
-offset_right = 109.00299835205078
-offset_bottom = 219.7469940185547
+offset_left = 109.003
+offset_top = 219.747
+offset_right = 109.003
+offset_bottom = 219.747
 
 [node name="Highlighter" parent="Hotspots/MechanismSpot/Indicators" index="0"]
 modulate = Color(0.243137, 0.494118, 0.611765, 1)
@@ -1188,10 +1188,10 @@ position = Vector2(15.5101, -18.8458)
 
 [node name="MechanismPanel" parent="Hotspots/MechanismSpot" instance=ExtResource("227")]
 layout_mode = 0
-offset_left = -896.4400024414063
-offset_top = -204.6959991455078
-offset_right = -146.44000244140625
-offset_bottom = 599.3040161132813
+offset_left = -896.44
+offset_top = -204.696
+offset_right = -146.44
+offset_bottom = 599.304
 
 [node name="JackNowakSpot" parent="Hotspots" instance=ExtResource("224")]
 layout_mode = 1
@@ -1205,10 +1205,10 @@ unlocked_character_ref_id = 96
 extra_items_unlocked = [SubResource("Resource_o5lxe"), SubResource("Resource_ie5ge")]
 
 [node name="Indicators" parent="Hotspots/JackNowakSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/JackNowakSpot/Indicators" index="0"]
 modulate = Color(0.231373, 0.47451, 0.584314, 1)
@@ -1219,10 +1219,10 @@ position = Vector2(3.05473, -13.8284)
 
 [node name="JackPanel" parent="Hotspots/JackNowakSpot" instance=ExtResource("228")]
 layout_mode = 0
-offset_left = -1550.489990234375
-offset_top = -682.3179931640625
-offset_right = -711.489990234375
-offset_bottom = -69.31849670410156
+offset_left = -1550.49
+offset_top = -682.318
+offset_right = -711.49
+offset_bottom = -69.3185
 
 [node name="PhoneSpot" parent="Hotspots" instance=ExtResource("224")]
 layout_mode = 1
@@ -1236,10 +1236,10 @@ extra_items_unlocked = [SubResource("Resource_hsesy"), SubResource("Resource_d47
 extra_hypothetical_items_unlocked = [SubResource("Resource_3adia")]
 
 [node name="Indicators" parent="Hotspots/PhoneSpot" index="0"]
-offset_left = 93.48100280761719
-offset_top = 142.48399353027344
-offset_right = 93.48100280761719
-offset_bottom = 142.48399353027344
+offset_left = 93.481
+offset_top = 142.484
+offset_right = 93.481
+offset_bottom = 142.484
 
 [node name="Highlighter" parent="Hotspots/PhoneSpot/Indicators" index="0"]
 modulate = Color(0.41024, 0.41024, 0.41024, 1)
@@ -1250,10 +1250,10 @@ position = Vector2(-19.624, -53.9646)
 
 [node name="PhonePanel" parent="Hotspots/PhoneSpot" instance=ExtResource("229")]
 layout_mode = 0
-offset_left = -1183.9000244140625
-offset_top = 439.4930114746094
-offset_right = -789.9010009765625
-offset_bottom = 886.4929809570313
+offset_left = -1183.9
+offset_top = 439.493
+offset_right = -789.901
+offset_bottom = 886.493
 
 [node name="TesaNevariSpot" parent="Hotspots" instance=ExtResource("224")]
 layout_mode = 1
@@ -1267,10 +1267,10 @@ unlocked_character_ref_id = 97
 extra_items_unlocked = [SubResource("Resource_fup0s"), SubResource("Resource_cldlf"), SubResource("Resource_3ylcy"), SubResource("Resource_47jxt")]
 
 [node name="Indicators" parent="Hotspots/TesaNevariSpot" index="0"]
-offset_left = -30.405099868774414
-offset_top = 31.106199264526367
-offset_right = -30.405099868774414
-offset_bottom = 31.106199264526367
+offset_left = -30.4051
+offset_top = 31.1062
+offset_right = -30.4051
+offset_bottom = 31.1062
 
 [node name="Highlighter" parent="Hotspots/TesaNevariSpot/Indicators" index="0"]
 position = Vector2(-3.00649, -7.79484)
@@ -1280,10 +1280,10 @@ position = Vector2(-2.00649, -3.79484)
 
 [node name="NevariPanel" parent="Hotspots/TesaNevariSpot" instance=ExtResource("230")]
 layout_mode = 0
-offset_left = -821.3189697265625
-offset_top = -1127.8299560546875
-offset_right = -20.319000244140625
-offset_bottom = -534.8319702148438
+offset_left = -821.319
+offset_top = -1127.83
+offset_right = -20.319
+offset_bottom = -534.832
 
 [node name="TimSpender" parent="Hotspots" instance=ExtResource("224")]
 layout_mode = 1
@@ -1297,10 +1297,10 @@ unlocked_character_ref_id = 94
 extra_items_unlocked = [SubResource("Resource_ij5xk")]
 
 [node name="Indicators" parent="Hotspots/TimSpender" index="0"]
-offset_left = -10.855199813842773
-offset_top = 162.552001953125
-offset_right = -10.855199813842773
-offset_bottom = 162.552001953125
+offset_left = -10.8552
+offset_top = 162.552
+offset_right = -10.8552
+offset_bottom = 162.552
 
 [node name="Highlighter" parent="Hotspots/TimSpender/Indicators" index="0"]
 position = Vector2(-46.6094, -76.2587)
@@ -1311,9 +1311,9 @@ position = Vector2(-45.0756, -75.2046)
 [node name="SpenderPanel" parent="Hotspots/TimSpender" instance=ExtResource("231")]
 layout_mode = 0
 offset_left = -153.0
-offset_top = -1040.5400390625
+offset_top = -1040.54
 offset_right = 648.0
-offset_bottom = -494.5360107421875
+offset_bottom = -494.536
 
 [node name="DrawingSpot" parent="Hotspots" instance=ExtResource("224")]
 layout_mode = 1
@@ -1372,10 +1372,10 @@ extra_items_unlocked = [SubResource("Resource_ilbpj"), SubResource("Resource_vyr
 
 [node name="Indicators" parent="Hotspots/MarmotSpot" index="0"]
 z_index = 2
-offset_left = 14.656100273132324
-offset_top = 205.69900512695313
-offset_right = 14.656100273132324
-offset_bottom = 205.69900512695313
+offset_left = 14.6561
+offset_top = 205.699
+offset_right = 14.6561
+offset_bottom = 205.699
 
 [node name="Highlighter" parent="Hotspots/MarmotSpot/Indicators" index="0"]
 modulate = Color(0.740773, 0.828948, 0.820852, 1)
@@ -1403,10 +1403,10 @@ unlocked_character_ref_id = 95
 extra_items_unlocked = [SubResource("Resource_316ji"), SubResource("Resource_3fp0m")]
 
 [node name="Indicators" parent="Hotspots/WestlakeSpot" index="0"]
-offset_left = 18.148000717163086
-offset_top = 162.552001953125
-offset_right = 18.148000717163086
-offset_bottom = 162.552001953125
+offset_left = 18.148
+offset_top = 162.552
+offset_right = 18.148
+offset_bottom = 162.552
 
 [node name="WestlakePanel" parent="Hotspots/WestlakeSpot" instance=ExtResource("234")]
 layout_mode = 0
@@ -1426,10 +1426,10 @@ hotspot_id = "DJN"
 
 [node name="Indicators" parent="Hotspots/CameraSpot" index="0"]
 z_index = 2
-offset_left = 18.19300079345703
-offset_top = 126.43000030517578
-offset_right = 18.19300079345703
-offset_bottom = 126.43000030517578
+offset_left = 18.193
+offset_top = 126.43
+offset_right = 18.193
+offset_bottom = 126.43
 
 [node name="Highlighter" parent="Hotspots/CameraSpot/Indicators" index="0"]
 position = Vector2(-12.5338, -16.8254)
@@ -1457,10 +1457,10 @@ extra_items_unlocked = [SubResource("Resource_auqa7")]
 
 [node name="Indicators" parent="Hotspots/CameramanSpot" index="0"]
 z_index = 2
-offset_left = 1.669010043144226
-offset_top = 148.5050048828125
-offset_right = 1.669010043144226
-offset_bottom = 148.5050048828125
+offset_left = 1.66901
+offset_top = 148.505
+offset_right = 1.66901
+offset_bottom = 148.505
 
 [node name="Highlighter" parent="Hotspots/CameramanSpot/Indicators" index="0"]
 modulate = Color(0.791999, 0.791999, 0.791999, 1)
@@ -1486,25 +1486,25 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "exZ"
 
 [node name="Indicators" parent="Hotspots/PadSpot" index="0"]
-offset_left = 25.135099411010742
-offset_top = 77.26249694824219
-offset_right = 25.135099411010742
-offset_bottom = 77.26249694824219
+offset_left = 25.1351
+offset_top = 77.2625
+offset_right = 25.1351
+offset_bottom = 77.2625
 
 [node name="Highlighter" parent="Hotspots/PadSpot/Indicators" index="0"]
 modulate = Color(0.372251, 0.372251, 0.372251, 1)
 position = Vector2(-7.0515, -24.8897)
-frame_progress = 0.679652988910675
+frame_progress = 0.679653
 
 [node name="FocusIndicator" parent="Hotspots/PadSpot/Indicators" index="1"]
 position = Vector2(-8.56922, -21.6602)
 
 [node name="PadPanel" type="Panel" parent="Hotspots/PadSpot"]
 layout_mode = 0
-offset_left = 1651.6500244140625
-offset_top = -497.6910095214844
-offset_right = 2276.64990234375
-offset_bottom = 407.3089904785156
+offset_left = 1651.65
+offset_top = -497.691
+offset_right = 2276.65
+offset_bottom = 407.309
 pivot_offset = Vector2(-291.466, -169.576)
 
 [node name="PadSprite" type="Sprite2D" parent="Hotspots/PadSpot/PadPanel"]

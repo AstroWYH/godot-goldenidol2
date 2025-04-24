@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://cnkfopi0yvnsu"]
+[gd_scene load_steps=2 format=3 uid="uid://cnkfopi0yvnsu"]
 
-[ext_resource type="Script" path="res://shared/ui/location_button/travel_bar.gd" id="1"]
+[ext_resource type="Script" uid="uid://duwlrr1edf37f" path="res://shared/ui/location_button/travel_bar.gd" id="1"]
 
 [node name="TimeTravelBar" type="Control"]
 layout_mode = 3

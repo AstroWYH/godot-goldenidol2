@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://b82cxbemo76ca"]
+[gd_scene load_steps=4 format=3 uid="uid://b82cxbemo76ca"]
 
 [ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/hub_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://dcnut5qcn7wbf" path="res://shared/ui/hub_of_hubs/hub_button.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://crb7rwujbjw7u" path="res://shared/ui/hub_of_hubs/focus_target.tscn" id="3"]
 
 [node name="ArcButton" type="TextureButton"]

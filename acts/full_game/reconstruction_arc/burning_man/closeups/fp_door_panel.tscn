@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://dlh5wtdedc0lq"]
+[gd_scene load_steps=2 format=3 uid="uid://dlh5wtdedc0lq"]
 
 [ext_resource type="Texture2D" uid="uid://m46rtg8bocy7" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/hand.png" id="1"]
 

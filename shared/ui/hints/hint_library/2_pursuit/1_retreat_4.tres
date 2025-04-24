@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=4 uid="uid://dtl2k7yiyldg2"]
+[gd_resource type="Resource" script_class="HintMeta" load_steps=2 format=3 uid="uid://dtl2k7yiyldg2"]
 
-[ext_resource type="Script" path="res://shared/ui/hints/hint_meta.gd" id="1"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="1"]
 
 [resource]
 script = ExtResource("1")

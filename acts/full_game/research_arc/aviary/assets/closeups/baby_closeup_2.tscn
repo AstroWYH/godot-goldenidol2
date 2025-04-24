@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://b57lpj800if13"]
+[gd_scene load_steps=3 format=3 uid="uid://b57lpj800if13"]
 
 [ext_resource type="Texture2D" uid="uid://dkdtyjfo8uuk1" path="res://acts/full_game/research_arc/aviary/assets/closeups/incubatorcloseup.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

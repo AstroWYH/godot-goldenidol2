@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://cnllkcykty162"]
+[gd_scene load_steps=5 format=3 uid="uid://cnllkcykty162"]
 
 [ext_resource type="Texture2D" uid="uid://cj74ppwmo4jm1" path="res://acts/full_game/conclusion_arc/beach/assets/palmtreas1.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bvwfos2k2vu47" path="res://acts/full_game/conclusion_arc/beach/assets/palmtreas2.png" id="2"]
@@ -46,7 +46,7 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3lemo"]
 _data = {
-"new_animation": SubResource("Animation_2gpyq")
+&"new_animation": SubResource("Animation_2gpyq")
 }
 
 [node name="palm" type="Node2D"]

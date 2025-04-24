@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://d17hv1ihmbhx"]
+[gd_scene load_steps=4 format=3 uid="uid://d17hv1ihmbhx"]
 
-[ext_resource type="Script" path="res://shared/ui/logo_sequence.gd" id="1"]
+[ext_resource type="Script" uid="uid://b5ckq2bhqybpq" path="res://shared/ui/logo_sequence.gd" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
-[ext_resource type="Texture2D" uid="uid://cxsg3hbigltsh" path="res://shared/assets/logos/colorgraylogo2.svg" id="3"]
 [ext_resource type="Texture2D" uid="uid://b0j630wpggto3" path="res://shared/assets/logos/playstack_square_logo.png" id="4"]
 
 [node name="ColorRect" type="ColorRect"]
@@ -41,7 +40,6 @@ vertical_alignment = 1
 [node name="TextureRect" type="TextureRect" parent="ColorGrayLogoBlock"]
 custom_minimum_size = Vector2(500, 500)
 layout_mode = 2
-texture = ExtResource("3")
 expand_mode = 1
 stretch_mode = 4
 

@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://g32idyedenwt"]
+[gd_scene load_steps=5 format=3 uid="uid://g32idyedenwt"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_intro_screen/arc_intro_screen.gd" id="1"]
+[ext_resource type="Script" uid="uid://ba68y2hgm7md8" path="res://shared/ui/scenario_intro_screen/arc_intro_screen.gd" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
 [ext_resource type="Texture2D" uid="uid://dnu3t5q4ykfwc" path="res://shared/assets/icons/icon128.png" id="4"]

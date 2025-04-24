@@ -1,4 +1,4 @@
-[gd_scene load_steps=171 format=4 uid="uid://dhij7mrfr1m4r"]
+[gd_scene load_steps=171 format=3 uid="uid://dhij7mrfr1m4r"]
 
 [ext_resource type="Texture2D" uid="uid://bgmub54usj6dk" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/bus.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://md34wtkfooca" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guardincar/busguard1_000.png" id="2"]
@@ -293,24 +293,24 @@ gradient = SubResource("Gradient_r3itc")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xlvkc"]
 particle_flag_disable_z = true
-angle_min = -201.8000030517578
-angle_max = 147.89999389648438
+angle_min = -201.8
+angle_max = 147.9
 radial_velocity_min = -5.0
 radial_velocity_max = 10.0
 gravity = Vector3(0, 600, 0)
 scale_min = 0.5
 scale_max = 2.0
 color_ramp = SubResource("GradientTexture1D_gb3sl")
-hue_variation_min = -0.11999999731779099
-hue_variation_max = 0.10000000149011612
-anim_speed_min = 0.33000001311302185
-anim_speed_max = 1.8700000047683716
-anim_offset_min = 0.020500000566244125
-anim_offset_max = 0.07240000367164612
+hue_variation_min = -0.12
+hue_variation_max = 0.1
+anim_speed_min = 0.33
+anim_speed_max = 1.87
+anim_offset_min = 0.0205
+anim_offset_max = 0.0724
 turbulence_enabled = true
 collision_mode = 1
 collision_friction = 0.0
-collision_bounce = 0.3499999940395355
+collision_bounce = 0.35
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4giud"]
 animations = [{
@@ -683,7 +683,7 @@ texture = ExtResource("1")
 position = Vector2(234.551, -18.6854)
 sprite_frames = SubResource("SpriteFrames_rffi8")
 autoplay = "default"
-frame_progress = 0.8443989753723145
+frame_progress = 0.844399
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="BigBossSprite"]
 position = Vector2(-308.321, 72.6252)
@@ -691,14 +691,14 @@ amount = 48
 process_material = SubResource("ParticleProcessMaterial_xlvkc")
 texture = ExtResource("40")
 lifetime = 2.0
-explosiveness = 0.4399999976158142
-randomness = 0.2800000011920929
+explosiveness = 0.44
+randomness = 0.28
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="BigBossSprite"]
 position = Vector2(-198.144, 74.6316)
 sprite_frames = SubResource("SpriteFrames_4giud")
 autoplay = "default"
-frame_progress = 0.49053099751472473
+frame_progress = 0.490531
 
 [node name="RigidBody2D" type="LightOccluder2D" parent="BigBossSprite"]
 position = Vector2(-323.345, 67.6078)
@@ -714,15 +714,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Lxk"
 
 [node name="Indicators" parent="Guard1Spot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Guard1Spot/Indicators" index="0"]
 modulate = Color(0.281529, 0.532395, 0.537331, 1)
 position = Vector2(-150.226, -57.7116)
-frame_progress = 0.6316379904747009
+frame_progress = 0.631638
 
 [node name="FocusIndicator" parent="Guard1Spot/Indicators" index="1"]
 position = Vector2(-149.226, -53.7116)
@@ -738,7 +738,7 @@ offset_bottom = 151.0
 position = Vector2(212.766, 278.772)
 sprite_frames = SubResource("SpriteFrames_mqubu")
 autoplay = "default"
-frame_progress = 0.7797279953956604
+frame_progress = 0.779728
 
 [node name="BigBossSpeech" type="Label" parent="Guard1Spot/BigBossPanel"]
 layout_mode = 0
@@ -761,18 +761,18 @@ texture = ExtResource("118")
 
 [node name="CodeSpot" parent="Guard1Spot/BigBossPanel" instance=ExtResource("79")]
 layout_mode = 1
-offset_left = 521.260986328125
-offset_top = 112.20600128173828
-offset_right = -35.73860168457031
-offset_bottom = -243.79400634765625
+offset_left = 521.261
+offset_top = 112.206
+offset_right = -35.7386
+offset_bottom = -243.794
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "2J-"
 
 [node name="Indicators" parent="Guard1Spot/BigBossPanel/CodeSpot" index="0"]
-offset_left = -7.355090141296387
-offset_top = 31.21179962158203
-offset_right = -7.355090141296387
-offset_bottom = 31.21179962158203
+offset_left = -7.35509
+offset_top = 31.2118
+offset_right = -7.35509
+offset_bottom = 31.2118
 
 [node name="Highlighter" parent="Guard1Spot/BigBossPanel/CodeSpot/Indicators" index="0"]
 modulate = Color(0.632576, 0.59199, 0.502211, 1)
@@ -794,32 +794,32 @@ texture = ExtResource("120")
 
 [node name="TagSpot" parent="Guard1Spot/BigBossPanel" instance=ExtResource("79")]
 layout_mode = 1
-offset_left = 347.9830017089844
-offset_top = 108.19200134277344
-offset_right = -211.01699829101563
-offset_bottom = -243.80799865722656
+offset_left = 347.983
+offset_top = 108.192
+offset_right = -211.017
+offset_bottom = -243.808
 hotspot_id = "wBa"
 
 [node name="Indicators" parent="Guard1Spot/BigBossPanel/TagSpot" index="0"]
-offset_left = -16.49720001220703
-offset_top = 28.990800857543945
-offset_right = -16.49720001220703
-offset_bottom = 28.990800857543945
+offset_left = -16.4972
+offset_top = 28.9908
+offset_right = -16.4972
+offset_bottom = 28.9908
 
 [node name="Highlighter" parent="Guard1Spot/BigBossPanel/TagSpot/Indicators" index="0"]
 modulate = Color(0.454116, 0.659539, 0.598581, 1)
 position = Vector2(9.02576, -22.0205)
-frame_progress = 0.028858499601483345
+frame_progress = 0.0288585
 
 [node name="FocusIndicator" parent="Guard1Spot/BigBossPanel/TagSpot/Indicators" index="1"]
 position = Vector2(10.0258, -18.0205)
 
 [node name="TagPanel" type="Panel" parent="Guard1Spot/BigBossPanel/TagSpot"]
 layout_mode = 0
-offset_left = -1099.530029296875
-offset_top = 26.177499771118164
-offset_right = -749.5289916992188
-offset_bottom = 290.1780090332031
+offset_left = -1099.53
+offset_top = 26.1775
+offset_right = -749.529
+offset_bottom = 290.178
 
 [node name="TagCloseupSprite" type="Sprite2D" parent="Guard1Spot/BigBossPanel/TagSpot/TagPanel"]
 position = Vector2(179, 122)
@@ -865,15 +865,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "RkP"
 
 [node name="Indicators" parent="Guard2Spot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Guard2Spot/Indicators" index="0"]
 modulate = Color(0.190659, 0.387039, 0.393205, 1)
 position = Vector2(-32.7737, 28.1502)
-frame_progress = 0.5579100251197815
+frame_progress = 0.55791
 
 [node name="FocusIndicator" parent="Guard2Spot/Indicators" index="1"]
 position = Vector2(-33.3059, 34.3797)
@@ -890,7 +890,7 @@ position = Vector2(199.611, 273.295)
 sprite_frames = SubResource("SpriteFrames_en1pi")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.10744199901819229
+frame_progress = 0.107442
 
 [node name="BigBossSpeech" type="Label" parent="Guard2Spot/BigBossPanel"]
 layout_mode = 0
@@ -916,25 +916,25 @@ offset_bottom = -227.0
 hotspot_id = "Xh0"
 
 [node name="Indicators" parent="Guard2Spot/BigBossPanel/TagSpot" index="0"]
-offset_left = -14.602800369262695
-offset_top = 27.912799835205078
-offset_right = -14.602800369262695
-offset_bottom = 27.912799835205078
+offset_left = -14.6028
+offset_top = 27.9128
+offset_right = -14.6028
+offset_bottom = 27.9128
 
 [node name="Highlighter" parent="Guard2Spot/BigBossPanel/TagSpot/Indicators" index="0"]
 modulate = Color(0.454902, 0.658824, 0.6, 1)
 position = Vector2(9.02588, -19)
-frame_progress = 0.4181149899959564
+frame_progress = 0.418115
 
 [node name="FocusIndicator" parent="Guard2Spot/BigBossPanel/TagSpot/Indicators" index="1"]
 position = Vector2(10.0259, -15)
 
 [node name="TagPanel" type="Panel" parent="Guard2Spot/BigBossPanel/TagSpot"]
 layout_mode = 0
-offset_left = -1099.530029296875
-offset_top = 26.177499771118164
-offset_right = -749.5289916992188
-offset_bottom = 290.1780090332031
+offset_left = -1099.53
+offset_top = 26.1775
+offset_right = -749.529
+offset_bottom = 290.178
 
 [node name="TagCloseupSprite" type="Sprite2D" parent="Guard2Spot/BigBossPanel/TagSpot/TagPanel"]
 position = Vector2(179, 122)
@@ -976,23 +976,23 @@ texture = ExtResource("117")
 
 [node name="DiscSpot" parent="." instance=ExtResource("79")]
 layout_mode = 1
-offset_left = 191.4810028076172
-offset_top = 139.85299682617188
-offset_right = -663.5189819335938
-offset_bottom = -286.1470031738281
+offset_left = 191.481
+offset_top = 139.853
+offset_right = -663.519
+offset_bottom = -286.147
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "0bE"
 
 [node name="Indicators" parent="DiscSpot" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="DiscSpot/Indicators" index="0"]
 modulate = Color(0.434453, 0.64, 0.3392, 1)
 position = Vector2(11.8947, -34.8487)
-frame_progress = 0.4303959906101227
+frame_progress = 0.430396
 
 [node name="FocusIndicator" parent="DiscSpot/Indicators" index="1"]
 visible = false
@@ -1020,21 +1020,21 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "FKG"
 
 [node name="Indicators" parent="IdolSpot" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="IdolSpot/Indicators" index="0"]
 modulate = Color(0.854462, 0.276858, 0, 1)
-frame_progress = 0.5606970191001892
+frame_progress = 0.560697
 
 [node name="BigBossPanel" type="Panel" parent="IdolSpot"]
 layout_mode = 0
-offset_left = -418.9880065917969
-offset_top = -1026.1099853515625
-offset_right = 84.01229858398438
-offset_bottom = -585.114990234375
+offset_left = -418.988
+offset_top = -1026.11
+offset_right = 84.0123
+offset_bottom = -585.115
 
 [node name="BigBossSprite" type="Sprite2D" parent="IdolSpot/BigBossPanel"]
 position = Vector2(244.786, 234.592)
@@ -1051,21 +1051,21 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "ECR"
 
 [node name="Indicators" parent="IdolSpot/BigBossPanel/IdolInsideSpot" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="IdolSpot/BigBossPanel/IdolInsideSpot/Indicators" index="0"]
 modulate = Color(0.992653, 0.768808, 0.73539, 1)
-frame_progress = 0.8455510139465332
+frame_progress = 0.845551
 
 [node name="BigBossPanel" type="Panel" parent="IdolSpot/BigBossPanel/IdolInsideSpot"]
 layout_mode = 0
-offset_left = -1270.0999755859375
-offset_top = -299.0589904785156
-offset_right = -680.094970703125
-offset_bottom = 328.9410095214844
+offset_left = -1270.1
+offset_top = -299.059
+offset_right = -680.095
+offset_bottom = 328.941
 
 [node name="BigBossSprite" type="Sprite2D" parent="IdolSpot/BigBossPanel/IdolInsideSpot/BigBossPanel"]
 position = Vector2(295.421, 310.151)
@@ -1081,15 +1081,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "I3d"
 
 [node name="Indicators" parent="IdolSpot/BigBossPanel/IdolInsideSpot2" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="IdolSpot/BigBossPanel/IdolInsideSpot2/Indicators" index="0"]
 modulate = Color(0.992157, 0.768627, 0.737255, 1)
 position = Vector2(17.1526, 25.9346)
-frame_progress = 0.8732830286026001
+frame_progress = 0.873283
 
 [node name="FocusIndicator" parent="IdolSpot/BigBossPanel/IdolInsideSpot2/Indicators" index="1"]
 position = Vector2(15.5995, 34.1743)
@@ -1115,25 +1115,25 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "u1F"
 
 [node name="Indicators" parent="SuitCaseSpot" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="SuitCaseSpot/Indicators" index="0"]
 modulate = Color(0.111879, 0.225663, 0.228667, 1)
 position = Vector2(-3.63373, -9.18231)
-frame_progress = 0.8795890212059021
+frame_progress = 0.879589
 
 [node name="FocusIndicator" parent="SuitCaseSpot/Indicators" index="1"]
 position = Vector2(23.9017, -1.01429)
 
 [node name="SuitCasePanel" type="Panel" parent="SuitCaseSpot"]
 layout_mode = 0
-offset_left = 100.20999908447266
-offset_top = -940.968994140625
-offset_right = 623.2100219726563
-offset_bottom = -392.968994140625
+offset_left = 100.21
+offset_top = -940.969
+offset_right = 623.21
+offset_bottom = -392.969
 
 [node name="BigBossSprite" type="Sprite2D" parent="SuitCaseSpot/SuitCasePanel"]
 position = Vector2(271.361, 265.303)

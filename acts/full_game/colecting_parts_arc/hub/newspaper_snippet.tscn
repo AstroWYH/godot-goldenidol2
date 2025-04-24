@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://0e50r6bt0g3w"]
+[gd_scene load_steps=6 format=3 uid="uid://0e50r6bt0g3w"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://ch0t7pd1hspgy" path="res://acts/full_game/colecting_parts_arc/hub/assets/newspaper2.png" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="4"]
@@ -27,10 +27,10 @@ offset = Vector2(37.6799, -176.198)
 
 [node name="NewspaperLabel1" type="Label" parent="NewspaperPanel"]
 layout_mode = 0
-offset_left = 23.359600067138672
-offset_top = 21.894500732421875
-offset_right = 667.3599853515625
-offset_bottom = 81.89450073242188
+offset_left = 23.3596
+offset_top = 21.8945
+offset_right = 667.36
+offset_bottom = 81.8945
 theme_override_colors/font_color = Color(0.156863, 0.258824, 0.258824, 1)
 theme_override_font_sizes/font_size = 28
 text = "pursuit_arc_newspaper_snippet_title"

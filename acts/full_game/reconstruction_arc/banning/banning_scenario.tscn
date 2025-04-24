@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://dc7auayxgfe3x"]
+[gd_scene load_steps=10 format=3 uid="uid://dc7auayxgfe3x"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://7bgu2q2p87xj" path="res://acts/full_game/reconstruction_arc/banning/puzzles/portrait_puzzle_template.tscn" id="2"]

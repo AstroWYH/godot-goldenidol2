@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=4 uid="uid://d23rqkbh6iqml"]
+[gd_scene load_steps=36 format=3 uid="uid://d23rqkbh6iqml"]
 
 [ext_resource type="Texture2D" uid="uid://85b6hjry6ayn" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://brgq37t2cmo4j" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/father/father_001.png" id="2"]
@@ -143,7 +143,7 @@ offset_bottom = 1460.0
 position = Vector2(180, 316)
 sprite_frames = SubResource("SpriteFrames_yxauy")
 autoplay = "default"
-frame_progress = 0.04959689825773239
+frame_progress = 0.0495969
 flip_h = true
 
 [node name="SpeechTobiasLabel" type="Label" parent="."]
@@ -164,7 +164,7 @@ offset_left = -14.0
 offset_top = 22.0
 offset_right = 495.0
 offset_bottom = 55.0
-rotation = 0.3406060039997101
+rotation = 0.340606
 theme = ExtResource("33")
 theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
 theme_override_font_sizes/font_size = 20
@@ -175,7 +175,7 @@ offset_left = 22.0
 offset_top = 33.0
 offset_right = 95.0
 offset_bottom = 63.0
-rotation = -1.1375999450683594
+rotation = -1.1376
 theme = ExtResource("33")
 theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
 theme_override_font_sizes/font_size = 20

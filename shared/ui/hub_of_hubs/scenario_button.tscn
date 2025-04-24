@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://gmj6js3wf6df"]
+[gd_scene load_steps=4 format=3 uid="uid://gmj6js3wf6df"]
 
 [ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/scenario_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://5tkxb6p6t5w6" path="res://shared/ui/hub_of_hubs/scenario_button.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://crb7rwujbjw7u" path="res://shared/ui/hub_of_hubs/focus_target.tscn" id="3"]
 
 [node name="Button" type="TextureButton"]

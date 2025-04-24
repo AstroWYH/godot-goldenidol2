@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://dpeqb12c3ire6"]
+[gd_scene load_steps=10 format=3 uid="uid://dpeqb12c3ire6"]
 
 [ext_resource type="Texture2D" uid="uid://dfns0y0grpacg" path="res://acts/full_game/research_arc/complex/assets/closeups/03_a2_nakana.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
 [ext_resource type="Texture2D" uid="uid://dw1p70maafp7m" path="res://acts/full_game/research_arc/complex/assets/closeups/nakanas_fishing.png" id="3"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="6"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="7"]
@@ -75,7 +75,7 @@ stretch_mode = 1
 [node name="Sprite2D" type="Sprite2D" parent="GarbageNoteSpot3/NotePanel_f/Sprite2D"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(185.323, 201.741)
-rotation = 3.1215500831604004
+rotation = 3.12155
 scale = Vector2(0.795169, 0.795169)
 texture = ExtResource("6")
 region_enabled = true

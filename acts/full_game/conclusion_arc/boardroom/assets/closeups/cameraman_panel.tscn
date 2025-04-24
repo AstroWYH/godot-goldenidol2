@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://bopf3ls15u1sx"]
+[gd_scene load_steps=39 format=3 uid="uid://bopf3ls15u1sx"]
 
 [ext_resource type="Texture2D" uid="uid://iq3dcocriq34" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://3k6vef14xedn" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/intern/intern_001.png" id="2"]
@@ -163,9 +163,9 @@ offset_bottom = 753.0
 [node name="CameramanSpeech" type="Label" parent="."]
 layout_mode = 0
 offset_left = 60.0
-offset_top = 36.41999816894531
+offset_top = 36.42
 offset_right = 731.0
-offset_bottom = 153.4199981689453
+offset_bottom = 153.42
 text = "BOARDROOM_INTERN_SPEECH"
 autowrap_mode = 3
 
@@ -173,7 +173,7 @@ autowrap_mode = 3
 position = Vector2(546.878, 363.42)
 sprite_frames = SubResource("SpriteFrames_og0qo")
 autoplay = "default"
-frame_progress = 0.38674500584602356
+frame_progress = 0.386745
 
 [node name="LanyardSprite" type="Sprite2D" parent="."]
 position = Vector2(161.259, 350.42)
@@ -182,9 +182,9 @@ texture = ExtResource("37")
 [node name="LanyardLabel" type="Label" parent="."]
 layout_mode = 0
 offset_left = 87.0
-offset_top = 366.96099853515625
+offset_top = 366.961
 offset_right = 219.0
-offset_bottom = 444.96099853515625
+offset_bottom = 444.961
 theme_override_colors/font_color = Color(0.733333, 0, 0, 1)
 theme_override_font_sizes/font_size = 19
 text = "BOARDROOM_INTERN_TAG_LABEL"

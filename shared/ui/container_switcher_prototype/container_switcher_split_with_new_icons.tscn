@@ -1,6 +1,6 @@
-[gd_scene load_steps=16 format=4 uid="uid://wqp1w8xbov2x"]
+[gd_scene load_steps=16 format=3 uid="uid://wqp1w8xbov2x"]
 
-[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_split_with_new_icons.gd" id="1"]
+[ext_resource type="Script" uid="uid://2um62d5j5srf" path="res://shared/ui/container_switcher_prototype/container_switcher_split_with_new_icons.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bvqmaexxkqscp" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel_2xsmaller.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cfjtaev77tctm" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://ckfaor7dsjqqg" path="res://shared/assets/placeholder_ui/buttons/marker_left_small_04.png" id="4"]

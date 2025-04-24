@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://d1rl5c7u3jpff"]
+[gd_scene load_steps=6 format=3 uid="uid://d1rl5c7u3jpff"]
 
 [ext_resource type="Texture2D" uid="uid://c3t3d11x2ux8p" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/trash.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -21,7 +21,7 @@ offset_left = -99.0
 offset_top = -45.0
 offset_right = 3.0
 offset_bottom = 22.0
-rotation = 0.39116400480270386
+rotation = 0.391164
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.0823529, 0.0627451, 0.054902, 1)
 theme_override_constants/line_spacing = 0

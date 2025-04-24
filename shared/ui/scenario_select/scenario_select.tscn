@@ -1,6 +1,6 @@
-[gd_scene load_steps=40 format=4 uid="uid://cq1pd1er6p2rn"]
+[gd_scene load_steps=40 format=3 uid="uid://cq1pd1er6p2rn"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
+[ext_resource type="Script" uid="uid://dx8gan8gf58m5" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
 [ext_resource type="AudioStream" uid="uid://b755t8j3balbr" path="res://shared/assets/sfx/ambiences/main_menu_ambience.ogg" id="3"]
 [ext_resource type="PackedScene" uid="uid://oqltygf04g8q" path="res://shared/ui/hub/special_victory_screen_caller.tscn" id="4"]
@@ -13,26 +13,26 @@
 [ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="11"]
 [ext_resource type="Resource" uid="uid://batbrd70tgo1f" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub_meta.tres" id="12"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="13"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/play_game_button.gd" id="14"]
+[ext_resource type="Script" uid="uid://b2cd78nyaubno" path="res://shared/ui/splash_screen/play_game_button.gd" id="14"]
 [ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="15"]
-[ext_resource type="Script" path="res://shared/ui/scenario_select/dlc_button.gd" id="16"]
+[ext_resource type="Script" uid="uid://bs8vdy0q2xklj" path="res://shared/ui/scenario_select/dlc_button.gd" id="16"]
 [ext_resource type="Resource" uid="uid://b1jtg1awa3n2b" path="res://acts/roys_dlc/hub/roys_dlc_meta.tres" id="17"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/settings_button.gd" id="18"]
-[ext_resource type="Script" path="res://shared/ui/scenario_select/credits_button.gd" id="19"]
+[ext_resource type="Script" uid="uid://ccp6i814blvua" path="res://shared/ui/splash_screen/settings_button.gd" id="18"]
+[ext_resource type="Script" uid="uid://cau14canrfgeo" path="res://shared/ui/scenario_select/credits_button.gd" id="19"]
 [ext_resource type="Texture2D" uid="uid://dfnsmkmdw85og" path="res://shared/assets/small_splash_screen_icon.png" id="20"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="21"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/exit_button.gd" id="22"]
+[ext_resource type="Script" uid="uid://c7ivef8gafdr2" path="res://shared/ui/splash_screen/web_link_button.gd" id="21"]
+[ext_resource type="Script" uid="uid://cxk3cs4wlvodh" path="res://shared/ui/splash_screen/exit_button.gd" id="22"]
 [ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="23"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/language_button.gd" id="24"]
+[ext_resource type="Script" uid="uid://br1wvvcdear7n" path="res://shared/ui/splash_screen/language_button.gd" id="24"]
 [ext_resource type="PackedScene" uid="uid://dx8itecq77gyt" path="res://shared/ui/splash_screen/language_popup/language_popup.tscn" id="25"]
 [ext_resource type="PackedScene" uid="uid://ec1trrkgsu4l" path="res://shared/ui/in_game_menu/in_game_menu.tscn" id="26"]
 [ext_resource type="Texture2D" uid="uid://cmvsr280n330c" path="res://shared/assets/icons/icon_bug_64x64.png" id="27"]
-[ext_resource type="Script" path="res://shared/ui/scenario_select/report_issue_button.gd" id="28"]
+[ext_resource type="Script" uid="uid://c0pr72atiff3x" path="res://shared/ui/scenario_select/report_issue_button.gd" id="28"]
 [ext_resource type="Texture2D" uid="uid://in73eq8d6acx" path="res://shared/ui/buttons/btn_0040_X_idle.png" id="29"]
 [ext_resource type="Texture2D" uid="uid://p2uqa4k4l2r8" path="res://shared/ui/buttons/btn_0042_X_pressed.png" id="30"]
 [ext_resource type="Texture2D" uid="uid://cemwggpo13ubc" path="res://shared/ui/buttons/btn_0041_X_mouseover.png" id="31"]
 [ext_resource type="Texture2D" uid="uid://lyh5urj5bpnu" path="res://shared/ui/buttons/btn_0040_X_focus.png" id="32"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_texturebutton.gd" id="33"]
+[ext_resource type="Script" uid="uid://crshdf4luaula" path="res://shared/ui/splash_screen/web_link_texturebutton.gd" id="33"]
 [ext_resource type="Texture2D" uid="uid://c4c1mu3gmmstf" path="res://shared/ui/buttons/btn_0037_discord_idle.png" id="34"]
 [ext_resource type="Texture2D" uid="uid://dnv8jmo06twv0" path="res://shared/ui/buttons/btn_0039_discord_pressed.png" id="35"]
 [ext_resource type="Texture2D" uid="uid://bak7fs5qdfwas" path="res://shared/ui/buttons/btn_0038_discord_mouseover.png" id="36"]
@@ -71,13 +71,13 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0d4um"]
 _data = {
-"new_animation": SubResource("Animation_s20cp")
+&"new_animation": SubResource("Animation_s20cp")
 }
 
 [node name="ScenarioSelect" type="Node2D" groups=["i18n"]]
 script = ExtResource("1")
-music_layers = [ExtResource("2")]
-ambience_layers = [ExtResource("3")]
+music_layers = Array[AudioStream]([ExtResource("2")])
+ambience_layers = Array[AudioStream]([ExtResource("3")])
 
 [node name="SpecialScreenCaller" parent="." instance=ExtResource("4")]
 dialog_path = "res://acts/full_game/introductory_arc/hub/intro_arc_victory.tscn"
@@ -142,7 +142,7 @@ text = "Legacy DLC v 0.1 (2024-08-19)"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_0d4um")
+&"": SubResource("AnimationLibrary_0d4um")
 }
 autoplay = "new_animation"
 

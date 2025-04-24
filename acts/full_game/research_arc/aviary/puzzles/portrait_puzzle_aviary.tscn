@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=4 uid="uid://bmll22nxvjply"]
+[gd_scene load_steps=14 format=3 uid="uid://bmll22nxvjply"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
@@ -21,8 +21,8 @@ puzzle_group = NodePath("PuzzleGroup")
 
 [node name="Frame" parent="." index="0"]
 anchors_preset = -1
-anchor_right = 1.003000020980835
-offset_right = 0.37498199939727783
+anchor_right = 1.003
+offset_right = 0.374982
 offset_bottom = 5.0
 
 [node name="ColorRect" parent="Frame/MarginContainer" index="1"]
@@ -31,8 +31,8 @@ visible = true
 [node name="PuzzleGroup" parent="." index="4" instance=ExtResource("2")]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.7339999675750732
-anchor_bottom = 1.4889999628067017
+anchor_right = 1.734
+anchor_bottom = 1.489
 offset_right = -1517.25
 offset_bottom = -744.5
 
@@ -40,8 +40,8 @@ offset_bottom = -744.5
 unique_name_in_owner = true
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 0.37700000405311584
-anchor_bottom = 0.6489999890327454
+anchor_right = 0.377
+anchor_bottom = 0.649
 offset_left = 25.0
 offset_top = 21.0
 offset_right = 831.0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://dg67u7nbuuymb"]
+[gd_scene load_steps=11 format=3 uid="uid://dg67u7nbuuymb"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://m8f40bikda22" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle.tscn" id="2"]

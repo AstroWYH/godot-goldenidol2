@@ -14,11 +14,11 @@ config/name="The Rise of the Golden Idol"
 run/main_scene="res://shared/ui/logo_sequence.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="The Rise of the Golden Idol"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 run/max_fps=144
 boot_splash/bg_color=Color(0.133333, 0.12549, 0.203922, 1)
-boot_splash/image="res://shared/assets/startup.png"
 boot_splash/fullsize=false
+boot_splash/image="res://shared/assets/startup.png"
 config/icon="res://shared/assets/icons/development_icon.png"
 
 [audio]

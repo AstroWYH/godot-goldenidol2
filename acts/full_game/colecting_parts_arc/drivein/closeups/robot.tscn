@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=4 uid="uid://crlalvqndj2g1"]
+[gd_scene load_steps=59 format=3 uid="uid://crlalvqndj2g1"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
@@ -243,13 +243,13 @@ autowrap_mode = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(537, 236)
-rotation = -0.07422330230474472
+rotation = -0.0742233
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -269,7 +269,7 @@ text = "ticket_stub_tooltip"
 [node name="Highlighter" parent="Tickettspot/Indicators" index="0"]
 modulate = Color(0.752941, 0.568627, 0.301961, 1)
 position = Vector2(-7, -8)
-frame_progress = 0.46691998839378357
+frame_progress = 0.46692
 
 [node name="FocusIndicator" parent="Tickettspot/Indicators" index="1"]
 position = Vector2(-6, -4)
@@ -279,6 +279,6 @@ position = Vector2(240.5, 317.5)
 scale = Vector2(0.89, 0.89)
 sprite_frames = SubResource("SpriteFrames_q1g4l")
 autoplay = "default"
-frame_progress = 0.03700999915599823
+frame_progress = 0.03701
 
 [editable path="Tickettspot"]

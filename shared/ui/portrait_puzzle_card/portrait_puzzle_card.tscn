@@ -1,9 +1,9 @@
-[gd_scene load_steps=6 format=4 uid="uid://btemkxm05phja"]
+[gd_scene load_steps=6 format=3 uid="uid://btemkxm05phja"]
 
-[ext_resource type="Script" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.gd" id="1"]
+[ext_resource type="Script" uid="uid://cctjydf0tffpn" path="res://shared/ui/portrait_puzzle_card/portrait_puzzle_card.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bq08tsoc6hggr" path="res://shared/assets/placeholder_ui/portrait_empty.png" id="2"]
 [ext_resource type="PackedScene" uid="uid://ceiwyipjk4mpt" path="res://shared/ui/phrase_slot/phrase_slot.tscn" id="3"]
-[ext_resource type="Script" path="res://shared/puzzle/puzzle_component/puzzle_component.gd" id="4"]
+[ext_resource type="Script" uid="uid://d13pnhublfonq" path="res://shared/puzzle/puzzle_component/puzzle_component.gd" id="4"]
 [ext_resource type="PackedScene" uid="uid://gasn1eljuyqh" path="res://shared/puzzle/puzzle_answer_item/puzzle_answer_item.tscn" id="5"]
 
 [node name="PortraitPuzzleCard" type="ColorRect"]

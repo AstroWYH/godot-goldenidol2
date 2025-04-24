@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=4 uid="uid://b33dtjeg8loxx"]
+[gd_scene load_steps=58 format=3 uid="uid://b33dtjeg8loxx"]
 
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="2"]
@@ -238,7 +238,7 @@ modulate = Color(0.788657, 0.740072, 0.68122, 1)
 position = Vector2(301, 540)
 sprite_frames = SubResource("SpriteFrames_oqra0")
 autoplay = "default"
-frame_progress = 0.44986799359321594
+frame_progress = 0.449868
 
 [node name="RadioSprite" type="Sprite2D" parent="."]
 position = Vector2(555.849, 468.5)

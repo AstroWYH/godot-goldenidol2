@@ -1,6 +1,6 @@
-[gd_scene load_steps=15 format=4 uid="uid://qngfp4xlt30h"]
+[gd_scene load_steps=15 format=3 uid="uid://qngfp4xlt30h"]
 
-[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_split_with_new_icons.gd" id="1"]
+[ext_resource type="Script" uid="uid://2um62d5j5srf" path="res://shared/ui/container_switcher_prototype/container_switcher_split_with_new_icons.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://6m03hn7ug4aq" path="res://shared/assets/placeholder_ui/special_ninepatch_v3.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://ckfaor7dsjqqg" path="res://shared/assets/placeholder_ui/buttons/marker_left_small_04.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://d0yf8cqnm5lw" path="res://shared/assets/placeholder_ui/buttons/marker_left_small_02.png" id="4"]

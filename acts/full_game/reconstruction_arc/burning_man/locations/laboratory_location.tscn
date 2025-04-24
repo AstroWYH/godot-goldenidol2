@@ -1,6 +1,6 @@
-[gd_scene load_steps=42 format=4 uid="uid://brck8l4jefgpx"]
+[gd_scene load_steps=42 format=3 uid="uid://brck8l4jefgpx"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dpdyftjwfmich" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://cpxm3kh7wapid" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_1.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://o37yajmmrnb5" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_2.png" id="4"]
@@ -28,12 +28,12 @@
 [ext_resource type="Texture2D" uid="uid://212n64qmjkbo" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/historian/professor_24.png" id="26"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="27"]
 [ext_resource type="Resource" uid="uid://cs3qk40s86fm5" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_right_location_meta.tres" id="28"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="29"]
-[ext_resource type="PackedScene" uid="uid://bb7a8jwsirfc" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/posters_panel.tscn" id="30"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="29"]
+[ext_resource type="PackedScene" uid="uid://bubylea56x7cf" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/posters_panel.tscn" id="30"]
 [ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="31"]
 [ext_resource type="Texture2D" uid="uid://1bvyy17mgtpl" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/pen.png" id="32"]
 [ext_resource type="PackedScene" uid="uid://bqj1iqe37vd07" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/oriel_locker_panel.tscn" id="33"]
-[ext_resource type="PackedScene" uid="uid://hkb058soe7qs" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/marmot_locker_panel.tscn" id="34"]
+[ext_resource type="PackedScene" uid="uid://bsn0vgy017457" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/marmot_locker_panel.tscn" id="34"]
 [ext_resource type="PackedScene" uid="uid://kh4mcvjbar8m" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/jack_locker_panel.tscn" id="35"]
 [ext_resource type="PackedScene" uid="uid://btw40kov0hhrm" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/westlake_locker_panel.tscn" id="36"]
 [ext_resource type="PackedScene" uid="uid://d1rl5c7u3jpff" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/bin_panel.tscn" id="37"]
@@ -132,7 +132,7 @@ location_meta = ExtResource("2")
 position = Vector2(1404, 555)
 sprite_frames = SubResource("SpriteFrames_twedo")
 autoplay = "default"
-frame_progress = 0.47784799337387085
+frame_progress = 0.477848
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -160,7 +160,7 @@ offset_right = 3.5
 offset_bottom = 47.0
 
 [node name="Highlighter" parent="Hotspots/ToLabRightSpot/Indicators" index="0"]
-rotation = -1.6344499588012695
+rotation = -1.63445
 animation = &"location"
 
 [node name="CorkBoardSpot" parent="Hotspots" instance=ExtResource("27")]
@@ -363,9 +363,9 @@ unlocked_character_ref_id = 127
 unlocked_item_ref_id = 372
 
 [node name="Indicators" parent="Hotspots/HistorianOrielSpot" index="0"]
-offset_left = -26.136199951171875
+offset_left = -26.1362
 offset_top = 142.0
-offset_right = -26.136199951171875
+offset_right = -26.1362
 offset_bottom = 142.0
 
 [node name="Highlighter" parent="Hotspots/HistorianOrielSpot/Indicators" index="0"]
@@ -373,9 +373,9 @@ scale = Vector2(0.508065, 0.5)
 
 [node name="HistorianOrielPanel" parent="Hotspots/HistorianOrielSpot" instance=ExtResource("39")]
 layout_mode = 0
-offset_left = 2077.530029296875
+offset_left = 2077.53
 offset_top = -34.0
-offset_right = 2886.530029296875
+offset_right = 2886.53
 offset_bottom = 508.0
 
 [editable path="Hotspots/ToLabRightSpot"]

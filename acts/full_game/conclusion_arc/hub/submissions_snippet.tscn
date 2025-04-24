@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://cpkurfirecx8y"]
+[gd_scene load_steps=5 format=3 uid="uid://cpkurfirecx8y"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://22nnxct8d4gy" path="res://acts/full_game/conclusion_arc/hub/assets/snippet_propositions.png" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
@@ -26,10 +26,10 @@ texture = ExtResource("2")
 clip_contents = false
 layout_mode = 0
 offset_left = 48.0
-offset_top = 105.5479965209961
+offset_top = 105.548
 offset_right = 412.0
-offset_bottom = 717.5479736328125
-rotation = -0.039113599807024
+offset_bottom = 717.548
+rotation = -0.0391136
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_constants/line_separation = 0
@@ -46,10 +46,10 @@ autowrap_mode = 2
 clip_contents = false
 layout_mode = 0
 offset_left = 737.0
-offset_top = 66.54820251464844
+offset_top = 66.5482
 offset_right = 1073.0
-offset_bottom = 703.5479736328125
-rotation = -0.08210709691047668
+offset_bottom = 703.548
+rotation = -0.0821071
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_constants/line_separation = 0
@@ -67,10 +67,10 @@ shortcut_keys_enabled = false
 clip_contents = false
 layout_mode = 0
 offset_left = 431.0
-offset_top = 293.5480041503906
+offset_top = 293.548
 offset_right = 738.0
-offset_bottom = 756.5479736328125
-rotation = 0.06850740313529968
+offset_bottom = 756.548
+rotation = 0.0685074
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_constants/line_separation = 0
@@ -87,10 +87,10 @@ autowrap_mode = 2
 clip_contents = false
 layout_mode = 0
 offset_left = 1177.0
-offset_top = 138.54800415039063
+offset_top = 138.548
 offset_right = 1555.0
-offset_bottom = 746.5479736328125
-rotation = 0.19777999818325043
+offset_bottom = 746.548
+rotation = 0.19778
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_constants/line_separation = 0
@@ -105,10 +105,10 @@ scroll_active = false
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
 offset_left = 707.0
-offset_top = 404.5480041503906
+offset_top = 404.548
 offset_right = 1618.0
-offset_bottom = 455.5480041503906
-rotation = -0.2392670065164566
+offset_bottom = 455.548
+rotation = -0.239267
 theme = ExtResource("4")
 theme_override_colors/font_color = Color(0.690196, 0.211765, 0.215686, 1)
 theme_override_font_sizes/font_size = 40
@@ -117,10 +117,10 @@ text = "PINNACLE_SNIPPET_APPLICATION_REJECTED"
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
 offset_left = 1093.0
-offset_top = 526.5479736328125
+offset_top = 526.548
 offset_right = 2004.0
-offset_bottom = 577.5479736328125
-rotation = -0.6297789812088013
+offset_bottom = 577.548
+rotation = -0.629779
 theme = ExtResource("4")
 theme_override_colors/font_color = Color(0.690196, 0.211765, 0.215686, 1)
 theme_override_font_sizes/font_size = 40
@@ -129,10 +129,10 @@ text = "PINNACLE_SNIPPET_APPLICATION_REJECTED"
 [node name="Label3" type="Label" parent="."]
 layout_mode = 0
 offset_left = 1482.0
-offset_top = 597.5479736328125
+offset_top = 597.548
 offset_right = 2393.0
-offset_bottom = 648.5479736328125
-rotation = 0.9237329959869385
+offset_bottom = 648.548
+rotation = 0.923733
 theme = ExtResource("4")
 theme_override_colors/font_color = Color(0.690196, 0.211765, 0.215686, 1)
 theme_override_font_sizes/font_size = 40

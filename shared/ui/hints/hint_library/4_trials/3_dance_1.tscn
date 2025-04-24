@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://rm4677yuyjoq"]
+[gd_scene load_steps=3 format=3 uid="uid://rm4677yuyjoq"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://5tcagd5isqp8" path="res://shared/ui/hints/hint_library/4_trials/speildance.png" id="2"]

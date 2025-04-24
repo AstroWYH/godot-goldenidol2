@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://ybiflye6g481"]
+[gd_scene load_steps=11 format=3 uid="uid://ybiflye6g481"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://b5c3p6o8uqvrm" path="res://shared/assets/textures/black.png" id="2"]

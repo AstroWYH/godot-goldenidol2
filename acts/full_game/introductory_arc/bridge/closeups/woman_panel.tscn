@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=4 uid="uid://tdno4rgudmb4"]
+[gd_scene load_steps=58 format=3 uid="uid://tdno4rgudmb4"]
 
 [ext_resource type="Texture2D" uid="uid://go2np03s5eg" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://3pw44pc66n6f" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/woman2/woman_00001.png" id="2"]
@@ -51,7 +51,7 @@
 [ext_resource type="Texture2D" uid="uid://cy5wjvn5mb871" path="res://shared/assets/papers/A4_V1_ICO.png" id="49"]
 [ext_resource type="Texture2D" uid="uid://r1i3i7owrhm8" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/ring.png" id="50"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="51"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="52"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="52"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="53"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="54"]
 
@@ -225,10 +225,10 @@ autoplay = "default"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 29.431699752807617
-offset_top = 32.53239822387695
-offset_right = 392.4320068359375
-offset_bottom = 97.53240203857422
+offset_left = 29.4317
+offset_top = 32.5324
+offset_right = 392.432
+offset_bottom = 97.5324
 theme = ExtResource("48")
 text = "BRIDGE_DEBRA_SPEECH"
 
@@ -296,7 +296,7 @@ stretch_mode = 1
 [node name="Case numbers" type="Label" parent="LetterSpot/ClipboardPanel"]
 layout_mode = 0
 offset_left = 27.0
-offset_top = 28.000099182128906
+offset_top = 28.0001
 offset_right = 382.0
 offset_bottom = 454.0
 theme = ExtResource("54")

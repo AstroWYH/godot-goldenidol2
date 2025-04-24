@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4]
+[gd_scene load_steps=7 format=3 uid="uid://xb22j6peavu2"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://oun5ap8t8n6n" path="res://acts/full_game/conclusion_arc/boardroom/puzzles/boardroom_portrait_puzzle.tscn" id="2"]

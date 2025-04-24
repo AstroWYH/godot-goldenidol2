@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://dstboo713lq40"]
+[gd_scene load_steps=2 format=3 uid="uid://dstboo713lq40"]
 
 [ext_resource type="Texture2D" uid="uid://co5nlm7xp3e35" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/cameraV2.png" id="1"]
 
@@ -18,7 +18,7 @@ offset_left = 423.0
 offset_top = 241.0
 offset_right = 714.0
 offset_bottom = 307.0
-rotation = -0.05235990136861801
+rotation = -0.0523599
 theme_override_colors/font_color = Color(0.485027, 0.547624, 0.572707, 1)
 text = "BOARDROOM_CAMERA_VIDEO_LABEL"
 vertical_alignment = 1
@@ -30,7 +30,7 @@ offset_left = -12.0
 offset_top = 266.0
 offset_right = 245.0
 offset_bottom = 332.0
-rotation = -0.05235990136861801
+rotation = -0.0523599
 theme_override_colors/font_color = Color(0.485027, 0.547624, 0.572707, 1)
 text = "BOARDROOM_CAMERA_AUDIO_LABEL"
 horizontal_alignment = 2

@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://4vfbou31ptps"]
+[gd_scene load_steps=2 format=3 uid="uid://4vfbou31ptps"]
 
 [ext_resource type="Texture2D" uid="uid://ckycyhn0rqbqj" path="res://shared/ui/glyph_container/assets/underline.png" id="1"]
 

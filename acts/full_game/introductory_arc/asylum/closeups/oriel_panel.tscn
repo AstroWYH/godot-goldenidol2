@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://dex52et7d5lls"]
+[gd_scene load_steps=24 format=3 uid="uid://dex52et7d5lls"]
 
 [ext_resource type="Texture2D" uid="uid://mbaeyblnte5k" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cgyjl43sw68xx" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/profesor 2/profesor 2_001.png" id="2"]
@@ -95,7 +95,7 @@ offset_bottom = 1971.0
 position = Vector2(258, 373)
 sprite_frames = SubResource("SpriteFrames_ol8jk")
 autoplay = "default"
-frame_progress = 0.3024410009384155
+frame_progress = 0.302441
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

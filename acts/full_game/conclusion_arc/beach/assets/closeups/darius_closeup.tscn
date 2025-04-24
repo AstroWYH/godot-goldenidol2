@@ -1,4 +1,4 @@
-[gd_scene load_steps=68 format=4 uid="uid://d3u47nwrpfbvv"]
+[gd_scene load_steps=68 format=3 uid="uid://d3u47nwrpfbvv"]
 
 [ext_resource type="Texture2D" uid="uid://bas7ijyslhmss" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cutb41s81hroc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_001.png" id="2"]
@@ -55,7 +55,7 @@
 [ext_resource type="Texture2D" uid="uid://dwq6ems5ghsmq" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/photographer/photographer_052.png" id="53"]
 [ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="54"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="55"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="56"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="56"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="57"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="58"]
 [ext_resource type="Texture2D" uid="uid://6onkp64rtl5i" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/photo_front_small.png" id="59"]
@@ -251,10 +251,10 @@ offset_bottom = -137.0
 
 [node name="DariusSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 53.085201263427734
-offset_top = 25.085100173950195
-offset_right = 676.0850219726563
-offset_bottom = 142.0850067138672
+offset_left = 53.0852
+offset_top = 25.0851
+offset_right = 676.085
+offset_bottom = 142.085
 text = "BEACH_DARIUS_SPEECH"
 autowrap_mode = 3
 
@@ -262,7 +262,7 @@ autowrap_mode = 3
 position = Vector2(23, 244)
 sprite_frames = SubResource("SpriteFrames_5yhtl")
 autoplay = "default"
-frame_progress = 0.19700700044631958
+frame_progress = 0.197007
 centered = false
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
@@ -309,7 +309,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(175, 155)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("58")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -317,7 +317,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(176, 401)
-rotation = 6.402040004730225
+rotation = 6.40204
 scale = Vector2(0.807298, 1)
 texture = ExtResource("58")
 region_enabled = true
@@ -343,19 +343,19 @@ texture = ExtResource("60")
 
 [node name="PhotoFrontSpot" parent="." instance=ExtResource("55")]
 layout_mode = 1
-offset_left = 403.10400390625
+offset_left = 403.104
 offset_top = 96.0
-offset_right = -276.89599609375
+offset_right = -276.896
 offset_bottom = -339.0
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "OX8"
 unlocked_puzzles = [ExtResource("61")]
 
 [node name="Indicators" parent="PhotoFrontSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="PhotoFrontSpot/Indicators" index="0"]
 modulate = Color(0.309417, 0.650965, 0.724906, 1)
@@ -377,18 +377,18 @@ texture = ExtResource("62")
 
 [node name="PhotoBackSpot" parent="." instance=ExtResource("55")]
 layout_mode = 1
-offset_left = 599.0659790039063
+offset_left = 599.066
 offset_top = 142.0
-offset_right = -34.93410110473633
+offset_right = -34.9341
 offset_bottom = -263.0
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "lJ2"
 
 [node name="Indicators" parent="PhotoBackSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="PhotoBackSpot/Indicators" index="0"]
 modulate = Color(0.309804, 0.65098, 0.72549, 1)

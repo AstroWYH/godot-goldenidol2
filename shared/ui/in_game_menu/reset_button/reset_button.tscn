@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://doh683dn47j2p"]
+[gd_scene load_steps=4 format=3 uid="uid://doh683dn47j2p"]
 
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/in_game_menu/reset_button/reset_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://ya8q0weavo5g" path="res://shared/ui/in_game_menu/reset_button/reset_button.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="3"]
 
 [node name="ResetButton" type="Button"]

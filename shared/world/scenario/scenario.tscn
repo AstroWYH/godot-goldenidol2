@@ -1,11 +1,11 @@
-[gd_scene load_steps=5 format=4 uid="uid://cv8l7jtclmcmq"]
+[gd_scene load_steps=5 format=3 uid="uid://cv8l7jtclmcmq"]
 
-[ext_resource type="Script" path="res://shared/world/scenario/scenario.gd" id="1"]
+[ext_resource type="Script" uid="uid://ew6req2ph2rw" path="res://shared/world/scenario/scenario.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://ec1trrkgsu4l" path="res://shared/ui/in_game_menu/in_game_menu.tscn" id="2"]
 
 [sub_resource type="Animation" id="Animation_yahpr"]
 resource_name = "loading_curtain"
-length = 0.20000000298023224
+length = 0.2
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -21,7 +21,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_pt6wv"]
 _data = {
-"loading_curtain": SubResource("Animation_yahpr")
+&"loading_curtain": SubResource("Animation_yahpr")
 }
 
 [node name="Scenario" type="Node2D"]

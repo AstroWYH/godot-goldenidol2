@@ -1,4 +1,4 @@
-[gd_scene load_steps=114 format=4 uid="uid://dljvb6iia0gqm"]
+[gd_scene load_steps=114 format=3 uid="uid://dljvb6iia0gqm"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://kr20s8d33dru" path="res://acts/full_game/research_arc/hub/puzzles/trials_arc_symbols_puzzle.tscn" id="2"]
@@ -106,7 +106,7 @@
 [ext_resource type="Texture2D" uid="uid://bevnpehyuig61" path="res://acts/full_game/research_arc/hub/assets/victorycomplex.png" id="104"]
 [ext_resource type="Texture2D" uid="uid://bj2dwpxdcesvx" path="res://acts/full_game/research_arc/hub/assets/victorycomplex_f.png" id="105"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="106"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="107"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="107"]
 [ext_resource type="PackedScene" uid="uid://bkruwfe5piwok" path="res://shared/ui/hub/change_arc_button.tscn" id="108"]
 [ext_resource type="Resource" uid="uid://bylqfn1vow1bd" path="res://acts/full_game/conclusion_arc/hub/conclusion_arc_meta.tres" id="109"]
 [ext_resource type="Resource" uid="uid://batbrd70tgo1f" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub_meta.tres" id="110"]

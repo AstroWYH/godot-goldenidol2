@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://0803o8j8mbyh"]
+[gd_scene load_steps=53 format=3 uid="uid://0803o8j8mbyh"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cmiqcpgvk37bx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/andy_lemons/andy_lemmons_000.png" id="2"]
@@ -230,4 +230,4 @@ autowrap_mode = 2
 position = Vector2(344, 229)
 sprite_frames = SubResource("SpriteFrames_u7bo5")
 autoplay = "default"
-frame_progress = 0.3671500086784363
+frame_progress = 0.36715

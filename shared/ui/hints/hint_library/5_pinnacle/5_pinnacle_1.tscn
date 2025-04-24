@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://dki43m5hytaov"]
+[gd_scene load_steps=3 format=3 uid="uid://dki43m5hytaov"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://ca3ije3puk047" path="res://shared/ui/hints/hint_library/5_pinnacle/pinnacle_hub.png" id="2"]

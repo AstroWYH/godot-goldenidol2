@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://dx8itecq77gyt"]
+[gd_scene load_steps=6 format=3 uid="uid://dx8itecq77gyt"]
 
-[ext_resource type="Script" path="res://shared/ui/splash_screen/language_popup/language_popup.gd" id="1"]
+[ext_resource type="Script" uid="uid://bm4mmie5suemg" path="res://shared/ui/splash_screen/language_popup/language_popup.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dyid5cvbfke20" path="res://shared/assets/frames/frame_panel.png" id="2"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="3"]
 [ext_resource type="PackedScene" uid="uid://hqqrli55ve5h" path="res://shared/ui/ingame_language_switcher/ingame_language_switcher.tscn" id="4"]

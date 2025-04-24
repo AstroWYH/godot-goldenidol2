@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=4 uid="uid://dxj0qgomnnwb6"]
+[gd_scene load_steps=46 format=3 uid="uid://dxj0qgomnnwb6"]
 
 [ext_resource type="Texture2D" uid="uid://d2bbwq04k4mbb" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bormq6167lojs" path="res://acts/full_game/introductory_arc/asylum/assets/portraits/warden/guard_001.png" id="2"]
@@ -23,7 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://bqxqjlgjicysq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/cigarettes.png" id="21"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="22"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="23"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="24"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="24"]
 [ext_resource type="PackedScene" uid="uid://cwoh20quthlt2" path="res://acts/full_game/introductory_arc/asylum/closeups/clipboard_panel.tscn" id="25"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_akqet"]
@@ -171,14 +171,14 @@ offset_bottom = 1746.0
 position = Vector2(491.173, 467.009)
 sprite_frames = SubResource("SpriteFrames_akqet")
 autoplay = "default"
-frame_progress = 0.999763011932373
+frame_progress = 0.999763
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 19.03059959411621
-offset_top = 18.061399459838867
-offset_right = 382.031005859375
-offset_bottom = 83.0614013671875
+offset_left = 19.0306
+offset_top = 18.0614
+offset_right = 382.031
+offset_bottom = 83.0614
 theme = ExtResource("18")
 text = "ASYLUM_MORG_SPEECH"
 
@@ -196,11 +196,11 @@ position = Vector2(490.251, 196.281)
 texture = ExtResource("21")
 
 [node name="Label" type="Label" parent="Cigarettes"]
-offset_left = -203.25100708007813
-offset_top = -10.281000137329102
-offset_right = 147.74899291992188
-offset_bottom = 91.71900177001953
-rotation = -0.05235990136861801
+offset_left = -203.251
+offset_top = -10.281
+offset_right = 147.749
+offset_bottom = 91.719
+rotation = -0.0523599
 theme = ExtResource("22")
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
 text = "ASYLUM_MORG_CIGARETTES"
@@ -217,9 +217,9 @@ extra_items_unlocked = [SubResource("Resource_0lh1o"), SubResource("Resource_67l
 
 [node name="Indicators" parent="ClipBoardSpot" index="0"]
 offset_left = 94.0
-offset_top = 104.73699951171875
+offset_top = 104.737
 offset_right = 94.0
-offset_bottom = 104.73699951171875
+offset_bottom = 104.737
 
 [node name="Highlighter" parent="ClipBoardSpot/Indicators" index="0"]
 modulate = Color(0.745098, 0.815686, 0.792157, 1)
@@ -273,10 +273,10 @@ modulate = Color(0.192157, 0.207843, 0.152941, 1)
 
 [node name="CigsSpot" parent="." instance=ExtResource("23")]
 layout_mode = 1
-offset_left = 390.010986328125
-offset_top = 86.71649932861328
-offset_right = -261.989013671875
-offset_bottom = -400.28399658203125
+offset_left = 390.011
+offset_top = 86.7165
+offset_right = -261.989
+offset_bottom = -400.284
 hotspot_id = "p3e"
 text = "ASYLUM_MORG_CIGARETTES_TOOLTIP\\"
 extra_items_unlocked = [SubResource("Resource_gsmj1"), SubResource("Resource_s7p53")]

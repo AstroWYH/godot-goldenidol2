@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=4 uid="uid://dc4ugc3q1b4q1"]
+[gd_scene load_steps=40 format=3 uid="uid://dc4ugc3q1b4q1"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://dr2wi2y4tv3jp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/sarah_cunningham/Sarah_Cunningham_00000.png" id="2"]
@@ -193,7 +193,7 @@ autowrap_mode = 3
 position = Vector2(444, 314)
 sprite_frames = SubResource("SpriteFrames_iwlj5")
 autoplay = "default"
-frame_progress = 0.3284800052642822
+frame_progress = 0.32848
 
 [node name="CoffeeSpot2" parent="." instance=ExtResource("38")]
 layout_mode = 1
@@ -207,7 +207,7 @@ text = "cinema_coffee_stain"
 [node name="Highlighter" parent="CoffeeSpot2/Indicators" index="0"]
 modulate = Color(0.776471, 0.807843, 0.207843, 1)
 position = Vector2(19, 12)
-frame_progress = 0.7113400101661682
+frame_progress = 0.71134
 
 [node name="FocusIndicator" parent="CoffeeSpot2/Indicators" index="1"]
 position = Vector2(20, 16)

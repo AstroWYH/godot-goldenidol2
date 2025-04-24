@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://ngfhbmvq4ril"]
+[gd_scene load_steps=3 format=3 uid="uid://ngfhbmvq4ril"]
 
 [ext_resource type="Texture2D" uid="uid://biwp6bdqx6qva" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/book.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -56,7 +56,7 @@ offset_left = 88.0
 offset_top = 466.0
 offset_right = 458.0
 offset_bottom = 598.0
-rotation = -0.06560959666967392
+rotation = -0.0656096
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_constants/line_spacing = -4

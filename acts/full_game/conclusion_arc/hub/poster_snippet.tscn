@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://dopi6hj6e6vn"]
+[gd_scene load_steps=5 format=3 uid="uid://dopi6hj6e6vn"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://b3mysr22fgt4x" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/poster.png" id="2"]
 [ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="3"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]

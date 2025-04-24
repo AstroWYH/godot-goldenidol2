@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://bv2ldkh1rwrjn"]
+[gd_scene load_steps=3 format=3 uid="uid://bv2ldkh1rwrjn"]
 
 [ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -26,10 +26,10 @@ stretch_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 23.28529930114746
-offset_top = 20.590999603271484
-offset_right = 681.2849731445313
-offset_bottom = 424.59100341796875
+offset_left = 23.2853
+offset_top = 20.591
+offset_right = 681.285
+offset_bottom = 424.591
 theme_override_constants/separation = 10
 
 [node name="Title" type="Label" parent="VBoxContainer"]

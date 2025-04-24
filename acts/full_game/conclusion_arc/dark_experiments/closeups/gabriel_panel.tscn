@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://dxpj800kb6sab"]
+[gd_scene load_steps=43 format=3 uid="uid://dxpj800kb6sab"]
 
 [ext_resource type="Texture2D" uid="uid://iod4qq8ao84t" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bkrboy8yqtrwx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman3/businesman3_001.png" id="2"]
@@ -186,7 +186,7 @@ autowrap_mode = 3
 position = Vector2(553.694, 293.503)
 sprite_frames = SubResource("SpriteFrames_vl578")
 autoplay = "default"
-frame_progress = 0.7634580135345459
+frame_progress = 0.763458
 
 [node name="RingSprite" type="Sprite2D" parent="."]
 position = Vector2(201, 405)

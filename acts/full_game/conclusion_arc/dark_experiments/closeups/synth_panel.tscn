@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=4 uid="uid://bda66hu7e5gsy"]
+[gd_scene load_steps=51 format=3 uid="uid://bda66hu7e5gsy"]
 
 [ext_resource type="Texture2D" uid="uid://rfac5p18dd4s" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/SynthCloseup.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bg38f2qb007dk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/CloseupSpark/CloseupSpark_00000.png" id="2"]
@@ -203,10 +203,10 @@ animations = [{
 }]
 
 [node name="SynthPanel" type="Panel"]
-offset_left = 57.09170150756836
-offset_top = 1007.4199829101563
-offset_right = 883.0919799804688
-offset_bottom = 1498.4200439453125
+offset_left = 57.0917
+offset_top = 1007.42
+offset_right = 883.092
+offset_bottom = 1498.42
 
 [node name="SynthCloseup" type="Sprite2D" parent="."]
 position = Vector2(413.665, 241.822)
@@ -217,4 +217,4 @@ position = Vector2(564.422, 249.855)
 sprite_frames = SubResource("SpriteFrames_cyvgu")
 animation = &"Loop"
 autoplay = "Loop"
-frame_progress = 0.7943069934844971
+frame_progress = 0.794307

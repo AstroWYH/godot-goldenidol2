@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://khnmndng5ig1"]
+[gd_scene load_steps=3 format=3 uid="uid://khnmndng5ig1"]
 
-[ext_resource type="Script" path="res://shared/ui/special_effects/location_sparkles.gd" id="1"]
+[ext_resource type="Script" uid="uid://cwxpbe7qjy1f" path="res://shared/ui/special_effects/location_sparkles.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://cdhccaa3jxg4y" path="res://shared/ui/special_effects/particle_effect.tscn" id="2"]
 
 [node name="LocationSparkles" type="Control"]

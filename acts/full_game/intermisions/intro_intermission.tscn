@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://c4u1ytfdm4ugv"]
+[gd_scene load_steps=7 format=3 uid="uid://c4u1ytfdm4ugv"]
 
 [ext_resource type="PackedScene" uid="uid://bfe03csmbswxm" path="res://shared/ui/intermissions/intermission_dialog.tscn" id="1"]
 [ext_resource type="AudioStream" uid="uid://cb8vyrvs0cxj1" path="res://acts/full_game/intermisions/assets/audio/intermission_intro_audio.ogg" id="2"]
@@ -59,7 +59,7 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
 _data = {
-"intro": SubResource("Animation_36hnf")
+&"intro": SubResource("Animation_36hnf")
 }
 
 [node name="IntermissionDialog" instance=ExtResource("1")]
@@ -152,9 +152,9 @@ patch_margin_bottom = 32
 visible = false
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.22499999403953552
+anchor_left = 0.225
 anchor_top = 1.0
-anchor_right = 0.22499999403953552
+anchor_right = 0.225
 anchor_bottom = 1.0
 offset_left = -216.0
 offset_top = -125.0

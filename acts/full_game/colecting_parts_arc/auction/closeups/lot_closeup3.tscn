@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://bhj4s6rsjv1wc"]
+[gd_scene load_steps=3 format=3 uid="uid://bhj4s6rsjv1wc"]
 
 [ext_resource type="Texture2D" uid="uid://b68g8isi0ehkf" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/seal.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
@@ -17,15 +17,15 @@ centered = false
 
 [node name="Node2D" type="Node2D" parent="Seal"]
 position = Vector2(192, 110)
-rotation = -0.08726649731397629
-skew = -0.20769399404525757
+rotation = -0.0872665
+skew = -0.207694
 
 [node name="SOLDText3" type="Label" parent="Seal/Node2D"]
-offset_left = -11.263699531555176
-offset_top = 4.199649810791016
-offset_right = 243.73599243164063
-offset_bottom = 44.19960021972656
-rotation = 0.2713269889354706
+offset_left = -11.2637
+offset_top = 4.19965
+offset_right = 243.736
+offset_bottom = 44.1996
+rotation = 0.271327
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.697972, 0.242714, 0.148505, 1)
 theme_override_font_sizes/font_size = 20

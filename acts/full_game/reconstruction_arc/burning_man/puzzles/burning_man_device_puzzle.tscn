@@ -1,10 +1,12 @@
-[gd_scene load_steps=6 format=4 uid="uid://5ti42bej3qrv"]
+[gd_scene load_steps=6 format=3 uid="uid://5ti42bej3qrv"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
-[ext_resource type="Texture2D" uid="uid://cuqqbycw2ies3" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicewithprints.png" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="PackedScene" uid="uid://dcblv1kso5sqx" path="res://shared/ui/phrase_puzzle/phrase_puzzle.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://cxh6vot0d5lq" path="res://shared/ui/phrase_puzzle_slot/phrase_puzzle_slot.tscn" id="5"]
+
+[sub_resource type="Resource" id="Resource_651yg"]
+metadata/__load_path__ = "res://acts/full_game/reconstruction_arc/burning_man/assets/devicewithprints.png"
 
 [node name="CustomPhrasePuzzle" instance=ExtResource("1")]
 offset_right = 738.0
@@ -17,7 +19,7 @@ metadata/_edit_lock_ = true
 [node name="Sprite2D" type="Sprite2D" parent="Frame/MarginContainer/Background" index="0"]
 position = Vector2(192.201, 232.608)
 scale = Vector2(0.221418, 0.221418)
-texture = ExtResource("2")
+texture = SubResource("Resource_651yg")
 
 [node name="ColorRect" type="ColorRect" parent="Frame/MarginContainer/Background" index="1"]
 visible = false

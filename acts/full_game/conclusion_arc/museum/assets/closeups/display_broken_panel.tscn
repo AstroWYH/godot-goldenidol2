@@ -1,9 +1,9 @@
-[gd_scene load_steps=17 format=4 uid="uid://dmg2ydyj62sd0"]
+[gd_scene load_steps=17 format=3 uid="uid://dmg2ydyj62sd0"]
 
 [ext_resource type="Texture2D" uid="uid://dh6mtver737bi" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/display_broken2.png" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://cxgg2jrr72fi7" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/timeline.png" id="7"]
@@ -99,16 +99,16 @@ offset_bottom = 38.0
 [node name="Highlighter" parent="ListSpot/Indicators" index="0"]
 modulate = Color(0.566594, 0.216368, 0.22047, 1)
 position = Vector2(29.0331, 30.8165)
-frame_progress = 0.7260239720344543
+frame_progress = 0.726024
 
 [node name="FocusIndicator" parent="ListSpot/Indicators" index="1"]
 position = Vector2(29, 31)
 
 [node name="FocusGrabber" parent="ListSpot/Indicators" index="2"]
-offset_left = 7.033080101013184
-offset_top = 8.816499710083008
-offset_right = 52.03310012817383
-offset_bottom = 53.81650161743164
+offset_left = 7.03308
+offset_top = 8.8165
+offset_right = 52.0331
+offset_bottom = 53.8165
 
 [node name="ListPanel" type="Panel" parent="ListSpot"]
 layout_mode = 0
@@ -132,7 +132,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(582.159, 221.612)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("6")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -140,7 +140,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="ListSpot/ListPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(509.159, 373.612)
-rotation = 6.295479774475098
+rotation = 6.29548
 scale = Vector2(0.807298, 1)
 texture = ExtResource("6")
 region_enabled = true

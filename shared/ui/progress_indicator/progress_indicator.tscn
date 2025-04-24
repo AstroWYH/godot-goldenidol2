@@ -1,6 +1,6 @@
-[gd_scene load_steps=10 format=4 uid="uid://cpss7gy4yj7c"]
+[gd_scene load_steps=10 format=3 uid="uid://cpss7gy4yj7c"]
 
-[ext_resource type="Script" path="res://shared/ui/progress_indicator/progress_indicator.gd" id="1"]
+[ext_resource type="Script" uid="uid://c0aq6qylfmnkv" path="res://shared/ui/progress_indicator/progress_indicator.gd" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
 [ext_resource type="Texture2D" uid="uid://bjmwdcpu2qidq" path="res://shared/ui/progressbar new frame/bar frame.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://ch4crdbqtgy8o" path="res://shared/ui/progressbar new frame/progresbar complete.png" id="4"]

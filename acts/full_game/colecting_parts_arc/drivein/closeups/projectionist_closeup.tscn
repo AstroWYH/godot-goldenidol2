@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=4 uid="uid://ckrpks1x7qeak"]
+[gd_scene load_steps=59 format=3 uid="uid://ckrpks1x7qeak"]
 
 [ext_resource type="Texture2D" uid="uid://cyi8jd5n4s2yx" path="res://acts/full_game/colecting_parts_arc/drivein/assets/projectionbooth_v1.32.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://xwpsgrfijqbn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/BoothGuy/BoothGuy_00000.png" id="2"]
@@ -44,7 +44,7 @@
 [ext_resource type="Texture2D" uid="uid://4foa5htfc3d8" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/BoothGuy/BoothGuy_00040.png" id="42"]
 [ext_resource type="Texture2D" uid="uid://yjwg1rqk27m7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/BoothGuy/BoothGuy_00041.png" id="43"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="44"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="45"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="45"]
 [ext_resource type="PackedScene" uid="uid://cp7bsqhw3ulks" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/poster.tscn" id="46"]
 [ext_resource type="PackedScene" uid="uid://0803o8j8mbyh" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/andy.tscn" id="47"]
 [ext_resource type="PackedScene" uid="uid://cmeocmn3hw1a1" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/toolbox.tscn" id="48"]
@@ -225,7 +225,7 @@ texture = ExtResource("1")
 position = Vector2(-223.18, 0.5)
 sprite_frames = SubResource("SpriteFrames_ihope")
 autoplay = "default"
-frame_progress = 0.16056600213050842
+frame_progress = 0.160566
 
 [node name="NeptunePosterSpot3" parent="." instance=ExtResource("44")]
 layout_mode = 1
@@ -239,7 +239,7 @@ extra_items_unlocked = [SubResource("Resource_2o1dj"), SubResource("Resource_vum
 [node name="Highlighter" parent="NeptunePosterSpot3/Indicators" index="0"]
 modulate = Color(0.866787, 0.873768, 0.840879, 1)
 position = Vector2(13, 82.25)
-frame_progress = 0.5579059720039368
+frame_progress = 0.557906
 
 [node name="FocusIndicator" parent="NeptunePosterSpot3/Indicators" index="1"]
 position = Vector2(14, 86.25)
@@ -264,7 +264,7 @@ extra_items_unlocked = [SubResource("Resource_c8p27"), SubResource("Resource_0lu
 
 [node name="Highlighter" parent="AndyLemmonSpot2/Indicators" index="0"]
 position = Vector2(-34.5, 57.25)
-frame_progress = 0.2063560038805008
+frame_progress = 0.206356
 
 [node name="FocusIndicator" parent="AndyLemmonSpot2/Indicators" index="1"]
 position = Vector2(-35.5, 64.25)
@@ -287,7 +287,7 @@ hotspot_id = "-lp"
 [node name="Highlighter" parent="Tollboxspot/Indicators" index="0"]
 modulate = Color(1, 0.426529, 0.283466, 1)
 position = Vector2(4.5, 1.25)
-frame_progress = 0.3400619924068451
+frame_progress = 0.340062
 
 [node name="FocusIndicator" parent="Tollboxspot/Indicators" index="1"]
 position = Vector2(5.5, 5.25)
@@ -310,7 +310,7 @@ hotspot_id = "hMy"
 [node name="Highlighter" parent="ProjectorSpot/Indicators" index="0"]
 modulate = Color(0.368714, 0.508408, 0.549401, 1)
 position = Vector2(11, 34)
-frame_progress = 0.5653359889984131
+frame_progress = 0.565336
 
 [node name="FocusIndicator" parent="ProjectorSpot/Indicators" index="1"]
 visible = false
@@ -336,7 +336,7 @@ extra_items_unlocked = [SubResource("Resource_rg8ld")]
 [node name="Highlighter" parent="PosterSpot4/Indicators" index="0"]
 modulate = Color(0.834359, 0.896341, 0.919984, 1)
 position = Vector2(-7, 37)
-frame_progress = 0.19041499495506287
+frame_progress = 0.190415
 
 [node name="FocusIndicator" parent="PosterSpot4/Indicators" index="1"]
 position = Vector2(-6, 41)

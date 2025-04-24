@@ -1,8 +1,8 @@
-[gd_scene load_steps=12 format=4 uid="uid://d1md2q1ix1uys"]
+[gd_scene load_steps=12 format=3 uid="uid://d1md2q1ix1uys"]
 
 [ext_resource type="Texture2D" uid="uid://dvjsieyvuh8by" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cabin02.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Resource" uid="uid://b7aabvkcd1ryj" path="res://acts/full_game/introductory_arc/construction_yard/puzzles/construction_yard_vehicle_puzzle.tres" id="4"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="6"]
@@ -78,7 +78,7 @@ region_rect = Rect2(0, 0, 256, 70)
 
 [node name="Sprite2D2" type="Sprite2D" parent="SafetySlipSpot/SafetySlipCloseup/Sprite2D2"]
 position = Vector2(29, 473)
-rotation = -1.5707999467849731
+rotation = -1.5708
 texture = ExtResource("6")
 region_enabled = true
 region_rect = Rect2(2, 81.5, 63.5, 101.5)

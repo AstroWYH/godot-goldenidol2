@@ -1,6 +1,6 @@
-[gd_scene load_steps=75 format=4 uid="uid://igjhg8ddadl"]
+[gd_scene load_steps=75 format=3 uid="uid://igjhg8ddadl"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cpeitqeccefpd" path="res://acts/full_game/colecting_parts_arc/jail/locations/hallway_location.tres" id="2"]
 [ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="3"]
 [ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="4"]
@@ -42,7 +42,7 @@
 [ext_resource type="PackedScene" uid="uid://cuu5y2k7oacdd" path="res://acts/full_game/colecting_parts_arc/jail/closeups/floorplan_panel.tscn" id="40"]
 [ext_resource type="Resource" uid="uid://c2fgd6jbke5pw" path="res://acts/full_game/colecting_parts_arc/jail/locations/yard_location.tres" id="41"]
 [ext_resource type="PackedScene" uid="uid://blxixde0vtv0e" path="res://acts/full_game/colecting_parts_arc/jail/closeups/shelf_1_panel.tscn" id="42"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="43"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="43"]
 [ext_resource type="PackedScene" uid="uid://csd6fu3nhgahp" path="res://acts/full_game/colecting_parts_arc/jail/closeups/poster_panel.tscn" id="44"]
 [ext_resource type="PackedScene" uid="uid://cshjnt4br8m7v" path="res://acts/full_game/colecting_parts_arc/jail/closeups/desk_1_panel.tscn" id="45"]
 [ext_resource type="PackedScene" uid="uid://b5t6pk4xobujj" path="res://acts/full_game/colecting_parts_arc/jail/closeups/hideout_1_panel.tscn" id="46"]
@@ -184,7 +184,7 @@ loop_mode = 1
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fmlpq"]
 _data = {
-"new_animation": SubResource("Animation_fjmmo")
+&"new_animation": SubResource("Animation_fjmmo")
 }
 
 [sub_resource type="Resource" id="Resource_hf72i"]
@@ -279,31 +279,31 @@ metadata/_edit_lock_ = true
 position = Vector2(386, 102)
 sprite_frames = SubResource("SpriteFrames_diyum")
 autoplay = "default"
-frame_progress = 0.7448899745941162
+frame_progress = 0.74489
 
 [node name="Lamp2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1045, 65)
 sprite_frames = SubResource("SpriteFrames_diyum")
 autoplay = "default"
-frame_progress = 0.4818120002746582
+frame_progress = 0.481812
 
 [node name="Lamp3" type="AnimatedSprite2D" parent="."]
 position = Vector2(1703, 22)
 sprite_frames = SubResource("SpriteFrames_diyum")
 autoplay = "default"
-frame_progress = 0.4818120002746582
+frame_progress = 0.481812
 
 [node name="Guard1" type="AnimatedSprite2D" parent="."]
 position = Vector2(1296, 656)
 sprite_frames = SubResource("SpriteFrames_0lwr5")
 autoplay = "default"
-frame_progress = 0.3546299934387207
+frame_progress = 0.35463
 
 [node name="Guard2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1665, 679)
 sprite_frames = SubResource("SpriteFrames_bjkgf")
 autoplay = "default"
-frame_progress = 0.7751929759979248
+frame_progress = 0.775193
 
 [node name="CellsRail" type="Sprite2D" parent="."]
 position = Vector2(1419, 912)

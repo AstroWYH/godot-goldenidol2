@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4]
+[gd_scene load_steps=8 format=3 uid="uid://btufy6ikoj70j"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://bkvpq62ohl6le" path="res://acts/full_game/introductory_arc/bridge/puzzles/bridge_portrait_puzzle.tscn" id="2"]

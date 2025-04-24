@@ -1,9 +1,9 @@
-[gd_scene load_steps=15 format=4 uid="uid://bn823ga4pjbnh"]
+[gd_scene load_steps=15 format=3 uid="uid://bn823ga4pjbnh"]
 
 [ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://pkqjnuy6xsux" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/deadbody02/deadbody02.png" id="2"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
 
@@ -108,9 +108,9 @@ hotspot_id = "l7D"
 text = "CONSTRUCTION_JOEL_TOOLTIP"
 
 [node name="Indicators" parent="VictimSpot" index="0"]
-offset_left = -110.13999938964844
+offset_left = -110.14
 offset_top = 23.0
-offset_right = -110.13999938964844
+offset_right = -110.14
 offset_bottom = 23.0
 
 [node name="Highlighter" parent="VictimSpot/Indicators" index="0"]

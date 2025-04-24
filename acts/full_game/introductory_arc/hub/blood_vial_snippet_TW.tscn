@@ -1,6 +1,6 @@
-[gd_scene load_steps=7 format=4 uid="uid://dskmxjiodajcm"]
+[gd_scene load_steps=7 format=3 uid="uid://dskmxjiodajcm"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Theme" uid="uid://cpniv7k7o1m13" path="res://shared/themes/panel_theme.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://bppd7elvsdmg4" path="res://acts/full_game/introductory_arc/hub/assets/letter03.png" id="3"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="4"]
@@ -33,7 +33,7 @@ offset_left = 59.0
 offset_top = 174.0
 offset_right = 437.0
 offset_bottom = 705.0
-rotation = -0.09199540317058563
+rotation = -0.0919954
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
 theme_override_fonts/font = ExtResource("4")
 theme_override_font_sizes/font_size = 22
@@ -46,7 +46,7 @@ offset_left = 62.0
 offset_top = 105.0
 offset_right = 405.0
 offset_bottom = 172.0
-rotation = -0.09250249713659286
+rotation = -0.0925025
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.133333, 0.12549, 0.203922, 1)
 theme_override_constants/text_highlight_v_padding = 0
@@ -64,7 +64,7 @@ offset_left = 119.0
 offset_top = 653.0
 offset_right = 455.0
 offset_bottom = 748.0
-rotation = -0.09549179673194885
+rotation = -0.0954918
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
 theme_override_fonts/font = ExtResource("4")
 theme_override_font_sizes/font_size = 22

@@ -1,4 +1,4 @@
-[gd_scene load_steps=106 format=4 uid="uid://buab3x8x2tl5d"]
+[gd_scene load_steps=106 format=3 uid="uid://buab3x8x2tl5d"]
 
 [ext_resource type="Texture2D" uid="uid://dk4l7d0fctrlg" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/girltree.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://btcgplq4602xy" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girl/lgirl 2_049 (1).png" id="2"]
@@ -434,7 +434,7 @@ texture = ExtResource("1")
 position = Vector2(98, 0)
 sprite_frames = SubResource("SpriteFrames_pthbj")
 autoplay = "default"
-frame_progress = 0.2657029926776886
+frame_progress = 0.265703
 
 [node name="GirlsSpot" parent="." instance=ExtResource("52")]
 layout_mode = 1
@@ -455,7 +455,7 @@ offset_bottom = 744.0
 position = Vector2(238, 357)
 sprite_frames = SubResource("SpriteFrames_6tvax")
 autoplay = "default"
-frame_progress = 0.6264669895172119
+frame_progress = 0.626467
 
 [node name="AndiSpeechLabel" type="Label" parent="GirlsSpot/AndiCloseupPanel"]
 layout_mode = 0

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=4 uid="uid://djft4ya06tac7"]
+[gd_scene load_steps=12 format=3 uid="uid://djft4ya06tac7"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]

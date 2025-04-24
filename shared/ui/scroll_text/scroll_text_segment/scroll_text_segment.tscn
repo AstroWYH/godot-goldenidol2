@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://cpb0xnjo27wl6"]
+[gd_scene load_steps=5 format=3 uid="uid://cpb0xnjo27wl6"]
 
-[ext_resource type="Script" path="res://shared/ui/scroll_text/scroll_text_segment/scroll_text_segment.gd" id="1"]
+[ext_resource type="Script" uid="uid://dcme1mhy5t36l" path="res://shared/ui/scroll_text/scroll_text_segment/scroll_text_segment.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://cesq2443g64c4" path="res://shared/puzzle/puzzle_segment/assets/segment_block.tscn" id="2"]
 
 [sub_resource type="Animation" id="Animation_h1qva"]
@@ -20,7 +20,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0qbpf"]
 _data = {
-"reveal": SubResource("Animation_h1qva")
+&"reveal": SubResource("Animation_h1qva")
 }
 
 [node name="ScrollTextSegment" type="MarginContainer"]

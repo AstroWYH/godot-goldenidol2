@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=4 uid="uid://c02u48xhb6bhq"]
+[gd_scene load_steps=8 format=3 uid="uid://c02u48xhb6bhq"]
 
 [ext_resource type="Texture2D" uid="uid://cmeuyqs40f7c4" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/hideout2.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://b0taw1e26xsm" path="res://shared/assets/papers/book01.png" id="4"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
 

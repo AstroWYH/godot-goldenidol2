@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=4 uid="uid://wai078mi6h3w"]
+[gd_scene load_steps=4 format=3 uid="uid://wai078mi6h3w"]
 
-[ext_resource type="Script" path="res://shared/ui/dialog_text/dialog_text.gd" id="1"]
+[ext_resource type="Script" uid="uid://vryt30jb1kby" path="res://shared/ui/dialog_text/dialog_text.gd" id="1"]
 [ext_resource type="Theme" uid="uid://b6j0etcqxw8oj" path="res://shared/assets/themes/tooltip_panel_theme.tres" id="2"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="3"]
 

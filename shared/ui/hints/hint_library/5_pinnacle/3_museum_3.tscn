@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://cu0cpdsvx33vo"]
+[gd_scene load_steps=3 format=3 uid="uid://cu0cpdsvx33vo"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://byhtdb0jh2uw8" path="res://shared/ui/hints/hint_library/5_pinnacle/museum_03.png" id="2"]

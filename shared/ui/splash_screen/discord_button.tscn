@@ -1,8 +1,8 @@
-[gd_scene load_steps=4 format=4 uid="uid://c7g0lmevbd4ph"]
+[gd_scene load_steps=4 format=3 uid="uid://c7g0lmevbd4ph"]
 
 [ext_resource type="Theme" uid="uid://cem6xxkwgr5sj" path="res://shared/assets/themes/menu_button_social.tres" id="1"]
 [ext_resource type="Texture2D" uid="uid://dgqelodrc8vot" path="res://acts/demo/splashassets/discord_logo.png" id="2"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="3"]
+[ext_resource type="Script" uid="uid://c7ivef8gafdr2" path="res://shared/ui/splash_screen/web_link_button.gd" id="3"]
 
 [node name="DiscordButton" type="Button"]
 custom_minimum_size = Vector2(345, 0)

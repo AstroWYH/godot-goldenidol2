@@ -1,12 +1,14 @@
-[gd_scene load_steps=8 format=4 uid="uid://cv5gv5p5j2tvd"]
+[gd_scene load_steps=8 format=3 uid="uid://cv5gv5p5j2tvd"]
 
-[ext_resource type="Script" path="res://shared/ui/credits/credits.gd" id="1"]
+[ext_resource type="Script" uid="uid://c0mtnigwwf8ym" path="res://shared/ui/credits/credits.gd" id="1"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="2"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="3"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://dvsgtawmcr0u6" path="res://shared/assets/logos/godot_logo.png" id="4"]
-[ext_resource type="Texture2D" uid="uid://cxsg3hbigltsh" path="res://shared/assets/logos/colorgraylogo2.svg" id="5"]
 [ext_resource type="Texture2D" uid="uid://716sdul0m55h" path="res://shared/assets/logos/playstacklogocolor.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://yxmc4g44786m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_000.png" id="7"]
+
+[sub_resource type="Resource" id="Resource_t0ptk"]
+metadata/__load_path__ = "res://shared/assets/logos/colorgraylogo2.svg"
 
 [node name="Credits" type="ColorRect"]
 offset_right = 1920.0
@@ -78,7 +80,7 @@ autowrap_mode = 2
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/AllCredits/ColorGrayHeader"]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
-texture = ExtResource("5")
+texture = SubResource("Resource_t0ptk")
 expand_mode = 1
 stretch_mode = 4
 

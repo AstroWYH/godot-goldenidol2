@@ -1,6 +1,6 @@
-[gd_scene load_steps=138 format=4 uid="uid://b2m1c1oy456by"]
+[gd_scene load_steps=138 format=3 uid="uid://b2m1c1oy456by"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cq571j081b1ot" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_night_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dnvs0aiqeqmlf" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/siluettes_0000s_0003_curator/siluettes_0000s_0003_curator_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bank6l2uy61jn" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/siluettes_0000s_0003_curator/siluettes_0000s_0003_curator_001.png" id="4"]
@@ -125,7 +125,7 @@
 [ext_resource type="PackedScene" uid="uid://dblvib2uyua6r" path="res://acts/full_game/colecting_parts_arc/auction/closeups/property_manager_closeup_night.tscn" id="123"]
 [ext_resource type="PackedScene" uid="uid://dkh5f1t5koo3j" path="res://acts/full_game/colecting_parts_arc/auction/closeups/mug_closeup_2.tscn" id="124"]
 [ext_resource type="PackedScene" uid="uid://baer8cuad3idi" path="res://acts/full_game/colecting_parts_arc/auction/closeups/collector_closeup_night.tscn" id="125"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="126"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="126"]
 [ext_resource type="PackedScene" uid="uid://drcs554o3pkk0" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lemurian_closeup_night.tscn" id="127"]
 [ext_resource type="PackedScene" uid="uid://b34ssjlmpaa7c" path="res://acts/full_game/colecting_parts_arc/auction/closeups/ticket_crumpled_closeup.tscn" id="128"]
 [ext_resource type="PackedScene" uid="uid://dqc7qpxnt8n6k" path="res://acts/full_game/colecting_parts_arc/auction/closeups/bar_closeup_night.tscn" id="129"]
@@ -539,19 +539,19 @@ autoplay = "default"
 position = Vector2(585, 523)
 sprite_frames = SubResource("SpriteFrames_wnuai")
 autoplay = "default"
-frame_progress = 0.8518329858779907
+frame_progress = 0.851833
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1062, 531)
 sprite_frames = SubResource("SpriteFrames_4p361")
 autoplay = "default"
-frame_progress = 0.9766610264778137
+frame_progress = 0.976661
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(1481, 568)
 sprite_frames = SubResource("SpriteFrames_23n8p")
 autoplay = "default"
-frame_progress = 0.12460900098085403
+frame_progress = 0.124609
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="."]
 position = Vector2(519, 621)
@@ -608,7 +608,7 @@ transition = 3
 transition_sound = 17
 
 [node name="Highlighter" parent="Hotspots/Upstairs/Indicators" index="0"]
-rotation = -3.119889974594116
+rotation = -3.11989
 animation = &"location"
 
 [node name="SummerKnightlySpot" parent="Hotspots" instance=ExtResource("118")]

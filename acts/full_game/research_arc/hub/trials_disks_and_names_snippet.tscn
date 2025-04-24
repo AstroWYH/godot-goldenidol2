@@ -1,6 +1,6 @@
-[gd_scene load_steps=11 format=4 uid="uid://c2ng4e8wmlq47"]
+[gd_scene load_steps=11 format=3 uid="uid://c2ng4e8wmlq47"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bhwxc0hkvlica" path="res://acts/full_game/research_arc/hub/assets/discs1.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://bq2fugmvtp5su" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/disc5.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cw4qkg5bdqlti" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/disc3e.png" id="4"]
@@ -51,13 +51,13 @@ texture = ExtResource("6")
 
 [node name="PinPlaceholder3" type="Sprite2D" parent="NameContestPanel"]
 position = Vector2(171, 233)
-rotation = -0.14664100110530853
+rotation = -0.146641
 texture = ExtResource("7")
 
 [node name="MemoPlaceholder" type="Sprite2D" parent="NameContestPanel"]
 visible = false
 position = Vector2(1395.51, 490.122)
-rotation = -1.5707999467849731
+rotation = -1.5708
 scale = Vector2(1.1528, 0.487539)
 texture = ExtResource("8")
 
@@ -68,7 +68,7 @@ texture = ExtResource("9")
 
 [node name="PinPlaceholder2" type="Sprite2D" parent="NameContestPanel"]
 position = Vector2(607, 655)
-rotation = 0.27624401450157166
+rotation = 0.276244
 texture = ExtResource("7")
 
 [node name="DanceLabel" type="Label" parent="NameContestPanel"]
@@ -77,7 +77,7 @@ offset_left = 50.0
 offset_top = 276.0
 offset_right = 239.0
 offset_bottom = 372.0
-rotation = -0.807217001914978
+rotation = -0.807217
 theme = ExtResource("10")
 text = "TRIALS_SEAL_SNIPPET_DANCE"
 vertical_alignment = 1
@@ -89,7 +89,7 @@ offset_left = 476.0
 offset_top = 646.0
 offset_right = 665.0
 offset_bottom = 742.0
-rotation = -0.39643800258636475
+rotation = -0.396438
 theme = ExtResource("10")
 text = "TRIALS_SEAL_SNIPPET_37"
 vertical_alignment = 1

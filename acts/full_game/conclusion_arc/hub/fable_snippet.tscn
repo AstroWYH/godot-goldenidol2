@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://crhdm76jx2j8e"]
+[gd_scene load_steps=6 format=3 uid="uid://crhdm76jx2j8e"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="2"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="4"]
@@ -59,7 +59,7 @@ offset_left = 554.0
 offset_top = 60.0
 offset_right = 1000.0
 offset_bottom = 595.0
-rotation = 0.010007999837398529
+rotation = 0.010008
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("4")

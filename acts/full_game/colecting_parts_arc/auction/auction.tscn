@@ -1,22 +1,26 @@
-[gd_scene load_steps=9 format=4 uid="uid://bjklq0m5gqk7h"]
+[gd_scene load_steps=14 format=3 uid="uid://bjklq0m5gqk7h"]
 
 [ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="1"]
 [ext_resource type="Resource" uid="uid://cotbaa5abfbmx" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_day_location.tres" id="2"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="2_yy4oe"]
 [ext_resource type="Resource" uid="uid://cq571j081b1ot" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_night_location.tres" id="3"]
+[ext_resource type="Script" uid="uid://b3r4t2fo836c7" path="res://shared/resources/location_meta.gd" id="3_jt3hw"]
 [ext_resource type="Resource" uid="uid://bncex05brju8e" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_day_location.tres" id="4"]
 [ext_resource type="Resource" uid="uid://breqfce5lp18y" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_night_location.tres" id="5"]
-[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="6"]
+[ext_resource type="Script" uid="uid://c63e7p0jmjvqf" path="res://shared/resources/scenario_meta.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://mkn5bgi17nlu" path="res://shared/ui/diagnostics/diagnostics.tscn" id="7"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="8_hoq47"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="10_tlqlr"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="11_xsk3y"]
 
 [sub_resource type="Resource" id="Resource_407m7"]
 script = ExtResource("6")
-arc = null
 id = 23
 name = "Auction House"
 description = ""
 path = "res://acts/full_game/colecting_parts_arc/auction/auction.tscn"
-locations = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
-required_puzzles = []
+locations = Array[ExtResource("3_jt3hw")]([ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")])
+required_puzzles = Array[ExtResource("8_hoq47")]([])
 max_spots = 999
 phrases_name = 16
 phrases_object = 9
@@ -27,19 +31,20 @@ phrases_local = 0
 victory_screen_text = "Tesa Nevari attended the Seven Seas Auction determined to walk away with the Lemurian Idol. When she was outbid, she and her accomplice resorted to more unsavory methods."
 victory_picture_path = ""
 custom_victory_dialog_path = ""
-victory_unlocks_segments = []
-victory_unlocks_arc_phrases = []
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = Array[ExtResource("11_xsk3y")]([])
+victory_unlocks_arc_phrases = Array[ExtResource("10_tlqlr")]([])
 achievement_id = 0
 intermission_path_on_victory = ""
-intro_music = []
-loop_music = []
-ambience = []
-escalation_layer_ids = []
+intro_music = Array[AudioStream]([])
+loop_music = Array[AudioStream]([])
+ambience = Array[AudioStream]([])
+escalation_layer_ids = Array[int]([])
 stop_existing_music_on_escalation = false
-oneshot_layer_ids = []
+oneshot_layer_ids = Array[int]([])
 sfx_transposition = 0
-picture = null
-hint_meta_list = []
+hint_meta_list = Array[ExtResource("2_yy4oe")]([])
+no_inventory = false
 
 [node name="auction" type="Node"]
 

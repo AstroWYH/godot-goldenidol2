@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=4 uid="uid://c1hkblu5j7fc6"]
+[gd_scene load_steps=56 format=3 uid="uid://c1hkblu5j7fc6"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://bdjopwcd0voe1" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/doctor/doctor_000.png" id="2"]
@@ -223,17 +223,17 @@ animations = [{
 }]
 
 [node name="MedicCloseup" type="Panel"]
-offset_left = -643.0330200195313
-offset_top = 1118.800048828125
-offset_right = 157.968994140625
-offset_bottom = 1731.81005859375
+offset_left = -643.033
+offset_top = 1118.8
+offset_right = 157.969
+offset_bottom = 1731.81
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 44.07109832763672
-offset_top = 35.12099838256836
-offset_right = 667.0709838867188
-offset_bottom = 164.12100219726563
+offset_left = 44.0711
+offset_top = 35.121
+offset_right = 667.071
+offset_bottom = 164.121
 theme = ExtResource("1")
 text = "BEACH_MEDIC_SPEECH"
 autowrap_mode = 3
@@ -242,4 +242,4 @@ autowrap_mode = 3
 position = Vector2(582.936, 396.348)
 sprite_frames = SubResource("SpriteFrames_g2xum")
 autoplay = "default"
-frame_progress = 0.04195699840784073
+frame_progress = 0.041957

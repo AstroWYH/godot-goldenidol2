@@ -1,4 +1,4 @@
-[gd_scene load_steps=294 format=4 uid="uid://na1016esrwou"]
+[gd_scene load_steps=294 format=3 uid="uid://na1016esrwou"]
 
 [ext_resource type="Texture2D" uid="uid://cwrsevf4ulx7v" path="res://acts/full_game/research_arc/complex/assets/closeups/04_a1_myson1x.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cew5ga1iyumux" path="res://acts/full_game/research_arc/complex/assets/animations/SwetyDateGuy/SwetyMan_00000.png" id="2"]
@@ -1219,7 +1219,7 @@ autowrap_mode = 3
 position = Vector2(229, 273)
 sprite_frames = SubResource("SpriteFrames_2es2c")
 autoplay = "default"
-frame_progress = 0.35200101137161255
+frame_progress = 0.352001
 
 [node name="CheyenneSpot" parent="." instance=ExtResource("195")]
 layout_mode = 1
@@ -1251,7 +1251,7 @@ autowrap_mode = 3
 
 [node name="YCard" type="Sprite2D" parent="CheyenneSpot/CheyennePanel"]
 position = Vector2(287, 238.5)
-rotation = 0.5100070238113403
+rotation = 0.510007
 scale = Vector2(0.17, 0.173)
 texture = ExtResource("250")
 
@@ -1263,7 +1263,7 @@ texture = ExtResource("251")
 position = Vector2(502, 200.5)
 sprite_frames = SubResource("SpriteFrames_6m6uk")
 autoplay = "default"
-frame_progress = 0.7850329875946045
+frame_progress = 0.785033
 
 [node name="GuardPictureSpot" parent="." instance=ExtResource("195")]
 layout_mode = 1

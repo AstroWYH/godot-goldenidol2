@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=4 uid="uid://cqvkstx1qcja6"]
+[gd_scene load_steps=59 format=3 uid="uid://cqvkstx1qcja6"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cb4q71clyplxt" path="res://shared/assets/textures/paper_texture03.png" id="2"]
@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://x3pjg3s51oqc" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/duct_tape.png" id="5"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="6"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="7"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="8"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="8"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="9"]
 [ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="10"]
 [ext_resource type="Resource" uid="uid://lippj1vo32f3" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle.tres" id="11"]
@@ -256,24 +256,24 @@ vertical_alignment = 1
 
 [node name="HistorianSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="5"]
 position = Vector2(100, 162)
-rotation = 0.09381269663572311
+rotation = 0.0938127
 texture = ExtResource("4")
 
 [node name="DuctTape" type="TextureRect" parent="Frame/MarginContainer/Background/HistorianSprite" index="0"]
-offset_left = 57.61650085449219
-offset_top = -17.47410011291504
-offset_right = 98.61650085449219
-offset_bottom = 107.5260009765625
-rotation = 0.5526610016822815
+offset_left = 57.6165
+offset_top = -17.4741
+offset_right = 98.6165
+offset_bottom = 107.526
+rotation = 0.552661
 texture = ExtResource("5")
 expand_mode = 1
 
 [node name="DuctTape2" type="TextureRect" parent="Frame/MarginContainer/Background/HistorianSprite" index="1"]
-offset_left = -11.206199645996094
-offset_top = -108.427001953125
-offset_right = 29.793800354003906
-offset_bottom = 16.572999954223633
-rotation = 0.7993689775466919
+offset_left = -11.2062
+offset_top = -108.427
+offset_right = 29.7938
+offset_bottom = 16.573
+rotation = 0.799369
 texture = ExtResource("5")
 expand_mode = 1
 
@@ -586,11 +586,11 @@ mouse_filter = 2
 [node name="Lazarus" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="0"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
-offset_left = -238.4239959716797
-offset_top = -505.8059997558594
-offset_right = -103.42400360107422
-offset_bottom = -358.8059997558594
-rotation = 0.056272998452186584
+offset_left = -238.424
+offset_top = -505.806
+offset_right = -103.424
+offset_bottom = -358.806
+rotation = 0.056273
 pivot_offset = Vector2(76.8009, 79.193)
 texture = ExtResource("16")
 
@@ -598,29 +598,29 @@ texture = ExtResource("16")
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = -22.0
-offset_top = -498.61199951171875
+offset_top = -498.612
 offset_right = 113.0
-offset_bottom = -351.61199951171875
-rotation = -0.010240900330245495
+offset_bottom = -351.612
+rotation = -0.0102409
 texture = ExtResource("17")
 
 [node name="Henry" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="2"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = 130.0
-offset_top = -500.61199951171875
+offset_top = -500.612
 offset_right = 265.0
-offset_bottom = -353.61199951171875
-rotation = 0.004935880191624165
+offset_bottom = -353.612
+rotation = 0.00493588
 texture = ExtResource("18")
 
 [node name="Sarah" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="3"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = 358.0
-offset_top = -497.61199951171875
+offset_top = -497.612
 offset_right = 493.0
-offset_bottom = -350.61199951171875
+offset_bottom = -350.612
 texture = ExtResource("19")
 
 [node name="Champ" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="4"]
@@ -636,49 +636,49 @@ texture = ExtResource("20")
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = -243.0
-offset_top = -343.7539978027344
+offset_top = -343.754
 offset_right = -108.0
-offset_bottom = -196.75399780273438
-rotation = -0.007797460071742535
+offset_bottom = -196.754
+rotation = -0.00779746
 texture = ExtResource("21")
 
 [node name="Tesa" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="6"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = -97.0
-offset_top = -342.7539978027344
+offset_top = -342.754
 offset_right = 38.0
-offset_bottom = -195.75399780273438
-rotation = -0.028578000143170357
+offset_bottom = -195.754
+rotation = -0.028578
 texture = ExtResource("14")
 
 [node name="Moumaati" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="7"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
-offset_left = 56.999900817871094
-offset_top = -344.7539978027344
+offset_left = 56.9999
+offset_top = -344.754
 offset_right = 192.0
-offset_bottom = -197.75399780273438
-rotation = 0.02687780000269413
+offset_bottom = -197.754
+rotation = 0.0268778
 texture = ExtResource("22")
 
 [node name="Arthur" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="8"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = 205.0
-offset_top = -341.7539978027344
+offset_top = -341.754
 offset_right = 340.0
-offset_bottom = -194.75399780273438
+offset_bottom = -194.754
 texture = ExtResource("13")
 
 [node name="Freddie" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="9"]
 custom_minimum_size = Vector2(120, 100)
 layout_mode = 2
 offset_left = 433.0
-offset_top = -339.7539978027344
+offset_top = -339.754
 offset_right = 568.0
-offset_bottom = -192.75399780273438
-rotation = -0.01877949945628643
+offset_bottom = -192.754
+rotation = -0.0187795
 texture = ExtResource("23")
 
 [node name="PhrasePuzzle" parent="PuzzleGroup" index="1" node_paths=PackedStringArray("phrase_grids", "puzzle_part_hiders") instance=ExtResource("24")]
@@ -747,7 +747,7 @@ offset_left = -75.0
 offset_top = -23.0
 offset_right = 58.0
 offset_bottom = 17.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("28")
@@ -770,7 +770,7 @@ offset_left = -64.0
 offset_top = -23.0
 offset_right = 61.0
 offset_bottom = 34.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("28")
@@ -793,7 +793,7 @@ offset_left = -66.0
 offset_top = -23.0
 offset_right = 65.0
 offset_bottom = 47.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("28")
@@ -816,7 +816,7 @@ offset_left = -66.0
 offset_top = -23.0
 offset_right = 62.0
 offset_bottom = 48.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("28")
@@ -839,7 +839,7 @@ offset_left = -76.0
 offset_top = -23.0
 offset_right = 57.0
 offset_bottom = 53.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("28")
@@ -862,7 +862,7 @@ offset_left = -64.0
 offset_top = -23.0
 offset_right = 64.0
 offset_bottom = 50.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("28")

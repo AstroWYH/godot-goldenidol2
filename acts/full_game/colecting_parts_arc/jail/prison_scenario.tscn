@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://b7ttbm150lf0u"]
+[gd_scene load_steps=10 format=3 uid="uid://b7ttbm150lf0u"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://bansmg6uvhqru" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/cell_puzzle.tscn" id="2"]

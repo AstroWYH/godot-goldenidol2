@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://b34ssjlmpaa7c"]
+[gd_scene load_steps=2 format=3 uid="uid://b34ssjlmpaa7c"]
 
 [ext_resource type="Texture2D" uid="uid://dwbc5mlq12nw6" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/tickett_crumpled.png" id="1"]
 

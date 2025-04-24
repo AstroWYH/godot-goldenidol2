@@ -1,4 +1,4 @@
-[gd_scene load_steps=161 format=4 uid="uid://dp7g37qk6byy2"]
+[gd_scene load_steps=161 format=3 uid="uid://dp7g37qk6byy2"]
 
 [ext_resource type="Texture2D" uid="uid://8wb3sbri6q4s" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b0_laundry.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dayyqup17422q" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00000.png" id="2"]
@@ -98,7 +98,7 @@
 [ext_resource type="Texture2D" uid="uid://ovtdaafopnqg" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00094.png" id="96"]
 [ext_resource type="Texture2D" uid="uid://ctaq81cg5j7e4" path="res://acts/full_game/research_arc/complex/assets/animations/LoundryGuy/LoundryGuy_00095.png" id="97"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="98"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="99"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="99"]
 [ext_resource type="Texture2D" uid="uid://o770e5dg5sqs" path="res://acts/full_game/research_arc/complex/assets/closeups/y_detergent.png" id="100"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="101"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="102"]
@@ -642,7 +642,7 @@ position = Vector2(453, 258)
 sprite_frames = SubResource("SpriteFrames_0klqi")
 animation = &"Loop"
 autoplay = "Loop"
-frame_progress = 0.6271200180053711
+frame_progress = 0.62712
 
 [node name="EarnestSpot" parent="." instance=ExtResource("98")]
 layout_mode = 1
@@ -686,10 +686,10 @@ autowrap_mode = 3
 [node name="DetergentText" type="Label" parent="EarnestSpot/EarnestPanel"]
 layout_mode = 0
 offset_left = 520.0
-offset_top = 111.4229965209961
+offset_top = 111.423
 offset_right = 674.0
-offset_bottom = 246.42300415039063
-rotation = -0.14612600207328796
+offset_bottom = 246.423
+rotation = -0.146126
 theme = ExtResource("102")
 theme_override_colors/font_color = Color(0, 0.25098, 0.258824, 1)
 theme_override_font_sizes/font_size = 23
@@ -704,7 +704,7 @@ offset_left = 534.0
 offset_top = 270.0
 offset_right = 685.0
 offset_bottom = 372.0
-rotation = 0.0008807179983705282
+rotation = 0.000880718
 theme = ExtResource("101")
 theme_override_colors/font_color = Color(0, 0.301769, 0.310914, 1)
 theme_override_font_sizes/font_size = 16
@@ -717,11 +717,11 @@ autowrap_mode = 3
 position = Vector2(231, 197)
 sprite_frames = SubResource("SpriteFrames_txcur")
 autoplay = "default"
-frame_progress = 0.16281799972057343
+frame_progress = 0.162818
 
 [node name="YSwitchblade" type="Sprite2D" parent="EarnestSpot/EarnestPanel"]
 position = Vector2(426.622, 239.398)
-rotation = -1.3788100481033325
+rotation = -1.37881
 scale = Vector2(0.4, 0.4)
 texture = ExtResource("156")
 
@@ -731,7 +731,7 @@ offset_left = 398.0
 offset_top = 130.0
 offset_right = 757.0
 offset_bottom = 174.0
-rotation = 1.1093800067901611
+rotation = 1.10938
 scale = Vector2(1, 1.00141)
 theme = ExtResource("101")
 theme_override_colors/font_color = Color(0.215686, 0.372549, 0.490196, 1)

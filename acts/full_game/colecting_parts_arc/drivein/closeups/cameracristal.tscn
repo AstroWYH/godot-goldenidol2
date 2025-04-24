@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://boh3y6wicgngv"]
+[gd_scene load_steps=3 format=3 uid="uid://boh3y6wicgngv"]
 
 [ext_resource type="Texture2D" uid="uid://qk0n0he81wj4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/projectionbooth_crystal_v2.3.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -25,7 +25,7 @@ text = "cinema_lamp_tooltip"
 [node name="Highlighter" parent="LampSpot2/Indicators" index="0"]
 modulate = Color(0.807843, 0.572549, 0.164706, 1)
 position = Vector2(13, 72.25)
-frame_progress = 0.15988700091838837
+frame_progress = 0.159887
 
 [node name="FocusIndicator" parent="LampSpot2/Indicators" index="1"]
 position = Vector2(14, 76.25)
@@ -48,7 +48,7 @@ offset_bottom = 101.0
 [node name="Highlighter" parent="LensSpot2/Indicators" index="0"]
 modulate = Color(0.808394, 0.572203, 0.164402, 1)
 position = Vector2(-2, -19)
-frame_progress = 0.9896669983863831
+frame_progress = 0.989667
 
 [node name="FocusIndicator" parent="LensSpot2/Indicators" index="1"]
 position = Vector2(-1, -15)

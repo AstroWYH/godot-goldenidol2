@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://b34fgkvdxm2h1"]
+[gd_scene load_steps=35 format=3 uid="uid://b34fgkvdxm2h1"]
 
 [ext_resource type="PackedScene" uid="uid://cnkfopi0yvnsu" path="res://shared/ui/location_button/travel_bar.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://b6tnh80aut1bi" path="res://shared/ui/location_button/change_location_button.tscn" id="2"]
@@ -18,7 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://o78hx8ns3xll" path="res://shared/ui/top_bar/btn_wolf2_active.png" id="16"]
 [ext_resource type="Resource" uid="uid://o0awu3lutq3q" path="res://acts/full_game/conclusion_arc/finale/locations/isaac_replacement_location_meta.tres" id="17"]
 [ext_resource type="Resource" uid="uid://cruv74g11gbg8" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_events.tres" id="18"]
-[ext_resource type="Script" path="res://acts/full_game/conclusion_arc/finale/harmony_change_location_button.gd" id="19"]
+[ext_resource type="Script" uid="uid://dwllehunosudx" path="res://acts/full_game/conclusion_arc/finale/harmony_change_location_button.gd" id="19"]
 [ext_resource type="Resource" uid="uid://cnurbp41v5sh6" path="res://acts/full_game/conclusion_arc/finale/locations/map_location1_meta.tres" id="20"]
 [ext_resource type="Texture2D" uid="uid://cd65w3o6buu6t" path="res://shared/ui/top_bar/clocks_divider.png" id="21"]
 [ext_resource type="Texture2D" uid="uid://ccipx3jjtrmk6" path="res://shared/ui/top_bar/btn_clock_02_idle.png" id="22"]

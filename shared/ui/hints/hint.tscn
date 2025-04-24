@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=4 uid="uid://dd53kvvluui75"]
+[gd_scene load_steps=5 format=3 uid="uid://dd53kvvluui75"]
 
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hints/hint.gd" id="2"]
+[ext_resource type="Script" uid="uid://dda4yk8q6jpt6" path="res://shared/ui/hints/hint.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://c4rwoqjegwn30" path="res://shared/assets/frames/frame_spech_black.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://d0ryrkcpkkwy5" path="res://acts/full_game/hints/assets/prof2.png" id="4"]
 

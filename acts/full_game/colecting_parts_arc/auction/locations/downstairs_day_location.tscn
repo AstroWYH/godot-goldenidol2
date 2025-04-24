@@ -1,6 +1,6 @@
-[gd_scene load_steps=250 format=4 uid="uid://drw6f4uxmfl4t"]
+[gd_scene load_steps=250 format=3 uid="uid://drw6f4uxmfl4t"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cotbaa5abfbmx" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_day_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dbt3gwx6fsix7" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/sunset.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://ujaln13h16wj" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/doenstairs_sunset.png" id="4"]
@@ -221,7 +221,7 @@
 [ext_resource type="Texture2D" uid="uid://cbm571xo5t6om" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/light.png" id="219"]
 [ext_resource type="Texture2D" uid="uid://dp7o70ot6ap0u" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/auctiondownstarslight.png" id="220"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="221"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="222"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="222"]
 [ext_resource type="PackedScene" uid="uid://dqwdpr8jvunh7" path="res://acts/full_game/colecting_parts_arc/auction/closeups/sign_closeup.tscn" id="223"]
 [ext_resource type="PackedScene" uid="uid://qw1plpa6xn6m" path="res://acts/full_game/colecting_parts_arc/auction/closeups/oriel_closeup.tscn" id="224"]
 [ext_resource type="PackedScene" uid="uid://gdbl21qy0m1y" path="res://acts/full_game/colecting_parts_arc/auction/closeups/nevari_closeup.tscn" id="225"]
@@ -949,7 +949,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_4jkrj"]
 _data = {
-"new_animation": SubResource("Animation_nofya")
+&"new_animation": SubResource("Animation_nofya")
 }
 
 [sub_resource type="Resource" id="Resource_cheon"]
@@ -989,19 +989,19 @@ centered = false
 position = Vector2(1737, 520)
 sprite_frames = SubResource("SpriteFrames_nj5e7")
 autoplay = "default"
-frame_progress = 0.3117560148239136
+frame_progress = 0.311756
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Background/Sprite2D"]
 position = Vector2(1440, 541)
 sprite_frames = SubResource("SpriteFrames_lhvy0")
 autoplay = "default"
-frame_progress = 0.012129699811339378
+frame_progress = 0.0121297
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Background/Sprite2D"]
 position = Vector2(3530, 994)
 sprite_frames = SubResource("SpriteFrames_cw3iq")
 autoplay = "default"
-frame_progress = 0.6897619962692261
+frame_progress = 0.689762
 
 [node name="Sprite2D" type="Sprite2D" parent="Background/Sprite2D"]
 position = Vector2(1704, 758)
@@ -1011,31 +1011,31 @@ texture = ExtResource("51")
 position = Vector2(390, 563)
 sprite_frames = SubResource("SpriteFrames_a4f70")
 autoplay = "default"
-frame_progress = 0.18071399629116058
+frame_progress = 0.180714
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="Background/Sprite2D"]
 position = Vector2(562, 534)
 sprite_frames = SubResource("SpriteFrames_c4hnm")
 autoplay = "default"
-frame_progress = 0.14614799618721008
+frame_progress = 0.146148
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="Background/Sprite2D"]
 position = Vector2(888, 540)
 sprite_frames = SubResource("SpriteFrames_skgsq")
 autoplay = "default"
-frame_progress = 0.6329060196876526
+frame_progress = 0.632906
 
 [node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="Background/Sprite2D"]
 position = Vector2(1076, 535)
 sprite_frames = SubResource("SpriteFrames_1wjeu")
 autoplay = "default"
-frame_progress = 0.5919809937477112
+frame_progress = 0.591981
 
 [node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="Background/Sprite2D"]
 position = Vector2(757, 508)
 sprite_frames = SubResource("SpriteFrames_khjye")
 autoplay = "default"
-frame_progress = 0.9355559945106506
+frame_progress = 0.935556
 
 [node name="Sprite2D2" type="Sprite2D" parent="Background/Sprite2D"]
 position = Vector2(895, 730)
@@ -1081,7 +1081,7 @@ offset_bottom = 108.0
 [node name="Highlighter" parent="Hotspots/AuctionSignSpot/Indicators" index="0"]
 modulate = Color(0.639216, 0.560784, 0.501961, 1)
 position = Vector2(20, -29.75)
-frame_progress = 0.23540200293064117
+frame_progress = 0.235402
 
 [node name="FocusIndicator" parent="Hotspots/AuctionSignSpot/Indicators" index="1"]
 position = Vector2(21, -25.75)
@@ -1164,7 +1164,7 @@ extra_items_unlocked = [SubResource("Resource_ylj3v"), SubResource("Resource_mlx
 [node name="Highlighter" parent="Hotspots/SummerSpot/Indicators" index="0"]
 modulate = Color(0.156863, 0.494118, 0.494118, 1)
 position = Vector2(-13.5, -8.75)
-frame_progress = 0.5346310138702393
+frame_progress = 0.534631
 
 [node name="FocusIndicator" parent="Hotspots/SummerSpot/Indicators" index="1"]
 position = Vector2(-12.5, -4.75)
@@ -1214,7 +1214,7 @@ unlocked_item_ref_id = 316
 [node name="Highlighter" parent="Hotspots/MoumaatiSpot/Indicators" index="0"]
 modulate = Color(0.278431, 0.513726, 0.172549, 1)
 position = Vector2(34.5, 18.25)
-frame_progress = 0.45368999242782593
+frame_progress = 0.45369
 
 [node name="FocusIndicator" parent="Hotspots/MoumaatiSpot/Indicators" index="1"]
 position = Vector2(35.5, 22.25)
@@ -1294,7 +1294,7 @@ offset_bottom = 108.0
 [node name="Highlighter" parent="Hotspots/MaskSpot/Indicators" index="0"]
 modulate = Color(0.527415, 0.722262, 0.580582, 1)
 position = Vector2(35.5, -22.75)
-frame_progress = 0.6666229963302612
+frame_progress = 0.666623
 
 [node name="FocusIndicator" parent="Hotspots/MaskSpot/Indicators" index="1"]
 visible = false
@@ -1367,7 +1367,7 @@ offset_bottom = 56.0
 
 [node name="Highlighter" parent="Hotspots/UpstairsDaySpot/Indicators" index="0"]
 modulate = Color(0.721568, 0.640081, 0.52623, 1)
-rotation = -3.140810012817383
+rotation = -3.14081
 animation = &"location"
 
 [node name="TimeTravelBar" parent="." instance=ExtResource("233")]

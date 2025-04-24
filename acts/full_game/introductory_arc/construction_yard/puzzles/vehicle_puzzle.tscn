@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://bok84tulfeuxb"]
+[gd_scene load_steps=15 format=3 uid="uid://bok84tulfeuxb"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cb6dbaafgeex7" path="res://acts/full_game/introductory_arc/construction_yard/assets/puzzles/vehicle_puzzle_background.png" id="2"]

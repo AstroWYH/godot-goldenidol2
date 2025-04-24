@@ -1,4 +1,4 @@
-[gd_scene load_steps=186 format=4 uid="uid://crq0ltly34x53"]
+[gd_scene load_steps=186 format=3 uid="uid://crq0ltly34x53"]
 
 [ext_resource type="Texture2D" uid="uid://dbmqwqe16k8ud" path="res://shared/assets/placeholder_ui/split_ui_experiments/texture.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://613p8lav0ox1" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/camera_animation_player.tscn" id="2"]
@@ -772,17 +772,17 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -145.28599548339844
+offset_left = -145.286
 offset_top = -84.0
-offset_right = 133.71400451660156
+offset_right = 133.714
 offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 0
 
 [node name="HSlider" parent="SeekerPlayer" index="2"]
-offset_left = 121.2490005493164
+offset_left = 121.249
 offset_top = 572.0
-offset_right = 685.2490234375
+offset_right = 685.249
 offset_bottom = 682.0
 
 [editable path="SeekerPlayer"]

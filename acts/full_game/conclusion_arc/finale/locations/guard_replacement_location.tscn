@@ -1,6 +1,6 @@
-[gd_scene load_steps=172 format=4 uid="uid://cxp2h08jx474r"]
+[gd_scene load_steps=172 format=3 uid="uid://cxp2h08jx474r"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dcnrat22wu5bg" path="res://acts/full_game/conclusion_arc/finale/locations/guard_replacement_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dcq7mwlp3222d" path="res://acts/full_game/conclusion_arc/finale/assets/animations/labguard/labguard_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bhr1wf1md2v26" path="res://acts/full_game/conclusion_arc/finale/assets/animations/labguard/labguard_001.png" id="4"]
@@ -667,13 +667,13 @@ location_meta = ExtResource("2")
 position = Vector2(1095, 675)
 sprite_frames = SubResource("SpriteFrames_png26")
 autoplay = "default"
-frame_progress = 0.6628909707069397
+frame_progress = 0.662891
 
 [node name="AnimatedHunterSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1487, 575)
 sprite_frames = SubResource("SpriteFrames_bf1p5")
 autoplay = "default"
-frame_progress = 0.8317189812660217
+frame_progress = 0.831719
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -691,10 +691,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "ilY"
 
 [node name="Indicators" parent="Hotspots/EmpathyWarriorsSpot2" index="0"]
-offset_left = 10.720399856567383
-offset_top = 158.53900146484375
-offset_right = 10.720399856567383
-offset_bottom = 158.53900146484375
+offset_left = 10.7204
+offset_top = 158.539
+offset_right = 10.7204
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/EmpathyWarriorsSpot2/Indicators" index="0"]
 modulate = Color(0.823987, 0.790238, 0.7094, 1)
@@ -717,10 +717,10 @@ texture = ExtResource("82")
 
 [node name="EWTitle" type="Label" parent="Hotspots/EmpathyWarriorsSpot2/EmpathyWarriorPanel"]
 layout_mode = 0
-offset_left = 14.011300086975098
-offset_top = 24.9591007232666
-offset_right = 295.010986328125
-offset_bottom = 384.9590148925781
+offset_left = 14.0113
+offset_top = 24.9591
+offset_right = 295.011
+offset_bottom = 384.959
 theme = ExtResource("83")
 theme_override_colors/font_color = Color(0.0705882, 0.156863, 0.145098, 1)
 theme_override_font_sizes/font_size = 38
@@ -731,10 +731,10 @@ autowrap_mode = 3
 
 [node name="EWBody2" type="Label" parent="Hotspots/EmpathyWarriorsSpot2/EmpathyWarriorPanel"]
 layout_mode = 0
-offset_left = 21.992000579833984
-offset_top = 395.9590148925781
-offset_right = 289.99200439453125
-offset_bottom = 787.958984375
+offset_left = 21.992
+offset_top = 395.959
+offset_right = 289.992
+offset_bottom = 787.959
 theme = ExtResource("84")
 theme_override_colors/font_color = Color(0.0705882, 0.156863, 0.145098, 1)
 theme_override_font_sizes/font_size = 24
@@ -743,10 +743,10 @@ autowrap_mode = 3
 
 [node name="EWBody3" type="Label" parent="Hotspots/EmpathyWarriorsSpot2/EmpathyWarriorPanel"]
 layout_mode = 0
-offset_left = 325.99798583984375
-offset_top = 399.9590148925781
-offset_right = 565.9979858398438
-offset_bottom = 788.958984375
+offset_left = 325.998
+offset_top = 399.959
+offset_right = 565.998
+offset_bottom = 788.959
 theme = ExtResource("84")
 theme_override_colors/font_color = Color(0.0705882, 0.156863, 0.145098, 1)
 theme_override_font_sizes/font_size = 24
@@ -763,10 +763,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "jLt"
 
 [node name="Indicators" parent="Hotspots/BodyThugSpot" index="0"]
-offset_left = 10.720399856567383
-offset_top = 158.53900146484375
-offset_right = 10.720399856567383
-offset_bottom = 158.53900146484375
+offset_left = 10.7204
+offset_top = 158.539
+offset_right = 10.7204
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/BodyThugSpot/Indicators" index="0"]
 modulate = Color(0.811433, 0.809707, 0.279613, 1)
@@ -798,10 +798,10 @@ texture = ExtResource("87")
 
 [node name="Label" type="Label" parent="Hotspots/BodyThugSpot/BodyThugPanel/BookSprite"]
 anchors_preset = -1
-anchor_left = -0.06428570300340652
-anchor_top = -0.018072299659252167
-anchor_right = -0.06428570300340652
-anchor_bottom = -0.018072299659252167
+anchor_left = -0.0642857
+anchor_top = -0.0180723
+anchor_right = -0.0642857
+anchor_bottom = -0.0180723
 offset_left = -57.0
 offset_top = -70.0
 offset_right = 45.0
@@ -824,10 +824,10 @@ hotspot_id = "fgu"
 text = "FINALE_BODY_TOOLTIP"
 
 [node name="Indicators" parent="Hotspots/BodyThugSpot/BodyThugPanel/ThugSpot2" index="0"]
-offset_left = 23.922800064086914
-offset_top = 32.63629913330078
-offset_right = 23.922800064086914
-offset_bottom = 32.63629913330078
+offset_left = 23.9228
+offset_top = 32.6363
+offset_right = 23.9228
+offset_bottom = 32.6363
 
 [node name="Highlighter" parent="Hotspots/BodyThugSpot/BodyThugPanel/ThugSpot2/Indicators" index="0"]
 modulate = Color(0.85294, 0.687473, 0.565333, 1)
@@ -846,10 +846,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Fny"
 
 [node name="Indicators" parent="Hotspots/BodyThugSpot/BodyThugPanel/NoteBookSpot" index="0"]
-offset_left = -13.949399948120117
-offset_top = 39.47710037231445
-offset_right = -13.949399948120117
-offset_bottom = 39.47710037231445
+offset_left = -13.9494
+offset_top = 39.4771
+offset_right = -13.9494
+offset_bottom = 39.4771
 
 [node name="Highlighter" parent="Hotspots/BodyThugSpot/BodyThugPanel/NoteBookSpot/Indicators" index="0"]
 modulate = Color(0.857787, 0.559246, 0.187417, 1)
@@ -860,10 +860,10 @@ position = Vector2(6.37244, -8.84717)
 
 [node name="NotebookPanel" type="Panel" parent="Hotspots/BodyThugSpot/BodyThugPanel/NoteBookSpot"]
 layout_mode = 0
-offset_left = -652.093017578125
-offset_top = 755.1229858398438
-offset_right = 378.9070129394531
-offset_bottom = 1456.1199951171875
+offset_left = -652.093
+offset_top = 755.123
+offset_right = 378.907
+offset_bottom = 1456.12
 
 [node name="CigarettesSprite" type="Sprite2D" parent="Hotspots/BodyThugSpot/BodyThugPanel/NoteBookSpot/NotebookPanel"]
 position = Vector2(516.762, 352.933)
@@ -888,10 +888,10 @@ autowrap_mode = 2
 
 [node name="Page2Label" type="RichTextLabel" parent="Hotspots/BodyThugSpot/BodyThugPanel/NoteBookSpot/NotebookPanel"]
 layout_mode = 0
-offset_left = 547.3469848632813
-offset_top = 76.04000091552734
-offset_right = 959.3469848632813
-offset_bottom = 594.0399780273438
+offset_left = 547.347
+offset_top = 76.04
+offset_right = 959.347
+offset_bottom = 594.04
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("90")
 theme_override_fonts/bold_font = ExtResource("90")
@@ -912,10 +912,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "F32"
 
 [node name="Indicators" parent="Hotspots/GuardSpot" index="0"]
-offset_left = 10.720399856567383
-offset_top = 158.53900146484375
-offset_right = 10.720399856567383
-offset_bottom = 158.53900146484375
+offset_left = 10.7204
+offset_top = 158.539
+offset_right = 10.7204
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/GuardSpot/Indicators" index="0"]
 modulate = Color(0.708272, 0.77, 0.4851, 1)
@@ -926,16 +926,16 @@ position = Vector2(-28.9904, 19.2838)
 
 [node name="GuardPanel" type="Panel" parent="Hotspots/GuardSpot"]
 layout_mode = 0
-offset_left = -2070.320068359375
-offset_top = -218.7429962158203
-offset_right = -1269.3199462890625
-offset_bottom = 394.25201416015625
+offset_left = -2070.32
+offset_top = -218.743
+offset_right = -1269.32
+offset_bottom = 394.252
 
 [node name="SecurityStabbedSprite" type="AnimatedSprite2D" parent="Hotspots/GuardSpot/GuardPanel"]
 position = Vector2(219.347, 392.333)
 sprite_frames = SubResource("SpriteFrames_lovab")
 autoplay = "default"
-frame_progress = 0.7044159770011902
+frame_progress = 0.704416
 
 [node name="GuardSpeech" type="Label" parent="Hotspots/GuardSpot/GuardPanel"]
 layout_mode = 0
@@ -976,10 +976,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "HJI"
 
 [node name="Indicators" parent="Hotspots/HunterWolfSpot2" index="0"]
-offset_left = 10.720399856567383
-offset_top = 158.53900146484375
-offset_right = 10.720399856567383
-offset_bottom = 158.53900146484375
+offset_left = 10.7204
+offset_top = 158.539
+offset_right = 10.7204
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/HunterWolfSpot2/Indicators" index="0"]
 modulate = Color(0.709804, 0.768627, 0.486275, 1)
@@ -1010,7 +1010,7 @@ position = Vector2(707.467, 386.548)
 scale = Vector2(0.862241, 0.862241)
 sprite_frames = SubResource("SpriteFrames_0s332")
 autoplay = "default"
-frame_progress = 0.8558070063591003
+frame_progress = 0.855807
 
 [node name="HunterSprite2" type="Sprite2D" parent="Hotspots/HunterWolfSpot2/HunterPanel"]
 position = Vector2(162.098, 274.137)

@@ -1,10 +1,10 @@
-[gd_scene load_steps=16 format=4 uid="uid://cta8hdtoxvdhs"]
+[gd_scene load_steps=16 format=3 uid="uid://cta8hdtoxvdhs"]
 
 [ext_resource type="Texture2D" uid="uid://b8s64wv7jk72c" path="res://acts/full_game/research_arc/talent_show/assets/closeups/halloffame.png" id="1"]
 [ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="7"]
 [ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="8"]
@@ -180,7 +180,7 @@ stretch_mode = 1
 [node name="Sprite2D7" type="Sprite2D" parent="HallOfFameSpot/FamePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(186, 386)
-rotation = 6.077070236206055
+rotation = 6.07707
 scale = Vector2(0.933489, 1.41891)
 texture = ExtResource("7")
 offset = Vector2(45.6914, 6.36548)
@@ -190,7 +190,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D8" type="Sprite2D" parent="HallOfFameSpot/FamePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(265, 211)
-rotation = 3.3884201049804688
+rotation = 3.38842
 scale = Vector2(0.933489, 1.41891)
 texture = ExtResource("7")
 offset = Vector2(45.6914, 6.36548)
@@ -208,7 +208,7 @@ region_rect = Rect2(94.45, 93.8, 95.15, 43)
 [node name="Sprite2D8" type="Sprite2D" parent="HallOfFameSpot/FamePanel"]
 modulate = Color(0.928924, 0.135489, 0.161395, 1)
 position = Vector2(323, 27)
-rotation = 3.141590118408203
+rotation = 3.14159
 scale = Vector2(0.807298, 0.873487)
 texture = ExtResource("8")
 region_enabled = true

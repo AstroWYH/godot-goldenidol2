@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=4 uid="uid://dhnrtbby8ry3e"]
+[gd_scene load_steps=57 format=3 uid="uid://dhnrtbby8ry3e"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://btxtsjtne8j5f" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent2/agent_00000.png" id="2"]
@@ -49,7 +49,7 @@
 [ext_resource type="Texture2D" uid="uid://dneb5v7fceg1j" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/menu.png" id="47"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="48"]
 [ext_resource type="PackedScene" uid="uid://pk51fi2s7oir" path="res://acts/full_game/colecting_parts_arc/auction/closeups/menu_closeup.tscn" id="49"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="50"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="50"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="51"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="52"]
 
@@ -224,7 +224,7 @@ autowrap_mode = 2
 position = Vector2(215, 282)
 sprite_frames = SubResource("SpriteFrames_45jng")
 autoplay = "default"
-frame_progress = 0.30569198727607727
+frame_progress = 0.305692
 
 [node name="ClipBoard" type="Sprite2D" parent="."]
 position = Vector2(505, 372)

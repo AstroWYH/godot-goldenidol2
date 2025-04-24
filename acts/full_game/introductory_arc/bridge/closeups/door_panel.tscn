@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://d4lg0m27nd3yv"]
+[gd_scene load_steps=6 format=3 uid="uid://d4lg0m27nd3yv"]
 
 [ext_resource type="Texture2D" uid="uid://cbldw7vgd5ax6" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/door.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]

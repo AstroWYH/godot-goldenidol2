@@ -1,6 +1,6 @@
-[gd_scene load_steps=285 format=4 uid="uid://b4tp1qlfc5fj4"]
+[gd_scene load_steps=285 format=3 uid="uid://b4tp1qlfc5fj4"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://d3p52xps3q8vb" path="res://acts/full_game/research_arc/talent_show/locations/backstage_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://b4fu655g7rcof" path="res://acts/full_game/research_arc/talent_show/assets/animations/dancer/dancer_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dwak3l3b4v6v8" path="res://acts/full_game/research_arc/talent_show/assets/animations/dancer/dancer_001.png" id="4"]
@@ -232,7 +232,7 @@
 [ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="230"]
 [ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="231"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="232"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="233"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="233"]
 [ext_resource type="Resource" uid="uid://dhulntym655ly" path="res://acts/full_game/research_arc/talent_show/puzzles/WhoWon_Puzzle_Meta.tres" id="234"]
 [ext_resource type="PackedScene" uid="uid://dhvccih47uamt" path="res://acts/full_game/research_arc/talent_show/closeups/scoreboard_panel.tscn" id="235"]
 [ext_resource type="PackedScene" uid="uid://7gsm8gg0wpxy" path="res://acts/full_game/research_arc/talent_show/closeups/winner_panel.tscn" id="236"]
@@ -1084,7 +1084,7 @@ tracks/7/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vbu4f"]
 _data = {
-"tableanimation": SubResource("Animation_t6s4v")
+&"tableanimation": SubResource("Animation_t6s4v")
 }
 
 [sub_resource type="Resource" id="Resource_w40py"]
@@ -1192,19 +1192,19 @@ metadata/_edit_horizontal_guides_ = [-74.0]
 position = Vector2(646, 383)
 sprite_frames = SubResource("SpriteFrames_5e37g")
 autoplay = "default"
-frame_progress = 0.01325950026512146
+frame_progress = 0.0132595
 
 [node name="AnimatedSpritePrado" type="AnimatedSprite2D" parent="."]
 position = Vector2(836, 390)
 sprite_frames = SubResource("SpriteFrames_d3c5m")
 autoplay = "default"
-frame_progress = 0.2125360071659088
+frame_progress = 0.212536
 
 [node name="AnimatedSpriteHolding" type="AnimatedSprite2D" parent="."]
 position = Vector2(474, 599)
 sprite_frames = SubResource("SpriteFrames_08y50")
 autoplay = "default"
-frame_progress = 0.44649800658226013
+frame_progress = 0.446498
 
 [node name="Table" type="Sprite2D" parent="."]
 position = Vector2(1198, 418)
@@ -1214,25 +1214,25 @@ texture = ExtResource("94")
 position = Vector2(1335, 394)
 sprite_frames = SubResource("SpriteFrames_ipxf0")
 autoplay = "default"
-frame_progress = 0.5854529738426208
+frame_progress = 0.585453
 
 [node name="AnimatedSpriteNola" type="AnimatedSprite2D" parent="."]
 position = Vector2(1454, 556)
 sprite_frames = SubResource("SpriteFrames_accem")
 autoplay = "default"
-frame_progress = 0.348363995552063
+frame_progress = 0.348364
 
 [node name="AnimatedSpriteBunny" type="AnimatedSprite2D" parent="."]
 position = Vector2(1631, 559)
 sprite_frames = SubResource("SpriteFrames_lq8no")
 autoplay = "default"
-frame_progress = 0.5119659900665283
+frame_progress = 0.511966
 
 [node name="AnimatedSpriteDante" type="AnimatedSprite2D" parent="."]
 position = Vector2(1031, 701)
 sprite_frames = SubResource("SpriteFrames_rggbn")
 autoplay = "default"
-frame_progress = 0.935886025428772
+frame_progress = 0.935886
 
 [node name="Cage" type="Sprite2D" parent="."]
 position = Vector2(1118, 300)
@@ -1240,12 +1240,12 @@ texture = ExtResource("190")
 
 [node name="Balls" type="Sprite2D" parent="."]
 position = Vector2(1102.13, 295.466)
-rotation = -0.1003120020031929
+rotation = -0.100312
 texture = ExtResource("191")
 
 [node name="Trumpet" type="Sprite2D" parent="."]
 position = Vector2(1102.13, 295.466)
-rotation = -0.1003120020031929
+rotation = -0.100312
 texture = ExtResource("192")
 
 [node name="Camera" type="Sprite2D" parent="."]
@@ -1256,7 +1256,7 @@ texture = ExtResource("193")
 position = Vector2(1721, 970)
 sprite_frames = SubResource("SpriteFrames_xrtjx")
 autoplay = "default"
-frame_progress = 0.47765499353408813
+frame_progress = 0.477655
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -1266,15 +1266,15 @@ autoplay = "tableanimation"
 
 [node name="SkewAirText" type="Node2D" parent="."]
 position = Vector2(1238, 49)
-rotation = -0.015796300023794174
-skew = 0.16755199432373047
+rotation = -0.0157963
+skew = 0.167552
 
 [node name="OnAir" type="Label" parent="SkewAirText"]
-offset_left = -1.0214799642562866
-offset_top = -14.97189998626709
-offset_right = 227.97900390625
-offset_bottom = 77.0280990600586
-rotation = -0.0792447030544281
+offset_left = -1.02148
+offset_top = -14.9719
+offset_right = 227.979
+offset_bottom = 77.0281
+rotation = -0.0792447
 theme = ExtResource("230")
 theme_override_colors/font_color = Color(0.0666667, 0.0823529, 0.0705882, 1)
 theme_override_fonts/font = ExtResource("231")
@@ -1461,15 +1461,15 @@ texture = ExtResource("242")
 
 [node name="Node2D" type="Node2D" parent="Hotspots/PropTableSpot/PropTablePanel2/Table"]
 position = Vector2(-271, -100)
-rotation = 0.005235990043729544
-skew = -0.16755199432373047
+rotation = 0.00523599
+skew = -0.167552
 
 [node name="TableLabel" type="Label" parent="Hotspots/PropTableSpot/PropTablePanel2/Table/Node2D"]
 offset_left = -4.0
 offset_top = -2.0
 offset_right = 272.0
 offset_bottom = 43.0
-rotation = 0.12777599692344666
+rotation = 0.127776
 theme_override_colors/font_color = Color(0.236901, 0.129018, 0.108067, 1)
 theme_override_constants/line_spacing = -9
 theme_override_fonts/font = ExtResource("243")

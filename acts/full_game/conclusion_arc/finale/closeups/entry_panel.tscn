@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=4 uid="uid://d1uwqnj7qnjul"]
+[gd_scene load_steps=58 format=3 uid="uid://d1uwqnj7qnjul"]
 
 [ext_resource type="Texture2D" uid="uid://58e86dk6ne18" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/security.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://ddw6chlucrant" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tvguard/security_000.png" id="2"]
@@ -65,7 +65,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vnro1"]
 _data = {
-"new_animation": SubResource("Animation_5a2be")
+&"new_animation": SubResource("Animation_5a2be")
 }
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hbvk8"]
@@ -200,8 +200,8 @@ particles_anim_v_frames = 1
 particles_anim_loop = true
 
 [sub_resource type="Curve" id="Curve_plwwg"]
-max_value = 200.0
-_data = [Vector2(0, 48.4008), 0.0, -64.36090087890625, 0, 0, Vector2(1, 2.40588), 0.0, 0.0, 0, 0]
+_limits = [0.0, 200.0, 0.0, 1.0]
+_data = [Vector2(0, 48.4008), 0.0, -64.3609, 0, 0, Vector2(1, 2.40588), 0.0, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_vcddo"]
@@ -217,7 +217,7 @@ gradient = SubResource("Gradient_046gp")
 [sub_resource type="CurveXYZTexture" id="CurveXYZTexture_44g63"]
 
 [sub_resource type="Curve" id="Curve_b4wym"]
-_data = [Vector2(0, 0.632041), 0.0, 0.7095119953155518, 0, 0, Vector2(1, 0.495896), -0.011748399585485458, 0.0, 0, 0]
+_data = [Vector2(0, 0.632041), 0.0, 0.709512, 0, 0, Vector2(1, 0.495896), -0.0117484, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_yils5"]
@@ -227,11 +227,11 @@ curve = SubResource("Curve_b4wym")
 particle_flag_disable_z = true
 emission_shape_scale = Vector3(2.6, 2.6, 2.6)
 emission_shape = 1
-emission_sphere_radius = 116.37999725341797
+emission_sphere_radius = 116.38
 angular_velocity_min = 2.0
 angular_velocity_max = 10.0
-directional_velocity_min = 1.4988000668044246e-14
-directional_velocity_max = 1.4988000668044246e-14
+directional_velocity_min = 1.4988e-14
+directional_velocity_max = 1.4988e-14
 directional_velocity_curve = SubResource("CurveXYZTexture_44g63")
 radial_velocity_min = 1.0
 radial_velocity_max = 4.0
@@ -246,7 +246,7 @@ anim_speed_curve = SubResource("CurveTexture_vcddo")
 turbulence_enabled = true
 turbulence_noise_strength = 10.0
 turbulence_noise_scale = 4.0
-turbulence_influence_min = 0.6629999876022339
+turbulence_influence_min = 0.663
 turbulence_influence_max = 1.0
 turbulence_initial_displacement_max = 4.0
 
@@ -270,7 +270,7 @@ texture = ExtResource("1")
 position = Vector2(55.0885, -45.1534)
 sprite_frames = SubResource("SpriteFrames_hbvk8")
 autoplay = "default"
-frame_progress = 0.8720189929008484
+frame_progress = 0.872019
 
 [node name="Security2D" type="Sprite2D" parent="SecuritySprite"]
 texture = ExtResource("41")
@@ -300,7 +300,7 @@ offset_left = 15.0
 offset_top = -311.0
 offset_right = 233.0
 offset_bottom = -249.0
-rotation = -0.09113410115242004
+rotation = -0.0911341
 theme = ExtResource("44")
 theme_override_colors/font_color = Color(0.027451, 0.0431373, 0.0392157, 1)
 theme_override_font_sizes/font_size = 30
@@ -311,25 +311,25 @@ clip_text = true
 
 [node name="SecuritySmokeSpot" parent="." instance=ExtResource("45")]
 layout_mode = 1
-offset_left = 261.2149963378906
-offset_top = 166.98300170898438
-offset_right = -265.7850036621094
-offset_bottom = -251.01699829101563
+offset_left = 261.215
+offset_top = 166.983
+offset_right = -265.785
+offset_bottom = -251.017
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "n8T"
 text = "FINALE_SPRAYED_GUARD_TOOLTIP"
 
 [node name="Indicators" parent="SecuritySmokeSpot" index="0"]
-offset_left = -5.281169891357422
-offset_top = -7.2765398025512695
-offset_right = -5.281169891357422
-offset_bottom = -7.2765398025512695
+offset_left = -5.28117
+offset_top = -7.27654
+offset_right = -5.28117
+offset_bottom = -7.27654
 
 [node name="Highlighter" parent="SecuritySmokeSpot/Indicators" index="0"]
 modulate = Color(0.464845, 0.660378, 0.257802, 1)
 position = Vector2(16.9517, 101.758)
 scale = Vector2(0.494129, 0.494129)
-frame_progress = 0.9705960154533386
+frame_progress = 0.970596
 
 [node name="FocusIndicator" parent="SecuritySmokeSpot/Indicators" index="1"]
 position = Vector2(18.0515, 105.82)

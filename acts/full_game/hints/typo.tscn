@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://b8gsgdh7hk2j6"]
+[gd_scene load_steps=4 format=3 uid="uid://b8gsgdh7hk2j6"]
 
 [ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -27,7 +27,7 @@ autowrap_mode = 2
 
 [node name="Label" type="Label" parent="Book"]
 anchors_preset = -1
-anchor_right = 0.04218750074505806
+anchor_right = 0.0421875
 offset_left = -557.0
 offset_top = -367.0
 offset_right = -133.0

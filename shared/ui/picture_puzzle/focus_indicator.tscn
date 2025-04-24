@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://ddcsrxaxx8bfy"]
+[gd_scene load_steps=2 format=3 uid="uid://ddcsrxaxx8bfy"]
 
 [ext_resource type="Texture2D" uid="uid://d4npafgoasm4i" path="res://shared/ui/misc/frame_focus_pictures.png" id="1"]
 

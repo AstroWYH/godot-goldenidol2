@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://bv53uxmxt560k"]
+[gd_scene load_steps=2 format=3 uid="uid://bv53uxmxt560k"]
 
-[ext_resource type="Script" path="res://shared/ui/draggable/draggable.gd" id="1"]
+[ext_resource type="Script" uid="uid://d2i0nq5vr8odc" path="res://shared/ui/draggable/draggable.gd" id="1"]
 
 [node name="Draggable" type="Control"]
 layout_mode = 3

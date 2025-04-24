@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=4 uid="uid://dnbklxdw8g4pd"]
+[gd_scene load_steps=62 format=3 uid="uid://dnbklxdw8g4pd"]
 
 [ext_resource type="Texture2D" uid="uid://db0mtrshp6dub" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://byfqxxf1rva4b" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/wife/wife_001.png" id="2"]
@@ -257,10 +257,10 @@ offset_bottom = 1508.0
 
 [node name="AnnetteSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 60.09640121459961
-offset_top = 52.17720031738281
-offset_right = 683.0960083007813
-offset_bottom = 169.177001953125
+offset_left = 60.0964
+offset_top = 52.1772
+offset_right = 683.096
+offset_bottom = 169.177
 text = "BOARDROOM_WIFE_SPEECH"
 autowrap_mode = 3
 
@@ -268,4 +268,4 @@ autowrap_mode = 3
 position = Vector2(232.373, 308.046)
 sprite_frames = SubResource("SpriteFrames_v8ijp")
 autoplay = "default"
-frame_progress = 0.6728000044822693
+frame_progress = 0.6728

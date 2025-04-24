@@ -1,4 +1,4 @@
-[gd_scene load_steps=105 format=4 uid="uid://c2k73p4i7805u"]
+[gd_scene load_steps=105 format=3 uid="uid://c2k73p4i7805u"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://nw4g2imbsa47" path="res://acts/full_game/research_arc/aviary/assets/portraits/incubatorwoman/inc_000.png" id="2"]
@@ -410,10 +410,10 @@ mouse_filter = 2
 [node name="PalmerSpeechLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.011922500096261501
-anchor_top = -0.012605000287294388
-anchor_right = 0.011922500096261501
-anchor_bottom = -0.012605000287294388
+anchor_left = 0.0119225
+anchor_top = -0.012605
+anchor_right = 0.0119225
+anchor_bottom = -0.012605
 offset_left = 20.0
 offset_top = 23.0
 offset_right = 620.0
@@ -428,7 +428,7 @@ position = Vector2(161, 326)
 scale = Vector2(0.888889, 0.888889)
 sprite_frames = SubResource("SpriteFrames_wp78p")
 autoplay = "default"
-frame_progress = 0.12837600708007813
+frame_progress = 0.128376
 
 [node name="PalmerSeeds" type="Sprite2D" parent="."]
 position = Vector2(399, 402)
@@ -451,7 +451,7 @@ offset_left = -45.0
 offset_top = 6.0
 offset_right = 102.0
 offset_bottom = 63.0
-rotation = -0.08039569854736328
+rotation = -0.0803957
 theme = ExtResource("102")
 theme_override_font_sizes/font_size = 20
 text = "AVIARY_INCUBATOR_KEY_LABEL"
@@ -463,7 +463,7 @@ offset_left = -254.0
 offset_top = 80.0
 offset_right = -98.0
 offset_bottom = 121.0
-rotation = -0.08039569854736328
+rotation = -0.0803957
 theme = ExtResource("102")
 theme_override_font_sizes/font_size = 20
 text = "AVIARY_KEY_LABEL"

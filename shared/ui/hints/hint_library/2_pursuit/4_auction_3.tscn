@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://b0utecoxr7f4r"]
+[gd_scene load_steps=3 format=3 uid="uid://b0utecoxr7f4r"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://c77n4rrr5nijs" path="res://shared/ui/hints/hint_library/2_pursuit/auction_03.png" id="2"]

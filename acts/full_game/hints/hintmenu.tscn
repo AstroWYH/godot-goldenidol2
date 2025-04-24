@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://cui5hbcykcxwm"]
+[gd_scene load_steps=8 format=3 uid="uid://cui5hbcykcxwm"]
 
 [ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]

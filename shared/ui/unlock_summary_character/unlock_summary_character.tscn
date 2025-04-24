@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://bs6cr4lnqvtfl"]
+[gd_scene load_steps=3 format=3 uid="uid://bs6cr4lnqvtfl"]
 
-[ext_resource type="Script" path="res://shared/ui/unlock_summary_character/unlock_summary_character.gd" id="1"]
+[ext_resource type="Script" uid="uid://8u3u8xlvwidq" path="res://shared/ui/unlock_summary_character/unlock_summary_character.gd" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
 
 [node name="UnlockSummaryCharacter" type="HBoxContainer"]

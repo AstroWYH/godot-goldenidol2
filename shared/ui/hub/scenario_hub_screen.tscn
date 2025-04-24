@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=4 uid="uid://c5ge8b85esf76"]
+[gd_scene load_steps=5 format=3 uid="uid://c5ge8b85esf76"]
 
 [ext_resource type="Texture2D" uid="uid://daeu7ik4nqar8" path="res://acts/full_game/hubbackgrounds/assets/testscreen.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hub_scenario/scenario_hub_screen.gd" id="2"]
+[ext_resource type="Script" uid="uid://c6kck86n3e3bh" path="res://shared/ui/hub_scenario/scenario_hub_screen.gd" id="2"]
 [ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="3"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_cwhu6"]

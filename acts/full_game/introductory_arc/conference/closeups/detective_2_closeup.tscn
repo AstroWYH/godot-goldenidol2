@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://dgpey0alflaja"]
+[gd_scene load_steps=35 format=3 uid="uid://dgpey0alflaja"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cyvmgpl10itu" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/badge.png" id="2"]
@@ -133,10 +133,10 @@ animations = [{
 }]
 
 [node name="Detective2Closeup" type="Panel"]
-offset_left = -1446.3199462890625
-offset_top = 653.219970703125
-offset_right = -645.322998046875
-offset_bottom = 1266.219970703125
+offset_left = -1446.32
+offset_top = 653.22
+offset_right = -645.323
+offset_bottom = 1266.22
 
 [node name="CharacterTextLabel" type="Label" parent="."]
 layout_mode = 0
@@ -168,4 +168,4 @@ position = Vector2(626.605, 420.313)
 scale = Vector2(-0.868557, 0.868557)
 sprite_frames = SubResource("SpriteFrames_b78ib")
 autoplay = "default"
-frame_progress = 0.621554970741272
+frame_progress = 0.621555

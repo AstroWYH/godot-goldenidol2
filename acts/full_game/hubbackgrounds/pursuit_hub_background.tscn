@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://bnglwa3xu6rb4"]
+[gd_scene load_steps=7 format=3 uid="uid://bnglwa3xu6rb4"]
 
 [ext_resource type="Texture2D" uid="uid://daeu7ik4nqar8" path="res://acts/full_game/hubbackgrounds/assets/testscreen.png" id="1"]
 [ext_resource type="SpriteFrames" uid="uid://bmia82cxby3ja" path="res://acts/full_game/colecting_parts_arc/hub/assets/drivein_animation_bw.tres" id="2"]

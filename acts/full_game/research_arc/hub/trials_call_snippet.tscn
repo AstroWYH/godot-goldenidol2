@@ -1,6 +1,6 @@
-[gd_scene load_steps=62 format=4 uid="uid://bw8h3xv2i1xhl"]
+[gd_scene load_steps=62 format=3 uid="uid://bw8h3xv2i1xhl"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cl381kjlcbfrf" path="res://shared/ui/misc/message_tape2.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="4"]
@@ -249,41 +249,41 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 12.622400283813477
-offset_top = 6.023930072784424
-offset_right = -10.377699851989746
-offset_bottom = -17.97610092163086
+offset_left = 12.6224
+offset_top = 6.02393
+offset_right = -10.3777
+offset_bottom = -17.9761
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("2")
 expand_mode = 1
 stretch_mode = 1
 
 [node name="MessageTape" type="Sprite2D" parent="CallPanel/MessageBG"]
 position = Vector2(686.081, 420.832)
-rotation = -0.0016687499592080712
+rotation = -0.00166875
 texture = ExtResource("3")
 
 [node name="voice_anim" type="AnimatedSprite2D" parent="CallPanel/MessageBG/MessageTape"]
 modulate = Color(0.53, 0.475145, 0.4081, 1)
 show_behind_parent = true
 position = Vector2(-390, 15)
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 sprite_frames = SubResource("SpriteFrames_5qyrv")
 autoplay = "default"
 
 [node name="text" type="Node2D" parent="CallPanel/MessageBG/MessageTape"]
 position = Vector2(-19, 13)
-rotation = 0.21816599369049072
-skew = 0.26179900765419006
+rotation = 0.218166
+skew = 0.261799
 
 [node name="TapeLabel1" type="Label" parent="CallPanel/MessageBG/MessageTape/text"]
-offset_left = -271.7070007324219
-offset_top = -91.5343017578125
-offset_right = 277.2929992675781
-offset_bottom = -58.5343017578125
-rotation = 0.017453299835324287
+offset_left = -271.707
+offset_top = -91.5343
+offset_right = 277.293
+offset_bottom = -58.5343
+rotation = 0.0174533
 theme = ExtResource("58")
 theme_override_colors/font_color = Color(0.541013, 0.355864, 0.121936, 1)
 theme_override_font_sizes/font_size = 24
@@ -292,10 +292,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="TapeLabel2" type="Label" parent="CallPanel/MessageBG/MessageTape/text"]
-offset_left = -270.49798583984375
-offset_top = -19.676799774169922
-offset_right = 279.50201416015625
-offset_bottom = 13.323200225830078
+offset_left = -270.498
+offset_top = -19.6768
+offset_right = 279.502
+offset_bottom = 13.3232
 theme = ExtResource("58")
 theme_override_colors/font_color = Color(0.541013, 0.355864, 0.121936, 1)
 theme_override_font_sizes/font_size = 24

@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=4 uid="uid://bhll3g08m7iep"]
+[gd_scene load_steps=27 format=3 uid="uid://bhll3g08m7iep"]
 
 [ext_resource type="Texture2D" uid="uid://cyc1y1gnfrbk" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/handgun.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://d13fbabrcj6ut" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/corrupt/corrupt_000.png" id="2"]
@@ -112,7 +112,7 @@ texture = ExtResource("1")
 position = Vector2(188, 257)
 sprite_frames = SubResource("SpriteFrames_w4vvm")
 autoplay = "default"
-frame_progress = 0.05148540064692497
+frame_progress = 0.0514854
 
 [node name="PinSprite" type="Sprite2D" parent="."]
 position = Vector2(474, 358)

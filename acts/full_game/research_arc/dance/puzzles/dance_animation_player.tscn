@@ -1,6 +1,6 @@
-[gd_scene load_steps=194 format=4 uid="uid://dgy6ghuui03v"]
+[gd_scene load_steps=194 format=3 uid="uid://dgy6ghuui03v"]
 
-[ext_resource type="Script" path="res://shared/ui/animation_player/animation_player.gd" id="1"]
+[ext_resource type="Script" uid="uid://wruo7qxvjjya" path="res://shared/ui/animation_player/animation_player.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://sqehqtkbly44" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_000.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cu7dk8iy8oxlw" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_001.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://y5egirmymecb" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_002.png" id="4"]

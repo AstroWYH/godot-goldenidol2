@@ -1,4 +1,4 @@
-[gd_scene load_steps=259 format=4 uid="uid://c11ar2l2f43ua"]
+[gd_scene load_steps=259 format=3 uid="uid://c11ar2l2f43ua"]
 
 [ext_resource type="Texture2D" uid="uid://b0gp67bxxcp4k" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b_roof.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://4bepru6subjd" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_b_roof_char.png" id="2"]
@@ -196,7 +196,7 @@
 [ext_resource type="Texture2D" uid="uid://0ahrxbhpcwjs" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00130.png" id="194"]
 [ext_resource type="Texture2D" uid="uid://dimoa677d8usx" path="res://acts/full_game/research_arc/complex/assets/animations/RoofSmokerLady/SmokeLady_00131.png" id="195"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="196"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="197"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="197"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="198"]
 [ext_resource type="Texture2D" uid="uid://dkaaxbx5nswnw" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_cigarettes.png" id="199"]
 [ext_resource type="Texture2D" uid="uid://bj1r07p0jwi5i" path="res://acts/full_game/research_arc/complex/assets/closeups/wristbandsabrina.png" id="200"]
@@ -1045,13 +1045,13 @@ centered = false
 position = Vector2(99, 144)
 sprite_frames = SubResource("SpriteFrames_4xf5g")
 autoplay = "default"
-frame_progress = 0.613349974155426
+frame_progress = 0.61335
 
 [node name="Smoke3" type="AnimatedSprite2D" parent="EvBRoof"]
 position = Vector2(656, 160)
 sprite_frames = SubResource("SpriteFrames_4xf5g")
 autoplay = "default"
-frame_progress = 0.7250059843063354
+frame_progress = 0.725006
 
 [node name="AnimatedSabrinaSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(211, 259)
@@ -1059,7 +1059,7 @@ scale = Vector2(0.451736, 0.451736)
 sprite_frames = SubResource("SpriteFrames_4pjg8")
 animation = &"loop"
 autoplay = "loop"
-frame_progress = 0.13425500690937042
+frame_progress = 0.134255
 
 [node name="SabrinaSpot" parent="." instance=ExtResource("196")]
 layout_mode = 1
@@ -1105,4 +1105,4 @@ position = Vector2(239.5, 251)
 sprite_frames = SubResource("SpriteFrames_ybgoo")
 autoplay = "default"
 frame = 23
-frame_progress = 0.7168809771537781
+frame_progress = 0.716881

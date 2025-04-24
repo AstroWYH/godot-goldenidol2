@@ -1,6 +1,6 @@
-[gd_scene load_steps=72 format=4 uid="uid://bjgkm1ey7u3ln"]
+[gd_scene load_steps=73 format=3 uid="uid://bjgkm1ey7u3ln"]
 
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/hub_of_hubs.gd" id="1"]
+[ext_resource type="Script" uid="uid://c4bm5b1uw33ek" path="res://shared/ui/hub_of_hubs/hub_of_hubs.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
 [ext_resource type="Texture2D" uid="uid://cqwhidld3lcf1" path="res://shared/assets/hub_art/hub_of_hubs/hub__0015_Paint-Layer-6.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://5f0i3p6wd3r3" path="res://shared/assets/hub_art/hub_of_hubs/hub__0006_Background.png" id="4"]
@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" uid="uid://c7flvw2l31ld4" path="res://shared/assets/hub_art/hub_of_hubs/hub_pursuit_focus.png" id="15"]
 [ext_resource type="Resource" uid="uid://cct0dyqesuef0" path="res://acts/full_game/introductory_arc/introductory_arc_meta.tres" id="16"]
 [ext_resource type="Resource" uid="uid://jmcrlh8lb63f" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_scroll_puzzle_duplicate_meta.tres" id="17"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="17_4oiq5"]
 [ext_resource type="Texture2D" uid="uid://cc5ff1fn5sw7y" path="res://shared/assets/hub_art/hub_of_hubs/hub__0014_curse_mb.png" id="18"]
 [ext_resource type="Resource" uid="uid://dwnbn1hxw3tsq" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle_2.tres" id="19"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="20"]
@@ -63,8 +64,8 @@
 [ext_resource type="Texture2D" uid="uid://br5lv4t0k84io" path="res://shared/assets/hub_art/hub_of_hubs/hub__0008_ball_focus.png" id="61"]
 [ext_resource type="Texture2D" uid="uid://d0c170l4o0isc" path="res://shared/assets/hub_art/hub_of_hubs/hub__0008_ball_bw.png" id="62"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="63"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="64"]
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/fast_forward_button.gd" id="65"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="64"]
+[ext_resource type="Script" uid="uid://bcjmil51g2r2h" path="res://shared/ui/hub_of_hubs/fast_forward_button.gd" id="65"]
 [ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="66"]
 [ext_resource type="PackedScene" uid="uid://dhwm06foikq1l" path="res://shared/ui/hub/snippet_button.tscn" id="67"]
 [ext_resource type="Texture2D" uid="uid://cgghanihtylxv" path="res://shared/assets/hub_art/hub_of_hubs/jack.png" id="68"]
@@ -81,8 +82,7 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("1")
-music_layers = [ExtResource("2")]
-ambience_layers = null
+music_layers = Array[AudioStream]([ExtResource("2")])
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -149,15 +149,15 @@ offset_left = 1152.0
 offset_top = 106.0
 offset_right = 1530.0
 offset_bottom = 617.0
-rotation = -0.3106580078601837
+rotation = -0.310658
 theme = ExtResource("13")
 texture_normal = ExtResource("14")
 texture_focused = ExtResource("15")
 stretch_mode = 3
 arc_meta = ExtResource("16")
-required_puzzles = [ExtResource("17")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("17")])
 unfinished_texture = ExtResource("18")
-required_puzzles_to_finish = [ExtResource("19")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("19")])
 label_node = NodePath("../ChapterLabels/Curse Label")
 
 [node name="Label2" type="Label" parent="Curse"]
@@ -191,21 +191,21 @@ horizontal_alignment = 2
 [node name="Pursuit" parent="." node_paths=PackedStringArray("label_node") instance=ExtResource("12")]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.06510420143604279
-anchor_top = -0.0037036999128758907
-anchor_right = 0.07604169845581055
-anchor_bottom = 0.012036999687552452
+anchor_left = 0.0651042
+anchor_top = -0.0037037
+anchor_right = 0.0760417
+anchor_bottom = 0.012037
 offset_right = 344.0
 offset_bottom = 477.0
-rotation = 0.21698899567127228
+rotation = 0.216989
 theme = ExtResource("13")
 texture_normal = ExtResource("21")
 texture_focused = ExtResource("15")
 stretch_mode = 3
 arc_meta = ExtResource("22")
-required_puzzles = [ExtResource("19")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("19")])
 unfinished_texture = ExtResource("23")
-required_puzzles_to_finish = [ExtResource("24"), ExtResource("25")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("24"), ExtResource("25")])
 label_node = NodePath("../ChapterLabels/PursuitLabel")
 metadata/_edit_use_anchors_ = true
 
@@ -244,15 +244,15 @@ offset_left = 280.0
 offset_top = 601.0
 offset_right = 639.0
 offset_bottom = 1102.0
-rotation = -0.1767980009317398
+rotation = -0.176798
 theme = ExtResource("13")
 texture_normal = ExtResource("26")
 texture_focused = ExtResource("15")
 stretch_mode = 3
 arc_meta = ExtResource("27")
-required_puzzles = [ExtResource("24"), ExtResource("25")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("24"), ExtResource("25")])
 unfinished_texture = ExtResource("28")
-required_puzzles_to_finish = [ExtResource("29"), ExtResource("30"), ExtResource("31")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("29"), ExtResource("30"), ExtResource("31")])
 label_node = NodePath("../ChapterLabels/MachineLabel")
 
 [node name="Label" type="Label" parent="Machine"]
@@ -286,18 +286,18 @@ horizontal_alignment = 2
 unique_name_in_owner = true
 layout_mode = 2
 offset_left = 707.0
-offset_top = 0.9999920129776001
+offset_top = 0.999992
 offset_right = 1082.0
 offset_bottom = 508.0
-rotation = 0.18348300457000732
+rotation = 0.183483
 theme = ExtResource("13")
 texture_normal = ExtResource("32")
 texture_focused = ExtResource("15")
 stretch_mode = 3
 arc_meta = ExtResource("33")
-required_puzzles = [ExtResource("29"), ExtResource("30"), ExtResource("31")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("29"), ExtResource("30"), ExtResource("31")])
 unfinished_texture = ExtResource("34")
-required_puzzles_to_finish = [ExtResource("35"), ExtResource("36")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("35"), ExtResource("36")])
 label_node = NodePath("../ChapterLabels/TrialsLabel")
 
 [node name="Label3" type="Label" parent="Trials"]
@@ -335,16 +335,16 @@ offset_left = 1520.0
 offset_top = 566.0
 offset_right = 1880.0
 offset_bottom = 1068.0
-rotation = -0.04903620108962059
+rotation = -0.0490362
 theme = ExtResource("13")
 texture_normal = ExtResource("37")
 texture_focused = ExtResource("15")
 ignore_texture_size = true
 stretch_mode = 3
 arc_meta = ExtResource("38")
-required_puzzles = [ExtResource("35"), ExtResource("36")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("35"), ExtResource("36")])
 unfinished_texture = ExtResource("39")
-required_puzzles_to_finish = [ExtResource("40")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("40")])
 label_node = NodePath("../ChapterLabels/PinnacleLabel")
 
 [node name="Label4" type="Label" parent="Pinnacle"]
@@ -382,7 +382,7 @@ offset_top = 712.0
 offset_right = 1015.0
 offset_bottom = 1006.0
 texture_focused = ExtResource("42")
-required_puzzles = [ExtResource("17")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("17")])
 intermission_path = "res://acts/full_game/intermisions/intro_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 
@@ -394,7 +394,7 @@ offset_right = 1789.0
 offset_bottom = 307.0
 texture_normal = ExtResource("5")
 texture_focused = ExtResource("43")
-required_puzzles = [ExtResource("19")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("19")])
 intermission_path = "res://acts/full_game/intermisions/pursuit_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 id = 2
@@ -407,7 +407,7 @@ offset_right = 308.0
 offset_bottom = 710.0
 texture_normal = ExtResource("9")
 texture_focused = ExtResource("44")
-required_puzzles = [ExtResource("24")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("24")])
 intermission_path = "res://acts/full_game/intermisions/machine_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 id = 3
@@ -420,7 +420,7 @@ offset_right = 794.0
 offset_bottom = 777.0
 texture_normal = ExtResource("8")
 texture_focused = ExtResource("45")
-required_puzzles = [ExtResource("30")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("30")])
 intermission_path = "res://acts/full_game/intermisions/trials_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 id = 4
@@ -433,7 +433,7 @@ offset_right = 736.0
 offset_bottom = 379.0
 texture_normal = ExtResource("7")
 texture_focused = ExtResource("46")
-required_puzzles = [ExtResource("36"), ExtResource("35")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("36"), ExtResource("35")])
 intermission_path = "res://acts/full_game/intermisions/pinnacle_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 id = 5
@@ -445,7 +445,7 @@ offset_left = 1040.0
 offset_top = 519.0
 offset_right = 1261.0
 offset_bottom = 771.0
-rotation = -0.16364000737667084
+rotation = -0.16364
 texture_normal = ExtResource("4")
 texture_focused = ExtResource("48")
 stretch_mode = 3
@@ -461,7 +461,7 @@ offset_bottom = 792.0
 texture_normal = ExtResource("51")
 texture_focused = ExtResource("52")
 scenario_meta = ExtResource("49")
-required_puzzles_to_finish = [ExtResource("17")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("17")])
 unfinished_texture = ExtResource("53")
 label_node = NodePath("../ChapterLabels/ConstrictionLabel")
 
@@ -473,7 +473,7 @@ offset_right = 1919.0
 offset_bottom = 667.0
 texture_normal = ExtResource("6")
 texture_focused = ExtResource("54")
-required_puzzles = [ExtResource("40")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("40")])
 intermission_path = "res://acts/full_game/intermisions/finals_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 id = 6
@@ -487,7 +487,7 @@ offset_right = 1321.0
 offset_bottom = 1062.0
 texture_normal = ExtResource("55")
 texture_focused = ExtResource("56")
-required_puzzles = [ExtResource("57")]
+required_puzzles = Array[ExtResource("17_4oiq5")]([ExtResource("57")])
 intermission_path = "res://acts/full_game/intermisions/finale01_intermission.tscn"
 dialog_layer = NodePath("../DialogLayer")
 id = 7
@@ -498,7 +498,7 @@ offset_left = 1363.0
 offset_top = 662.0
 offset_right = 1586.0
 offset_bottom = 915.0
-rotation = 0.27674099802970886
+rotation = 0.276741
 texture_normal = ExtResource("10")
 texture_focused = ExtResource("58")
 scenario_meta = ExtResource("59")
@@ -514,7 +514,7 @@ offset_bottom = 775.0
 texture_normal = ExtResource("60")
 texture_focused = ExtResource("61")
 scenario_meta = ExtResource("59")
-required_puzzles_to_finish = [ExtResource("57")]
+required_puzzles_to_finish = Array[ExtResource("17_4oiq5")]([ExtResource("57")])
 unfinished_texture = ExtResource("62")
 label_node = NodePath("../ChapterLabels/FinaleLabel")
 
@@ -572,7 +572,7 @@ offset_left = 1024.0
 offset_top = 268.0
 offset_right = 1236.0
 offset_bottom = 510.0
-rotation = -0.25038498640060425
+rotation = -0.250385
 scale = Vector2(1, 1)
 texture_normal = ExtResource("68")
 texture_hover = null

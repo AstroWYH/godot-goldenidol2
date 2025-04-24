@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=4 uid="uid://cojafotabbhtc"]
+[gd_scene load_steps=27 format=3 uid="uid://cojafotabbhtc"]
 
 [ext_resource type="Texture2D" uid="uid://bui0rqomnnwfn" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c8li3s4bqaoqj" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/star/star_001.png" id="2"]
@@ -127,7 +127,7 @@ uppercase = true
 [node name="Star" type="AnimatedSprite2D" parent="."]
 position = Vector2(140, 215)
 sprite_frames = SubResource("SpriteFrames_oc7jc")
-frame_progress = 0.9615030288696289
+frame_progress = 0.961503
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

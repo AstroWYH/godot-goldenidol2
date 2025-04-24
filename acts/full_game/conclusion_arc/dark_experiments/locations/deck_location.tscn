@@ -1,6 +1,6 @@
-[gd_scene load_steps=65 format=4 uid="uid://nkxw7iecgwpa"]
+[gd_scene load_steps=65 format=3 uid="uid://nkxw7iecgwpa"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://bpkqfqli57fmw" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/deck_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://8cwudb8oxa4q" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/peopleyacht2/people_yacht_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://diem8cvmg2063" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/peopleyacht2/people_yacht_001.png" id="4"]
@@ -44,7 +44,7 @@
 [ext_resource type="Texture2D" uid="uid://bwah2hrv5woh5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/deck_foreground.png" id="42"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="43"]
 [ext_resource type="Resource" uid="uid://dmt5c8hslp3xa" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location_meta.tres" id="44"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="45"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="45"]
 [ext_resource type="PackedScene" uid="uid://bda66hu7e5gsy" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/synth_panel.tscn" id="46"]
 [ext_resource type="PackedScene" uid="uid://defatchh0fvqg" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/tucker_panel.tscn" id="47"]
 [ext_resource type="PackedScene" uid="uid://d2olrm7o34dyo" path="res://acts/full_game/conclusion_arc/dark_experiments/closeups/arabella_panel.tscn" id="48"]
@@ -221,7 +221,7 @@ location_meta = ExtResource("2")
 position = Vector2(871, 571.5)
 sprite_frames = SubResource("SpriteFrames_438mo")
 autoplay = "default"
-frame_progress = 0.018122399225831032
+frame_progress = 0.0181224
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(-207, -174)
@@ -247,15 +247,15 @@ hover_cursor = 3
 target_location_meta = ExtResource("44")
 
 [node name="Indicators" parent="Hotspots/ToYachtSpot" index="0"]
-offset_left = -5.297309875488281
-offset_top = 425.4460144042969
-offset_right = -5.297309875488281
-offset_bottom = 425.4460144042969
-rotation = 3.141590118408203
+offset_left = -5.29731
+offset_top = 425.446
+offset_right = -5.29731
+offset_bottom = 425.446
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToYachtSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
-rotation = 3.1369500160217285
+rotation = 3.13695
 
 [node name="SynthesizerSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -268,10 +268,10 @@ hotspot_id = "XCs"
 extra_items_unlocked = [SubResource("Resource_r0qou"), SubResource("Resource_4dsps"), SubResource("Resource_ijtqc")]
 
 [node name="Indicators" parent="Hotspots/SynthesizerSpot" index="0"]
-offset_left = -64.4791030883789
-offset_top = 91.310302734375
-offset_right = -64.4791030883789
-offset_bottom = 91.310302734375
+offset_left = -64.4791
+offset_top = 91.3103
+offset_right = -64.4791
+offset_bottom = 91.3103
 
 [node name="Highlighter" parent="Hotspots/SynthesizerSpot/Indicators" index="0"]
 modulate = Color(0.0980392, 0.129412, 0.0745098, 1)
@@ -282,10 +282,10 @@ position = Vector2(44.5435, -8.79779)
 
 [node name="SynthPanel" parent="Hotspots/SynthesizerSpot" instance=ExtResource("46")]
 layout_mode = 0
-offset_left = -1348.1700439453125
-offset_top = -72.24549865722656
-offset_right = -522.1649780273438
-offset_bottom = 418.7550048828125
+offset_left = -1348.17
+offset_top = -72.2455
+offset_right = -522.165
+offset_bottom = 418.755
 
 [node name="TuckerSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -298,20 +298,20 @@ hotspot_id = "_Cy"
 unlocked_item_ref_id = 929
 
 [node name="Indicators" parent="Hotspots/TuckerSpot" index="0"]
-offset_left = 11.590100288391113
-offset_top = 61.20800018310547
-offset_right = 11.590100288391113
-offset_bottom = 61.20800018310547
+offset_left = 11.5901
+offset_top = 61.208
+offset_right = 11.5901
+offset_bottom = 61.208
 
 [node name="Highlighter" parent="Hotspots/TuckerSpot/Indicators" index="0"]
 modulate = Color(0.0901961, 0.117647, 0.0705882, 1)
 
 [node name="TuckerPanel" parent="Hotspots/TuckerSpot" instance=ExtResource("47")]
 layout_mode = 0
-offset_left = -1608.5799560546875
-offset_top = -1245.22998046875
-offset_right = -884.5819702148438
-offset_bottom = -708.22998046875
+offset_left = -1608.58
+offset_top = -1245.23
+offset_right = -884.582
+offset_bottom = -708.23
 
 [node name="ArabellaSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -324,10 +324,10 @@ hotspot_id = "Pf0"
 unlocked_item_ref_id = 931
 
 [node name="Indicators" parent="Hotspots/ArabellaSpot" index="0"]
-offset_left = -36.94049835205078
-offset_top = 53.18069839477539
-offset_right = -36.94049835205078
-offset_bottom = 53.18069839477539
+offset_left = -36.9405
+offset_top = 53.1807
+offset_right = -36.9405
+offset_bottom = 53.1807
 
 [node name="Highlighter" parent="Hotspots/ArabellaSpot/Indicators" index="0"]
 modulate = Color(0.0980392, 0.129412, 0.129412, 1)
@@ -338,10 +338,10 @@ position = Vector2(40.5227, 28.5716)
 
 [node name="ArabellaPanel" parent="Hotspots/ArabellaSpot" instance=ExtResource("48")]
 layout_mode = 0
-offset_left = 1212.949951171875
-offset_top = 1816.1700439453125
-offset_right = 2009.949951171875
-offset_bottom = 2454.169921875
+offset_left = 1212.95
+offset_top = 1816.17
+offset_right = 2009.95
+offset_bottom = 2454.17
 
 [node name="BrockSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -354,10 +354,10 @@ hotspot_id = "6gV"
 extra_items_unlocked = [SubResource("Resource_uu3rt"), SubResource("Resource_ds1jk")]
 
 [node name="Indicators" parent="Hotspots/BrockSpot" index="0"]
-offset_left = -65.98709869384766
-offset_top = 50.170501708984375
-offset_right = -65.98709869384766
-offset_bottom = 50.170501708984375
+offset_left = -65.9871
+offset_top = 50.1705
+offset_right = -65.9871
+offset_bottom = 50.1705
 
 [node name="Highlighter" parent="Hotspots/BrockSpot/Indicators" index="0"]
 modulate = Color(0.0980392, 0.129412, 0.0745098, 1)
@@ -368,10 +368,10 @@ position = Vector2(44.5435, -8.79779)
 
 [node name="BrockPanel" parent="Hotspots/BrockSpot" instance=ExtResource("49")]
 layout_mode = 0
-offset_left = -2173.489990234375
-offset_top = 1743.9300537109375
-offset_right = -1447.489990234375
-offset_bottom = 2322.929931640625
+offset_left = -2173.49
+offset_top = 1743.93
+offset_right = -1447.49
+offset_bottom = 2322.93
 
 [node name="TableSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -384,10 +384,10 @@ hotspot_id = "1fX"
 text = "WAREHOUSE_DRINK_TOOLTIP"
 
 [node name="Indicators" parent="Hotspots/TableSpot" index="0"]
-offset_left = 2.1077699661254883
-offset_top = 25.0851993560791
-offset_right = 2.1077699661254883
-offset_bottom = 25.0851993560791
+offset_left = 2.10777
+offset_top = 25.0852
+offset_right = 2.10777
+offset_bottom = 25.0852
 
 [node name="Highlighter" parent="Hotspots/TableSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
@@ -406,10 +406,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "wbK"
 
 [node name="Indicators" parent="Hotspots/CameraSpot" index="0"]
-offset_left = -10.913200378417969
-offset_top = 30.1023006439209
-offset_right = -10.913200378417969
-offset_bottom = 30.1023006439209
+offset_left = -10.9132
+offset_top = 30.1023
+offset_right = -10.9132
+offset_bottom = 30.1023
 
 [node name="Highlighter" parent="Hotspots/CameraSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
@@ -420,10 +420,10 @@ position = Vector2(11.0178, 17.058)
 
 [node name="CameraPanel" parent="Hotspots/CameraSpot" instance=ExtResource("50")]
 layout_mode = 0
-offset_left = -515.8280029296875
-offset_top = -1151.9100341796875
-offset_right = 338.1719970703125
-offset_bottom = -271.91400146484375
+offset_left = -515.828
+offset_top = -1151.91
+offset_right = 338.172
+offset_bottom = -271.914
 
 [node name="CordeliaSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -436,10 +436,10 @@ hotspot_id = "lUT"
 extra_items_unlocked = [SubResource("Resource_x6cp7"), SubResource("Resource_rwmuj"), SubResource("Resource_ncs1f")]
 
 [node name="Indicators" parent="Hotspots/CordeliaSpot" index="0"]
-offset_left = -36.94049835205078
-offset_top = 53.18069839477539
-offset_right = -36.94049835205078
-offset_bottom = 53.18069839477539
+offset_left = -36.9405
+offset_top = 53.1807
+offset_right = -36.9405
+offset_bottom = 53.1807
 
 [node name="Highlighter" parent="Hotspots/CordeliaSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
@@ -450,10 +450,10 @@ position = Vector2(18.529, -7.79437)
 
 [node name="CordeliaPanel" parent="Hotspots/CordeliaSpot" instance=ExtResource("51")]
 layout_mode = 0
-offset_left = 2095.3701171875
-offset_top = 719.4450073242188
-offset_right = 3015.3701171875
-offset_bottom = 1308.43994140625
+offset_left = 2095.37
+offset_top = 719.445
+offset_right = 3015.37
+offset_bottom = 1308.44
 
 [node name="HatSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -467,10 +467,10 @@ unlocked_item_ref_id = 981
 unlocked_puzzles = [ExtResource("52")]
 
 [node name="Indicators" parent="Hotspots/HatSpot" index="0"]
-offset_left = -36.94049835205078
-offset_top = 53.18069839477539
-offset_right = -36.94049835205078
-offset_bottom = 53.18069839477539
+offset_left = -36.9405
+offset_top = 53.1807
+offset_right = -36.9405
+offset_bottom = 53.1807
 
 [node name="Highlighter" parent="Hotspots/HatSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
@@ -494,11 +494,11 @@ region_rect = Rect2(5.52405, 33.8699, 494.476, 418.974)
 
 [node name="Page1Label2" type="Label" parent="Hotspots/HatSpot/HatPanel"]
 layout_mode = 0
-offset_left = 89.29060363769531
-offset_top = 136.9429931640625
-offset_right = 497.2909851074219
-offset_bottom = 250.9429931640625
-rotation = 0.20940999686717987
+offset_left = 89.2906
+offset_top = 136.943
+offset_right = 497.291
+offset_bottom = 250.943
+rotation = 0.20941
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 23
@@ -516,20 +516,20 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "X0S"
 
 [node name="Indicators" parent="Hotspots/GabrielSpot" index="0"]
-offset_left = -36.94049835205078
-offset_top = 53.18069839477539
-offset_right = -36.94049835205078
-offset_bottom = 53.18069839477539
+offset_left = -36.9405
+offset_top = 53.1807
+offset_right = -36.9405
+offset_bottom = 53.1807
 
 [node name="Highlighter" parent="Hotspots/GabrielSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
 
 [node name="GabrielPanel" parent="Hotspots/GabrielSpot" instance=ExtResource("54")]
 layout_mode = 0
-offset_left = 354.5690002441406
-offset_top = -1575.3499755859375
-offset_right = 1133.5699462890625
-offset_bottom = -1055.3499755859375
+offset_left = 354.569
+offset_top = -1575.35
+offset_right = 1133.57
+offset_bottom = -1055.35
 
 [node name="OliviaSpot" parent="Hotspots" instance=ExtResource("43")]
 layout_mode = 1
@@ -542,20 +542,20 @@ hotspot_id = "SgE"
 unlocked_item_ref_id = 983
 
 [node name="Indicators" parent="Hotspots/OliviaSpot" index="0"]
-offset_left = -36.94049835205078
-offset_top = 53.18069839477539
-offset_right = -36.94049835205078
-offset_bottom = 53.18069839477539
+offset_left = -36.9405
+offset_top = 53.1807
+offset_right = -36.9405
+offset_bottom = 53.1807
 
 [node name="Highlighter" parent="Hotspots/OliviaSpot/Indicators" index="0"]
 modulate = Color(1, 1, 0.133333, 1)
 
 [node name="OliviaPanel" parent="Hotspots/OliviaSpot" instance=ExtResource("55")]
 layout_mode = 0
-offset_left = 1578.5400390625
+offset_left = 1578.54
 offset_top = -1251.25
-offset_right = 2361.5400390625
-offset_bottom = -709.2520141601563
+offset_right = 2361.54
+offset_bottom = -709.252
 
 [editable path="Hotspots/ToYachtSpot"]
 [editable path="Hotspots/SynthesizerSpot"]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=4 uid="uid://cjnrfx2hqyimb"]
+[gd_scene load_steps=4 format=3 uid="uid://cjnrfx2hqyimb"]
 
-[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher.gd" id="1"]
+[ext_resource type="Script" uid="uid://cduqc7e2m2ywv" path="res://shared/ui/container_switcher_prototype/container_switcher.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://b8nics8aqtpyx" path="res://shared/assets/placeholder_ui/generic_container_ninepatch.png" id="2"]
 [ext_resource type="Theme" uid="uid://dnokfxldtj6pj" path="res://shared/themes/placeholder_button.tres" id="3"]
 

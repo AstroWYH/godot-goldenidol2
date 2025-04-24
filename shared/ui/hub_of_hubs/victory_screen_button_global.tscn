@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://b31007656bt8n"]
+[gd_scene load_steps=3 format=3 uid="uid://b31007656bt8n"]
 
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/victory_screen_button_global.gd" id="1"]
+[ext_resource type="Script" uid="uid://da6dvyqv2n1v7" path="res://shared/ui/hub_of_hubs/victory_screen_button_global.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://crb7rwujbjw7u" path="res://shared/ui/hub_of_hubs/focus_target.tscn" id="2"]
 
 [node name="VictoryScreenButtonGlobal" type="TextureButton"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://b7y38twlm48jy"]
+[gd_scene load_steps=24 format=3 uid="uid://b7y38twlm48jy"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cwf3235b0ds77" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/checkbookl.png" id="2"]
@@ -112,7 +112,7 @@ texture = ExtResource("2")
 position = Vector2(158, 312)
 sprite_frames = SubResource("SpriteFrames_12htb")
 autoplay = "default"
-frame_progress = 0.45264899730682373
+frame_progress = 0.452649
 
 [node name="MoneySpot2" parent="." instance=ExtResource("22")]
 layout_mode = 1
@@ -126,7 +126,7 @@ text = "auction_1day_curator_checkbook_tooltip"
 [node name="Highlighter" parent="MoneySpot2/Indicators" index="0"]
 modulate = Color(0.741176, 0.266667, 0.247059, 1)
 position = Vector2(-0.5, -32.75)
-frame_progress = 0.2445559948682785
+frame_progress = 0.244556
 
 [node name="FocusIndicator" parent="MoneySpot2/Indicators" index="1"]
 position = Vector2(0.5, -28.75)

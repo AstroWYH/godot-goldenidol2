@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=4 uid="uid://fg3ymyl1dvqe"]
+[gd_scene load_steps=52 format=3 uid="uid://fg3ymyl1dvqe"]
 
 [ext_resource type="Texture2D" uid="uid://c3466d1ic57sf" path="res://shared/assets/portraits/ceo/ceo_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://d4n0b1mbgwwc0" path="res://shared/assets/portraits/ceo/ceo_001.png" id="2"]
@@ -228,4 +228,4 @@ autowrap_mode = 2
 position = Vector2(272.437, 335.139)
 sprite_frames = SubResource("SpriteFrames_g74jt")
 autoplay = "default"
-frame_progress = 0.7139679789543152
+frame_progress = 0.713968

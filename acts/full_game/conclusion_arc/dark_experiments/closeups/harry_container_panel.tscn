@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=4 uid="uid://jitbgbdf30mk"]
+[gd_scene load_steps=20 format=3 uid="uid://jitbgbdf30mk"]
 
 [ext_resource type="Texture2D" uid="uid://466gegyx38yr" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/harry_room_updated.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bkwnc5olskc6q" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/Flashlight.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bnfchnujfmj1i" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/FotoAlbums.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://cy5wjvn5mb871" path="res://shared/assets/papers/A4_V1_ICO.png" id="7"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="8"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="8"]
 [ext_resource type="Resource" uid="uid://diincduyqpm5x" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_bum_timeline_mtea.tres" id="9"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="10"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="11"]
@@ -66,10 +66,10 @@ pivot_offset = Vector2(-1410.96, -558.726)
 hotspot_id = "Jza"
 
 [node name="Indicators" parent="HarryStashSpot" index="0"]
-offset_left = -9.311619758605957
-offset_top = 63.35639953613281
-offset_right = -9.311619758605957
-offset_bottom = 63.35639953613281
+offset_left = -9.31162
+offset_top = 63.3564
+offset_right = -9.31162
+offset_bottom = 63.3564
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="HarryStashSpot/Indicators" index="0"]
@@ -119,10 +119,10 @@ extra_items_unlocked = [SubResource("Resource_t7h4v"), SubResource("Resource_1by
 unlocked_puzzles = [ExtResource("9")]
 
 [node name="Indicators" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 14.730500221252441
-offset_right = -12.726300239562988
-offset_bottom = 14.730500221252441
+offset_left = -12.7263
+offset_top = 14.7305
+offset_right = -12.7263
+offset_bottom = 14.7305
 
 [node name="Highlighter" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/Indicators" index="0"]
 modulate = Color(0.621203, 0.468348, 0.370281, 1)
@@ -151,8 +151,8 @@ stretch_mode = 1
 
 [node name="Sprite2D9" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
 position = Vector2(222.439, 569.77)
-rotation = 3.118259906768799
-skew = -0.008633850142359734
+rotation = 3.11826
+skew = -0.00863385
 texture = ExtResource("11")
 region_enabled = true
 region_rect = Rect2(142, 384.149, 454, 213.473)
@@ -160,9 +160,9 @@ region_rect = Rect2(142, 384.149, 454, 213.473)
 [node name="Sprite2D10" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.623529)
 position = Vector2(146.194, 181.133)
-rotation = -3.12923002243042
+rotation = -3.12923
 scale = Vector2(0.651742, 0.651743)
-skew = -0.008641719818115234
+skew = -0.00864172
 texture = ExtResource("11")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -171,7 +171,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(338.812, 202.277)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("11")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -179,7 +179,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(243.507, 363.37)
-rotation = 6.302949905395508
+rotation = 6.30295
 scale = Vector2(0.807298, 1)
 texture = ExtResource("11")
 region_enabled = true
@@ -187,10 +187,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="HarryNoteText" type="RichTextLabel" parent="HarryStashSpot/HarryStashPanel/HarryNoteSpot/HarryNotesPanel"]
 layout_mode = 0
-offset_left = 36.39569854736328
-offset_top = 27.353500366210938
-offset_right = 518.39599609375
-offset_bottom = 714.35400390625
+offset_left = 36.3957
+offset_top = 27.3535
+offset_right = 518.396
+offset_bottom = 714.354
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.28549, 0.204322, 0.188111, 1)
 theme_override_font_sizes/normal_font_size = 22

@@ -1,14 +1,16 @@
-[gd_scene load_steps=10 format=4 uid="uid://bmqk355mh0ec0"]
+[gd_scene load_steps=10 format=3 uid="uid://bmqk355mh0ec0"]
 
-[ext_resource type="Script" path="res://shared/ui/credits/credits_endgame.gd" id="1"]
+[ext_resource type="Script" uid="uid://c3pdqax7jxjs2" path="res://shared/ui/credits/credits_endgame.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://bfrxxlikiipjd" path="res://acts/full_game/introductory_arc/bridge/assets/music/bridge_loop.ogg" id="2"]
 [ext_resource type="Texture2D" uid="uid://6ie8ma5vf2sb" path="res://acts/full_game/conclusion_arc/hub/assets/endscreen.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dvsgtawmcr0u6" path="res://shared/assets/logos/godot_logo.png" id="4"]
-[ext_resource type="Texture2D" uid="uid://cxsg3hbigltsh" path="res://shared/assets/logos/colorgraylogo2.svg" id="5"]
 [ext_resource type="Texture2D" uid="uid://b0j630wpggto3" path="res://shared/assets/logos/playstack_square_logo.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://yxmc4g44786m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_000.png" id="7"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="8"]
 [ext_resource type="Texture2D" uid="uid://dom3hvpj4vy82" path="res://shared/assets/frames/frame_spech_blue.png" id="9"]
+
+[sub_resource type="Resource" id="Resource_wnrhe"]
+metadata/__load_path__ = "res://shared/assets/logos/colorgraylogo2.svg"
 
 [node name="CreditsEndgame" type="ColorRect"]
 offset_right = 1920.0
@@ -86,7 +88,7 @@ autowrap_mode = 2
 [node name="TextureRect" type="TextureRect" parent="ColorRect/ScrollContainer/AllCredits/ColorGrayHeader"]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
-texture = ExtResource("5")
+texture = SubResource("Resource_wnrhe")
 expand_mode = 1
 
 [node name="ColorGrayCreated" type="Label" parent="ColorRect/ScrollContainer/AllCredits"]

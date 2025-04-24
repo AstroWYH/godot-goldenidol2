@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://xspvegygdnu0"]
+[gd_scene load_steps=4 format=3 uid="uid://xspvegygdnu0"]
 
 [ext_resource type="Texture2D" uid="uid://b0pnbgw11fche" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/newspaper.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]

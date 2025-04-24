@@ -1,9 +1,9 @@
-[gd_scene load_steps=29 format=4 uid="uid://kr20s8d33dru"]
+[gd_scene load_steps=29 format=3 uid="uid://kr20s8d33dru"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cb4q71clyplxt" path="res://shared/assets/textures/paper_texture03.png" id="2"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="3"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://bhrrvg7mwp2qu" path="res://acts/full_game/research_arc/hub/assets/1.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://k5kg03wbxeg7" path="res://acts/full_game/research_arc/hub/assets/2.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://dhvwy46xkqkof" path="res://acts/full_game/research_arc/hub/assets/3.png" id="7"]

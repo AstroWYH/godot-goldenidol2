@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://b2th3gl4sgv2e"]
+[gd_scene load_steps=11 format=3 uid="uid://b2th3gl4sgv2e"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
@@ -37,11 +37,11 @@ unique_name_in_owner = true
 layout_direction = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_bottom = 1.0390000343322754
+anchor_bottom = 1.039
 offset_left = 63.0
 offset_top = 359.0
 offset_right = -262.0
-offset_bottom = -24.77910041809082
+offset_bottom = -24.7791
 theme = ExtResource("4")
 puzzle_meta = ExtResource("5")
 text = "COMPLEXT_PHOTO_PUZZLE_CONTENT"
@@ -77,11 +77,11 @@ unique_name_in_owner = true
 layout_direction = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_bottom = 1.0390000343322754
+anchor_bottom = 1.039
 offset_left = 348.0
 offset_top = 359.0
 offset_right = 163.0
-offset_bottom = -18.77910041809082
+offset_bottom = -18.7791
 theme = ExtResource("4")
 puzzle_meta = ExtResource("8")
 text = "COMPLEXT_PHOTO_PUZZLE_CONTENT2"

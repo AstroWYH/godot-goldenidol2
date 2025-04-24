@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://cqsbnq2s4p5rn"]
+[gd_scene load_steps=6 format=3 uid="uid://cqsbnq2s4p5rn"]
 
-[ext_resource type="Shader" path="res://shared/ui/TrafficOtherDirection.gdshader" id="1"]
+[ext_resource type="Shader" uid="uid://mifgkx6afgue" path="res://shared/ui/TrafficOtherDirection.gdshader" id="1"]
 [ext_resource type="Texture2D" uid="uid://8niia1k6iwsb" path="res://shared/ui/Cars.png" id="2"]
-[ext_resource type="Shader" path="res://shared/ui/FinaleTrafficTest.gdshader" id="3"]
+[ext_resource type="Shader" uid="uid://bixi6tjciawko" path="res://shared/ui/FinaleTrafficTest.gdshader" id="3"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1gn0p"]
 shader = ExtResource("1")

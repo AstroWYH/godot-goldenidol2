@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://dl4wg6kijygbp"]
+[gd_scene load_steps=2 format=3 uid="uid://dl4wg6kijygbp"]
 
-[ext_resource type="Script" path="res://shared/puzzle/puzzle_component/puzzle_component.gd" id="1"]
+[ext_resource type="Script" uid="uid://d13pnhublfonq" path="res://shared/puzzle/puzzle_component/puzzle_component.gd" id="1"]
 
 [node name="PuzzleComponent" type="Node"]
 script = ExtResource("1")

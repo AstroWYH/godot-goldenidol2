@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://calj3yc2pqbtk"]
+[gd_scene load_steps=3 format=3 uid="uid://calj3yc2pqbtk"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cu0ulxqrwfg7a" path="res://shared/ui/hints/hint_library/3_machine/heated_situation_02.png" id="2"]

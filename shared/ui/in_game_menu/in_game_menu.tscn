@@ -1,11 +1,11 @@
-[gd_scene load_steps=8 format=4 uid="uid://ec1trrkgsu4l"]
+[gd_scene load_steps=8 format=3 uid="uid://ec1trrkgsu4l"]
 
-[ext_resource type="Script" path="res://shared/ui/in_game_menu/in_game_menu.gd" id="1"]
+[ext_resource type="Script" uid="uid://dds6d8p3yonit" path="res://shared/ui/in_game_menu/in_game_menu.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dyid5cvbfke20" path="res://shared/assets/frames/frame_panel.png" id="2"]
 [ext_resource type="Theme" uid="uid://dpj86bcdhnlh5" path="res://shared/themes/checkbox.tres" id="3"]
 [ext_resource type="Theme" uid="uid://ccqp0lguah71i" path="res://shared/themes/slider_theme.tres" id="4"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="5"]
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/hint_button.gd" id="6"]
+[ext_resource type="Script" uid="uid://dy35ksdutw1jq" path="res://shared/ui/thinking_ui/bottom_panel/hint_button.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://doh683dn47j2p" path="res://shared/ui/in_game_menu/reset_button/reset_button.tscn" id="7"]
 
 [node name="InGameMenu" type="CanvasLayer"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=70 format=4 uid="uid://dy5gfvu2fnkos"]
+[gd_scene load_steps=70 format=3 uid="uid://dy5gfvu2fnkos"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://corh6u1213hjr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/daysy/daysy_000.png" id="2"]
@@ -55,7 +55,7 @@
 [ext_resource type="Texture2D" uid="uid://ci6mf7u25pmk6" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/chip.png" id="53"]
 [ext_resource type="Texture2D" uid="uid://rnurah3g6bso" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/birthday.png" id="54"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="55"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="56"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="56"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="57"]
 [ext_resource type="Texture2D" uid="uid://byy8s8kv276ho" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/logo.png" id="58"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="59"]
@@ -263,11 +263,11 @@ autowrap_mode = 3
 position = Vector2(489, 289)
 sprite_frames = SubResource("SpriteFrames_tg8g8")
 autoplay = "default"
-frame_progress = 0.8945779800415039
+frame_progress = 0.894578
 
 [node name="WelcomeLetterSprite" type="Sprite2D" parent="."]
 position = Vector2(106, 179)
-rotation = -0.33719301223754883
+rotation = -0.337193
 scale = Vector2(0.679105, 0.679105)
 texture = ExtResource("52")
 
@@ -309,21 +309,21 @@ offset_left = 11.0
 offset_top = 8.0
 offset_right = 573.0
 offset_bottom = 707.0
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("57")
 stretch_mode = 1
 
 [node name="HFLogoSprite" type="Sprite2D" parent="AgendaSpot/AgendaPanel/AgendaColorRect"]
 modulate = Color(1, 1, 1, 0.705882)
 position = Vector2(506.099, 59.1555)
-rotation = -0.0016687499592080712
+rotation = -0.00166875
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("58")
 
 [node name="Sprite2D7" type="Sprite2D" parent="AgendaSpot/AgendaPanel/AgendaColorRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(292.274, 236.324)
-rotation = 3.1338798999786377
+rotation = 3.13388
 scale = Vector2(1.29919, 1.13671)
 texture = ExtResource("59")
 region_enabled = true
@@ -332,7 +332,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D8" type="Sprite2D" parent="AgendaSpot/AgendaPanel/AgendaColorRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(284.816, 488.525)
-rotation = -0.03931669890880585
+rotation = -0.0393167
 scale = Vector2(1.29919, 1.13671)
 texture = ExtResource("59")
 region_enabled = true
@@ -389,7 +389,7 @@ offset_left = 137.0
 offset_top = 311.0
 offset_right = 282.0
 offset_bottom = 398.0
-rotation = -0.25141099095344543
+rotation = -0.251411
 theme = ExtResource("60")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 20
@@ -449,25 +449,25 @@ offset_bottom = 1200.0
 
 [node name="WelcomeLetterColorRect" type="TextureRect" parent="WelcomeLetterSpot/WelcomeLetterPanel"]
 layout_mode = 0
-offset_left = 11.000100135803223
-offset_top = 8.04259967803955
+offset_left = 11.0001
+offset_top = 8.0426
 offset_right = 573.0
-offset_bottom = 708.0430297851563
-rotation = 0.0016687499592080712
+offset_bottom = 708.043
+rotation = 0.00166875
 texture = ExtResource("57")
 stretch_mode = 1
 
 [node name="HFLogoSprite" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
 modulate = Color(1, 1, 1, 0.705882)
 position = Vector2(506.099, 59.1556)
-rotation = -0.0016687499592080712
+rotation = -0.00166875
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("58")
 
 [node name="Sprite2D7" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(292.274, 236.324)
-rotation = -0.01909480057656765
+rotation = -0.0190948
 scale = Vector2(1.29919, 1.13671)
 texture = ExtResource("59")
 region_enabled = true
@@ -476,7 +476,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D8" type="Sprite2D" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(284.7, 491.337)
-rotation = 3.1283199787139893
+rotation = 3.12832
 scale = Vector2(1.29919, 1.13671)
 texture = ExtResource("59")
 region_enabled = true
@@ -484,10 +484,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="signature" type="TextureRect" parent="WelcomeLetterSpot/WelcomeLetterPanel/WelcomeLetterColorRect"]
 layout_mode = 2
-offset_left = 29.076000213623047
-offset_top = 644.7520141601563
-offset_right = 163.0760040283203
-offset_bottom = 694.7520141601563
+offset_left = 29.076
+offset_top = 644.752
+offset_right = 163.076
+offset_bottom = 694.752
 texture = ExtResource("61")
 stretch_mode = 2
 

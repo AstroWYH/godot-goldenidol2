@@ -1,4 +1,4 @@
-[gd_scene load_steps=147 format=4 uid="uid://ctdsb76ojw3q"]
+[gd_scene load_steps=147 format=3 uid="uid://ctdsb76ojw3q"]
 
 [ext_resource type="Texture2D" uid="uid://cbbkkdai36xyc" path="res://acts/full_game/research_arc/complex/assets/closeups/07_b2_knox.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dvf2wm6bwvxyc" path="res://acts/full_game/research_arc/complex/assets/animations/Teenagers/Teenagers_00000.png" id="2"]
@@ -592,7 +592,7 @@ centered = false
 position = Vector2(299, 278)
 sprite_frames = SubResource("SpriteFrames_l6fb7")
 autoplay = "default"
-frame_progress = 0.42362600564956665
+frame_progress = 0.423626
 
 [node name="JaneSpot" parent="." instance=ExtResource("50")]
 layout_mode = 1
@@ -630,11 +630,11 @@ texture = ExtResource("52")
 position = Vector2(198, 286)
 sprite_frames = SubResource("SpriteFrames_n63l3")
 autoplay = "default"
-frame_progress = 0.834551990032196
+frame_progress = 0.834552
 
 [node name="YWine" type="Sprite2D" parent="JaneSpot/JanePanel"]
 position = Vector2(496, 259)
-rotation = 0.40985599160194397
+rotation = 0.409856
 scale = Vector2(0.15, 0.15)
 texture = ExtResource("106")
 
@@ -678,7 +678,7 @@ autowrap_mode = 3
 position = Vector2(392, 215)
 sprite_frames = SubResource("SpriteFrames_eh8sa")
 autoplay = "default"
-frame_progress = 0.7302659749984741
+frame_progress = 0.730266
 
 [node name="DoorframeSpot" parent="." instance=ExtResource("50")]
 layout_mode = 1

@@ -1,4 +1,4 @@
-[gd_scene load_steps=82 format=4 uid="uid://dkutpjwm6u6xh"]
+[gd_scene load_steps=82 format=3 uid="uid://dkutpjwm6u6xh"]
 
 [ext_resource type="Texture2D" uid="uid://brg212jc8ljsf" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/homeless1/homeles1_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://duffpveks8x7m" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/homeless1/homeles1_001.png" id="2"]
@@ -324,10 +324,10 @@ animations = [{
 }]
 
 [node name="OrionPanel" type="Panel"]
-offset_left = -1406.510009765625
-offset_top = 467.16900634765625
-offset_right = -605.5139770507813
-offset_bottom = 1080.1700439453125
+offset_left = -1406.51
+offset_top = 467.169
+offset_right = -605.514
+offset_bottom = 1080.17
 
 [node name="Speech" type="Label" parent="."]
 layout_mode = 0
@@ -342,7 +342,7 @@ autowrap_mode = 3
 position = Vector2(281.097, 368.655)
 sprite_frames = SubResource("SpriteFrames_kxaw0")
 autoplay = "default"
-frame_progress = 0.7740300297737122
+frame_progress = 0.77403
 
 [node name="KeySprite" type="Sprite2D" parent="."]
 position = Vector2(601.229, 265.746)
@@ -350,19 +350,19 @@ texture = ExtResource("79")
 
 [node name="KeySpot" parent="." instance=ExtResource("80")]
 layout_mode = 1
-offset_left = 516.85400390625
-offset_top = 182.39199829101563
-offset_right = -120.14600372314453
-offset_bottom = -288.60699462890625
+offset_left = 516.854
+offset_top = 182.392
+offset_right = -120.146
+offset_bottom = -288.607
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "rnt"
 text = "WAREHOUSE_KEY_TOOLTIP"
 
 [node name="Indicators" parent="KeySpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 14.730500221252441
-offset_right = -12.726300239562988
-offset_bottom = 14.730500221252441
+offset_left = -12.7263
+offset_top = 14.7305
+offset_right = -12.7263
+offset_bottom = 14.7305
 
 [node name="Highlighter" parent="KeySpot/Indicators" index="0"]
 modulate = Color(0.420264, 0.651011, 0.550991, 1)

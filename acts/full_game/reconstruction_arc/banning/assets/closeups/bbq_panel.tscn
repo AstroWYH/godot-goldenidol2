@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=4 uid="uid://bn18otpqow83n"]
+[gd_scene load_steps=40 format=3 uid="uid://bn18otpqow83n"]
 
 [ext_resource type="Texture2D" uid="uid://dfqje8cbv1phl" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/grill.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://byib3x3o848qm" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/grill_party/grill_party_00000.png" id="2"]

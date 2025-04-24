@@ -1,4 +1,4 @@
-[gd_scene load_steps=246 format=4 uid="uid://cna32c16cf783"]
+[gd_scene load_steps=246 format=3 uid="uid://cna32c16cf783"]
 
 [ext_resource type="Texture2D" uid="uid://bifwuanh38csv" path="res://acts/full_game/splash/splash_0000s_0009_Background.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cvdctx16afwss" path="res://acts/full_game/splash/ornithopter/orni_000.png" id="2"]
@@ -323,15 +323,15 @@ curve_z = SubResource("Curve_v6x66")
 lifetime_randomness = 1.0
 particle_flag_disable_z = true
 emission_shape = 1
-emission_sphere_radius = 84.61000061035156
-angle_min = -376.29998779296875
-angle_max = 303.8999938964844
+emission_sphere_radius = 84.61
+angle_min = -376.3
+angle_max = 303.9
 spread = 180.0
-initial_velocity_min = 70.3499984741211
-initial_velocity_max = 120.5999984741211
-angular_velocity_min = -7.590000152587891
-angular_velocity_max = 116.2300033569336
-orbit_velocity_min = -0.26100000739097595
+initial_velocity_min = 70.35
+initial_velocity_max = 120.6
+angular_velocity_min = -7.59
+angular_velocity_max = 116.23
+orbit_velocity_min = -0.261
 gravity = Vector3(90, -20, 0)
 scale_min = 0.5
 scale_max = 2.0
@@ -992,7 +992,7 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_wr3r1"]
 _data = {
-"new_animation": SubResource("Animation_a1y5d")
+&"new_animation": SubResource("Animation_a1y5d")
 }
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_xe4fd"]
@@ -1005,7 +1005,7 @@ colors = PackedColorArray(0.913725, 0.976471, 0.945098, 0.137255, 0.945098, 0.93
 gradient = SubResource("Gradient_gwpsg")
 
 [sub_resource type="Curve" id="Curve_vpc7l"]
-_data = [Vector2(0.0107991, 0.326316), 0.0, 1.949470043182373, 0, 0, Vector2(0.7473, 0.852632), -0.7995889782905579, -0.7995889782905579, 0, 0, Vector2(1, 0.526316), -1.8830100297927856, 0.0, 0, 0]
+_data = [Vector2(0.0107991, 0.326316), 0.0, 1.94947, 0, 0, Vector2(0.7473, 0.852632), -0.799589, -0.799589, 0, 0, Vector2(1, 0.526316), -1.88301, 0.0, 0, 0]
 point_count = 3
 
 [sub_resource type="CurveTexture" id="CurveTexture_sxn1j"]
@@ -1020,7 +1020,7 @@ spread = 10.0
 initial_velocity_min = 900.0
 initial_velocity_max = 900.0
 angular_velocity_min = 100.0
-angular_velocity_max = 384.44000244140625
+angular_velocity_max = 384.44
 gravity = Vector3(0, 0, 0)
 scale_min = 0.5
 scale_max = 2.0
@@ -1070,7 +1070,7 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_v0mcl"]
 _data = {
-"new_animation": SubResource("Animation_dajhi")
+&"new_animation": SubResource("Animation_dajhi")
 }
 
 [sub_resource type="Gradient" id="Gradient_rxhy5"]
@@ -1093,7 +1093,7 @@ position = Vector2(758.32, 168.5)
 scale = Vector2(0.62, 0.62)
 sprite_frames = SubResource("SpriteFrames_8p8rq")
 autoplay = "default"
-frame_progress = 0.28870001435279846
+frame_progress = 0.2887
 
 [node name="Splash0000s0008Paint-layer-6" type="Sprite2D" parent="."]
 position = Vector2(960, 540)
@@ -1109,8 +1109,8 @@ amount = 200
 process_material = SubResource("ParticleProcessMaterial_4nldc")
 texture = ExtResource("26")
 lifetime = 10.0
-explosiveness = 0.3100000023841858
-randomness = 0.6499999761581421
+explosiveness = 0.31
+randomness = 0.65
 trail_lifetime = 0.5
 trail_sections = 2
 trail_section_subdivisions = 1
@@ -1131,13 +1131,13 @@ texture = ExtResource("29")
 position = Vector2(91, 690)
 sprite_frames = SubResource("SpriteFrames_q18h5")
 autoplay = "default"
-frame_progress = 0.2506980001926422
+frame_progress = 0.250698
 
 [node name="Splash0000s0006Human2" type="AnimatedSprite2D" parent="."]
 position = Vector2(294, 700)
 sprite_frames = SubResource("SpriteFrames_5rmkq")
 autoplay = "default"
-frame_progress = 0.9185760021209717
+frame_progress = 0.918576
 
 [node name="GPUParticles2D2" type="GPUParticles2D" parent="."]
 position = Vector2(840, 872)
@@ -1145,8 +1145,8 @@ amount = 200
 process_material = SubResource("ParticleProcessMaterial_4nldc")
 texture = ExtResource("26")
 lifetime = 10.0
-explosiveness = 0.20000000298023224
-randomness = 0.15000000596046448
+explosiveness = 0.2
+randomness = 0.15
 trail_lifetime = 0.5
 trail_sections = 2
 trail_section_subdivisions = 1
@@ -1157,8 +1157,8 @@ amount = 200
 process_material = SubResource("ParticleProcessMaterial_4nldc")
 texture = ExtResource("26")
 lifetime = 10.0
-explosiveness = 0.20000000298023224
-randomness = 0.15000000596046448
+explosiveness = 0.2
+randomness = 0.15
 trail_lifetime = 0.5
 trail_sections = 2
 trail_section_subdivisions = 1
@@ -1167,7 +1167,7 @@ trail_section_subdivisions = 1
 position = Vector2(845, 920)
 sprite_frames = SubResource("SpriteFrames_w32p6")
 autoplay = "default"
-frame_progress = 0.44219499826431274
+frame_progress = 0.442195
 
 [node name="Car1" type="Sprite2D" parent="."]
 position = Vector2(1583, 912)
@@ -1177,7 +1177,7 @@ texture = ExtResource("216")
 position = Vector2(1176, 329)
 sprite_frames = SubResource("SpriteFrames_x8yfu")
 autoplay = "default"
-frame_progress = 0.4914909899234772
+frame_progress = 0.491491
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="."]
 position = Vector2(523, 1018)
@@ -1185,8 +1185,8 @@ amount = 200
 process_material = SubResource("ParticleProcessMaterial_4nldc")
 texture = ExtResource("26")
 lifetime = 10.0
-explosiveness = 0.20000000298023224
-randomness = 0.15000000596046448
+explosiveness = 0.2
+randomness = 0.15
 trail_lifetime = 0.5
 trail_sections = 2
 trail_section_subdivisions = 1
@@ -1211,8 +1211,8 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_jh1j4")
 texture = ExtResource("220")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
@@ -1224,7 +1224,7 @@ autoplay = "new_animation"
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(1202, 381)
 scale = Vector2(39.1484, 24.7422)
-energy = 0.4099999964237213
+energy = 0.41
 range_z_max = 0
 range_layer_max = 1
 texture = SubResource("GradientTexture2D_vkhmv")

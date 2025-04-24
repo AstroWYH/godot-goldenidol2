@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://conj1ktuvjycs"]
+[gd_scene load_steps=3 format=3 uid="uid://conj1ktuvjycs"]
 
 [ext_resource type="Texture2D" uid="uid://b8nics8aqtpyx" path="res://shared/assets/placeholder_ui/generic_container_ninepatch.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://b2ceydfd6sj3y" path="res://shared/ui/inventory/scenario_inventory/scenario_inventory.tscn" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4]
+[gd_scene load_steps=7 format=3 uid="uid://dmjh7i5cmoqc4"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://butmw2j0jscqs" path="res://acts/full_game/conclusion_arc/museum/puzzles/museum_scroll_puzzle1.tscn" id="2"]

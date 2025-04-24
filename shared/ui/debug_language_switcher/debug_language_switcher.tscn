@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://bp3wpcjckn7i5"]
+[gd_scene load_steps=2 format=3 uid="uid://bp3wpcjckn7i5"]
 
-[ext_resource type="Script" path="res://shared/ui/debug_language_switcher/debug_language_switcher.gd" id="1"]
+[ext_resource type="Script" uid="uid://ykb3ic8bjom6" path="res://shared/ui/debug_language_switcher/debug_language_switcher.gd" id="1"]
 
 [node name="DebugLanguageSwitcher" type="OptionButton"]
 script = ExtResource("1")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=4 uid="uid://ch3lc3ndkf7l2"]
+[gd_scene load_steps=55 format=3 uid="uid://ch3lc3ndkf7l2"]
 
 [ext_resource type="Texture2D" uid="uid://dq7gnty1oe5om" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/hipies.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cuo813sxb2sdl" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/hipieslarge/lhipies_049 (1).png" id="2"]
@@ -226,7 +226,7 @@ texture = ExtResource("1")
 position = Vector2(-5.00005, 3.00001)
 sprite_frames = SubResource("SpriteFrames_jym0r")
 autoplay = "default"
-frame_progress = 0.5139610171318054
+frame_progress = 0.513961
 
 [node name="HippiesSpeech" type="Sprite2D" parent="ProtestSprite"]
 position = Vector2(-8.9407e-08, 12)
@@ -237,7 +237,7 @@ offset_left = -194.0
 offset_top = -324.0
 offset_right = -31.0
 offset_bottom = -222.0
-rotation = -0.13962599635124207
+rotation = -0.139626
 theme = ExtResource("53")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 17
@@ -251,7 +251,7 @@ offset_left = 330.0
 offset_top = -356.0
 offset_right = 480.0
 offset_bottom = -236.0
-rotation = 0.34906598925590515
+rotation = 0.349066
 theme = ExtResource("53")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 20
@@ -265,7 +265,7 @@ offset_left = 122.0
 offset_top = -430.0
 offset_right = 398.0
 offset_bottom = -345.0
-rotation = 0.03356439992785454
+rotation = 0.0335644
 theme = ExtResource("53")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 22
@@ -279,7 +279,7 @@ offset_left = -464.0
 offset_top = -411.0
 offset_right = -69.0
 offset_bottom = -317.0
-rotation = -0.05850699916481972
+rotation = -0.058507
 theme = ExtResource("53")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 24
@@ -293,7 +293,7 @@ offset_left = -442.0
 offset_top = 216.0
 offset_right = -282.0
 offset_bottom = 396.0
-rotation = -0.08504699915647507
+rotation = -0.085047
 theme = ExtResource("53")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 20
@@ -307,7 +307,7 @@ offset_left = 143.0
 offset_top = 319.0
 offset_right = 432.0
 offset_bottom = 412.0
-rotation = -0.06469299644231796
+rotation = -0.064693
 theme = ExtResource("53")
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 24

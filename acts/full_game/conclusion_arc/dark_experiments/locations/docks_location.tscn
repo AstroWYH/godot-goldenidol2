@@ -1,8 +1,8 @@
-[gd_scene load_steps=177 format=4]
+[gd_scene load_steps=177 format=3 uid="uid://d2287hd67s5dl"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dvd78q1dq2kfc" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/docks_location_meta.tres" id="2"]
-[ext_resource type="Shader" path="res://shared/assets/effects/water.gdshader" id="3"]
+[ext_resource type="Shader" uid="uid://f3g54x1p0d5k" path="res://shared/assets/effects/water.gdshader" id="3"]
 [ext_resource type="Texture2D" uid="uid://u6ahgghhtnou" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/ReflectionLights/ReflectionLights00000.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://de51lsppa2yhx" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00000.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://dbgplsjx28yvt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/YachtSilhouette/YachtSilhouette00001.png" id="6"]
@@ -164,7 +164,7 @@
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="162"]
 [ext_resource type="Resource" uid="uid://dmt5c8hslp3xa" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location_meta.tres" id="163"]
 [ext_resource type="Resource" uid="uid://c46amcsry23tq" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/warehouse_location_meta.tres" id="164"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="165"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="165"]
 [ext_resource type="Resource" uid="uid://d4a7s1lepir6" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_ranking_puzzle.tres" id="166"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_dsgu6"]
@@ -701,14 +701,14 @@ texture = ExtResource("4")
 position = Vector2(898, 206)
 sprite_frames = SubResource("SpriteFrames_5p7bf")
 autoplay = "default"
-frame_progress = 0.41374099254608154
+frame_progress = 0.413741
 
 [node name="HookSwing" type="AnimatedSprite2D" parent="."]
 position = Vector2(1549, 279)
 sprite_frames = SubResource("SpriteFrames_6xmsp")
 animation = &"Loop"
 autoplay = "Loop"
-frame_progress = 0.47291499376296997
+frame_progress = 0.472915
 
 [node name="DocksForeground" type="Sprite2D" parent="."]
 position = Vector2(959, 539)
@@ -719,7 +719,7 @@ position = Vector2(1056, 886)
 sprite_frames = SubResource("SpriteFrames_i8ftl")
 animation = &"Loop"
 autoplay = "Loop"
-frame_progress = 0.31918299198150635
+frame_progress = 0.319183
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -740,11 +740,11 @@ hover_cursor = 3
 target_location_meta = ExtResource("163")
 
 [node name="Indicators" parent="Hotspots/ToYacthSpot" index="0"]
-offset_left = 36.73320007324219
-offset_top = 43.14659881591797
-offset_right = 36.73320007324219
-offset_bottom = 43.14659881591797
-rotation = 3.141590118408203
+offset_left = 36.7332
+offset_top = 43.1466
+offset_right = 36.7332
+offset_bottom = 43.1466
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToYacthSpot/Indicators" index="0"]
 modulate = Color(1, 0.856347, 0.481254, 1)
@@ -767,16 +767,16 @@ hover_cursor = 3
 target_location_meta = ExtResource("164")
 
 [node name="Indicators" parent="Hotspots/ToWarehouseSpot" index="0"]
-offset_left = 12.901200294494629
-offset_top = 235.80099487304688
-offset_right = 12.901200294494629
-offset_bottom = 235.80099487304688
-rotation = 3.141590118408203
+offset_left = 12.9012
+offset_top = 235.801
+offset_right = 12.9012
+offset_bottom = 235.801
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToWarehouseSpot/Indicators" index="0"]
 modulate = Color(0.544, 0.68, 0.6596, 1)
 position = Vector2(-36.5818, -105.807)
-rotation = -1.5707999467849731
+rotation = -1.5708
 animation = &"location"
 
 [node name="FocusIndicator" parent="Hotspots/ToWarehouseSpot/Indicators" index="1"]
@@ -794,25 +794,25 @@ hotspot_id = "Y33"
 extra_items_unlocked = [SubResource("Resource_7i7hw"), SubResource("Resource_0xk0f")]
 
 [node name="Indicators" parent="Hotspots/HarryContainerSpot" index="0"]
-offset_left = -2.630079984664917
-offset_top = 93.31710052490234
-offset_right = -2.630079984664917
-offset_bottom = 93.31710052490234
+offset_left = -2.63008
+offset_top = 93.3171
+offset_right = -2.63008
+offset_bottom = 93.3171
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="Hotspots/HarryContainerSpot/Indicators" index="0"]
 modulate = Color(0.568285, 0.668785, 0.564753, 1)
-frame_progress = 0.9294099807739258
+frame_progress = 0.92941
 
 [node name="FocusIndicator" parent="Hotspots/HarryContainerSpot/Indicators" index="1"]
 visible = false
 
 [node name="HarryContainerPanel" parent="Hotspots/HarryContainerSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/harry_container_panel.tscn"]
 layout_mode = 0
-offset_left = -1578.5400390625
-offset_top = 916.1129760742188
-offset_right = -751.5390014648438
-offset_bottom = 1475.1099853515625
+offset_left = -1578.54
+offset_top = 916.113
+offset_right = -751.539
+offset_bottom = 1475.11
 
 [node name="HomelessGatheringSpot" parent="Hotspots" instance=ExtResource("162")]
 layout_mode = 1
@@ -824,10 +824,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "nlr"
 
 [node name="Indicators" parent="Hotspots/HomelessGatheringSpot" index="0"]
-offset_left = 6.636750221252441
-offset_top = 63.21480178833008
-offset_right = 6.636750221252441
-offset_bottom = 63.21480178833008
+offset_left = 6.63675
+offset_top = 63.2148
+offset_right = 6.63675
+offset_bottom = 63.2148
 
 [node name="Highlighter" parent="Hotspots/HomelessGatheringSpot/Indicators" index="0"]
 modulate = Color(0.76, 0.595333, 0, 1)
@@ -839,10 +839,10 @@ position = Vector2(-13.537, -12.825)
 
 [node name="HomelessCloseupPanel" parent="Hotspots/HomelessGatheringSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/homeless_closeup_panel.tscn"]
 layout_mode = 0
-offset_left = -3037.8798828125
-offset_top = -1537.219970703125
-offset_right = -2183.8798828125
-offset_bottom = -897.2230224609375
+offset_left = -3037.88
+offset_top = -1537.22
+offset_right = -2183.88
+offset_bottom = -897.223
 
 [node name="RedContainerSpot" parent="Hotspots" instance=ExtResource("162")]
 layout_mode = 1
@@ -855,10 +855,10 @@ hotspot_id = "1eK"
 extra_items_unlocked = [SubResource("Resource_4kv4u"), SubResource("Resource_5a1lq")]
 
 [node name="Indicators" parent="Hotspots/RedContainerSpot" index="0"]
-offset_left = -2.630079984664917
-offset_top = 93.31710052490234
-offset_right = -2.630079984664917
-offset_bottom = 93.31710052490234
+offset_left = -2.63008
+offset_top = 93.3171
+offset_right = -2.63008
+offset_bottom = 93.3171
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="Hotspots/RedContainerSpot/Indicators" index="0"]
@@ -870,10 +870,10 @@ position = Vector2(-17.2445, -16.8386)
 
 [node name="SleepingContainerPanel" parent="Hotspots/RedContainerSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/sleeping_container_panel.tscn"]
 layout_mode = 0
-offset_left = -217.3489990234375
-offset_top = 824.802978515625
-offset_right = 606.6510009765625
-offset_bottom = 1271.800048828125
+offset_left = -217.349
+offset_top = 824.803
+offset_right = 606.651
+offset_bottom = 1271.8
 
 [node name="ShiptSpot" parent="Hotspots" instance=ExtResource("162")]
 layout_mode = 1
@@ -887,26 +887,26 @@ extra_items_unlocked = [SubResource("Resource_cboym"), SubResource("Resource_7vs
 unlocked_puzzles = [ExtResource("166")]
 
 [node name="Indicators" parent="Hotspots/ShiptSpot" index="0"]
-offset_left = -2.630079984664917
-offset_top = 93.31710052490234
-offset_right = -2.630079984664917
-offset_bottom = 93.31710052490234
+offset_left = -2.63008
+offset_top = 93.3171
+offset_right = -2.63008
+offset_bottom = 93.3171
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="Hotspots/ShiptSpot/Indicators" index="0"]
 modulate = Color(0.816239, 0.868998, 0.823607, 1)
 position = Vector2(-7.70587, -27.9001)
-frame_progress = 0.2901740074157715
+frame_progress = 0.290174
 
 [node name="FocusIndicator" parent="Hotspots/ShiptSpot/Indicators" index="1"]
 position = Vector2(-6.70588, -23.9001)
 
 [node name="ShipPanel" parent="Hotspots/ShiptSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/ship_panel.tscn"]
 layout_mode = 0
-offset_left = 1197.9200439453125
-offset_top = -508.72900390625
-offset_right = 2031.9200439453125
-offset_bottom = 31.271400451660156
+offset_left = 1197.92
+offset_top = -508.729
+offset_right = 2031.92
+offset_bottom = 31.2714
 
 [editable path="Hotspots/ToYacthSpot"]
 [editable path="Hotspots/ToWarehouseSpot"]

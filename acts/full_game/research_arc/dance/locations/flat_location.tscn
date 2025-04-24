@@ -1,6 +1,6 @@
-[gd_scene load_steps=125 format=4 uid="uid://03himo2c23la"]
+[gd_scene load_steps=125 format=3 uid="uid://03himo2c23la"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cc2x2k0r8j8s3" path="res://acts/full_game/research_arc/dance/locations/flat_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dkq4aaari5sc8" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://d18dodp5jo0fm" path="res://acts/full_game/research_arc/dance/assets/animations/lemurian/lemurian_figure_001.png" id="4"]
@@ -499,19 +499,19 @@ location_meta = ExtResource("2")
 position = Vector2(1293, 662)
 sprite_frames = SubResource("SpriteFrames_xk57c")
 autoplay = "default"
-frame_progress = 0.9418110251426697
+frame_progress = 0.941811
 
 [node name="AnimatedSpriteTV" type="AnimatedSprite2D" parent="."]
 position = Vector2(329, 553)
 sprite_frames = SubResource("SpriteFrames_68abs")
 autoplay = "default"
-frame_progress = 0.5518860220909119
+frame_progress = 0.551886
 
 [node name="AnimatedSpriteSound" type="AnimatedSprite2D" parent="."]
 position = Vector2(683, 435)
 sprite_frames = SubResource("SpriteFrames_yw8nf")
 autoplay = "default"
-frame_progress = 0.486175000667572
+frame_progress = 0.486175
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3

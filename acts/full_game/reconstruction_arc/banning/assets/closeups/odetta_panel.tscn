@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://dso47okslq21g"]
+[gd_scene load_steps=39 format=3 uid="uid://dso47okslq21g"]
 
 [ext_resource type="Texture2D" uid="uid://d0rr1mjguejcs" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c8nv7pufqgb25" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/wife/wife_001.png" id="2"]
@@ -146,7 +146,7 @@ offset_bottom = -116.0
 position = Vector2(175, 357)
 sprite_frames = SubResource("SpriteFrames_7mdj7")
 autoplay = "default"
-frame_progress = 0.9733899831771851
+frame_progress = 0.97339
 flip_h = true
 
 [node name="OdettaSpeechLabel" type="Label" parent="."]
@@ -172,7 +172,7 @@ offset_left = -14.0
 offset_top = 22.0
 offset_right = 59.0
 offset_bottom = 52.0
-rotation = 0.3406060039997101
+rotation = 0.340606
 theme = ExtResource("34")
 theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
 theme_override_font_sizes/font_size = 20
@@ -183,7 +183,7 @@ offset_left = 22.0
 offset_top = 33.0
 offset_right = 95.0
 offset_bottom = 63.0
-rotation = -1.1375999450683594
+rotation = -1.1376
 theme = ExtResource("34")
 theme_override_colors/font_color = Color(0.47451, 0.294118, 0.0745098, 1)
 theme_override_font_sizes/font_size = 20

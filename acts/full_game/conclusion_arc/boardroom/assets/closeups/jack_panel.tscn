@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=4 uid="uid://d2uxpcke0ccyq"]
+[gd_scene load_steps=51 format=3 uid="uid://d2uxpcke0ccyq"]
 
 [ext_resource type="Texture2D" uid="uid://d0x7s5xqxcfua" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c5e3gh88i3ibc" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00001.png" id="2"]
@@ -40,7 +40,7 @@
 [ext_resource type="Texture2D" uid="uid://c3fl3d3unqfoa" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/lens.png" id="38"]
 [ext_resource type="Texture2D" uid="uid://du87mipqsgb4s" path="res://shared/assets/papers/nametag_clean.png" id="39"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="40"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="41"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="41"]
 [ext_resource type="Texture2D" uid="uid://k2up3ltpy1bw" path="res://shared/assets/papers/paperonclipboard.png" id="42"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_wyhlj"]
@@ -207,7 +207,7 @@ position = Vector2(599.501, 384.245)
 sprite_frames = SubResource("SpriteFrames_wyhlj")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.9616960287094116
+frame_progress = 0.961696
 
 [node name="ClipboardSprite" type="Sprite2D" parent="."]
 position = Vector2(348.097, 327.051)
@@ -216,7 +216,7 @@ texture = ExtResource("37")
 
 [node name="LensSprite" type="Sprite2D" parent="."]
 position = Vector2(135.756, 507.664)
-rotation = 1.5707999467849731
+rotation = 1.5708
 texture = ExtResource("38")
 
 [node name="LanyardSprite" type="Sprite2D" parent="."]

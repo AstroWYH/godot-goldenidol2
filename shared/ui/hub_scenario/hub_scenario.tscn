@@ -1,6 +1,6 @@
-[gd_scene load_steps=43 format=4 uid="uid://dqbgs46e12t0x"]
+[gd_scene load_steps=43 format=3 uid="uid://dqbgs46e12t0x"]
 
-[ext_resource type="Script" path="res://shared/ui/hub_scenario/hub_scenario.gd" id="1"]
+[ext_resource type="Script" uid="uid://x2fykxigv86s" path="res://shared/ui/hub_scenario/hub_scenario.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://53grjrcsf3cj" path="res://shared/assets/highlights/highlight0000.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://bse70j4p8ei7v" path="res://shared/assets/highlights/highlight0001.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://epfuctgop7g3" path="res://shared/assets/highlights/highlight0002.png" id="4"]
@@ -187,7 +187,7 @@ script = ExtResource("1")
 unique_name_in_owner = true
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_07sqy")
-frame_progress = 0.2722730040550232
+frame_progress = 0.272273
 
 [node name="TextureButton" type="TextureButton" parent="."]
 unique_name_in_owner = true

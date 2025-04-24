@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://cdhccaa3jxg4y"]
+[gd_scene load_steps=5 format=3 uid="uid://cdhccaa3jxg4y"]
 
 [ext_resource type="Material" uid="uid://c0qphb52qlrlm" path="res://shared/ui/special_effects/arc_button_particle_material.tres" id="1"]
 [ext_resource type="Texture2D" uid="uid://mhaygkiqauig" path="res://acts/demo/scenarios/seaside/assets/particle.png" id="2"]
-[ext_resource type="Script" path="res://shared/ui/special_effects/particle_effect.gd" id="3"]
+[ext_resource type="Script" uid="uid://bga41a5y5nqxw" path="res://shared/ui/special_effects/particle_effect.gd" id="3"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_orybw"]
 blend_mode = 1

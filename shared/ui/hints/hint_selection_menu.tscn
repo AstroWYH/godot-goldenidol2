@@ -1,11 +1,11 @@
-[gd_scene load_steps=7 format=4 uid="uid://bs27ujuwcwr2s"]
+[gd_scene load_steps=7 format=3 uid="uid://bs27ujuwcwr2s"]
 
-[ext_resource type="Script" path="res://shared/ui/hints/hint_selection_menu.gd" id="1"]
+[ext_resource type="Script" uid="uid://dhcmaagnjpiv6" path="res://shared/ui/hints/hint_selection_menu.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="2"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="3"]
 [ext_resource type="Texture2D" uid="uid://c6b0e6ntei7fv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/tempiconcostume.png" id="4"]
-[ext_resource type="Theme" uid="uid://crvq1loio8aw7" path="res://shared/assets/themes/hint_back_button.tres" id="5"]
-[ext_resource type="Script" path="res://shared/ui/hints/back_button.gd" id="6"]
+[ext_resource type="Theme" uid="uid://ci01d6um0b6kl" path="res://shared/assets/themes/hint_back_button.tres" id="5"]
+[ext_resource type="Script" uid="uid://dfx5l28kw1ufq" path="res://shared/ui/hints/back_button.gd" id="6"]
 
 [node name="HintSelectionMenu" type="ColorRect"]
 anchor_right = 1.0

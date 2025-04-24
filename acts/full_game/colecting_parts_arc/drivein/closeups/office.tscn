@@ -1,8 +1,8 @@
-[gd_scene load_steps=22 format=4 uid="uid://cpvi3cckbqhgt"]
+[gd_scene load_steps=22 format=3 uid="uid://cpvi3cckbqhgt"]
 
 [ext_resource type="Texture2D" uid="uid://bjc03dh3whxes" path="res://acts/full_game/colecting_parts_arc/drivein/assets/office_v2.31_notext.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="PackedScene" uid="uid://b4bl5fllm0wdw" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/postertamine.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://ctuqnr1dgl5vq" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/info.tscn" id="5"]
 [ext_resource type="PackedScene" uid="uid://d3yju277d5j2n" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/competition.tscn" id="6"]
@@ -89,7 +89,7 @@ extra_items_unlocked = [SubResource("Resource_3fnds"), SubResource("Resource_fg3
 [node name="Highlighter" parent="BannedTamineSpot2/Indicators" index="0"]
 modulate = Color(0.801287, 0.760676, 0.707913, 1)
 position = Vector2(-7, 29)
-frame_progress = 0.619612991809845
+frame_progress = 0.619613
 
 [node name="FocusIndicator" parent="BannedTamineSpot2/Indicators" index="1"]
 position = Vector2(-6, 33)
@@ -116,7 +116,7 @@ text = "rotary_phone_tooltip"
 [node name="Highlighter" parent="PhoneBaseSpot2/Indicators" index="0"]
 modulate = Color(0.772435, 0.769502, 0.760689, 1)
 position = Vector2(5, -6)
-frame_progress = 0.5213789939880371
+frame_progress = 0.521379
 
 [node name="FocusIndicator" parent="PhoneBaseSpot2/Indicators" index="1"]
 position = Vector2(6, -2)
@@ -136,7 +136,7 @@ extra_items_unlocked = [SubResource("Resource_cf74c")]
 [node name="Highlighter" parent="ReceiverSpot3/Indicators" index="0"]
 modulate = Color(0.772549, 0.768627, 0.760784, 1)
 position = Vector2(-5, 25.25)
-frame_progress = 0.2120009958744049
+frame_progress = 0.212001
 
 [node name="FocusIndicator" parent="ReceiverSpot3/Indicators" index="1"]
 position = Vector2(-4, 29.25)
@@ -154,7 +154,7 @@ unlocked_item_ref_id = 85
 [node name="Highlighter" parent="StaffSpot3/Indicators" index="0"]
 modulate = Color(0.90625, 0.90167, 0.845732, 1)
 position = Vector2(-3.5, 26.25)
-frame_progress = 0.3491100072860718
+frame_progress = 0.34911
 
 [node name="FocusIndicator" parent="StaffSpot3/Indicators" index="1"]
 position = Vector2(-2.5, 30.25)
@@ -180,7 +180,7 @@ extra_items_unlocked = [SubResource("Resource_igjwe"), SubResource("Resource_4wc
 [node name="Highlighter" parent="CostumeSpot/Indicators" index="0"]
 modulate = Color(0.535636, 0.399739, 0.310224, 1)
 position = Vector2(-2, -3)
-frame_progress = 0.4729529917240143
+frame_progress = 0.472953
 
 [node name="FocusIndicator" parent="CostumeSpot/Indicators" index="1"]
 position = Vector2(-1, 1)
@@ -211,7 +211,7 @@ offset_bottom = 49.0
 [node name="Highlighter" parent="MemoSpot2/Indicators" index="0"]
 modulate = Color(0.458194, 0.329475, 0.14106, 1)
 position = Vector2(1, -22)
-frame_progress = 0.7236530184745789
+frame_progress = 0.723653
 
 [node name="FocusIndicator" parent="MemoSpot2/Indicators" index="1"]
 position = Vector2(2, -18)

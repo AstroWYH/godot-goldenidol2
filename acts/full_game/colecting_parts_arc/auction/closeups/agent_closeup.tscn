@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=4 uid="uid://xogflllqyoy7"]
+[gd_scene load_steps=29 format=3 uid="uid://xogflllqyoy7"]
 
 [ext_resource type="Texture2D" uid="uid://6d7mlnu2labp" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bxytecasc7wwn" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/agent/agent_001.png" id="2"]
@@ -123,7 +123,7 @@ Should've listened to me.
 [node name="Agent" type="AnimatedSprite2D" parent="."]
 position = Vector2(169, 209)
 sprite_frames = SubResource("SpriteFrames_ombyq")
-frame_progress = 0.6968110203742981
+frame_progress = 0.696811
 
 [node name="ClipBoard" type="Sprite2D" parent="."]
 position = Vector2(407, 290)

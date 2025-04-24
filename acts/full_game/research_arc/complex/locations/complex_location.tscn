@@ -1,6 +1,6 @@
-[gd_scene load_steps=187 format=4]
+[gd_scene load_steps=187 format=3 uid="uid://crg6rdnpbih8n"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://jxktbekdlb4j" path="res://acts/full_game/research_arc/complex/locations/complex_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dfo0yy67n3rh5" path="res://acts/full_game/research_arc/complex/assets/animations/SmokerLadySmall/SmokeLadySmall_00000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dv4axrgunpan6" path="res://acts/full_game/research_arc/complex/assets/animations/SmokerLadySmall/SmokeLadySmall_00001.png" id="4"]
@@ -713,14 +713,14 @@ location_meta = ExtResource("2")
 position = Vector2(1193, 74)
 sprite_frames = SubResource("SpriteFrames_o3c32")
 autoplay = "default"
-frame_progress = 0.6997420191764832
+frame_progress = 0.699742
 
 [node name="StaircasePeople" type="AnimatedSprite2D" parent="."]
 position = Vector2(493, 667)
 sprite_frames = SubResource("SpriteFrames_8krfi")
 autoplay = "default"
 frame = 7
-frame_progress = 0.15415099263191223
+frame_progress = 0.154151
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(492, 652)

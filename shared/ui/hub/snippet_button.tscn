@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=4 uid="uid://dhwm06foikq1l"]
+[gd_scene load_steps=6 format=3 uid="uid://dhwm06foikq1l"]
 
 [ext_resource type="Texture2D" uid="uid://cgrhpiq6eea8s" path="res://acts/full_game/introductory_arc/hub/assets/diploma_snipet.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://dg8em1sot0uhj" path="res://shared/ui/hub/snippet_button.gd" id="2"]
 
 [sub_resource type="Animation" id="Animation_gdc7b"]
-length = 0.0010000000474974513
+length = 0.001
 
 [sub_resource type="Animation" id="Animation_ywx5i"]
 resource_name = "appear"
@@ -23,8 +23,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_df6f0"]
 _data = {
-"RESET": SubResource("Animation_gdc7b"),
-"appear": SubResource("Animation_ywx5i")
+&"RESET": SubResource("Animation_gdc7b"),
+&"appear": SubResource("Animation_ywx5i")
 }
 
 [node name="BribeButton" type="TextureButton"]

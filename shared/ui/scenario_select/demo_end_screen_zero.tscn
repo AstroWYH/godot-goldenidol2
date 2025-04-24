@@ -1,6 +1,6 @@
-[gd_scene load_steps=15 format=4 uid="uid://cg2e5ir5w4uag"]
+[gd_scene load_steps=15 format=3 uid="uid://cg2e5ir5w4uag"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_select/chapter_1_demo_end_screen.gd" id="1"]
+[ext_resource type="Script" uid="uid://biq2ac6lkymk3" path="res://shared/ui/scenario_select/chapter_1_demo_end_screen.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://disu3ua8c5g66" path="res://acts/full_game/introductory_arc/asylum/assets/music/asylum_loop.ogg" id="2"]
 [ext_resource type="Texture2D" uid="uid://tcqc6nscy1ir" path="res://acts/demo/splashassets/upstairs_night.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://b73tak88tf1p6" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0000.png" id="4"]
@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://hi8ilbtrp6mk" path="res://acts/demo/splashassets/demoidolnotext.png" id="10"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="11"]
 [ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="12"]
-[ext_resource type="Script" path="res://shared/ui/scenario_select/next_button_demo_end_screen.gd" id="13"]
+[ext_resource type="Script" uid="uid://b0n61a28bhbra" path="res://shared/ui/scenario_select/next_button_demo_end_screen.gd" id="13"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h5jb6"]
 animations = [{
@@ -67,7 +67,7 @@ visible = false
 position = Vector2(421, 693)
 sprite_frames = SubResource("SpriteFrames_h5jb6")
 autoplay = "default"
-frame_progress = 0.08542189747095108
+frame_progress = 0.0854219
 
 [node name="IdolSprite" type="Sprite2D" parent="."]
 unique_name_in_owner = true
@@ -81,7 +81,7 @@ offset_left = -291.0
 offset_top = 161.0
 offset_right = -17.0
 offset_bottom = 402.0
-rotation = 0.30535799264907837
+rotation = 0.305358
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.368627, 0.690196, 0.968627, 1)
 theme_override_font_sizes/font_size = 50

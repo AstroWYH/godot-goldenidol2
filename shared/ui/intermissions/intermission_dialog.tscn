@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://bfe03csmbswxm"]
+[gd_scene load_steps=4 format=3 uid="uid://bfe03csmbswxm"]
 
-[ext_resource type="Script" path="res://shared/ui/intermissions/intermission_dialog.gd" id="1"]
-[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/tv.ogv" id="2"]
+[ext_resource type="Script" uid="uid://d3wby6gbdwas0" path="res://shared/ui/intermissions/intermission_dialog.gd" id="1"]
+[ext_resource type="VideoStream" uid="uid://cr7tmlvbdfqjq" path="res://acts/full_game/intermisions/tv.ogv" id="2"]
 [ext_resource type="Theme" uid="uid://cd6xcm0r6ceqx" path="res://shared/assets/themes/btn_round.tres" id="3"]
 
 [node name="IntermissionDialog" type="ColorRect"]

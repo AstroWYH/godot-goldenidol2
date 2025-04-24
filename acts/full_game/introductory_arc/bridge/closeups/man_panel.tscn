@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=4 uid="uid://fns5scxji7lo"]
+[gd_scene load_steps=55 format=3 uid="uid://fns5scxji7lo"]
 
 [ext_resource type="Texture2D" uid="uid://dpm72ljarc6vr" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man1.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://br60magk5biob" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/man/man2.png" id="2"]
@@ -213,7 +213,7 @@ offset_bottom = 1598.0
 position = Vector2(198, 393)
 sprite_frames = SubResource("SpriteFrames_dvf2y")
 autoplay = "default"
-frame_progress = 0.09605830162763596
+frame_progress = 0.0960583
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

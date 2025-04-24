@@ -1,6 +1,6 @@
-[gd_scene load_steps=185 format=4 uid="uid://cvouh2mlgtsv2"]
+[gd_scene load_steps=185 format=3 uid="uid://cvouh2mlgtsv2"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://bwx3hdpq6jvkf" path="res://acts/full_game/conclusion_arc/finale/locations/tv_station_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://cohnddq3ervox" path="res://acts/full_game/conclusion_arc/finale/assets/animations/hanging/hanging_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dvp7u3h10ijqg" path="res://acts/full_game/conclusion_arc/finale/assets/animations/hanging/hanging_001.png" id="4"]
@@ -448,7 +448,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_4jkty"]
 _data = {
-"new_animation": SubResource("Animation_hjypg")
+&"new_animation": SubResource("Animation_hjypg")
 }
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_xq2ud"]
@@ -461,8 +461,8 @@ particles_anim_v_frames = 1
 particles_anim_loop = false
 
 [sub_resource type="Curve" id="Curve_plwwg"]
-max_value = 200.0
-_data = [Vector2(0, 48.4008), 0.0, -64.36090087890625, 0, 0, Vector2(1, 2.40588), 0.0, 0.0, 0, 0]
+_limits = [0.0, 200.0, 0.0, 1.0]
+_data = [Vector2(0, 48.4008), 0.0, -64.3609, 0, 0, Vector2(1, 2.40588), 0.0, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_vcddo"]
@@ -478,7 +478,7 @@ gradient = SubResource("Gradient_046gp")
 [sub_resource type="CurveXYZTexture" id="CurveXYZTexture_44g63"]
 
 [sub_resource type="Curve" id="Curve_b4wym"]
-_data = [Vector2(0, 0.632041), 0.0, 0.7095119953155518, 0, 0, Vector2(1, 0.495896), -0.011748399585485458, 0.0, 0, 0]
+_data = [Vector2(0, 0.632041), 0.0, 0.709512, 0, 0, Vector2(1, 0.495896), -0.0117484, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_yils5"]
@@ -491,22 +491,22 @@ emission_shape = 1
 emission_sphere_radius = 24.0
 angular_velocity_min = 2.0
 angular_velocity_max = 10.0
-directional_velocity_min = 1.4988000668044246e-14
-directional_velocity_max = 1.4988000668044246e-14
+directional_velocity_min = 1.4988e-14
+directional_velocity_max = 1.4988e-14
 directional_velocity_curve = SubResource("CurveXYZTexture_44g63")
 radial_velocity_min = 1.0
 radial_velocity_max = 4.0
 gravity = Vector3(2.08165e-12, -5, 2.08165e-12)
 attractor_interaction_enabled = false
 scale_min = 0.5
-scale_max = 1.2000000476837158
+scale_max = 1.2
 scale_curve = SubResource("CurveTexture_yils5")
 color_ramp = SubResource("GradientTexture1D_ic3gj")
 anim_speed_max = 1.0
 anim_speed_curve = SubResource("CurveTexture_vcddo")
 turbulence_noise_strength = 10.0
 turbulence_noise_scale = 4.0
-turbulence_influence_min = 0.6629999876022339
+turbulence_influence_min = 0.663
 turbulence_influence_max = 1.0
 turbulence_initial_displacement_max = 4.0
 
@@ -738,7 +738,7 @@ colors = PackedColorArray(0.913725, 0.976471, 0.945098, 0.137255, 0.945098, 0.93
 gradient = SubResource("Gradient_dgsx0")
 
 [sub_resource type="Curve" id="Curve_h5bha"]
-_data = [Vector2(0.0107991, 0.326316), 0.0, 1.949470043182373, 0, 0, Vector2(0.7473, 0.852632), -0.7995889782905579, -0.7995889782905579, 0, 0, Vector2(1, 0.526316), -1.8830100297927856, 0.0, 0, 0]
+_data = [Vector2(0.0107991, 0.326316), 0.0, 1.94947, 0, 0, Vector2(0.7473, 0.852632), -0.799589, -0.799589, 0, 0, Vector2(1, 0.526316), -1.88301, 0.0, 0, 0]
 point_count = 3
 
 [sub_resource type="CurveTexture" id="CurveTexture_2xxxk"]
@@ -753,7 +753,7 @@ spread = 10.0
 initial_velocity_min = 900.0
 initial_velocity_max = 900.0
 angular_velocity_min = 100.0
-angular_velocity_max = 384.44000244140625
+angular_velocity_max = 384.44
 gravity = Vector3(0, 0, 0)
 scale_min = 0.5
 scale_max = 2.0
@@ -769,13 +769,13 @@ location_meta = ExtResource("2")
 position = Vector2(1270, 20)
 sprite_frames = SubResource("SpriteFrames_nasop")
 autoplay = "default"
-frame_progress = 0.7113789916038513
+frame_progress = 0.711379
 
 [node name="tiny_terrorists" type="AnimatedSprite2D" parent="."]
 position = Vector2(747, 394)
 sprite_frames = SubResource("SpriteFrames_vec2e")
 autoplay = "default"
-frame_progress = 0.5570619702339172
+frame_progress = 0.557062
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -821,11 +821,11 @@ hover_cursor = 3
 target_location_meta = ExtResource("89")
 
 [node name="Indicators" parent="Hotspots/ToMapSpot" index="0"]
-offset_left = -8.132450103759766
-offset_top = 207.70599365234375
-offset_right = -8.132450103759766
-offset_bottom = 207.70599365234375
-rotation = 3.141590118408203
+offset_left = -8.13245
+offset_top = 207.706
+offset_right = -8.13245
+offset_bottom = 207.706
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToMapSpot/Indicators" index="0"]
 modulate = Color(1, 0.854902, 0.611765, 1)
@@ -841,10 +841,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "gpp"
 
 [node name="Indicators" parent="Hotspots/EugeneMarmotSpot" index="0"]
-offset_left = 29.638200759887695
-offset_top = 109.37200164794922
-offset_right = 29.638200759887695
-offset_bottom = 109.37200164794922
+offset_left = 29.6382
+offset_top = 109.372
+offset_right = 29.6382
+offset_bottom = 109.372
 
 [node name="Highlighter" parent="Hotspots/EugeneMarmotSpot/Indicators" index="0"]
 modulate = Color(0.163861, 0.163861, 0.163861, 1)
@@ -855,10 +855,10 @@ position = Vector2(-35.5835, -59.0197)
 
 [node name="EugenePanel" parent="Hotspots/EugeneMarmotSpot" instance_placeholder="res://acts/full_game/conclusion_arc/finale/closeups/eugene_panel_tower.tscn"]
 layout_mode = 0
-offset_left = -2426.89990234375
-offset_top = -134.45700073242188
-offset_right = -1815.9000244140625
-offset_bottom = 782.5399780273438
+offset_left = -2426.9
+offset_top = -134.457
+offset_right = -1815.9
+offset_bottom = 782.54
 
 [node name="RoofSpot" parent="Hotspots" instance=ExtResource("88")]
 layout_mode = 1
@@ -870,10 +870,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "F7B"
 
 [node name="Indicators" parent="Hotspots/RoofSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/RoofSpot/Indicators" index="0"]
 modulate = Color(1, 0.595314, 0.476386, 1)
@@ -904,15 +904,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "M5N"
 
 [node name="Indicators" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot" index="0"]
-offset_left = 20.136499404907227
-offset_top = 47.20429992675781
-offset_right = 20.136499404907227
-offset_bottom = 47.20429992675781
+offset_left = 20.1365
+offset_top = 47.2043
+offset_right = 20.1365
+offset_bottom = 47.2043
 
 [node name="Highlighter" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/Indicators" index="0"]
 modulate = Color(0.729117, 0.713794, 0.624393, 1)
 position = Vector2(-17.5837, 18.3388)
-frame_progress = 0.45893898606300354
+frame_progress = 0.458939
 
 [node name="FocusIndicator" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/Indicators" index="1"]
 position = Vector2(-16.5837, 22.3388)
@@ -930,16 +930,16 @@ texture = ExtResource("91")
 
 [node name="Skew" type="Node2D" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/BottleNotePanel"]
 position = Vector2(88.0829, 71.4393)
-rotation = -0.017453299835324287
-skew = 0.34906598925590515
+rotation = -0.0174533
+skew = 0.349066
 
 [node name="BottleNoteSpeech" type="Label" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/BottleNotePanel/Skew"]
 modulate = Color(0.866551, 0.842374, 0.781124, 1)
-offset_left = -45.15629959106445
-offset_top = -64.72419738769531
-offset_right = 476.843994140625
-offset_bottom = 152.2760009765625
-rotation = 0.03872609883546829
+offset_left = -45.1563
+offset_top = -64.7242
+offset_right = 476.844
+offset_bottom = 152.276
+rotation = 0.0387261
 scale = Vector2(1.1, 0.95)
 theme_override_fonts/font = ExtResource("92")
 theme_override_font_sizes/font_size = 28
@@ -959,15 +959,15 @@ hotspot_id = "Up9"
 text = "FINALE_SPOILED_SODA_TOOLTIP"
 
 [node name="Indicators" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/BottleNotePanel/BottleNoteSpot2" index="0"]
-offset_left = 23.922800064086914
-offset_top = 32.63629913330078
-offset_right = 23.922800064086914
-offset_bottom = 32.63629913330078
+offset_left = 23.9228
+offset_top = 32.6363
+offset_right = 23.9228
+offset_bottom = 32.6363
 
 [node name="Highlighter" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/BottleNotePanel/BottleNoteSpot2/Indicators" index="0"]
 modulate = Color(1, 0.595939, 0.269148, 1)
 position = Vector2(6.02901, 8.08202)
-frame_progress = 0.13088999688625336
+frame_progress = 0.13089
 
 [node name="FocusIndicator" parent="Hotspots/RoofSpot/RoofPanel/BottleSpot/BottleNotePanel/BottleNoteSpot2/Indicators" index="1"]
 position = Vector2(4.47584, 13.291)
@@ -983,15 +983,15 @@ hotspot_id = "eok"
 text = "FINALE_LAB_DOOR_TOOLTIP_2"
 
 [node name="Indicators" parent="Hotspots/RoofSpot/RoofPanel/DoorSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/RoofSpot/RoofPanel/DoorSpot/Indicators" index="0"]
 modulate = Color(0.413725, 0.57, 0.3705, 1)
 position = Vector2(-95.3092, 21.2733)
-frame_progress = 0.42893800139427185
+frame_progress = 0.428938
 
 [node name="FocusIndicator" parent="Hotspots/RoofSpot/RoofPanel/DoorSpot/Indicators" index="1"]
 position = Vector2(-94.3091, 25.2733)
@@ -1006,10 +1006,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "tTv"
 
 [node name="Indicators" parent="Hotspots/JackSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/JackSpot/Indicators" index="0"]
 modulate = Color(0.240075, 0.27, 0.2187, 1)
@@ -1020,10 +1020,10 @@ position = Vector2(-38.6207, 1.2227)
 
 [node name="JackPanel" parent="Hotspots/JackSpot" instance_placeholder="res://acts/full_game/conclusion_arc/finale/closeups/jack_panel_mirror.tscn"]
 layout_mode = 0
-offset_left = -1358.1800537109375
-offset_top = 990.364990234375
-offset_right = -801.1859741210938
-offset_bottom = 1512.3699951171875
+offset_left = -1358.18
+offset_top = 990.365
+offset_right = -801.186
+offset_bottom = 1512.37
 
 [node name="FilmingSpot" parent="Hotspots" instance=ExtResource("88")]
 layout_mode = 1
@@ -1035,15 +1035,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "XRk"
 
 [node name="Indicators" parent="Hotspots/FilmingSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/FilmingSpot/Indicators" index="0"]
 modulate = Color(0.0584206, 0.0584206, 0.0584206, 1)
 position = Vector2(-64.6175, 12.2738)
-frame_progress = 0.2044139951467514
+frame_progress = 0.204414
 
 [node name="FocusIndicator" parent="Hotspots/FilmingSpot/Indicators" index="1"]
 position = Vector2(-63.6175, 16.2738)
@@ -1065,25 +1065,25 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "DVi"
 
 [node name="Indicators" parent="Hotspots/HallwaySpot" index="0"]
-offset_left = 12.604499816894531
-offset_top = 41.139801025390625
-offset_right = 12.604499816894531
-offset_bottom = 41.139801025390625
+offset_left = 12.6045
+offset_top = 41.1398
+offset_right = 12.6045
+offset_bottom = 41.1398
 
 [node name="Highlighter" parent="Hotspots/HallwaySpot/Indicators" index="0"]
 modulate = Color(0.20301, 0.283219, 0.258049, 1)
 position = Vector2(-31.5627, 33.3454)
-frame_progress = 0.696740984916687
+frame_progress = 0.696741
 
 [node name="FocusIndicator" parent="Hotspots/HallwaySpot/Indicators" index="1"]
 position = Vector2(-30.5627, 37.3454)
 
 [node name="HallwayPanel" parent="Hotspots/HallwaySpot" instance_placeholder="res://acts/full_game/conclusion_arc/finale/closeups/hallway_panel_tim_and_marie.tscn"]
 layout_mode = 0
-offset_left = 1418.280029296875
-offset_top = -553.8820190429688
-offset_right = 2237.280029296875
-offset_bottom = -32.88199996948242
+offset_left = 1418.28
+offset_top = -553.882
+offset_right = 2237.28
+offset_bottom = -32.882
 
 [node name="IdolSpot" parent="Hotspots" instance=ExtResource("88")]
 layout_mode = 1
@@ -1095,15 +1095,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "b52"
 
 [node name="Indicators" parent="Hotspots/IdolSpot" index="0"]
-offset_left = -32.46620178222656
-offset_top = 88.30000305175781
-offset_right = -32.46620178222656
-offset_bottom = 88.30000305175781
+offset_left = -32.4662
+offset_top = 88.3
+offset_right = -32.4662
+offset_bottom = 88.3
 
 [node name="Highlighter" parent="Hotspots/IdolSpot/Indicators" index="0"]
 modulate = Color(0.99115, 0.902605, 0.893535, 1)
 position = Vector2(6.49677, -13.8147)
-frame_progress = 0.4666920006275177
+frame_progress = 0.466692
 
 [node name="FocusIndicator" parent="Hotspots/IdolSpot/Indicators" index="1"]
 position = Vector2(7.49677, -9.8147)
@@ -1111,9 +1111,9 @@ position = Vector2(7.49677, -9.8147)
 [node name="IdolPanel" parent="Hotspots/IdolSpot" instance_placeholder="res://acts/full_game/conclusion_arc/finale/closeups/idol_panel_fallen.tscn"]
 layout_mode = 0
 offset_left = 2490.0
-offset_top = 691.3489990234375
+offset_top = 691.349
 offset_right = 3347.0
-offset_bottom = 1366.3499755859375
+offset_bottom = 1366.35
 
 [node name="EntrySpot" parent="Hotspots" instance=ExtResource("88")]
 layout_mode = 1
@@ -1125,27 +1125,27 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "vlo"
 
 [node name="Indicators" parent="Hotspots/EntrySpot" index="0"]
-offset_left = 29.60300064086914
-offset_top = 68.23179626464844
-offset_right = 29.60300064086914
-offset_bottom = 68.23179626464844
+offset_left = 29.603
+offset_top = 68.2318
+offset_right = 29.603
+offset_bottom = 68.2318
 
 [node name="Highlighter" parent="Hotspots/EntrySpot/Indicators" index="0"]
 modulate = Color(0.4526, 0.62, 0.46097, 1)
-frame_progress = 0.176937997341156
+frame_progress = 0.176938
 
 [node name="EntryPanel" parent="Hotspots/EntrySpot" instance_placeholder="res://acts/full_game/conclusion_arc/finale/closeups/entry_panel.tscn"]
 layout_mode = 0
-offset_left = 1370.199951171875
-offset_top = -283.9649963378906
-offset_right = 2164.199951171875
-offset_bottom = 419.0350036621094
+offset_left = 1370.2
+offset_top = -283.965
+offset_right = 2164.2
+offset_bottom = 419.035
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1781, 918)
 sprite_frames = SubResource("SpriteFrames_wjjl6")
 autoplay = "default"
-frame_progress = 0.5195080041885376
+frame_progress = 0.519508
 
 [node name="dvasa7" type="GPUParticles2D" parent="."]
 material = SubResource("CanvasItemMaterial_hmc14")
@@ -1155,8 +1155,8 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_jnj6k")
 texture = ExtResource("163")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [editable path="Hotspots/ToMapSpot"]

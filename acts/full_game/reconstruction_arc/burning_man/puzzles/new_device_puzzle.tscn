@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=4 uid="uid://8oqqoipyvygh"]
+[gd_scene load_steps=14 format=3 uid="uid://8oqqoipyvygh"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://b2oum3u8snuyu" path="res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzle/devicepuzzle.png" id="2"]

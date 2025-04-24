@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://ctel3m0q2wxai"]
+[gd_scene load_steps=3 format=3 uid="uid://ctel3m0q2wxai"]
 
 [ext_resource type="Texture2D" uid="uid://bm7yubjgi0n8h" path="res://acts/full_game/introductory_arc/conference/assets/closeups/casefile3.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]

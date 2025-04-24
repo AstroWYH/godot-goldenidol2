@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=4 uid="uid://b2e8vco5a0l6t"]
+[gd_scene load_steps=52 format=3 uid="uid://b2e8vco5a0l6t"]
 
 [ext_resource type="Texture2D" uid="uid://bs25rx5fsxrck" path="res://shared/assets/papers/Check_ICO.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cy5wjvn5mb871" path="res://shared/assets/papers/A4_V1_ICO.png" id="2"]
@@ -43,7 +43,7 @@
 [ext_resource type="Texture2D" uid="uid://05bsay5heouk" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman1/woman1_038.png" id="41"]
 [ext_resource type="Texture2D" uid="uid://d3lyj8sfjatfb" path="res://shared/assets/papers/note_yacht_names.png" id="42"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="43"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="44"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="44"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="45"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="46"]
 
@@ -216,10 +216,10 @@ texture = ExtResource("2")
 
 [node name="CordeliaSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 30.048599243164063
-offset_top = 26.089099884033203
-offset_right = 483.04901123046875
-offset_bottom = 143.08900451660156
+offset_left = 30.0486
+offset_top = 26.0891
+offset_right = 483.049
+offset_bottom = 143.089
 text = "WAREHOUSE_CORDELIA_SPEECH"
 autowrap_mode = 3
 
@@ -227,7 +227,7 @@ autowrap_mode = 3
 position = Vector2(573, 323)
 sprite_frames = SubResource("SpriteFrames_h2hty")
 autoplay = "default"
-frame_progress = 0.9779260158538818
+frame_progress = 0.977926
 
 [node name="PaperSprite" type="Sprite2D" parent="."]
 position = Vector2(136.657, 353.995)
@@ -235,10 +235,10 @@ scale = Vector2(0.998394, 0.996602)
 texture = ExtResource("42")
 
 [node name="Page1Label2" type="Label" parent="PaperSprite"]
-offset_left = -192.9669952392578
-offset_top = -57.189300537109375
-offset_right = 195.0330047607422
-offset_bottom = 58.810699462890625
+offset_left = -192.967
+offset_top = -57.1893
+offset_right = 195.033
+offset_bottom = 58.8107
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 23
@@ -257,10 +257,10 @@ hotspot_id = "oJF"
 extra_items_unlocked = [SubResource("Resource_77mmr"), SubResource("Resource_k7525"), SubResource("Resource_wevnq"), SubResource("Resource_fpxch")]
 
 [node name="Indicators" parent="Invitation" index="0"]
-offset_left = -9.957070350646973
-offset_top = 28.98069953918457
-offset_right = -9.957070350646973
-offset_bottom = 28.98069953918457
+offset_left = -9.95707
+offset_top = 28.9807
+offset_right = -9.95707
+offset_bottom = 28.9807
 
 [node name="Highlighter" parent="Invitation/Indicators" index="0"]
 modulate = Color(0.648452, 0.506109, 0.460122, 1)
@@ -271,10 +271,10 @@ position = Vector2(2.3925, -8.51134)
 
 [node name="GabrielPanel" type="Panel" parent="Invitation"]
 layout_mode = 0
-offset_left = -179.28799438476563
-offset_top = -782.6599731445313
-offset_right = 255.71200561523438
-offset_bottom = -152.66000366210938
+offset_left = -179.288
+offset_top = -782.66
+offset_right = 255.712
+offset_bottom = -152.66
 
 [node name="TextureRect" type="TextureRect" parent="Invitation/GabrielPanel"]
 modulate = Color(0.772549, 0.615686, 0.439216, 1)
@@ -291,7 +291,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(228.121, 154.201)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("46")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -299,7 +299,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="Invitation/GabrielPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(222.602, 361)
-rotation = 6.295479774475098
+rotation = 6.29548
 scale = Vector2(0.807298, 1)
 texture = ExtResource("46")
 region_enabled = true
@@ -307,10 +307,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Text" type="Label" parent="Invitation/GabrielPanel"]
 layout_mode = 0
-offset_left = 29.782800674438477
-offset_top = 22.730199813842773
-offset_right = 406.7829895019531
-offset_bottom = 613.72998046875
+offset_left = 29.7828
+offset_top = 22.7302
+offset_right = 406.783
+offset_bottom = 613.73
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
 text = "WAREHOUSE_INVITATION_CONTENT"
@@ -327,10 +327,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "qBy"
 
 [node name="Indicators" parent="BusinessCardSpot" index="0"]
-offset_left = -0.8890079855918884
-offset_top = 27.092100143432617
-offset_right = -0.8890079855918884
-offset_bottom = 27.092100143432617
+offset_left = -0.889008
+offset_top = 27.0921
+offset_right = -0.889008
+offset_bottom = 27.0921
 
 [node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
 modulate = Color(0.690196, 0.690196, 0.690196, 1)
@@ -341,10 +341,10 @@ position = Vector2(22.1991, -0.549053)
 
 [node name="CardPanel" type="Panel" parent="BusinessCardSpot"]
 layout_mode = 0
-offset_left = -470.7560119628906
-offset_top = -26.088699340820313
-offset_right = -69.75599670410156
-offset_bottom = 218.91099548339844
+offset_left = -470.756
+offset_top = -26.0887
+offset_right = -69.756
+offset_bottom = 218.911
 
 [node name="Message3ColorRect" type="TextureRect" parent="BusinessCardSpot/CardPanel"]
 modulate = Color(0.65098, 0.721569, 0.721569, 1)
@@ -358,7 +358,7 @@ offset_right = -9.0
 offset_bottom = -12.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("45")
 expand_mode = 1
 stretch_mode = 1

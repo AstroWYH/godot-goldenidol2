@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://ytqbjsm2sj7d"]
+[gd_scene load_steps=2 format=3 uid="uid://ytqbjsm2sj7d"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/hub.gd" id="1"]
+[ext_resource type="Script" uid="uid://cpkxmpg084ev5" path="res://shared/ui/hub/hub.gd" id="1"]
 
 [node name="Hub" type="Control"]
 layout_mode = 3

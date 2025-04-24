@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://dj51mn6s2fjk2"]
+[gd_scene load_steps=53 format=3 uid="uid://dj51mn6s2fjk2"]
 
 [ext_resource type="Texture2D" uid="uid://laghbwcq5vfn" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://wmseuot104sb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/foolburns/fool3_001.png" id="2"]
@@ -221,7 +221,7 @@ position = Vector2(224, 301)
 sprite_frames = SubResource("SpriteFrames_n8dig")
 autoplay = "default"
 frame = 27
-frame_progress = 0.44302400946617126
+frame_progress = 0.443024
 
 [node name="MarmotLabel" type="Label" parent="."]
 layout_mode = 0

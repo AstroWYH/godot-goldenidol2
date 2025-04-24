@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://c1xx5ewy22dg"]
+[gd_scene load_steps=2 format=3 uid="uid://c1xx5ewy22dg"]
 
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="1"]
 

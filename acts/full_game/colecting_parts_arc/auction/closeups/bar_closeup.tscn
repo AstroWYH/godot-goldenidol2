@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://djr5b3p77c2d1"]
+[gd_scene load_steps=2 format=3 uid="uid://djr5b3p77c2d1"]
 
 [ext_resource type="Texture2D" uid="uid://brl7ti24x3jtc" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/bar2.png" id="1"]
 

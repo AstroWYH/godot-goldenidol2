@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=4 uid="uid://cfn8ouaudlyts"]
+[gd_scene load_steps=51 format=3 uid="uid://cfn8ouaudlyts"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://75wraww8gil0" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girl1/girl1_000.png" id="2"]
@@ -222,5 +222,5 @@ autowrap_mode = 3
 position = Vector2(42.0671, 26.0883)
 sprite_frames = SubResource("SpriteFrames_spk6l")
 autoplay = "default"
-frame_progress = 0.9235960245132446
+frame_progress = 0.923596
 centered = false

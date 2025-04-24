@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://c465u4d667jt7"]
+[gd_scene load_steps=39 format=3 uid="uid://c465u4d667jt7"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://bcvs41321j8oc" path="res://shared/assets/portraits/tim_shirt/tim_shirt_00000.png" id="2"]
@@ -176,4 +176,4 @@ scale = Vector2(0.819048, 0.819048)
 sprite_frames = SubResource("SpriteFrames_f6edd")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.503836989402771
+frame_progress = 0.503837

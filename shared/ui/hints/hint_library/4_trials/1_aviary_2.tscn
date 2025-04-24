@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://ckw0ej4l53kjb"]
+[gd_scene load_steps=3 format=3 uid="uid://ckw0ej4l53kjb"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cegmv2fc3jn8a" path="res://shared/ui/hints/hint_library/4_trials/aviary_employee.png" id="2"]

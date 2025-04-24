@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://dbnvorb3horw2"]
+[gd_scene load_steps=4 format=3 uid="uid://dbnvorb3horw2"]
 
 [ext_resource type="Texture2D" uid="uid://cimqcv02jsv6i" path="res://shared/assets/hub_art/hub_of_hubs/hub__0007_disc1.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/intermission_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://hopiqb2rqru2" path="res://shared/ui/hub_of_hubs/intermission_button.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://crb7rwujbjw7u" path="res://shared/ui/hub_of_hubs/focus_target.tscn" id="3"]
 
 [node name="Intermission1" type="TextureButton"]

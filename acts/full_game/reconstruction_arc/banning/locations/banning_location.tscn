@@ -1,6 +1,6 @@
-[gd_scene load_steps=53 format=4 uid="uid://cqx2qmiln477v"]
+[gd_scene load_steps=53 format=3 uid="uid://cqx2qmiln477v"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dvlhqchfcdpva" path="res://acts/full_game/reconstruction_arc/banning/locations/banning_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ovn68rin4ann" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cx00y01snjf53" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/figures/figures_001.png" id="4"]
@@ -35,7 +35,7 @@
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="33"]
 [ext_resource type="PackedScene" uid="uid://nl7hnu8equpk" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/table_panel.tscn" id="34"]
 [ext_resource type="Resource" uid="uid://d3q5uxljty8o7" path="res://acts/full_game/reconstruction_arc/banning/locations/banning_overview_meta.tres" id="35"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="36"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="36"]
 [ext_resource type="PackedScene" uid="uid://bb662laygwbf2" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/notes_panel.tscn" id="37"]
 [ext_resource type="PackedScene" uid="uid://jv1aevvpviao" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/wheel_panel.tscn" id="38"]
 [ext_resource type="PackedScene" uid="uid://eny73an3xjyi" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/hedge_panel.tscn" id="39"]
@@ -174,7 +174,7 @@ position = Vector2(565, 359)
 sprite_frames = SubResource("SpriteFrames_lpceu")
 autoplay = "default"
 frame = 16
-frame_progress = 0.5229520201683044
+frame_progress = 0.522952
 centered = false
 
 [node name="Hotspots" type="Control" parent="."]
@@ -212,7 +212,7 @@ transition = 3
 transition_sound = 17
 
 [node name="Highlighter" parent="Hotspots/OverviewSpot/Indicators" index="0"]
-rotation = 3.141590118408203
+rotation = 3.14159
 
 [node name="BinocularSpot" parent="Hotspots" instance=ExtResource("33")]
 layout_mode = 1
@@ -239,7 +239,7 @@ layout_mode = 0
 offset_left = -1971.0
 offset_top = -521.0
 offset_right = -1248.0
-offset_bottom = -21.999900817871094
+offset_bottom = -21.9999
 
 [node name="WheelSpot" parent="Hotspots" instance=ExtResource("33")]
 layout_mode = 1

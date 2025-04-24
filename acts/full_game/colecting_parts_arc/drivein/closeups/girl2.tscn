@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=4 uid="uid://dvsjwmhs4a2r5"]
+[gd_scene load_steps=42 format=3 uid="uid://dvsjwmhs4a2r5"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
@@ -176,13 +176,13 @@ autowrap_mode = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(417.237, 226.25)
-rotation = 0.12915100157260895
+rotation = 0.129151
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -201,13 +201,13 @@ text = "ticket_stub_tooltip"
 
 [node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
 modulate = Color(0.752941, 0.564706, 0.294118, 1)
-frame_progress = 0.7085360288619995
+frame_progress = 0.708536
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(186, 242)
 sprite_frames = SubResource("SpriteFrames_b57px")
 autoplay = "default"
 frame = 4
-frame_progress = 0.941461980342865
+frame_progress = 0.941462
 
 [editable path="TicketSpot2"]

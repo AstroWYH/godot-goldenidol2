@@ -1,6 +1,6 @@
-[gd_scene load_steps=60 format=4 uid="uid://bkqu4oayk2d1l"]
+[gd_scene load_steps=60 format=3 uid="uid://bkqu4oayk2d1l"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="4"]
@@ -247,13 +247,13 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 12.622400283813477
-offset_top = 6.023930072784424
-offset_right = -10.377699851989746
-offset_bottom = -17.97610092163086
+offset_left = 12.6224
+offset_top = 6.02393
+offset_right = -10.3777
+offset_bottom = -17.9761
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("2")
 expand_mode = 1
 stretch_mode = 1
@@ -270,8 +270,8 @@ texture = ExtResource("57")
 
 [node name="text" type="Node2D" parent="InterviewPanel/MessageTape"]
 position = Vector2(-19, 13)
-rotation = 0.21816599369049072
-skew = 0.26179900765419006
+rotation = 0.218166
+skew = 0.261799
 
 [node name="Label" type="Label" parent="InterviewPanel/MessageTape/text"]
 offset_left = -101.0

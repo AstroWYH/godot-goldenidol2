@@ -1,7 +1,7 @@
-[gd_scene load_steps=8 format=4 uid="uid://bymvaawdbd2jj"]
+[gd_scene load_steps=8 format=3 uid="uid://bymvaawdbd2jj"]
 
 [ext_resource type="Theme" uid="uid://c0ojmupfgnqa3" path="res://shared/ui/themes/invisible_background_button.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/thinking_ui_card/thinking_ui_card.gd" id="2"]
+[ext_resource type="Script" uid="uid://t603ys86hc05" path="res://shared/ui/thinking_ui/thinking_ui_card/thinking_ui_card.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://ccw1dksea3866" path="res://shared/assets/ui_icons/Frame_selected_active.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cghfk07doufaq" path="res://shared/ui/Icons/ICO_0026_Words.png" id="4"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="5"]
@@ -37,7 +37,7 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_n3xwn"]
 _data = {
-"requesting_attention": SubResource("Animation_5ondf")
+&"requesting_attention": SubResource("Animation_5ondf")
 }
 
 [node name="ScenarioUICard" type="Button"]

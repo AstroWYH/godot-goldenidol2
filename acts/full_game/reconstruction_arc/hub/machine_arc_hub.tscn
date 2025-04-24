@@ -1,6 +1,6 @@
-[gd_scene load_steps=112 format=4 uid="uid://cj5022wfrwhor"]
+[gd_scene load_steps=112 format=3 uid="uid://cj5022wfrwhor"]
 
-[ext_resource type="Script" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub.gd" id="1"]
+[ext_resource type="Script" uid="uid://dgm7pxy703e06" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://crb44a5wb88e5" path="res://acts/full_game/reconstruction_arc/hub/puzzles/org_chart_puzzle.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://dbjcie02ttgko" path="res://acts/full_game/reconstruction_arc/hub/puzzles/machine_arc_scroll_puzzle.tscn" id="4"]
@@ -104,7 +104,7 @@
 [ext_resource type="Texture2D" uid="uid://biheq1ok47a4b" path="res://acts/full_game/reconstruction_arc/hub/assets/victoryburning.png" id="102"]
 [ext_resource type="Texture2D" uid="uid://da1xuc4n84tcd" path="res://acts/full_game/reconstruction_arc/hub/assets/victoryburning_f.png" id="103"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="104"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="105"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="105"]
 [ext_resource type="PackedScene" uid="uid://bkruwfe5piwok" path="res://shared/ui/hub/change_arc_button.tscn" id="106"]
 [ext_resource type="Resource" uid="uid://pmia7piem45l" path="res://acts/full_game/research_arc/hub/trials_arc_meta.tres" id="107"]
 [ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="108"]

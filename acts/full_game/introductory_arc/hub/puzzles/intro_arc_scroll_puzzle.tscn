@@ -1,10 +1,10 @@
-[gd_scene load_steps=71 format=4 uid="uid://b7354t5lyjcvn"]
+[gd_scene load_steps=71 format=3 uid="uid://b7354t5lyjcvn"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://d2k0vdindk7g" path="res://shared/assets/frames/phrasesbg.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cb4q71clyplxt" path="res://shared/assets/textures/paper_texture03.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="6"]
 [ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="7"]
 [ext_resource type="Theme" uid="uid://8743aytptrpv" path="res://shared/themes/placeholder_scroll_text.tres" id="8"]

@@ -1,10 +1,10 @@
-[gd_scene load_steps=10 format=4 uid="uid://bybjvwsno4smd"]
+[gd_scene load_steps=10 format=3 uid="uid://bybjvwsno4smd"]
 
 [ext_resource type="Texture2D" uid="uid://dte5leyig2qqv" path="res://acts/full_game/introductory_arc/conference/assets/placeholder/computer.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://bkacjoj0i18mv" path="res://acts/full_game/introductory_arc/conference/assets/closeups/yellowpaper.png" id="6"]
 
 [sub_resource type="Resource" id="Resource_lat3q"]
@@ -108,7 +108,7 @@ offset_left = 110.0
 offset_top = 72.0
 offset_right = 974.0
 offset_bottom = 399.0
-rotation = -0.054511699825525284
+rotation = -0.0545117
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
 theme_override_font_sizes/font_size = 27

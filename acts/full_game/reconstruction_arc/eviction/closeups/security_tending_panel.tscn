@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://b7yepidwnlqvx"]
+[gd_scene load_steps=53 format=3 uid="uid://b7yepidwnlqvx"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://d0mjrhtiy244e" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00000.png" id="2"]
@@ -39,7 +39,7 @@
 [ext_resource type="Texture2D" uid="uid://djv5ewfm1xgm2" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_a/guard_a_00035.png" id="37"]
 [ext_resource type="Texture2D" uid="uid://bktfycs7xifda" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge_small.png" id="38"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="39"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="40"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="40"]
 [ext_resource type="Texture2D" uid="uid://c8w1nhep6a2oa" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge.png" id="41"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="42"]
 [ext_resource type="Texture2D" uid="uid://duj3uduvn0srp" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/taser_spent.png" id="43"]
@@ -198,7 +198,7 @@ position = Vector2(563, 355)
 sprite_frames = SubResource("SpriteFrames_yyrcq")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.23248299956321716
+frame_progress = 0.232483
 
 [node name="TagSprite" type="Sprite2D" parent="."]
 position = Vector2(101, 429)
@@ -315,16 +315,16 @@ offset_left = 11.0
 offset_top = 7.0
 offset_right = 594.0
 offset_bottom = 534.0
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("46")
 stretch_mode = 1
 
 [node name="Sprite2D8" type="Sprite2D" parent="OrdersSpot/OrdersPanel/OrdersColorRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(300.325, 244.476)
-rotation = 3.1194100379943848
+rotation = 3.11941
 scale = Vector2(1.28731, 1.21409)
-skew = 0.003911610227078199
+skew = 0.00391161
 texture = ExtResource("47")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
@@ -332,7 +332,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D7" type="Sprite2D" parent="OrdersSpot/OrdersPanel/OrdersColorRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(299.356, 271.831)
-rotation = 4.7023701667785645
+rotation = 4.70237
 scale = Vector2(1.21411, 1)
 texture = ExtResource("47")
 region_enabled = true

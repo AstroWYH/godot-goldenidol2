@@ -1,6 +1,6 @@
-[gd_scene load_steps=91 format=4 uid="uid://owv6rqfstnd2"]
+[gd_scene load_steps=91 format=3 uid="uid://owv6rqfstnd2"]
 
-[ext_resource type="Script" path="res://shared/ui/hotspot/hotspot.gd" id="1"]
+[ext_resource type="Script" uid="uid://rybo7av8u7t3" path="res://shared/ui/hotspot/hotspot.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://53grjrcsf3cj" path="res://shared/assets/highlights/highlight0000.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://bse70j4p8ei7v" path="res://shared/assets/highlights/highlight0001.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://epfuctgop7g3" path="res://shared/assets/highlights/highlight0002.png" id="4"]
@@ -411,7 +411,7 @@ unique_name_in_owner = true
 position = Vector2(1, -16)
 sprite_frames = SubResource("SpriteFrames_kam6w")
 autoplay = "default"
-frame_progress = 0.5189160108566284
+frame_progress = 0.518916
 
 [node name="FocusGrabber" type="Control" parent="Indicators"]
 anchors_preset = 0

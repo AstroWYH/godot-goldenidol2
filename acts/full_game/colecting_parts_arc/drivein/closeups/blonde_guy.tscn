@@ -1,11 +1,11 @@
-[gd_scene load_steps=54 format=4 uid="uid://bt0rjlmqaafx6"]
+[gd_scene load_steps=54 format=3 uid="uid://bt0rjlmqaafx6"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
 [ext_resource type="Texture2D" uid="uid://b2agpmei1ustt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/mikenote_small.png" id="5"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="6"]
 [ext_resource type="Resource" uid="uid://ebkmpp8cjdtu" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_wager_puzzle_meta.tres" id="7"]
 [ext_resource type="Texture2D" uid="uid://dbl2lr3xxjj72" path="res://acts/full_game/colecting_parts_arc/drivein/assets/mikenote.png" id="8"]
 [ext_resource type="PackedScene" uid="uid://ud5tus06dknf" path="res://shared/ui/glyph_container/glyph_container.tscn" id="9"]
@@ -197,13 +197,13 @@ autowrap_mode = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(477, 170)
-rotation = 0.16230100393295288
+rotation = 0.162301
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -221,14 +221,14 @@ text = "ticket_stub_tooltip"
 [node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
 modulate = Color(0.74902, 0.560784, 0.294118, 1)
 position = Vector2(3, -5)
-frame_progress = 0.02631869912147522
+frame_progress = 0.0263187
 
 [node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
 position = Vector2(4, -1)
 
 [node name="NoteSprite" type="Sprite2D" parent="."]
 position = Vector2(483, 350)
-rotation = -0.053548701107501984
+rotation = -0.0535487
 texture = ExtResource("5")
 
 [node name="Spot" parent="." instance=ExtResource("4")]
@@ -245,7 +245,7 @@ unlocked_puzzles = [ExtResource("7")]
 [node name="Highlighter" parent="Spot/Indicators" index="0"]
 modulate = Color(0.421196, 0.389958, 0.34507, 1)
 position = Vector2(-1, 37)
-frame_progress = 0.6367279887199402
+frame_progress = 0.636728
 
 [node name="FocusIndicator" parent="Spot/Indicators" index="1"]
 visible = false
@@ -301,7 +301,7 @@ offset_left = 87.0
 offset_top = -185.0
 offset_right = 348.0
 offset_bottom = -146.0
-rotation = 0.07138080149888992
+rotation = 0.0713808
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0, 0, 0.815686, 1)
 text = "cinema_bet_puzzle_text2"
@@ -316,7 +316,7 @@ offset_bottom = 52.0
 position = Vector2(190, 310)
 sprite_frames = SubResource("SpriteFrames_8m30f")
 autoplay = "default"
-frame_progress = 0.27608901262283325
+frame_progress = 0.276089
 
 [editable path="TicketSpot2"]
 [editable path="Spot"]

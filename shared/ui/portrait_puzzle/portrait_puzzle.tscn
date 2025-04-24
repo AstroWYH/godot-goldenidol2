@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://dioppstaxf134"]
+[gd_scene load_steps=3 format=3 uid="uid://dioppstaxf134"]
 
-[ext_resource type="Script" path="res://shared/ui/portrait_puzzle/portrait_puzzle.gd" id="1"]
+[ext_resource type="Script" uid="uid://c6l2er4ekjiql" path="res://shared/ui/portrait_puzzle/portrait_puzzle.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://c27hwkkltdvuj" path="res://shared/puzzle/puzzle/puzzle.tscn" id="2"]
 
 [node name="PortraitPuzzle" type="MarginContainer"]

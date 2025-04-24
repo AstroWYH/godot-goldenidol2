@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://bs2vanofl16u6"]
+[gd_scene load_steps=5 format=3 uid="uid://bs2vanofl16u6"]
 
-[ext_resource type="Script" path="res://shared/ui/scroll_text/scroll_text.gd" id="1"]
+[ext_resource type="Script" uid="uid://bdodtqx48wyek" path="res://shared/ui/scroll_text/scroll_text.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://c27hwkkltdvuj" path="res://shared/puzzle/puzzle/puzzle.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/ui/drop_receiver/drop_receiver_container.gd" id="3"]
+[ext_resource type="Script" uid="uid://bfs7wiw6dyhes" path="res://shared/ui/drop_receiver/drop_receiver_container.gd" id="3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_36mri"]
 bg_color = Color(0.6, 0.6, 0.6, 0)

@@ -1,8 +1,8 @@
-[gd_scene load_steps=36 format=4 uid="uid://due86h84tjvla"]
+[gd_scene load_steps=36 format=3 uid="uid://due86h84tjvla"]
 
 [ext_resource type="Texture2D" uid="uid://eyeur1in4n1p" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/researchroom.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://icyl7ennp5sd" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/GangsterMoodboard.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://je7jxh457u71" path="res://shared/assets/papers/BigBook_Icon.png" id="6"]
@@ -127,10 +127,10 @@ hotspot_id = "Y16"
 extra_items_unlocked = [SubResource("Resource_vjlwr"), SubResource("Resource_bl3e1"), SubResource("Resource_3mnc0"), SubResource("Resource_l8rkt"), SubResource("Resource_54gvj"), SubResource("Resource_5pjbb"), SubResource("Resource_6kogj"), SubResource("Resource_a6qug"), SubResource("Resource_k6ir4"), SubResource("Resource_tjpn4"), SubResource("Resource_svctw"), SubResource("Resource_r0aob"), SubResource("Resource_g36qd"), SubResource("Resource_wewei")]
 
 [node name="Indicators" parent="CorkBoardSpot" index="0"]
-offset_left = -9.957070350646973
-offset_top = 28.98069953918457
-offset_right = -9.957070350646973
-offset_bottom = 28.98069953918457
+offset_left = -9.95707
+offset_top = 28.9807
+offset_right = -9.95707
+offset_bottom = 28.9807
 
 [node name="Highlighter" parent="CorkBoardSpot/Indicators" index="0"]
 modulate = Color(0.751217, 0.674235, 0.491624, 1)
@@ -153,9 +153,9 @@ centered = false
 
 [node name="Label2" type="Label" parent="CorkBoardSpot/CorkBoardPanel"]
 layout_mode = 0
-offset_left = 642.9869995117188
+offset_left = 642.987
 offset_top = 272.0
-offset_right = 815.9869995117188
+offset_right = 815.987
 offset_bottom = 434.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 21
@@ -164,9 +164,9 @@ autowrap_mode = 2
 
 [node name="RichTextLabel" type="RichTextLabel" parent="CorkBoardSpot/CorkBoardPanel"]
 layout_mode = 0
-offset_left = 68.98709869384766
+offset_left = 68.9871
 offset_top = 41.0
-offset_right = 329.98699951171875
+offset_right = 329.987
 offset_bottom = 377.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/normal_font_size = 20
@@ -176,9 +176,9 @@ scroll_active = false
 
 [node name="Label" type="Label" parent="CorkBoardSpot/CorkBoardPanel"]
 layout_mode = 0
-offset_left = 34.987098693847656
+offset_left = 34.9871
 offset_top = 420.0
-offset_right = 215.98699951171875
+offset_right = 215.987
 offset_bottom = 544.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "WAREHOUSE_HUNTER_BOARD_BANDIT_NOTE"
@@ -195,10 +195,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "PyM"
 
 [node name="Indicators" parent="DeskSpot" index="0"]
-offset_left = -9.957070350646973
-offset_top = 28.98069953918457
-offset_right = -9.957070350646973
-offset_bottom = 28.98069953918457
+offset_left = -9.95707
+offset_top = 28.9807
+offset_right = -9.95707
+offset_bottom = 28.9807
 
 [node name="Highlighter" parent="DeskSpot/Indicators" index="0"]
 modulate = Color(0.5472, 0.70272, 0.72, 1)
@@ -209,10 +209,10 @@ position = Vector2(25.7035, -10.8874)
 
 [node name="DeskPanel" type="Panel" parent="DeskSpot"]
 layout_mode = 0
-offset_left = 457.531005859375
-offset_top = -481.7229919433594
-offset_right = 919.531005859375
-offset_bottom = -157.72300720214844
+offset_left = 457.531
+offset_top = -481.723
+offset_right = 919.531
+offset_bottom = -157.723
 
 [node name="PaperSprite" type="Sprite2D" parent="DeskSpot/DeskPanel"]
 position = Vector2(103.332, 173.175)
@@ -235,10 +235,10 @@ hotspot_id = "oFD"
 extra_items_unlocked = [SubResource("Resource_l1lej"), SubResource("Resource_twa1t"), SubResource("Resource_0wc4f"), SubResource("Resource_61ord")]
 
 [node name="Indicators" parent="DeskSpot/DeskPanel/NotebookSpot" index="0"]
-offset_left = 158.9969940185547
-offset_top = -6.811389923095703
-offset_right = 158.9969940185547
-offset_bottom = -6.811389923095703
+offset_left = 158.997
+offset_top = -6.81139
+offset_right = 158.997
+offset_bottom = -6.81139
 
 [node name="Highlighter" parent="DeskSpot/DeskPanel/NotebookSpot/Indicators" index="0"]
 modulate = Color(0.308408, 0.266784, 0.238975, 1)
@@ -299,10 +299,10 @@ hotspot_id = "6rE"
 extra_items_unlocked = [SubResource("Resource_xpxf2"), SubResource("Resource_d0b3b"), SubResource("Resource_l3nll"), SubResource("Resource_crsfc"), SubResource("Resource_wraeg")]
 
 [node name="Indicators" parent="DeskSpot/DeskPanel/PaperSpot" index="0"]
-offset_left = -9.957070350646973
-offset_top = 28.98069953918457
-offset_right = -9.957070350646973
-offset_bottom = 28.98069953918457
+offset_left = -9.95707
+offset_top = 28.9807
+offset_right = -9.95707
+offset_bottom = 28.9807
 
 [node name="Highlighter" parent="DeskSpot/DeskPanel/PaperSpot/Indicators" index="0"]
 modulate = Color(0.885164, 0.851105, 0.637632, 1)
@@ -331,8 +331,8 @@ stretch_mode = 1
 
 [node name="Sprite2D9" type="Sprite2D" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/TextureRect"]
 position = Vector2(208.325, 473.412)
-rotation = 3.118259906768799
-skew = -0.008633850142359734
+rotation = 3.11826
+skew = -0.00863385
 texture = ExtResource("9")
 region_enabled = true
 region_rect = Rect2(142, 384.149, 454, 213.473)
@@ -341,7 +341,7 @@ region_rect = Rect2(142, 384.149, 454, 213.473)
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(295.602, 209)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("9")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -349,7 +349,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(222.602, 361)
-rotation = 6.295479774475098
+rotation = 6.29548
 scale = Vector2(0.807298, 1)
 texture = ExtResource("9")
 region_enabled = true
@@ -357,10 +357,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel"]
 layout_mode = 0
-offset_left = 35.7328987121582
-offset_top = 23.31060028076172
-offset_right = 528.7329711914063
-offset_bottom = 703.3109741210938
+offset_left = 35.7329
+offset_top = 23.3106
+offset_right = 528.733
+offset_bottom = 703.311
 
 [node name="Title" type="Label" parent="DeskSpot/DeskPanel/PaperSpot/PaperPanel/VBoxContainer"]
 layout_mode = 2

@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://2234xn41xj7b"]
+[gd_scene load_steps=53 format=3 uid="uid://2234xn41xj7b"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cotapl8ntnwft" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/ceo/ceo_000.png" id="2"]
@@ -230,4 +230,4 @@ autowrap_mode = 3
 position = Vector2(240, 296)
 sprite_frames = SubResource("SpriteFrames_jnejg")
 autoplay = "default"
-frame_progress = 0.4426470100879669
+frame_progress = 0.442647

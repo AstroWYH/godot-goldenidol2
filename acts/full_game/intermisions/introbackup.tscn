@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://ci1fq3bqrpx6i"]
+[gd_scene load_steps=11 format=3 uid="uid://ci1fq3bqrpx6i"]
 
 [ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="1"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
@@ -806,7 +806,7 @@ tracks/11/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
 _data = {
-"intro": SubResource("Animation_36hnf")
+&"intro": SubResource("Animation_36hnf")
 }
 
 [node name="Node2D" type="Node2D"]
@@ -824,35 +824,35 @@ scale = Vector2(1e-05, 1e-05)
 sprite_frames = SubResource("SpriteFrames_xv2vl")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.17600199580192566
+frame_progress = 0.176002
 
 [node name="02" type="AnimatedSprite2D" parent="."]
 position = Vector2(942, 228)
 scale = Vector2(1e-05, 1e-05)
 sprite_frames = SubResource("SpriteFrames_wiskf")
 autoplay = "default"
-frame_progress = 0.5018709897994995
+frame_progress = 0.501871
 
 [node name="03" type="AnimatedSprite2D" parent="."]
 position = Vector2(1574, 230)
 scale = Vector2(1e-05, 1e-05)
 sprite_frames = SubResource("SpriteFrames_epadd")
 autoplay = "default"
-frame_progress = 0.9458630084991455
+frame_progress = 0.945863
 
 [node name="04" type="AnimatedSprite2D" parent="."]
 position = Vector2(330, 740)
 scale = Vector2(1e-05, 1e-05)
 sprite_frames = SubResource("SpriteFrames_40etl")
 autoplay = "default"
-frame_progress = 0.20049799978733063
+frame_progress = 0.200498
 
 [node name="05" type="AnimatedSprite2D" parent="."]
 position = Vector2(942, 742)
 scale = Vector2(1e-05, 1e-05)
 sprite_frames = SubResource("SpriteFrames_qgj7x")
 autoplay = "default"
-frame_progress = 0.8575869798660278
+frame_progress = 0.857587
 
 [node name="06" type="AnimatedSprite2D" parent="."]
 position = Vector2(1574, 732)

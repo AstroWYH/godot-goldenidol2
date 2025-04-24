@@ -1,6 +1,6 @@
-[gd_scene load_steps=17 format=4 uid="uid://dytg3xd2ed03x"]
+[gd_scene load_steps=17 format=3 uid="uid://dytg3xd2ed03x"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://breqfce5lp18y" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_night_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://b73tak88tf1p6" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://da0lbogfiu4u5" path="res://acts/full_game/colecting_parts_arc/auction/assets/animation/electrocute/electrocute0001.png" id="4"]
@@ -50,7 +50,7 @@ location_meta = ExtResource("2")
 position = Vector2(438, 549)
 sprite_frames = SubResource("SpriteFrames_n5kg0")
 autoplay = "default"
-frame_progress = 0.4849970042705536
+frame_progress = 0.484997
 
 [node name="PlaySoundWhenVisible" parent="." instance=ExtResource("9")]
 sound = 36

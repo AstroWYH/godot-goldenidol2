@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://d3yju277d5j2n"]
+[gd_scene load_steps=4 format=3 uid="uid://d3yju277d5j2n"]
 
 [ext_resource type="Texture2D" uid="uid://dv5fete2hpyju" path="res://acts/full_game/colecting_parts_arc/drivein/assets/note_costumes.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
@@ -26,10 +26,10 @@ text = "cinema_competition_title"
 horizontal_alignment = 1
 
 [node name="Label2" type="Label" parent="Sprite2D"]
-offset_left = -249.9459991455078
-offset_top = -249.9459991455078
-offset_right = 251.0540008544922
-offset_bottom = -194.9459991455078
+offset_left = -249.946
+offset_top = -249.946
+offset_right = 251.054
+offset_bottom = -194.946
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(1, 0.129412, 0.160784, 1)
 text = "cinema_competition_body1"
@@ -49,57 +49,57 @@ offset_left = -91.0
 offset_top = -116.0
 offset_right = 206.0
 offset_bottom = 43.0
-rotation = -0.22630399465560913
+rotation = -0.226304
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0, 0.388235, 0.388235, 1)
 text = "cinema_competition_body3"
 autowrap_mode = 2
 
 [node name="Label9" type="Label" parent="Sprite2D"]
-offset_left = -179.5970001220703
-offset_top = 212.6959991455078
-offset_right = 270.40301513671875
-offset_bottom = 336.6960144042969
-rotation = 0.09786970168352127
+offset_left = -179.597
+offset_top = 212.696
+offset_right = 270.403
+offset_bottom = 336.696
+rotation = 0.0978697
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.00784314, 0.392157, 0.392157, 1)
 text = "cinema_competition_body4"
 autowrap_mode = 2
 
 [node name="Label6" type="Label" parent="Sprite2D"]
-offset_left = -249.94500732421875
-offset_top = -18.42919921875
-offset_right = 262.05499267578125
-offset_bottom = 44.57080078125
+offset_left = -249.945
+offset_top = -18.4292
+offset_right = 262.055
+offset_bottom = 44.5708
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.243137, 0.243137, 0.243137, 1)
 text = "cinema_competition_body5"
 autowrap_mode = 2
 
 [node name="Label7" type="Label" parent="Sprite2D"]
-offset_left = -243.03500366210938
-offset_top = 148.5850067138672
-offset_right = 268.9649963378906
-offset_bottom = 203.5850067138672
+offset_left = -243.035
+offset_top = 148.585
+offset_right = 268.965
+offset_bottom = 203.585
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.243137, 0.243137, 0.243137, 1)
 text = "cinema_competition_body6"
 autowrap_mode = 2
 
 [node name="Label3" type="Label" parent="Sprite2D"]
-offset_left = -249.9459991455078
-offset_top = -58.743099212646484
-offset_right = 245.0540008544922
-offset_bottom = -3.743079900741577
+offset_left = -249.946
+offset_top = -58.7431
+offset_right = 245.054
+offset_bottom = -3.74308
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(1, 0.129412, 0.160784, 1)
 text = "cinema_competition_body7"
 
 [node name="Label4" type="Label" parent="Sprite2D"]
-offset_left = -245.33799743652344
-offset_top = 102.51200103759766
-offset_right = 249.66200256347656
-offset_bottom = 157.51199340820313
+offset_left = -245.338
+offset_top = 102.512
+offset_right = 249.662
+offset_bottom = 157.512
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(1, 0.133333, 0.164706, 1)
 text = "cinema_competition_body8"

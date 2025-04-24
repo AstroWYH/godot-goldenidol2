@@ -1,6 +1,6 @@
-[gd_scene load_steps=238 format=4 uid="uid://0odqcqd0lrbw"]
+[gd_scene load_steps=238 format=3 uid="uid://0odqcqd0lrbw"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://07ml3up4ixkc" path="res://acts/full_game/reconstruction_arc/eviction/locations/collectors_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://bodn40ptsmtyo" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/redhead/bwoman_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cxdewdbbi8mpq" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/redhead/bwoman_001.png" id="4"]
@@ -205,7 +205,7 @@
 [ext_resource type="Texture2D" uid="uid://c6gk1pmaw3we8" path="res://acts/full_game/reconstruction_arc/eviction/assets/evictionlights.png" id="203"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="204"]
 [ext_resource type="Resource" uid="uid://glvb4ru0fxk2" path="res://acts/full_game/reconstruction_arc/eviction/locations/procedure_location_meta.tres" id="205"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="206"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="206"]
 [ext_resource type="PackedScene" uid="uid://d0qas18qkvtam" path="res://acts/full_game/reconstruction_arc/eviction/closeups/blackboard_panel.tscn" id="207"]
 [ext_resource type="PackedScene" uid="uid://4ar21knbt20l" path="res://acts/full_game/reconstruction_arc/eviction/closeups/bin_panel.tscn" id="208"]
 [ext_resource type="PackedScene" uid="uid://bogt8708t5ek7" path="res://acts/full_game/reconstruction_arc/eviction/closeups/nevari_panel.tscn" id="209"]
@@ -913,25 +913,25 @@ location_meta = ExtResource("2")
 position = Vector2(1036, 308)
 sprite_frames = SubResource("SpriteFrames_doc2k")
 autoplay = "default"
-frame_progress = 0.25208500027656555
+frame_progress = 0.252085
 
 [node name="Tim" type="AnimatedSprite2D" parent="."]
 position = Vector2(863, 310)
 sprite_frames = SubResource("SpriteFrames_2xcqn")
 autoplay = "default"
-frame_progress = 0.6154360175132751
+frame_progress = 0.615436
 
 [node name="Tesa" type="AnimatedSprite2D" parent="."]
 position = Vector2(569, 320)
 sprite_frames = SubResource("SpriteFrames_14vry")
 autoplay = "default"
-frame_progress = 0.5202630162239075
+frame_progress = 0.520263
 
 [node name="Sam" type="AnimatedSprite2D" parent="."]
 position = Vector2(877, 772)
 sprite_frames = SubResource("SpriteFrames_2k7v0")
 autoplay = "default"
-frame_progress = 0.5620949864387512
+frame_progress = 0.562095
 
 [node name="Light" type="Sprite2D" parent="."]
 position = Vector2(-208, -178)
@@ -964,7 +964,7 @@ offset_right = 23.0
 offset_bottom = 335.0
 
 [node name="Highlighter" parent="Hotspots/ToHallSpot/Indicators" index="0"]
-rotation = -1.5965700149536133
+rotation = -1.59657
 
 [node name="BlackboardSpot" parent="Hotspots" instance=ExtResource("204")]
 layout_mode = 1
@@ -1046,7 +1046,7 @@ offset_left = 1193.0
 offset_top = -734.0
 offset_right = 1865.0
 offset_bottom = -224.0
-rotation = 0.005031540058553219
+rotation = 0.00503154
 
 [node name="LessonTableSpot" parent="Hotspots" instance=ExtResource("204")]
 layout_mode = 1
@@ -1071,22 +1071,22 @@ offset_left = 11.0
 offset_top = 7.0
 offset_right = 694.0
 offset_bottom = 749.0
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("212")
 stretch_mode = 1
 
 [node name="Sprite2D8" type="Sprite2D" parent="Hotspots/LessonTableSpot/LessonTablePanel/LessonColorRect"]
 position = Vector2(333.365, 508.796)
-rotation = -0.04172410070896149
+rotation = -0.0417241
 scale = Vector2(1.50012, 1.29318)
-skew = 0.02675269916653633
+skew = 0.0267527
 texture = ExtResource("213")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Sprite2D7" type="Sprite2D" parent="Hotspots/LessonTableSpot/LessonTablePanel/LessonColorRect"]
 position = Vector2(339.521, 235.96)
-rotation = 3.1338798999786377
+rotation = 3.13388
 scale = Vector2(1.50733, 1.13671)
 texture = ExtResource("213")
 region_enabled = true

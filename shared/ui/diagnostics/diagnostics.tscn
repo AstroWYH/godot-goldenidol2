@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://mkn5bgi17nlu"]
+[gd_scene format=3 uid="uid://mkn5bgi17nlu"]
 
 [node name="Diagnostics" type="CanvasLayer"]
 layer = 4

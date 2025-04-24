@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://dnfjc3ihjrtio"]
+[gd_scene load_steps=8 format=3 uid="uid://dnfjc3ihjrtio"]
 
 [ext_resource type="Texture2D" uid="uid://ck8h00pb8qbs3" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cabin01.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dsbhov8471xyq" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/indicator/indicator1.png" id="2"]
@@ -36,7 +36,7 @@ centered = false
 position = Vector2(463, 615)
 sprite_frames = SubResource("SpriteFrames_maxbh")
 autoplay = "default"
-frame_progress = 0.04731699824333191
+frame_progress = 0.047317
 
 [node name="MugSpot" parent="." instance=ExtResource("4")]
 layout_mode = 1

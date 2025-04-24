@@ -1,6 +1,6 @@
-[gd_scene load_steps=292 format=4 uid="uid://bu5ghker7cf1w"]
+[gd_scene load_steps=292 format=3 uid="uid://bu5ghker7cf1w"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dyibdt24vxisu" path="res://acts/full_game/introductory_arc/conference/locations/conference_location_meta.tres" id="2"]
 [ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="3"]
 [ext_resource type="Texture2D" uid="uid://cdo5wv8vk50ie" path="res://acts/full_game/introductory_arc/conference/assets/animations/speakers/speakers 102_000.png" id="4"]
@@ -259,7 +259,7 @@
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="257"]
 [ext_resource type="Resource" uid="uid://dul2qnj77nbk7" path="res://acts/full_game/introductory_arc/conference/locations/office_location_meta.tres" id="258"]
 [ext_resource type="Resource" uid="uid://cc6s2mvytyvcb" path="res://acts/full_game/introductory_arc/conference/morgue_location_meta.tres" id="259"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="260"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="260"]
 [ext_resource type="PackedScene" uid="uid://046as4uitlht" path="res://acts/full_game/introductory_arc/conference/closeups/roy_closeup.tscn" id="261"]
 [ext_resource type="PackedScene" uid="uid://dgpey0alflaja" path="res://acts/full_game/introductory_arc/conference/closeups/detective_2_closeup.tscn" id="262"]
 [ext_resource type="Resource" uid="uid://cjsi71jbbttp2" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_interview_puzzle_meta.tres" id="263"]
@@ -1168,37 +1168,37 @@ vertical_alignment = 1
 position = Vector2(1134, 802)
 sprite_frames = SubResource("SpriteFrames_62uvh")
 autoplay = "default"
-frame_progress = 0.5922110080718994
+frame_progress = 0.592211
 
 [node name="Man3" type="AnimatedSprite2D" parent="."]
 position = Vector2(1827, 963)
 sprite_frames = SubResource("SpriteFrames_jiegh")
 autoplay = "default"
-frame_progress = 0.771323025226593
+frame_progress = 0.771323
 
 [node name="Man2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1630, 962)
 sprite_frames = SubResource("SpriteFrames_bcy7l")
 autoplay = "default"
-frame_progress = 0.9980639815330505
+frame_progress = 0.998064
 
 [node name="Man1" type="AnimatedSprite2D" parent="."]
 position = Vector2(1360, 1011)
 sprite_frames = SubResource("SpriteFrames_2aoni")
 autoplay = "default"
-frame_progress = 0.7185429930686951
+frame_progress = 0.718543
 
 [node name="Samson2" type="AnimatedSprite2D" parent="."]
 position = Vector2(129, 930)
 sprite_frames = SubResource("SpriteFrames_re1ig")
 autoplay = "default"
-frame_progress = 0.9875779747962952
+frame_progress = 0.987578
 
 [node name="Worth" type="AnimatedSprite2D" parent="."]
 position = Vector2(370, 972)
 sprite_frames = SubResource("SpriteFrames_4tj8q")
 autoplay = "default"
-frame_progress = 0.21198099851608276
+frame_progress = 0.211981
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(775, 922)
@@ -1208,13 +1208,13 @@ texture = ExtResource("206")
 position = Vector2(40, 1004)
 sprite_frames = SubResource("SpriteFrames_2aoni")
 autoplay = "default"
-frame_progress = 0.029782500118017197
+frame_progress = 0.0297825
 
 [node name="Cameraman" type="AnimatedSprite2D" parent="."]
 position = Vector2(464, 1060)
 sprite_frames = SubResource("SpriteFrames_b466a")
 autoplay = "default"
-frame_progress = 0.6808909773826599
+frame_progress = 0.680891
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -1235,10 +1235,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("258")
 
 [node name="Indicators" parent="Hotspots/ChiefOffice" index="0"]
-offset_left = -15.859999656677246
-offset_top = 93.31710052490234
-offset_right = -15.859999656677246
-offset_bottom = 93.31710052490234
+offset_left = -15.86
+offset_top = 93.3171
+offset_right = -15.86
+offset_bottom = 93.3171
 
 [node name="Highlighter" parent="Hotspots/ChiefOffice/Indicators" index="0"]
 modulate = Color(0.698039, 0.666667, 0.47451, 1)
@@ -1260,10 +1260,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("259")
 
 [node name="Indicators" parent="Hotspots/CoronerSLab" index="0"]
-offset_left = -86.93240356445313
-offset_top = 62.21139907836914
-offset_right = -86.93240356445313
-offset_bottom = 62.21139907836914
+offset_left = -86.9324
+offset_top = 62.2114
+offset_right = -86.9324
+offset_bottom = 62.2114
 
 [node name="Highlighter" parent="Hotspots/CoronerSLab/Indicators" index="0"]
 modulate = Color(0.666667, 0.631373, 0.447059, 1)
@@ -1280,10 +1280,10 @@ unlocked_character_ref_id = 78
 extra_items_unlocked = [SubResource("Resource_cesky"), SubResource("Resource_1r7hf"), SubResource("Resource_tg7q5")]
 
 [node name="Indicators" parent="Hotspots/RoySpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/RoySpot/Indicators" index="0"]
 modulate = Color(0.411765, 0.713726, 0.733333, 1)
@@ -1294,10 +1294,10 @@ position = Vector2(-23.0177, 50.3898)
 
 [node name="RoyCloseup" parent="Hotspots/RoySpot" instance=ExtResource("261")]
 layout_mode = 0
-offset_left = -1414.27001953125
-offset_top = -48.163700103759766
-offset_right = -613.2739868164063
-offset_bottom = 564.8359985351563
+offset_left = -1414.27
+offset_top = -48.1637
+offset_right = -613.274
+offset_bottom = 564.836
 
 [node name="IanSpot" parent="Hotspots" instance=ExtResource("257")]
 layout_mode = 1
@@ -1312,10 +1312,10 @@ unlocked_item_ref_id = 360
 extra_items_unlocked = [SubResource("Resource_vdq50"), SubResource("Resource_3lb84")]
 
 [node name="Indicators" parent="Hotspots/IanSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/IanSpot/Indicators" index="0"]
 modulate = Color(0.752941, 0.537255, 0.372549, 1)
@@ -1327,9 +1327,9 @@ position = Vector2(-19.0112, 151.734)
 [node name="Detective2Closeup" parent="Hotspots/IanSpot" instance=ExtResource("262")]
 layout_mode = 0
 offset_left = -1243.0
-offset_top = 709.4110107421875
-offset_right = -441.9989929199219
-offset_bottom = 1322.4100341796875
+offset_top = 709.411
+offset_right = -441.999
+offset_bottom = 1322.41
 
 [node name="ReporterSpot" parent="Hotspots" instance=ExtResource("257")]
 layout_mode = 1
@@ -1343,10 +1343,10 @@ extra_items_unlocked = [SubResource("Resource_kjatu"), SubResource("Resource_pmr
 unlocked_puzzles = [ExtResource("263")]
 
 [node name="Indicators" parent="Hotspots/ReporterSpot" index="0"]
-offset_left = -93.45970153808594
-offset_top = 187.63800048828125
-offset_right = -93.45970153808594
-offset_bottom = 187.63800048828125
+offset_left = -93.4597
+offset_top = 187.638
+offset_right = -93.4597
+offset_bottom = 187.638
 
 [node name="Highlighter" parent="Hotspots/ReporterSpot/Indicators" index="0"]
 modulate = Color(0.0431373, 0.0431373, 0.0431373, 1)
@@ -1370,10 +1370,10 @@ unlocked_character_ref_id = 68
 extra_items_unlocked = [SubResource("Resource_x0wxy")]
 
 [node name="Indicators" parent="Hotspots/ChiefSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/ChiefSpot/Indicators" index="0"]
 self_modulate = Color(0.341176, 0.611765, 0.670588, 1)
@@ -1384,10 +1384,10 @@ position = Vector2(-50.5997, 95.5432)
 
 [node name="ChiefCloseup" parent="Hotspots/ChiefSpot" instance=ExtResource("265")]
 layout_mode = 0
-offset_left = -795.2769775390625
-offset_top = 790.68701171875
-offset_right = 5.722839832305908
-offset_bottom = 1403.6800537109375
+offset_left = -795.277
+offset_top = 790.687
+offset_right = 5.72284
+offset_bottom = 1403.68
 
 [node name="DaughterSpot" parent="Hotspots" instance=ExtResource("257")]
 layout_mode = 1
@@ -1401,10 +1401,10 @@ unlocked_character_ref_id = 69
 extra_items_unlocked = [SubResource("Resource_h4qjs")]
 
 [node name="Indicators" parent="Hotspots/DaughterSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/DaughterSpot/Indicators" index="0"]
 modulate = Color(0.831373, 0.658824, 0.54902, 1)
@@ -1432,10 +1432,10 @@ unlocked_character_ref_id = 71
 extra_items_unlocked = [SubResource("Resource_28pxf")]
 
 [node name="Indicators" parent="Hotspots/JackSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/JackSpot/Indicators" index="0"]
 modulate = Color(0.811765, 0.737255, 0.580392, 1)
@@ -1446,10 +1446,10 @@ position = Vector2(9.44531, 97.55)
 
 [node name="RationalistCloseup" parent="Hotspots/JackSpot" instance=ExtResource("267")]
 layout_mode = 0
-offset_left = 853.3699951171875
-offset_top = 846.8779907226563
-offset_right = 1654.3699951171875
-offset_bottom = 1459.8800048828125
+offset_left = 853.37
+offset_top = 846.878
+offset_right = 1654.37
+offset_bottom = 1459.88
 
 [editable path="Hotspots/ChiefOffice"]
 [editable path="Hotspots/CoronerSLab"]

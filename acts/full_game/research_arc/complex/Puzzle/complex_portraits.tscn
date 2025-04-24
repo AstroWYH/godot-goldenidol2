@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://culjinbi0n488"]
+[gd_scene load_steps=6 format=3 uid="uid://culjinbi0n488"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]

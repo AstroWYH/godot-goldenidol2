@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=4 uid="uid://tym3qxrrxhl"]
+[gd_scene load_steps=56 format=3 uid="uid://tym3qxrrxhl"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://bj2vvt2wjplxg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/paramedic/paramedic_000.png" id="2"]
@@ -243,4 +243,4 @@ position = Vector2(171.65, 340.337)
 scale = Vector2(0.883563, 0.883563)
 sprite_frames = SubResource("SpriteFrames_0cnew")
 autoplay = "default"
-frame_progress = 0.30964401364326477
+frame_progress = 0.309644

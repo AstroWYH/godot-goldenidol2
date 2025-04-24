@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://bb81cag4hph24"]
+[gd_scene load_steps=22 format=3 uid="uid://bb81cag4hph24"]
 
 [ext_resource type="Texture2D" uid="uid://cngcevo6k3v8k" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c12vjvhsbb4w1" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/tessa/collector 3_001.png" id="2"]
@@ -94,10 +94,10 @@ offset_bottom = -675.0
 
 [node name="NevariSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.048099517822266
-offset_top = 24.077999114990234
-offset_right = 708.0479736328125
-offset_bottom = 141.0780029296875
+offset_left = 32.0481
+offset_top = 24.078
+offset_right = 708.048
+offset_bottom = 141.078
 text = "BOARDROOM_TESA_SPEECH"
 autowrap_mode = 3
 
@@ -106,7 +106,7 @@ position = Vector2(581.931, 353.196)
 sprite_frames = SubResource("SpriteFrames_rbtob")
 autoplay = "default"
 frame = 14
-frame_progress = 0.06236790120601654
+frame_progress = 0.0623679
 
 [node name="LanyardSprite" type="Sprite2D" parent="."]
 position = Vector2(184.293, 312.057)

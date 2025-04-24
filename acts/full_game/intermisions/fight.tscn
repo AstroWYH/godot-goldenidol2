@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=4 uid="uid://bw3smyf827mjp"]
+[gd_scene load_steps=5 format=3 uid="uid://bw3smyf827mjp"]
 
 [ext_resource type="Texture2D" uid="uid://dw67xlyh7fojw" path="res://acts/full_game/intermisions/vlcsnap-2024-05-28-13h24m39s892.png" id="1"]
-[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/fight.ogv" id="2"]
+[ext_resource type="VideoStream" uid="uid://kxqo8juko0nq" path="res://acts/full_game/intermisions/fight.ogv" id="2"]
 
 [sub_resource type="Animation" id="Animation_36hnf"]
 resource_name = "intro"
@@ -9,7 +9,7 @@ length = 13.0
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
 _data = {
-"intro": SubResource("Animation_36hnf")
+&"intro": SubResource("Animation_36hnf")
 }
 
 [node name="Node2D" type="Node2D"]

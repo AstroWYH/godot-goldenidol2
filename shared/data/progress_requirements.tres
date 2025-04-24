@@ -1,6 +1,6 @@
-[gd_resource type="Resource" script_class="ProgressRequirementTable" load_steps=2 format=4 uid="uid://c6odtfsferbwv"]
+[gd_resource type="Resource" script_class="ProgressRequirementTable" load_steps=2 format=3 uid="uid://c6odtfsferbwv"]
 
-[ext_resource type="Script" path="res://shared/resources/progress_requirement_table.gd" id="1"]
+[ext_resource type="Script" uid="uid://chbeq7kjgb4hv" path="res://shared/resources/progress_requirement_table.gd" id="1"]
 
 [resource]
 script = ExtResource("1")

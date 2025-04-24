@@ -1,6 +1,6 @@
-[gd_scene load_steps=10 format=4 uid="uid://bjhwmql85v2ac"]
+[gd_scene load_steps=10 format=3 uid="uid://bjhwmql85v2ac"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cnsh4p6njlwg7" path="res://acts/full_game/research_arc/hub/assets/line.png" id="3"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
@@ -31,7 +31,7 @@ offset_left = 9.0
 offset_top = 6.0
 offset_right = 913.0
 offset_bottom = 682.0
-rotation = 0.0025487400125712156
+rotation = 0.00254874
 texture = ExtResource("2")
 stretch_mode = 1
 
@@ -650,13 +650,13 @@ texture = ExtResource("5")
 
 [node name="Sprite2D" type="Sprite2D" parent="NameContestPanel"]
 position = Vector2(257.001, 720)
-rotation = -1.5707999467849731
+rotation = -1.5708
 scale = Vector2(0.729764, 1)
 texture = ExtResource("6")
 
 [node name="CallLabel" type="RichTextLabel" parent="NameContestPanel"]
 layout_mode = 0
-offset_left = -97.00019836425781
+offset_left = -97.0002
 offset_top = 527.0
 offset_right = 462.0
 offset_bottom = 910.0

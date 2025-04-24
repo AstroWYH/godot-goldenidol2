@@ -1,8 +1,8 @@
-[gd_scene load_steps=9 format=4 uid="uid://dqc7qpxnt8n6k"]
+[gd_scene load_steps=9 format=3 uid="uid://dqc7qpxnt8n6k"]
 
 [ext_resource type="Texture2D" uid="uid://cqcr64ca266y" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/bar.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="4"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://cuu5y2k7oacdd"]
+[gd_scene load_steps=4 format=3 uid="uid://cuu5y2k7oacdd"]
 
 [ext_resource type="Texture2D" uid="uid://jyi5l81bb44a" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/cellsnofaces.png" id="1"]
 

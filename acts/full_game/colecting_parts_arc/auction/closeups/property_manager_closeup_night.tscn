@@ -1,10 +1,10 @@
-[gd_scene load_steps=14 format=4 uid="uid://dblvib2uyua6r"]
+[gd_scene load_steps=14 format=3 uid="uid://dblvib2uyua6r"]
 
 [ext_resource type="Texture2D" uid="uid://cecnpb5owxp5a" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/mug.png" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
 [ext_resource type="Texture2D" uid="uid://dra33p8tvvs5i" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/napkin.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="7"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
@@ -88,7 +88,7 @@ stretch_mode = 1
 
 [node name="Sprite2D7" type="Sprite2D" parent="AutographSpot2/NapkinPanel/TextureRect2"]
 position = Vector2(179, 182)
-rotation = 3.14274001121521
+rotation = 3.14274
 scale = Vector2(0.824331, 1)
 texture = ExtResource("7")
 region_enabled = true
@@ -96,7 +96,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Sprite2D8" type="Sprite2D" parent="AutographSpot2/NapkinPanel/TextureRect2"]
 position = Vector2(182.658, 216.362)
-rotation = 4.634160041809082
+rotation = 4.63416
 scale = Vector2(0.980238, 1)
 texture = ExtResource("7")
 region_enabled = true

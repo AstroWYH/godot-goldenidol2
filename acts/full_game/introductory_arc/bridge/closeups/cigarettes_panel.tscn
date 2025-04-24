@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://drp1dve8awx6u"]
+[gd_scene load_steps=3 format=3 uid="uid://drp1dve8awx6u"]
 
 [ext_resource type="Texture2D" uid="uid://ebskq4c1ecuj" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/wending_mashine.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -19,7 +19,7 @@ offset_left = -21.0
 offset_top = 156.0
 offset_right = 511.0
 offset_bottom = 226.0
-rotation = -0.013572700321674347
+rotation = -0.0135727
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.835294, 0.803922, 0.788235, 1)
 theme_override_font_sizes/font_size = 32

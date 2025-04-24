@@ -1,6 +1,6 @@
-[gd_scene load_steps=355 format=4]
+[gd_scene load_steps=355 format=3 uid="uid://bw02644r18dc6"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cqwt4oape2kpc" path="res://acts/full_game/conclusion_arc/boardroom/locations/boardroom_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dv1sysjuiwdcf" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tv/screen_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://drvpc5p53rmp4" path="res://acts/full_game/conclusion_arc/boardroom/assets/animations/tv/screen_001.png" id="4"]
@@ -331,7 +331,7 @@
 [ext_resource type="Texture2D" uid="uid://c0b675e5x3c42" path="res://acts/full_game/conclusion_arc/boardroom/assets/table.png" id="329"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="330"]
 [ext_resource type="Resource" uid="uid://ccepx7dccl7x7" path="res://acts/full_game/conclusion_arc/boardroom/locations/laboratory_location_meta.tres" id="331"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="332"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="332"]
 [ext_resource type="PackedScene" uid="uid://fg3ymyl1dvqe" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/nathan_panel.tscn" id="333"]
 [ext_resource type="PackedScene" uid="uid://dnbklxdw8g4pd" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/annette_panel.tscn" id="334"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="335"]
@@ -1385,7 +1385,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_bs3bv"]
 _data = {
-"new_animation": SubResource("Animation_0gtsh")
+&"new_animation": SubResource("Animation_0gtsh")
 }
 
 [sub_resource type="Resource" id="Resource_hvcbm"]
@@ -1424,14 +1424,14 @@ location_meta = ExtResource("2")
 position = Vector2(578, 15)
 sprite_frames = SubResource("SpriteFrames_pdcfr")
 autoplay = "default"
-frame_progress = 0.7723730206489563
+frame_progress = 0.772373
 centered = false
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1383, 609)
 sprite_frames = SubResource("SpriteFrames_pe8ms")
 autoplay = "default"
-frame_progress = 0.9177579879760742
+frame_progress = 0.917758
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 z_index = 1
@@ -1439,24 +1439,24 @@ position = Vector2(1632, 817)
 sprite_frames = SubResource("SpriteFrames_1ka6y")
 autoplay = "default"
 frame = 16
-frame_progress = 0.8545330166816711
+frame_progress = 0.854533
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(479, 738)
 sprite_frames = SubResource("SpriteFrames_1c81f")
 autoplay = "default"
-frame_progress = 0.2985289990901947
+frame_progress = 0.298529
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 z_index = 1
 position = Vector2(830, 800)
 sprite_frames = SubResource("SpriteFrames_pnepl")
 autoplay = "default"
-frame_progress = 0.18985599279403687
+frame_progress = 0.189856
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(326.621, 1116.97)
-rotation = 0.03733300045132637
+rotation = 0.037333
 scale = Vector2(1.28208, 1.20849)
 texture = ExtResource("329")
 
@@ -1493,11 +1493,11 @@ hover_cursor = 3
 target_location_meta = ExtResource("331")
 
 [node name="Indicators" parent="Hotspots/ToLabSpot" index="0"]
-offset_left = -0.8839110136032104
-offset_top = 299.0159912109375
-offset_right = -0.8839110136032104
-offset_bottom = 299.0159912109375
-rotation = 3.141590118408203
+offset_left = -0.883911
+offset_top = 299.016
+offset_right = -0.883911
+offset_bottom = 299.016
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToLabSpot/Indicators" index="0"]
 modulate = Color(0.627451, 0.184314, 0.207843, 1)
@@ -1514,17 +1514,17 @@ unlocked_character_ref_id = 93
 extra_hypothetical_items_unlocked = [SubResource("Resource_hvcbm")]
 
 [node name="Indicators" parent="Hotspots/NathanHoyleSpot" index="0"]
-offset_left = -29.388999938964844
-offset_top = 311.0570068359375
-offset_right = -29.388999938964844
-offset_bottom = 311.0570068359375
+offset_left = -29.389
+offset_top = 311.057
+offset_right = -29.389
+offset_bottom = 311.057
 
 [node name="NathanPanel" parent="Hotspots/NathanHoyleSpot" instance=ExtResource("333")]
 layout_mode = 0
-offset_left = -1494.4000244140625
-offset_top = -78.26589965820313
-offset_right = -693.4000244140625
-offset_bottom = 500.7340087890625
+offset_left = -1494.4
+offset_top = -78.2659
+offset_right = -693.4
+offset_bottom = 500.734
 
 [node name="AnnetteSpenderSpot" parent="Hotspots" instance=ExtResource("330")]
 layout_mode = 1
@@ -1538,17 +1538,17 @@ unlocked_character_ref_id = 91
 
 [node name="Indicators" parent="Hotspots/AnnetteSpenderSpot" index="0"]
 z_index = 2
-offset_left = -114.96800231933594
-offset_top = 541.8410034179688
-offset_right = -114.96800231933594
-offset_bottom = 541.8410034179688
+offset_left = -114.968
+offset_top = 541.841
+offset_right = -114.968
+offset_bottom = 541.841
 
 [node name="AnnettePanel" parent="Hotspots/AnnetteSpenderSpot" instance=ExtResource("334")]
 layout_mode = 0
-offset_left = -282.4540100097656
-offset_top = 1043.550048828125
-offset_right = 518.5460205078125
-offset_bottom = 1575.550048828125
+offset_left = -282.454
+offset_top = 1043.55
+offset_right = 518.546
+offset_bottom = 1575.55
 
 [node name="ScreenSpot" parent="Hotspots" instance=ExtResource("330")]
 layout_mode = 1
@@ -1562,10 +1562,10 @@ text = "BOARDROOM_TV_TOOLTIP"
 extra_items_unlocked = [SubResource("Resource_u0gch"), SubResource("Resource_rp5na")]
 
 [node name="Indicators" parent="Hotspots/ScreenSpot" index="0"]
-offset_left = -104.56099700927734
-offset_top = 300.0190124511719
-offset_right = -104.56099700927734
-offset_bottom = 300.0190124511719
+offset_left = -104.561
+offset_top = 300.019
+offset_right = -104.561
+offset_bottom = 300.019
 
 [node name="Highlighter" parent="Hotspots/ScreenSpot/Indicators" index="0"]
 modulate = Color(0, 0.605688, 0.724358, 1)
@@ -1594,10 +1594,10 @@ text = "BOARDROOM_SPEAKER_TOOLTIP"
 extra_items_unlocked = [SubResource("Resource_xrr7f"), SubResource("Resource_2papj")]
 
 [node name="Indicators" parent="Hotspots/SpeakerSpot" index="0"]
-offset_left = -13.737799644470215
-offset_top = 90.30690002441406
-offset_right = -13.737799644470215
-offset_bottom = 90.30690002441406
+offset_left = -13.7378
+offset_top = 90.3069
+offset_right = -13.7378
+offset_bottom = 90.3069
 
 [node name="Highlighter" parent="Hotspots/SpeakerSpot/Indicators" index="0"]
 modulate = Color(0.64, 0.62336, 0.3904, 1)
@@ -1617,10 +1617,10 @@ hotspot_id = "piv"
 extra_items_unlocked = [SubResource("Resource_n2ui3"), SubResource("Resource_xbd6p")]
 
 [node name="Indicators" parent="Hotspots/PhoneSpot" index="0"]
-offset_left = 22.749300003051758
-offset_top = 161.5489959716797
-offset_right = 22.749300003051758
-offset_bottom = 161.5489959716797
+offset_left = 22.7493
+offset_top = 161.549
+offset_right = 22.7493
+offset_bottom = 161.549
 
 [node name="Highlighter" parent="Hotspots/PhoneSpot/Indicators" index="0"]
 modulate = Color(0.558649, 0.229625, 0.254983, 1)
@@ -1631,10 +1631,10 @@ position = Vector2(-41.5821, -3.79438)
 
 [node name="PhonePanel" parent="Hotspots/PhoneSpot" instance=ExtResource("336")]
 layout_mode = 0
-offset_left = 348.55999755859375
-offset_top = 704.3930053710938
-offset_right = 739.5599975585938
-offset_bottom = 1091.3900146484375
+offset_left = 348.56
+offset_top = 704.393
+offset_right = 739.56
+offset_bottom = 1091.39
 
 [node name="JasminePatelSpot" parent="Hotspots" instance=ExtResource("330")]
 layout_mode = 1
@@ -1648,17 +1648,17 @@ unlocked_character_ref_id = 90
 
 [node name="Indicators" parent="Hotspots/JasminePatelSpot" index="0"]
 z_index = 2
-offset_left = -13.28600025177002
-offset_top = 365.2409973144531
-offset_right = -13.28600025177002
-offset_bottom = 365.2409973144531
+offset_left = -13.286
+offset_top = 365.241
+offset_right = -13.286
+offset_bottom = 365.241
 
 [node name="JasminePanel" parent="Hotspots/JasminePatelSpot" instance=ExtResource("337")]
 layout_mode = 0
-offset_left = 807.2960205078125
-offset_top = 304.0329895019531
-offset_right = 1651.300048828125
-offset_bottom = 841.0330200195313
+offset_left = 807.296
+offset_top = 304.033
+offset_right = 1651.3
+offset_bottom = 841.033
 
 [node name="SecretarySpot" parent="Hotspots" instance=ExtResource("330")]
 layout_mode = 1
@@ -1671,17 +1671,17 @@ hotspot_id = "uZ8"
 unlocked_character_ref_id = 99
 
 [node name="Indicators" parent="Hotspots/SecretarySpot" index="0"]
-offset_left = -43.9114990234375
-offset_top = 376.27899169921875
-offset_right = -43.9114990234375
-offset_bottom = 376.27899169921875
+offset_left = -43.9115
+offset_top = 376.279
+offset_right = -43.9115
+offset_bottom = 376.279
 
 [node name="SecretaryPanel" parent="Hotspots/SecretarySpot" instance=ExtResource("338")]
 layout_mode = 0
-offset_left = 1026.6500244140625
-offset_top = -439.4930114746094
-offset_right = 1827.6500244140625
-offset_bottom = 173.50599670410156
+offset_left = 1026.65
+offset_top = -439.493
+offset_right = 1827.65
+offset_bottom = 173.506
 
 [editable path="Hotspots/ToLabSpot"]
 [editable path="Hotspots/NathanHoyleSpot"]

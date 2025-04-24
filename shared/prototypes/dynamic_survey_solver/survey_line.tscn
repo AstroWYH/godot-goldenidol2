@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://ctbkakaoj2c7y"]
+[gd_scene load_steps=2 format=3 uid="uid://ctbkakaoj2c7y"]
 
-[ext_resource type="Script" path="res://shared/prototypes/dynamic_survey_solver/survey_line.gd" id="1"]
+[ext_resource type="Script" uid="uid://bd822l2bon14w" path="res://shared/prototypes/dynamic_survey_solver/survey_line.gd" id="1"]
 
 [node name="Line" type="HBoxContainer"]
 script = ExtResource("1")

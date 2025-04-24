@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4]
+[gd_scene load_steps=10 format=3 uid="uid://xuuuxcxisyoq"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://blyt8blb5jhn1" path="res://acts/full_game/conclusion_arc/dark_experiments/puzzles/dark_experiments_dwelling_ranking_puzzle.tscn" id="2"]

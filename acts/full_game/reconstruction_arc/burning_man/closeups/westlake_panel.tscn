@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=4 uid="uid://ygyjjr1gadbo"]
+[gd_scene load_steps=54 format=3 uid="uid://ygyjjr1gadbo"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://hgc65mi6cy1y" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/MarieMad/MarieMad_00000.png" id="2"]
@@ -227,7 +227,7 @@ sprite_frames = SubResource("SpriteFrames_fpdep")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame = 15
-frame_progress = 0.26529601216316223
+frame_progress = 0.265296
 
 [node name="westlakeCardSprite" type="Sprite2D" parent="."]
 position = Vector2(188, 331)

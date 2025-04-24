@@ -1,6 +1,6 @@
-[gd_scene load_steps=470 format=4 uid="uid://bj0nec5c3e7x3"]
+[gd_scene load_steps=470 format=3 uid="uid://bj0nec5c3e7x3"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://kato6vnma3bn" path="res://acts/full_game/research_arc/aviary/locations/outside_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://bgxwvtykpkdyk" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bhhv1xmofvci0" path="res://acts/full_game/research_arc/aviary/assets/animations/bird23/bird23_001.png" id="4"]
@@ -426,7 +426,7 @@
 [ext_resource type="Texture2D" uid="uid://do5p1lr20ocda" path="res://acts/full_game/research_arc/aviary/assets/bush2.png" id="424"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="425"]
 [ext_resource type="PackedScene" uid="uid://2gtenkv7rlvm" path="res://acts/full_game/research_arc/aviary/assets/closeups/incubation_closeup.tscn" id="426"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="427"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="427"]
 [ext_resource type="Texture2D" uid="uid://bxrpn5phv7elr" path="res://acts/full_game/research_arc/aviary/assets/scrapbgright.png" id="428"]
 [ext_resource type="Texture2D" uid="uid://q5omwuj35cxc" path="res://acts/full_game/research_arc/aviary/assets/pictogram3.png" id="429"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="430"]
@@ -436,7 +436,7 @@
 [ext_resource type="Resource" uid="uid://bpc68jm3kpt64" path="res://acts/full_game/research_arc/aviary/puzzles/trigger_puzzle_meta.tres" id="434"]
 [ext_resource type="Texture2D" uid="uid://byfwqabtknhca" path="res://acts/full_game/research_arc/aviary/assets/closeups/nest.png" id="435"]
 [ext_resource type="Texture2D" uid="uid://b0j2xmwg6ipbo" path="res://acts/full_game/research_arc/aviary/assets/closeups/shoe.png" id="436"]
-[ext_resource type="Script" path="res://shared/resources/puzzle_segment_unlock.gd" id="437"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="437"]
 [ext_resource type="Texture2D" uid="uid://dwy43qgu22ldi" path="res://acts/full_game/research_arc/aviary/assets/closeups/wristband.png" id="438"]
 [ext_resource type="Resource" uid="uid://b7t67nyu1kuma" path="res://acts/full_game/research_arc/aviary/locations/inside_meta.tres" id="439"]
 [ext_resource type="Texture2D" uid="uid://cmj4pdb6dqo7v" path="res://acts/full_game/research_arc/aviary/assets/pictogram1.png" id="440"]
@@ -1816,7 +1816,7 @@ linked_item_ref_id = 1012
 [sub_resource type="Resource" id="Resource_gqbx8"]
 script = ExtResource("437")
 puzzle_meta = ExtResource("434")
-segment_indices = [0]
+segment_indices = Array[int]([0])
 
 [sub_resource type="Resource" id="Resource_v2dew"]
 script = ExtResource("427")
@@ -1857,7 +1857,7 @@ scale = Vector2(39.1484, 24.7422)
 range_z_max = 0
 range_layer_max = 1
 texture = SubResource("GradientTexture2D_rrrqe")
-texture_scale = 0.800000011920929
+texture_scale = 0.8
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="."]
 position = Vector2(980, 224)
@@ -1869,13 +1869,13 @@ frame = 10
 position = Vector2(1749.19, 547.099)
 sprite_frames = SubResource("SpriteFrames_nw1iw")
 autoplay = "default"
-frame_progress = 0.8278319835662842
+frame_progress = 0.827832
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(668, 145)
 sprite_frames = SubResource("SpriteFrames_7235l")
 autoplay = "default"
-frame_progress = 0.8920549750328064
+frame_progress = 0.892055
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1137, 703)
@@ -1893,7 +1893,7 @@ frame = 15
 position = Vector2(675, 649)
 sprite_frames = SubResource("SpriteFrames_qic4x")
 autoplay = "default"
-frame_progress = 0.25311198830604553
+frame_progress = 0.253112
 
 [node name="Background2" type="Sprite2D" parent="."]
 position = Vector2(462, 661)
@@ -1905,7 +1905,7 @@ z_index = 1
 position = Vector2(1467, 460)
 sprite_frames = SubResource("SpriteFrames_ot1bk")
 autoplay = "default"
-frame_progress = 0.9547989964485168
+frame_progress = 0.954799
 
 [node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="."]
 position = Vector2(992, 548)
@@ -1917,7 +1917,7 @@ frame = 20
 position = Vector2(174, 401)
 sprite_frames = SubResource("SpriteFrames_inkoh")
 autoplay = "default"
-frame_progress = 0.20182399451732635
+frame_progress = 0.201824
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(918, 797)

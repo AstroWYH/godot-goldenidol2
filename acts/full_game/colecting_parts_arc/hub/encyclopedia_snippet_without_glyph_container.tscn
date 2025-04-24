@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://cvp80vxy43cc3"]
+[gd_scene load_steps=5 format=3 uid="uid://cvp80vxy43cc3"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cs5u74adjmxnp" path="res://acts/full_game/colecting_parts_arc/retreat/assets/sketches/snippets/encyclopedia/photo_lazarus.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://3wvncgieogod" path="res://acts/full_game/colecting_parts_arc/retreat/assets/sketches/snippets/encyclopedia/photo_idol.png" id="4"]

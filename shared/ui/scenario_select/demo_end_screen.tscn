@@ -1,14 +1,14 @@
-[gd_scene load_steps=13 format=4 uid="uid://xls314db5a7k"]
+[gd_scene load_steps=13 format=3 uid="uid://xls314db5a7k"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
+[ext_resource type="Script" uid="uid://dx8gan8gf58m5" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
 [ext_resource type="Texture2D" uid="uid://byfqp2r0ek84p" path="res://acts/demo/splashassets/museumbackground.png" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="5"]
 [ext_resource type="PackedScene" uid="uid://b6fjklireya5n" path="res://shared/ui/splash_screen/wishlist_button.tscn" id="6"]
 [ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="7"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="8"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="9"]
+[ext_resource type="Script" uid="uid://c7ivef8gafdr2" path="res://shared/ui/splash_screen/web_link_button.gd" id="8"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="9"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h3d75"]
 

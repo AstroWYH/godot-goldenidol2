@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://bansmg6uvhqru"]
+[gd_scene load_steps=13 format=3 uid="uid://bansmg6uvhqru"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://oiop63n05afs" path="res://acts/full_game/colecting_parts_arc/jail/assets/cell_puzzle/celspuzzle2.png" id="2"]

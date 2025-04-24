@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://hqqrli55ve5h"]
+[gd_scene load_steps=2 format=3 uid="uid://hqqrli55ve5h"]
 
-[ext_resource type="Script" path="res://shared/ui/ingame_language_switcher/ingame_language_switcher.gd" id="1"]
+[ext_resource type="Script" uid="uid://csj2qssvw3p00" path="res://shared/ui/ingame_language_switcher/ingame_language_switcher.gd" id="1"]
 
 [node name="IngameLanguageSwitcher" type="OptionButton"]
 offset_right = 245.0

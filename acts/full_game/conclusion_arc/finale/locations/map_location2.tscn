@@ -1,6 +1,6 @@
-[gd_scene load_steps=90 format=4 uid="uid://qoo478wgiu4d"]
+[gd_scene load_steps=90 format=3 uid="uid://qoo478wgiu4d"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://do6cjpsuv5yrc" path="res://acts/full_game/conclusion_arc/finale/locations/map_location2_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://vbwcvtmxbbtw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://nw2x3grs1wi1" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00001.png" id="4"]
@@ -51,7 +51,7 @@
 [ext_resource type="Texture2D" uid="uid://dlalpm6j3h2db" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00046.png" id="49"]
 [ext_resource type="Texture2D" uid="uid://d0fteabdx4qco" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00047.png" id="50"]
 [ext_resource type="Texture2D" uid="uid://8niia1k6iwsb" path="res://shared/ui/Cars.png" id="51"]
-[ext_resource type="Shader" path="res://acts/full_game/conclusion_arc/finale/locations/TrafficSlow.gdshader" id="52"]
+[ext_resource type="Shader" uid="uid://bhoyei1wigfv" path="res://acts/full_game/conclusion_arc/finale/locations/TrafficSlow.gdshader" id="52"]
 [ext_resource type="Texture2D" uid="uid://j3jcun03v0ad" path="res://acts/full_game/conclusion_arc/finale/assets/city2_mask.png" id="53"]
 [ext_resource type="Texture2D" uid="uid://tb8ygsgw8gie" path="res://acts/full_game/conclusion_arc/finale/assets/animations/map_van/van_000.png" id="54"]
 [ext_resource type="Texture2D" uid="uid://0pmkleo7blpy" path="res://acts/full_game/conclusion_arc/finale/assets/animations/map_van/van_001.png" id="55"]
@@ -361,7 +361,7 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_xxo2i"]
 _data = {
-"new_animation": SubResource("Animation_5pd3p")
+&"new_animation": SubResource("Animation_5pd3p")
 }
 
 [node name="Location" type="Node2D"]
@@ -375,7 +375,7 @@ sprite_frames = SubResource("SpriteFrames_fua6a")
 animation = &"ReflectionLoop"
 autoplay = "ReflectionLoop"
 frame = 21
-frame_progress = 0.21307000517845154
+frame_progress = 0.21307
 
 [node name="Traffic_regular" type="Node2D" parent="."]
 
@@ -500,7 +500,7 @@ texture = ExtResource("53")
 position = Vector2(406, 588)
 sprite_frames = SubResource("SpriteFrames_5eccv")
 autoplay = "default"
-frame_progress = 0.2652769982814789
+frame_progress = 0.265277
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -518,10 +518,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "GX4"
 
 [node name="Indicators" parent="Hotspots/BussSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/BussSpot/Indicators" index="0"]
 modulate = Color(0.289356, 0.534136, 0.347062, 1)
@@ -532,10 +532,10 @@ position = Vector2(-131.693, 72.6603)
 
 [node name="VanPanel" parent="Hotspots/BussSpot" instance=ExtResource("77")]
 layout_mode = 0
-offset_left = -1666.6800537109375
-offset_top = 11.037500381469727
-offset_right = -751.677001953125
-offset_bottom = 531.0369873046875
+offset_left = -1666.68
+offset_top = 11.0375
+offset_right = -751.677
+offset_bottom = 531.037
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(655.92, 1031.4)

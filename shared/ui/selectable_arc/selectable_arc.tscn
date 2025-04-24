@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://b6qgp2ocq687n"]
+[gd_scene load_steps=3 format=3 uid="uid://b6qgp2ocq687n"]
 
-[ext_resource type="Script" path="res://shared/ui/selectable_arc/selectable_arc.gd" id="1"]
+[ext_resource type="Script" uid="uid://b7mnltc0or1yt" path="res://shared/ui/selectable_arc/selectable_arc.gd" id="1"]
 [ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="2"]
 
 [node name="SelectableArc" type="Control"]

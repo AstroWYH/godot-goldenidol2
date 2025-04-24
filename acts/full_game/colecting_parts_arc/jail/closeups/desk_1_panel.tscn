@@ -1,8 +1,8 @@
-[gd_scene load_steps=13 format=4 uid="uid://cshjnt4br8m7v"]
+[gd_scene load_steps=13 format=3 uid="uid://cshjnt4br8m7v"]
 
 [ext_resource type="Texture2D" uid="uid://vlyxwkxtpebw" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/sketches.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Resource" uid="uid://k37thuiaskky" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/secret_message_puzzle_meta.tres" id="4"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="6"]
@@ -72,7 +72,7 @@ stretch_mode = 1
 [node name="Sprite2D6" type="Sprite2D" parent="LetterSpot/LetterPanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(287, 144)
-rotation = 3.0961999893188477
+rotation = 3.0962
 texture = ExtResource("6")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
@@ -80,7 +80,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D5" type="Sprite2D" parent="LetterSpot/LetterPanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(338, 684)
-rotation = -3.0835700035095215
+rotation = -3.08357
 scale = Vector2(1.4179, 1)
 texture = ExtResource("6")
 region_enabled = true
@@ -88,7 +88,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Sprite2D7" type="Sprite2D" parent="LetterSpot/LetterPanel/ClipboardSprite"]
 position = Vector2(437, 381)
-rotation = -0.01729469932615757
+rotation = -0.0172947
 scale = Vector2(1.08796, 1.08796)
 texture = ExtResource("6")
 region_enabled = true
@@ -128,7 +128,7 @@ offset_left = 65.0
 offset_top = 282.0
 offset_right = 260.0
 offset_bottom = 338.0
-rotation = -0.045296598225831985
+rotation = -0.0452966
 theme = ExtResource("7")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "prison_art_title1"
@@ -141,7 +141,7 @@ offset_left = 278.0
 offset_top = 557.0
 offset_right = 502.0
 offset_bottom = 668.0
-rotation = -0.2533400058746338
+rotation = -0.25334
 theme = ExtResource("7")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "prison_art_title2"
@@ -155,7 +155,7 @@ offset_left = 611.0
 offset_top = 431.0
 offset_right = 821.0
 offset_bottom = 477.0
-rotation = -0.47833898663520813
+rotation = -0.478339
 theme = ExtResource("7")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "prison_art_title3"

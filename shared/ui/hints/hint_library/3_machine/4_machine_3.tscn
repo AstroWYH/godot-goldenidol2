@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://yn6rsj5i0y83"]
+[gd_scene load_steps=3 format=3 uid="uid://yn6rsj5i0y83"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://b62ot101uqjh0" path="res://shared/ui/hints/hint_library/3_machine/machine_hub_device.png" id="2"]

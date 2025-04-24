@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=4 uid="uid://blyt8blb5jhn1"]
+[gd_scene load_steps=14 format=3 uid="uid://blyt8blb5jhn1"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]

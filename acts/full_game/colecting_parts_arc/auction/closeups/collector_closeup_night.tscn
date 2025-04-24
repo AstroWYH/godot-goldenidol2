@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://baer8cuad3idi"]
+[gd_scene load_steps=8 format=3 uid="uid://baer8cuad3idi"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://djvo2d5pua566" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/shadow/frame0000.png" id="2"]
@@ -45,7 +45,7 @@ autowrap_mode = 2
 position = Vector2(198, 283)
 sprite_frames = SubResource("SpriteFrames_6swma")
 autoplay = "default"
-frame_progress = 0.24124999344348907
+frame_progress = 0.24125
 
 [node name="Money2" type="Sprite2D" parent="."]
 position = Vector2(531.5, 294)

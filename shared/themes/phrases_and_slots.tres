@@ -1,64 +1,10 @@
-[gd_resource type="Theme" load_steps=137 format=3 uid="uid://lmlstub87nmg"]
-
-[ext_resource type="Texture2D" uid="uid://d347vaqlmi4tp" path="res://shared/ui/phrases_slots_visual/phrase_red.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://cnv6qn3ahlnx2" path="res://shared/ui/misc/frame_focus_white.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://dlsh4hk2gwfyy" path="res://shared/ui/phrases_slots_visual/phrase_blue.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://c47jnea72grgo" path="res://shared/ui/phrases_slots_visual/phrase_action_focus.png" id="4"]
-[ext_resource type="Texture2D" uid="uid://d04r1p8qhoj73" path="res://shared/ui/phrases_slots_visual/phrase_c_action.png" id="5"]
-[ext_resource type="Texture2D" uid="uid://bksw4c27e5gep" path="res://shared/ui/misc/frame_square_focus.png" id="6"]
-[ext_resource type="Texture2D" uid="uid://5e4etn6ep4p5" path="res://shared/ui/phrases_slots_visual/phrase_c_hover_action.png" id="7"]
-[ext_resource type="Texture2D" uid="uid://ia1mifbma203" path="res://shared/ui/phrases_slots_visual/phrase_c_name.png" id="8"]
-[ext_resource type="Texture2D" uid="uid://cbngw8fgbb2jd" path="res://shared/ui/phrases_slots_visual/phrase_c_hover_name.png" id="9"]
-[ext_resource type="Texture2D" uid="uid://cq8ykpe5vnhur" path="res://shared/ui/phrases_slots_visual/phrase_c_numeral.png" id="10"]
-[ext_resource type="Texture2D" uid="uid://c6j3cci34dcx2" path="res://shared/ui/phrases_slots_visual/phrase_c_hover_numeral.png" id="11"]
-[ext_resource type="Texture2D" uid="uid://cjhrseaq34qx7" path="res://shared/ui/phrases_slots_visual/phrase_c_object.png" id="12"]
-[ext_resource type="Texture2D" uid="uid://bihb03vhd540v" path="res://shared/ui/phrases_slots_visual/phrase_c_hover_object.png" id="13"]
-[ext_resource type="Texture2D" uid="uid://ud1fampkvu1t" path="res://shared/ui/phrases_slots_visual/phrase_object_action_over.png" id="14"]
-[ext_resource type="Texture2D" uid="uid://ci440kp2cfc45" path="res://shared/ui/phrases_slots_visual/phrase_object_action_normal.png" id="15"]
-[ext_resource type="Texture2D" uid="uid://bnu8kgw641rf6" path="res://shared/ui/phrases_slots_visual/phrase_object_name_over.png" id="16"]
-[ext_resource type="Texture2D" uid="uid://bluncit3xjvjh" path="res://shared/ui/phrases_slots_visual/phrase_object_name_normal.png" id="17"]
-[ext_resource type="Texture2D" uid="uid://cd5tq0pq8saye" path="res://shared/ui/phrases_slots_visual/phrase_object_special_over.png" id="18"]
-[ext_resource type="Texture2D" uid="uid://c5e3p66qr22qn" path="res://shared/ui/phrases_slots_visual/phrase_object_special_normal.png" id="19"]
-[ext_resource type="Texture2D" uid="uid://chsh0gtelfcls" path="res://shared/ui/phrases_slots_visual/phrase_c_special.png" id="20"]
-[ext_resource type="Texture2D" uid="uid://cgl8jbqbwxjjt" path="res://shared/ui/phrases_slots_visual/phrase_c_hover_special.png" id="21"]
-[ext_resource type="Texture2D" uid="uid://dr8awfim2hh1y" path="res://shared/ui/phrases_slots_visual/phrase_orange_local.png" id="22"]
-[ext_resource type="Texture2D" uid="uid://8ps5s1xpyyv" path="res://shared/ui/phrases_slots_visual/phrase_local_focus.png" id="23"]
-[ext_resource type="Texture2D" uid="uid://b7aygx0y1he8k" path="res://shared/ui/phrases_slots_visual/phrase_name_focus.png" id="24"]
-[ext_resource type="Texture2D" uid="uid://d4j3xpi2gpctt" path="res://shared/ui/phrases_slots_visual/phrase_green.png" id="25"]
-[ext_resource type="Texture2D" uid="uid://dmybtiwrdbev" path="res://shared/ui/phrases_slots_visual/phrase_numeral_focus.png" id="26"]
-[ext_resource type="Texture2D" uid="uid://briglr4byl07n" path="res://shared/ui/phrases_slots_visual/phrase_mud.png" id="27"]
-[ext_resource type="Texture2D" uid="uid://4x3022rgrpb5" path="res://shared/ui/phrases_slots_visual/phrase_object_focus.png" id="28"]
-[ext_resource type="Texture2D" uid="uid://oqdjkbyutoiv" path="res://shared/ui/phrases_slots_visual/phrase_round_object_action_over.png" id="29"]
-[ext_resource type="Texture2D" uid="uid://beew1eof3tihx" path="res://shared/ui/phrases_slots_visual/phrase_round_object_name_over.png" id="30"]
-[ext_resource type="Texture2D" uid="uid://bjqek5v8pxstg" path="res://shared/ui/phrases_slots_visual/phrase_round_object_name.png" id="31"]
-[ext_resource type="Texture2D" uid="uid://chqr1rwmm5f33" path="res://shared/ui/phrases_slots_visual/phrase_round_object_special_over.png" id="32"]
-[ext_resource type="Texture2D" uid="uid://b4mbi3y4lg2b7" path="res://shared/ui/phrases_slots_visual/phrase_round_object_special.png" id="33"]
-[ext_resource type="Texture2D" uid="uid://chop2axgdsswr" path="res://shared/ui/phrases_slots_visual/phrase_grey.png" id="34"]
-[ext_resource type="Texture2D" uid="uid://ehw2pbipxeb0" path="res://shared/ui/phrases_slots_visual/phrase_special_focus.png" id="35"]
-[ext_resource type="Texture2D" uid="uid://c8pjtwl164oka" path="res://shared/ui/phrases_slots_visual/slot_blue.png" id="36"]
-[ext_resource type="Texture2D" uid="uid://doudwu2kbh13j" path="res://shared/ui/phrases_slots_visual/slot_c_action.png" id="37"]
-[ext_resource type="Texture2D" uid="uid://jfeuxxw0jhqb" path="res://shared/ui/phrases_slots_visual/slot_c_name.png" id="38"]
-[ext_resource type="Texture2D" uid="uid://bbrss4o8wryme" path="res://shared/ui/phrases_slots_visual/slot_c_numeral.png" id="39"]
-[ext_resource type="Texture2D" uid="uid://byrl31q050me" path="res://shared/ui/phrases_slots_visual/slot_c_object.png" id="40"]
-[ext_resource type="Texture2D" uid="uid://7b6wk7b5crwi" path="res://shared/ui/phrases_slots_visual/slot_object_action.png" id="41"]
-[ext_resource type="Texture2D" uid="uid://irtixnyejbim" path="res://shared/ui/phrases_slots_visual/slot_object_name.png" id="42"]
-[ext_resource type="Texture2D" uid="uid://cterrab0dkdtp" path="res://shared/ui/phrases_slots_visual/slot_object_special.png" id="43"]
-[ext_resource type="Texture2D" uid="uid://xmi14of1bvv2" path="res://shared/ui/phrases_slots_visual/slot_c_special.png" id="44"]
-[ext_resource type="Texture2D" uid="uid://c6hbbcuk57i64" path="res://shared/ui/phrases_slots_visual/slot_orange_local.png" id="45"]
-[ext_resource type="Texture2D" uid="uid://c0ytsl5l7u0co" path="res://shared/ui/phrases_slots_visual/slot_red.png" id="46"]
-[ext_resource type="Texture2D" uid="uid://dcdscqwsl8ti5" path="res://shared/ui/phrases_slots_visual/slot_green.png" id="47"]
-[ext_resource type="Texture2D" uid="uid://brlfxfsl5l7gc" path="res://shared/ui/phrases_slots_visual/slot_mud.png" id="48"]
-[ext_resource type="Texture2D" uid="uid://deqbhw08pj4v3" path="res://shared/ui/phrases_slots_visual/slot_round_object_action.png" id="49"]
-[ext_resource type="Texture2D" uid="uid://dnubvonxybh0f" path="res://shared/ui/phrases_slots_visual/slot_round_object_name.png" id="50"]
-[ext_resource type="Texture2D" uid="uid://bd71bx10kypg7" path="res://shared/ui/phrases_slots_visual/slot_round_object_special.png" id="51"]
-[ext_resource type="Texture2D" uid="uid://n5251acuao4a" path="res://shared/ui/phrases_slots_visual/slot_grey.png" id="52"]
+[gd_resource type="Theme" load_steps=85 format=3 uid="uid://lmlstub87nmg"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_b8p3m"]
 content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("1")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -69,7 +15,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("2")
 texture_margin_left = 24.0
 texture_margin_top = 24.0
 texture_margin_right = 24.0
@@ -94,7 +39,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("3")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -105,7 +49,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("4")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -116,7 +59,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("5")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -127,7 +69,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("6")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -142,7 +83,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("7")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -153,7 +93,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("8")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -164,7 +103,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("9")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -175,7 +113,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("10")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -186,7 +123,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("11")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -197,7 +133,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("12")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -208,7 +143,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("13")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -219,7 +153,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("14")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -230,7 +163,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("14")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -241,7 +173,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("15")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -252,7 +183,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("14")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -263,7 +193,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("16")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -274,7 +203,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("16")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -285,7 +213,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("17")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -296,7 +223,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("16")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -307,7 +233,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("18")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -318,7 +243,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("18")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -329,7 +253,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("19")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -340,7 +263,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("18")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -351,7 +273,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("20")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -362,7 +283,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("21")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -373,7 +293,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("22")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -384,7 +303,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("23")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -395,7 +313,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("1")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -406,7 +323,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("24")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -417,7 +333,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("25")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -428,7 +343,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("26")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -439,7 +353,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("27")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -450,7 +363,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("28")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -461,7 +373,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("29")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -472,7 +383,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("29")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -483,7 +393,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("29")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -494,7 +403,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("30")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -505,7 +413,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("30")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -516,7 +423,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("31")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -527,7 +433,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("30")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -538,7 +443,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("32")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -549,7 +453,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("32")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -560,7 +463,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("33")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -571,7 +473,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("32")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -582,7 +483,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("34")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -593,7 +493,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("35")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -604,7 +503,6 @@ content_margin_left = 10.0
 content_margin_top = 0.0
 content_margin_right = 10.0
 content_margin_bottom = 0.0
-texture = ExtResource("36")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -615,7 +513,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("37")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -626,7 +523,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("38")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -637,7 +533,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("39")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -648,54 +543,40 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("40")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
 texture_margin_bottom = 20.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yqllf"]
-texture = ExtResource("41")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ptvvt"]
-texture = ExtResource("41")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5yt5p"]
-texture = ExtResource("41")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_333ic"]
-texture = ExtResource("41")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_on5ur"]
-texture = ExtResource("42")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wkdfo"]
-texture = ExtResource("42")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u17mn"]
-texture = ExtResource("42")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_v31o5"]
-texture = ExtResource("42")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_c7t1c"]
-texture = ExtResource("43")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8jjvo"]
-texture = ExtResource("43")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nhwvq"]
-texture = ExtResource("43")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fb8hl"]
-texture = ExtResource("43")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8uput"]
 content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("44")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -706,7 +587,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("45")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -717,7 +597,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("46")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -728,7 +607,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("47")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -739,7 +617,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("48")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -750,7 +627,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("49")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -761,7 +637,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("49")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -772,7 +647,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("49")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -783,7 +657,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("49")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -794,7 +667,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("50")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -805,7 +677,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("50")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -816,7 +687,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("50")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -827,7 +697,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("50")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -838,7 +707,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("51")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -849,7 +717,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("51")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -860,7 +727,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("51")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -871,7 +737,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("51")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0
@@ -882,7 +747,6 @@ content_margin_left = 0.0
 content_margin_top = 0.0
 content_margin_right = 0.0
 content_margin_bottom = 0.0
-texture = ExtResource("52")
 texture_margin_left = 20.0
 texture_margin_top = 20.0
 texture_margin_right = 20.0

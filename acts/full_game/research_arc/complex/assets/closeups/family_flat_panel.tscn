@@ -1,4 +1,4 @@
-[gd_scene load_steps=210 format=4 uid="uid://dr7eoyh0srwvg"]
+[gd_scene load_steps=210 format=3 uid="uid://dr7eoyh0srwvg"]
 
 [ext_resource type="Texture2D" uid="uid://iv56vmt34rtc" path="res://acts/full_game/research_arc/complex/assets/closeups/01_a4_winthorp.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bfu26kpcqstv" path="res://acts/full_game/research_arc/complex/assets/animations/Baby/BABY_00000.png" id="2"]
@@ -850,13 +850,13 @@ centered = false
 position = Vector2(300, 293)
 sprite_frames = SubResource("SpriteFrames_70wf1")
 autoplay = "default"
-frame_progress = 0.15835300087928772
+frame_progress = 0.158353
 
 [node name="Mama" type="AnimatedSprite2D" parent="01A4Winthorp"]
 position = Vector2(434, 251)
 sprite_frames = SubResource("SpriteFrames_aouku")
 autoplay = "default"
-frame_progress = 0.5985720157623291
+frame_progress = 0.598572
 
 [node name="ConstanceSpot" parent="." instance=ExtResource("70")]
 layout_mode = 1
@@ -891,7 +891,7 @@ position = Vector2(222, 249)
 scale = Vector2(1.07, 1)
 sprite_frames = SubResource("SpriteFrames_tunoa")
 autoplay = "default"
-frame_progress = 0.5564990043640137
+frame_progress = 0.556499
 
 [node name="FridgeNoteSpot" parent="." instance=ExtResource("70")]
 layout_mode = 1
@@ -922,14 +922,14 @@ stretch_mode = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="FridgeNoteSpot/FridgeNotePanel/Sprite2D"]
 position = Vector2(126, 20)
-rotation = 3.138849973678589
+rotation = 3.13885
 texture = ExtResource("126")
 region_enabled = true
 region_rect = Rect2(114.26, 96.6527, 49.177, 39.9563)
 
 [node name="Sprite2D" type="Sprite2D" parent="FridgeNoteSpot/FridgeNotePanel/Sprite2D/Sprite2D"]
 position = Vector2(-50.3172, -158.132)
-rotation = 3.1421799659729004
+rotation = 3.14218
 scale = Vector2(0.930079, 1)
 texture = ExtResource("127")
 region_enabled = true
@@ -970,7 +970,7 @@ scale = Vector2(0.782808, 0.782808)
 sprite_frames = SubResource("SpriteFrames_656fu")
 animation = &"LoopNew"
 autoplay = "LoopNew"
-frame_progress = 0.7352060079574585
+frame_progress = 0.735206
 
 [node name="PatienceSpeech" type="Label" parent="PatienceSpot/PatiencePanel"]
 layout_mode = 0

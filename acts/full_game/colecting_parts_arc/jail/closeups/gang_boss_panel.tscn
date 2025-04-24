@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://bfemk47pmg25m"]
+[gd_scene load_steps=53 format=3 uid="uid://bfemk47pmg25m"]
 
 [ext_resource type="Texture2D" uid="uid://c8l1dh7clkgi5" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_00.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://3moie1q84vd6" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/boss/bos-animation_01.png" id="2"]
@@ -211,7 +211,7 @@ mouse_filter = 2
 position = Vector2(248, 321)
 sprite_frames = SubResource("SpriteFrames_7nqv1")
 autoplay = "default"
-frame_progress = 0.8976060152053833
+frame_progress = 0.897606
 
 [node name="dvasa7" type="GPUParticles2D" parent="GangBossSprite"]
 material = SubResource("CanvasItemMaterial_mtfrj")
@@ -221,8 +221,8 @@ amount = 32
 process_material = ExtResource("33")
 texture = ExtResource("34")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="CoinSprite" type="Sprite2D" parent="."]
@@ -260,4 +260,4 @@ mouse_filter = 2
 position = Vector2(171, 175)
 sprite_frames = SubResource("SpriteFrames_7sjpn")
 autoplay = "default"
-frame_progress = 0.59757399559021
+frame_progress = 0.597574

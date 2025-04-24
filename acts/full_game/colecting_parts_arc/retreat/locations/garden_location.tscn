@@ -1,6 +1,6 @@
-[gd_scene load_steps=51 format=4 uid="uid://bjybh15ll4bgx"]
+[gd_scene load_steps=51 format=3 uid="uid://bjybh15ll4bgx"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dd121dfs1p3jv" path="res://acts/full_game/colecting_parts_arc/retreat/locations/garden_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ic2x2e0yqyvo" path="res://acts/full_game/colecting_parts_arc/retreat/assets/gates_for_translations/gates_default.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dfvjc6jjhw8vx" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_1.png" id="4"]
@@ -36,7 +36,7 @@
 [ext_resource type="Texture2D" uid="uid://c2j8xe6cw1xfw" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_31.png" id="34"]
 [ext_resource type="Texture2D" uid="uid://6j3p4nv2dfoh" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/colector/rake_lady_32.png" id="35"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="36"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="37"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="37"]
 [ext_resource type="PackedScene" uid="uid://b33dtjeg8loxx" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/radio_panel.tscn" id="38"]
 [ext_resource type="PackedScene" uid="uid://c3rpotae8ybnm" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/collector_panel.tscn" id="39"]
 [ext_resource type="PackedScene" uid="uid://cuwqayd7naar5" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/ashes_panel.tscn" id="40"]
@@ -48,7 +48,7 @@ loop_mode = 1
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fmlpq"]
 _data = {
-"new_animation": SubResource("Animation_fjmmo")
+&"new_animation": SubResource("Animation_fjmmo")
 }
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_a3dis"]
@@ -197,7 +197,7 @@ autoplay = "new_animation"
 position = Vector2(663, 785)
 sprite_frames = SubResource("SpriteFrames_a3dis")
 autoplay = "default"
-frame_progress = 0.5020959973335266
+frame_progress = 0.502096
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -272,7 +272,7 @@ offset_bottom = 765.0
 
 [node name="Highlighter" parent="Hotspots/ToInsideSpot/Indicators" index="0"]
 position = Vector2(1.5, -58.5)
-rotation = -1.5707999467849731
+rotation = -1.5708
 
 [node name="FocusIndicator" parent="Hotspots/ToInsideSpot/Indicators" index="1"]
 position = Vector2(2.5, -58.5)

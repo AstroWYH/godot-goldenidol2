@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=4 uid="uid://nckjpwf77nuv"]
+[gd_scene load_steps=41 format=3 uid="uid://nckjpwf77nuv"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cv5ih3bpgrq7k" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/jeremy2/jeremy-animation_00.png" id="2"]
@@ -167,7 +167,7 @@ position = Vector2(641, 287.187)
 scale = Vector2(0.939252, 0.939252)
 sprite_frames = SubResource("SpriteFrames_i8m0i")
 autoplay = "default"
-frame_progress = 0.46022000908851624
+frame_progress = 0.46022
 
 [node name="dvasa7" type="GPUParticles2D" parent="GuardSprite"]
 material = SubResource("CanvasItemMaterial_mtfrj")
@@ -177,8 +177,8 @@ amount = 32
 process_material = ExtResource("34")
 texture = ExtResource("35")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="HandgunSprite" type="Sprite2D" parent="."]
@@ -187,7 +187,7 @@ texture = ExtResource("36")
 
 [node name="HandgunSprite2" type="Sprite2D" parent="."]
 position = Vector2(212, 368)
-rotation = 0.6930959820747375
+rotation = 0.693096
 texture = ExtResource("37")
 
 [node name="RifleSpot" parent="." instance=ExtResource("38")]

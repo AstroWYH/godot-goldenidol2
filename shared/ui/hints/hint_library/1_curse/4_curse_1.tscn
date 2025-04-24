@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4]
+[gd_scene load_steps=3 format=3 uid="uid://b1rfv04omwnoc"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cy0a2p65lsonw" path="res://shared/ui/hints/hint_library/1_curse/foundation.png" id="2"]

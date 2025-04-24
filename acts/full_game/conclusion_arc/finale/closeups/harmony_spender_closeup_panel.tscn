@@ -1,4 +1,4 @@
-[gd_scene load_steps=85 format=4 uid="uid://crniowyo6eye4"]
+[gd_scene load_steps=85 format=3 uid="uid://crniowyo6eye4"]
 
 [ext_resource type="Texture2D" uid="uid://bhvolko3rg210" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/timsplace.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cnohq5e8566ck" path="res://acts/full_game/conclusion_arc/finale/assets/animations/tim_drinks_v2/FinaleTimDrinking_00000.png" id="2"]
@@ -341,10 +341,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "1Hp"
 
 [node name="Indicators" parent="SpenderSpot" index="0"]
-offset_left = -26.832000732421875
-offset_top = 58.61240005493164
-offset_right = -26.832000732421875
-offset_bottom = 58.61240005493164
+offset_left = -26.832
+offset_top = 58.6124
+offset_right = -26.832
+offset_bottom = 58.6124
 
 [node name="Highlighter" parent="SpenderSpot/Indicators" index="0"]
 modulate = Color(0.389706, 0.287792, 0.189467, 1)
@@ -378,7 +378,7 @@ sprite_frames = SubResource("SpriteFrames_ins2w")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame = 21
-frame_progress = 0.6360499858856201
+frame_progress = 0.63605
 
 [node name="Key" type="Sprite2D" parent="SpenderSpot/SpenderPanel"]
 position = Vector2(87.408, 413.312)
@@ -401,19 +401,19 @@ texture = ExtResource("80")
 
 [node name="FlaskSpot" parent="SpenderSpot/SpenderPanel" instance=ExtResource("38")]
 layout_mode = 1
-offset_left = 41.682899475097656
-offset_top = 201.3820037841797
-offset_right = -576.3170166015625
-offset_bottom = -152.6179962158203
+offset_left = 41.6829
+offset_top = 201.382
+offset_right = -576.317
+offset_bottom = -152.618
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "L_Q"
 text = "FINALE_WHISKEY_TOOLTIP"
 
 [node name="Indicators" parent="SpenderSpot/SpenderPanel/FlaskSpot" index="0"]
-offset_left = -26.832000732421875
-offset_top = 58.61240005493164
-offset_right = -26.832000732421875
-offset_bottom = 58.61240005493164
+offset_left = -26.832
+offset_top = 58.6124
+offset_right = -26.832
+offset_bottom = 58.6124
 
 [node name="Highlighter" parent="SpenderSpot/SpenderPanel/FlaskSpot/Indicators" index="0"]
 modulate = Color(0.597789, 0.665382, 0.717315, 1)
@@ -424,18 +424,18 @@ position = Vector2(0.0608628, -31.9984)
 
 [node name="PinCodeSpot" parent="SpenderSpot/SpenderPanel" instance=ExtResource("38")]
 layout_mode = 1
-offset_left = 274.6830139160156
-offset_top = 250.3820037841797
-offset_right = -355.3169860839844
-offset_bottom = -150.6179962158203
+offset_left = 274.683
+offset_top = 250.382
+offset_right = -355.317
+offset_bottom = -150.618
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Gbk"
 
 [node name="Indicators" parent="SpenderSpot/SpenderPanel/PinCodeSpot" index="0"]
-offset_left = -4.951479911804199
-offset_top = 31.205900192260742
-offset_right = -4.951479911804199
-offset_bottom = 31.205900192260742
+offset_left = -4.95148
+offset_top = 31.2059
+offset_right = -4.95148
+offset_bottom = 31.2059
 
 [node name="Highlighter" parent="SpenderSpot/SpenderPanel/PinCodeSpot/Indicators" index="0"]
 modulate = Color(0.878157, 0.833896, 0.575351, 1)
@@ -457,10 +457,10 @@ texture = ExtResource("81")
 
 [node name="Names" type="Label" parent="SpenderSpot/SpenderPanel/PinCodeSpot/NotePanel"]
 layout_mode = 0
-offset_left = 124.36199951171875
-offset_top = 189.6580047607422
-offset_right = 331.36199951171875
-offset_bottom = 252.6580047607422
+offset_left = 124.362
+offset_top = 189.658
+offset_right = 331.362
+offset_bottom = 252.658
 theme = ExtResource("82")
 theme_override_font_sizes/font_size = 50
 text = "1 5 2 6 9"
@@ -468,19 +468,19 @@ autowrap_mode = 2
 
 [node name="Bottlespot2" parent="SpenderSpot/SpenderPanel" instance=ExtResource("38")]
 layout_mode = 1
-offset_left = 177.68299865722656
-offset_top = 236.3820037841797
-offset_right = -457.3169860839844
-offset_bottom = -24.618000030517578
+offset_left = 177.683
+offset_top = 236.382
+offset_right = -457.317
+offset_bottom = -24.618
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Zcq"
 text = "FINALE_SPOILED_SODA_TOOLTIP"
 
 [node name="Indicators" parent="SpenderSpot/SpenderPanel/Bottlespot2" index="0"]
-offset_left = 23.922800064086914
-offset_top = 32.63629913330078
-offset_right = 23.922800064086914
-offset_bottom = 32.63629913330078
+offset_left = 23.9228
+offset_top = 32.6363
+offset_right = 23.9228
+offset_bottom = 32.6363
 
 [node name="Highlighter" parent="SpenderSpot/SpenderPanel/Bottlespot2/Indicators" index="0"]
 modulate = Color(0.88, 0.51964, 0.0792, 1)

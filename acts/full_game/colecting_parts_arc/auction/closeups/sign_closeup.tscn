@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://dqwdpr8jvunh7"]
+[gd_scene load_steps=4 format=3 uid="uid://dqwdpr8jvunh7"]
 
 [ext_resource type="Texture2D" uid="uid://dv4okxnupnvx1" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/poster.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]

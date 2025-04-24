@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://b7ee76600k8pk"]
+[gd_scene load_steps=2 format=3 uid="uid://b7ee76600k8pk"]
 
-[ext_resource type="Script" path="res://shared/ui/in_game_menu/scenario_reset_cover/scenario_reset_cover.gd" id="1"]
+[ext_resource type="Script" uid="uid://lxsyded4ijkq" path="res://shared/ui/in_game_menu/scenario_reset_cover/scenario_reset_cover.gd" id="1"]
 
 [node name="ScenarioResetCover" type="CanvasLayer"]
 layer = 99

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://bwf6jyxckwxw5"]
+[gd_scene load_steps=7 format=3 uid="uid://bwf6jyxckwxw5"]
 
 [ext_resource type="Texture2D" uid="uid://cylmwadqcund5" path="res://acts/full_game/conclusion_arc/finale/assets/orange.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://xiw5kt55lc8u" path="res://acts/full_game/conclusion_arc/finale/assets/clockmarker.png" id="2"]

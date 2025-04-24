@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=4 uid="uid://dgvi5egu46p4d"]
+[gd_scene load_steps=5 format=3 uid="uid://dgvi5egu46p4d"]
 
 [ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/phrase/phrase.gd" id="2"]
+[ext_resource type="Script" uid="uid://cws2nwrpdymwa" path="res://shared/ui/phrase/phrase.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://bv53uxmxt560k" path="res://shared/ui/draggable/draggable.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://blm2kkrl7bg3v" path="res://shared/puzzle/puzzle_piece/puzzle_piece.tscn" id="4"]
 

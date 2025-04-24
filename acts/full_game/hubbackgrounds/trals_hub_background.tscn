@@ -1,4 +1,4 @@
-[gd_scene load_steps=207 format=4 uid="uid://c6n7yv4rpubv3"]
+[gd_scene load_steps=207 format=3 uid="uid://c6n7yv4rpubv3"]
 
 [ext_resource type="Texture2D" uid="uid://dhvaqa28856g5" path="res://acts/full_game/hubbackgrounds/assets/testscreen2.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dbefj12lqdrl6" path="res://acts/full_game/hubbackgrounds/assets/talentbw/concludion_000.png" id="2"]
@@ -866,21 +866,21 @@ position = Vector2(1269, 359)
 sprite_frames = SubResource("SpriteFrames_igwat")
 animation = &"c"
 autoplay = "bw"
-frame_progress = 0.9911800026893616
+frame_progress = 0.99118
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(692, 361)
 sprite_frames = SubResource("SpriteFrames_fp3bs")
 animation = &"c"
 autoplay = "bw"
-frame_progress = 0.3619759976863861
+frame_progress = 0.361976
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(725, 814)
 sprite_frames = SubResource("SpriteFrames_2isog")
 animation = &"c"
 autoplay = "bw"
-frame_progress = 0.1026109978556633
+frame_progress = 0.102611
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(1230, 793)

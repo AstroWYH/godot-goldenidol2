@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://cg5ufjv3sk5n1"]
+[gd_scene load_steps=2 format=3 uid="uid://cg5ufjv3sk5n1"]
 
 [ext_resource type="Texture2D" uid="uid://dvdqukyynxakh" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/empty.png" id="1"]
 

@@ -1,8 +1,8 @@
-[gd_scene load_steps=18 format=4 uid="uid://dob41mbls8ywc"]
+[gd_scene load_steps=18 format=3 uid="uid://dob41mbls8ywc"]
 
 [ext_resource type="Texture2D" uid="uid://dn8iic25l4h3n" path="res://acts/full_game/research_arc/complex/assets/closeups/06_b3_bird.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="5"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
@@ -81,7 +81,7 @@ stretch_mode = 1
 [node name="Sprite2D" type="Sprite2D" parent="CheyenneScheduleSpot/CheyenneSchedulePanel/Sprite2D"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(169.139, 291)
-rotation = 3.1215500831604004
+rotation = 3.12155
 scale = Vector2(0.721913, 0.721913)
 texture = ExtResource("5")
 region_enabled = true
@@ -90,7 +90,7 @@ region_rect = Rect2(132.587, 0, 467.413, 380.606)
 [node name="Sprite2D2" type="Sprite2D" parent="CheyenneScheduleSpot/CheyenneSchedulePanel/Sprite2D"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(419, 239)
-rotation = 0.03368400037288666
+rotation = 0.033684
 scale = Vector2(0.721913, 0.721913)
 texture = ExtResource("5")
 region_enabled = true
@@ -150,7 +150,7 @@ stretch_mode = 1
 [node name="Sprite2D" type="Sprite2D" parent="CheyenneLetterSpot/CheyenneLetterPanel/Sprite2D"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(301, 202)
-rotation = 0.17294900119304657
+rotation = 0.172949
 scale = Vector2(1.09446, 0.96072)
 texture = ExtResource("5")
 region_enabled = true
@@ -158,7 +158,7 @@ region_rect = Rect2(132.587, 0, 467.413, 380.606)
 
 [node name="PostitNoteV2" type="Sprite2D" parent="CheyenneLetterSpot/CheyenneLetterPanel"]
 position = Vector2(505.772, 337.636)
-rotation = 0.03665189817547798
+rotation = 0.0366519
 scale = Vector2(0.419399, 0.419399)
 texture = ExtResource("8")
 
@@ -180,7 +180,7 @@ offset_left = 445.0
 offset_top = 257.0
 offset_right = 579.0
 offset_bottom = 409.0
-rotation = 0.07525189965963364
+rotation = 0.0752519
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_fonts/font = ExtResource("9")
 text = "COMPLEX_CHEYENNE_WALL_NOTE_2"
@@ -217,15 +217,15 @@ texture = ExtResource("10")
 
 [node name="SkewText2" type="Node2D" parent="BooksSpot/BooksPanel"]
 position = Vector2(49, 131)
-rotation = 0.034906599670648575
-skew = -0.23561899363994598
+rotation = 0.0349066
+skew = -0.235619
 
 [node name="BookTitleText2" type="Label" parent="BooksSpot/BooksPanel/SkewText2"]
-offset_left = 2.0154199600219727
-offset_top = -0.07178559899330139
-offset_right = 250.01499938964844
-offset_bottom = 45.928199768066406
-rotation = 0.19621700048446655
+offset_left = 2.01542
+offset_top = -0.0717856
+offset_right = 250.015
+offset_bottom = 45.9282
+rotation = 0.196217
 theme_override_colors/font_color = Color(0.077911, 0.184461, 0.0956906, 1)
 theme_override_font_sizes/font_size = 18
 text = "COMPLEX_BOOK_TITLE_1"
@@ -235,15 +235,15 @@ autowrap_mode = 3
 
 [node name="SkewText3" type="Node2D" parent="BooksSpot/BooksPanel"]
 position = Vector2(54, 225)
-rotation = -0.022689299657940865
-skew = -0.14137199521064758
+rotation = -0.0226893
+skew = -0.141372
 
 [node name="BookTitleText1" type="Label" parent="BooksSpot/BooksPanel/SkewText3"]
-offset_left = -2.494570016860962
-offset_top = -3.098210096359253
-offset_right = 263.5050048828125
-offset_bottom = 45.901798248291016
-rotation = 0.11125499755144119
+offset_left = -2.49457
+offset_top = -3.09821
+offset_right = 263.505
+offset_bottom = 45.9018
+rotation = 0.111255
 theme = ExtResource("6")
 theme_override_colors/font_color = Color(0.0116357, 0.128258, 0.2041, 1)
 theme_override_font_sizes/font_size = 18

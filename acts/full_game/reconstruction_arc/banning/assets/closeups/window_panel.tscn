@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=4 uid="uid://bgk7i4lok0xw1"]
+[gd_scene load_steps=92 format=3 uid="uid://bgk7i4lok0xw1"]
 
 [ext_resource type="Texture2D" uid="uid://djij8fqnpcjem" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/window.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://d1allj7i2m6a0" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/window/window_000.png" id="2"]
@@ -80,7 +80,7 @@
 [ext_resource type="Texture2D" uid="uid://c1y8k4q1clrhr" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/badge1.png" id="78"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="79"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="80"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="81"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="81"]
 [ext_resource type="Texture2D" uid="uid://b2agpmei1ustt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/mikenote_small.png" id="82"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="83"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="84"]
@@ -354,7 +354,7 @@ texture = ExtResource("1")
 position = Vector2(135, -137)
 sprite_frames = SubResource("SpriteFrames_i0wet")
 autoplay = "default"
-frame_progress = 0.555312991142273
+frame_progress = 0.555313
 
 [node name="JackSpot" parent="." instance=ExtResource("40")]
 layout_mode = 1
@@ -377,7 +377,7 @@ offset_bottom = 506.0
 position = Vector2(224, 333)
 sprite_frames = SubResource("SpriteFrames_2r1r6")
 autoplay = "default"
-frame_progress = 0.15380200743675232
+frame_progress = 0.153802
 
 [node name="JackSpeechLabel" type="Label" parent="JackSpot/JackPanel"]
 layout_mode = 0
@@ -449,7 +449,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(196, 240)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("84")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -457,7 +457,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="JackSpot/JackPanel/ScheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(180, 406)
-rotation = 6.395480155944824
+rotation = 6.39548
 scale = Vector2(0.807298, 1)
 texture = ExtResource("84")
 region_enabled = true
@@ -481,7 +481,7 @@ offset_left = 149.0
 offset_top = 376.0
 offset_right = 360.0
 offset_bottom = 473.0
-rotation = -0.3839719891548157
+rotation = -0.383972
 theme = ExtResource("79")
 theme_override_colors/font_color = Color(0.835294, 0, 0, 1)
 theme_override_font_sizes/font_size = 22

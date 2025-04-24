@@ -1,8 +1,9 @@
-[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=4 format=4 uid="uid://bfyf5fc034jjg"]
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=5 format=3 uid="uid://bfyf5fc034jjg"]
 
 [ext_resource type="Texture2D" uid="uid://blvd2il5u5ua3" path="res://shared/ui/Icons/ICO_0036_OPIG_plan.png" id="1"]
-[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="2"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="2"]
 [ext_resource type="Resource" uid="uid://dvxsnr4gho5yy" path="res://acts/full_game/conclusion_arc/finale/puzzles/finale_scroll_idol.tres" id="3"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="4_mi3hl"]
 
 [resource]
 script = ExtResource("2")
@@ -12,9 +13,9 @@ puzzle_icon = ExtResource("1")
 arc_puzzle = false
 locked_by_default = false
 hide_card_when_locked = false
-unlocks_puzzles_on_solve = [ExtResource("3")]
-unlocks_segments_on_solve = []
+unlocks_puzzles_on_solve = Array[ExtResource("2")]([ExtResource("3")])
+unlocks_segments_on_solve = Array[ExtResource("4_mi3hl")]([])
 escalate_music_on_solve = false
 escalation_level = 0
 segmentation_mode = 0
-specified_segments = []
+specified_segments = Array[int]([])

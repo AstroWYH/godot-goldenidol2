@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://db8wcs4nstgyb"]
+[gd_scene load_steps=3 format=3 uid="uid://db8wcs4nstgyb"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://mu2smspyona8" path="res://shared/ui/hints/hint_library/1_curse/bridge_identity_1.png" id="2"]

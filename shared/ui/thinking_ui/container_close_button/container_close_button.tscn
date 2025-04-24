@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=4 uid="uid://2d5fqhokk2c"]
+[gd_scene load_steps=3 format=3 uid="uid://2d5fqhokk2c"]
 
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/container_close_button/container_close_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://b228ma4pyimxa" path="res://shared/ui/thinking_ui/container_close_button/container_close_button.gd" id="2"]
 
 [node name="CloseButton" type="Button"]
 offset_left = 752.0

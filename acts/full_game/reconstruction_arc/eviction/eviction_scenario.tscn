@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://81o5nb1haii2"]
+[gd_scene load_steps=11 format=3 uid="uid://81o5nb1haii2"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dpavyvc5brhsu" path="res://acts/full_game/reconstruction_arc/eviction/puzzles/portrait_puzzle.tscn" id="2"]

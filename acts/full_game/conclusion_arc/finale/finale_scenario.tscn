@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4]
+[gd_scene load_steps=10 format=3 uid="uid://daq7ka724m6ay"]
 
 [ext_resource type="PackedScene" uid="uid://b34fgkvdxm2h1" path="res://acts/full_game/conclusion_arc/finale/finale_time_travel_bar.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="2"]

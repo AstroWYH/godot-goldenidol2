@@ -1,8 +1,8 @@
-[gd_scene load_steps=33 format=4 uid="uid://ch8cjuwim5bf8"]
+[gd_scene load_steps=33 format=3 uid="uid://ch8cjuwim5bf8"]
 
 [ext_resource type="Texture2D" uid="uid://c7u86lls5h05q" path="res://acts/full_game/research_arc/dance/assets/closeups/cover.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://dclt4t67c0tua" path="res://acts/full_game/research_arc/dance/assets/closeups/moves01.png" id="4"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
 [ext_resource type="Texture2D" uid="uid://cm348qi4b3s8d" path="res://acts/full_game/research_arc/dance/assets/closeups/moves02.png" id="6"]
@@ -124,10 +124,10 @@ extra_items_unlocked = [SubResource("Resource_atr4b"), SubResource("Resource_igs
 
 [node name="ObjectsPagePanel1" type="Panel" parent="BookCover/BookmarkTriangleSpot"]
 layout_mode = 0
-offset_left = 1125.7099609375
-offset_top = -281.6969909667969
-offset_right = 2024.7099609375
-offset_bottom = 327.3030090332031
+offset_left = 1125.71
+offset_top = -281.697
+offset_right = 2024.71
+offset_bottom = 327.303
 scale = Vector2(0.696278, 0.720036)
 
 [node name="pageObjectsCreatures" type="Sprite2D" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1"]
@@ -135,10 +135,10 @@ position = Vector2(456.072, 292.142)
 texture = ExtResource("4")
 
 [node name="LabelFood" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = -334.3659973144531
-offset_top = -45.25279998779297
-offset_right = -91.36589813232422
-offset_bottom = 20.74720001220703
+offset_left = -334.366
+offset_top = -45.2528
+offset_right = -91.3659
+offset_bottom = 20.7472
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -146,10 +146,10 @@ text = "DANCE_FOOD"
 autowrap_mode = 3
 
 [node name="LabelDoor" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = -123.97100067138672
-offset_top = -45.252899169921875
-offset_right = 72.02890014648438
-offset_bottom = 20.747100830078125
+offset_left = -123.971
+offset_top = -45.2529
+offset_right = 72.0289
+offset_bottom = 20.7471
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -157,10 +157,10 @@ text = "DANCE_DOOR"
 autowrap_mode = 3
 
 [node name="LabelKey" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = -334.3659973144531
-offset_top = 170.77499389648438
-offset_right = -160.36599731445313
-offset_bottom = 236.77499389648438
+offset_left = -334.366
+offset_top = 170.775
+offset_right = -160.366
+offset_bottom = 236.775
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -168,10 +168,10 @@ text = "DANCE_KEY"
 autowrap_mode = 3
 
 [node name="LabelMachine" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = -159.03700256347656
-offset_top = 170.77499389648438
-offset_right = 137.96299743652344
-offset_bottom = 236.77499389648438
+offset_left = -159.037
+offset_top = 170.775
+offset_right = 137.963
+offset_bottom = 236.775
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -179,10 +179,10 @@ text = "DANCE_MACHINE"
 autowrap_mode = 3
 
 [node name="LabelSpider" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = 38.9817008972168
-offset_top = -263.2090148925781
-offset_right = 252.98199462890625
-offset_bottom = -164.20899963378906
+offset_left = 38.9817
+offset_top = -263.209
+offset_right = 252.982
+offset_bottom = -164.209
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -190,10 +190,10 @@ text = "DANCE_SPIDER"
 autowrap_mode = 3
 
 [node name="LabelFool" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = 234.93800354003906
-offset_top = -247.7790069580078
-offset_right = 428.93798828125
-offset_bottom = -181.7790069580078
+offset_left = 234.938
+offset_top = -247.779
+offset_right = 428.938
+offset_bottom = -181.779
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -201,10 +201,10 @@ text = "DANCE_FOOL"
 autowrap_mode = 3
 
 [node name="LabelForbidden" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = 55.483299255371094
-offset_top = 178.49000549316406
-offset_right = 319.4830017089844
-offset_bottom = 244.49000549316406
+offset_left = 55.4833
+offset_top = 178.49
+offset_right = 319.483
+offset_bottom = 244.49
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -212,10 +212,10 @@ text = "DANCE_FORBIDDEN"
 autowrap_mode = 3
 
 [node name="LabelVampire" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = 201.9340057373047
-offset_top = -10.534099578857422
-offset_right = 425.9339904785156
-offset_bottom = 22.465900421142578
+offset_left = 201.934
+offset_top = -10.5341
+offset_right = 425.934
+offset_bottom = 22.4659
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -223,10 +223,10 @@ text = "DANCE_VAMPIRE"
 autowrap_mode = 3
 
 [node name="LabelTitleObjects" type="Label" parent="BookCover/BookmarkTriangleSpot/ObjectsPagePanel1/pageObjectsCreatures"]
-offset_left = 34.856300354003906
-offset_top = -72.25630187988281
-offset_right = 496.8559875488281
-offset_bottom = 14.74370002746582
+offset_left = 34.8563
+offset_top = -72.2563
+offset_right = 496.856
+offset_bottom = 14.7437
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.886275, 0.121569, 0.215686, 1)
 theme_override_font_sizes/font_size = 22
@@ -244,10 +244,10 @@ extra_items_unlocked = [SubResource("Resource_c1q83"), SubResource("Resource_7yi
 
 [node name="PageActionPanel" type="Panel" parent="BookCover/PageActionSpot"]
 layout_mode = 0
-offset_left = 2017.780029296875
-offset_top = -617.1290283203125
-offset_right = 2929.780029296875
-offset_bottom = -8.12926959991455
+offset_left = 2017.78
+offset_top = -617.129
+offset_right = 2929.78
+offset_bottom = -8.12927
 scale = Vector2(0.696278, 0.720036)
 
 [node name="PageAction" type="Sprite2D" parent="BookCover/PageActionSpot/PageActionPanel"]
@@ -266,10 +266,10 @@ text = "DANCE_ACTIONS"
 autowrap_mode = 2
 
 [node name="LabelBuild" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
-offset_left = -418.1990051269531
-offset_top = -268.739013671875
-offset_right = -164.19900512695313
-offset_bottom = -202.73899841308594
+offset_left = -418.199
+offset_top = -268.739
+offset_right = -164.199
+offset_bottom = -202.739
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -291,10 +291,10 @@ vertical_alignment = 2
 autowrap_mode = 2
 
 [node name="LabelShout" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
-offset_left = -376.94500732421875
-offset_top = 176.8179931640625
-offset_right = -179.94500732421875
-offset_bottom = 209.8179931640625
+offset_left = -376.945
+offset_top = 176.818
+offset_right = -179.945
+offset_bottom = 209.818
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -302,10 +302,10 @@ text = "DANCE_SHOUT"
 horizontal_alignment = 1
 
 [node name="LabelShut" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
-offset_left = -302.68798828125
-offset_top = 134.38400268554688
-offset_right = -96.6884994506836
-offset_bottom = 182.38400268554688
+offset_left = -302.688
+offset_top = 134.384
+offset_right = -96.6885
+offset_bottom = 182.384
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -314,10 +314,10 @@ horizontal_alignment = 2
 autowrap_mode = 3
 
 [node name="LabelGive" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
-offset_left = 33.530601501464844
-offset_top = 176.8179931640625
-offset_right = 204.531005859375
-offset_bottom = 209.8179931640625
+offset_left = 33.5306
+offset_top = 176.818
+offset_right = 204.531
+offset_bottom = 209.818
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -325,10 +325,10 @@ text = "DANCE_GIVE"
 autowrap_mode = 3
 
 [node name="LabelSteal" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
-offset_left = 212.98399353027344
-offset_top = 178.7469940185547
-offset_right = 428.9840087890625
-offset_bottom = 211.7469940185547
+offset_left = 212.984
+offset_top = 178.747
+offset_right = 428.984
+offset_bottom = 211.747
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 22
@@ -336,10 +336,10 @@ text = "DANCE_STEAL"
 autowrap_mode = 3
 
 [node name="LabelForExample" type="Label" parent="BookCover/PageActionSpot/PageActionPanel/PageAction"]
-offset_left = 38.676998138427734
-offset_top = -213.6490020751953
-offset_right = 351.677001953125
-offset_bottom = 64.35140228271484
+offset_left = 38.677
+offset_top = -213.649
+offset_right = 351.677
+offset_bottom = 64.3514
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_font_sizes/font_size = 24
@@ -369,10 +369,10 @@ position = Vector2(451.232, 304.286)
 texture = ExtResource("8")
 
 [node name="LabelPhilo" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
-offset_left = -370.3210144042969
-offset_top = -256.468994140625
-offset_right = -34.320499420166016
-offset_bottom = -28.4689998626709
+offset_left = -370.321
+offset_top = -256.469
+offset_right = -34.3205
+offset_bottom = -28.469
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 text = "DANCE_BOOK_BODY_2"
@@ -391,10 +391,10 @@ horizontal_alignment = 1
 autowrap_mode = 3
 
 [node name="LabelKnowledge" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
-offset_left = 256.7380065917969
-offset_top = -196.67599487304688
-offset_right = 594.7379760742188
-offset_bottom = 81.32420349121094
+offset_left = 256.738
+offset_top = -196.676
+offset_right = 594.738
+offset_bottom = 81.3242
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_fonts/font = ExtResource("7")
 theme_override_font_sizes/font_size = 22
@@ -402,10 +402,10 @@ text = "DANCE_KNOWLEDGE"
 autowrap_mode = 2
 
 [node name="LabelObedience" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
-offset_left = -25.85070037841797
-offset_top = -161.95700073242188
-offset_right = 136.1490020751953
-offset_bottom = -96.95680236816406
+offset_left = -25.8507
+offset_top = -161.957
+offset_right = 136.149
+offset_bottom = -96.9568
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_fonts/font = ExtResource("7")
 theme_override_font_sizes/font_size = 22
@@ -414,10 +414,10 @@ horizontal_alignment = 2
 autowrap_mode = 2
 
 [node name="LabelEvil" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
-offset_left = -14.75629997253418
-offset_top = -7.213500022888184
-offset_right = 120.24400329589844
-offset_bottom = 34.7864990234375
+offset_left = -14.7563
+offset_top = -7.2135
+offset_right = 120.244
+offset_bottom = 34.7865
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_fonts/font = ExtResource("7")
 theme_override_font_sizes/font_size = 22
@@ -426,10 +426,10 @@ horizontal_alignment = 2
 autowrap_mode = 2
 
 [node name="LabelStrenght" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
-offset_left = -27.914600372314453
-offset_top = 48.28450012207031
-offset_right = 107.08599853515625
-offset_bottom = 90.28450012207031
+offset_left = -27.9146
+offset_top = 48.2845
+offset_right = 107.086
+offset_bottom = 90.2845
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_fonts/font = ExtResource("7")
 theme_override_font_sizes/font_size = 22
@@ -438,10 +438,10 @@ horizontal_alignment = 2
 autowrap_mode = 2
 
 [node name="LabelCuriosity" type="Label" parent="BookCover/GesturePageSpot/GesturePagePanel/PageGesture"]
-offset_left = -25.852500915527344
-offset_top = 110.00700378417969
-offset_right = 109.14800262451172
-offset_bottom = 152.00599670410156
+offset_left = -25.8525
+offset_top = 110.007
+offset_right = 109.148
+offset_bottom = 152.006
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_fonts/font = ExtResource("7")
 theme_override_font_sizes/font_size = 22
@@ -472,10 +472,10 @@ scale = Vector2(1.045, 1)
 texture = ExtResource("9")
 
 [node name="LabelStancesBody" type="Label" parent="BookCover/StancesPageSpot/StancesPagePanel/PageStances"]
-offset_left = -357.4100036621094
-offset_top = -223.8209991455078
-offset_right = -46.40950012207031
-offset_bottom = 200.1790008544922
+offset_left = -357.41
+offset_top = -223.821
+offset_right = -46.4095
+offset_bottom = 200.179
 theme_override_colors/font_color = Color(0.180392, 0.176471, 0.152941, 1)
 theme_override_fonts/font = ExtResource("7")
 theme_override_font_sizes/font_size = 22

@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://bstiiqy2hge8y"]
+[gd_scene load_steps=6 format=3 uid="uid://bstiiqy2hge8y"]
 
 [ext_resource type="Texture2D" uid="uid://du4uay42ajj2" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/safe3.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

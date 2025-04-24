@@ -1,6 +1,6 @@
-[gd_scene load_steps=161 format=4 uid="uid://cuaic7842jeyh"]
+[gd_scene load_steps=161 format=3 uid="uid://cuaic7842jeyh"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cwhb8usxxp3ak" path="res://acts/full_game/colecting_parts_arc/drivein/locations/office.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://2d1cyswojg3a" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bi5ugawbi4cdp" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/screenleft/screenl_001.png" id="4"]
@@ -146,13 +146,13 @@
 [ext_resource type="Texture2D" uid="uid://dmlpw6kym55nw" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00045.png" id="144"]
 [ext_resource type="Texture2D" uid="uid://dn75n1vmofykr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00046.png" id="145"]
 [ext_resource type="Texture2D" uid="uid://n8rtsxvrl7q3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/car crash/car_crash_00047.png" id="146"]
-[ext_resource type="Script" path="res://acts/full_game/colecting_parts_arc/drivein/assets/scripts/car_crash.gd" id="147"]
+[ext_resource type="Script" uid="uid://d0rb1gm71r1uv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/scripts/car_crash.gd" id="147"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="148"]
 [ext_resource type="PackedScene" uid="uid://cqf7kqplbtf2a" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/crashed1.tscn" id="149"]
 [ext_resource type="Resource" uid="uid://cpd8of1qkc638" path="res://acts/full_game/colecting_parts_arc/drivein/locations/main_lot.tres" id="150"]
 [ext_resource type="PackedScene" uid="uid://cpvi3cckbqhgt" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/office.tscn" id="151"]
 [ext_resource type="PackedScene" uid="uid://dc4ugc3q1b4q1" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/owner.tscn" id="152"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="153"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="153"]
 [ext_resource type="Resource" uid="uid://des3p21xm8mik" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_costume_puzzle_meta.tres" id="154"]
 [ext_resource type="PackedScene" uid="uid://cxyirqlxblfat" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/movieposter.tscn" id="155"]
 
@@ -629,19 +629,19 @@ position = Vector2(-344, 577)
 sprite_frames = SubResource("SpriteFrames_54q71")
 autoplay = "default"
 frame = 3
-frame_progress = 0.925715982913971
+frame_progress = 0.925716
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(396, 477)
 sprite_frames = SubResource("SpriteFrames_avgfr")
 autoplay = "default"
-frame_progress = 0.09050700068473816
+frame_progress = 0.090507
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(1335, 817)
 sprite_frames = SubResource("SpriteFrames_yf2rn")
 autoplay = "default"
-frame_progress = 0.8432459831237793
+frame_progress = 0.843246
 script = ExtResource("147")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="AnimatedSprite2D3"]
@@ -670,7 +670,7 @@ offset_bottom = 45.0
 [node name="Highlighter" parent="Hotspots/TomPowersSpot/Indicators" index="0"]
 modulate = Color(0.876186, 0.70184, 0.151084, 1)
 position = Vector2(7, -11)
-frame_progress = 0.11547999829053879
+frame_progress = 0.11548
 
 [node name="FocusIndicator" parent="Hotspots/TomPowersSpot/Indicators" index="1"]
 position = Vector2(8, -7)
@@ -700,7 +700,7 @@ offset_left = -3.5
 offset_top = 113.0
 offset_right = -3.5
 offset_bottom = 113.0
-rotation = 1.5707999467849731
+rotation = 1.5708
 
 [node name="Highlighter" parent="Hotspots/ToTheLeftSpot/Indicators" index="0"]
 modulate = Color(1, 0.686275, 0.368627, 1)
@@ -719,7 +719,7 @@ unlocked_item_ref_id = 161
 [node name="Highlighter" parent="Hotspots/ScreenSpot/Indicators" index="0"]
 modulate = Color(0.663295, 0.363888, 0, 1)
 position = Vector2(-120.5, 182)
-frame_progress = 0.34453698992729187
+frame_progress = 0.344537
 
 [node name="FocusIndicator" parent="Hotspots/ScreenSpot/Indicators" index="1"]
 position = Vector2(-119.5, 187.25)
@@ -764,7 +764,7 @@ unlocked_character_ref_id = 17
 [node name="Highlighter" parent="Hotspots/SarahSpot/Indicators" index="0"]
 modulate = Color(0.4108, 0.79, 0.55616, 1)
 position = Vector2(-29, 9)
-frame_progress = 0.031110599637031555
+frame_progress = 0.0311106
 
 [node name="FocusIndicator" parent="Hotspots/SarahSpot/Indicators" index="1"]
 position = Vector2(-28, 13)
@@ -789,7 +789,7 @@ unlocked_item_ref_id = 151
 [node name="Highlighter" parent="Hotspots/CrashSpot/Indicators" index="0"]
 modulate = Color(0.0705882, 0.0588235, 0.054902, 1)
 position = Vector2(-23, -19)
-frame_progress = 0.6873369812965393
+frame_progress = 0.687337
 
 [node name="FocusIndicator" parent="Hotspots/CrashSpot/Indicators" index="1"]
 position = Vector2(-22, -15)
@@ -808,7 +808,7 @@ unlocked_puzzles = [ExtResource("154")]
 [node name="Highlighter" parent="Hotspots/SpaceStormSpot/Indicators" index="0"]
 modulate = Color(0.568627, 0.913725, 0.886275, 1)
 position = Vector2(-1.5, 270.5)
-frame_progress = 0.9344540238380432
+frame_progress = 0.934454
 
 [node name="FocusIndicator" parent="Hotspots/SpaceStormSpot/Indicators" index="1"]
 position = Vector2(-1.5, 271.5)

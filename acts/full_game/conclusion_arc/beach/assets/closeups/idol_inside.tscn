@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://du556vvukpq4k"]
+[gd_scene load_steps=10 format=3 uid="uid://du556vvukpq4k"]
 
 [ext_resource type="Texture2D" uid="uid://casskjhjjcnfj" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/idol3.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
 [ext_resource type="Texture2D" uid="uid://d13xkbx7s5goj" path="res://acts/full_game/conclusion_arc/finale/assets/idolinside.png" id="3"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="4"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://cq7yty5wq4m7y" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/input.png" id="5"]
 
 [sub_resource type="Resource" id="Resource_fl2u4"]
@@ -23,10 +23,10 @@ script = ExtResource("4")
 linked_item_ref_id = 746
 
 [node name="IdolInside" type="Panel"]
-offset_left = 2536.10009765625
-offset_top = 127.0989990234375
-offset_right = 3295.10009765625
-offset_bottom = 939.0989990234375
+offset_left = 2536.1
+offset_top = 127.099
+offset_right = 3295.1
+offset_bottom = 939.099
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(364.56, 397.684)
@@ -42,10 +42,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "mu8"
 
 [node name="Indicators" parent="IdolSpot2" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="IdolSpot2/Indicators" index="0"]
 modulate = Color(0, 0.184314, 0.376471, 1)
@@ -56,10 +56,10 @@ position = Vector2(2, -3.92487)
 
 [node name="IdolInside" type="Panel" parent="IdolSpot2"]
 layout_mode = 0
-offset_left = 880.9639892578125
-offset_top = 339.302001953125
-offset_right = 1465.9599609375
-offset_bottom = 960.302001953125
+offset_left = 880.964
+offset_top = 339.302
+offset_right = 1465.96
+offset_bottom = 960.302
 
 [node name="Sprite2D" type="Sprite2D" parent="IdolSpot2/IdolInside"]
 position = Vector2(293.472, 308.047)
@@ -76,10 +76,10 @@ hotspot_id = "J2j"
 extra_items_unlocked = [SubResource("Resource_fl2u4"), SubResource("Resource_br4b0"), SubResource("Resource_p8fbl"), SubResource("Resource_cgxev")]
 
 [node name="Indicators" parent="IdolSpot3" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="IdolSpot3/Indicators" index="0"]
 modulate = Color(0, 0.184314, 0.376471, 1)

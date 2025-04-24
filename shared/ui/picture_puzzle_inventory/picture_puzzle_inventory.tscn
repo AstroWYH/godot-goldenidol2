@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://b4kgt5hhkn2iu"]
+[gd_scene load_steps=2 format=3 uid="uid://b4kgt5hhkn2iu"]
 
-[ext_resource type="Script" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.gd" id="1"]
+[ext_resource type="Script" uid="uid://b1e831wywk0wl" path="res://shared/ui/picture_puzzle_inventory/picture_puzzle_inventory.gd" id="1"]
 
 [node name="PicturePuzzleInventory" type="Control"]
 layout_mode = 3

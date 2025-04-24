@@ -1,8 +1,8 @@
-[gd_scene load_steps=15 format=4 uid="uid://bemucw2na8mso"]
+[gd_scene load_steps=15 format=3 uid="uid://bemucw2na8mso"]
 
 [ext_resource type="Texture2D" uid="uid://bv80jfjm6ugbn" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/ofice.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Resource" uid="uid://no8tg6uc7do" path="res://acts/full_game/colecting_parts_arc/jail/puzzles/cell_puzzle_meta.tres" id="4"]
 [ext_resource type="PackedScene" uid="uid://ddhxpc73ivbpb" path="res://acts/full_game/colecting_parts_arc/jail/closeups/noticeboard_panel.tscn" id="5"]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://d1ii4yaop2717"]
+[gd_scene load_steps=2 format=3 uid="uid://d1ii4yaop2717"]
 
 [ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="1"]
 

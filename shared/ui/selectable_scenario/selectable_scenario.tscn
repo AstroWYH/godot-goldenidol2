@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://djtkeakeo4plt"]
+[gd_scene load_steps=3 format=3 uid="uid://djtkeakeo4plt"]
 
-[ext_resource type="Script" path="res://shared/ui/selectable_scenario/selectable_scenario.gd" id="1"]
+[ext_resource type="Script" uid="uid://fya14w274inl" path="res://shared/ui/selectable_scenario/selectable_scenario.gd" id="1"]
 [ext_resource type="Theme" uid="uid://bjagpp3btprrg" path="res://shared/assets/themes/menu_button_default.tres" id="2"]
 
 [node name="SelectableScenario" type="Control"]

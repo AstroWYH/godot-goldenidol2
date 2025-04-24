@@ -1,4 +1,4 @@
-[gd_scene load_steps=194 format=4 uid="uid://dckdq5sjvyico"]
+[gd_scene load_steps=194 format=3 uid="uid://dckdq5sjvyico"]
 
 [ext_resource type="Texture2D" uid="uid://db6nqlgqvj1di" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/outsideharmony.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b8g1hypm4l5e2" path="res://acts/full_game/conclusion_arc/finale/assets/animations/gardenguard/guard1_000.png" id="2"]
@@ -752,14 +752,14 @@ texture = ExtResource("1")
 position = Vector2(-84.527, 34.4801)
 sprite_frames = SubResource("SpriteFrames_i4oru")
 autoplay = "default"
-frame_progress = 0.9312160015106201
+frame_progress = 0.931216
 
 [node name="WestlakeSprite2D" type="AnimatedSprite2D" parent="GardenSprite"]
 position = Vector2(96.941, 45.5181)
 scale = Vector2(0.932388, 1)
 sprite_frames = SubResource("SpriteFrames_txeh0")
 autoplay = "default"
-frame_progress = 0.16101500391960144
+frame_progress = 0.161015
 
 [node name="Snow3" type="GPUParticles2D" parent="."]
 position = Vector2(808.999, 180)
@@ -779,15 +779,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "E2O"
 
 [node name="Indicators" parent="Westlakespot" index="0"]
-offset_left = -5.244009971618652
-offset_top = 26.845199584960938
-offset_right = -5.244009971618652
-offset_bottom = 26.845199584960938
+offset_left = -5.24401
+offset_top = 26.8452
+offset_right = -5.24401
+offset_bottom = 26.8452
 
 [node name="Highlighter" parent="Westlakespot/Indicators" index="0"]
 modulate = Color(0.687726, 0.650686, 0.427717, 1)
 position = Vector2(7.4968, 140.165)
-frame_progress = 0.614171028137207
+frame_progress = 0.614171
 
 [node name="FocusIndicator" parent="Westlakespot/Indicators" index="1"]
 position = Vector2(8.4968, 144.165)
@@ -801,10 +801,10 @@ offset_bottom = 174.0
 
 [node name="WestlakeSpeech" type="Label" parent="Westlakespot/WestlakePanel"]
 layout_mode = 0
-offset_left = 31.849599838256836
-offset_top = 25.127099990844727
-offset_right = 315.8500061035156
-offset_bottom = 220.1269989013672
+offset_left = 31.8496
+offset_top = 25.1271
+offset_right = 315.85
+offset_bottom = 220.127
 theme_override_fonts/font = ExtResource("105")
 theme_override_font_sizes/font_size = 24
 text = "FINALE_MARIE_SPEECH1"
@@ -815,22 +815,22 @@ position = Vector2(441.604, 234.34)
 sprite_frames = SubResource("SpriteFrames_nkcoo")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.10570599883794785
+frame_progress = 0.105706
 
 [node name="MovementProtocol" parent="Westlakespot/WestlakePanel" instance=ExtResource("104")]
 layout_mode = 1
-offset_left = 49.878501892089844
-offset_top = 249.89100646972656
-offset_right = -505.12200927734375
-offset_bottom = -45.10820007324219
+offset_left = 49.8785
+offset_top = 249.891
+offset_right = -505.122
+offset_bottom = -45.1082
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "7lI"
 
 [node name="Indicators" parent="Westlakespot/WestlakePanel/MovementProtocol" index="0"]
-offset_left = 0.3666920065879822
-offset_top = 11.073699951171875
-offset_right = 0.3666920065879822
-offset_bottom = 11.073699951171875
+offset_left = 0.366692
+offset_top = 11.0737
+offset_right = 0.366692
+offset_bottom = 11.0737
 
 [node name="Highlighter" parent="Westlakespot/WestlakePanel/MovementProtocol/Indicators" index="0"]
 modulate = Color(0.783308, 0.79821, 0.722803, 1)
@@ -841,10 +841,10 @@ position = Vector2(-2.70182, -3.59926)
 
 [node name="MovementProtocolPanel2" type="Panel" parent="Westlakespot/WestlakePanel/MovementProtocol"]
 layout_mode = 0
-offset_left = -36.11600112915039
-offset_top = -1227.3299560546875
-offset_right = 661.8839721679688
-offset_bottom = -313.3280029296875
+offset_left = -36.116
+offset_top = -1227.33
+offset_right = 661.884
+offset_bottom = -313.328
 
 [node name="ProtocolSprite" type="TextureRect" parent="Westlakespot/WestlakePanel/MovementProtocol/MovementProtocolPanel2"]
 modulate = Color(0.921569, 0.94902, 0.741176, 1)
@@ -864,7 +864,7 @@ stretch_mode = 1
 [node name="TextureRect" type="Sprite2D" parent="Westlakespot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(475.562, 218.54)
-rotation = 0.12974399328231812
+rotation = 0.129744
 texture = ExtResource("143")
 region_enabled = true
 region_rect = Rect2(211.421, 0, 388.579, 230.024)
@@ -872,7 +872,7 @@ region_rect = Rect2(211.421, 0, 388.579, 230.024)
 [node name="TextureRect2" type="Sprite2D" parent="Westlakespot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(240.808, 420.913)
-rotation = 3.162869930267334
+rotation = 3.16287
 texture = ExtResource("143")
 region_enabled = true
 region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
@@ -880,7 +880,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect3" type="Sprite2D" parent="Westlakespot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(445.465, 469.241)
-rotation = 0.048663098365068436
+rotation = 0.0486631
 texture = ExtResource("143")
 region_enabled = true
 region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
@@ -888,7 +888,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect4" type="Sprite2D" parent="Westlakespot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(233.786, 788.406)
-rotation = 3.144789934158325
+rotation = 3.14479
 scale = Vector2(1.23265, 1)
 texture = ExtResource("143")
 region_enabled = true
@@ -1172,15 +1172,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "JwK"
 
 [node name="Indicators" parent="Guardspot2" index="0"]
-offset_left = -2.7327799797058105
-offset_top = 37.25270080566406
-offset_right = -2.7327799797058105
-offset_bottom = 37.25270080566406
+offset_left = -2.73278
+offset_top = 37.2527
+offset_right = -2.73278
+offset_bottom = 37.2527
 
 [node name="Highlighter" parent="Guardspot2/Indicators" index="0"]
 modulate = Color(0.512215, 0.768249, 0.610592, 1)
 position = Vector2(26.5585, 75.7279)
-frame_progress = 0.5806339979171753
+frame_progress = 0.580634
 
 [node name="FocusIndicator" parent="Guardspot2/Indicators" index="1"]
 position = Vector2(27.5585, 79.7279)
@@ -1194,10 +1194,10 @@ offset_bottom = 933.0
 
 [node name="GuardSpeech" type="Label" parent="Guardspot2/GuardPanel"]
 layout_mode = 0
-offset_left = 38.11130142211914
-offset_top = 24.649499893188477
-offset_right = 515.1119995117188
-offset_bottom = 141.6490020751953
+offset_left = 38.1113
+offset_top = 24.6495
+offset_right = 515.112
+offset_bottom = 141.649
 theme_override_fonts/font = ExtResource("105")
 theme_override_font_sizes/font_size = 24
 text = "FINALE_GREER_SPEECH_1"
@@ -1208,7 +1208,7 @@ position = Vector2(358.494, 307.428)
 sprite_frames = SubResource("SpriteFrames_qw74c")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.33555999398231506
+frame_progress = 0.33556
 
 [node name="RagSprite2" type="Sprite2D" parent="Guardspot2/GuardPanel"]
 position = Vector2(121.113, 206.083)
@@ -1225,26 +1225,26 @@ texture = ExtResource("187")
 
 [node name="TagSpot" parent="Guardspot2/GuardPanel" instance=ExtResource("104")]
 layout_mode = 1
-offset_left = 69.02960205078125
-offset_top = 276.3219909667969
-offset_right = -622.969970703125
-offset_bottom = -144.67799377441406
+offset_left = 69.0296
+offset_top = 276.322
+offset_right = -622.97
+offset_bottom = -144.678
 hotspot_id = "d-u"
 
 [node name="Highlighter" parent="Guardspot2/GuardPanel/TagSpot/Indicators" index="0"]
 modulate = Color(0.368553, 0.585914, 0.506398, 1)
 position = Vector2(15.2269, -17.1257)
-frame_progress = 0.33481600880622864
+frame_progress = 0.334816
 
 [node name="FocusIndicator" parent="Guardspot2/GuardPanel/TagSpot/Indicators" index="1"]
 position = Vector2(13.2172, -11.112)
 
 [node name="TagPanel" type="Panel" parent="Guardspot2/GuardPanel/TagSpot"]
 layout_mode = 0
-offset_left = -1099.530029296875
-offset_top = 26.177499771118164
-offset_right = -749.5289916992188
-offset_bottom = 290.1780090332031
+offset_left = -1099.53
+offset_top = 26.1775
+offset_right = -749.529
+offset_bottom = 290.178
 
 [node name="TagCloseupSprite" type="Sprite2D" parent="Guardspot2/GuardPanel/TagSpot/TagPanel"]
 position = Vector2(179, 122)

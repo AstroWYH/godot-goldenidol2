@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://cmdsnov5ybwra"]
+[gd_scene load_steps=8 format=3 uid="uid://cmdsnov5ybwra"]
 
 [ext_resource type="Texture2D" uid="uid://277s2ltf5r5f" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/money.png" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
@@ -31,7 +31,7 @@ mouse_filter = 2
 
 [node name="Money" type="Sprite2D" parent="."]
 position = Vector2(470.443, 242.043)
-rotation = -0.2888830006122589
+rotation = -0.288883
 texture = ExtResource("1")
 
 [node name="Money2" type="Sprite2D" parent="."]

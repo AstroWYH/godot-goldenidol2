@@ -1,13 +1,13 @@
-[gd_scene load_steps=11 format=4 uid="uid://8td74jblo150"]
+[gd_scene load_steps=11 format=3 uid="uid://8td74jblo150"]
 
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/phrase_inventory/phrase_inventory.gd" id="1"]
+[ext_resource type="Script" uid="uid://scuxe4hyrdfh" path="res://shared/ui/thinking_ui/phrase_inventory/phrase_inventory.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://dh2eoc00b3b3h" path="res://shared/ui/draggable/container_dragger.tscn" id="2"]
 [ext_resource type="Texture2D" uid="uid://dbmqwqe16k8ud" path="res://shared/assets/placeholder_ui/split_ui_experiments/texture.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dtyysjyd67h01" path="res://shared/assets/frames/frame_transparent_blue.png" id="4"]
 [ext_resource type="PackedScene" uid="uid://b2ceydfd6sj3y" path="res://shared/ui/inventory/scenario_inventory/scenario_inventory.tscn" id="5"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="6"]
 [ext_resource type="Texture2D" uid="uid://cnv6qn3ahlnx2" path="res://shared/ui/misc/frame_focus_white.png" id="7"]
-[ext_resource type="Script" path="res://shared/ui/inventory/scenario_inventory/sort_button.gd" id="8"]
+[ext_resource type="Script" uid="uid://cb7h1pwnlmi7i" path="res://shared/ui/inventory/scenario_inventory/sort_button.gd" id="8"]
 [ext_resource type="PackedScene" uid="uid://2d5fqhokk2c" path="res://shared/ui/thinking_ui/container_close_button/container_close_button.tscn" id="9"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8skjd"]

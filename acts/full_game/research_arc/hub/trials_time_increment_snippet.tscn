@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://bble4mcvye0ry"]
+[gd_scene load_steps=5 format=3 uid="uid://bble4mcvye0ry"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://6wkdux53oy8q" path="res://acts/demo/scenarios/seaside/assets/paper1.png" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="4"]
@@ -20,7 +20,7 @@ offset_bottom = 866.0
 
 [node name="Sprite2D" type="Sprite2D" parent="CallPanel"]
 position = Vector2(365.601, 414.098)
-rotation = -1.5707999467849731
+rotation = -1.5708
 scale = Vector2(1.03483, 0.612766)
 texture = ExtResource("2")
 
@@ -48,7 +48,7 @@ offset_left = 327.0
 offset_top = 238.0
 offset_right = 713.0
 offset_bottom = 326.0
-rotation = -0.014078300446271896
+rotation = -0.0140783
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
 theme_override_fonts/normal_font = ExtResource("3")
@@ -66,7 +66,7 @@ offset_left = 226.0
 offset_top = 335.0
 offset_right = 666.0
 offset_bottom = 383.0
-rotation = -0.06012120097875595
+rotation = -0.0601212
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.6, 0.172549, 0.12549, 1)
 theme_override_fonts/normal_font = ExtResource("3")
@@ -84,7 +84,7 @@ offset_left = 251.0
 offset_top = 424.0
 offset_right = 699.0
 offset_bottom = 474.0
-rotation = 0.04328329861164093
+rotation = 0.0432833
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
 theme_override_fonts/normal_font = ExtResource("3")
@@ -102,7 +102,7 @@ offset_left = 279.0
 offset_top = 516.0
 offset_right = 699.0
 offset_bottom = 604.0
-rotation = -0.047628700733184814
+rotation = -0.0476287
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.598321, 0.173909, 0.125471, 1)
 theme_override_fonts/normal_font = ExtResource("3")

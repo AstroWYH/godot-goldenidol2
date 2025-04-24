@@ -1,10 +1,10 @@
-[gd_scene load_steps=9 format=4 uid="uid://kh4mcvjbar8m"]
+[gd_scene load_steps=9 format=3 uid="uid://kh4mcvjbar8m"]
 
 [ext_resource type="Texture2D" uid="uid://dqbgkwiktpwly" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf02.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
 [ext_resource type="Texture2D" uid="uid://dudiy7t5wjfio" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/coat.png" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://dhl2ipj0v4w37" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/photos.png" id="6"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="7"]
 
@@ -45,11 +45,11 @@ texture = ExtResource("3")
 
 [node name="LabelTag" type="Label" parent="LabelJackSpot/LabelJackPanel"]
 layout_mode = 0
-offset_left = 179.97799682617188
-offset_top = 217.5240020751953
-offset_right = 425.9779968261719
-offset_bottom = 262.52398681640625
-rotation = 1.105780005455017
+offset_left = 179.978
+offset_top = 217.524
+offset_right = 425.978
+offset_bottom = 262.524
+rotation = 1.10578
 theme = ExtResource("4")
 theme_override_colors/font_color = Color(0.294118, 0.133333, 0.0980392, 1)
 text = "JACK_NAME"
@@ -114,7 +114,7 @@ offset_left = 41.0
 offset_top = 422.0
 offset_right = 298.0
 offset_bottom = 454.0
-rotation = 0.08726649731397629
+rotation = 0.0872665
 theme = ExtResource("7")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22

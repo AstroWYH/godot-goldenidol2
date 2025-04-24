@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://c0bafjutcxp6"]
+[gd_scene load_steps=3 format=3 uid="uid://c0bafjutcxp6"]
 
 [ext_resource type="Texture2D" uid="uid://bds3f7ebgkid2" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/drain.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

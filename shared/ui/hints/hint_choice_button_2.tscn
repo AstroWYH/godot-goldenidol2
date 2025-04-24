@@ -1,7 +1,7 @@
-[gd_scene load_steps=10 format=4 uid="uid://cx3m1j7ggltop"]
+[gd_scene load_steps=10 format=3 uid="uid://cx3m1j7ggltop"]
 
 [ext_resource type="Texture2D" uid="uid://cnv6qn3ahlnx2" path="res://shared/ui/misc/frame_focus_white.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hints/hint_choice_button_2.gd" id="2"]
+[ext_resource type="Script" uid="uid://daaqeu2rc3853" path="res://shared/ui/hints/hint_choice_button_2.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://puginjbuyjms" path="res://acts/full_game/hints/assets/locked.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://b8n3r3merok4c" path="res://acts/full_game/hints/assets/fool.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://bjmxm3js7bpeb" path="res://acts/full_game/hints/assets/typo.png" id="5"]

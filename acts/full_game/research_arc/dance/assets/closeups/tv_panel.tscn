@@ -1,4 +1,4 @@
-[gd_scene load_steps=193 format=4 uid="uid://do3pna7urcqkl"]
+[gd_scene load_steps=193 format=3 uid="uid://do3pna7urcqkl"]
 
 [ext_resource type="Texture2D" uid="uid://sqehqtkbly44" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cu7dk8iy8oxlw" path="res://acts/full_game/research_arc/dance/assets/animations/dance2/dancer_001.png" id="2"]

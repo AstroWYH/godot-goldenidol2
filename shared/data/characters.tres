@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="GICharacterDatabase" load_steps=169 format=3 uid="uid://cxg3rwfiejbec"]
 
-[ext_resource type="Script" path="res://shared/resources/character.gd" id="1"]
-[ext_resource type="Script" path="res://shared/resources/character_database.gd" id="2"]
+[ext_resource type="Script" uid="uid://cdlspl202u7r8" path="res://shared/resources/character.gd" id="1"]
+[ext_resource type="Script" uid="uid://cmflurfr3awy0" path="res://shared/resources/character_database.gd" id="2"]
 
 [sub_resource type="Resource" id="Resource_fn5fr"]
 script = ExtResource("1")

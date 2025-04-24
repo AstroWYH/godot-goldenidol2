@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://cr7esj5jwjmt6"]
+[gd_scene load_steps=11 format=3 uid="uid://cr7esj5jwjmt6"]
 
 [ext_resource type="Texture2D" uid="uid://78jv31qtb8gu" path="res://acts/full_game/conclusion_arc/finale/assets/guardroom.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -31,20 +31,20 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "hpX"
 
 [node name="Indicators" parent="IdolSpot" index="0"]
-offset_left = 12.879599571228027
-offset_top = 43.56740188598633
-offset_right = 12.879599571228027
-offset_bottom = 43.56740188598633
+offset_left = 12.8796
+offset_top = 43.5674
+offset_right = 12.8796
+offset_bottom = 43.5674
 
 [node name="Highlighter" parent="IdolSpot/Indicators" index="0"]
 modulate = Color(0.484883, 0.0639872, 0.0823382, 1)
 
 [node name="IdolCloseupPanel" type="Panel" parent="IdolSpot"]
 layout_mode = 0
-offset_left = -75.07879638671875
-offset_top = 389.7489929199219
-offset_right = 321.9209899902344
-offset_bottom = 790.7490234375
+offset_left = -75.0788
+offset_top = 389.749
+offset_right = 321.921
+offset_bottom = 790.749
 
 [node name="IdolSprite" type="Sprite2D" parent="IdolSpot/IdolCloseupPanel"]
 position = Vector2(195.774, 208.895)
@@ -61,14 +61,14 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "zcO"
 
 [node name="Indicators" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot/Indicators" index="0"]
 modulate = Color(0.486275, 0.0627451, 0.0823529, 1)
-frame_progress = 0.6652309894561768
+frame_progress = 0.665231
 
 [node name="FocusIndicator" parent="IdolSpot/IdolCloseupPanel/IdolInsideSpot/Indicators" index="1"]
 visible = false
@@ -94,15 +94,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "VSR"
 
 [node name="Indicators" parent="ProtocolSpot" index="0"]
-offset_left = 6.644800186157227
-offset_top = 59.40299987792969
-offset_right = 6.644800186157227
-offset_bottom = 59.40299987792969
+offset_left = 6.6448
+offset_top = 59.403
+offset_right = 6.6448
+offset_bottom = 59.403
 
 [node name="Highlighter" parent="ProtocolSpot/Indicators" index="0"]
 modulate = Color(0.119205, 0.282087, 0.208699, 1)
 position = Vector2(0.106997, -18.5237)
-frame_progress = 0.7539629936218262
+frame_progress = 0.753963
 
 [node name="FocusIndicator" parent="ProtocolSpot/Indicators" index="1"]
 position = Vector2(-0.447797, -12.3694)
@@ -136,21 +136,21 @@ region_rect = Rect2(211.421, 0, 388.579, 230.024)
 
 [node name="TextureRect2" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
 position = Vector2(129.78, 582.508)
-rotation = -4.903160095214844
+rotation = -4.90316
 texture = ExtResource("6")
 region_enabled = true
 region_rect = Rect2(203.449, 363.777, 396.551, 217.016)
 
 [node name="TextureRect3" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
 position = Vector2(358.147, 249.376)
-rotation = -1.570430040359497
+rotation = -1.57043
 texture = ExtResource("6")
 region_enabled = true
 region_rect = Rect2(98.0414, 230.909, 501.959, 150.583)
 
 [node name="TextureRect4" type="Sprite2D" parent="ProtocolSpot/ProtocolPanel/ProtocolSprite"]
 position = Vector2(312.073, 510.263)
-rotation = -4.7035298347473145
+rotation = -4.70353
 texture = ExtResource("6")
 region_enabled = true
 region_rect = Rect2(98.0414, 230.909, 501.959, 150.583)
@@ -178,10 +178,10 @@ autowrap_mode = 2
 
 [node name="ProtocolLabel" type="RichTextLabel" parent="ProtocolSpot/ProtocolPanel"]
 layout_mode = 0
-offset_left = 22.59040069580078
-offset_top = 21.575300216674805
-offset_right = 700.5900268554688
-offset_bottom = 674.5750122070313
+offset_left = 22.5904
+offset_top = 21.5753
+offset_right = 700.59
+offset_bottom = 674.575
 theme = ExtResource("7")
 bbcode_enabled = true
 text = "FINALE_EUGENE_PROTOCOL"
@@ -197,10 +197,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Qrj"
 
 [node name="Indicators" parent="SinkSpot" index="0"]
-offset_left = 6.644800186157227
-offset_top = 59.40299987792969
-offset_right = 6.644800186157227
-offset_bottom = 59.40299987792969
+offset_left = 6.6448
+offset_top = 59.403
+offset_right = 6.6448
+offset_bottom = 59.403
 
 [node name="Highlighter" parent="SinkSpot/Indicators" index="0"]
 modulate = Color(0.306923, 0.306923, 0.306923, 1)
@@ -232,15 +232,15 @@ hotspot_id = "dLW"
 text = "FINALE_VOMIT_TOOLTIP"
 
 [node name="Indicators" parent="SinkSpot/SinkPanel/SinSpot2" index="0"]
-offset_left = 23.922800064086914
-offset_top = 32.63629913330078
-offset_right = 23.922800064086914
-offset_bottom = 32.63629913330078
+offset_left = 23.9228
+offset_top = 32.6363
+offset_right = 23.9228
+offset_bottom = 32.6363
 
 [node name="Highlighter" parent="SinkSpot/SinkPanel/SinSpot2/Indicators" index="0"]
 modulate = Color(0.895404, 0.598661, 0.43643, 1)
 position = Vector2(-49.0184, 26.5815)
-frame_progress = 0.7877150177955627
+frame_progress = 0.787715
 
 [node name="FocusIndicator" parent="SinkSpot/SinkPanel/SinSpot2/Indicators" index="1"]
 position = Vector2(-48.0184, 30.5815)
@@ -255,10 +255,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "WVX"
 
 [node name="Indicators" parent="ClipboardSpot3" index="0"]
-offset_left = 6.644800186157227
-offset_top = 59.40299987792969
-offset_right = 6.644800186157227
-offset_bottom = 59.40299987792969
+offset_left = 6.6448
+offset_top = 59.403
+offset_right = 6.6448
+offset_bottom = 59.403
 
 [node name="Highlighter" parent="ClipboardSpot3/Indicators" index="0"]
 modulate = Color(0.373034, 0.338137, 0.0503079, 1)
@@ -350,10 +350,10 @@ hotspot_id = "r8I"
 text = "FINALE_LAB_DOOR_TOOLTIP"
 
 [node name="Indicators" parent="DoorSpot2" index="0"]
-offset_left = -33.385501861572266
-offset_top = 70.16339874267578
-offset_right = -33.385501861572266
-offset_bottom = 70.16339874267578
+offset_left = -33.3855
+offset_top = 70.1634
+offset_right = -33.3855
+offset_bottom = 70.1634
 
 [node name="Highlighter" parent="DoorSpot2/Indicators" index="0"]
 modulate = Color(0.456271, 0.679854, 0.380727, 1)

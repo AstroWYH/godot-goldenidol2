@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://di5awk44tdme4"]
+[gd_scene load_steps=4 format=3 uid="uid://di5awk44tdme4"]
 
 [ext_resource type="Theme" uid="uid://c0ojmupfgnqa3" path="res://shared/ui/themes/invisible_background_button.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/thinking_ui_card/thinking_ui_card.gd" id="2"]
+[ext_resource type="Script" uid="uid://t603ys86hc05" path="res://shared/ui/thinking_ui/thinking_ui_card/thinking_ui_card.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://cguma5pp5dbsf" path="res://shared/assets/placeholder_ui/buttons/phrases.png" id="3"]
 
 [node name="ScenarioUICard" type="Button"]

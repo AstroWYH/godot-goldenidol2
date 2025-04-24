@@ -1,7 +1,7 @@
-[gd_scene load_steps=8 format=4 uid="uid://ce23hf84gjyxj"]
+[gd_scene load_steps=8 format=3 uid="uid://ce23hf84gjyxj"]
 
 [ext_resource type="Texture2D" uid="uid://cnv6qn3ahlnx2" path="res://shared/ui/misc/frame_focus_white.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hints/hint_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://cmt5eqn0gf42m" path="res://shared/ui/hints/hint_button.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://bjmxm3js7bpeb" path="res://acts/full_game/hints/assets/typo.png" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
 

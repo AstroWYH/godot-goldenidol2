@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4]
+[gd_scene load_steps=3 format=3 uid="uid://bgdwpf4wisuwx"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://dbk3rhfes7ldb" path="res://shared/ui/hints/hint_library/1_curse/cockpit.png" id="2"]

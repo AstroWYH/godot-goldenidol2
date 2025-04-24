@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://b07f0qwoak5rs"]
+[gd_scene load_steps=4 format=3 uid="uid://b07f0qwoak5rs"]
 
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://gkxp3e8bmxtt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/crossedout1.png" id="2"]
@@ -14,14 +14,14 @@ offset_bottom = 40.0
 layout_mode = 1
 anchors_preset = -1
 anchor_left = -4.0
-anchor_top = 0.32499998807907104
+anchor_top = 0.325
 anchor_right = -4.0
-anchor_bottom = 0.32499998807907104
+anchor_bottom = 0.325
 offset_left = -255.0
 offset_top = 38.0
 offset_right = 19.0
 offset_bottom = 139.0
-rotation = -0.06211509928107262
+rotation = -0.0621151
 theme = ExtResource("1")
 theme_override_colors/font_color = Color(0.32549, 0.298039, 0.262745, 1)
 text = "cinema_bet_winner_label"
@@ -34,7 +34,7 @@ offset_left = -113.0
 offset_top = 28.0
 offset_right = 161.0
 offset_bottom = 129.0
-rotation = -0.06211509928107262
+rotation = -0.0621151
 theme = ExtResource("1")
 theme_override_colors/font_color = Color(0.32549, 0.298039, 0.262745, 1)
 text = "cinema_bet_mike_label"
@@ -46,7 +46,7 @@ offset_left = 24.0
 offset_top = 26.0
 offset_right = 285.0
 offset_bottom = 59.0
-rotation = 0.07138080149888992
+rotation = 0.0713808
 theme = ExtResource("1")
 theme_override_colors/font_color = Color(0, 0, 0.815686, 1)
 text = "cinema_bet_puzzle_text2"
@@ -57,13 +57,13 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = -1.125
 anchor_top = -0.5
-anchor_right = -0.2750000059604645
+anchor_right = -0.275
 anchor_bottom = -0.5
 offset_left = -25.0
 offset_top = 104.0
 offset_right = 285.0
 offset_bottom = 244.0
-rotation = -0.03061779960989952
+rotation = -0.0306178
 theme = ExtResource("1")
 theme_override_colors/font_color = Color(0.32549, 0.298039, 0.262745, 1)
 text = "cinema_bet_puzzle_text3"

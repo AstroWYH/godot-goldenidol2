@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://k7100q8st0x1"]
+[gd_scene load_steps=35 format=3 uid="uid://k7100q8st0x1"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cyc1y1gnfrbk" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/handgun.png" id="2"]
@@ -27,7 +27,7 @@
 [ext_resource type="Texture2D" uid="uid://do04tadx678yb" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/naive/naive_022.png" id="25"]
 [ext_resource type="Texture2D" uid="uid://m6ntcthjijit" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/naive/naive_023.png" id="26"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="27"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="28"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="28"]
 [ext_resource type="Texture2D" uid="uid://btkbhdt4hb7vg" path="res://shared/assets/papers/TextColumnPaper_ICO2.png" id="29"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7me3h"]
@@ -141,7 +141,7 @@ texture = ExtResource("2")
 position = Vector2(596, 298)
 sprite_frames = SubResource("SpriteFrames_7me3h")
 autoplay = "default"
-frame_progress = 0.21666699647903442
+frame_progress = 0.216667
 
 [node name="NaiveOfficerSpeech" type="Label" parent="."]
 layout_mode = 0

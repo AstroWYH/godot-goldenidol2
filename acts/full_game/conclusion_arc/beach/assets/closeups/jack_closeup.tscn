@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=4 uid="uid://civlltc8o46hy"]
+[gd_scene load_steps=40 format=3 uid="uid://civlltc8o46hy"]
 
 [ext_resource type="Texture2D" uid="uid://d0x7s5xqxcfua" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c5e3gh88i3ibc" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00001.png" id="2"]
@@ -175,7 +175,7 @@ position = Vector2(17.2252, 248.754)
 sprite_frames = SubResource("SpriteFrames_81k0w")
 animation = &"new_animation_1"
 autoplay = "new_animation_1"
-frame_progress = 0.37655898928642273
+frame_progress = 0.376559
 centered = false
 
 [node name="Seal" type="Sprite2D" parent="."]
@@ -184,19 +184,19 @@ texture = ExtResource("37")
 
 [node name="SealSpot" parent="." instance=ExtResource("38")]
 layout_mode = 1
-offset_left = 399.8399963378906
-offset_top = 273.8389892578125
-offset_right = -290.1600036621094
-offset_bottom = -223.16099548339844
+offset_left = 399.84
+offset_top = 273.839
+offset_right = -290.16
+offset_bottom = -223.161
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "N6Z"
 text = "BEACH_DATA_DISK_TOOLTIP"
 
 [node name="Indicators" parent="SealSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="SealSpot/Indicators" index="0"]
 modulate = Color(0.769241, 0.295301, 0.281286, 1)

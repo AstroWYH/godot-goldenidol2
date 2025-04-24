@@ -1,9 +1,10 @@
-[gd_resource type="Resource" script_class="ArcMeta" load_steps=5 format=4 uid="uid://b1jtg1awa3n2b"]
+[gd_resource type="Resource" script_class="ArcMeta" load_steps=6 format=3 uid="uid://b1jtg1awa3n2b"]
 
 [ext_resource type="AudioStream" uid="uid://b13tosh30506" path="res://shared/assets/sfx/ambiences/tv_static_ambience.ogg" id="1"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="2_0sk7f"]
 [ext_resource type="Texture2D" uid="uid://de0dqhbuxufix" path="res://acts/roys_dlc/hub/assets/hub_background.png" id="3"]
-[ext_resource type="Script" path="res://shared/resources/arc_meta.gd" id="4"]
+[ext_resource type="Script" uid="uid://eka7wx0emwmi" path="res://shared/resources/arc_meta.gd" id="4"]
 
 [resource]
 script = ExtResource("4")
@@ -13,8 +14,8 @@ name = "The Sins of New Wells"
 description = "… in which a new district means business as usual."
 hub_scene_path = "res://acts/roys_dlc/hub/roys_dlc_hub.tscn"
 achievement_id = 0
-music_layers = [ExtResource("2")]
-ambience_layers = [ExtResource("1")]
+music_layers = Array[AudioStream]([ExtResource("2")])
+ambience_layers = Array[AudioStream]([ExtResource("1")])
 picture = ExtResource("3")
-hint_meta_list = []
+hint_meta_list = Array[ExtResource("2_0sk7f")]([])
 autoload_intermission_path = ""

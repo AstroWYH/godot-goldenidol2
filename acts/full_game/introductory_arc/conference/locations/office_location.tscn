@@ -1,12 +1,12 @@
-[gd_scene load_steps=43 format=4 uid="uid://c4oiusxd3dxrc"]
+[gd_scene load_steps=43 format=3 uid="uid://c4oiusxd3dxrc"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dul2qnj77nbk7" path="res://acts/full_game/introductory_arc/conference/locations/office_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ccooug4cq57qe" path="res://shared/assets/light.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
 [ext_resource type="Resource" uid="uid://dyibdt24vxisu" path="res://acts/full_game/introductory_arc/conference/locations/conference_location_meta.tres" id="5"]
 [ext_resource type="PackedScene" uid="uid://cls8dv7a11711" path="res://acts/full_game/introductory_arc/conference/closeups/bin_panel.tscn" id="6"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="7"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="7"]
 [ext_resource type="PackedScene" uid="uid://ctel3m0q2wxai" path="res://acts/full_game/introductory_arc/conference/closeups/dirty_william_case_panel.tscn" id="8"]
 [ext_resource type="PackedScene" uid="uid://bybjvwsno4smd" path="res://acts/full_game/introductory_arc/conference/closeups/computer_panel.tscn" id="9"]
 [ext_resource type="PackedScene" uid="uid://ql6wb8g4pheg" path="res://acts/full_game/introductory_arc/conference/closeups/isaacs_case_panel.tscn" id="10"]
@@ -28,16 +28,16 @@ gradient = SubResource("Gradient_nxkl1")
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_f44g3"]
 particle_flag_rotate_y = true
 particle_flag_disable_z = true
-angle_min = 1.0728799679782242e-05
-angle_max = 356.70001220703125
+angle_min = 1.07288e-05
+angle_max = 356.7
 direction = Vector3(1, 1, 0)
 gravity = Vector3(0, 3, 0)
-linear_accel_min = -2.2351700863509905e-06
-linear_accel_max = 16.510000228881836
-radial_accel_min = -2.2351700863509905e-06
-radial_accel_max = 40.369998931884766
-tangential_accel_min = -2.2351700863509905e-06
-tangential_accel_max = 69.72000122070313
+linear_accel_min = -2.23517e-06
+linear_accel_max = 16.51
+radial_accel_min = -2.23517e-06
+radial_accel_max = 40.37
+tangential_accel_min = -2.23517e-06
+tangential_accel_max = 69.72
 scale_max = 4.0
 color_ramp = SubResource("GradientTexture1D_hxixl")
 
@@ -160,13 +160,13 @@ offset_left = -1662.0
 offset_top = 433.0
 offset_right = 1478.0
 offset_bottom = 1115.0
-rotation = -0.4166010022163391
+rotation = -0.416601
 color = Color(0, 0, 0, 1)
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
 material = SubResource("CanvasItemMaterial_tg0by")
 position = Vector2(2759.51, 310.178)
-rotation = 0.4166010022163391
+rotation = 0.416601
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_f44g3")
 lifetime = 16.14
@@ -175,7 +175,7 @@ explosiveness = 0.25
 [node name="GPUParticles2D3" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
 material = SubResource("CanvasItemMaterial_tg0by")
 position = Vector2(2056.16, -13.0845)
-rotation = 0.4166010022163391
+rotation = 0.416601
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_f44g3")
 lifetime = 16.14
@@ -184,7 +184,7 @@ explosiveness = 0.25
 [node name="GPUParticles2D2" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
 material = SubResource("CanvasItemMaterial_tg0by")
 position = Vector2(877.009, -29.65)
-rotation = 0.4166010022163391
+rotation = 0.416601
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_f44g3")
 lifetime = 16.14
@@ -209,10 +209,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("5")
 
 [node name="Indicators" parent="Hotspots/ToConferenceSpot" index="0"]
-offset_left = -40.406700134277344
-offset_top = 134.45700073242188
-offset_right = -40.406700134277344
-offset_bottom = 134.45700073242188
+offset_left = -40.4067
+offset_top = 134.457
+offset_right = -40.4067
+offset_bottom = 134.457
 
 [node name="Highlighter" parent="Hotspots/ToConferenceSpot/Indicators" index="0"]
 modulate = Color(0.592157, 0.568627, 0.305882, 1)
@@ -227,17 +227,17 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "WfF"
 
 [node name="Indicators" parent="Hotspots/TrashBinSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="BinPanel" parent="Hotspots/TrashBinSpot" instance=ExtResource("6")]
 layout_mode = 0
-offset_left = -333.5360107421875
-offset_top = 586.9949951171875
-offset_right = -30.535600662231445
-offset_bottom = 912.9949951171875
+offset_left = -333.536
+offset_top = 586.995
+offset_right = -30.5356
+offset_bottom = 912.995
 
 [node name="DirtyWilliamCaseSpot" parent="Hotspots" instance=ExtResource("4")]
 layout_mode = 1

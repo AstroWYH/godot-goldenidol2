@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://dtdc4k4n5hv0t"]
+[gd_scene load_steps=9 format=3 uid="uid://dtdc4k4n5hv0t"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cfls7jas80k3b" path="res://acts/full_game/research_arc/talent_show/assets/closeups/scoreboard.png" id="2"]

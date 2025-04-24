@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://cljavpqgq6tws"]
+[gd_scene load_steps=43 format=3 uid="uid://cljavpqgq6tws"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
@@ -176,13 +176,13 @@ autowrap_mode = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(508.237, 193.25)
-rotation = 0.04174159839749336
+rotation = 0.0417416
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -196,7 +196,7 @@ texture = ExtResource("4")
 
 [node name="Sprite2D2" type="Sprite2D" parent="Sprite2D2"]
 position = Vector2(-68.7001, -12.881)
-rotation = -0.16007499396800995
+rotation = -0.160075
 scale = Vector2(1.07904, 1.07904)
 texture = ExtResource("4")
 
@@ -212,7 +212,7 @@ text = "ticket_stub_tooltip"
 [node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
 modulate = Color(0.752941, 0.568627, 0.298039, 1)
 position = Vector2(-6, -1)
-frame_progress = 0.614670991897583
+frame_progress = 0.614671
 
 [node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
 position = Vector2(-5, 3)
@@ -230,7 +230,7 @@ unlocked_item_ref_id = 158
 [node name="Highlighter" parent="CashSpot2/Indicators" index="0"]
 modulate = Color(0.709804, 0.635294, 0.45098, 1)
 position = Vector2(-28, -18)
-frame_progress = 0.04388979822397232
+frame_progress = 0.0438898
 
 [node name="FocusIndicator" parent="CashSpot2/Indicators" index="1"]
 position = Vector2(-27, -14)
@@ -239,7 +239,7 @@ position = Vector2(-27, -14)
 position = Vector2(206, 313)
 sprite_frames = SubResource("SpriteFrames_3m6jj")
 autoplay = "default"
-frame_progress = 0.4582499861717224
+frame_progress = 0.45825
 
 [editable path="TicketSpot2"]
 [editable path="CashSpot2"]

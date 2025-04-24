@@ -1,11 +1,11 @@
-[gd_scene load_steps=59 format=4 uid="uid://bounua521nxc5"]
+[gd_scene load_steps=59 format=3 uid="uid://bounua521nxc5"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cx3np3s5sc16r" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/unknown_frame.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://burv672o2ryfy" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/collector_retreat.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://x3pjg3s51oqc" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/duct_tape.png" id="4"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="5"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="7"]
 [ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="8"]
 [ext_resource type="Resource" uid="uid://lippj1vo32f3" path="res://acts/full_game/colecting_parts_arc/hub/puzzles/past_arc_character_puzzle.tres" id="9"]
@@ -280,24 +280,24 @@ texture = ExtResource("2")
 
 [node name="HistorianSprite" type="Sprite2D" parent="Frame/MarginContainer/Background" index="9"]
 position = Vector2(100, 162)
-rotation = 0.09381269663572311
+rotation = 0.0938127
 texture = ExtResource("3")
 
 [node name="DuctTape" type="TextureRect" parent="Frame/MarginContainer/Background/HistorianSprite" index="0"]
-offset_left = 57.61650085449219
-offset_top = -17.47410011291504
-offset_right = 98.61650085449219
-offset_bottom = 107.5260009765625
-rotation = 0.5526610016822815
+offset_left = 57.6165
+offset_top = -17.4741
+offset_right = 98.6165
+offset_bottom = 107.526
+rotation = 0.552661
 texture = ExtResource("4")
 expand_mode = 1
 
 [node name="DuctTape2" type="TextureRect" parent="Frame/MarginContainer/Background/HistorianSprite" index="1"]
-offset_left = -11.206199645996094
-offset_top = -108.427001953125
-offset_right = 29.793800354003906
-offset_bottom = 16.572999954223633
-rotation = 0.7993689775466919
+offset_left = -11.2062
+offset_top = -108.427
+offset_right = 29.7938
+offset_bottom = 16.573
+rotation = 0.799369
 texture = ExtResource("4")
 expand_mode = 1
 
@@ -566,7 +566,7 @@ offset_left = -48.0
 offset_top = -675.0
 offset_right = 87.0
 offset_bottom = -528.0
-rotation = -0.010240900330245495
+rotation = -0.0102409
 texture = ExtResource("14")
 
 [node name="3" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="1"]
@@ -576,7 +576,7 @@ offset_left = 119.0
 offset_top = -674.0
 offset_right = 254.0
 offset_bottom = -527.0
-rotation = 0.004935880191624165
+rotation = 0.00493588
 texture = ExtResource("15")
 
 [node name="4" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="2"]
@@ -586,7 +586,7 @@ offset_left = -218.0
 offset_top = -680.0
 offset_right = -83.0
 offset_bottom = -533.0
-rotation = 0.056272998452186584
+rotation = 0.056273
 texture = ExtResource("16")
 
 [node name="5" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="3"]
@@ -623,7 +623,7 @@ offset_left = -49.0
 offset_top = -412.0
 offset_right = 86.0
 offset_bottom = -265.0
-rotation = -0.028578000143170357
+rotation = -0.028578
 texture = ExtResource("12")
 
 [node name="8" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="7"]
@@ -633,7 +633,7 @@ offset_left = 119.0
 offset_top = -414.0
 offset_right = 254.0
 offset_bottom = -267.0
-rotation = 0.02687780000269413
+rotation = 0.0268778
 texture = ExtResource("19")
 
 [node name="9" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="8"]
@@ -643,7 +643,7 @@ offset_left = -219.0
 offset_top = -412.0
 offset_right = -84.0
 offset_bottom = -265.0
-rotation = -0.007797460071742535
+rotation = -0.00779746
 texture = ExtResource("20")
 
 [node name="10" type="TextureRect" parent="PuzzleGroup/PicturePuzzle/Inventory/GridContainer" index="9"]
@@ -653,7 +653,7 @@ offset_left = 471.0
 offset_top = -412.0
 offset_right = 606.0
 offset_bottom = -265.0
-rotation = -0.01877949945628643
+rotation = -0.0187795
 texture = ExtResource("21")
 
 [node name="PhrasePuzzle" parent="PuzzleGroup" index="1" node_paths=PackedStringArray("phrase_grids") instance=ExtResource("22")]
@@ -720,7 +720,7 @@ offset_left = -58.0
 offset_top = -10.0
 offset_right = 73.0
 offset_bottom = 32.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")
@@ -735,10 +735,10 @@ texture = ExtResource("25")
 
 [node name="NoteLabel2" type="RichTextLabel" parent="ColleagueLabel" index="0"]
 offset_left = -56.5
-offset_top = -10.513400077819824
+offset_top = -10.5134
 offset_right = 61.5
-offset_bottom = 36.48659896850586
-rotation = -0.05303730070590973
+offset_bottom = 36.4866
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")
@@ -756,7 +756,7 @@ offset_left = -63.0
 offset_top = -24.0
 offset_right = 68.0
 offset_bottom = 43.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")
@@ -775,7 +775,7 @@ offset_left = 808.0
 offset_top = 635.0
 offset_right = 850.0
 offset_bottom = 671.0
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")
@@ -793,7 +793,7 @@ offset_left = -52.5
 offset_top = -25.5
 offset_right = 54.5
 offset_bottom = 45.5
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")
@@ -811,7 +811,7 @@ offset_left = -57.5
 offset_top = -25.5
 offset_right = 61.5
 offset_bottom = 45.5
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")
@@ -829,7 +829,7 @@ offset_left = -57.5
 offset_top = -25.5
 offset_right = 61.5
 offset_bottom = 47.5
-rotation = -0.05303730070590973
+rotation = -0.0530373
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/bold_font = ExtResource("26")

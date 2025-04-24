@@ -1,6 +1,6 @@
-[gd_scene load_steps=198 format=4]
+[gd_scene load_steps=198 format=3 uid="uid://uapj74evkygy"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cnj7sel856efs" path="res://acts/full_game/conclusion_arc/beach/locations/ambulance_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://c160wfa2xlauh" path="res://acts/full_game/conclusion_arc/beach/assets/animations/patient/patient_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dqlq467ybygo5" path="res://acts/full_game/conclusion_arc/beach/assets/animations/patient/patient_001.png" id="4"]
@@ -173,7 +173,7 @@
 [ext_resource type="Texture2D" uid="uid://5bdq06bfwqnh" path="res://acts/full_game/conclusion_arc/beach/assets/animations/paramedic/paramedic_037.png" id="171"]
 [ext_resource type="Texture2D" uid="uid://b62ffwhr2mxda" path="res://acts/full_game/conclusion_arc/beach/assets/animations/paramedic/paramedic_038.png" id="172"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="173"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="174"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="174"]
 [ext_resource type="PackedScene" uid="uid://tym3qxrrxhl" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/paramedic_closeup.tscn" id="175"]
 [ext_resource type="PackedScene" uid="uid://bmhrocs533q38" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/amy_closeup.tscn" id="176"]
 [ext_resource type="PackedScene" uid="uid://c1hkblu5j7fc6" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/medic_closeup.tscn" id="177"]
@@ -772,26 +772,26 @@ location_meta = ExtResource("2")
 position = Vector2(592, 511)
 sprite_frames = SubResource("SpriteFrames_est18")
 autoplay = "default"
-frame_progress = 0.8133479952812195
+frame_progress = 0.813348
 
 [node name="Ambulancefigures" type="AnimatedSprite2D" parent="."]
 position = Vector2(1004, 441)
 sprite_frames = SubResource("SpriteFrames_g7tnx")
 autoplay = "default"
-frame_progress = 0.5516790151596069
+frame_progress = 0.551679
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1167, 617)
 sprite_frames = SubResource("SpriteFrames_pqnmx")
 autoplay = "default"
-frame_progress = 0.6423190236091614
+frame_progress = 0.642319
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 z_as_relative = false
 position = Vector2(386, 526)
 sprite_frames = SubResource("SpriteFrames_lstb2")
 autoplay = "default"
-frame_progress = 0.005325720179826021
+frame_progress = 0.00532572
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -812,10 +812,10 @@ unlocked_item_ref_id = 866
 extra_items_unlocked = [SubResource("Resource_10hxg")]
 
 [node name="Indicators" parent="Hotspots/ParamedicSpot" index="0"]
-offset_left = 35.20909881591797
-offset_top = 156.53199768066406
-offset_right = 35.20909881591797
-offset_bottom = 156.53199768066406
+offset_left = 35.2091
+offset_top = 156.532
+offset_right = 35.2091
+offset_bottom = 156.532
 
 [node name="Highlighter" parent="Hotspots/ParamedicSpot/Indicators" index="0"]
 modulate = Color(0.51967, 0.359183, 2.03865e-07, 1)
@@ -826,10 +826,10 @@ position = Vector2(-27.5321, -49.9512)
 
 [node name="ParamedicCloseup" parent="Hotspots/ParamedicSpot" instance=ExtResource("175")]
 layout_mode = 0
-offset_left = -1270.0400390625
-offset_top = -515.7529907226563
-offset_right = -615.0399780273438
-offset_bottom = 2.247499942779541
+offset_left = -1270.04
+offset_top = -515.753
+offset_right = -615.04
+offset_bottom = 2.2475
 
 [node name="AmySpot" parent="Hotspots" instance=ExtResource("173")]
 layout_mode = 1
@@ -843,10 +843,10 @@ unlocked_character_ref_id = 82
 unlocked_item_ref_id = 746
 
 [node name="Indicators" parent="Hotspots/AmySpot" index="0"]
-offset_left = 89.8136978149414
-offset_top = 35.119300842285156
-offset_right = 89.8136978149414
-offset_bottom = 35.119300842285156
+offset_left = 89.8137
+offset_top = 35.1193
+offset_right = 89.8137
+offset_bottom = 35.1193
 
 [node name="Highlighter" parent="Hotspots/AmySpot/Indicators" index="0"]
 modulate = Color(1, 0.841059, 0.242172, 1)
@@ -857,10 +857,10 @@ position = Vector2(-12.5354, -7.80796)
 
 [node name="AmyCloseup" parent="Hotspots/AmySpot" instance=ExtResource("176")]
 layout_mode = 0
-offset_left = -1729.780029296875
-offset_top = 62.21139907836914
-offset_right = -904.7780151367188
-offset_bottom = 675.2109985351563
+offset_left = -1729.78
+offset_top = 62.2114
+offset_right = -904.778
+offset_bottom = 675.211
 
 [node name="MedicSpot" parent="Hotspots" instance=ExtResource("173")]
 layout_mode = 1
@@ -875,10 +875,10 @@ unlocked_character_ref_id = 84
 extra_items_unlocked = [SubResource("Resource_i62pf")]
 
 [node name="Indicators" parent="Hotspots/MedicSpot" index="0"]
-offset_left = -17.342300415039063
-offset_top = 84.2863998413086
-offset_right = -17.342300415039063
-offset_bottom = 84.2863998413086
+offset_left = -17.3423
+offset_top = 84.2864
+offset_right = -17.3423
+offset_bottom = 84.2864
 
 [node name="Highlighter" parent="Hotspots/MedicSpot/Indicators" index="0"]
 modulate = Color(0.521569, 0.360784, 0, 1)
@@ -889,10 +889,10 @@ position = Vector2(33.0982, -29.883)
 
 [node name="MedicCloseup" parent="Hotspots/MedicSpot" instance=ExtResource("177")]
 layout_mode = 0
-offset_left = -454.7300109863281
-offset_top = -1157.9300537109375
-offset_right = 346.2720031738281
-offset_bottom = -544.9249877929688
+offset_left = -454.73
+offset_top = -1157.93
+offset_right = 346.272
+offset_bottom = -544.925
 
 [node name="AgentSpot" parent="Hotspots" instance=ExtResource("173")]
 layout_mode = 1
@@ -907,10 +907,10 @@ hotspot_id = "ptQ"
 unlocked_character_ref_id = 86
 
 [node name="Indicators" parent="Hotspots/AgentSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/AgentSpot/Indicators" index="0"]
 modulate = Color(0.232466, 0.543673, 0.721829, 1)
@@ -921,10 +921,10 @@ position = Vector2(43.6432, -13.8285)
 
 [node name="AgentCloseup" parent="Hotspots/AgentSpot" instance=ExtResource("178")]
 layout_mode = 0
-offset_left = -989.5889892578125
-offset_top = 1113.780029296875
-offset_right = -188.5919952392578
-offset_bottom = 1726.7900390625
+offset_left = -989.589
+offset_top = 1113.78
+offset_right = -188.592
+offset_bottom = 1726.79
 
 [node name="MedicBag" parent="Hotspots" instance=ExtResource("173")]
 layout_mode = 1
@@ -936,10 +936,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "ptQ"
 
 [node name="Indicators" parent="Hotspots/MedicBag" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/MedicBag/Indicators" index="0"]
 position = Vector2(20.5305, 55.4205)
@@ -949,10 +949,10 @@ position = Vector2(21.5305, 59.4205)
 
 [node name="MedicBagCloseup" parent="Hotspots/MedicBag" instance=ExtResource("179")]
 layout_mode = 0
-offset_left = 53.08530044555664
-offset_top = 704.3930053710938
-offset_right = 854.0850219726563
-offset_bottom = 1317.3900146484375
+offset_left = 53.0853
+offset_top = 704.393
+offset_right = 854.085
+offset_bottom = 1317.39
 
 [node name="ParamedicBag" parent="Hotspots" instance=ExtResource("173")]
 layout_mode = 1
@@ -965,10 +965,10 @@ focus_neighbor_top = NodePath("../AgentSpot")
 hotspot_id = "ptQ"
 
 [node name="Indicators" parent="Hotspots/ParamedicBag" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/ParamedicBag/Indicators" index="0"]
 position = Vector2(14.5209, 58.4307)
@@ -978,10 +978,10 @@ position = Vector2(15.5209, 62.4307)
 
 [node name="ParamedicBagCloseup" parent="Hotspots/ParamedicBag" instance=ExtResource("180")]
 layout_mode = 0
-offset_left = 1002.6099853515625
-offset_top = 34.11589813232422
-offset_right = 1803.6099853515625
-offset_bottom = 647.1170043945313
+offset_left = 1002.61
+offset_top = 34.1159
+offset_right = 1803.61
+offset_bottom = 647.117
 
 [node name="ToBeach" parent="Hotspots" instance=ExtResource("173")]
 layout_mode = 1
@@ -996,10 +996,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("181")
 
 [node name="Indicators" parent="Hotspots/ToBeach" index="0"]
-offset_left = -3.8552498817443848
-offset_top = 400.3599853515625
-offset_right = -3.8552498817443848
-offset_bottom = 400.3599853515625
+offset_left = -3.85525
+offset_top = 400.36
+offset_right = -3.85525
+offset_bottom = 400.36
 
 [node name="Highlighter" parent="Hotspots/ToBeach/Indicators" index="0"]
 modulate = Color(0.992999, 0.707886, 1.84705e-06, 1)
@@ -1052,8 +1052,8 @@ stretch_mode = 1
 [node name="Sprite2D9" type="Sprite2D" parent="NoteSpot/NotePanel/ClipboardSprite"]
 modulate = Color(1, 0.53, 0.53, 1)
 position = Vector2(284, 36)
-rotation = 1.5707999467849731
-skew = -0.010496499948203564
+rotation = 1.5708
+skew = -0.0104965
 texture = ExtResource("183")
 region_enabled = true
 region_rect = Rect2(1, 79.6, 73.7, 110)
@@ -1062,7 +1062,7 @@ region_rect = Rect2(1, 79.6, 73.7, 110)
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(342.317, 244)
 scale = Vector2(1.15391, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("184")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)

@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://wybn3r15h7oy"]
+[gd_scene load_steps=6 format=3 uid="uid://wybn3r15h7oy"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/victory_dialog_from_hub.gd" id="1"]
+[ext_resource type="Script" uid="uid://dt2a2dbqxxvin" path="res://shared/ui/hub/victory_dialog_from_hub.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dtyysjyd67h01" path="res://shared/assets/frames/frame_transparent_blue.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://bjuynef5taie7" path="res://acts/full_game/conclusion_arc/finale/assets/victoryscreen2.png" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]

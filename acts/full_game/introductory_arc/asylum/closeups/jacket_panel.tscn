@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://bde8nogay7obd"]
+[gd_scene load_steps=3 format=3 uid="uid://bde8nogay7obd"]
 
 [ext_resource type="Texture2D" uid="uid://b63na211whgdq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/streightjackett.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
@@ -19,7 +19,7 @@ offset_left = 293.0
 offset_top = 273.0
 offset_right = 684.0
 offset_bottom = 338.0
-rotation = 0.15825000405311584
+rotation = 0.15825
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.396078, 0.243137, 0.439216, 1)
 theme_override_constants/line_spacing = -3

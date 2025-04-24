@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4 uid="uid://dna31fhvcgeyo"]
+[gd_scene load_steps=11 format=3 uid="uid://dna31fhvcgeyo"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://c4a1rl007gbdm" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/suitcase_puzzle.png" id="2"]
@@ -63,18 +63,18 @@ metadata/_edit_lock_ = true
 [node name="PuzzleGroup" parent="." index="4" instance=ExtResource("7")]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.093999981880188
-anchor_bottom = 0.925000011920929
-offset_right = -83.09609985351563
-offset_bottom = 44.17499923706055
+anchor_right = 1.094
+anchor_bottom = 0.925
+offset_right = -83.0961
+offset_bottom = 44.175
 metadata/_edit_lock_ = true
 
 [node name="Puzzle" parent="PuzzleGroup" index="0" instance=ExtResource("8")]
 layout_mode = 1
 offset_left = 113.0
 offset_top = 263.0
-offset_right = -861.802001953125
-offset_bottom = -96.5999984741211
+offset_right = -861.802
+offset_bottom = -96.6
 puzzle_meta = ExtResource("9")
 
 [node name="PhrasePuzzleSlot" parent="PuzzleGroup/Puzzle" index="1" instance=ExtResource("10")]

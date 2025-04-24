@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://ctuqnr1dgl5vq"]
+[gd_scene load_steps=3 format=3 uid="uid://ctuqnr1dgl5vq"]
 
 [ext_resource type="Texture2D" uid="uid://cfr8ds88u243o" path="res://acts/full_game/colecting_parts_arc/drivein/assets/poster_staff.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -30,7 +30,7 @@ offset_left = 39.0
 offset_top = -109.0
 offset_right = 166.0
 offset_bottom = -64.0
-rotation = -0.07883170247077942
+rotation = -0.0788317
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "cinema_corkboard_label2"
@@ -50,10 +50,10 @@ autowrap_mode = 2
 
 [node name="Label4" type="Label" parent="Sprite2D"]
 offset_left = 79.0
-offset_top = 44.629398345947266
+offset_top = 44.6294
 offset_right = 207.0
-offset_bottom = 89.62940216064453
-rotation = -0.11285199970006943
+offset_bottom = 89.6294
+rotation = -0.112852
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "cinema_corkboard_label4"
@@ -73,10 +73,10 @@ autowrap_mode = 2
 
 [node name="Label6" type="Label" parent="Sprite2D"]
 offset_left = 44.0
-offset_top = 154.9550018310547
+offset_top = 154.955
 offset_right = 215.0
-offset_bottom = 199.9550018310547
-rotation = -0.04397840052843094
+offset_bottom = 199.955
+rotation = -0.0439784
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "cinema_corkboard_label6"
@@ -88,7 +88,7 @@ offset_left = 25.0
 offset_top = 186.0
 offset_right = 268.0
 offset_bottom = 364.0
-rotation = -0.07367820292711258
+rotation = -0.0736782
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = -3

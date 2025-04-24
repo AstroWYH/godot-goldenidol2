@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://dtpefotaswjrx"]
+[gd_scene load_steps=22 format=3 uid="uid://dtpefotaswjrx"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://bc8nnr1k8aqqw" path="res://acts/full_game/research_arc/complex/assets/puzzles/background_appartment_puzzle.png" id="2"]
@@ -105,17 +105,17 @@ offset_bottom = 2.0
 [node name="PuzzleGroup" parent="." index="4" instance=ExtResource("4")]
 layout_mode = 1
 anchors_preset = -1
-anchor_bottom = 0.9380000233650208
+anchor_bottom = 0.938
 offset_top = 2.0
 offset_right = -150.0
-offset_bottom = -257.02398681640625
+offset_bottom = -257.024
 
 [node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("5")]
 layout_mode = 1
 offset_left = -10.0
 offset_top = -10.0
 offset_right = -150.0
-offset_bottom = -263.2300109863281
+offset_bottom = -263.23
 puzzle_meta = ExtResource("6")
 puzzle_inventory = NodePath("Inventory")
 puzzle_answers = NodePath("Answers")
@@ -128,7 +128,7 @@ anchor_bottom = 0.0
 offset_left = -3.0
 offset_top = -47.0
 offset_right = 230.0
-offset_bottom = 117.2300033569336
+offset_bottom = 117.23
 grow_horizontal = 1
 grow_vertical = 1
 

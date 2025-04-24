@@ -1,4 +1,4 @@
-[gd_scene load_steps=81 format=4 uid="uid://bnix1y173f7f3"]
+[gd_scene load_steps=81 format=3 uid="uid://bnix1y173f7f3"]
 
 [ext_resource type="Texture2D" uid="uid://dsjuqacjs2w6r" path="res://acts/full_game/colecting_parts_arc/drivein/assets/car2_v1.2.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://diafcm4oybstq" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/Mute/Annie/Annie_Kishimoto_mute_00000.png" id="2"]
@@ -75,7 +75,7 @@
 [ext_resource type="Texture2D" uid="uid://c3l4e4xx8nfxb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/Mute/Laura/Laura Parker_mute_00035.png" id="73"]
 [ext_resource type="Texture2D" uid="uid://bjl74m3tlnglo" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/PirateCar_FG.png" id="74"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="75"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="76"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="76"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4wv8h"]
 animations = [{
@@ -332,13 +332,13 @@ centered = false
 position = Vector2(240, 197)
 sprite_frames = SubResource("SpriteFrames_4wv8h")
 autoplay = "default"
-frame_progress = 0.5776439905166626
+frame_progress = 0.577644
 
 [node name="Laura" type="AnimatedSprite2D" parent="Sprite2D"]
 position = Vector2(553, 212)
 sprite_frames = SubResource("SpriteFrames_lncvb")
 autoplay = "default"
-frame_progress = 0.43787598609924316
+frame_progress = 0.437876
 
 [node name="PirateCarFg" type="Sprite2D" parent="Sprite2D"]
 texture = ExtResource("74")
@@ -358,7 +358,7 @@ extra_items_unlocked = [SubResource("Resource_fsjqa"), SubResource("Resource_lft
 [node name="Highlighter" parent="LauraSpot/Indicators" index="0"]
 modulate = Color(0.264, 0.8, 0.7464, 1)
 position = Vector2(-63, -18)
-frame_progress = 0.41680800914764404
+frame_progress = 0.416808
 
 [node name="FocusIndicator" parent="LauraSpot/Indicators" index="1"]
 position = Vector2(-62, -14)
@@ -383,7 +383,7 @@ unlocked_item_ref_id = 97
 [node name="Highlighter" parent="AnnieSpot/Indicators" index="0"]
 modulate = Color(0.843137, 0.717647, 0.317647, 1)
 position = Vector2(35, -11)
-frame_progress = 0.12535999715328217
+frame_progress = 0.12536
 
 [node name="FocusIndicator" parent="AnnieSpot/Indicators" index="1"]
 position = Vector2(36, -7)

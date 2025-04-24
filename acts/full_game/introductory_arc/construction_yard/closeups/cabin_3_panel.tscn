@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://ch7kd0hgu3flp"]
+[gd_scene load_steps=33 format=3 uid="uid://ch7kd0hgu3flp"]
 
 [ext_resource type="Texture2D" uid="uid://datx4ltluopjc" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dmg1il0sobvs5" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect2/worker3_001.png" id="2"]
@@ -140,7 +140,7 @@ offset_bottom = 1119.0
 position = Vector2(22, 130)
 sprite_frames = SubResource("SpriteFrames_wehqf")
 autoplay = "default"
-frame_progress = 0.09753420203924179
+frame_progress = 0.0975342
 centered = false
 
 [node name="Label" type="Label" parent="."]

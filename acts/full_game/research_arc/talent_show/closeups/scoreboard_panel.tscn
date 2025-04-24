@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://dhvccih47uamt"]
+[gd_scene load_steps=5 format=3 uid="uid://dhvccih47uamt"]
 
 [ext_resource type="Texture2D" uid="uid://cfls7jas80k3b" path="res://acts/full_game/research_arc/talent_show/assets/closeups/scoreboard.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]

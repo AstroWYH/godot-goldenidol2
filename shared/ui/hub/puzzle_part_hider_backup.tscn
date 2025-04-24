@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=4 uid="uid://d3p5w45t3hvcu"]
+[gd_scene load_steps=6 format=3 uid="uid://d3p5w45t3hvcu"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/puzzle_part_hider.gd" id="1"]
+[ext_resource type="Script" uid="uid://v8f3640ki1m6" path="res://shared/ui/hub/puzzle_part_hider.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cjbiv837rsm1b" path="res://acts/full_game/introductory_arc/bridge/puzzles/bridge_scroll_meta.tres" id="2"]
 
 [sub_resource type="Animation" id="Animation_f6xx1"]
-length = 0.0010000000474974513
+length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -35,8 +35,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_17g4x"]
 _data = {
-"RESET": SubResource("Animation_f6xx1"),
-"reveal": SubResource("Animation_fvhqm")
+&"RESET": SubResource("Animation_f6xx1"),
+&"reveal": SubResource("Animation_fvhqm")
 }
 
 [node name="ColorRect" type="ColorRect"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://tt4dxiq2tw5d"]
+[gd_scene load_steps=3 format=3 uid="uid://tt4dxiq2tw5d"]
 
 [ext_resource type="Texture2D" uid="uid://b8smtih41bih2" path="res://acts/full_game/research_arc/aviary/assets/closeups/lockerpalmer.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -18,7 +18,7 @@ offset_left = -21.0
 offset_top = -41.0
 offset_right = 86.0
 offset_bottom = 112.0
-rotation = 0.04336019977927208
+rotation = 0.0433602
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.239216, 0.196078, 0.180392, 1)
 theme_override_font_sizes/font_size = 20
@@ -32,7 +32,7 @@ offset_left = 63.0
 offset_top = -197.0
 offset_right = 160.0
 offset_bottom = -158.0
-rotation = 0.04336019977927208
+rotation = 0.0433602
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.490196, 0.207843, 0, 1)
 theme_override_font_sizes/font_size = 17

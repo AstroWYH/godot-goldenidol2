@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://ds8p7a7egudm3"]
+[gd_scene load_steps=8 format=3 uid="uid://ds8p7a7egudm3"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dlx4jrch68qss" path="res://acts/full_game/colecting_parts_arc/retreat/puzzles/retreat_scroll_puzzle1.tscn" id="2"]

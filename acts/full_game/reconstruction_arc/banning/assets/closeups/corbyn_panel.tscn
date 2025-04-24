@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=4 uid="uid://dihtxufoq6cbr"]
+[gd_scene load_steps=47 format=3 uid="uid://dihtxufoq6cbr"]
 
 [ext_resource type="Texture2D" uid="uid://lrh5snorywry" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://joit226vflt8" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/olman/oldman_001.png" id="2"]
@@ -33,7 +33,7 @@
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="31"]
 [ext_resource type="Texture2D" uid="uid://blqdkhqgawhhu" path="res://shared/assets/papers/SmallNote_V1_ICO.png" id="32"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="33"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="34"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="34"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="35"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="36"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="37"]
@@ -176,7 +176,7 @@ offset_bottom = 457.0
 position = Vector2(175, 271)
 sprite_frames = SubResource("SpriteFrames_it880")
 autoplay = "default"
-frame_progress = 0.9498540163040161
+frame_progress = 0.949854
 
 [node name="SpeechCorbynLabel" type="Label" parent="."]
 layout_mode = 0
@@ -225,7 +225,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(311, 309)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("36")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -233,7 +233,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="LetterSpot/CorbynPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(193, 161)
-rotation = 6.407639980316162
+rotation = 6.40764
 scale = Vector2(0.807298, 1)
 texture = ExtResource("36")
 region_enabled = true

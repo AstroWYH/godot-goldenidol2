@@ -1,12 +1,12 @@
-[gd_scene load_steps=7 format=4 uid="uid://3kfl1f188npv"]
+[gd_scene load_steps=7 format=3 uid="uid://3kfl1f188npv"]
 
-[ext_resource type="Script" path="res://shared/ui/thinking_toggle/thinking_toggle.gd" id="1"]
+[ext_resource type="Script" uid="uid://bpb3mipll7jmt" path="res://shared/ui/thinking_toggle/thinking_toggle.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dp0evedjb44xa" path="res://shared/assets/placeholder_ui/switch_background.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://bkbk51agp0b20" path="res://shared/assets/placeholder_ui/split_ui_experiments/switch.png" id="3"]
 
 [sub_resource type="Animation" id="Animation_tp8rh"]
 resource_name = "to_left"
-length = 0.30000001192092896
+length = 0.3
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -22,7 +22,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_shqsh"]
 resource_name = "to_right"
-length = 0.30000001192092896
+length = 0.3
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -38,8 +38,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_o6tnn"]
 _data = {
-"to_left": SubResource("Animation_tp8rh"),
-"to_right": SubResource("Animation_shqsh")
+&"to_left": SubResource("Animation_tp8rh"),
+&"to_right": SubResource("Animation_shqsh")
 }
 
 [node name="ThinkingToggle" type="Control"]

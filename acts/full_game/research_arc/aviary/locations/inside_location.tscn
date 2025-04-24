@@ -1,10 +1,10 @@
-[gd_scene load_steps=21 format=4 uid="uid://xnvp7qqvt617"]
+[gd_scene load_steps=21 format=3 uid="uid://xnvp7qqvt617"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://b7t67nyu1kuma" path="res://acts/full_game/research_arc/aviary/locations/inside_meta.tres" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="7"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
@@ -48,15 +48,15 @@ location_meta = ExtResource("2")
 
 [node name="SkewLabels" type="Node2D" parent="."]
 position = Vector2(1186.13, 391.752)
-rotation = 0.01570799946784973
-skew = -0.031415898352861404
+rotation = 0.015708
+skew = -0.0314159
 
 [node name="MooreLabel" type="Label" parent="SkewLabels"]
-offset_left = -199.84100341796875
-offset_top = -83.62329864501953
-offset_right = -97.84110260009766
-offset_bottom = 3.376660108566284
-rotation = -0.01412030030041933
+offset_left = -199.841
+offset_top = -83.6233
+offset_right = -97.8411
+offset_bottom = 3.37666
+rotation = -0.0141203
 theme_override_colors/font_color = Color(0.164706, 0.2, 0.380392, 1)
 theme_override_fonts/font = ExtResource("3")
 theme_override_font_sizes/font_size = 22
@@ -66,11 +66,11 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="PalmerLabel" type="Label" parent="SkewLabels"]
-offset_left = 44.21770095825195
-offset_top = -85.45709991455078
-offset_right = 144.21800231933594
-offset_bottom = 1.5428999662399292
-rotation = 0.0033132298849523067
+offset_left = 44.2177
+offset_top = -85.4571
+offset_right = 144.218
+offset_bottom = 1.5429
+rotation = 0.00331323
 theme_override_colors/font_color = Color(0.164706, 0.2, 0.380392, 1)
 theme_override_fonts/font = ExtResource("3")
 theme_override_font_sizes/font_size = 22
@@ -80,11 +80,11 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [node name="AstorLabel" type="Label" parent="SkewLabels"]
-offset_left = -76.70140075683594
-offset_top = -91.55850219726563
-offset_right = 27.298599243164063
-offset_bottom = 9.4414701461792
-rotation = -0.004417890217155218
+offset_left = -76.7014
+offset_top = -91.5585
+offset_right = 27.2986
+offset_bottom = 9.44147
+rotation = -0.00441789
 theme_override_colors/font_color = Color(0.164706, 0.2, 0.380392, 1)
 theme_override_fonts/font = ExtResource("3")
 theme_override_font_sizes/font_size = 22
@@ -139,9 +139,9 @@ stretch_mode = 1
 [node name="Sprite2D8" type="Sprite2D" parent="Hotspots/FeedingSpot/FeedingPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(197.02, 255.483)
-rotation = -3.1396501064300537
+rotation = -3.13965
 scale = Vector2(0.705164, 0.673228)
-skew = 0.00015902500308584422
+skew = 0.000159025
 texture = ExtResource("7")
 region_enabled = true
 region_rect = Rect2(14.5, 2.5, 24.5, 596.5)
@@ -149,7 +149,7 @@ region_rect = Rect2(14.5, 2.5, 24.5, 596.5)
 [node name="Sprite2D7" type="Sprite2D" parent="Hotspots/FeedingSpot/FeedingPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(260, 69)
-rotation = 4.713399887084961
+rotation = 4.7134
 scale = Vector2(0.807298, 0.873487)
 texture = ExtResource("7")
 region_enabled = true
@@ -158,9 +158,9 @@ region_rect = Rect2(14.5, 2.5, 24.5, 596.5)
 [node name="Sprite2D9" type="Sprite2D" parent="Hotspots/FeedingSpot/FeedingPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(268, 255)
-rotation = -3.1396501064300537
+rotation = -3.13965
 scale = Vector2(0.705164, 0.673228)
-skew = 0.00015902500308584422
+skew = 0.000159025
 texture = ExtResource("7")
 region_enabled = true
 region_rect = Rect2(14.5, 2.5, 24.5, 596.5)
@@ -508,7 +508,7 @@ stretch_mode = 1
 [node name="Sprite2D7" type="Sprite2D" parent="Hotspots/CalendarSpot/CalendarPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(260, 69)
-rotation = -1.569790005683899
+rotation = -1.56979
 scale = Vector2(0.807298, 0.873487)
 texture = ExtResource("7")
 region_enabled = true
@@ -517,9 +517,9 @@ region_rect = Rect2(14.5, 2.5, 24.5, 596.5)
 [node name="Sprite2D9" type="Sprite2D" parent="Hotspots/CalendarSpot/CalendarPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(268.052, 230.43)
-rotation = -3.1396501064300537
+rotation = -3.13965
 scale = Vector2(0.705164, 0.590777)
-skew = 0.00015902500308584422
+skew = 0.000159025
 texture = ExtResource("7")
 region_enabled = true
 region_rect = Rect2(14.5, 2.5, 24.5, 596.5)
@@ -659,15 +659,15 @@ offset_left = 1484.0
 offset_top = 787.0
 offset_right = 1601.0
 offset_bottom = 885.0
-rotation = 0.2580069899559021
+rotation = 0.258007
 hotspot_id = "BPL"
 text = "AVIARY_CORN_TOOLTIP_1"
 
 [node name="Indicators" parent="Hotspots/SeedOneSpot" index="0"]
-offset_left = 14.8326997756958
-offset_top = 51.90380096435547
-offset_right = 14.8326997756958
-offset_bottom = 51.90380096435547
+offset_left = 14.8327
+offset_top = 51.9038
+offset_right = 14.8327
+offset_bottom = 51.9038
 
 [node name="SeedFourSpot" parent="Hotspots" instance=ExtResource("4")]
 layout_mode = 1
@@ -675,15 +675,15 @@ offset_left = 1252.0
 offset_top = 739.0
 offset_right = 1369.0
 offset_bottom = 837.0
-rotation = 0.2580069899559021
+rotation = 0.258007
 hotspot_id = "wAE"
 text = "AVIARY_CORN_TOOLTIP_2"
 
 [node name="Indicators" parent="Hotspots/SeedFourSpot" index="0"]
-offset_left = 19.009199142456055
-offset_top = 55.972801208496094
-offset_right = 19.009199142456055
-offset_bottom = 55.972801208496094
+offset_left = 19.0092
+offset_top = 55.9728
+offset_right = 19.0092
+offset_bottom = 55.9728
 
 [node name="SeedTwoSpot" parent="Hotspots" instance=ExtResource("4")]
 layout_mode = 1
@@ -691,15 +691,15 @@ offset_left = 1691.0
 offset_top = 712.0
 offset_right = 1808.0
 offset_bottom = 814.0
-rotation = 0.19180700182914734
+rotation = 0.191807
 hotspot_id = "P9Z"
 text = "AVIARY_CORN_TOOLTIP_3"
 
 [node name="Indicators" parent="Hotspots/SeedTwoSpot" index="0"]
-offset_left = 6.095779895782471
-offset_top = 57.935699462890625
-offset_right = 6.095779895782471
-offset_bottom = 57.935699462890625
+offset_left = 6.09578
+offset_top = 57.9357
+offset_right = 6.09578
+offset_bottom = 57.9357
 
 [node name="SeedThreeSpot" parent="Hotspots" instance=ExtResource("4")]
 layout_mode = 1
@@ -707,15 +707,15 @@ offset_left = 1457.0
 offset_top = 670.0
 offset_right = 1560.0
 offset_bottom = 720.0
-rotation = 0.169296994805336
+rotation = 0.169297
 hotspot_id = "sKc"
 text = "AVIARY_CORN_TOOLTIP_4"
 
 [node name="Indicators" parent="Hotspots/SeedThreeSpot" index="0"]
-offset_left = 16.361900329589844
-offset_top = 57.011199951171875
-offset_right = 16.361900329589844
-offset_bottom = 57.011199951171875
+offset_left = 16.3619
+offset_top = 57.0112
+offset_right = 16.3619
+offset_bottom = 57.0112
 
 [editable path="Hotspots/FeedingSpot"]
 [editable path="Hotspots/ToOutsideSpot"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://bda3foullqxt4"]
+[gd_scene load_steps=3 format=3 uid="uid://bda3foullqxt4"]
 
 [ext_resource type="Texture2D" uid="uid://clgjofoxxqw32" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/cryptid.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
@@ -17,15 +17,15 @@ centered = false
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(229, 264)
-rotation = -0.4118979871273041
-skew = 0.22165699303150177
+rotation = -0.411898
+skew = 0.221657
 
 [node name="SOLDText3" type="Label" parent="Node2D"]
-offset_left = -39.64440155029297
-offset_top = -14.126700401306152
-offset_right = 244.11599731445313
-offset_bottom = 31.283300399780273
-rotation = 0.2713269889354706
+offset_left = -39.6444
+offset_top = -14.1267
+offset_right = 244.116
+offset_bottom = 31.2833
+rotation = 0.271327
 scale = Vector2(1, 1.49)
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.697972, 0.242714, 0.148505, 1)

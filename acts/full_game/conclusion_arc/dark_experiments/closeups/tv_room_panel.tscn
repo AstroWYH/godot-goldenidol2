@@ -1,8 +1,8 @@
-[gd_scene load_steps=10 format=4 uid="uid://b8xrht0850gri"]
+[gd_scene load_steps=10 format=3 uid="uid://b8xrht0850gri"]
 
 [ext_resource type="Texture2D" uid="uid://ckmiv1we2q73d" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/livingroom.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="5"]
 
@@ -43,10 +43,10 @@ hotspot_id = "9PM"
 extra_items_unlocked = [SubResource("Resource_f2kg8"), SubResource("Resource_2plw1"), SubResource("Resource_82njj"), SubResource("Resource_w8lnn")]
 
 [node name="Indicators" parent="LetterSpot" index="0"]
-offset_left = -27.63920021057129
-offset_top = 46.882198333740234
-offset_right = -27.63920021057129
-offset_bottom = 46.882198333740234
+offset_left = -27.6392
+offset_top = 46.8822
+offset_right = -27.6392
+offset_bottom = 46.8822
 
 [node name="Highlighter" parent="LetterSpot/Indicators" index="0"]
 modulate = Color(0.485722, 0.701922, 0.627248, 1)
@@ -66,7 +66,7 @@ offset_bottom = 397.0
 modulate = Color(0.571945, 0.722913, 0.689567, 1)
 layout_mode = 0
 offset_left = 12.0
-offset_top = 6.9999799728393555
+offset_top = 6.99998
 offset_right = 490.0
 offset_bottom = 689.0
 texture = ExtResource("4")
@@ -75,8 +75,8 @@ stretch_mode = 1
 
 [node name="Sprite2D9" type="Sprite2D" parent="LetterSpot/HarryNotesPanel/TextureRect"]
 position = Vector2(210.602, 557)
-rotation = 3.118259906768799
-skew = -0.008633850142359734
+rotation = 3.11826
+skew = -0.00863385
 texture = ExtResource("5")
 region_enabled = true
 region_rect = Rect2(142, 384.149, 454, 213.473)
@@ -85,7 +85,7 @@ region_rect = Rect2(142, 384.149, 454, 213.473)
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(295.602, 209)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("5")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -93,7 +93,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="LetterSpot/HarryNotesPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(222.602, 361)
-rotation = 6.295479774475098
+rotation = 6.29548
 scale = Vector2(0.807298, 1)
 texture = ExtResource("5")
 region_enabled = true
@@ -101,10 +101,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Page1Label3" type="RichTextLabel" parent="LetterSpot/HarryNotesPanel"]
 layout_mode = 0
-offset_left = 40.064300537109375
-offset_top = 35.119300842285156
-offset_right = 466.0639953613281
-offset_bottom = 667.1190185546875
+offset_left = 40.0643
+offset_top = 35.1193
+offset_right = 466.064
+offset_bottom = 667.119
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.206133, 0.297856, 0.277276, 1)
 bbcode_enabled = true

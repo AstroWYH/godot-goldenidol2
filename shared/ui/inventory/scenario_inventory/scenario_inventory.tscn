@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://b2ceydfd6sj3y"]
+[gd_scene load_steps=3 format=3 uid="uid://b2ceydfd6sj3y"]
 
-[ext_resource type="Script" path="res://shared/ui/inventory/scenario_inventory/scenario_inventory.gd" id="1"]
+[ext_resource type="Script" uid="uid://bsv81wogr412r" path="res://shared/ui/inventory/scenario_inventory/scenario_inventory.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="2"]
 
 [node name="ScenarioInventory" type="Control"]

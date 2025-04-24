@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://fbk27ytysmjv"]
+[gd_scene load_steps=3 format=3 uid="uid://fbk27ytysmjv"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://g0x6ppw8s05m" path="res://shared/ui/hints/hint_library/1_curse/wolf.png" id="2"]

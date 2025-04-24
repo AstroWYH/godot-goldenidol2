@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://bsn0vgy017457"]
+[gd_scene load_steps=8 format=3 uid="uid://bsn0vgy017457"]
 
 [ext_resource type="Texture2D" uid="uid://dmnasdt7mm6pw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf04.png" id="1"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="2"]
@@ -23,7 +23,7 @@ offset_left = -168.0
 offset_top = 51.0
 offset_right = 10.0
 offset_bottom = 116.0
-rotation = -1.4327399730682373
+rotation = -1.43274
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.8, 0.12549, 0.203922, 1)
 theme_override_font_sizes/font_size = 15
@@ -59,7 +59,7 @@ offset_left = -199.0
 offset_top = 159.0
 offset_right = 134.0
 offset_bottom = 246.0
-rotation = 0.0044905999675393105
+rotation = 0.0044906
 theme = ExtResource("6")
 theme_override_colors/font_color = Color(0.8, 0.694118, 0.160784, 1)
 theme_override_constants/line_spacing = -6
@@ -74,7 +74,7 @@ offset_left = -269.0
 offset_top = -232.0
 offset_right = -104.0
 offset_bottom = -67.0
-rotation = -0.7379059791564941
+rotation = -0.737906
 theme = ExtResource("6")
 theme_override_colors/font_color = Color(0.933333, 0.886275, 0.8, 1)
 theme_override_constants/line_spacing = -6
@@ -88,7 +88,7 @@ offset_left = -195.0
 offset_top = -81.0
 offset_right = 130.0
 offset_bottom = 64.0
-rotation = -0.7439510226249695
+rotation = -0.743951
 scale = Vector2(1.00418, 1.00497)
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.160784, 0.294118, 0.458824, 1)

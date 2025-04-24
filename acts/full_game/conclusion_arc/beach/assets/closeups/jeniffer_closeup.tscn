@@ -1,4 +1,4 @@
-[gd_scene load_steps=109 format=4 uid="uid://blvifk361l4q7"]
+[gd_scene load_steps=109 format=3 uid="uid://blvifk361l4q7"]
 
 [ext_resource type="Texture2D" uid="uid://b4i2wvjbakjkg" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dk5hk241bhcoc" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/girlfixed/hidetatoo_001.png" id="2"]
@@ -456,5 +456,5 @@ autowrap_mode = 3
 position = Vector2(41.0618, 19.0648)
 sprite_frames = SubResource("SpriteFrames_jj5w5")
 autoplay = "default"
-frame_progress = 0.8683180212974548
+frame_progress = 0.868318
 centered = false

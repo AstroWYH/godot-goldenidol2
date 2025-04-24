@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://bobgamrf2141m"]
+[gd_scene load_steps=3 format=3 uid="uid://bobgamrf2141m"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://d1bjcwww154na" path="res://acts/full_game/colecting_parts_arc/drivein/locations/projection_booth.tres" id="2"]
 
 [node name="projection_booth" type="Node2D"]

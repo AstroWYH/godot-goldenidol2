@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=4 uid="uid://bj3vc38kqgvx8"]
+[gd_scene load_steps=36 format=3 uid="uid://bj3vc38kqgvx8"]
 
 [ext_resource type="Texture2D" uid="uid://bfjmhetskdkqn" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bv5xvcap1rsu0" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/police2/police2_001.png" id="2"]
@@ -144,7 +144,7 @@ position = Vector2(12, 131)
 sprite_frames = SubResource("SpriteFrames_ky7t3")
 autoplay = "default"
 frame = 12
-frame_progress = 0.8205170035362244
+frame_progress = 0.820517
 centered = false
 
 [node name="CharacterTextLabel" type="Label" parent="."]

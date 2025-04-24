@@ -1,4 +1,4 @@
-[gd_scene load_steps=383 format=4 uid="uid://jxw4ufyjlk7b"]
+[gd_scene load_steps=383 format=3 uid="uid://jxw4ufyjlk7b"]
 
 [ext_resource type="Texture2D" uid="uid://bijimpsfi8g8c" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/tvroom.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b2hbwsljehb5t" path="res://acts/full_game/conclusion_arc/finale/assets/animations/corpotv/corpo_000.png" id="2"]
@@ -1541,7 +1541,7 @@ texture = ExtResource("1")
 position = Vector2(315.507, 177.603)
 sprite_frames = SubResource("SpriteFrames_8n672")
 autoplay = "default"
-frame_progress = 0.5254549980163574
+frame_progress = 0.525455
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="FilmingSprite"]
 position = Vector2(-234.376, -45.1534)
@@ -1552,40 +1552,40 @@ autoplay = "default"
 position = Vector2(329.529, -169.576)
 sprite_frames = SubResource("SpriteFrames_e2j7h")
 autoplay = "default"
-frame_progress = 0.7789049744606018
+frame_progress = 0.778905
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="FilmingSprite"]
 position = Vector2(-92.148, -61.208)
 sprite_frames = SubResource("SpriteFrames_7eppd")
 autoplay = "default"
-frame_progress = 0.2016189992427826
+frame_progress = 0.201619
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="FilmingSprite"]
 position = Vector2(172.276, 220.75)
 sprite_frames = SubResource("SpriteFrames_0ke22")
 autoplay = "default"
-frame_progress = 0.19072499871253967
+frame_progress = 0.190725
 
 [node name="GuardSpot" parent="." instance=ExtResource("147")]
 layout_mode = 1
-offset_left = 507.02099609375
+offset_left = 507.021
 offset_top = 466.0
-offset_right = -202.97900390625
+offset_right = -202.979
 offset_bottom = -3.0
 scale = Vector2(0.998394, 0.996602)
 focus_neighbor_right = NodePath("../NathanSpot")
 hotspot_id = "ev5"
 
 [node name="Indicators" parent="GuardSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="GuardSpot/Indicators" index="0"]
 modulate = Color(0.26029, 0.408103, 0.399966, 1)
 position = Vector2(9.02576, 21.2733)
-frame_progress = 0.730666995048523
+frame_progress = 0.730667
 
 [node name="FocusIndicator" parent="GuardSpot/Indicators" index="1"]
 position = Vector2(10.0258, 25.2733)
@@ -1632,15 +1632,15 @@ focus_neighbor_left = NodePath("../GuardSpot")
 hotspot_id = "xwI"
 
 [node name="Indicators" parent="NathanSpot" index="0"]
-offset_left = 35.40250015258789
-offset_top = 92.435302734375
-offset_right = 35.40250015258789
-offset_bottom = 92.435302734375
+offset_left = 35.4025
+offset_top = 92.4353
+offset_right = 35.4025
+offset_bottom = 92.4353
 
 [node name="Highlighter" parent="NathanSpot/Indicators" index="0"]
 modulate = Color(0.76827, 0.699961, 0.655104, 1)
 position = Vector2(-10.0354, 5.16394)
-frame_progress = 0.3967140018939972
+frame_progress = 0.396714
 
 [node name="FocusIndicator" parent="NathanSpot/Indicators" index="1"]
 position = Vector2(-9.0354, 9.16394)
@@ -1683,10 +1683,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "jzO"
 
 [node name="Indicators" parent="NathanSpot/NathanPanel/MilitaryNote" index="0"]
-offset_left = -0.5261610150337219
-offset_top = 45.162200927734375
-offset_right = -0.5261610150337219
-offset_bottom = 45.162200927734375
+offset_left = -0.526161
+offset_top = 45.1622
+offset_right = -0.526161
+offset_bottom = 45.1622
 
 [node name="Highlighter" parent="NathanSpot/NathanPanel/MilitaryNote/Indicators" index="0"]
 modulate = Color(0.756965, 0.665318, 0.522562, 1)
@@ -1716,7 +1716,7 @@ stretch_mode = 1
 [node name="TextureRect2" type="Sprite2D" parent="NathanSpot/NathanPanel/MilitaryNote/MilitaryCloseup/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(230.444, 198.75)
-rotation = 3.134890079498291
+rotation = 3.13489
 scale = Vector2(0.963033, 1)
 texture = ExtResource("253")
 region_enabled = true
@@ -1725,7 +1725,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect3" type="Sprite2D" parent="NathanSpot/NathanPanel/MilitaryNote/MilitaryCloseup/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(195.834, 475.416)
-rotation = 0.007890219800174236
+rotation = 0.00789022
 scale = Vector2(1.0284, 1)
 texture = ExtResource("253")
 region_enabled = true
@@ -1733,10 +1733,10 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 
 [node name="Names" type="Label" parent="NathanSpot/NathanPanel/MilitaryNote/MilitaryCloseup"]
 layout_mode = 0
-offset_left = 21.238500595092773
-offset_top = 14.233200073242188
-offset_right = 463.2380065917969
-offset_bottom = 684.2340087890625
+offset_left = 21.2385
+offset_top = 14.2332
+offset_right = 463.238
+offset_bottom = 684.234
 theme = ExtResource("254")
 theme_override_colors/font_color = Color(0.250213, 0.250213, 0.250213, 1)
 text = "FINALE_LETTER_TO_NATHAN"
@@ -1745,24 +1745,24 @@ autowrap_mode = 2
 
 [node name="MovieStarSpot" parent="." instance=ExtResource("147")]
 layout_mode = 1
-offset_left = 776.114013671875
-offset_top = 9.232250213623047
-offset_right = -16.885799407958984
-offset_bottom = -355.76800537109375
+offset_left = 776.114
+offset_top = 9.23225
+offset_right = -16.8858
+offset_bottom = -355.768
 scale = Vector2(0.998394, 0.996602)
 focus_neighbor_bottom = NodePath("../NathanSpot")
 hotspot_id = "Z0L"
 
 [node name="Indicators" parent="MovieStarSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="MovieStarSpot/Indicators" index="0"]
 modulate = Color(1, 0.3625, 0.25, 1)
 position = Vector2(-135.756, 39.7354)
-frame_progress = 0.39178401231765747
+frame_progress = 0.391784
 
 [node name="FocusIndicator" parent="MovieStarSpot/Indicators" index="1"]
 position = Vector2(-134.756, 43.7354)
@@ -1789,23 +1789,23 @@ autowrap_mode = 3
 position = Vector2(217.882, 297.741)
 sprite_frames = SubResource("SpriteFrames_4rfx8")
 autoplay = "default"
-frame_progress = 0.840349018573761
+frame_progress = 0.840349
 
 [node name="BottleFragranceSpot" parent="MovieStarSpot/MovieStarPanel" instance=ExtResource("147")]
 layout_mode = 1
-offset_left = 379.2170104980469
-offset_top = 186.26300048828125
-offset_right = -110.78199768066406
-offset_bottom = -76.73699951171875
+offset_left = 379.217
+offset_top = 186.263
+offset_right = -110.782
+offset_bottom = -76.737
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "jcD"
 text = "FINALE_PERFUME_TOOLTIP"
 
 [node name="Indicators" parent="MovieStarSpot/MovieStarPanel/BottleFragranceSpot" index="0"]
-offset_left = 0.3666920065879822
-offset_top = 11.073699951171875
-offset_right = 0.3666920065879822
-offset_bottom = 11.073699951171875
+offset_left = 0.366692
+offset_top = 11.0737
+offset_right = 0.366692
+offset_bottom = 11.0737
 
 [node name="Highlighter" parent="MovieStarSpot/MovieStarPanel/BottleFragranceSpot/Indicators" index="0"]
 modulate = Color(0.792038, 0.37032, 0.783194, 1)
@@ -1829,15 +1829,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "0Qr"
 
 [node name="Indicators" parent="Terorist1Spot" index="0"]
-offset_left = 4.845719814300537
-offset_top = 30.75279998779297
-offset_right = 4.845719814300537
-offset_bottom = 30.75279998779297
+offset_left = 4.84572
+offset_top = 30.7528
+offset_right = 4.84572
+offset_bottom = 30.7528
 
 [node name="Highlighter" parent="Terorist1Spot/Indicators" index="0"]
 modulate = Color(0.623529, 0.529412, 0.439216, 1)
 position = Vector2(-28.0998, 111.974)
-frame_progress = 0.044489700347185135
+frame_progress = 0.0444897
 
 [node name="FocusIndicator" parent="Terorist1Spot/Indicators" index="1"]
 position = Vector2(-27.0998, 115.974)
@@ -1864,7 +1864,7 @@ autowrap_mode = 3
 position = Vector2(178.944, 253.497)
 sprite_frames = SubResource("SpriteFrames_3ajkg")
 autoplay = "default"
-frame_progress = 0.7147619724273682
+frame_progress = 0.714762
 
 [node name="Spray2D" type="Sprite2D" parent="Terorist1Spot/TerroristPanel"]
 position = Vector2(471.278, 338.42)
@@ -1880,15 +1880,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "fjC"
 
 [node name="Indicators" parent="Terorist2Spot" index="0"]
-offset_left = 4.845719814300537
-offset_top = 30.75279998779297
-offset_right = 4.845719814300537
-offset_bottom = 30.75279998779297
+offset_left = 4.84572
+offset_top = 30.7528
+offset_right = 4.84572
+offset_bottom = 30.7528
 
 [node name="Highlighter" parent="Terorist2Spot/Indicators" index="0"]
 modulate = Color(0.622988, 0.530935, 0.440794, 1)
 position = Vector2(11.2658, 140.165)
-frame_progress = 0.05435200035572052
+frame_progress = 0.054352
 
 [node name="FocusIndicator" parent="Terorist2Spot/Indicators" index="1"]
 position = Vector2(12.2658, 144.165)
@@ -1915,7 +1915,7 @@ autowrap_mode = 3
 position = Vector2(498.282, 317.949)
 sprite_frames = SubResource("SpriteFrames_p1k6c")
 autoplay = "default"
-frame_progress = 0.5575299859046936
+frame_progress = 0.55753
 
 [node name="SprayTesa2D" type="Sprite2D" parent="Terorist2Spot/TesaPanel/TesaSprite"]
 position = Vector2(-392.554, 60.117)
@@ -1923,18 +1923,18 @@ texture = ExtResource("350")
 
 [node name="FilmingSpotPlan2" parent="Terorist2Spot/TesaPanel" instance=ExtResource("147")]
 layout_mode = 1
-offset_left = 200.88099670410156
-offset_top = 263.677001953125
-offset_right = -405.1189880371094
-offset_bottom = -96.32260131835938
+offset_left = 200.881
+offset_top = 263.677
+offset_right = -405.119
+offset_bottom = -96.3226
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "4k1"
 
 [node name="Indicators" parent="Terorist2Spot/TesaPanel/FilmingSpotPlan2" index="0"]
-offset_left = -0.5261610150337219
-offset_top = 14.143699645996094
-offset_right = -0.5261610150337219
-offset_bottom = 14.143699645996094
+offset_left = -0.526161
+offset_top = 14.1437
+offset_right = -0.526161
+offset_bottom = 14.1437
 
 [node name="Highlighter" parent="Terorist2Spot/TesaPanel/FilmingSpotPlan2/Indicators" index="0"]
 modulate = Color(0.83228, 0.795222, 0.636799, 1)
@@ -1956,9 +1956,9 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 12.003299713134766
+offset_left = 12.0033
 offset_top = 8.0
-offset_right = -10.996700286865234
+offset_right = -10.9967
 offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
@@ -1968,7 +1968,7 @@ stretch_mode = 1
 [node name="TextureRect2" type="Sprite2D" parent="Terorist2Spot/TesaPanel/FilmingSpotPlan2/FilmingPlan/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(268.881, 309.952)
-rotation = 3.134890079498291
+rotation = 3.13489
 scale = Vector2(1.0915, 1)
 texture = ExtResource("253")
 region_enabled = true
@@ -1977,7 +1977,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect3" type="Sprite2D" parent="Terorist2Spot/TesaPanel/FilmingSpotPlan2/FilmingPlan/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(253.833, 454.935)
-rotation = 1.5356999635696411
+rotation = 1.5357
 scale = Vector2(1.0284, 1)
 texture = ExtResource("253")
 region_enabled = true
@@ -1986,7 +1986,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect4" type="Sprite2D" parent="Terorist2Spot/TesaPanel/FilmingSpotPlan2/FilmingPlan/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(289.949, 250.549)
-rotation = 4.68681001663208
+rotation = 4.68681
 scale = Vector2(1.0284, 1)
 texture = ExtResource("253")
 region_enabled = true
@@ -1994,10 +1994,10 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Terorist2Spot/TesaPanel/FilmingSpotPlan2/FilmingPlan"]
 layout_mode = 0
-offset_left = 46.148101806640625
-offset_top = 39.26639938354492
-offset_right = 506.14801025390625
-offset_bottom = 684.2659912109375
+offset_left = 46.1481
+offset_top = 39.2664
+offset_right = 506.148
+offset_bottom = 684.266
 theme = ExtResource("371")
 theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
 bbcode_enabled = true
@@ -2006,23 +2006,23 @@ scroll_active = false
 
 [node name="SuitCaseSpot" parent="." instance=ExtResource("147")]
 layout_mode = 1
-offset_left = 21.90290069580078
-offset_top = 495.885986328125
-offset_right = -811.0969848632813
-offset_bottom = -72.11409759521484
+offset_left = 21.9029
+offset_top = 495.886
+offset_right = -811.097
+offset_bottom = -72.1141
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "1x1"
 
 [node name="Indicators" parent="SuitCaseSpot" index="0"]
-offset_left = 3.250109910964966
-offset_top = 61.02669906616211
-offset_right = 3.250109910964966
-offset_bottom = 61.02669906616211
+offset_left = 3.25011
+offset_top = 61.0267
+offset_right = 3.25011
+offset_bottom = 61.0267
 
 [node name="Highlighter" parent="SuitCaseSpot/Indicators" index="0"]
 modulate = Color(0.339754, 0.382084, 0.297833, 1)
 position = Vector2(6.4656, 16.7151)
-frame_progress = 0.16101500391960144
+frame_progress = 0.161015
 
 [node name="FocusIndicator" parent="SuitCaseSpot/Indicators" index="1"]
 position = Vector2(7.4656, 20.7151)

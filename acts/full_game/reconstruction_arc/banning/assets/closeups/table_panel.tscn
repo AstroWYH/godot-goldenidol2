@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://nl7hnu8equpk"]
+[gd_scene load_steps=7 format=3 uid="uid://nl7hnu8equpk"]
 
 [ext_resource type="Texture2D" uid="uid://bvlm3ne0q6ct2" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/chairs.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -47,9 +47,9 @@ stretch_mode = 1
 [node name="Sprite2D8" type="Sprite2D" parent="FlyerSpot/FlyerPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(227.328, 203.463)
-rotation = -1.5852400064468384
+rotation = -1.58524
 scale = Vector2(0.941788, 0.946844)
-skew = 9.83477002591826e-05
+skew = 9.83477e-05
 texture = ExtResource("4")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
@@ -57,7 +57,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D7" type="Sprite2D" parent="FlyerSpot/FlyerPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(217, 245)
-rotation = 6.265870094299316
+rotation = 6.26587
 scale = Vector2(0.964917, 0.98127)
 texture = ExtResource("4")
 region_enabled = true

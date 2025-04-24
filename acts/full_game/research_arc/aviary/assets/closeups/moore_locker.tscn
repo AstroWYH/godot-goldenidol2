@@ -1,8 +1,8 @@
-[gd_scene load_steps=7 format=4 uid="uid://bgce3fy0lt4lr"]
+[gd_scene load_steps=7 format=3 uid="uid://bgce3fy0lt4lr"]
 
 [ext_resource type="Texture2D" uid="uid://cbxcprhnmn541" path="res://acts/full_game/research_arc/aviary/assets/closeups/lockermoore.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://bj0jemrqe6nyk" path="res://acts/full_game/research_arc/aviary/assets/closeups/crystalpgoto.png" id="4"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="5"]
 
@@ -46,7 +46,7 @@ offset_left = -332.0
 offset_top = 218.0
 offset_right = -113.0
 offset_bottom = 319.0
-rotation = -0.20681700110435486
+rotation = -0.206817
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.239216, 0.196078, 0.180392, 1)
 theme_override_font_sizes/font_size = 26

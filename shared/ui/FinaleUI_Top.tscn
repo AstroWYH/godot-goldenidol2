@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=4 uid="uid://clhakxeyo4nv4"]
+[gd_scene load_steps=27 format=3 uid="uid://clhakxeyo4nv4"]
 
 [ext_resource type="Texture2D" uid="uid://bfv4g2e06y04g" path="res://shared/ui/top_bar/btn_orange_idle.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c0h1hb7exawq8" path="res://shared/ui/top_bar/btn_orange_over.png" id="2"]

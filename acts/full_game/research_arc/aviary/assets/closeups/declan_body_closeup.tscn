@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://pmfew2sajf0u"]
+[gd_scene load_steps=9 format=3 uid="uid://pmfew2sajf0u"]
 
 [ext_resource type="Texture2D" uid="uid://bseocwatxj7la" path="res://acts/full_game/research_arc/aviary/assets/Declan.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://sj7ogobf3cn7" path="res://acts/full_game/research_arc/aviary/assets/closeups/yellowseeds.png" id="2"]
@@ -33,7 +33,7 @@ offset_left = -58.0
 offset_top = 35.0
 offset_right = 91.0
 offset_bottom = 76.0
-rotation = -0.08039569854736328
+rotation = -0.0803957
 theme = ExtResource("4")
 theme_override_font_sizes/font_size = 20
 text = "AVIARY_KEY_LABEL"
@@ -48,7 +48,7 @@ offset_left = -51.0
 offset_top = 6.0
 offset_right = 102.0
 offset_bottom = 64.0
-rotation = -0.08039569854736328
+rotation = -0.0803957
 theme = ExtResource("4")
 theme_override_font_sizes/font_size = 20
 text = "AVIARY_INCUBATOR_KEY_LABEL"

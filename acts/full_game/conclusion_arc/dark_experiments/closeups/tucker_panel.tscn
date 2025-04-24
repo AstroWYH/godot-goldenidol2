@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=4 uid="uid://defatchh0fvqg"]
+[gd_scene load_steps=45 format=3 uid="uid://defatchh0fvqg"]
 
 [ext_resource type="Texture2D" uid="uid://b4esa8dtmsj02" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b3mets72hljle" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businesman2/businesman2_001.png" id="2"]
@@ -170,17 +170,17 @@ animations = [{
 }]
 
 [node name="TuckerPanel" type="Panel"]
-offset_left = -1624.6099853515625
-offset_top = 915.1090087890625
-offset_right = -900.6090087890625
-offset_bottom = 1452.1099853515625
+offset_left = -1624.61
+offset_top = 915.109
+offset_right = -900.609
+offset_bottom = 1452.11
 
 [node name="TuckerSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 36.518001556396484
-offset_top = 18.12420082092285
-offset_right = 623.5180053710938
-offset_bottom = 135.12399291992188
+offset_left = 36.518
+offset_top = 18.1242
+offset_right = 623.518
+offset_bottom = 135.124
 text = "WAREHOUSE_TUCKER_SPEECH"
 autowrap_mode = 3
 
@@ -189,7 +189,7 @@ position = Vector2(186.699, 318.93)
 scale = Vector2(0.916233, 0.916233)
 sprite_frames = SubResource("SpriteFrames_tqcdp")
 autoplay = "default"
-frame_progress = 0.8071889877319336
+frame_progress = 0.807189
 
 [node name="PaperSprite" type="Sprite2D" parent="."]
 position = Vector2(518.61, 343.297)
@@ -197,9 +197,9 @@ texture = ExtResource("40")
 
 [node name="Page1Label2" type="Label" parent="PaperSprite"]
 anchors_preset = -1
-anchor_left = 0.0007812500116415322
-anchor_top = -0.005524860229343176
-anchor_right = 0.0007812500116415322
+anchor_left = 0.00078125
+anchor_top = -0.00552486
+anchor_right = 0.00078125
 offset_left = -161.125
 offset_top = -62.0
 offset_right = 155.875
@@ -223,10 +223,10 @@ hotspot_id = "pOh"
 unlocked_item_ref_id = 932
 
 [node name="Indicators" parent="BusinessCardSpot" index="0"]
-offset_left = -9.957070350646973
-offset_top = 28.98069953918457
-offset_right = -9.957070350646973
-offset_bottom = 28.98069953918457
+offset_left = -9.95707
+offset_top = 28.9807
+offset_right = -9.95707
+offset_bottom = 28.9807
 
 [node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
 modulate = Color(0.691357, 0.691357, 0.691357, 1)
@@ -245,10 +245,10 @@ texture = ExtResource("42")
 
 [node name="CardPanel" type="Panel" parent="BusinessCardSpot"]
 layout_mode = 0
-offset_left = -234.76699829101563
-offset_top = -387.42498779296875
-offset_right = 181.23300170898438
-offset_bottom = -157.4250030517578
+offset_left = -234.767
+offset_top = -387.425
+offset_right = 181.233
+offset_bottom = -157.425
 
 [node name="Message3ColorRect" type="TextureRect" parent="BusinessCardSpot/CardPanel"]
 modulate = Color(0.683874, 0.749331, 0.745636, 1)
@@ -262,7 +262,7 @@ offset_right = -10.0
 offset_bottom = -13.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("43")
 expand_mode = 1
 stretch_mode = 1

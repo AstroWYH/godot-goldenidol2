@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=3 format=4 uid="uid://butyu7r8pnd4k"]
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=4 format=3 uid="uid://butyu7r8pnd4k"]
 
-[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="1"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="1"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="2_oe0tn"]
 
 [sub_resource type="Resource" id="Resource_vong7"]
 metadata/__load_path__ = "res://acts/full_game/reconstruction_arc/burning_man/assets/devicepuzzleicon.png"
@@ -13,9 +14,9 @@ puzzle_icon = SubResource("Resource_vong7")
 arc_puzzle = false
 locked_by_default = true
 hide_card_when_locked = false
-unlocks_puzzles_on_solve = []
-unlocks_segments_on_solve = []
+unlocks_puzzles_on_solve = Array[ExtResource("1")]([])
+unlocks_segments_on_solve = Array[ExtResource("2_oe0tn")]([])
 escalate_music_on_solve = false
 escalation_level = 0
 segmentation_mode = 0
-specified_segments = []
+specified_segments = Array[int]([])

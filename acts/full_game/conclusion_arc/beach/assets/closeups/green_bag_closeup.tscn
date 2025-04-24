@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://bpdjpyivqnfob"]
+[gd_scene load_steps=9 format=3 uid="uid://bpdjpyivqnfob"]
 
 [ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cmbllifcwt15x" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/green_bag.png" id="2"]
@@ -10,10 +10,10 @@
 [ext_resource type="Texture2D" uid="uid://cl8pe3dxhgp2" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/green_lipstick.png" id="8"]
 
 [node name="GreenBagCloseup" type="Panel"]
-offset_left = 898.4429931640625
-offset_top = -1549.260009765625
-offset_right = 1699.4200439453125
-offset_bottom = -936.2639770507813
+offset_left = 898.443
+offset_top = -1549.26
+offset_right = 1699.42
+offset_bottom = -936.264
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
 position = Vector2(635.02, 446.517)
@@ -26,10 +26,10 @@ texture = ExtResource("2")
 
 [node name="NoteSpot" parent="." instance=ExtResource("3")]
 layout_mode = 1
-offset_left = 600.9650268554688
-offset_top = 368.2510070800781
-offset_right = -117.03500366210938
-offset_bottom = -114.74600219726563
+offset_left = 600.965
+offset_top = 368.251
+offset_right = -117.035
+offset_bottom = -114.746
 hotspot_id = "IJv"
 unlocked_item_ref_id = 623
 
@@ -64,7 +64,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(279.412, 155)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("5")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -72,7 +72,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(228.412, 401)
-rotation = 6.402040004730225
+rotation = 6.40204
 scale = Vector2(0.807298, 1)
 texture = ExtResource("5")
 region_enabled = true
@@ -94,10 +94,10 @@ texture = ExtResource("6")
 
 [node name="NoteSpot2" parent="." instance=ExtResource("3")]
 layout_mode = 1
-offset_left = 364.58099365234375
-offset_top = 203.6929931640625
-offset_right = -353.41900634765625
-offset_bottom = -279.30499267578125
+offset_left = 364.581
+offset_top = 203.693
+offset_right = -353.419
+offset_bottom = -279.305
 hotspot_id = "NvT"
 unlocked_item_ref_id = 766
 
@@ -131,9 +131,9 @@ stretch_mode = 1
 [node name="Sprite2D8" type="Sprite2D" parent="NoteSpot2/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(166.976, 176.567)
-rotation = -2.389039993286133
+rotation = -2.38904
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("5")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -141,7 +141,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="NoteSpot2/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(327.976, 375.567)
-rotation = 6.174829959869385
+rotation = 6.17483
 scale = Vector2(0.807298, 1)
 texture = ExtResource("5")
 region_enabled = true
@@ -150,7 +150,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D9" type="Sprite2D" parent="NoteSpot2/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(311.976, 136.567)
-rotation = 3.1844398975372314
+rotation = 3.18444
 scale = Vector2(0.807298, 1)
 texture = ExtResource("5")
 region_enabled = true
@@ -175,10 +175,10 @@ centered = false
 
 [node name="CigaretteSpot" parent="." instance=ExtResource("3")]
 layout_mode = 1
-offset_left = 562.9039916992188
-offset_top = 97.33070373535156
-offset_right = -133.08599853515625
-offset_bottom = -354.66900634765625
+offset_left = 562.904
+offset_top = 97.3307
+offset_right = -133.086
+offset_bottom = -354.669
 hotspot_id = "B06"
 text = "BEACH_BRIGANTINE_CIGARETTES_TOOLTIP"
 
@@ -199,10 +199,10 @@ centered = false
 
 [node name="LipstickSpot" parent="." instance=ExtResource("3")]
 layout_mode = 1
-offset_left = 447.718994140625
-offset_top = 407.3840026855469
-offset_right = -248.27099609375
-offset_bottom = -63.615699768066406
+offset_left = 447.719
+offset_top = 407.384
+offset_right = -248.271
+offset_bottom = -63.6157
 hotspot_id = "Wnj"
 text = "BEACH_GREEN_LIPSTICK_TOOLTIP"
 

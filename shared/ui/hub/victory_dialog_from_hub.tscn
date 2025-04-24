@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://bwggnpy4l7206"]
+[gd_scene load_steps=6 format=3 uid="uid://bwggnpy4l7206"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/victory_dialog_from_hub.gd" id="1"]
+[ext_resource type="Script" uid="uid://dt2a2dbqxxvin" path="res://shared/ui/hub/victory_dialog_from_hub.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dtyysjyd67h01" path="res://shared/assets/frames/frame_transparent_blue.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://befhhvubcmsnw" path="res://acts/full_game/introductory_arc/asylum/assets/victoryscreen.png" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]

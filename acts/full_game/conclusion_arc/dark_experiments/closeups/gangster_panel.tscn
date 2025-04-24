@@ -1,4 +1,4 @@
-[gd_scene load_steps=84 format=4 uid="uid://ci6680owvs643"]
+[gd_scene load_steps=84 format=3 uid="uid://ci6680owvs643"]
 
 [ext_resource type="Texture2D" uid="uid://6owa2utyeckw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://wpcchyrn0vbb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/gangster/gangster_001.png" id="2"]
@@ -344,7 +344,7 @@ autowrap_mode = 3
 position = Vector2(343.314, 384.038)
 sprite_frames = SubResource("SpriteFrames_au0er")
 autoplay = "default"
-frame_progress = 0.46887698769569397
+frame_progress = 0.468877
 
 [node name="CigarettesSprite" type="Sprite2D" parent="."]
 position = Vector2(606, 249)
@@ -361,17 +361,17 @@ centered = false
 layout_mode = 1
 offset_left = 658.0
 offset_top = 417.0
-offset_right = -24.99959945678711
+offset_right = -24.9996
 offset_bottom = -39.0
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "s8e"
 text = "WAREHOUSE_GUN_TOOLTIP"
 
 [node name="Indicators" parent="GunSpot" index="0"]
-offset_left = -2.3072400093078613
-offset_top = 32.272499084472656
-offset_right = -2.3072400093078613
-offset_bottom = 32.272499084472656
+offset_left = -2.30724
+offset_top = 32.2725
+offset_right = -2.30724
+offset_bottom = 32.2725
 
 [node name="Highlighter" parent="GunSpot/Indicators" index="0"]
 modulate = Color(0.4125, 0.540833, 0.55, 1)
@@ -391,10 +391,10 @@ hotspot_id = "Igb"
 text = "WAREHOUSE_KEYS_TOOLTIP"
 
 [node name="Indicators" parent="KeyRingSpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 14.730500221252441
-offset_right = -12.726300239562988
-offset_bottom = 14.730500221252441
+offset_left = -12.7263
+offset_top = 14.7305
+offset_right = -12.7263
+offset_bottom = 14.7305
 
 [node name="Highlighter" parent="KeyRingSpot/Indicators" index="0"]
 modulate = Color(0.77102, 0.616849, 0, 1)

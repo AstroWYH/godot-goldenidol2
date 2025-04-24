@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://b5t6pk4xobujj"]
+[gd_scene load_steps=3 format=3 uid="uid://b5t6pk4xobujj"]
 
 [ext_resource type="Texture2D" uid="uid://wwr3fdjmxtw4" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/hideout1.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

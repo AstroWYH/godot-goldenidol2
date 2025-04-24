@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://ccy05sn5kc2gq"]
+[gd_scene load_steps=4 format=3 uid="uid://ccy05sn5kc2gq"]
 
 [ext_resource type="Texture2D" uid="uid://be6mx7ndnaybo" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/truba.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -23,10 +23,10 @@ offset_bottom = -112.0
 hotspot_id = "YW3"
 
 [node name="Indicators" parent="BodySpot" index="0"]
-offset_left = 40.50830078125
-offset_top = 82.26689910888672
-offset_right = 40.50830078125
-offset_bottom = 82.26689910888672
+offset_left = 40.5083
+offset_top = 82.2669
+offset_right = 40.5083
+offset_bottom = 82.2669
 
 [node name="Highlighter" parent="BodySpot/Indicators" index="0"]
 modulate = Color(0.0823529, 0.0784314, 0.0784314, 1)

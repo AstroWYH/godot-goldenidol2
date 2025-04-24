@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=4 uid="uid://dus7kk5wf76dj"]
+[gd_scene load_steps=60 format=3 uid="uid://dus7kk5wf76dj"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://ctywtf5ycb63x" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/tasered/tasered_1.png" id="2"]
@@ -55,7 +55,7 @@
 [ext_resource type="Texture2D" uid="uid://rd7ryh58wyxb" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/uncle_old.png" id="53"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="54"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="55"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="56"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="56"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="57"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_u8cd6"]
@@ -240,7 +240,7 @@ autowrap_mode = 3
 position = Vector2(353, 255)
 sprite_frames = SubResource("SpriteFrames_u8cd6")
 autoplay = "default"
-frame_progress = 0.08006680011749268
+frame_progress = 0.0800668
 
 [node name="ChipSprite" type="Sprite2D" parent="."]
 position = Vector2(205, 141)
@@ -335,7 +335,7 @@ offset_left = 83.0
 offset_top = 606.0
 offset_right = 531.0
 offset_bottom = 690.0
-rotation = -0.11202099919319153
+rotation = -0.112021
 theme = ExtResource("55")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "EVICTION_FUNERAL_PHOTO_COMMENT"

@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://n4naxvdf5c88"]
+[gd_scene load_steps=6 format=3 uid="uid://n4naxvdf5c88"]
 
 [ext_resource type="Texture2D" uid="uid://ciduhto3wmj4" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/deadbody.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="PackedScene" uid="uid://k6oho53kiae5" path="res://acts/full_game/introductory_arc/construction_yard/closeups/dead_body_panel.tscn" id="4"]
 
 [sub_resource type="Resource" id="Resource_0lh1o"]
@@ -23,17 +23,17 @@ texture = ExtResource("1")
 layout_mode = 1
 offset_left = 139.0
 offset_top = 205.0
-offset_right = -133.9980010986328
+offset_right = -133.998
 offset_bottom = -85.0
 hotspot_id = "XOW"
 unlocked_item_ref_id = 358
 extra_items_unlocked = [SubResource("Resource_0lh1o")]
 
 [node name="Indicators" parent="VictimSpot" index="0"]
-offset_left = 88.37809753417969
-offset_top = 104.73699951171875
-offset_right = 88.37809753417969
-offset_bottom = 104.73699951171875
+offset_left = 88.3781
+offset_top = 104.737
+offset_right = 88.3781
+offset_bottom = 104.737
 
 [node name="Highlighter" parent="VictimSpot/Indicators" index="0"]
 modulate = Color(0.568627, 0.741176, 0.705882, 1)
@@ -44,9 +44,9 @@ position = Vector2(-56.1692, 60.1)
 
 [node name="DeadBodyPanel" parent="VictimSpot" instance=ExtResource("4")]
 layout_mode = 0
-offset_left = 597.2100219726563
-offset_top = -80.41300201416016
-offset_right = 1324.2099609375
-offset_bottom = 423.5899963378906
+offset_left = 597.21
+offset_top = -80.413
+offset_right = 1324.21
+offset_bottom = 423.59
 
 [editable path="VictimSpot"]

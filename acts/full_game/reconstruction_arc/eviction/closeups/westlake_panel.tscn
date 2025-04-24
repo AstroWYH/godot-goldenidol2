@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=4 uid="uid://bwl28a0sp0x2i"]
+[gd_scene load_steps=54 format=3 uid="uid://bwl28a0sp0x2i"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cxmq3fr1uubhc" path="res://shared/assets/portraits/mary_jacket/mary_jacket_00000.png" id="2"]
@@ -40,7 +40,7 @@
 [ext_resource type="Texture2D" uid="uid://i8fauyu16r24" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/pen_blue.png" id="38"]
 [ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="39"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="40"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="41"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="41"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="42"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="43"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="44"]
@@ -205,7 +205,7 @@ position = Vector2(447, 287)
 sprite_frames = SubResource("SpriteFrames_wnne5")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.05435609817504883
+frame_progress = 0.0543561
 
 [node name="PenSprite" type="Sprite2D" parent="."]
 position = Vector2(114.333, 216)
@@ -241,22 +241,22 @@ offset_left = 13.0
 offset_top = 7.0
 offset_right = 724.0
 offset_bottom = 791.0
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("42")
 stretch_mode = 1
 
 [node name="Sprite2D8" type="Sprite2D" parent="MemoSpot/MemoPanel/LessonColorRect"]
 position = Vector2(355.006, 545.403)
-rotation = -0.04556480050086975
+rotation = -0.0455648
 scale = Vector2(1.55852, 1.29318)
-skew = 0.02675269916653633
+skew = 0.0267527
 texture = ExtResource("43")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Sprite2D7" type="Sprite2D" parent="MemoSpot/MemoPanel/LessonColorRect"]
 position = Vector2(361.131, 273.069)
-rotation = 3.1338798999786377
+rotation = 3.13388
 scale = Vector2(1.58636, 1.13671)
 texture = ExtResource("43")
 region_enabled = true
@@ -281,7 +281,7 @@ offset_left = 406.0
 offset_top = 664.0
 offset_right = 685.0
 offset_bottom = 768.0
-rotation = -0.34906598925590515
+rotation = -0.349066
 mouse_filter = 1
 theme = ExtResource("44")
 theme_override_colors/default_color = Color(0, 0, 0.545098, 1)
@@ -296,7 +296,7 @@ offset_left = 414.0
 offset_top = 602.0
 offset_right = 621.0
 offset_bottom = 663.0
-rotation = -0.34906598925590515
+rotation = -0.349066
 mouse_filter = 1
 theme = ExtResource("44")
 theme_override_colors/default_color = Color(0, 0, 0.545098, 1)
@@ -306,7 +306,7 @@ autowrap_mode = 2
 
 [node name="RorschachSprite1" type="Sprite2D" parent="MemoSpot/MemoPanel"]
 position = Vector2(376, 644)
-rotation = -0.34906598925590515
+rotation = -0.349066
 scale = Vector2(0.460884, 0.460884)
 texture = ExtResource("45")
 
@@ -323,9 +323,9 @@ texture = ExtResource("47")
 
 [node name="PenSpot" parent="." instance=ExtResource("40")]
 layout_mode = 1
-offset_left = 56.33340072631836
+offset_left = 56.3334
 offset_top = 177.0
-offset_right = -489.6669921875
+offset_right = -489.667
 offset_bottom = -255.0
 hotspot_id = "YHx"
 text = "EVICTION_BLUE_PEN_TOOLTIP"

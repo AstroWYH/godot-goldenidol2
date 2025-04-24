@@ -1,8 +1,8 @@
-[gd_scene load_steps=12 format=4 uid="uid://d2he6tswwkbcy"]
+[gd_scene load_steps=12 format=3 uid="uid://d2he6tswwkbcy"]
 
 [ext_resource type="PackedScene" uid="uid://bfe03csmbswxm" path="res://shared/ui/intermissions/intermission_dialog.tscn" id="1"]
 [ext_resource type="AudioStream" uid="uid://dr48cx70pl3vp" path="res://acts/full_game/intermisions/assets/audio/intermission_trials_audio.ogg" id="2"]
-[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/Eugene-anim.ogv" id="3"]
+[ext_resource type="VideoStream" uid="uid://d27ndv8ynq53c" path="res://acts/full_game/intermisions/Eugene-anim.ogv" id="3"]
 [ext_resource type="Texture2D" uid="uid://5dpllvtr0gs4" path="res://acts/full_game/intermisions/ofice.png" id="4"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="5"]
 [ext_resource type="Texture2D" uid="uid://i2xf106g465j" path="res://shared/assets/frames/frame_spech_red.png" id="6"]
@@ -76,7 +76,7 @@ tracks/4/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
 _data = {
-"intro": SubResource("Animation_36hnf")
+&"intro": SubResource("Animation_36hnf")
 }
 
 [node name="IntermissionDialog" instance=ExtResource("1")]

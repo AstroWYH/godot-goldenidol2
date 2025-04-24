@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://duvlvybm8u3ap"]
+[gd_scene load_steps=2 format=3 uid="uid://duvlvybm8u3ap"]
 
-[ext_resource type="Script" path="res://autoload/dev_tools/scene_changer.gd" id="1"]
+[ext_resource type="Script" uid="uid://ca6yorfbxwgs3" path="res://autoload/dev_tools/scene_changer.gd" id="1"]
 
 [node name="SceneChanger" type="Window"]
 title = "Go To ..."

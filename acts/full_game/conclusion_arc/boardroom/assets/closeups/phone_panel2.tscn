@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://crpn2ih4mhsgo"]
+[gd_scene load_steps=2 format=3 uid="uid://crpn2ih4mhsgo"]
 
 [ext_resource type="Texture2D" uid="uid://5pkjxm5y37ve" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/phone_broken.png" id="1"]
 

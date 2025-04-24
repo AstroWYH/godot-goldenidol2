@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=4 uid="uid://d1qvjnpiwa0wh"]
+[gd_scene load_steps=4 format=3 uid="uid://d1qvjnpiwa0wh"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://qbhkqydxipeb" path="res://shared/assets/papers/A4_V2.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://begcvs5vgf58j" path="res://acts/full_game/reconstruction_arc/hub/assets/photo2.png" id="3"]
 
@@ -61,7 +61,7 @@ autowrap_mode = 2
 
 [node name="PhotoSprite" type="Sprite2D" parent="NowakNotePanel"]
 position = Vector2(485, 185)
-rotation = 0.08410409837961197
+rotation = 0.0841041
 texture = ExtResource("3")
 
 [connection signal="gui_input" from="." to="." method="_on_gui_input"]

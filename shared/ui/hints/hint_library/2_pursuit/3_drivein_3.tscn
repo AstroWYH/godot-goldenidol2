@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://cv6fk2yk01otc"]
+[gd_scene load_steps=3 format=3 uid="uid://cv6fk2yk01otc"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cbl8eabsbif1j" path="res://shared/ui/hints/hint_library/2_pursuit/drivein_03.png" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://pk51fi2s7oir"]
+[gd_scene load_steps=5 format=3 uid="uid://pk51fi2s7oir"]
 
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="2"]
@@ -25,7 +25,7 @@ stretch_mode = 1
 [node name="Sprite2D6" type="Sprite2D" parent="TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(254, 82)
-rotation = 3.1398301124572754
+rotation = 3.13983
 texture = ExtResource("2")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
@@ -33,7 +33,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D7" type="Sprite2D" parent="TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(252, 418)
-rotation = 3.1738100051879883
+rotation = 3.17381
 texture = ExtResource("2")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)

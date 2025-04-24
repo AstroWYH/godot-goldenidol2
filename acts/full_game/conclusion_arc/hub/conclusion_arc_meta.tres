@@ -1,10 +1,11 @@
-[gd_resource type="Resource" script_class="ArcMeta" load_steps=6 format=4 uid="uid://bylqfn1vow1bd"]
+[gd_resource type="Resource" script_class="ArcMeta" load_steps=7 format=3 uid="uid://bylqfn1vow1bd"]
 
 [ext_resource type="AudioStream" uid="uid://b13tosh30506" path="res://shared/assets/sfx/ambiences/tv_static_ambience.ogg" id="1"]
 [ext_resource type="Resource" uid="uid://c1dqqgsc2em57" path="res://shared/ui/hints/hint_library/5_pinnacle/5_pinnacle_1.tres" id="2"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="2_va85n"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="3"]
 [ext_resource type="Texture2D" uid="uid://eeexjd3yx1ag" path="res://shared/ui/hints/hint_illustrations/chapter_05_the_pinnacle.png" id="4"]
-[ext_resource type="Script" path="res://shared/resources/arc_meta.gd" id="5"]
+[ext_resource type="Script" uid="uid://eka7wx0emwmi" path="res://shared/resources/arc_meta.gd" id="5"]
 
 [resource]
 script = ExtResource("5")
@@ -14,8 +15,8 @@ name = "PINNACLE_CHAPTER_NAME"
 description = "PINNACLE_CHAPTER_INTRO2"
 hub_scene_path = "res://acts/full_game/conclusion_arc/hub/conclusion_arc_hub.tscn"
 achievement_id = 25
-music_layers = [ExtResource("3")]
-ambience_layers = [ExtResource("1")]
+music_layers = Array[AudioStream]([ExtResource("3")])
+ambience_layers = Array[AudioStream]([ExtResource("1")])
 picture = ExtResource("4")
-hint_meta_list = [ExtResource("2")]
+hint_meta_list = Array[ExtResource("2_va85n")]([ExtResource("2")])
 autoload_intermission_path = ""

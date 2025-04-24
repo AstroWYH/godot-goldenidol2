@@ -1,4 +1,4 @@
-[gd_scene load_steps=96 format=4 uid="uid://bpk8tpog00c0"]
+[gd_scene load_steps=96 format=3 uid="uid://bpk8tpog00c0"]
 
 [ext_resource type="Texture2D" uid="uid://bbm8n8jpf4adi" path="res://shared/ui/misc/MessageMachine.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dgtpxk32xom0n" path="res://shared/ui/voice_message_light/message_light_00000.png" id="2"]
@@ -28,7 +28,7 @@
 [ext_resource type="Texture2D" uid="uid://30srldmbjm2" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/notebook.png" id="26"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="27"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="28"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="29"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="29"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="30"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="31"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="32"]
@@ -399,11 +399,11 @@ texture = ExtResource("26")
 
 [node name="NotepadLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 584.6409912109375
-offset_top = 195.02200317382813
-offset_right = 727.6409912109375
-offset_bottom = 391.0220031738281
-rotation = -0.20996299386024475
+offset_left = 584.641
+offset_top = 195.022
+offset_right = 727.641
+offset_bottom = 391.022
+rotation = -0.209963
 theme = ExtResource("27")
 theme_override_colors/font_color = Color(0.780392, 0, 0, 1)
 theme_override_font_sizes/font_size = 24
@@ -481,7 +481,7 @@ offset_right = -10.0
 offset_bottom = -17.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("30")
 expand_mode = 1
 stretch_mode = 1
@@ -512,7 +512,7 @@ modulate = Color(0.53, 0.475145, 0.4081, 1)
 position = Vector2(308, 600)
 sprite_frames = SubResource("SpriteFrames_l8udh")
 autoplay = "default"
-frame_progress = 0.019673900678753853
+frame_progress = 0.0196739
 
 [node name="MessageTape" type="Sprite2D" parent="Message1Spot/Message1Panel"]
 position = Vector2(508, 604)
@@ -547,7 +547,7 @@ offset_right = -10.0
 offset_bottom = -13.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("30")
 expand_mode = 1
 stretch_mode = 1
@@ -576,7 +576,7 @@ modulate = Color(0.53, 0.475145, 0.4081, 1)
 position = Vector2(308, 600)
 sprite_frames = SubResource("SpriteFrames_l8udh")
 autoplay = "default"
-frame_progress = 0.28653499484062195
+frame_progress = 0.286535
 
 [node name="MessageTape" type="Sprite2D" parent="Message2Spot/Message2Panel"]
 position = Vector2(508, 604)
@@ -611,7 +611,7 @@ offset_right = -10.0
 offset_bottom = -13.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("30")
 expand_mode = 1
 stretch_mode = 1
@@ -640,7 +640,7 @@ modulate = Color(0.53, 0.475145, 0.4081, 1)
 position = Vector2(308, 600)
 sprite_frames = SubResource("SpriteFrames_l8udh")
 autoplay = "default"
-frame_progress = 0.28653499484062195
+frame_progress = 0.286535
 
 [node name="MessageTape" type="Sprite2D" parent="Message3Spot/Message3Panel"]
 position = Vector2(508, 604)

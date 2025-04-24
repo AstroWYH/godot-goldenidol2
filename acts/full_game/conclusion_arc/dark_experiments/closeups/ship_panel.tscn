@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://cpgw2vqcqxu21"]
+[gd_scene load_steps=6 format=3 uid="uid://cpgw2vqcqxu21"]
 
 [ext_resource type="Texture2D" uid="uid://bhxrkuuysuh7y" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/sleeping_room_ship_updated2.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -28,10 +28,10 @@ pivot_offset = Vector2(-1410.96, -558.726)
 hotspot_id = "Gko"
 
 [node name="Indicators" parent="PhilStashSpot" index="0"]
-offset_left = -2.630079984664917
-offset_top = 93.31710052490234
-offset_right = -2.630079984664917
-offset_bottom = 93.31710052490234
+offset_left = -2.63008
+offset_top = 93.3171
+offset_right = -2.63008
+offset_bottom = 93.3171
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="PhilStashSpot/Indicators" index="0"]
@@ -65,10 +65,10 @@ hotspot_id = "Fwj"
 text = "WAREHOUSE_HARMONICA_TOOLTIP"
 
 [node name="Indicators" parent="PhilStashSpot/PhilStashPanel/HarmonicaSpot" index="0"]
-offset_left = -7.513189792633057
-offset_top = 21.83340072631836
-offset_right = -7.513189792633057
-offset_bottom = 21.83340072631836
+offset_left = -7.51319
+offset_top = 21.8334
+offset_right = -7.51319
+offset_bottom = 21.8334
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="PhilStashSpot/PhilStashPanel/HarmonicaSpot/Indicators" index="0"]

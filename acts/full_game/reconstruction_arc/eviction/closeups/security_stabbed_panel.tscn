@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=4 uid="uid://i3fntucv1qak"]
+[gd_scene load_steps=42 format=3 uid="uid://i3fntucv1qak"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cdjq16h83skp5" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/guard_b/guard_b_00000.png" id="2"]
@@ -177,7 +177,7 @@ autowrap_mode = 3
 position = Vector2(215, 397)
 sprite_frames = SubResource("SpriteFrames_wje2j")
 autoplay = "default"
-frame_progress = 0.21668000519275665
+frame_progress = 0.21668
 
 [node name="TaserSpot" parent="." instance=ExtResource("38")]
 layout_mode = 1

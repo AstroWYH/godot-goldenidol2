@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://dh2eoc00b3b3h"]
+[gd_scene load_steps=2 format=3 uid="uid://dh2eoc00b3b3h"]
 
-[ext_resource type="Script" path="res://autoload/dragdrop_manager/container_dragger.gd" id="1"]
+[ext_resource type="Script" uid="uid://cl5vousmr0rkd" path="res://autoload/dragdrop_manager/container_dragger.gd" id="1"]
 
 [node name="ContainerDragger" type="Control"]
 layout_mode = 3

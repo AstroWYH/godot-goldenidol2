@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://cxcck54o4wfat"]
+[gd_scene load_steps=3 format=3 uid="uid://cxcck54o4wfat"]
 
 [ext_resource type="Texture2D" uid="uid://bc7cdqk76kyrf" path="res://acts/full_game/research_arc/aviary/assets/closeups/lockerastor.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -18,7 +18,7 @@ offset_left = -29.0
 offset_top = 141.0
 offset_right = 72.0
 offset_bottom = 298.0
-rotation = 0.059220198541879654
+rotation = 0.0592202
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.239216, 0.196078, 0.180392, 1)
 theme_override_font_sizes/font_size = 17
@@ -32,7 +32,7 @@ offset_left = 79.0
 offset_top = 12.0
 offset_right = 192.0
 offset_bottom = 113.0
-rotation = 0.04336019977927208
+rotation = 0.0433602
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.203922, 0.184314, 0.184314, 1)
 theme_override_font_sizes/font_size = 18

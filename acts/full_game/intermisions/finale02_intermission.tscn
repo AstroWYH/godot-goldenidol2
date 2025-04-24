@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://cxggf1wab4fnt"]
+[gd_scene load_steps=10 format=3 uid="uid://cxggf1wab4fnt"]
 
 [ext_resource type="PackedScene" uid="uid://bfe03csmbswxm" path="res://shared/ui/intermissions/intermission_dialog.tscn" id="1"]
-[ext_resource type="Script" path="res://acts/full_game/intermisions/finale02_intermission.gd" id="2"]
+[ext_resource type="Script" uid="uid://cf3gmkgnxrxai" path="res://acts/full_game/intermisions/finale02_intermission.gd" id="2"]
 [ext_resource type="AudioStream" uid="uid://ctmmwf71wjhme" path="res://acts/full_game/intermisions/assets/audio/intermission_finale02_audio.ogg" id="3"]
-[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/page2.ogv" id="4"]
+[ext_resource type="VideoStream" uid="uid://dn5ijodvxl02j" path="res://acts/full_game/intermisions/page2.ogv" id="4"]
 [ext_resource type="Texture2D" uid="uid://c0dmho4td8d6j" path="res://acts/full_game/intermisions/finale02.png" id="5"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="6"]
 [ext_resource type="Texture2D" uid="uid://c4rwoqjegwn30" path="res://shared/assets/frames/frame_spech_black.png" id="7"]
@@ -26,7 +26,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
 _data = {
-"intro": SubResource("Animation_36hnf")
+&"intro": SubResource("Animation_36hnf")
 }
 
 [node name="IntermissionDialog" instance=ExtResource("1")]

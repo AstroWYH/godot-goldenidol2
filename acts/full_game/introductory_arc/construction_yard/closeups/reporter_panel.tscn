@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://d1iov1x5lfeh3"]
+[gd_scene load_steps=33 format=3 uid="uid://d1iov1x5lfeh3"]
 
 [ext_resource type="Texture2D" uid="uid://i1oo6j35ucj4" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter1.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://ceuuty8krn4mm" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/reporter/reporter2.png" id="2"]
@@ -140,7 +140,7 @@ offset_bottom = 603.0
 position = Vector2(44, 111)
 sprite_frames = SubResource("SpriteFrames_bwtof")
 autoplay = "default"
-frame_progress = 0.41423100233078003
+frame_progress = 0.414231
 centered = false
 
 [node name="CharacterTextLabel" type="Label" parent="."]

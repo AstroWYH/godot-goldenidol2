@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://cllob07u72vpg"]
+[gd_scene load_steps=2 format=3 uid="uid://cllob07u72vpg"]
 
 [ext_resource type="Texture2D" uid="uid://bvejopjhimdm5" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/harmonylogo.png" id="1"]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://d20pes7js3i02"]
+[gd_scene load_steps=3 format=3 uid="uid://d20pes7js3i02"]
 
 [ext_resource type="Texture2D" uid="uid://dv0kmbhgqqi0y" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/janitorcart.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

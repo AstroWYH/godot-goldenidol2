@@ -1,10 +1,10 @@
-[gd_scene load_steps=45 format=4 uid="uid://ct1mqq6cwwx3o"]
+[gd_scene load_steps=45 format=3 uid="uid://ct1mqq6cwwx3o"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://i2xxwvsde7lu" path="res://shared/assets/textures/corc.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://btqptreindjg6" path="res://acts/full_game/research_arc/hub/assets/symbolnaming_placeholder.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://sf6c8b14q5uj" path="res://acts/full_game/colecting_parts_arc/hub/assets/sketches/character_puzzle/note.png" id="6"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="7"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="8"]
@@ -120,7 +120,7 @@ offset_left = -76.0
 offset_top = 3.0
 offset_right = 187.0
 offset_bottom = 85.0
-rotation = -0.1002419963479042
+rotation = -0.100242
 theme = ExtResource("7")
 text = "TRIALS_HUB_USELESS_LABEL"
 autowrap_mode = 2
@@ -130,7 +130,7 @@ offset_left = -80.0
 offset_top = 360.0
 offset_right = 197.0
 offset_bottom = 427.0
-rotation = -0.04903610050678253
+rotation = -0.0490361
 theme = ExtResource("7")
 text = "TRIALS_HUB_CONTENT_OBTAINED"
 horizontal_alignment = 2
@@ -146,8 +146,8 @@ texture = ExtResource("6")
 metadata/_edit_lock_ = true
 
 [node name="CloseButton" parent="." index="2"]
-offset_left = 3.539979934692383
-offset_right = 35.540000915527344
+offset_left = 3.53998
+offset_right = 35.54
 metadata/_edit_lock_ = true
 
 [node name="PuzzleGroup" parent="." index="4" instance=ExtResource("8")]
@@ -157,10 +157,10 @@ metadata/_edit_lock_ = true
 [node name="PicturePuzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("9")]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.0360000133514404
+anchor_right = 1.036
 offset_left = 185.0
 offset_top = 944.0
-offset_right = -828.5599975585938
+offset_right = -828.56
 offset_bottom = 16.0
 puzzle_meta = ExtResource("10")
 puzzle_inventory = NodePath("Inventory")
@@ -357,13 +357,13 @@ phrase_grids = [NodePath("../../Frame/MarginContainer/Background/SubjectsNumbers
 [node name="PhrasePuzzleSlot1" parent="PuzzleGroup/PhrasePuzzle" index="1" instance=ExtResource("29")]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -1.6430000066757202
-anchor_right = 8.854000091552734
-anchor_bottom = 81.2020034790039
+anchor_left = -1.643
+anchor_right = 8.854
+anchor_bottom = 81.202
 offset_left = 269.5
 offset_top = 140.0
 offset_right = 269.5
-offset_bottom = -718.2219848632813
+offset_bottom = -718.222
 answer_item_ref_id = 1000
 
 [node name="PhraseSlot" parent="PuzzleGroup/PhrasePuzzle/PhrasePuzzleSlot1" index="0"]
@@ -374,7 +374,7 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -7.0
-offset_top = -7.500030040740967
+offset_top = -7.50003
 offset_right = 93.0
 offset_bottom = 32.5
 grow_horizontal = 2

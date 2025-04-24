@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://b83e45vntukxi"]
+[gd_scene load_steps=8 format=3 uid="uid://b83e45vntukxi"]
 
 [ext_resource type="Texture2D" uid="uid://bum5q3gurjmcx" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/blackboard.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bs4x0565lx6dm" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/pinned_note.png" id="2"]
@@ -685,7 +685,7 @@ offset_left = 200.0
 offset_top = 626.0
 offset_right = 611.0
 offset_bottom = 823.0
-rotation = -0.2610290050506592
+rotation = -0.261029
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = -1

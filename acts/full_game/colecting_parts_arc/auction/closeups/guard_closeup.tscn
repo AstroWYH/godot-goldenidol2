@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=4 uid="uid://ttn02dbw3fly"]
+[gd_scene load_steps=41 format=3 uid="uid://ttn02dbw3fly"]
 
 [ext_resource type="Texture2D" uid="uid://b8gvbwm7bmvap" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/guard2/guardhead_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://djq3o2ye11b8e" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/guard2/guardhead_00001.png" id="2"]
@@ -165,7 +165,7 @@ mouse_filter = 2
 position = Vector2(238, 257)
 sprite_frames = SubResource("SpriteFrames_080rp")
 autoplay = "default"
-frame_progress = 0.2088170051574707
+frame_progress = 0.208817
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

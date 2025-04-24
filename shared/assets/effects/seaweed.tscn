@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://clck6m8fbq088"]
+[gd_scene load_steps=5 format=3 uid="uid://clck6m8fbq088"]
 
 [ext_resource type="Texture2D" uid="uid://d2sblnvuebefe" path="res://shared/assets/graphic/seaweed.png" id="1"]
 
@@ -349,8 +349,8 @@ tracks/13/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_stmwu"]
 _data = {
-"RESET": SubResource("Animation_1h4sq"),
-"seaweed1": SubResource("Animation_fydbv")
+&"RESET": SubResource("Animation_1h4sq"),
+&"seaweed1": SubResource("Animation_fydbv")
 }
 
 [node name="Node2D" type="Node2D"]
@@ -375,12 +375,12 @@ bones = ["Bone2DBone2D", PackedFloat32Array(0, 0, 0, 0, 0.5, 0.5, 0.5, 0.5, 0, 0
 
 [node name="Bone2DBone2D" type="Bone2D" parent="Seaweedskel"]
 position = Vector2(-12, 8)
-rotation = 0.10202500224113464
+rotation = 0.102025
 rest = Transform2D(1, 0, 0, 1, -12, 8)
 
 [node name="Bone2DBone2D" type="Bone2D" parent="Seaweedskel/Bone2DBone2D"]
 position = Vector2(-240, -22)
-rotation = 0.6110699772834778
+rotation = 0.61107
 rest = Transform2D(1, 0, 0, 1, -240, -22)
 
 [node name="Bone2DBone2D" type="Bone2D" parent="Seaweedskel/Bone2DBone2D/Bone2DBone2D"]
@@ -393,7 +393,7 @@ rest = Transform2D(1, 0, 0, 1, -248, 26)
 
 [node name="Bone2DBone2D" type="Bone2D" parent="Seaweedskel/Bone2DBone2D/Bone2DBone2D/Bone2DBone2D/Bone2DBone2D"]
 position = Vector2(-342, -18)
-rotation = -0.31282100081443787
+rotation = -0.312821
 rest = Transform2D(1, 0, 0, 1, -342, -18)
 
 [node name="Bone2DBone2D" type="Bone2D" parent="Seaweedskel/Bone2DBone2D/Bone2DBone2D/Bone2DBone2D/Bone2DBone2D/Bone2DBone2D"]

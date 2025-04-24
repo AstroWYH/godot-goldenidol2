@@ -1,4 +1,4 @@
-[gd_scene load_steps=154 format=4 uid="uid://dccbmg6pc0ymr"]
+[gd_scene load_steps=154 format=3 uid="uid://dccbmg6pc0ymr"]
 
 [ext_resource type="Texture2D" uid="uid://wf3kfobhni15" path="res://acts/full_game/research_arc/complex/assets/closeups/ev_a_stairs_persp.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://ce21c71yvhhpj" path="res://acts/full_game/research_arc/complex/assets/animations/StaircasePeople/Staircase_people_00000.png" id="2"]
@@ -614,7 +614,7 @@ position = Vector2(-32, -8)
 sprite_frames = SubResource("SpriteFrames_6p6qc")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.6293439865112305
+frame_progress = 0.629344
 
 [node name="EvAStairsPerspFg" type="Sprite2D" parent="EvAStairsPersp"]
 position = Vector2(89, -13)
@@ -639,14 +639,14 @@ offset_bottom = -390.0
 [node name="IssaDialogue" type="Label" parent="IssaSpot/IssaPanel"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -0.3679490089416504
-anchor_top = -0.04812389984726906
-anchor_right = 0.21177799999713898
-anchor_bottom = -0.022613700479269028
-offset_left = 318.12200927734375
-offset_top = 54.9656982421875
-offset_right = 517.1220092773438
-offset_bottom = 106.96600341796875
+anchor_left = -0.367949
+anchor_top = -0.0481239
+anchor_right = 0.211778
+anchor_bottom = -0.0226137
+offset_left = 318.122
+offset_top = 54.9657
+offset_right = 517.122
+offset_bottom = 106.966
 theme = ExtResource("40")
 theme_override_font_sizes/font_size = 23
 text = "COMPLEX_ISSA_SPEECH"
@@ -659,10 +659,10 @@ texture = ExtResource("41")
 
 [node name="XIssa" type="AnimatedSprite2D" parent="IssaSpot/IssaPanel"]
 position = Vector2(487, 280)
-rotation = -0.0010049400152638555
+rotation = -0.00100494
 sprite_frames = SubResource("SpriteFrames_a040v")
 autoplay = "default"
-frame_progress = 0.3610619902610779
+frame_progress = 0.361062
 
 [node name="LavonaSpot" parent="." instance=ExtResource("39")]
 layout_mode = 1
@@ -684,10 +684,10 @@ offset_bottom = -290.0
 [node name="LavonaDialogue" type="Label" parent="LavonaSpot/LavonaPanel"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.0024600198958069086
-anchor_top = 0.002028430113568902
-anchor_right = 0.0024600198958069086
-anchor_bottom = 0.002028430113568902
+anchor_left = 0.00246002
+anchor_top = 0.00202843
+anchor_right = 0.00246002
+anchor_bottom = 0.00202843
 offset_left = 39.0
 offset_top = 27.0
 offset_right = 517.0
@@ -700,7 +700,7 @@ metadata/_edit_use_anchors_ = true
 
 [node name="00BoardTornPhotoLarger" type="Sprite2D" parent="LavonaSpot/LavonaPanel"]
 position = Vector2(521, 48)
-rotation = 0.2164209932088852
+rotation = 0.216421
 texture = ExtResource("96")
 centered = false
 
@@ -708,7 +708,7 @@ centered = false
 position = Vector2(238, 277)
 sprite_frames = SubResource("SpriteFrames_vxflv")
 autoplay = "default"
-frame_progress = 0.9236540198326111
+frame_progress = 0.923654
 
 [node name="YWristband" type="Sprite2D" parent="LavonaSpot/LavonaPanel"]
 position = Vector2(592, 388)

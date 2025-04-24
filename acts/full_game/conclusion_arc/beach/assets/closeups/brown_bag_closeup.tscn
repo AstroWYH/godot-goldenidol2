@@ -1,14 +1,14 @@
-[gd_scene load_steps=4 format=4 uid="uid://bwhghskwvjydd"]
+[gd_scene load_steps=4 format=3 uid="uid://bwhghskwvjydd"]
 
 [ext_resource type="Texture2D" uid="uid://c7q3p261ov072" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/gray_bag.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cx55tvva3yuc0" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/red_lipstick.png" id="2"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
 
 [node name="BrownBagCloseup" type="Panel"]
-offset_left = -299.4809875488281
-offset_top = -1585.3900146484375
-offset_right = 501.5060119628906
-offset_bottom = -972.3870239257813
+offset_left = -299.481
+offset_top = -1585.39
+offset_right = 501.506
+offset_bottom = -972.387
 
 [node name="Bag" type="Sprite2D" parent="."]
 position = Vector2(203.326, 415.412)
@@ -23,10 +23,10 @@ centered = false
 
 [node name="LipstickSpot" parent="." instance=ExtResource("3")]
 layout_mode = 1
-offset_left = 550.885009765625
-offset_top = 372.2650146484375
-offset_right = -145.10499572753906
-offset_bottom = -98.73480224609375
+offset_left = 550.885
+offset_top = 372.265
+offset_right = -145.105
+offset_bottom = -98.7348
 hotspot_id = "kiG"
 text = "BEACH_RED_LIPSTICK_TOOLTIP"
 

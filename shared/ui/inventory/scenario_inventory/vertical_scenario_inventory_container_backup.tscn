@@ -1,10 +1,10 @@
-[gd_scene load_steps=9 format=4 uid="uid://2pj00qvbhi6n"]
+[gd_scene load_steps=9 format=3 uid="uid://2pj00qvbhi6n"]
 
 [ext_resource type="Texture2D" uid="uid://dbmqwqe16k8ud" path="res://shared/assets/placeholder_ui/split_ui_experiments/texture.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b8w1jm4nrqnji" path="res://shared/assets/placeholder_ui/split_ui_experiments/frame.png" id="2"]
 [ext_resource type="PackedScene" uid="uid://b2ceydfd6sj3y" path="res://shared/ui/inventory/scenario_inventory/scenario_inventory.tscn" id="3"]
 [ext_resource type="Texture2D" uid="uid://c0kskofq3ccwe" path="res://shared/assets/placeholder_ui/button_ninepatch_v2.png" id="4"]
-[ext_resource type="Script" path="res://shared/ui/inventory/scenario_inventory/sort_button.gd" id="5"]
+[ext_resource type="Script" uid="uid://cb7h1pwnlmi7i" path="res://shared/ui/inventory/scenario_inventory/sort_button.gd" id="5"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kxex7"]
 texture = ExtResource("4")

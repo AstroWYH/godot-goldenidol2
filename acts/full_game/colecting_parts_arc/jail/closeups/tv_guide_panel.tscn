@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://cs12di0ghy2gu"]
+[gd_scene load_steps=6 format=3 uid="uid://cs12di0ghy2gu"]
 
 [ext_resource type="Texture2D" uid="uid://ohp8ru32cfb6" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/tvgudeback.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://6shcjg2bcfbr" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/circled.png" id="2"]
@@ -27,7 +27,7 @@ offset_left = 473.0
 offset_top = 457.0
 offset_right = 564.0
 offset_bottom = 528.0
-rotation = -1.054919958114624
+rotation = -1.05492
 theme = ExtResource("3")
 theme_override_font_sizes/font_size = 17
 text = "prison_tv_programme1"
@@ -39,7 +39,7 @@ offset_left = 390.0
 offset_top = 419.0
 offset_right = 476.0
 offset_bottom = 504.0
-rotation = -1.1036499738693237
+rotation = -1.10365
 theme = ExtResource("3")
 theme_override_font_sizes/font_size = 17
 text = "prison_tv_programme2"
@@ -51,7 +51,7 @@ offset_left = 275.0
 offset_top = 362.0
 offset_right = 348.0
 offset_bottom = 444.0
-rotation = -1.0864399671554565
+rotation = -1.08644
 theme = ExtResource("3")
 theme_override_font_sizes/font_size = 17
 text = "prison_tv_programme3"
@@ -60,28 +60,28 @@ autowrap_mode = 2
 [node name="CircleSprite2" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(421, 442)
-rotation = -1.0746099948883057
+rotation = -1.07461
 scale = Vector2(0.152231, 0.117673)
 texture = ExtResource("4")
 
 [node name="CircleSprite3" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(344, 414)
-rotation = -1.0746099948883057
+rotation = -1.07461
 scale = Vector2(0.152231, 0.117673)
 texture = ExtResource("4")
 
 [node name="CircleSprite4" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(261, 385)
-rotation = -1.0746099948883057
+rotation = -1.07461
 scale = Vector2(0.152231, 0.117673)
 texture = ExtResource("4")
 
 [node name="CircleSprite5" type="Sprite2D" parent="."]
 visible = false
 position = Vector2(190, 360)
-rotation = -1.0746099948883057
+rotation = -1.07461
 scale = Vector2(0.152231, 0.117673)
 texture = ExtResource("4")
 

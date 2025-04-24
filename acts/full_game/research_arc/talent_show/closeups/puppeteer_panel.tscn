@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://btq1xrvnp8ee4"]
+[gd_scene load_steps=35 format=3 uid="uid://btq1xrvnp8ee4"]
 
 [ext_resource type="Texture2D" uid="uid://cenjw6wgr2gyh" path="res://acts/full_game/research_arc/talent_show/assets/closeups/medal.png" id="1"]
 [ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="2"]
@@ -159,4 +159,4 @@ autowrap_mode = 3
 position = Vector2(522, 295)
 sprite_frames = SubResource("SpriteFrames_04ath")
 autoplay = "default"
-frame_progress = 0.6139320135116577
+frame_progress = 0.613932

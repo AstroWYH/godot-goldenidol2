@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4]
+[gd_scene load_steps=8 format=3 uid="uid://b2h4g8n8jdlae"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://cur7e5xpvkgqp" path="res://acts/full_game/conclusion_arc/beach/puzzles/beach_photo_puzzle.tscn" id="2"]

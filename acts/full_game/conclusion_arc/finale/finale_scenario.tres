@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=22 format=4 uid="uid://d2o2eeeju5fpr"]
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=27 format=3 uid="uid://d2o2eeeju5fpr"]
 
 [ext_resource type="Resource" uid="uid://d03cjyd3lwo6j" path="res://shared/ui/hints/hint_library/6_finale_1.tres" id="1"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="1_5hypq"]
 [ext_resource type="Resource" uid="uid://d25xe52tm0y7j" path="res://shared/ui/hints/hint_library/6_finale_2.tres" id="2"]
 [ext_resource type="Resource" uid="uid://dux6yuncf2peo" path="res://shared/ui/hints/hint_library/6_finale_3.tres" id="3"]
 [ext_resource type="Resource" uid="uid://bl7uyqqmp5jij" path="res://shared/ui/hints/hint_library/6_finale_4.tres" id="4"]
 [ext_resource type="Resource" uid="uid://3g0ouvtkjm21" path="res://shared/ui/hints/hint_library/6_finale_5.tres" id="5"]
 [ext_resource type="Resource" uid="uid://cnurbp41v5sh6" path="res://acts/full_game/conclusion_arc/finale/locations/map_location1_meta.tres" id="6"]
 [ext_resource type="Resource" uid="uid://do6cjpsuv5yrc" path="res://acts/full_game/conclusion_arc/finale/locations/map_location2_meta.tres" id="7"]
+[ext_resource type="Script" uid="uid://b3r4t2fo836c7" path="res://shared/resources/location_meta.gd" id="7_8f62k"]
 [ext_resource type="Resource" uid="uid://c11r00m4pj8d8" path="res://acts/full_game/conclusion_arc/finale/locations/map_location3_meta.tres" id="8"]
 [ext_resource type="Resource" uid="uid://bjlfywc7cwgvw" path="res://acts/full_game/conclusion_arc/finale/locations/map_location_4_meta.tres" id="9"]
 [ext_resource type="Resource" uid="uid://bwx3hdpq6jvkf" path="res://acts/full_game/conclusion_arc/finale/locations/tv_station_location_meta.tres" id="10"]
@@ -20,17 +22,19 @@
 [ext_resource type="AudioStream" uid="uid://dlsr34fot0dw1" path="res://acts/full_game/conclusion_arc/finale/assets/music/finale_pt3_loop.ogg" id="18"]
 [ext_resource type="Texture2D" uid="uid://dpdoev2s0v05o" path="res://shared/ui/hints/hint_illustrations/final_clash.png" id="19"]
 [ext_resource type="Resource" uid="uid://lvtea2bmkprs" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_picture_puzzle_meta.tres" id="20"]
-[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="21"]
+[ext_resource type="Script" uid="uid://c63e7p0jmjvqf" path="res://shared/resources/scenario_meta.gd" id="21"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="22_0jq35"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="25_q8b2q"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="26_igd1c"]
 
 [resource]
 script = ExtResource("21")
-arc = null
 id = 55
 name = "FINALE_SCENARIO_NAME"
 description = "PINNACLE_SCENARIO_DESCRIPTION"
 path = "res://acts/full_game/conclusion_arc/finale/finale_scenario.tscn"
-locations = [ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")]
-required_puzzles = [ExtResource("20")]
+locations = Array[ExtResource("7_8f62k")]([ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9"), ExtResource("10"), ExtResource("11"), ExtResource("12"), ExtResource("13"), ExtResource("14")])
+required_puzzles = Array[ExtResource("22_0jq35")]([ExtResource("20")])
 max_spots = 84
 phrases_name = 0
 phrases_object = 0
@@ -42,17 +46,17 @@ victory_screen_text = "FINALE_SCENARIO_VICTORY"
 victory_picture_path = "res://acts/full_game/conclusion_arc/finale/assets/victoryscreen2.png"
 custom_victory_dialog_path = "res://acts/full_game/conclusion_arc/finale/finale_scenario_victory.tscn"
 custom_hub_victory_dialog_path = "res://acts/full_game/conclusion_arc/finale/finale_victory_dialog_from_hub.tscn"
-victory_unlocks_segments = []
-victory_unlocks_arc_phrases = []
+victory_unlocks_segments = Array[ExtResource("26_igd1c")]([])
+victory_unlocks_arc_phrases = Array[ExtResource("25_q8b2q")]([])
 achievement_id = 24
 intermission_path_on_victory = ""
-intro_music = []
-loop_music = [ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18")]
-ambience = []
-escalation_layer_ids = [2, 3]
+intro_music = Array[AudioStream]([])
+loop_music = Array[AudioStream]([ExtResource("15"), ExtResource("16"), ExtResource("17"), ExtResource("18")])
+ambience = Array[AudioStream]([])
+escalation_layer_ids = Array[int]([2, 3])
 stop_existing_music_on_escalation = true
-oneshot_layer_ids = [1]
+oneshot_layer_ids = Array[int]([1])
 sfx_transposition = 0
 picture = ExtResource("19")
-hint_meta_list = [ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+hint_meta_list = Array[ExtResource("1_5hypq")]([ExtResource("1"), ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")])
 no_inventory = true

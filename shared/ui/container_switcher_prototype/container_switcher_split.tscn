@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=4 uid="uid://cim81cuxnk5ko"]
+[gd_scene load_steps=4 format=3 uid="uid://cim81cuxnk5ko"]
 
-[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_split.gd" id="1"]
+[ext_resource type="Script" uid="uid://d160640crktwf" path="res://shared/ui/container_switcher_prototype/container_switcher_split.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://cfjtaev77tctm" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel.png" id="2"]
 [ext_resource type="Theme" uid="uid://dnokfxldtj6pj" path="res://shared/themes/placeholder_button.tres" id="3"]
 

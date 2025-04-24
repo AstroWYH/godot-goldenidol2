@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://bfgbkxusuc0hs"]
+[gd_scene load_steps=16 format=3 uid="uid://bfgbkxusuc0hs"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://dvner0tjkk0t1" path="res://shared/assets/portraits/greenboard.png" id="2"]
@@ -62,14 +62,14 @@ offset_bottom = -2.0
 
 [node name="CloseButton" parent="." index="2"]
 anchors_preset = -1
-anchor_left = 0.968999981880188
-anchor_top = 0.01600000075995922
-anchor_right = 0.968999981880188
-anchor_bottom = 0.01600000075995922
-offset_left = -7.554019927978516
-offset_top = -16.06399917602539
-offset_right = 27.445999145507813
-offset_bottom = 19.93600082397461
+anchor_left = 0.969
+anchor_top = 0.016
+anchor_right = 0.969
+anchor_bottom = 0.016
+offset_left = -7.55402
+offset_top = -16.064
+offset_right = 27.446
+offset_bottom = 19.936
 
 [node name="ContainerDragger" parent="." index="3"]
 offset_right = 465.0
@@ -90,12 +90,12 @@ grow_vertical = 1
 [node name="Puzzle" parent="PuzzleGroup" index="0" node_paths=PackedStringArray("puzzle_inventory", "puzzle_answers") instance=ExtResource("8")]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.7770000100135803
-anchor_right = 0.7770000100135803
+anchor_left = 0.777
+anchor_right = 0.777
 anchor_bottom = 0.0
-offset_left = -48.43199920654297
+offset_left = -48.432
 offset_top = -35.0
-offset_right = 418.5679931640625
+offset_right = 418.568
 offset_bottom = 738.0
 puzzle_meta = ExtResource("9")
 puzzle_inventory = NodePath("Inventory")
@@ -125,56 +125,56 @@ mouse_filter = 2
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.4339999854564667
-anchor_top = -0.07999999821186066
-anchor_right = 0.4339999854564667
-anchor_bottom = -0.07999999821186066
-offset_left = 118.85199737548828
-offset_top = 390.8399963378906
-offset_right = 218.8520050048828
-offset_bottom = 490.8399963378906
+anchor_left = 0.434
+anchor_top = -0.08
+anchor_right = 0.434
+anchor_bottom = -0.08
+offset_left = 118.852
+offset_top = 390.84
+offset_right = 218.852
+offset_bottom = 490.84
 texture = ExtResource("11")
 
 [node name="2" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="1"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.4189999997615814
-anchor_top = -0.09000000357627869
-anchor_right = 0.4189999997615814
-anchor_bottom = -0.09000000357627869
-offset_left = 124.18199920654297
-offset_top = 273.82000732421875
-offset_right = 224.1820068359375
-offset_bottom = 373.82000732421875
+anchor_left = 0.419
+anchor_top = -0.09
+anchor_right = 0.419
+anchor_bottom = -0.09
+offset_left = 124.182
+offset_top = 273.82
+offset_right = 224.182
+offset_bottom = 373.82
 texture = ExtResource("2")
 
 [node name="3" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="2"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.4259999990463257
-anchor_top = -0.08699999749660492
-anchor_right = 0.4259999990463257
-anchor_bottom = -0.08699999749660492
-offset_left = 123.22799682617188
-offset_top = 152.3260040283203
-offset_right = 223.22799682617188
-offset_bottom = 252.3260040283203
+anchor_left = 0.426
+anchor_top = -0.087
+anchor_right = 0.426
+anchor_bottom = -0.087
+offset_left = 123.228
+offset_top = 152.326
+offset_right = 223.228
+offset_bottom = 252.326
 texture = ExtResource("12")
 
 [node name="4" type="TextureRect" parent="PuzzleGroup/Puzzle/Answers/Container" index="3"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.4339999854564667
-anchor_top = -0.07400000095367432
-anchor_right = 0.4339999854564667
-anchor_bottom = -0.07400000095367432
-offset_left = 117.85199737548828
-offset_top = 506.85198974609375
-offset_right = 217.8520050048828
-offset_bottom = 606.8519897460938
+anchor_left = 0.434
+anchor_top = -0.074
+anchor_right = 0.434
+anchor_bottom = -0.074
+offset_left = 117.852
+offset_top = 506.852
+offset_right = 217.852
+offset_bottom = 606.852
 texture = ExtResource("13")
 
 [node name="Inventory" parent="PuzzleGroup/Puzzle" index="2" instance=ExtResource("14")]

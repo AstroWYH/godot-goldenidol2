@@ -1,18 +1,18 @@
-[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=2 format=4 uid="uid://chsmwdh5jkg37"]
+[gd_resource type="Resource" script_class="PuzzleMeta" load_steps=3 format=3 uid="uid://chsmwdh5jkg37"]
 
-[ext_resource type="Script" path="res://shared/resources/puzzle_meta.gd" id="1"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="1"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="2_ijoom"]
 
 [resource]
 script = ExtResource("1")
 puzzle_id = 203
 puzzle_name = "CorkboardNumbers"
-puzzle_icon = null
 arc_puzzle = true
 locked_by_default = false
 hide_card_when_locked = false
-unlocks_puzzles_on_solve = []
-unlocks_segments_on_solve = []
+unlocks_puzzles_on_solve = Array[ExtResource("1")]([])
+unlocks_segments_on_solve = Array[ExtResource("2_ijoom")]([])
 escalate_music_on_solve = false
 escalation_level = 0
 segmentation_mode = 0
-specified_segments = []
+specified_segments = Array[int]([])

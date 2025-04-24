@@ -1,4 +1,4 @@
-[gd_scene load_steps=156 format=4 uid="uid://drd61vl50avtp"]
+[gd_scene load_steps=156 format=3 uid="uid://drd61vl50avtp"]
 
 [ext_resource type="Texture2D" uid="uid://daeu7ik4nqar8" path="res://acts/full_game/hubbackgrounds/assets/testscreen.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cjantb4ox63hb" path="res://acts/full_game/hubbackgrounds/assets/hipiesbw/concludion_000.png" id="2"]
@@ -661,21 +661,21 @@ position = Vector2(592, 653)
 sprite_frames = SubResource("SpriteFrames_ljoe3")
 animation = &"c"
 autoplay = "bw"
-frame_progress = 0.33700698614120483
+frame_progress = 0.337007
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(1186, 695)
 sprite_frames = SubResource("SpriteFrames_0e03s")
 animation = &"c"
 autoplay = "bw"
-frame_progress = 0.5096319913864136
+frame_progress = 0.509632
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(835, 255)
 sprite_frames = SubResource("SpriteFrames_7eqjw")
 animation = &"c"
 autoplay = "bw"
-frame_progress = 0.6143450140953064
+frame_progress = 0.614345
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(960, 540)

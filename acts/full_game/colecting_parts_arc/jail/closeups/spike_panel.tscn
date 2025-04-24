@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://ba4xso6pwt63e"]
+[gd_scene load_steps=22 format=3 uid="uid://ba4xso6pwt63e"]
 
 [ext_resource type="Texture2D" uid="uid://clyrhi4441xmp" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/wall.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b016pj36de5c7" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/rag/rag0000.png" id="2"]
@@ -95,7 +95,7 @@ centered = false
 position = Vector2(668, 211)
 sprite_frames = SubResource("SpriteFrames_boccb")
 autoplay = "default"
-frame_progress = 0.3609350025653839
+frame_progress = 0.360935
 
 [node name="snowmask" type="Panel" parent="."]
 clip_children = 1

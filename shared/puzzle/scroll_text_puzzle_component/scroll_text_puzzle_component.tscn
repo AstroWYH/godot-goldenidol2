@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://njuxxhce8e54"]
+[gd_scene load_steps=2 format=3 uid="uid://njuxxhce8e54"]
 
-[ext_resource type="Script" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.gd" id="1"]
+[ext_resource type="Script" uid="uid://m7oockb7s1jr" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.gd" id="1"]
 
 [node name="ScrollTextPuzzleComponent" type="Node"]
 script = ExtResource("1")

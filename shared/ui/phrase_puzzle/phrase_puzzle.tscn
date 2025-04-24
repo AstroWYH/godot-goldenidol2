@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://dcblv1kso5sqx"]
+[gd_scene load_steps=3 format=3 uid="uid://dcblv1kso5sqx"]
 
-[ext_resource type="Script" path="res://shared/ui/phrase_puzzle/phrase_puzzle.gd" id="1"]
+[ext_resource type="Script" uid="uid://ckxx03ofnxbp0" path="res://shared/ui/phrase_puzzle/phrase_puzzle.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://c27hwkkltdvuj" path="res://shared/puzzle/puzzle/puzzle.tscn" id="2"]
 
 [node name="PhrasePuzzle" type="Control"]

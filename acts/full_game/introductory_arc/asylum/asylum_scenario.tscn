@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4]
+[gd_scene load_steps=15 format=3 uid="uid://ci4p0a6vrnr1y"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dkifrcmtyoj02" path="res://acts/full_game/introductory_arc/asylum/puzzles/first_puzzle_ever.tscn" id="2"]
@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bxbncdv68inv" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_scroll_puzzle_duplicate.tscn" id="4"]
 [ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="5"]
 [ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="6"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/asylum/tutorial_manager.gd" id="7"]
+[ext_resource type="Script" uid="uid://bryn7trm0khoe" path="res://acts/full_game/introductory_arc/asylum/tutorial_manager.gd" id="7"]
 [ext_resource type="AudioStream" uid="uid://disu3ua8c5g66" path="res://acts/full_game/introductory_arc/asylum/assets/music/asylum_loop.ogg" id="8"]
 [ext_resource type="AudioStream" uid="uid://b76okgvfojrq8" path="res://shared/assets/sfx/ambiences/asylum_ambience.ogg" id="9"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="10"]

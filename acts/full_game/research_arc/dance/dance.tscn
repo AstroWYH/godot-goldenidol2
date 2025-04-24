@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://b8qqvqbnupcpx"]
+[gd_scene load_steps=3 format=3 uid="uid://b8qqvqbnupcpx"]
 
 [ext_resource type="PackedScene" uid="uid://cv8l7jtclmcmq" path="res://shared/world/scenario/scenario.tscn" id="1"]
 [ext_resource type="Resource" uid="uid://ch0gyv7q1o53f" path="res://acts/full_game/research_arc/dance/dance_scenario_meta.tres" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=4 uid="uid://cgk8k7jpcus00"]
+[gd_scene load_steps=12 format=3 uid="uid://cgk8k7jpcus00"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://p575bwvbcrd" path="res://acts/full_game/colecting_parts_arc/drivein/puzzles/drive_in_equipment_puzzle_as_scroll.tscn" id="2"]

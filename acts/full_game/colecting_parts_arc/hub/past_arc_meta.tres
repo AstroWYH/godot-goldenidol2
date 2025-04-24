@@ -1,11 +1,12 @@
-[gd_resource type="Resource" script_class="ArcMeta" load_steps=7 format=4 uid="uid://brnk6pl3eqvd1"]
+[gd_resource type="Resource" script_class="ArcMeta" load_steps=8 format=3 uid="uid://brnk6pl3eqvd1"]
 
 [ext_resource type="AudioStream" uid="uid://b13tosh30506" path="res://shared/assets/sfx/ambiences/tv_static_ambience.ogg" id="1"]
 [ext_resource type="Resource" uid="uid://ccnjdj0fbfo8o" path="res://shared/ui/hints/hint_library/2_pursuit/5_pursuit_1.tres" id="2"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="2_ftxbt"]
 [ext_resource type="Resource" uid="uid://w8wbvvv6o8bw" path="res://shared/ui/hints/hint_library/2_pursuit/5_pursuit_2.tres" id="3"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="4"]
 [ext_resource type="Texture2D" uid="uid://bd4t46s7jtdjj" path="res://shared/ui/hints/hint_illustrations/chapter_02_the_pursuit.png" id="5"]
-[ext_resource type="Script" path="res://shared/resources/arc_meta.gd" id="6"]
+[ext_resource type="Script" uid="uid://eka7wx0emwmi" path="res://shared/resources/arc_meta.gd" id="6"]
 
 [resource]
 script = ExtResource("6")
@@ -15,8 +16,8 @@ name = "chapter_2_name"
 description = "chapter_2_footer"
 hub_scene_path = "res://acts/full_game/colecting_parts_arc/hub/past_arc_hub.tscn"
 achievement_id = 10
-music_layers = [ExtResource("4")]
-ambience_layers = [ExtResource("1")]
+music_layers = Array[AudioStream]([ExtResource("4")])
+ambience_layers = Array[AudioStream]([ExtResource("1")])
 picture = ExtResource("5")
-hint_meta_list = [ExtResource("2"), ExtResource("3")]
+hint_meta_list = Array[ExtResource("2_ftxbt")]([ExtResource("2"), ExtResource("3")])
 autoload_intermission_path = ""

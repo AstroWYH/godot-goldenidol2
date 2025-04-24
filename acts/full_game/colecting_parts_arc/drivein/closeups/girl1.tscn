@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=4 uid="uid://deqdujx7ffo6e"]
+[gd_scene load_steps=42 format=3 uid="uid://deqdujx7ffo6e"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://bsojrd1ug4qmh" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/laura_parker/Laura Parker_00000.png" id="2"]
@@ -178,17 +178,17 @@ autowrap_mode = 2
 position = Vector2(379, 354)
 sprite_frames = SubResource("SpriteFrames_dml2s")
 autoplay = "default"
-frame_progress = 0.02662009932100773
+frame_progress = 0.0266201
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(123, 303)
-rotation = 0.11153099685907364
+rotation = 0.111531
 texture = ExtResource("38")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("39")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -206,7 +206,7 @@ text = "ticket_stub_tooltip"
 [node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
 modulate = Color(0.752941, 0.564706, 0.294118, 1)
 position = Vector2(1, -7)
-frame_progress = 0.1019660010933876
+frame_progress = 0.101966
 
 [node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
 position = Vector2(2, -3)

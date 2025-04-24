@@ -1,9 +1,9 @@
-[gd_scene load_steps=14 format=4 uid="uid://cuwqayd7naar5"]
+[gd_scene load_steps=14 format=3 uid="uid://cuwqayd7naar5"]
 
 [ext_resource type="Texture2D" uid="uid://degoegtyoq6n1" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/tripod.png" id="1"]
 [ext_resource type="Material" uid="uid://b2x086cs53tds" path="res://shared/assets/particle_materials/flame.material" id="2"]
 [ext_resource type="Texture2D" uid="uid://mhaygkiqauig" path="res://acts/demo/scenarios/seaside/assets/particle.png" id="3"]
-[ext_resource type="Script" path="res://shared/world/scenario/particle_controller.gd" id="4"]
+[ext_resource type="Script" uid="uid://celtpmffosjm1" path="res://shared/world/scenario/particle_controller.gd" id="4"]
 [ext_resource type="Material" uid="uid://c6w3pjhnnj7av" path="res://shared/assets/particle_materials/smoke.material" id="5"]
 [ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="6"]
 [ext_resource type="Material" uid="uid://mxn2dq1el4l3" path="res://shared/assets/particle_materials/sparcles.material" id="7"]
@@ -548,7 +548,7 @@ amount = 256
 process_material = ExtResource("2")
 texture = ExtResource("3")
 lifetime = 2.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 script = ExtResource("4")
 parent_panel = NodePath("..")
@@ -562,7 +562,7 @@ amount = 32
 process_material = ExtResource("5")
 texture = ExtResource("6")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Flame3"]
@@ -570,7 +570,7 @@ material = SubResource("CanvasItemMaterial_ijjta")
 position = Vector2(-2, -19)
 amount = 24
 process_material = ExtResource("7")
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="Timer" type="Timer" parent="Flame3"]
 wait_time = 0.3

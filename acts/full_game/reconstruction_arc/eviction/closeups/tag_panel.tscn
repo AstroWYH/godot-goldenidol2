@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://5s32ufyxmrrt"]
+[gd_scene load_steps=3 format=3 uid="uid://5s32ufyxmrrt"]
 
 [ext_resource type="Texture2D" uid="uid://c8w1nhep6a2oa" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badge.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bk0owwqs0lej5" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/badgeblood.png" id="2"]

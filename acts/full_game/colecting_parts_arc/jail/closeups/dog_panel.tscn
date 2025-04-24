@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=4 uid="uid://l8v13bwnko0g"]
+[gd_scene load_steps=31 format=3 uid="uid://l8v13bwnko0g"]
 
 [ext_resource type="Texture2D" uid="uid://yxmc4g44786m" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cm7albsm6f4k3" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/clovis/clovis_001.png" id="2"]
@@ -122,7 +122,7 @@ mouse_filter = 2
 position = Vector2(430, 247)
 sprite_frames = SubResource("SpriteFrames_05r10")
 autoplay = "default"
-frame_progress = 0.014604900032281876
+frame_progress = 0.0146049
 
 [node name="dvasa7" type="GPUParticles2D" parent="DogSprite"]
 material = SubResource("CanvasItemMaterial_mtfrj")
@@ -132,8 +132,8 @@ amount = 32
 process_material = ExtResource("25")
 texture = ExtResource("26")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="BadgeSprite" type="Sprite2D" parent="."]

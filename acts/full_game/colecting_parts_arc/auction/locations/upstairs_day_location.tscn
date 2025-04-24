@@ -1,6 +1,6 @@
-[gd_scene load_steps=44 format=4 uid="uid://its0023h3paa"]
+[gd_scene load_steps=44 format=3 uid="uid://its0023h3paa"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://bncex05brju8e" path="res://acts/full_game/colecting_parts_arc/auction/locations/upstairs_day_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://58ert5o6foqi" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://biwnpppoqkxpp" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_001.png" id="4"]
@@ -32,7 +32,7 @@
 [ext_resource type="Texture2D" uid="uid://d2g7vmvrmeg7s" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/guard/guard/guard_027.png" id="30"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="31"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="32"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="33"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="33"]
 [ext_resource type="Resource" uid="uid://cotbaa5abfbmx" path="res://acts/full_game/colecting_parts_arc/auction/locations/downstairs_day_location.tres" id="34"]
 [ext_resource type="PackedScene" uid="uid://ttn02dbw3fly" path="res://acts/full_game/colecting_parts_arc/auction/closeups/guard_closeup.tscn" id="35"]
 [ext_resource type="PackedScene" uid="uid://bhj4s6rsjv1wc" path="res://acts/full_game/colecting_parts_arc/auction/closeups/lot_closeup3.tscn" id="36"]
@@ -146,7 +146,7 @@ location_meta = ExtResource("2")
 position = Vector2(476, 624)
 sprite_frames = SubResource("SpriteFrames_78lxr")
 autoplay = "default"
-frame_progress = 0.050912998616695404
+frame_progress = 0.050913
 
 [node name="Clock1" type="Label" parent="."]
 offset_left = 1738.0

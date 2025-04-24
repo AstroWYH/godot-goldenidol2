@@ -1,6 +1,6 @@
-[gd_scene load_steps=207 format=4]
+[gd_scene load_steps=207 format=3 uid="uid://dca70gyq46faj"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cxx1q62w0err4" path="res://acts/full_game/conclusion_arc/beach/locations/beach_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://b5d6svwi0d8mo" path="res://acts/full_game/conclusion_arc/beach/assets/animations/wave/frame0000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bhlcq7vbp12fg" path="res://acts/full_game/conclusion_arc/beach/assets/animations/wave/frame0001.png" id="4"]
@@ -181,7 +181,7 @@
 [ext_resource type="PackedScene" uid="uid://cfn8ouaudlyts" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/eve_closeup.tscn" id="179"]
 [ext_resource type="Resource" uid="uid://cnj7sel856efs" path="res://acts/full_game/conclusion_arc/beach/locations/ambulance_location_meta.tres" id="180"]
 [ext_resource type="PackedScene" uid="uid://blvifk361l4q7" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/jeniffer_closeup.tscn" id="181"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="182"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="182"]
 [ext_resource type="PackedScene" uid="uid://rmuv1ngnhhuh" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/marmot_closeup.tscn" id="183"]
 [ext_resource type="PackedScene" uid="uid://du556vvukpq4k" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/idol_inside.tscn" id="184"]
 [ext_resource type="PackedScene" uid="uid://civlltc8o46hy" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/jack_closeup.tscn" id="185"]
@@ -786,7 +786,7 @@ location_meta = ExtResource("2")
 position = Vector2(585, 373)
 sprite_frames = SubResource("SpriteFrames_5i1qu")
 autoplay = "default"
-frame_progress = 0.05869309976696968
+frame_progress = 0.0586931
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(924, 354)
@@ -822,7 +822,7 @@ material = SubResource("CanvasItemMaterial_ueoei")
 position = Vector2(1178, 318)
 sprite_frames = SubResource("SpriteFrames_m0bll")
 autoplay = "default"
-frame_progress = 0.49043500423431396
+frame_progress = 0.490435
 
 [node name="PalmDark" type="AnimatedSprite2D" parent="."]
 position = Vector2(-29, 438)
@@ -830,7 +830,7 @@ sprite_frames = SubResource("SpriteFrames_bm6tl")
 animation = &"Loop"
 autoplay = "Loop"
 frame = 8
-frame_progress = 0.3096829950809479
+frame_progress = 0.309683
 
 [node name="PalmLight" type="AnimatedSprite2D" parent="."]
 position = Vector2(214, 531)
@@ -850,7 +850,7 @@ position = Vector2(837, 714)
 sprite_frames = SubResource("SpriteFrames_wgqeg")
 autoplay = "default"
 frame = 33
-frame_progress = 0.8902450203895569
+frame_progress = 0.890245
 
 [node name="PalmLight4" type="AnimatedSprite2D" parent="."]
 position = Vector2(93, 1079)
@@ -912,20 +912,20 @@ unlocked_character_ref_id = 81
 unlocked_item_ref_id = 192
 
 [node name="Indicators" parent="Hotspots/EveSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/EveSpot/Indicators" index="0"]
 modulate = Color(0, 0.145098, 0.32549, 1)
 
 [node name="EveCloseup" parent="Hotspots/EveSpot" instance=ExtResource("179")]
 layout_mode = 0
-offset_left = 5012.0498046875
-offset_top = -64.21820068359375
-offset_right = 5852.0498046875
-offset_bottom = 570.781982421875
+offset_left = 5012.05
+offset_top = -64.2182
+offset_right = 5852.05
+offset_bottom = 570.782
 
 [node name="ToAmbulance" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -940,10 +940,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("180")
 
 [node name="Indicators" parent="Hotspots/ToAmbulance" index="0"]
-offset_left = -15.859999656677246
-offset_top = 93.31710052490234
-offset_right = -15.859999656677246
-offset_bottom = 93.31710052490234
+offset_left = -15.86
+offset_top = 93.3171
+offset_right = -15.86
+offset_bottom = 93.3171
 
 [node name="Highlighter" parent="Hotspots/ToAmbulance/Indicators" index="0"]
 modulate = Color(0.88, 0.326773, 0.0704, 1)
@@ -961,20 +961,20 @@ unlocked_character_ref_id = 80
 unlocked_item_ref_id = 630
 
 [node name="Indicators" parent="Hotspots/JenifferSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/JenifferSpot/Indicators" index="0"]
 modulate = Color(0, 0.145098, 0.32549, 1)
 
 [node name="JenifferCloseup" parent="Hotspots/JenifferSpot" instance=ExtResource("181")]
 layout_mode = 0
-offset_left = 4218.77001953125
-offset_top = -1729.8800048828125
-offset_right = 5063.77001953125
-offset_bottom = -1094.8800048828125
+offset_left = 4218.77
+offset_top = -1729.88
+offset_right = 5063.77
+offset_bottom = -1094.88
 
 [node name="EugeneMarmot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -988,20 +988,20 @@ unlocked_character_ref_id = 88
 extra_items_unlocked = [SubResource("Resource_44180"), SubResource("Resource_rbwkg"), SubResource("Resource_jbshm")]
 
 [node name="Indicators" parent="Hotspots/EugeneMarmot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/EugeneMarmot/Indicators" index="0"]
 modulate = Color(0, 0.192157, 0.380392, 1)
 
 [node name="MarmotCloseup" parent="Hotspots/EugeneMarmot" instance=ExtResource("183")]
 layout_mode = 0
-offset_left = 4138.64990234375
-offset_top = -814.7680053710938
-offset_right = 4939.64013671875
-offset_bottom = -201.76600646972656
+offset_left = 4138.65
+offset_top = -814.768
+offset_right = 4939.64
+offset_bottom = -201.766
 
 [node name="IdolSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1014,20 +1014,20 @@ hotspot_id = "YDy"
 extra_items_unlocked = [SubResource("Resource_op4sb")]
 
 [node name="Indicators" parent="Hotspots/IdolSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/IdolSpot/Indicators" index="0"]
 modulate = Color(0, 0.184314, 0.376471, 1)
 
 [node name="IdolInside" parent="Hotspots/IdolSpot" instance=ExtResource("184")]
 layout_mode = 0
-offset_left = 2071.330078125
-offset_top = -481.6369934082031
-offset_right = 2830.330078125
-offset_bottom = 330.3630065917969
+offset_left = 2071.33
+offset_top = -481.637
+offset_right = 2830.33
+offset_bottom = 330.363
 
 [node name="JackNowakSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1040,20 +1040,20 @@ hotspot_id = "JJb"
 unlocked_character_ref_id = 87
 
 [node name="Indicators" parent="Hotspots/JackNowakSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/JackNowakSpot/Indicators" index="0"]
 modulate = Color(0, 0.176471, 0.356863, 1)
 
 [node name="JackCloseup" parent="Hotspots/JackNowakSpot" instance=ExtResource("185")]
 layout_mode = 0
-offset_left = -2059.31005859375
-offset_top = 991.3690185546875
-offset_right = -1258.31005859375
-offset_bottom = 1681.3699951171875
+offset_left = -2059.31
+offset_top = 991.369
+offset_right = -1258.31
+offset_bottom = 1681.37
 
 [node name="MarieWestlakeSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1066,10 +1066,10 @@ hotspot_id = "MNN"
 unlocked_character_ref_id = 89
 
 [node name="Indicators" parent="Hotspots/MarieWestlakeSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/MarieWestlakeSpot/Indicators" index="0"]
 modulate = Color(0, 0.176471, 0.356863, 1)
@@ -1080,10 +1080,10 @@ position = Vector2(40.0081, 38.3489)
 
 [node name="MarieCloseup" parent="Hotspots/MarieWestlakeSpot" instance=ExtResource("186")]
 layout_mode = 0
-offset_left = -2405.860107421875
-offset_top = -724.4619750976563
-offset_right = -1604.8699951171875
-offset_bottom = -111.46299743652344
+offset_left = -2405.86
+offset_top = -724.462
+offset_right = -1604.87
+offset_bottom = -111.463
 
 [node name="BottleSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1095,10 +1095,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "xRU"
 
 [node name="Indicators" parent="Hotspots/BottleSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/BottleSpot/Indicators" index="0"]
 modulate = Color(0, 0.258824, 0.501961, 1)
@@ -1126,10 +1126,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "MrI"
 
 [node name="Indicators" parent="Hotspots/TableSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/TableSpot/Indicators" index="0"]
 modulate = Color(0.952941, 0.847059, 0.635294, 1)
@@ -1158,10 +1158,10 @@ unlocked_item_ref_id = 369
 extra_items_unlocked = [SubResource("Resource_kygsb")]
 
 [node name="Indicators" parent="Hotspots/DariusSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/DariusSpot/Indicators" index="0"]
 modulate = Color(0, 0.176471, 0.356863, 1)
@@ -1172,10 +1172,10 @@ position = Vector2(25.037, 38.1807)
 
 [node name="DariusCloseup" parent="Hotspots/DariusSpot" instance=ExtResource("189")]
 layout_mode = 0
-offset_left = -1013.6300048828125
-offset_top = 1416.81005859375
-offset_right = -150.6280059814453
-offset_bottom = 2029.81005859375
+offset_left = -1013.63
+offset_top = 1416.81
+offset_right = -150.628
+offset_bottom = 2029.81
 
 [node name="SuitCaseSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1188,25 +1188,25 @@ focus_neighbor_bottom = NodePath("../BlueBagSpot")
 hotspot_id = "zZm"
 
 [node name="Indicators" parent="Hotspots/SuitCaseSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/SuitCaseSpot/Indicators" index="0"]
 modulate = Color(0.54, 0.31968, 0.1512, 1)
 position = Vector2(24.955, -16.0546)
-frame_progress = 0.8739910125732422
+frame_progress = 0.873991
 
 [node name="FocusIndicator" parent="Hotspots/SuitCaseSpot/Indicators" index="1"]
 position = Vector2(24.4389, -11.8216)
 
 [node name="SuitCaseCloseup" parent="Hotspots/SuitCaseSpot" instance=ExtResource("190")]
 layout_mode = 0
-offset_left = 678.0889892578125
-offset_top = -1954.6400146484375
-offset_right = 1479.0799560546875
-offset_bottom = -1341.6400146484375
+offset_left = 678.089
+offset_top = -1954.64
+offset_right = 1479.08
+offset_bottom = -1341.64
 
 [node name="BlueBagSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1219,10 +1219,10 @@ focus_neighbor_right = NodePath("../GreenBag")
 hotspot_id = "_eL"
 
 [node name="Indicators" parent="Hotspots/BlueBagSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/BlueBagSpot/Indicators" index="0"]
 modulate = Color(0.4582, 0.70152, 0.79, 1)
@@ -1234,9 +1234,9 @@ position = Vector2(25.4405, 25.3046)
 [node name="BlueBagCloseup" parent="Hotspots/BlueBagSpot" instance=ExtResource("191")]
 layout_mode = 0
 offset_left = -1398.25
-offset_top = -1553.280029296875
-offset_right = -597.2529907226563
-offset_bottom = -940.2769775390625
+offset_top = -1553.28
+offset_right = -597.253
+offset_bottom = -940.277
 
 [node name="GreenBag" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1250,10 +1250,10 @@ focus_neighbor_right = NodePath("../BrownBagSpot")
 hotspot_id = "TGg"
 
 [node name="Indicators" parent="Hotspots/GreenBag" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/GreenBag/Indicators" index="0"]
 modulate = Color(2.51062e-07, 0.310834, 0.0647418, 1)
@@ -1264,10 +1264,10 @@ position = Vector2(25.4501, 13.2636)
 
 [node name="GreenBagCloseup" parent="Hotspots/GreenBag" instance=ExtResource("192")]
 layout_mode = 0
-offset_left = 3141.0400390625
-offset_top = 1079.6700439453125
-offset_right = 3942.02001953125
-offset_bottom = 1692.6600341796875
+offset_left = 3141.04
+offset_top = 1079.67
+offset_right = 3942.02
+offset_bottom = 1692.66
 
 [node name="BrownBagSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1280,10 +1280,10 @@ focus_neighbor_left = NodePath("../GreenBag")
 hotspot_id = "QXP"
 
 [node name="Indicators" parent="Hotspots/BrownBagSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/BrownBagSpot/Indicators" index="0"]
 modulate = Color(0.348539, 0.28145, 0.120555, 1)
@@ -1294,10 +1294,10 @@ position = Vector2(12.9404, -0.784093)
 
 [node name="BrownBagCloseup" parent="Hotspots/BrownBagSpot" instance=ExtResource("193")]
 layout_mode = 0
-offset_left = 2255.6201171875
-offset_top = -1388.719970703125
-offset_right = 3056.610107421875
-offset_bottom = -775.7160034179688
+offset_left = 2255.62
+offset_top = -1388.72
+offset_right = 3056.61
+offset_bottom = -775.716
 
 [node name="RedBagSpot" parent="Hotspots" instance=ExtResource("178")]
 layout_mode = 1
@@ -1310,20 +1310,20 @@ hotspot_id = "QXP"
 unlocked_puzzles = [ExtResource("194")]
 
 [node name="Indicators" parent="Hotspots/RedBagSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/RedBagSpot/Indicators" index="0"]
 modulate = Color(0.49904, 0, 0.110686, 1)
 
 [node name="RedBagCloseup" parent="Hotspots/RedBagSpot" instance=ExtResource("195")]
 layout_mode = 0
-offset_left = 1318.1199951171875
-offset_top = -1477.02001953125
-offset_right = 2119.110107421875
-offset_bottom = -864.0189819335938
+offset_left = 1318.12
+offset_top = -1477.02
+offset_right = 2119.11
+offset_bottom = -864.019
 
 [editable path="Hotspots/EveSpot"]
 [editable path="Hotspots/ToAmbulance"]

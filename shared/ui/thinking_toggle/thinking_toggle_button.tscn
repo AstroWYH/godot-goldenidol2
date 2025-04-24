@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=4 uid="uid://bh158numnxs4k"]
+[gd_scene load_steps=3 format=3 uid="uid://bh158numnxs4k"]
 
 [ext_resource type="Texture2D" uid="uid://dsjipvech0cg5" path="res://shared/assets/placeholder_ui/switch_closed_small_inactive.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/thinking_toggle/thinking_toggle.gd" id="2"]
+[ext_resource type="Script" uid="uid://bpb3mipll7jmt" path="res://shared/ui/thinking_toggle/thinking_toggle.gd" id="2"]
 
 [node name="Background" type="TextureButton"]
 offset_right = 45.0

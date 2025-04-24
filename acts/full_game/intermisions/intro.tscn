@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=4 uid="uid://ct6oocg54s5rw"]
+[gd_scene load_steps=7 format=3 uid="uid://ct6oocg54s5rw"]
 
 [ext_resource type="Texture2D" uid="uid://dw67xlyh7fojw" path="res://acts/full_game/intermisions/vlcsnap-2024-05-28-13h24m39s892.png" id="1"]
-[ext_resource type="VideoStream" path="res://acts/full_game/intermisions/tv.ogv" id="2"]
+[ext_resource type="VideoStream" uid="uid://cr7tmlvbdfqjq" path="res://acts/full_game/intermisions/tv.ogv" id="2"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="3"]
 [ext_resource type="Texture2D" uid="uid://i2xf106g465j" path="res://shared/assets/frames/frame_spech_red.png" id="4"]
 
@@ -59,7 +59,7 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vm1df"]
 _data = {
-"intro": SubResource("Animation_36hnf")
+&"intro": SubResource("Animation_36hnf")
 }
 
 [node name="Node2D" type="Node2D"]

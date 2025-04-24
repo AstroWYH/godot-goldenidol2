@@ -1,4 +1,4 @@
-[gd_scene load_steps=110 format=4 uid="uid://dt5ipb37rodp8"]
+[gd_scene load_steps=110 format=3 uid="uid://dt5ipb37rodp8"]
 
 [ext_resource type="Texture2D" uid="uid://c1dp7mbi31kbu" path="res://shared/assets/paper_texture01.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dv3kgenoaigbp" path="res://acts/full_game/introductory_arc/conference/assets/animations/sreendaughter/comic01_000.png" id="2"]
@@ -465,19 +465,19 @@ stretch_mode = 1
 position = Vector2(163, 364)
 sprite_frames = SubResource("SpriteFrames_k1rlv")
 autoplay = "default"
-frame_progress = 0.17381100356578827
+frame_progress = 0.173811
 
 [node name="Comic2" type="AnimatedSprite2D" parent="."]
 position = Vector2(466, 371)
 sprite_frames = SubResource("SpriteFrames_67wvs")
 autoplay = "default"
-frame_progress = 0.7412649989128113
+frame_progress = 0.741265
 
 [node name="Comic3" type="AnimatedSprite2D" parent="."]
 position = Vector2(769, 373)
 sprite_frames = SubResource("SpriteFrames_41qjj")
 autoplay = "default"
-frame_progress = 0.988008975982666
+frame_progress = 0.988009
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

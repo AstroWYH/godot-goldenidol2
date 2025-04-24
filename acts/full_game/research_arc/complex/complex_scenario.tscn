@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=4]
+[gd_scene load_steps=11 format=3 uid="uid://doc676cfsgwll"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://b2th3gl4sgv2e" path="res://acts/full_game/research_arc/complex/Puzzle/complex_photo_puzzle.tscn" id="2"]

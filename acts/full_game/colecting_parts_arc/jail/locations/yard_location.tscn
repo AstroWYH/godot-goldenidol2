@@ -1,6 +1,6 @@
-[gd_scene load_steps=79 format=4 uid="uid://dkk3mfla8tuar"]
+[gd_scene load_steps=79 format=3 uid="uid://dkk3mfla8tuar"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://c2fgd6jbke5pw" path="res://acts/full_game/colecting_parts_arc/jail/locations/yard_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://6mfq4rn0ishm" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://b7cu0ikxtwv00" path="res://acts/full_game/colecting_parts_arc/jail/assets/animations/rag/rag0001.png" id="4"]
@@ -59,7 +59,7 @@
 [ext_resource type="PackedScene" uid="uid://bemucw2na8mso" path="res://acts/full_game/colecting_parts_arc/jail/closeups/window_panel.tscn" id="57"]
 [ext_resource type="PackedScene" uid="uid://cx1mnij4f8d4c" path="res://acts/full_game/colecting_parts_arc/jail/closeups/snitch_panel.tscn" id="58"]
 [ext_resource type="PackedScene" uid="uid://bqlpdl07posdg" path="res://acts/full_game/colecting_parts_arc/jail/closeups/inmate_2_panel.tscn" id="59"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="60"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="60"]
 [ext_resource type="PackedScene" uid="uid://bfemk47pmg25m" path="res://acts/full_game/colecting_parts_arc/jail/closeups/gang_boss_panel.tscn" id="61"]
 [ext_resource type="PackedScene" uid="uid://cpmju7ytoqd6v" path="res://acts/full_game/colecting_parts_arc/jail/closeups/inmate_3_panel.tscn" id="62"]
 [ext_resource type="PackedScene" uid="uid://l8v13bwnko0g" path="res://acts/full_game/colecting_parts_arc/jail/closeups/dog_panel.tscn" id="63"]
@@ -428,7 +428,7 @@ tracks/17/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_b5mji"]
 _data = {
-"particle control": SubResource("Animation_0d6al")
+&"particle control": SubResource("Animation_0d6al")
 }
 
 [sub_resource type="Resource" id="Resource_tgbnl"]
@@ -480,8 +480,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.44999998807907104
+explosiveness = 0.72
+randomness = 0.45
 trail_lifetime = 0.5
 
 [node name="dvasa2" type="GPUParticles2D" parent="Detailes"]
@@ -493,8 +493,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.44999998807907104
+explosiveness = 0.72
+randomness = 0.45
 trail_lifetime = 0.5
 
 [node name="dvasa3" type="GPUParticles2D" parent="Detailes"]
@@ -506,8 +506,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.44999998807907104
+explosiveness = 0.72
+randomness = 0.45
 trail_lifetime = 0.5
 
 [node name="dvasa4" type="GPUParticles2D" parent="Detailes"]
@@ -519,8 +519,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.44999998807907104
+explosiveness = 0.72
+randomness = 0.45
 trail_lifetime = 0.5
 
 [node name="dvasa5" type="GPUParticles2D" parent="Detailes"]
@@ -531,8 +531,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.44999998807907104
+explosiveness = 0.72
+randomness = 0.45
 trail_lifetime = 0.5
 
 [node name="dvasa6" type="GPUParticles2D" parent="Detailes"]
@@ -543,8 +543,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.44999998807907104
+explosiveness = 0.72
+randomness = 0.45
 trail_lifetime = 0.5
 
 [node name="dvasa7" type="GPUParticles2D" parent="Detailes"]
@@ -555,8 +555,8 @@ amount = 32
 process_material = ExtResource("40")
 texture = ExtResource("41")
 lifetime = 4.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="Snow1" type="GPUParticles2D" parent="Detailes"]
@@ -574,67 +574,67 @@ offset = Vector2(-210, -180)
 
 [node name="Bushes0003Bush4" type="Sprite2D" parent="Detailes"]
 position = Vector2(1740, 869)
-skew = 0.024910900741815567
+skew = 0.0249109
 texture = ExtResource("45")
 offset = Vector2(7, -38)
 
 [node name="Bushes0002Bush3" type="Sprite2D" parent="Detailes"]
 position = Vector2(1703, 898)
-skew = 0.012236899696290493
+skew = 0.0122369
 texture = ExtResource("46")
 offset = Vector2(0, -30)
 
 [node name="Bushes0000Bush1" type="Sprite2D" parent="Detailes"]
 position = Vector2(732, 1220)
-skew = 0.01037949975579977
+skew = 0.0103795
 texture = ExtResource("47")
 offset = Vector2(1, -76)
 
 [node name="Bushes0000Bush2" type="Sprite2D" parent="Detailes"]
 position = Vector2(1569, 1016)
-rotation = 0.006483559962362051
+rotation = 0.00648356
 texture = ExtResource("47")
 offset = Vector2(1, -76)
 
 [node name="Bushes0001Bush2" type="Sprite2D" parent="Detailes"]
 position = Vector2(1337, 1261)
-skew = 0.015163100324571133
+skew = 0.0151631
 texture = ExtResource("48")
 offset = Vector2(22, -140)
 
 [node name="Bushes0001Bush4" type="Sprite2D" parent="Detailes"]
 position = Vector2(239, 1246)
-rotation = 0.015300700441002846
+rotation = 0.0153007
 texture = ExtResource("48")
 offset = Vector2(22, -140)
 
 [node name="Bushes0004Bush5" type="Sprite2D" parent="Detailes"]
 position = Vector2(928, 1256)
-skew = 0.03099999949336052
+skew = 0.031
 texture = ExtResource("49")
 offset = Vector2(-12, -86)
 
 [node name="Bushes0008Bush9" type="Sprite2D" parent="Detailes"]
 position = Vector2(461, 1208)
-skew = 0.01037949975579977
+skew = 0.0103795
 texture = ExtResource("50")
 offset = Vector2(-2, -144)
 
 [node name="Bushes0006Bush7" type="Sprite2D" parent="Detailes"]
 position = Vector2(606, 1257)
-skew = 0.00544924009591341
+skew = 0.00544924
 texture = ExtResource("51")
 offset = Vector2(7, -118)
 
 [node name="Bushes0005Bush6" type="Sprite2D" parent="Detailes"]
 position = Vector2(321, 1252)
-skew = 0.02113639935851097
+skew = 0.0211364
 texture = ExtResource("52")
 offset = Vector2(8, -81)
 
 [node name="Bushes0007Bush8" type="Sprite2D" parent="Detailes"]
 position = Vector2(23, 1071)
-skew = 0.010257399640977383
+skew = 0.0102574
 texture = ExtResource("53")
 offset = Vector2(-1, -73)
 
@@ -650,7 +650,7 @@ offset = Vector2(-1, -73)
 
 [node name="Bushes0001Bush3" type="Sprite2D" parent="Detailes"]
 position = Vector2(93, 1282)
-skew = 0.00827166996896267
+skew = 0.00827167
 texture = ExtResource("48")
 offset = Vector2(37, -158)
 

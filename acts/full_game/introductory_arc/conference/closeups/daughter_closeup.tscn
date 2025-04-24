@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://br0vuiu733tum"]
+[gd_scene load_steps=35 format=3 uid="uid://br0vuiu733tum"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://dudbpf8d61edi" path="res://acts/full_game/introductory_arc/conference/assets/portraits/daughter/daughter_00000.png" id="2"]
@@ -143,7 +143,7 @@ autowrap_mode = 3
 position = Vector2(750, 377)
 sprite_frames = SubResource("SpriteFrames_af3iv")
 autoplay = "default"
-frame_progress = 0.7826610207557678
+frame_progress = 0.782661
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
 position = Vector2(205.415, 517.18)
@@ -191,7 +191,7 @@ stretch_mode = 1
 [node name="Sprite2D5" type="Sprite2D" parent="DaughterSpeechSpot/DaughterSpeechPanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(236.674, 339)
-rotation = -3.139359951019287
+rotation = -3.13936
 texture = ExtResource("32")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)

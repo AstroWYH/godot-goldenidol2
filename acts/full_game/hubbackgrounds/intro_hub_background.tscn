@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://dqo7h5ogaa37c"]
+[gd_scene load_steps=3 format=3 uid="uid://dqo7h5ogaa37c"]
 
 [ext_resource type="SpriteFrames" uid="uid://codk5q0xrrj0l" path="res://acts/full_game/introductory_arc/hub/assets/conference_animation_c.tres" id="1"]
 [ext_resource type="Texture2D" uid="uid://e2tv5x0yqyqx" path="res://acts/full_game/hubbackgrounds/assets/backgroundintro.png" id="2"]

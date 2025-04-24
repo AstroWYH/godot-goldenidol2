@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=4 uid="uid://7gsm8gg0wpxy"]
+[gd_scene load_steps=45 format=3 uid="uid://7gsm8gg0wpxy"]
 
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://bydepnr3tg41m" path="res://acts/full_game/research_arc/talent_show/assets/closeups/wristband.png" id="2"]
@@ -201,7 +201,7 @@ autowrap_mode = 3
 position = Vector2(243, 363)
 sprite_frames = SubResource("SpriteFrames_v3qw2")
 autoplay = "default"
-frame_progress = 0.45127299427986145
+frame_progress = 0.451273
 
 [node name="check" type="Sprite2D" parent="."]
 position = Vector2(676, 252)

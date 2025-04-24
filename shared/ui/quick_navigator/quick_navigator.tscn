@@ -1,6 +1,6 @@
-[gd_scene load_steps=29 format=4 uid="uid://b27boxmc3x2r5"]
+[gd_scene load_steps=29 format=3 uid="uid://b27boxmc3x2r5"]
 
-[ext_resource type="Script" path="res://shared/ui/quick_navigator/quick_navigator.gd" id="1"]
+[ext_resource type="Script" uid="uid://dls0m4wt1hqvo" path="res://shared/ui/quick_navigator/quick_navigator.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://b0lth8hojgpxu" path="res://shared/ui/quick_navigator/quick_button.tscn" id="2"]
 [ext_resource type="Theme" uid="uid://olu2jvnbssxm" path="res://shared/assets/themes/quick_travel_arc_button.tres" id="3"]
 [ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="4"]

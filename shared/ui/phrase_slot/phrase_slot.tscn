@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://ceiwyipjk4mpt"]
+[gd_scene load_steps=5 format=3 uid="uid://ceiwyipjk4mpt"]
 
-[ext_resource type="Script" path="res://shared/ui/phrase_slot/phrase_slot.gd" id="1"]
+[ext_resource type="Script" uid="uid://b2t7gfxl4x3u0" path="res://shared/ui/phrase_slot/phrase_slot.gd" id="1"]
 [ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="2"]
-[ext_resource type="Script" path="res://shared/ui/phrase_slot/phrase_slot_button.gd" id="3"]
+[ext_resource type="Script" uid="uid://c6gvh6dhenjoq" path="res://shared/ui/phrase_slot/phrase_slot_button.gd" id="3"]
 [ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="4"]
 
 [node name="PhraseSlot" type="HBoxContainer"]

@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=4 uid="uid://deaaain3n2nj1"]
+[gd_scene load_steps=6 format=3 uid="uid://deaaain3n2nj1"]
 
-[ext_resource type="Script" path="res://shared/ui/thank_you.gd" id="1"]
+[ext_resource type="Script" uid="uid://7n0ds876d2p2" path="res://shared/ui/thank_you.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://b0cg6xx8m1qq2" path="res://shared/assets/thankyou.png" id="2"]
 [ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="3"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="4"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="5"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="5"]
 
 [node name="ThankYouScreen" type="ColorRect"]
 offset_right = 40.0

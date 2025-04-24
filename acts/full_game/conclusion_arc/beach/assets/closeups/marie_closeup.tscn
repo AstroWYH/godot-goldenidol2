@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=4 uid="uid://dbrrlucwluf34"]
+[gd_scene load_steps=50 format=3 uid="uid://dbrrlucwluf34"]
 
 [ext_resource type="Texture2D" uid="uid://ct71i70v7nmff" path="res://shared/assets/portraits/mary_vest/mary_vest_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dhqjxgbnubiy4" path="res://shared/assets/portraits/mary_vest/mary_vest_00001.png" id="2"]
@@ -39,7 +39,7 @@
 [ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="37"]
 [ext_resource type="Texture2D" uid="uid://dy7vdp6g408yw" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/drugs_item_1.png" id="38"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="39"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="40"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="40"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="41"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="42"]
 
@@ -184,17 +184,17 @@ script = ExtResource("40")
 linked_item_ref_id = 705
 
 [node name="MarieCloseup" type="Panel"]
-offset_left = 1004.6099853515625
-offset_top = 777.6420288085938
-offset_right = 1805.5999755859375
-offset_bottom = 1390.6400146484375
+offset_left = 1004.61
+offset_top = 777.642
+offset_right = 1805.6
+offset_bottom = 1390.64
 
 [node name="MarieSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 42.38999938964844
-offset_top = 40.358001708984375
-offset_right = 746.3900146484375
-offset_bottom = 157.35800170898438
+offset_left = 42.39
+offset_top = 40.358
+offset_right = 746.39
+offset_bottom = 157.358
 text = "BEACH_MARIE_SPEECH"
 autowrap_mode = 3
 
@@ -203,7 +203,7 @@ position = Vector2(29.0501, 184.628)
 sprite_frames = SubResource("SpriteFrames_in03y")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.6500999927520752
+frame_progress = 0.6501
 centered = false
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
@@ -217,10 +217,10 @@ texture = ExtResource("38")
 
 [node name="NoteSpot" parent="." instance=ExtResource("39")]
 layout_mode = 1
-offset_left = 608.97802734375
-offset_top = 389.32598876953125
-offset_right = -109.02200317382813
-offset_bottom = -93.67220306396484
+offset_left = 608.978
+offset_top = 389.326
+offset_right = -109.022
+offset_bottom = -93.6722
 hotspot_id = "o-7"
 extra_items_unlocked = [SubResource("Resource_t3mnu"), SubResource("Resource_qjh7v"), SubResource("Resource_4uvxk"), SubResource("Resource_ylw25"), SubResource("Resource_qkjok"), SubResource("Resource_eeurf")]
 
@@ -236,9 +236,9 @@ modulate = Color(0.72396, 0.68504, 0.665367, 1)
 [node name="NotePanel" type="Panel" parent="NoteSpot"]
 layout_mode = 0
 offset_left = -394.0
-offset_top = 324.0320129394531
+offset_top = 324.032
 offset_right = 92.0
-offset_bottom = 893.031982421875
+offset_bottom = 893.032
 
 [node name="TextureRect" type="TextureRect" parent="NoteSpot/NotePanel"]
 modulate = Color(0.690196, 0.611765, 0.568627, 1)
@@ -255,7 +255,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(279.412, 155)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("42")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -263,7 +263,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(228.412, 401)
-rotation = 6.402040004730225
+rotation = 6.40204
 scale = Vector2(0.807298, 1)
 texture = ExtResource("42")
 region_enabled = true
@@ -281,10 +281,10 @@ autowrap_mode = 3
 
 [node name="DrugSpot" parent="." instance=ExtResource("39")]
 layout_mode = 1
-offset_left = 418.6759948730469
-offset_top = 170.5800018310547
-offset_right = -299.3240051269531
-offset_bottom = -312.4179992675781
+offset_left = 418.676
+offset_top = 170.58
+offset_right = -299.324
+offset_bottom = -312.418
 hotspot_id = "o-7"
 text = "BEACH_TABLETS_TOOLTIP"
 

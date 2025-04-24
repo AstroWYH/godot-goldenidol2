@@ -1,6 +1,6 @@
-[gd_scene load_steps=282 format=4 uid="uid://d4ip8vue8ay3p"]
+[gd_scene load_steps=282 format=3 uid="uid://d4ip8vue8ay3p"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://bh0xsktwo2h7g" path="res://acts/full_game/introductory_arc/construction_yard/locations/construction_yard_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ccosiqns53ygg" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers1.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bojwsjd6y5acu" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/workers/workers2.png" id="4"]
@@ -88,7 +88,7 @@
 [ext_resource type="PackedScene" uid="uid://budo4adgfg10r" path="res://acts/full_game/introductory_arc/construction_yard/closeups/worker_3_panel.tscn" id="86"]
 [ext_resource type="PackedScene" uid="uid://wejo61bga8pm" path="res://acts/full_game/introductory_arc/construction_yard/closeups/worker_2_panel.tscn" id="87"]
 [ext_resource type="PackedScene" uid="uid://ccy05sn5kc2gq" path="res://acts/full_game/introductory_arc/construction_yard/closeups/body_panel.tscn" id="88"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="89"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="89"]
 [ext_resource type="Texture2D" uid="uid://dm46t0qah3vgi" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective1.png" id="90"]
 [ext_resource type="Texture2D" uid="uid://c1ftdyy56o86d" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective2.png" id="91"]
 [ext_resource type="Texture2D" uid="uid://kkq7kelpo87l" path="res://acts/full_game/introductory_arc/construction_yard/assets/animations/ladder/detective3.png" id="92"]
@@ -1116,19 +1116,19 @@ location_meta = ExtResource("2")
 position = Vector2(182, 755.5)
 sprite_frames = SubResource("SpriteFrames_hrlus")
 autoplay = "default"
-frame_progress = 0.9255430102348328
+frame_progress = 0.925543
 
 [node name="BillAndRoyAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(545, 899)
 sprite_frames = SubResource("SpriteFrames_p1kbg")
 autoplay = "default"
-frame_progress = 0.6479669809341431
+frame_progress = 0.647967
 
 [node name="ReporterAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(1622, 836)
 sprite_frames = SubResource("SpriteFrames_yjjfb")
 autoplay = "default"
-frame_progress = 0.6627110242843628
+frame_progress = 0.662711
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -1205,20 +1205,20 @@ hotspot_id = "yI3"
 unlocked_character_ref_id = 51
 
 [node name="Indicators" parent="Hotspots/GregSpot" index="0"]
-offset_left = 20.112600326538086
-offset_top = 67.22850036621094
-offset_right = 20.112600326538086
-offset_bottom = 67.22850036621094
+offset_left = 20.1126
+offset_top = 67.2285
+offset_right = 20.1126
+offset_bottom = 67.2285
 
 [node name="Highlighter" parent="Hotspots/GregSpot/Indicators" index="0"]
 modulate = Color(0.596078, 0.541176, 0.0901961, 1)
 
 [node name="BodyPanel" parent="Hotspots/GregSpot" instance=ExtResource("88")]
 layout_mode = 0
-offset_left = -1039.6700439453125
-offset_top = 1074.6500244140625
-offset_right = -117.66999816894531
-offset_bottom = 1693.6500244140625
+offset_left = -1039.67
+offset_top = 1074.65
+offset_right = -117.67
+offset_bottom = 1693.65
 
 [node name="IanSpot" parent="Hotspots" instance=ExtResource("85")]
 layout_mode = 1
@@ -1248,7 +1248,7 @@ position = Vector2(-2.5, -14.75)
 position = Vector2(53, 78)
 sprite_frames = SubResource("SpriteFrames_yr3tr")
 autoplay = "default"
-frame_progress = 0.7949039936065674
+frame_progress = 0.794904
 
 [node name="IanPanel" parent="Hotspots/IanSpot" instance=ExtResource("126")]
 layout_mode = 0
@@ -1268,20 +1268,20 @@ hotspot_id = "rWk"
 unlocked_character_ref_id = 52
 
 [node name="Indicators" parent="Hotspots/PipeSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/PipeSpot/Indicators" index="0"]
 modulate = Color(0.117647, 0.105882, 0.0980392, 1)
 
 [node name="DeadBumPanel" parent="Hotspots/PipeSpot" instance=ExtResource("127")]
 layout_mode = 0
-offset_left = 741.1900024414063
-offset_top = 807.7449951171875
-offset_right = 1364.18994140625
-offset_bottom = 1430.739990234375
+offset_left = 741.19
+offset_top = 807.745
+offset_right = 1364.19
+offset_bottom = 1430.74
 
 [node name="ExcavatorSpot" parent="Hotspots" instance=ExtResource("85")]
 layout_mode = 1
@@ -1335,13 +1335,13 @@ offset_bottom = 1017.0
 position = Vector2(314, 150)
 sprite_frames = SubResource("SpriteFrames_h7x41")
 autoplay = "default"
-frame_progress = 0.033907901495695114
+frame_progress = 0.0339079
 
 [node name="Officer2Animation" type="AnimatedSprite2D" parent="Hotspots/DemolisherSpot"]
 position = Vector2(251, 365)
 sprite_frames = SubResource("SpriteFrames_i5xpt")
 autoplay = "default"
-frame_progress = 0.2179650068283081
+frame_progress = 0.217965
 
 [node name="CutterSpot" parent="Hotspots" instance=ExtResource("85")]
 layout_mode = 1
@@ -1371,7 +1371,7 @@ offset_bottom = 172.0
 position = Vector2(386, 307)
 sprite_frames = SubResource("SpriteFrames_tfkbn")
 autoplay = "default"
-frame_progress = 0.7789070010185242
+frame_progress = 0.778907
 
 [node name="BillSpot" parent="Hotspots" instance=ExtResource("85")]
 layout_mode = 1

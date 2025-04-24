@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=4 uid="uid://bgxfywn5ltcrh"]
+[gd_scene load_steps=60 format=3 uid="uid://bgxfywn5ltcrh"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://b7a2x7s0x8rdi" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0006_Background.png" id="2"]
@@ -14,7 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://bwn33343bxqw8" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0002_redeye.png" id="12"]
 [ext_resource type="Texture2D" uid="uid://b6pivjryb60bh" path="res://acts/full_game/conclusion_arc/hub/assets/idoluse/idoluse_0001_blueeye.png" id="13"]
 [ext_resource type="PackedScene" uid="uid://bxx7k2udxieem" path="res://shared/ui/inventory/phrase_grid/phrase_grid.tscn" id="14"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="15"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="15"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="16"]
 [ext_resource type="PackedScene" uid="uid://cej72ni4rep8f" path="res://shared/ui/picture_puzzle/picture_puzzle.tscn" id="17"]
 [ext_resource type="Resource" uid="uid://lvtea2bmkprs" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_picture_puzzle_meta.tres" id="18"]

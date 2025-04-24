@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=4 uid="uid://bwqwuw0lg3hvb"]
+[gd_scene load_steps=44 format=3 uid="uid://bwqwuw0lg3hvb"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
@@ -177,13 +177,13 @@ autowrap_mode = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(114.237, 146.25)
-rotation = -0.18496499955654144
+rotation = -0.184965
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -201,7 +201,7 @@ text = "ticket_stub_tooltip"
 [node name="Highlighter" parent="TicketSpot2/Indicators" index="0"]
 modulate = Color(0.752941, 0.564706, 0.294118, 1)
 position = Vector2(-17, -24)
-frame_progress = 0.6951010227203369
+frame_progress = 0.695101
 
 [node name="FocusIndicator" parent="TicketSpot2/Indicators" index="1"]
 position = Vector2(-16, -20)
@@ -224,7 +224,7 @@ unlocked_puzzles = [ExtResource("6")]
 [node name="Highlighter" parent="Bag/Indicators" index="0"]
 modulate = Color(0.341176, 0.529412, 0.717647, 1)
 position = Vector2(9, 3)
-frame_progress = 0.8980230093002319
+frame_progress = 0.898023
 
 [node name="FocusIndicator" parent="Bag/Indicators" index="1"]
 position = Vector2(10, 7)
@@ -233,7 +233,7 @@ position = Vector2(10, 7)
 position = Vector2(412, 266)
 sprite_frames = SubResource("SpriteFrames_bgtdp")
 autoplay = "default"
-frame_progress = 0.227509006857872
+frame_progress = 0.227509
 
 [editable path="TicketSpot2"]
 [editable path="Bag"]

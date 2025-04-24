@@ -1,11 +1,11 @@
-[gd_scene load_steps=3 format=4 uid="uid://bb662laygwbf2"]
+[gd_scene load_steps=3 format=3 uid="uid://bb662laygwbf2"]
 
 [ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
 
 [node name="NotesPanel" type="Panel"]
-offset_left = 2.0000600814819336
-offset_top = 2.9997599124908447
+offset_left = 2.00006
+offset_top = 2.99976
 offset_right = 725.0
 offset_bottom = 502.0
 scale = Vector2(1.01984, 1.06325)

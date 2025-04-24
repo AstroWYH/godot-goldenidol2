@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://bq5indendh8br"]
+[gd_scene load_steps=3 format=3 uid="uid://bq5indendh8br"]
 
-[ext_resource type="Script" path="res://shared/ui/unlock_summary_puzzle/unlock_summary_puzzle.gd" id="1"]
+[ext_resource type="Script" uid="uid://ccjnxd8qbivf8" path="res://shared/ui/unlock_summary_puzzle/unlock_summary_puzzle.gd" id="1"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="2"]
 
 [node name="UnlockSummaryPuzzle" type="HBoxContainer"]

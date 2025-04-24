@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=4 uid="uid://bnu4nc2e4g0vm"]
+[gd_scene load_steps=45 format=3 uid="uid://bnu4nc2e4g0vm"]
 
 [ext_resource type="Texture2D" uid="uid://dapkqijemu8qs" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dxnsbbnl5spjy" path="res://acts/full_game/research_arc/talent_show/assets/portraits/musican/musician_001.png" id="2"]
@@ -176,7 +176,7 @@ offset_bottom = -615.0
 position = Vector2(273, 278)
 sprite_frames = SubResource("SpriteFrames_g0jxj")
 autoplay = "default"
-frame_progress = 0.8792549967765808
+frame_progress = 0.879255
 
 [node name="SheetMusic" type="Sprite2D" parent="."]
 position = Vector2(715, 399)

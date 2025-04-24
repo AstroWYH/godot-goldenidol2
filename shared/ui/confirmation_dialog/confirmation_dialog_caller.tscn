@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://b0bm4cbqkel8n"]
+[gd_scene load_steps=2 format=3 uid="uid://b0bm4cbqkel8n"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_select/confirmation_dialog_caller.gd" id="1"]
+[ext_resource type="Script" uid="uid://c8vm8s3affnha" path="res://shared/ui/scenario_select/confirmation_dialog_caller.gd" id="1"]
 
 [node name="ConfirmationDialogCaller" type="Node"]
 script = ExtResource("1")

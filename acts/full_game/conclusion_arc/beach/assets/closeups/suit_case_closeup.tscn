@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=4 uid="uid://chgud4q6hot1i"]
+[gd_scene load_steps=20 format=3 uid="uid://chgud4q6hot1i"]
 
 [ext_resource type="Texture2D" uid="uid://h6dmhabprx8c" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/suitcase.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="2"]
@@ -21,10 +21,10 @@
 [ext_resource type="Texture2D" uid="uid://5y04equrjd3t" path="res://acts/full_game/conclusion_arc/beach/assets/closeups/girl_9.png" id="19"]
 
 [node name="SuitCaseCloseup" type="Panel"]
-offset_left = -780.2529907226563
-offset_top = -2523.580078125
-offset_right = 20.736900329589844
-offset_bottom = -1910.5799560546875
+offset_left = -780.253
+offset_top = -2523.58
+offset_right = 20.7369
+offset_bottom = -1910.58
 
 [node name="Bag" type="Sprite2D" parent="."]
 position = Vector2(166.267, 416.419)
@@ -48,7 +48,7 @@ texture = ExtResource("4")
 layout_mode = 1
 offset_left = 156.0
 offset_top = 59.0
-offset_right = -489.989990234375
+offset_right = -489.99
 offset_bottom = -385.0
 hotspot_id = "RMK"
 
@@ -87,7 +87,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(345.253, 155)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("7")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -95,7 +95,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="PaperSpot/CataloguePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(254.253, 380.58)
-rotation = 6.274909973144531
+rotation = 6.27491
 scale = Vector2(1.13284, 1)
 texture = ExtResource("7")
 region_enabled = true
@@ -104,9 +104,9 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D9" type="Sprite2D" parent="PaperSpot/CataloguePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(184.253, 512.58)
-rotation = -3.117079973220825
+rotation = -3.11708
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("7")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -126,7 +126,7 @@ autowrap_mode = 3
 layout_mode = 1
 offset_left = 491.0
 offset_top = 44.0
-offset_right = -141.99000549316406
+offset_right = -141.99
 offset_bottom = -298.0
 hotspot_id = "mYn"
 unlocked_puzzles = [ExtResource("8")]
@@ -200,9 +200,9 @@ autowrap_mode = 3
 
 [node name="4" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
 layout_mode = 0
-offset_left = 3.2529900074005127
+offset_left = 3.25299
 offset_top = 503.0
-offset_right = 273.25299072265625
+offset_right = 273.253
 offset_bottom = 569.0
 theme = ExtResource("9")
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
@@ -238,9 +238,9 @@ autowrap_mode = 3
 
 [node name="7" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
 layout_mode = 0
-offset_left = 48.25299835205078
+offset_left = 48.253
 offset_top = 233.0
-offset_right = 271.25299072265625
+offset_right = 271.253
 offset_bottom = 299.0
 theme = ExtResource("9")
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
@@ -264,9 +264,9 @@ autowrap_mode = 3
 
 [node name="9" type="Label" parent="CatalogueSpot/CataloguePanel/ColorRect"]
 layout_mode = 0
-offset_left = 73.25299835205078
+offset_left = 73.253
 offset_top = 781.0
-offset_right = 268.25299072265625
+offset_right = 268.253
 offset_bottom = 847.0
 theme = ExtResource("9")
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
@@ -315,7 +315,7 @@ texture = ExtResource("19")
 layout_mode = 1
 offset_left = 433.0
 offset_top = 347.0
-offset_right = -241.99000549316406
+offset_right = -241.99
 offset_bottom = -79.0
 hotspot_id = "RgS"
 text = "BEACH_GENIUS_TABLET_TOOLTIP"
@@ -332,10 +332,10 @@ modulate = Color(0.635799, 0.6358, 0.635799, 1)
 [node name="Case numbers" type="Label" parent="."]
 layout_mode = 0
 offset_left = 511.0
-offset_top = 130.447998046875
+offset_top = 130.448
 offset_right = 636.0
-offset_bottom = 259.447998046875
-rotation = 0.035226501524448395
+offset_bottom = 259.448
+rotation = 0.0352265
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
 text = "BEACH_MODEL_CATALOGUE_LABEL"
 autowrap_mode = 3

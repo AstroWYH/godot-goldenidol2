@@ -1,4 +1,4 @@
-[gd_scene load_steps=49 format=4 uid="uid://lw5q1igpjf0h"]
+[gd_scene load_steps=49 format=3 uid="uid://lw5q1igpjf0h"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://c8r52h7v5qthw" path="res://shared/assets/papers/nametag.png" id="2"]
@@ -42,7 +42,7 @@
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="40"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="41"]
 [ext_resource type="Texture2D" uid="uid://clwkbpagruerd" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/toolbox.png" id="42"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="43"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="43"]
 [ext_resource type="Texture2D" uid="uid://dkvp0osovn50a" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/nametag.png" id="44"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_q2l4k"]
@@ -184,7 +184,7 @@ texture = ExtResource("2")
 position = Vector2(192, 444)
 sprite_frames = SubResource("SpriteFrames_q2l4k")
 autoplay = "default"
-frame_progress = 0.45223599672317505
+frame_progress = 0.452236
 
 [node name="dvasa7" type="GPUParticles2D" parent="Worker"]
 material = SubResource("CanvasItemMaterial_mtfrj")
@@ -194,8 +194,8 @@ amount = 32
 process_material = ExtResource("35")
 texture = ExtResource("36")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="PliersSprite" type="Sprite2D" parent="."]
@@ -212,13 +212,13 @@ texture = ExtResource("39")
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(622, 413)
-rotation = -0.03839720040559769
-skew = 0.169296994805336
+rotation = -0.0383972
+skew = 0.169297
 
 [node name="ToolkitText" type="Label" parent="Node2D"]
 offset_right = 184.0
 offset_bottom = 102.0
-rotation = 0.21628700196743011
+rotation = 0.216287
 theme = ExtResource("40")
 theme_override_colors/font_color = Color(0.807843, 0.741176, 0.113725, 1)
 text = "prison_henry_toolbox_godot"

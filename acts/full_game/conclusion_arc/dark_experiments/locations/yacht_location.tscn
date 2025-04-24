@@ -1,15 +1,15 @@
-[gd_scene load_steps=18 format=4 uid="uid://dtfoac2d5kjct"]
+[gd_scene load_steps=18 format=3 uid="uid://dtfoac2d5kjct"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dmt5c8hslp3xa" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location_meta.tres" id="2"]
-[ext_resource type="Shader" path="res://shared/assets/effects/water.gdshader" id="3"]
+[ext_resource type="Shader" uid="uid://f3g54x1p0d5k" path="res://shared/assets/effects/water.gdshader" id="3"]
 [ext_resource type="Texture2D" uid="uid://u6ahgghhtnou" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/ReflectionLights/ReflectionLights00000.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://bkdqump5h2mbc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/animations/ReflectionMoonlight/Moonlight__00000_00000.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://dqvtjgsi674mn" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/yacht2.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://d317sy5sip2hc" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/jachtreflection.png" id="7"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="8"]
 [ext_resource type="Resource" uid="uid://bpkqfqli57fmw" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/deck_location_meta.tres" id="9"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="10"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="10"]
 [ext_resource type="Resource" uid="uid://dvd78q1dq2kfc" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/docks_location_meta.tres" id="11"]
 
 [sub_resource type="Animation" id="Animation_820mh"]
@@ -31,7 +31,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_nc7ir"]
 _data = {
-"new_animation": SubResource("Animation_820mh")
+&"new_animation": SubResource("Animation_820mh")
 }
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_h64em"]
@@ -74,7 +74,7 @@ texture = ExtResource("5")
 
 [node name="yacht" type="Sprite2D" parent="."]
 position = Vector2(877, 715)
-rotation = 0.05235990136861801
+rotation = 0.0523599
 texture = ExtResource("6")
 offset = Vector2(83, -196)
 
@@ -102,10 +102,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("9")
 
 [node name="Indicators" parent="Hotspots/ToUpperDeck" index="0"]
-offset_left = 11.590100288391113
-offset_top = 61.20800018310547
-offset_right = 11.590100288391113
-offset_bottom = 61.20800018310547
+offset_left = 11.5901
+offset_top = 61.208
+offset_right = 11.5901
+offset_bottom = 61.208
 
 [node name="Highlighter" parent="Hotspots/ToUpperDeck/Indicators" index="0"]
 modulate = Color(0.979412, 0.750562, 0, 1)
@@ -121,10 +121,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "OSt"
 
 [node name="Indicators" parent="Hotspots/TVRoomSpot" index="0"]
-offset_left = 49.17369842529297
-offset_top = 46.156898498535156
-offset_right = 49.17369842529297
-offset_bottom = 46.156898498535156
+offset_left = 49.1737
+offset_top = 46.1569
+offset_right = 49.1737
+offset_bottom = 46.1569
 
 [node name="Highlighter" parent="Hotspots/TVRoomSpot/Indicators" index="0"]
 modulate = Color(0.849587, 0.664416, 0.199002, 1)
@@ -135,10 +135,10 @@ position = Vector2(-41.0466, 2.23977)
 
 [node name="TVRoomPanel" parent="Hotspots/TVRoomSpot" instance_placeholder="res://acts/full_game/conclusion_arc/dark_experiments/closeups/tv_room_panel.tscn"]
 layout_mode = 0
-offset_left = 90.1447982788086
-offset_top = 827.81298828125
-offset_right = 923.14501953125
-offset_bottom = 1408.81005859375
+offset_left = 90.1448
+offset_top = 827.813
+offset_right = 923.145
+offset_bottom = 1408.81
 
 [node name="YachtNameSpot" parent="Hotspots" instance=ExtResource("8")]
 layout_mode = 1
@@ -152,10 +152,10 @@ text = "WAREHOUSE_BOAT_NAME_LABEL"
 extra_items_unlocked = [SubResource("Resource_0usj5"), SubResource("Resource_b32ne")]
 
 [node name="Indicators" parent="Hotspots/YachtNameSpot" index="0"]
-offset_left = 11.590100288391113
-offset_top = 61.20800018310547
-offset_right = 11.590100288391113
-offset_bottom = 61.20800018310547
+offset_left = 11.5901
+offset_top = 61.208
+offset_right = 11.5901
+offset_bottom = 61.208
 
 [node name="Highlighter" parent="Hotspots/YachtNameSpot/Indicators" index="0"]
 modulate = Color(0.652196, 0.733678, 0.777173, 1)
@@ -177,10 +177,10 @@ hover_cursor = 3
 target_location_meta = ExtResource("11")
 
 [node name="Indicators" parent="Hotspots/ToDocksSpot" index="0"]
-offset_left = -747.6380004882813
-offset_top = 22.075000762939453
-offset_right = -747.6380004882813
-offset_bottom = 22.075000762939453
+offset_left = -747.638
+offset_top = 22.075
+offset_right = -747.638
+offset_bottom = 22.075
 
 [node name="Highlighter" parent="Hotspots/ToDocksSpot/Indicators" index="0"]
 modulate = Color(0.563101, 0.671279, 0.769373, 1)

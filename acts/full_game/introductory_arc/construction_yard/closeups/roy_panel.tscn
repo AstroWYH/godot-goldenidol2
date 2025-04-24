@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=4 uid="uid://c7tmg0s52edtv"]
+[gd_scene load_steps=36 format=3 uid="uid://c7tmg0s52edtv"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cyvmgpl10itu" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/badge.png" id="2"]
@@ -156,10 +156,10 @@ centered = false
 
 [node name="WalletLabel" type="Label" parent="WalletSprite"]
 anchors_preset = -1
-anchor_left = -0.03225810080766678
-anchor_top = -0.0032573300413787365
-anchor_right = 0.020161300897598267
-anchor_bottom = 0.0032573300413787365
+anchor_left = -0.0322581
+anchor_top = -0.00325733
+anchor_right = 0.0201613
+anchor_bottom = 0.00325733
 offset_left = 63.0
 offset_top = 48.0
 offset_right = 205.0
@@ -194,5 +194,5 @@ autowrap_mode = 2
 position = Vector2(429, 131)
 sprite_frames = SubResource("SpriteFrames_dry10")
 autoplay = "default"
-frame_progress = 0.7735099792480469
+frame_progress = 0.77351
 centered = false

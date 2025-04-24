@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=4 uid="uid://b5wpqg0auuwah"]
+[gd_scene load_steps=45 format=3 uid="uid://b5wpqg0auuwah"]
 
 [ext_resource type="Texture2D" uid="uid://38x5dbxxn4bp" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://xloypo5ceg2h" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/businessman1/businesman1_001.png" id="2"]
@@ -188,7 +188,7 @@ autowrap_mode = 3
 position = Vector2(264.847, 352.422)
 sprite_frames = SubResource("SpriteFrames_ch0ic")
 autoplay = "default"
-frame_progress = 0.48533499240875244
+frame_progress = 0.485335
 
 [node name="PaperSprite3" type="Sprite2D" parent="."]
 position = Vector2(516, 231)
@@ -202,14 +202,14 @@ texture = ExtResource("41")
 
 [node name="Page1Label2" type="Label" parent="PaperSprite"]
 anchors_preset = -1
-anchor_left = -0.038333598524332047
-anchor_top = -0.25694799423217773
-anchor_right = -0.038333598524332047
-anchor_bottom = -0.022573400288820267
-offset_left = -58.093299865722656
-offset_top = -23.110700607299805
-offset_right = 68.90670013427734
-offset_bottom = 58.889400482177734
+anchor_left = -0.0383336
+anchor_top = -0.256948
+anchor_right = -0.0383336
+anchor_bottom = -0.0225734
+offset_left = -58.0933
+offset_top = -23.1107
+offset_right = 68.9067
+offset_bottom = 58.8894
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 23
@@ -230,10 +230,10 @@ hotspot_id = "N4u"
 unlocked_item_ref_id = 930
 
 [node name="Indicators" parent="BusinessCardSpot" index="0"]
-offset_left = -14.403499603271484
-offset_top = 54.18410110473633
-offset_right = -14.403499603271484
-offset_bottom = 54.18410110473633
+offset_left = -14.4035
+offset_top = 54.1841
+offset_right = -14.4035
+offset_bottom = 54.1841
 
 [node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
 modulate = Color(0.207843, 0.203922, 0.152941, 1)
@@ -247,7 +247,7 @@ offset_bottom = 366.0
 
 [node name="Message3ColorRect" type="Sprite2D" parent="BusinessCardSpot/CardPanel"]
 position = Vector2(11.0178, 7.0239)
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("43")
 centered = false
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=4 uid="uid://046as4uitlht"]
+[gd_scene load_steps=46 format=3 uid="uid://046as4uitlht"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cc1c8ua6cowmv" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/policeman/policeman1.png" id="2"]
@@ -34,7 +34,7 @@
 [ext_resource type="Texture2D" uid="uid://cyvmgpl10itu" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/badge.png" id="32"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="33"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="34"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="35"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="35"]
 [ext_resource type="Texture2D" uid="uid://cxshydjlsbn3q" path="res://shared/assets/papers/Noradijumlapina_ICO.png" id="36"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="37"]
 [ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="38"]
@@ -159,17 +159,17 @@ script = ExtResource("35")
 linked_item_ref_id = 581
 
 [node name="RoyCloseup" type="Panel"]
-offset_left = -1215.949951171875
-offset_top = -51.17380142211914
-offset_right = -414.9530029296875
-offset_bottom = 561.8259887695313
+offset_left = -1215.95
+offset_top = -51.1738
+offset_right = -414.953
+offset_bottom = 561.826
 
 [node name="CharacterTextLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 60.09640121459961
-offset_top = 52.17720031738281
-offset_right = 683.0960083007813
-offset_bottom = 169.177001953125
+offset_left = 60.0964
+offset_top = 52.1772
+offset_right = 683.096
+offset_bottom = 169.177
 theme = ExtResource("1")
 text = "CONFERENCE_ROY_SPEECH"
 autowrap_mode = 3
@@ -179,7 +179,7 @@ position = Vector2(211.339, 391.33)
 scale = Vector2(-1, 1)
 sprite_frames = SubResource("SpriteFrames_g0jip")
 autoplay = "default"
-frame_progress = 0.2851330041885376
+frame_progress = 0.285133
 
 [node name="WalletSprite" type="Sprite2D" parent="."]
 position = Vector2(516.827, 262.846)
@@ -198,10 +198,10 @@ metadata/_edit_use_anchors_ = true
 
 [node name="RoyNoteSpot" parent="." instance=ExtResource("34")]
 layout_mode = 1
-offset_left = 381.6099853515625
-offset_top = 385.3089904785156
-offset_right = -336.3900146484375
-offset_bottom = -97.68879699707031
+offset_left = 381.61
+offset_top = 385.309
+offset_right = -336.39
+offset_bottom = -97.6888
 hotspot_id = "iyU"
 extra_items_unlocked = [SubResource("Resource_csabf"), SubResource("Resource_tnmk2"), SubResource("Resource_723ar"), SubResource("Resource_13k70"), SubResource("Resource_ophxs")]
 
@@ -242,7 +242,7 @@ stretch_mode = 1
 
 [node name="Sprite2D5" type="Sprite2D" parent="RoyNoteSpot/RoyNotePanel/ClipboardSprite"]
 position = Vector2(202.34, 27.8648)
-rotation = -1.5707999467849731
+rotation = -1.5708
 texture = ExtResource("38")
 region_enabled = true
 region_rect = Rect2(199.5, 84, 55.5, 93)
@@ -250,7 +250,7 @@ region_rect = Rect2(199.5, 84, 55.5, 93)
 [node name="Sprite2D6" type="Sprite2D" parent="RoyNoteSpot/RoyNotePanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(227.34, 229.865)
-rotation = -3.0648000240325928
+rotation = -3.0648
 texture = ExtResource("39")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)

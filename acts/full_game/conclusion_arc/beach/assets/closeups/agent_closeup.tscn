@@ -1,4 +1,4 @@
-[gd_scene load_steps=78 format=4 uid="uid://dqqoytjo03a1r"]
+[gd_scene load_steps=78 format=3 uid="uid://dqqoytjo03a1r"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://4icipmch56k2" path="res://acts/full_game/conclusion_arc/beach/assets/portraits/agent/agent_000.png" id="2"]
@@ -69,7 +69,7 @@
 [ext_resource type="Texture2D" uid="uid://baimhd35cjw73" path="res://acts/full_game/colecting_parts_arc/jail/assets/painted_hd/note.png" id="67"]
 [ext_resource type="Texture2D" uid="uid://cxshydjlsbn3q" path="res://shared/assets/papers/Noradijumlapina_ICO.png" id="68"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="69"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="70"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="70"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="71"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="72"]
 [ext_resource type="Texture2D" uid="uid://d0r5ly7sn32tw" path="res://shared/assets/papers/Noradijumlapina.png" id="73"]
@@ -290,17 +290,17 @@ script = ExtResource("70")
 linked_item_ref_id = 369
 
 [node name="AgentCloseup" type="Panel"]
-offset_left = 111.17900085449219
-offset_top = 1060.5999755859375
-offset_right = 912.176025390625
-offset_bottom = 1673.6099853515625
+offset_left = 111.179
+offset_top = 1060.6
+offset_right = 912.176
+offset_bottom = 1673.61
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 34.054298400878906
-offset_top = 27.09600067138672
-offset_right = 747.0540161132813
-offset_bottom = 145.0959930419922
+offset_left = 34.0543
+offset_top = 27.096
+offset_right = 747.054
+offset_bottom = 145.096
 theme = ExtResource("1")
 text = "BEACH_SANDRA_SPEECH"
 autowrap_mode = 3
@@ -310,7 +310,7 @@ position = Vector2(557.821, 393.4)
 scale = Vector2(1.026, 1)
 sprite_frames = SubResource("SpriteFrames_3gebo")
 autoplay = "default"
-frame_progress = 0.7748039960861206
+frame_progress = 0.774804
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
 position = Vector2(192.309, 482.64)
@@ -322,10 +322,10 @@ texture = ExtResource("68")
 
 [node name="NoteSpot" parent="." instance=ExtResource("69")]
 layout_mode = 1
-offset_left = 148.23800659179688
-offset_top = 401.364013671875
-offset_right = -569.7620239257813
-offset_bottom = -81.63359832763672
+offset_left = 148.238
+offset_top = 401.364
+offset_right = -569.762
+offset_bottom = -81.6336
 hotspot_id = "Qhw"
 extra_items_unlocked = [SubResource("Resource_sritl"), SubResource("Resource_t38jj"), SubResource("Resource_ywjyp")]
 
@@ -360,7 +360,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(342.583, 167.036)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("72")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -368,7 +368,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="NoteSpot/NotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(187.583, 426.036)
-rotation = 6.402040004730225
+rotation = 6.40204
 scale = Vector2(0.807298, 1)
 texture = ExtResource("72")
 region_enabled = true
@@ -388,8 +388,8 @@ autowrap_mode = 2
 layout_mode = 1
 offset_left = 272.0
 offset_top = 406.0
-offset_right = -428.99700927734375
-offset_bottom = -77.01000213623047
+offset_right = -428.997
+offset_bottom = -77.01
 hotspot_id = "Xkn"
 
 [node name="Indicators" parent="NoteSpot2" index="0"]
@@ -403,10 +403,10 @@ modulate = Color(0.760297, 0.760297, 0.760297, 1)
 
 [node name="NoteFromEugenePanel" type="Panel" parent="NoteSpot2"]
 layout_mode = 0
-offset_left = -941.0750122070313
-offset_top = 436.8680114746094
-offset_right = -392.07501220703125
-offset_bottom = 974.8679809570313
+offset_left = -941.075
+offset_top = 436.868
+offset_right = -392.075
+offset_bottom = 974.868
 
 [node name="NoteSprite" type="Sprite2D" parent="NoteSpot2/NoteFromEugenePanel"]
 position = Vector2(265.426, 256.873)

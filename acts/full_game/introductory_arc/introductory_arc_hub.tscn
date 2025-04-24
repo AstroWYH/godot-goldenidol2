@@ -1,4 +1,4 @@
-[gd_scene load_steps=110 format=4 uid="uid://bccfjrn12vfnt"]
+[gd_scene load_steps=110 format=3 uid="uid://bccfjrn12vfnt"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://b7354t5lyjcvn" path="res://acts/full_game/introductory_arc/hub/puzzles/intro_arc_scroll_puzzle.tscn" id="2"]
@@ -101,7 +101,7 @@
 [ext_resource type="Texture2D" uid="uid://cbo5dngtu8h08" path="res://acts/full_game/introductory_arc/hub/assets/victory3.png" id="99"]
 [ext_resource type="Texture2D" uid="uid://cndawsio5a3kd" path="res://acts/full_game/introductory_arc/hub/assets/victory3_f.png" id="100"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="101"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="102"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="102"]
 [ext_resource type="PackedScene" uid="uid://bkruwfe5piwok" path="res://shared/ui/hub/change_arc_button.tscn" id="103"]
 [ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="104"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="105"]
@@ -491,7 +491,7 @@ id = 13
 position = Vector2(119, 82)
 sprite_frames = SubResource("SpriteFrames_2v74j")
 autoplay = "default"
-frame_progress = 0.7714790105819702
+frame_progress = 0.771479
 
 [node name="TrenchCoatSnippetButton2" parent="." instance=ExtResource("13")]
 layout_mode = 0

@@ -1,8 +1,8 @@
-[gd_scene load_steps=18 format=4 uid="uid://tu8dw086xgor"]
+[gd_scene load_steps=18 format=3 uid="uid://tu8dw086xgor"]
 
 [ext_resource type="Texture2D" uid="uid://d3w4n2rx64esn" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/burningcar_robo_head.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://mhaygkiqauig" path="res://acts/demo/scenarios/seaside/assets/particle.png" id="2"]
-[ext_resource type="Script" path="res://shared/world/scenario/particle_controller.gd" id="3"]
+[ext_resource type="Script" uid="uid://celtpmffosjm1" path="res://shared/world/scenario/particle_controller.gd" id="3"]
 [ext_resource type="Material" uid="uid://bgjphkoj4187e" path="res://shared/assets/particle_materials/smokesmall.material" id="4"]
 [ext_resource type="Texture2D" uid="uid://3s0jlf0mp5ir" path="res://acts/demo/scenarios/seaside/assets/particle3.png" id="5"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="6"]
@@ -20,7 +20,7 @@ colors = PackedColorArray(1, 1, 0, 0, 0.0509804, 0.0509804, 0, 0.603922, 1, 0.42
 gradient = SubResource("Gradient_rhxw3")
 
 [sub_resource type="Curve" id="Curve_xw22s"]
-_data = [Vector2(0.00215983, 0.968421), 0.0, 1.949470043182373, 0, 0, Vector2(1, 0), -0.48736798763275146, 0.0, 0, 0]
+_data = [Vector2(0.00215983, 0.968421), 0.0, 1.94947, 0, 0, Vector2(1, 0), -0.487368, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_06256"]
@@ -36,7 +36,7 @@ initial_velocity_max = 100.0
 angular_velocity_min = 100.0
 angular_velocity_max = 100.0
 gravity = Vector3(0, 0, 0)
-scale_min = 0.6000000238418579
+scale_min = 0.6
 scale_max = 2.0
 scale_curve = SubResource("CurveTexture_06256")
 color_ramp = SubResource("GradientTexture1D_8xa1w")
@@ -51,13 +51,13 @@ lifetime_randomness = 0.1
 particle_flag_disable_z = true
 direction = Vector3(0, -1, 0)
 spread = 30.0
-initial_velocity_min = 69.95999908447266
-initial_velocity_max = 123.45999908447266
+initial_velocity_min = 69.96
+initial_velocity_max = 123.46
 gravity = Vector3(0, 98, 0)
-damping_max = 5.349999904632568
+damping_max = 5.35
 scale_max = 2.0
 color = Color(1, 0.776471, 0.356863, 1)
-turbulence_noise_scale = 1.5099999904632568
+turbulence_noise_scale = 1.51
 
 [node name="Panel" type="Panel"]
 offset_left = -337.0
@@ -83,7 +83,7 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_brmci")
 texture = ExtResource("2")
 lifetime = 2.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 script = ExtResource("3")
 parent_panel = NodePath("../../..")
@@ -97,7 +97,7 @@ amount = 32
 process_material = ExtResource("4")
 texture = ExtResource("5")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Panel/Sprite2D/Flame"]
@@ -106,7 +106,7 @@ position = Vector2(-2, -19)
 amount = 24
 process_material = SubResource("ParticleProcessMaterial_6wvyc")
 lifetime = 2.0
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="Timer" type="Timer" parent="Panel/Sprite2D/Flame"]
 
@@ -117,7 +117,7 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_brmci")
 texture = ExtResource("2")
 lifetime = 2.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 script = ExtResource("3")
 parent_panel = NodePath("../../..")
@@ -131,7 +131,7 @@ amount = 32
 process_material = ExtResource("4")
 texture = ExtResource("5")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Panel/Sprite2D/Flame2"]
@@ -139,7 +139,7 @@ material = SubResource("CanvasItemMaterial_a1oyt")
 position = Vector2(-2, -19)
 amount = 24
 process_material = SubResource("ParticleProcessMaterial_6wvyc")
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="Timer" type="Timer" parent="Panel/Sprite2D/Flame2"]
 
@@ -150,7 +150,7 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_brmci")
 texture = ExtResource("2")
 lifetime = 2.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 script = ExtResource("3")
 parent_panel = NodePath("../../..")
@@ -164,7 +164,7 @@ amount = 32
 process_material = ExtResource("4")
 texture = ExtResource("5")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Panel/Sprite2D/Flame3"]
@@ -172,7 +172,7 @@ material = SubResource("CanvasItemMaterial_a1oyt")
 position = Vector2(-2, -19)
 amount = 24
 process_material = SubResource("ParticleProcessMaterial_6wvyc")
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="Timer" type="Timer" parent="Panel/Sprite2D/Flame3"]
 
@@ -187,7 +187,7 @@ hotspot_id = "ufV"
 [node name="Highlighter" parent="Suitspot/Indicators" index="0"]
 modulate = Color(0.44752, 0.815656, 0.676987, 1)
 position = Vector2(-3, -19)
-frame_progress = 0.8990910053253174
+frame_progress = 0.899091
 
 [node name="FocusIndicator" parent="Suitspot/Indicators" index="1"]
 position = Vector2(-2, -15)
@@ -210,7 +210,7 @@ hotspot_id = "ZM1"
 [node name="Highlighter" parent="PaintCanSpot/Indicators" index="0"]
 modulate = Color(1, 0.708934, 0.336703, 1)
 position = Vector2(-6, 1)
-frame_progress = 0.5465549826622009
+frame_progress = 0.546555
 
 [node name="FocusIndicator" parent="PaintCanSpot/Indicators" index="1"]
 position = Vector2(-5, 5)

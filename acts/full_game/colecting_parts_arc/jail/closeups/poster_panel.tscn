@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://csd6fu3nhgahp"]
+[gd_scene load_steps=4 format=3 uid="uid://csd6fu3nhgahp"]
 
 [ext_resource type="Texture2D" uid="uid://yigwniounkjo" path="res://acts/full_game/colecting_parts_arc/jail/assets/cartoons/eng_de.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -20,7 +20,7 @@ offset_left = 65.0
 offset_top = 239.0
 offset_right = 105.0
 offset_bottom = 272.0
-rotation = -0.5505819916725159
+rotation = -0.550582
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.141176, 0.137255, 0.117647, 1)
 text = "1"
@@ -111,7 +111,7 @@ offset_left = 163.0
 offset_top = 457.0
 offset_right = 500.0
 offset_bottom = 637.0
-rotation = -0.09191130101680756
+rotation = -0.0919113
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.117647, 0.529412, 0.176471, 1)
 theme_override_font_sizes/font_size = 48
@@ -125,7 +125,7 @@ offset_left = 234.0
 offset_top = 513.0
 offset_right = 451.0
 offset_bottom = 595.0
-rotation = 0.07220049947500229
+rotation = 0.0722005
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.85098, 0.243137, 0.505882, 1)
 theme_override_font_sizes/font_size = 32
@@ -140,7 +140,7 @@ offset_left = 212.0
 offset_top = 601.0
 offset_right = 487.0
 offset_bottom = 673.0
-rotation = -0.11287499964237213
+rotation = -0.112875
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0, 0.352941, 0.627451, 1)
 theme_override_font_sizes/font_size = 28

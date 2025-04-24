@@ -1,4 +1,4 @@
-[gd_scene load_steps=90 format=4 uid="uid://cbywr7xema7a3"]
+[gd_scene load_steps=90 format=3 uid="uid://cbywr7xema7a3"]
 
 [ext_resource type="Texture2D" uid="uid://bbm8n8jpf4adi" path="res://shared/ui/misc/MessageMachine.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dgtpxk32xom0n" path="res://shared/ui/voice_message_light/message_light_00000.png" id="2"]
@@ -27,7 +27,7 @@
 [ext_resource type="Texture2D" uid="uid://du4r3rngw20e0" path="res://shared/ui/voice_message_light/message_light_00023.png" id="25"]
 [ext_resource type="Texture2D" uid="uid://d3v1afyl8jaaq" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/phone.png" id="26"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="27"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="28"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="28"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="29"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="30"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="31"]
@@ -394,7 +394,7 @@ offset_right = -10.0
 offset_bottom = -17.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("29")
 expand_mode = 1
 stretch_mode = 1
@@ -404,7 +404,7 @@ modulate = Color(0.373384, 0.474825, 0.375706, 1)
 position = Vector2(298.916, 474.996)
 sprite_frames = SubResource("SpriteFrames_c8uf8")
 autoplay = "default"
-frame_progress = 0.5075860023498535
+frame_progress = 0.507586
 
 [node name="MessageTape" type="Sprite2D" parent="Message1Spot/Message1Panel/MessageBG"]
 position = Vector2(498.916, 478.996)
@@ -513,7 +513,7 @@ offset_right = -10.0
 offset_bottom = -17.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("29")
 expand_mode = 1
 stretch_mode = 1
@@ -523,7 +523,7 @@ modulate = Color(0.373384, 0.474825, 0.375706, 1)
 position = Vector2(298.639, 308.996)
 sprite_frames = SubResource("SpriteFrames_c8uf8")
 autoplay = "default"
-frame_progress = 0.7068309783935547
+frame_progress = 0.706831
 
 [node name="MessageTape" type="Sprite2D" parent="Message2Spot/MessagePanel2/MessageBG"]
 position = Vector2(498.639, 312.996)

@@ -1,6 +1,6 @@
-[gd_scene load_steps=146 format=4 uid="uid://b5dppcjmp5d8l"]
+[gd_scene load_steps=146 format=3 uid="uid://b5dppcjmp5d8l"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://glvb4ru0fxk2" path="res://acts/full_game/reconstruction_arc/eviction/locations/procedure_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://7wi1eiytlcb0" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dlt2llkdli0ol" path="res://acts/full_game/reconstruction_arc/eviction/assets/animations/guards_new/Guards_00001.png" id="4"]
@@ -565,19 +565,19 @@ position = Vector2(470, 660)
 sprite_frames = SubResource("SpriteFrames_2kh2v")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.8835520148277283
+frame_progress = 0.883552
 
 [node name="Charlie" type="AnimatedSprite2D" parent="."]
 position = Vector2(1398, 572)
 sprite_frames = SubResource("SpriteFrames_ghico")
 autoplay = "default"
-frame_progress = 0.5794209837913513
+frame_progress = 0.579421
 
 [node name="Chair" type="AnimatedSprite2D" parent="."]
 position = Vector2(1124, 680)
 sprite_frames = SubResource("SpriteFrames_cnp3a")
 autoplay = "default"
-frame_progress = 0.4618780016899109
+frame_progress = 0.461878
 
 [node name="Light" type="Sprite2D" parent="."]
 material = SubResource("CanvasItemMaterial_ik57x")
@@ -610,7 +610,7 @@ offset_right = -49.0
 offset_bottom = 292.0
 
 [node name="Highlighter" parent="Hotspots/ToCollectorSpot/Indicators" index="0"]
-rotation = 1.5454800128936768
+rotation = 1.54548
 
 [node name="FocusIndicator" parent="Hotspots/ToCollectorSpot/Indicators" index="1"]
 scale = Vector2(0.873872, 0.970018)

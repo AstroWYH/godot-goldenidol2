@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://beq0vmngw668w"]
+[gd_scene load_steps=4 format=3 uid="uid://beq0vmngw668w"]
 
 [ext_resource type="Texture2D" uid="uid://dfbhge00eni1c" path="res://acts/full_game/research_arc/talent_show/assets/closeups/recordplayer.png" id="1"]
 [ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="2"]
@@ -20,7 +20,7 @@ offset_left = 233.0
 offset_top = 227.0
 offset_right = 389.0
 offset_bottom = 253.0
-rotation = -0.9291139841079712
+rotation = -0.929114
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.72549, 0.666667, 0.403922, 1)
 theme_override_fonts/font = ExtResource("3")
@@ -35,7 +35,7 @@ offset_left = 285.0
 offset_top = 255.0
 offset_right = 441.0
 offset_bottom = 285.0
-rotation = -0.9291139841079712
+rotation = -0.929114
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.72549, 0.666667, 0.403922, 1)
 theme_override_fonts/font = ExtResource("3")

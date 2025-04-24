@@ -1,8 +1,8 @@
-[gd_scene load_steps=74 format=4 uid="uid://c8apymnp3seox"]
+[gd_scene load_steps=74 format=3 uid="uid://c8apymnp3seox"]
 
 [ext_resource type="Texture2D" uid="uid://dg1jr0kl143m8" path="res://acts/full_game/research_arc/complex/assets/closeups/08_b1_colm.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="6"]
@@ -294,7 +294,7 @@ offset_right = -10.0
 offset_bottom = -18.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("4")
 expand_mode = 1
 stretch_mode = 1
@@ -304,7 +304,7 @@ modulate = Color(0.53, 0.475145, 0.4081, 1)
 position = Vector2(313.822, 418.971)
 sprite_frames = SubResource("SpriteFrames_r156o")
 autoplay = "default"
-frame_progress = 0.6917009949684143
+frame_progress = 0.691701
 
 [node name="MessageTape" type="Sprite2D" parent="PhoneSpot2/PhonePanel/Message_BG"]
 position = Vector2(513.822, 422.971)
@@ -358,7 +358,7 @@ offset_left = 616.0
 offset_top = 262.0
 offset_right = 1017.0
 offset_bottom = 554.0
-rotation = -0.03051760047674179
+rotation = -0.0305176
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.697972, 0.242714, 0.148505, 1)
 theme_override_font_sizes/font_size = 40
@@ -368,10 +368,10 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="MindBoardText2" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 1041.8199462890625
-offset_top = 89.0907974243164
-offset_right = 1223.8199462890625
-offset_bottom = 229.09100341796875
+offset_left = 1041.82
+offset_top = 89.0908
+offset_right = 1223.82
+offset_bottom = 229.091
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 27
@@ -384,7 +384,7 @@ offset_left = 1029.0
 offset_top = 158.0
 offset_right = 1223.0
 offset_bottom = 292.0
-rotation = 0.04501520097255707
+rotation = 0.0450152
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 22
@@ -395,11 +395,11 @@ autowrap_mode = 2
 uppercase = true
 
 [node name="MindBoardText4" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 1269.0899658203125
+offset_left = 1269.09
 offset_top = 40.0
-offset_right = 1433.0899658203125
+offset_right = 1433.09
 offset_bottom = 183.0
-rotation = 0.03793049976229668
+rotation = 0.0379305
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 28
@@ -410,10 +410,10 @@ autowrap_mode = 2
 
 [node name="MindBoardText6" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
 offset_left = 1040.0
-offset_top = 612.7269897460938
+offset_top = 612.727
 offset_right = 1304.0
-offset_bottom = 780.7269897460938
-rotation = 0.040449999272823334
+offset_bottom = 780.727
+rotation = 0.04045
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.541013, 0.355864, 0.121936, 1)
 theme_override_font_sizes/font_size = 36
@@ -424,11 +424,11 @@ autowrap_mode = 2
 uppercase = true
 
 [node name="MindBoardText8" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 243.63600158691406
-offset_top = 676.364013671875
-offset_right = 490.635986328125
-offset_bottom = 789.364013671875
-rotation = -0.08993449807167053
+offset_left = 243.636
+offset_top = 676.364
+offset_right = 490.636
+offset_bottom = 789.364
+rotation = -0.0899345
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 25
@@ -438,11 +438,11 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="MindBoardText10" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 389.09100341796875
-offset_top = 272.72698974609375
-offset_right = 567.0910034179688
-offset_bottom = 368.72698974609375
-rotation = 0.059341199696063995
+offset_left = 389.091
+offset_top = 272.727
+offset_right = 567.091
+offset_bottom = 368.727
+rotation = 0.0593412
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 25
@@ -456,7 +456,7 @@ offset_left = 204.0
 offset_top = 74.0
 offset_right = 517.0
 offset_bottom = 271.0
-rotation = -0.08726649731397629
+rotation = -0.0872665
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.697972, 0.242714, 0.148505, 1)
 theme_override_font_sizes/font_size = 26
@@ -466,11 +466,11 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="MindBoardText7" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 1218.1800537109375
-offset_top = 832.7269897460938
-offset_right = 1491.1800537109375
-offset_bottom = 929.7269897460938
-rotation = -0.132764995098114
+offset_left = 1218.18
+offset_top = 832.727
+offset_right = 1491.18
+offset_bottom = 929.727
+rotation = -0.132765
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 26
@@ -480,11 +480,11 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="MindBoardText5" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 1114.550048828125
+offset_left = 1114.55
 offset_top = 360.0
-offset_right = 1422.550048828125
+offset_right = 1422.55
 offset_bottom = 510.0
-rotation = -0.06698810309171677
+rotation = -0.0669881
 theme = ExtResource("63")
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 32
@@ -494,11 +494,11 @@ vertical_alignment = 1
 autowrap_mode = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D"]
-offset_left = 52.72740173339844
-offset_top = 392.72698974609375
-offset_right = 259.72698974609375
-offset_bottom = 610.7269897460938
-rotation = -0.09828119724988937
+offset_left = 52.7274
+offset_top = 392.727
+offset_right = 259.727
+offset_bottom = 610.727
+rotation = -0.0982812
 
 [node name="MindBoardText9" type="Label" parent="RedStringsSpot/RedStringPanel/YMindboard/Node2D/VBoxContainer"]
 layout_mode = 2
@@ -574,7 +574,7 @@ stretch_mode = 1
 [node name="Sprite2D" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel/Sprite2D2"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(233, 219)
-rotation = 3.1215500831604004
+rotation = 3.12155
 texture = ExtResource("67")
 region_enabled = true
 region_rect = Rect2(132.587, 0, 467.413, 380.606)
@@ -582,7 +582,7 @@ region_rect = Rect2(132.587, 0, 467.413, 380.606)
 [node name="Sprite2D2" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkRed/DiaryPanel/Sprite2D2"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(323, 529)
-rotation = 0.04605599865317345
+rotation = 0.046056
 texture = ExtResource("67")
 region_enabled = true
 region_rect = Rect2(132.587, 237.11, 467.413, 143.496)
@@ -647,7 +647,7 @@ region_rect = Rect2(132.587, 0, 467.413, 380.606)
 [node name="Sprite2D3" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkYellow/DiaryPanel2"]
 modulate = Color(0.905882, 0.72549, 0.239216, 1)
 position = Vector2(742, 203)
-rotation = 3.141590118408203
+rotation = 3.14159
 texture = ExtResource("68")
 region_enabled = true
 region_rect = Rect2(0.727264, 80.4665, 62.3967, 105.408)
@@ -696,7 +696,7 @@ stretch_mode = 1
 [node name="Sprite2D" type="Sprite2D" parent="DiarySpot/DiaryPanel1/DiaryBookmarkGreen/DiaryPanel3/Sprite2D2"]
 modulate = Color(1, 1, 1, 0.631373)
 position = Vector2(233, 264)
-rotation = 3.1215500831604004
+rotation = 3.12155
 texture = ExtResource("67")
 region_enabled = true
 region_rect = Rect2(132.587, 0, 467.413, 380.606)

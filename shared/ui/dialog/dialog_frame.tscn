@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://bq0ywuy1y0r8d"]
+[gd_scene load_steps=2 format=3 uid="uid://bq0ywuy1y0r8d"]
 
 [ext_resource type="Texture2D" uid="uid://d3sj8373g3hlw" path="res://shared/assets/frames/frame_transparent_small.png" id="1"]
 

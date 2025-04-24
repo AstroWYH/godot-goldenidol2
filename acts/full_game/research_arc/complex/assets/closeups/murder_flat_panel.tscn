@@ -1,4 +1,4 @@
-[gd_scene load_steps=96 format=4 uid="uid://cr7pk6c5vjlgi"]
+[gd_scene load_steps=96 format=3 uid="uid://cr7pk6c5vjlgi"]
 
 [ext_resource type="Texture2D" uid="uid://buvqjy6y55dyn" path="res://acts/full_game/research_arc/complex/assets/newer assets/02_a3_sawyer.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -86,7 +86,7 @@
 [ext_resource type="Texture2D" uid="uid://dv2hcr1nr8wiy" path="res://shared/ui/voice_message_anim/voice_message_anim_00053.png" id="84"]
 [ext_resource type="Texture2D" uid="uid://2ajixuabbwd4" path="res://shared/ui/misc/message_tape.png" id="85"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="86"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="87"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="87"]
 [ext_resource type="Texture2D" uid="uid://cmqo0ij13ad1j" path="res://acts/full_game/research_arc/complex/assets/newer assets/y_catfood.png" id="88"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="89"]
 [ext_resource type="Texture2D" uid="uid://bayspimrw7bun" path="res://acts/full_game/research_arc/complex/assets/chopsticks.png" id="90"]
@@ -442,7 +442,7 @@ offset_right = -10.0
 offset_bottom = -15.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("30")
 expand_mode = 1
 stretch_mode = 1
@@ -497,7 +497,7 @@ offset_right = -10.0
 offset_bottom = -14.0
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("30")
 expand_mode = 1
 stretch_mode = 1
@@ -550,7 +550,7 @@ texture = ExtResource("88")
 
 [node name="SkewLabelSendTo" type="Node2D" parent="PackageSpot/Package Panel"]
 position = Vector2(355, 145)
-skew = 0.047123901546001434
+skew = 0.0471239
 
 [node name="LabelSendTo" type="Label" parent="PackageSpot/Package Panel/SkewLabelSendTo"]
 offset_left = -1.0
@@ -566,15 +566,15 @@ autowrap_mode = 2
 
 [node name="SkewLabelCatFood" type="Node2D" parent="PackageSpot/Package Panel"]
 position = Vector2(19, 135)
-rotation = 0.022689299657940865
-skew = -0.09424780309200287
+rotation = 0.0226893
+skew = -0.0942478
 
 [node name="LabelCatFood" type="Label" parent="PackageSpot/Package Panel/SkewLabelCatFood"]
 offset_left = 3.0
 offset_top = 3.0
 offset_right = 196.0
 offset_bottom = 255.0
-rotation = -0.027145400643348694
+rotation = -0.0271454
 theme_override_colors/font_color = Color(0.235626, 0.126298, 0.030377, 1)
 theme_override_constants/line_spacing = -2
 theme_override_font_sizes/font_size = 22
@@ -659,20 +659,20 @@ offset_bottom = -96.0
 
 [node name="YReceipt2" type="Sprite2D" parent="DeadmanTrashSpot/DeadmanTrashPanel"]
 position = Vector2(264, 204)
-rotation = -0.12713100016117096
+rotation = -0.127131
 scale = Vector2(0.742236, 0.742236)
 texture = ExtResource("91")
 
 [node name="Node2D" type="Node2D" parent="DeadmanTrashSpot/DeadmanTrashPanel"]
 position = Vector2(187, 212)
-skew = -0.22514699399471283
+skew = -0.225147
 
 [node name="ReceiptLabel3" type="Label" parent="DeadmanTrashSpot/DeadmanTrashPanel/Node2D"]
 offset_left = -5.0
 offset_top = -11.0
 offset_right = 145.0
 offset_bottom = 36.0
-rotation = -0.2532289922237396
+rotation = -0.253229
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.192157, 0.403922, 0.623529, 1)
 theme_override_font_sizes/font_size = 18
@@ -683,14 +683,14 @@ autowrap_mode = 2
 
 [node name="Node2D2" type="Node2D" parent="DeadmanTrashSpot/DeadmanTrashPanel"]
 position = Vector2(211, 320)
-skew = -0.28972500562667847
+skew = -0.289725
 
 [node name="ReceiptLabel2" type="Label" parent="DeadmanTrashSpot/DeadmanTrashPanel/Node2D2"]
 offset_left = 6.0
 offset_top = -7.0
 offset_right = 163.0
 offset_bottom = 31.0
-rotation = -0.2532289922237396
+rotation = -0.253229
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.192157, 0.403922, 0.623529, 1)
 theme_override_font_sizes/font_size = 18
@@ -710,7 +710,7 @@ offset_left = 151.0
 offset_top = 83.0
 offset_right = 298.0
 offset_bottom = 117.0
-rotation = -0.2532289922237396
+rotation = -0.253229
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.192157, 0.403922, 0.623529, 1)
 theme_override_font_sizes/font_size = 18

@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=4 uid="uid://0wuekx0eufmf"]
+[gd_scene load_steps=45 format=3 uid="uid://0wuekx0eufmf"]
 
 [ext_resource type="Texture2D" uid="uid://i7h2xtxw2hny" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/gavel.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://c4jkac8bc5p7y" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/keys.png" id="2"]
@@ -198,7 +198,7 @@ autowrap_mode = 2
 position = Vector2(166, 299)
 sprite_frames = SubResource("SpriteFrames_6bg5c")
 autoplay = "default"
-frame_progress = 0.6927869915962219
+frame_progress = 0.692787
 
 [node name="GavelSpot" parent="." instance=ExtResource("43")]
 layout_mode = 1

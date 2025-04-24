@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=4 uid="uid://d2olrm7o34dyo"]
+[gd_scene load_steps=47 format=3 uid="uid://d2olrm7o34dyo"]
 
 [ext_resource type="Texture2D" uid="uid://mmup7dwhj77u" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman2/woman2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://benve8e2bqdeq" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/woman2/woman2_001.png" id="2"]
@@ -190,7 +190,7 @@ autowrap_mode = 3
 position = Vector2(191.62, 375.245)
 sprite_frames = SubResource("SpriteFrames_mv2go")
 autoplay = "default"
-frame_progress = 0.7789419889450073
+frame_progress = 0.778942
 
 [node name="PaperSprite" type="Sprite2D" parent="."]
 position = Vector2(491, 406)
@@ -198,10 +198,10 @@ scale = Vector2(0.998394, 0.996602)
 texture = ExtResource("40")
 
 [node name="Page1Label2" type="Label" parent="PaperSprite"]
-offset_left = -194.31199645996094
-offset_top = -56.19089889526367
-offset_right = 187.68800354003906
-offset_bottom = 59.80910110473633
+offset_left = -194.312
+offset_top = -56.1909
+offset_right = 187.688
+offset_bottom = 59.8091
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)
 theme_override_font_sizes/font_size = 23
@@ -217,19 +217,19 @@ texture = ExtResource("41")
 
 [node name="BusinessCardSpot" parent="." instance=ExtResource("42")]
 layout_mode = 1
-offset_left = 612.8889770507813
-offset_top = 290.6600036621094
-offset_right = -54.110801696777344
-offset_bottom = -168.33999633789063
+offset_left = 612.889
+offset_top = 290.66
+offset_right = -54.1108
+offset_bottom = -168.34
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "rus"
 unlocked_item_ref_id = 984
 
 [node name="Indicators" parent="BusinessCardSpot" index="0"]
-offset_left = -13.403499603271484
-offset_top = 119.40599822998047
-offset_right = -13.403499603271484
-offset_bottom = 119.40599822998047
+offset_left = -13.4035
+offset_top = 119.406
+offset_right = -13.4035
+offset_bottom = 119.406
 
 [node name="Highlighter" parent="BusinessCardSpot/Indicators" index="0"]
 modulate = Color(0.690196, 0.690196, 0.690196, 1)
@@ -243,7 +243,7 @@ offset_bottom = 94.0
 
 [node name="Message3ColorRect" type="Sprite2D" parent="BusinessCardSpot/CardPanel"]
 position = Vector2(235.349, 332.151)
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("43")
 
 [node name="Message3Text" type="RichTextLabel" parent="BusinessCardSpot/CardPanel"]

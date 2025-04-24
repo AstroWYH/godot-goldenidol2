@@ -1,4 +1,4 @@
-[gd_scene load_steps=167 format=4 uid="uid://b5c0ca4e3rwah"]
+[gd_scene load_steps=167 format=3 uid="uid://b5c0ca4e3rwah"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://cfparrvmxqjw1" path="res://acts/full_game/conclusion_arc/hub/puzzles/idol_functions_puzzle.tscn" id="2"]
@@ -24,7 +24,7 @@
 [ext_resource type="Texture2D" uid="uid://c0ydktn3n8dx" path="res://acts/full_game/conclusion_arc/hub/assets/vicrory4.png" id="22"]
 [ext_resource type="Texture2D" uid="uid://d13dwvydnt3fe" path="res://acts/full_game/conclusion_arc/hub/assets/vicrory4_focus.png" id="23"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="24"]
-[ext_resource type="Script" path="res://acts/full_game/introductory_arc/back_button.gd" id="25"]
+[ext_resource type="Script" uid="uid://bpg12m40lgdlw" path="res://acts/full_game/introductory_arc/back_button.gd" id="25"]
 [ext_resource type="PackedScene" uid="uid://dhwm06foikq1l" path="res://shared/ui/hub/snippet_button.tscn" id="26"]
 [ext_resource type="Texture2D" uid="uid://dythk4st7brvj" path="res://acts/full_game/conclusion_arc/hub/assets/idol.png" id="27"]
 [ext_resource type="Texture2D" uid="uid://cpa7us2ndpnx8" path="res://acts/full_game/conclusion_arc/hub/assets/idol_f.png" id="28"]
@@ -808,7 +808,7 @@ sprite = NodePath("AnimatedSprite2D2")
 position = Vector2(263, 44)
 sprite_frames = SubResource("SpriteFrames_0c2t1")
 autoplay = "default"
-frame_progress = 0.5564000010490417
+frame_progress = 0.5564
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="ApplicationsSnippetButton"]
 show_behind_parent = true
@@ -816,7 +816,7 @@ position = Vector2(345, 35)
 sprite_frames = SubResource("SpriteFrames_wghnc")
 autoplay = "default"
 frame = 29
-frame_progress = 0.5074149966239929
+frame_progress = 0.507415
 
 [node name="FableSnippetButton" parent="." instance=ExtResource("26")]
 layout_mode = 0

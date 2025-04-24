@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://befuk2nr6fvdq"]
+[gd_scene load_steps=37 format=3 uid="uid://befuk2nr6fvdq"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="FontFile" uid="uid://brh7fd68mtonn" path="res://shared/assets/fonts/EastSeaDokdo-Regular.ttf" id="2"]
@@ -155,7 +155,7 @@ offset_left = 297.0
 offset_top = 37.0
 offset_right = 734.0
 offset_bottom = 358.0
-rotation = -0.014695700258016586
+rotation = -0.0146957
 theme = ExtResource("1")
 theme_override_colors/font_color = Color(1, 0.647059, 0.839216, 1)
 theme_override_fonts/font = ExtResource("2")
@@ -167,4 +167,4 @@ autowrap_mode = 3
 position = Vector2(152, 325)
 sprite_frames = SubResource("SpriteFrames_i3kgf")
 autoplay = "default"
-frame_progress = 0.7763450145721436
+frame_progress = 0.776345

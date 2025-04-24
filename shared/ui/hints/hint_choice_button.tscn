@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://cresk6fdqq2xw"]
+[gd_scene load_steps=4 format=3 uid="uid://cresk6fdqq2xw"]
 
 [ext_resource type="Texture2D" uid="uid://cnv6qn3ahlnx2" path="res://shared/ui/misc/frame_focus_white.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hints/hint_choice_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://c7o10clo80up4" path="res://shared/ui/hints/hint_choice_button.gd" id="2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bq4d3"]
 texture = ExtResource("1")

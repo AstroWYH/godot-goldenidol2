@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://xtq1unh4xjtt"]
+[gd_scene load_steps=2 format=3 uid="uid://xtq1unh4xjtt"]
 
 [ext_resource type="Texture2D" uid="uid://d0566yqsuf176" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/idol.png" id="1"]
 

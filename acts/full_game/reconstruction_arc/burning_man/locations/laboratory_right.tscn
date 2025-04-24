@@ -1,6 +1,6 @@
-[gd_scene load_steps=144 format=4 uid="uid://crh66qe3ahy7t"]
+[gd_scene load_steps=144 format=3 uid="uid://crh66qe3ahy7t"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cs3qk40s86fm5" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_right_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://buvc87amucdmx" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bp7wu4ew6jxlf" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/burning2/burning_001.png" id="4"]
@@ -117,7 +117,7 @@
 [ext_resource type="Texture2D" uid="uid://dq3t65050x6hb" path="res://acts/full_game/reconstruction_arc/burning_man/assets/animation/corpo/corpo_00023.png" id="115"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="116"]
 [ext_resource type="Resource" uid="uid://dpdyftjwfmich" path="res://acts/full_game/reconstruction_arc/burning_man/locations/laboratory_location_meta.tres" id="117"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="118"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="118"]
 [ext_resource type="PackedScene" uid="uid://2234xn41xj7b" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/nathan_panel.tscn" id="119"]
 [ext_resource type="Resource" uid="uid://1i1y8bnoq2n0" path="res://acts/full_game/reconstruction_arc/burning_man/puzzles/burning_man_fingerprint_puzzle_meta.tres" id="120"]
 [ext_resource type="PackedScene" uid="uid://dlh5wtdedc0lq" path="res://acts/full_game/reconstruction_arc/burning_man/closeups/fp_door_panel.tscn" id="121"]
@@ -553,34 +553,34 @@ location_meta = ExtResource("2")
 position = Vector2(997, 322)
 sprite_frames = SubResource("SpriteFrames_d1ylt")
 autoplay = "default"
-frame_progress = 0.4369269907474518
+frame_progress = 0.436927
 centered = false
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1816, 772)
 sprite_frames = SubResource("SpriteFrames_pqpi6")
 autoplay = "default"
-frame_progress = 0.5176939964294434
+frame_progress = 0.517694
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(907, 494)
 sprite_frames = SubResource("SpriteFrames_70xht")
 autoplay = "default"
 frame = 12
-frame_progress = 0.5500320196151733
+frame_progress = 0.550032
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
 position = Vector2(1400, 828)
 sprite_frames = SubResource("SpriteFrames_omsia")
 autoplay = "default"
-frame_progress = 0.29891300201416016
+frame_progress = 0.298913
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(410, 776)
 sprite_frames = SubResource("SpriteFrames_urw2x")
 autoplay = "default"
 frame = 20
-frame_progress = 0.6022779941558838
+frame_progress = 0.602278
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -608,7 +608,7 @@ offset_right = -6.5
 offset_bottom = 310.0
 
 [node name="Highlighter" parent="Hotspots/ToEntrywaySpot/Indicators" index="0"]
-rotation = 1.5556299686431885
+rotation = 1.55563
 animation = &"location"
 
 [node name="NathanSpot" parent="Hotspots" instance=ExtResource("116")]

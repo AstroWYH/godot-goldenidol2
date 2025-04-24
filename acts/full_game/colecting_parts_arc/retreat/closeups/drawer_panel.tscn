@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://fpfas76klo21"]
+[gd_scene load_steps=6 format=3 uid="uid://fpfas76klo21"]
 
 [ext_resource type="Texture2D" uid="uid://clm7q1un7g7cs" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/shelf.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 
 [sub_resource type="Resource" id="Resource_4f158"]
 script = ExtResource("3")

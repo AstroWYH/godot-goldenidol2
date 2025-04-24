@@ -1,11 +1,11 @@
-[gd_scene load_steps=7 format=4 uid="uid://di5cntwo8hgcn"]
+[gd_scene load_steps=7 format=3 uid="uid://di5cntwo8hgcn"]
 
-[ext_resource type="Script" path="res://shared/ui/hints/hint_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://dcu0hc7ntoke1" path="res://shared/ui/hints/hint_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bg7ksjyi2wv7e" path="res://acts/full_game/hints/assets/book.png" id="2"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="4"]
 [ext_resource type="Theme" uid="uid://ci01d6um0b6kl" path="res://shared/assets/themes/hint_back_button.tres" id="5"]
-[ext_resource type="Script" path="res://shared/ui/hints/back_button.gd" id="6"]
+[ext_resource type="Script" uid="uid://dfx5l28kw1ufq" path="res://shared/ui/hints/back_button.gd" id="6"]
 
 [node name="HintMainMenu" type="ColorRect"]
 anchor_right = 1.0
@@ -59,7 +59,7 @@ autowrap_mode = 2
 [node name="Label" type="Label" parent="TextureRect"]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 0.04218750074505806
+anchor_right = 0.0421875
 offset_left = 89.0
 offset_top = 41.0
 offset_right = 513.0

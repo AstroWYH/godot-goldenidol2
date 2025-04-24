@@ -1,4 +1,4 @@
-[gd_scene load_steps=163 format=4 uid="uid://cfpshhm3lx3hh"]
+[gd_scene load_steps=163 format=3 uid="uid://cfpshhm3lx3hh"]
 
 [ext_resource type="Texture2D" uid="uid://bu5p0n21bustc" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/idiot.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bj4i1jxtslch5" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/conversation/lidiotandleader_049 (1).png" id="2"]
@@ -52,7 +52,7 @@
 [ext_resource type="Texture2D" uid="uid://qm5g3oh1j7hw" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/conversation/lidiotandleader_049 (49).png" id="50"]
 [ext_resource type="Texture2D" uid="uid://ckqo5uqquckl4" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/conversation/lidiotandleader_049 (50).png" id="51"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="52"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="53"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="53"]
 [ext_resource type="Texture2D" uid="uid://dpxa7dvc7h8j2" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/leader/leader_000.png" id="54"]
 [ext_resource type="Texture2D" uid="uid://bclk3hv5j1r72" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/leader/leader_001.png" id="55"]
 [ext_resource type="Texture2D" uid="uid://bnc062tgfngre" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/leader/leader_002.png" id="56"]
@@ -651,7 +651,7 @@ texture = ExtResource("1")
 position = Vector2(21, 13)
 sprite_frames = SubResource("SpriteFrames_vo0j7")
 autoplay = "default"
-frame_progress = 0.8239369988441467
+frame_progress = 0.823937
 
 [node name="PennySpot" parent="." instance=ExtResource("52")]
 layout_mode = 1
@@ -681,7 +681,7 @@ offset_bottom = -149.0
 position = Vector2(179.656, 330.488)
 sprite_frames = SubResource("SpriteFrames_x15a0")
 autoplay = "default"
-frame_progress = 0.6194019913673401
+frame_progress = 0.619402
 
 [node name="PennyLabel" type="Label" parent="PennySpot/PennyPanel"]
 layout_mode = 0
@@ -714,7 +714,7 @@ position = Vector2(412, 286)
 scale = Vector2(-1, 1)
 sprite_frames = SubResource("SpriteFrames_0jqpu")
 autoplay = "default"
-frame_progress = 0.770933985710144
+frame_progress = 0.770934
 
 [node name="BookletSprite" type="Sprite2D" parent="MarmotSpot/MarmotPanel"]
 position = Vector2(132, 295)

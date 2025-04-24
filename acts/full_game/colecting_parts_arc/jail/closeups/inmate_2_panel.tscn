@@ -1,4 +1,4 @@
-[gd_scene load_steps=54 format=4 uid="uid://bqlpdl07posdg"]
+[gd_scene load_steps=54 format=3 uid="uid://bqlpdl07posdg"]
 
 [ext_resource type="Texture2D" uid="uid://5ndpd2yddmje" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/convict1/convict1-animation_00.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://ceq4j0q3elhq2" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/convict1/convict1-animation_01.png" id="2"]
@@ -218,7 +218,7 @@ position = Vector2(216.304, 297.25)
 scale = Vector2(0.874702, 0.874702)
 sprite_frames = SubResource("SpriteFrames_vn881")
 autoplay = "default"
-frame_progress = 0.5133150219917297
+frame_progress = 0.513315
 
 [node name="dvasa7" type="GPUParticles2D" parent="Inmate2Sprite"]
 material = SubResource("CanvasItemMaterial_mtfrj")
@@ -228,8 +228,8 @@ amount = 32
 process_material = ExtResource("49")
 texture = ExtResource("50")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="Inmate2Speech" type="Label" parent="."]

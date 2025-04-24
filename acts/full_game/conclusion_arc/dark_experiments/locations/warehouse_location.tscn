@@ -1,6 +1,6 @@
-[gd_scene load_steps=9 format=4 uid="uid://dkbu56rvv24i"]
+[gd_scene load_steps=9 format=3 uid="uid://dkbu56rvv24i"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://c46amcsry23tq" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/warehouse_location_meta.tres" id="2"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="3"]
 [ext_resource type="Resource" uid="uid://dvd78q1dq2kfc" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/docks_location_meta.tres" id="4"]
@@ -32,16 +32,16 @@ hover_cursor = 3
 target_location_meta = ExtResource("4")
 
 [node name="Indicators" parent="Hotspots/ToDocksSpot" index="0"]
-offset_left = 12.901200294494629
-offset_top = 235.80099487304688
-offset_right = 12.901200294494629
-offset_bottom = 235.80099487304688
-rotation = 3.141590118408203
+offset_left = 12.9012
+offset_top = 235.801
+offset_right = 12.9012
+offset_bottom = 235.801
+rotation = 3.14159
 
 [node name="Highlighter" parent="Hotspots/ToDocksSpot/Indicators" index="0"]
 modulate = Color(0.4636, 0.60268, 0.61, 1)
 position = Vector2(92.1895, -237.808)
-rotation = 1.5707999467849731
+rotation = 1.5708
 animation = &"location"
 
 [node name="FocusIndicator" parent="Hotspots/ToDocksSpot/Indicators" index="1"]
@@ -57,20 +57,20 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "PK6"
 
 [node name="Indicators" parent="Hotspots/Room1Spot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/Room1Spot/Indicators" index="0"]
 modulate = Color(0.640518, 0.701452, 0.749342, 1)
 
 [node name="Room1Panel" parent="Hotspots/Room1Spot" instance=ExtResource("5")]
 layout_mode = 0
-offset_left = -1467.3599853515625
-offset_top = 211.718994140625
-offset_right = -644.3560180664063
-offset_bottom = 771.718994140625
+offset_left = -1467.36
+offset_top = 211.719
+offset_right = -644.356
+offset_bottom = 771.719
 
 [node name="Room2Spot" parent="Hotspots" instance=ExtResource("3")]
 layout_mode = 1
@@ -82,20 +82,20 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "qiu"
 
 [node name="Indicators" parent="Hotspots/Room2Spot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/Room2Spot/Indicators" index="0"]
 modulate = Color(0.639216, 0.701961, 0.74902, 1)
 
 [node name="Room2Panel" parent="Hotspots/Room2Spot" instance=ExtResource("6")]
 layout_mode = 0
-offset_left = -517.8319702148438
-offset_top = -1310.449951171875
-offset_right = 310.1679992675781
-offset_bottom = -747.4530029296875
+offset_left = -517.832
+offset_top = -1310.45
+offset_right = 310.168
+offset_bottom = -747.453
 
 [node name="Room3Spot" parent="Hotspots" instance=ExtResource("3")]
 layout_mode = 1
@@ -107,20 +107,20 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "rLC"
 
 [node name="Indicators" parent="Hotspots/Room3Spot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/Room3Spot/Indicators" index="0"]
 modulate = Color(0.639216, 0.701961, 0.74902, 1)
 
 [node name="Room3Panel" parent="Hotspots/Room3Spot" instance=ExtResource("7")]
 layout_mode = 0
-offset_left = 313.50299072265625
-offset_top = -1216.1300048828125
+offset_left = 313.503
+offset_top = -1216.13
 offset_right = 1140.5
-offset_bottom = -655.1320190429688
+offset_bottom = -655.132
 
 [node name="DeadBodyContainerSpot" parent="Hotspots" instance=ExtResource("3")]
 layout_mode = 1
@@ -132,10 +132,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "O-B"
 
 [node name="Indicators" parent="Hotspots/DeadBodyContainerSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="Hotspots/DeadBodyContainerSpot/Indicators" index="0"]
 modulate = Color(0.906204, 0.751424, 0, 1)
@@ -146,10 +146,10 @@ position = Vector2(-32.2588, -12.825)
 
 [node name="DeadBodyContainerPanel" parent="Hotspots/DeadBodyContainerSpot" instance=ExtResource("8")]
 layout_mode = 0
-offset_left = 615.989013671875
-offset_top = 640.1749877929688
-offset_right = 1585.989990234375
-offset_bottom = 1291.1800537109375
+offset_left = 615.989
+offset_top = 640.175
+offset_right = 1585.99
+offset_bottom = 1291.18
 
 [editable path="Hotspots/ToDocksSpot"]
 [editable path="Hotspots/Room1Spot"]

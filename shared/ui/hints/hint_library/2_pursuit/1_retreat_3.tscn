@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://w5e3rgv2enwr"]
+[gd_scene load_steps=3 format=3 uid="uid://w5e3rgv2enwr"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://xqdog6jarool" path="res://shared/ui/hints/hint_library/2_pursuit/retreat_03.png" id="2"]

@@ -1,12 +1,12 @@
-[gd_scene load_steps=2 format=4 uid="uid://hi8d6m3vbh10"]
+[gd_scene load_steps=2 format=3 uid="uid://hi8d6m3vbh10"]
 
 [ext_resource type="Texture2D" uid="uid://6jwiositt1au" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/suitcaseopen.png" id="1"]
 
 [node name="CasePanel" type="Panel"]
-offset_left = -731.1740112304688
-offset_top = 586.9949951171875
-offset_right = -107.17400360107422
-offset_bottom = 1275.989990234375
+offset_left = -731.174
+offset_top = 586.995
+offset_right = -107.174
+offset_bottom = 1275.99
 
 [node name="CaseSprite" type="Sprite2D" parent="."]
 position = Vector2(318.511, 335.139)

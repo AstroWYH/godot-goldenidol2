@@ -1,6 +1,6 @@
-[gd_scene load_steps=109 format=4]
+[gd_scene load_steps=109 format=3 uid="uid://bj42qpljrt1x1"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dx1wodinds0q8" path="res://acts/full_game/conclusion_arc/museum/locations/museum_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dmk375dbxw72g" path="res://acts/full_game/conclusion_arc/museum/assets/animations/twopeople2/guard42_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cf6plkts3rshn" path="res://acts/full_game/conclusion_arc/museum/assets/animations/twopeople2/guard42_001.png" id="4"]
@@ -85,7 +85,7 @@
 [ext_resource type="Texture2D" uid="uid://di3f28rwh0m4c" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/plaquerobot.png" id="83"]
 [ext_resource type="Texture2D" uid="uid://b2vc21qtb3yu6" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/plaqueconsolee.png" id="84"]
 [ext_resource type="Texture2D" uid="uid://cd2e4mxfnxy5x" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/hand_sign.png" id="85"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="86"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="86"]
 [ext_resource type="Resource" uid="uid://fhximk2n1c2f" path="res://acts/full_game/conclusion_arc/museum/puzzles/comic_puzzle_meta.tres" id="87"]
 [ext_resource type="Texture2D" uid="uid://djhydnmg71eyl" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/plaqueship.png" id="88"]
 [ext_resource type="Texture2D" uid="uid://bpbg2yum47qde" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/plaqueearrior.png" id="89"]
@@ -413,13 +413,13 @@ location_meta = ExtResource("2")
 position = Vector2(890, 719)
 sprite_frames = SubResource("SpriteFrames_qy1ys")
 autoplay = "default"
-frame_progress = 0.011143599636852741
+frame_progress = 0.0111436
 
 [node name="AureliaAnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(1273, 522)
 sprite_frames = SubResource("SpriteFrames_fwhd2")
 autoplay = "default"
-frame_progress = 0.7792850136756897
+frame_progress = 0.779285
 
 [node name="SuitcaseSprite" type="Sprite2D" parent="."]
 position = Vector2(1096, 813)
@@ -442,10 +442,10 @@ hotspot_id = "Ppn"
 unlocked_item_ref_id = 746
 
 [node name="Indicators" parent="Hotspots/AutomatonSpot" index="0"]
-offset_left = 9.083919525146484
-offset_top = 124.4229965209961
-offset_right = 9.083919525146484
-offset_bottom = 124.4229965209961
+offset_left = 9.08392
+offset_top = 124.423
+offset_right = 9.08392
+offset_bottom = 124.423
 
 [node name="Highlighter" parent="Hotspots/AutomatonSpot/Indicators" index="0"]
 modulate = Color(1, 0.46302, 0.974022, 1)
@@ -472,7 +472,7 @@ offset_left = 221.0
 offset_top = 168.0
 offset_right = 813.0
 offset_bottom = 446.0
-rotation = 0.06632500141859055
+rotation = 0.066325
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
 text = "MUSEUM_LAW_AUTOMATON_TOOLTIP"
@@ -491,15 +491,15 @@ hotspot_id = "6AH"
 unlocked_item_ref_id = 1067
 
 [node name="Indicators" parent="Hotspots/ConsoleSpot" index="0"]
-offset_left = -5.273190021514893
-offset_top = 142.48399353027344
-offset_right = -5.273190021514893
-offset_bottom = 142.48399353027344
+offset_left = -5.27319
+offset_top = 142.484
+offset_right = -5.27319
+offset_bottom = 142.484
 
 [node name="Highlighter" parent="Hotspots/ConsoleSpot/Indicators" index="0"]
 modulate = Color(0.483925, 0.911137, 0.638419, 1)
 position = Vector2(14.5096, -22.8453)
-frame_progress = 0.4071210026741028
+frame_progress = 0.407121
 
 [node name="FocusIndicator" parent="Hotspots/ConsoleSpot/Indicators" index="1"]
 position = Vector2(15.5096, -18.8453)
@@ -518,11 +518,11 @@ texture = ExtResource("84")
 
 [node name="PlaqueLabel" type="Label" parent="Hotspots/ConsoleSpot/ConsolePanel"]
 layout_mode = 0
-offset_left = 126.20500183105469
-offset_top = 66.22460174560547
-offset_right = 687.2050170898438
-offset_bottom = 224.22500610351563
-rotation = 0.07169900089502335
+offset_left = 126.205
+offset_top = 66.2246
+offset_right = 687.205
+offset_bottom = 224.225
+rotation = 0.071699
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "MUSEUM_ENTERTAINMENT_CONSOLE_TOOLTIP"
 horizontal_alignment = 1
@@ -531,16 +531,16 @@ autowrap_mode = 3
 
 [node name="NoteSprite" type="Sprite2D" parent="Hotspots/ConsoleSpot/ConsolePanel"]
 position = Vector2(383.368, 297.021)
-rotation = 0.024426400661468506
+rotation = 0.0244264
 texture = ExtResource("85")
 
 [node name="NoteLabel" type="Label" parent="Hotspots/ConsoleSpot/ConsolePanel"]
 layout_mode = 0
-offset_left = 252.41200256347656
-offset_top = 219.8679962158203
-offset_right = 632.4119873046875
-offset_bottom = 356.8680114746094
-rotation = 0.06793549656867981
+offset_left = 252.412
+offset_top = 219.868
+offset_right = 632.412
+offset_bottom = 356.868
+rotation = 0.0679355
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
 text = "MUSEUM_CHILDREN_WARNING"
@@ -559,25 +559,25 @@ hotspot_id = "qhz"
 extra_items_unlocked = [SubResource("Resource_kkvuf"), SubResource("Resource_gu3yy"), SubResource("Resource_tgs84"), SubResource("Resource_m86lu")]
 
 [node name="Indicators" parent="Hotspots/CaseSpot" index="0"]
-offset_left = -22.388999938964844
-offset_top = 72.24549865722656
-offset_right = -22.388999938964844
-offset_bottom = 72.24549865722656
+offset_left = -22.389
+offset_top = 72.2455
+offset_right = -22.389
+offset_bottom = 72.2455
 
 [node name="Highlighter" parent="Hotspots/CaseSpot/Indicators" index="0"]
 modulate = Color(0.377864, 0.726796, 0.468948, 1)
 position = Vector2(2.49037, -37.8966)
-frame_progress = 0.6371240019798279
+frame_progress = 0.637124
 
 [node name="FocusIndicator" parent="Hotspots/CaseSpot/Indicators" index="1"]
 position = Vector2(3.49037, -33.8966)
 
 [node name="CasePanel" parent="Hotspots/CaseSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/case_panel.tscn"]
 layout_mode = 0
-offset_left = -584.9390258789063
-offset_top = 582.9810180664063
-offset_right = 39.060699462890625
-offset_bottom = 1271.97998046875
+offset_left = -584.939
+offset_top = 582.981
+offset_right = 39.0607
+offset_bottom = 1271.98
 
 [node name="IdolSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -590,25 +590,25 @@ hotspot_id = "DDD"
 extra_items_unlocked = [SubResource("Resource_311nv"), SubResource("Resource_y3qvb")]
 
 [node name="Indicators" parent="Hotspots/IdolSpot" index="0"]
-offset_left = 13.242899894714355
-offset_top = 158.53900146484375
-offset_right = 13.242899894714355
-offset_bottom = 158.53900146484375
+offset_left = 13.2429
+offset_top = 158.539
+offset_right = 13.2429
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/IdolSpot/Indicators" index="0"]
 modulate = Color(0.468, 0.72, 0.5604, 1)
 position = Vector2(26.5289, -0.770761)
-frame_progress = 0.09980359673500061
+frame_progress = 0.0998036
 
 [node name="FocusIndicator" parent="Hotspots/IdolSpot/Indicators" index="1"]
 position = Vector2(27.5289, 3.22924)
 
 [node name="IdolPanel" parent="Hotspots/IdolSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/idol_panel.tscn"]
 layout_mode = 0
-offset_left = -1470.3599853515625
-offset_top = 665.260009765625
-offset_right = -710.3610229492188
-offset_bottom = 1469.260009765625
+offset_left = -1470.36
+offset_top = 665.26
+offset_right = -710.361
+offset_bottom = 1469.26
 
 [node name="JackNowakSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -620,25 +620,25 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "ZBO"
 
 [node name="Indicators" parent="Hotspots/JackNowakSpot" index="0"]
-offset_left = -31.93720054626465
-offset_top = 106.36100006103516
-offset_right = -31.93720054626465
-offset_bottom = 106.36100006103516
+offset_left = -31.9372
+offset_top = 106.361
+offset_right = -31.9372
+offset_bottom = 106.361
 
 [node name="Highlighter" parent="Hotspots/JackNowakSpot/Indicators" index="0"]
 modulate = Color(0.716157, 0.675472, 0.769944, 1)
 position = Vector2(-14.0001, 18.2948)
-frame_progress = 0.3586460053920746
+frame_progress = 0.358646
 
 [node name="FocusIndicator" parent="Hotspots/JackNowakSpot/Indicators" index="1"]
 position = Vector2(-13.0001, 22.2948)
 
 [node name="JackPanel" parent="Hotspots/JackNowakSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/jack_panel.tscn"]
 layout_mode = 0
-offset_left = -845.3579711914063
-offset_top = -1383.699951171875
-offset_right = 72.64230346679688
-offset_bottom = -770.7020263671875
+offset_left = -845.358
+offset_top = -1383.7
+offset_right = 72.6423
+offset_bottom = -770.702
 
 [node name="GuardSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -651,21 +651,21 @@ hotspot_id = "mGb"
 extra_items_unlocked = [SubResource("Resource_3i8ym"), SubResource("Resource_x5e3i")]
 
 [node name="Indicators" parent="Hotspots/GuardSpot" index="0"]
-offset_left = 10.720399856567383
-offset_top = 158.53900146484375
-offset_right = 10.720399856567383
-offset_bottom = 158.53900146484375
+offset_left = 10.7204
+offset_top = 158.539
+offset_right = 10.7204
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/GuardSpot/Indicators" index="0"]
 modulate = Color(0.668629, 0.668629, 0.668629, 1)
-frame_progress = 0.7827140092849731
+frame_progress = 0.782714
 
 [node name="GuardPanel" parent="Hotspots/GuardSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/guard_panel.tscn"]
 layout_mode = 0
-offset_left = -200.32200622558594
-offset_top = 786.6729736328125
-offset_right = 600.6810302734375
-offset_bottom = 1399.6600341796875
+offset_left = -200.322
+offset_top = 786.673
+offset_right = 600.681
+offset_bottom = 1399.66
 
 [node name="CrystalSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -678,17 +678,17 @@ hotspot_id = "hiG"
 unlocked_puzzles = [ExtResource("87")]
 
 [node name="Indicators" parent="Hotspots/CrystalSpot" index="0"]
-offset_left = -2.808609962463379
-offset_top = 228.77699279785156
-offset_right = -2.808609962463379
-offset_bottom = 228.77699279785156
+offset_left = -2.80861
+offset_top = 228.777
+offset_right = -2.80861
+offset_bottom = 228.777
 
 [node name="CrystalPanel" parent="Hotspots/CrystalSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/crystal_panel.tscn"]
 layout_mode = 0
-offset_left = 599.9639892578125
-offset_top = 1165.9599609375
-offset_right = 1498.9599609375
-offset_bottom = 2078.9599609375
+offset_left = 599.964
+offset_top = 1165.96
+offset_right = 1498.96
+offset_bottom = 2078.96
 
 [node name="DiskSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -701,25 +701,25 @@ hotspot_id = "tnQ"
 unlocked_item_ref_id = 1043
 
 [node name="Indicators" parent="Hotspots/DiskSpot" index="0"]
-offset_left = -11.424400329589844
-offset_top = 48.163700103759766
-offset_right = -11.424400329589844
-offset_bottom = 48.163700103759766
+offset_left = -11.4244
+offset_top = 48.1637
+offset_right = -11.4244
+offset_bottom = 48.1637
 
 [node name="Highlighter" parent="Hotspots/DiskSpot/Indicators" index="0"]
 modulate = Color(1, 0.709804, 0.976471, 1)
 position = Vector2(1.49677, -19.8353)
-frame_progress = 0.7198150157928467
+frame_progress = 0.719815
 
 [node name="FocusIndicator" parent="Hotspots/DiskSpot/Indicators" index="1"]
 position = Vector2(2.49677, -15.8353)
 
 [node name="DiskPanel" parent="Hotspots/DiskSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/disk_panel.tscn"]
 layout_mode = 0
-offset_left = 1424.2900390625
-offset_top = 922.1329956054688
-offset_right = 2064.2900390625
-offset_bottom = 1679.1400146484375
+offset_left = 1424.29
+offset_top = 922.133
+offset_right = 2064.29
+offset_bottom = 1679.14
 
 [node name="AircraftSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -732,10 +732,10 @@ hotspot_id = "dl-"
 extra_items_unlocked = [SubResource("Resource_2sqnd"), SubResource("Resource_ffwyx"), SubResource("Resource_skjid")]
 
 [node name="Indicators" parent="Hotspots/AircraftSpot" index="0"]
-offset_left = -65.49490356445313
-offset_top = 268.91400146484375
-offset_right = -65.49490356445313
-offset_bottom = 268.91400146484375
+offset_left = -65.4949
+offset_top = 268.914
+offset_right = -65.4949
+offset_bottom = 268.914
 
 [node name="Highlighter" parent="Hotspots/AircraftSpot/Indicators" index="0"]
 modulate = Color(0.974731, 0.555146, 1.96332e-06, 1)
@@ -754,11 +754,11 @@ texture = ExtResource("88")
 
 [node name="PlaqueLabel" type="Label" parent="Hotspots/AircraftSpot/AircraftPanel"]
 layout_mode = 0
-offset_left = 214.98199462890625
-offset_top = 164.99200439453125
-offset_right = 813.9819946289063
-offset_bottom = 436.99200439453125
-rotation = 0.0671147033572197
+offset_left = 214.982
+offset_top = 164.992
+offset_right = 813.982
+offset_bottom = 436.992
+rotation = 0.0671147
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "MUSEUM_AIRCRAFT_TOOLTIP"
 horizontal_alignment = 1
@@ -776,25 +776,25 @@ hotspot_id = "RUT"
 extra_items_unlocked = [SubResource("Resource_fv61y"), SubResource("Resource_amkl1")]
 
 [node name="Indicators" parent="Hotspots/MuseumDirectorSpot" index="0"]
-offset_left = 31.163999557495117
-offset_top = 84.28630065917969
-offset_right = 31.163999557495117
-offset_bottom = 84.28630065917969
+offset_left = 31.164
+offset_top = 84.2863
+offset_right = 31.164
+offset_bottom = 84.2863
 
 [node name="Highlighter" parent="Hotspots/MuseumDirectorSpot/Indicators" index="0"]
 modulate = Color(1, 0.321569, 0.294118, 1)
 position = Vector2(-15.0258, -14.9864)
-frame_progress = 0.9710749983787537
+frame_progress = 0.971075
 
 [node name="FocusIndicator" parent="Hotspots/MuseumDirectorSpot/Indicators" index="1"]
 position = Vector2(-14.0258, -10.9864)
 
 [node name="MuseumDirectorPanel" parent="Hotspots/MuseumDirectorSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/museum_director_panel.tscn"]
 layout_mode = 0
-offset_left = 117.18800354003906
+offset_left = 117.188
 offset_top = -1323.5
-offset_right = 980.18798828125
-offset_bottom = -790.4970092773438
+offset_right = 980.188
+offset_bottom = -790.497
 
 [node name="GunSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -806,25 +806,25 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "cmi"
 
 [node name="Indicators" parent="Hotspots/GunSpot" index="0"]
-offset_left = -2.4099299907684326
-offset_top = 59.20109939575195
-offset_right = -2.4099299907684326
-offset_bottom = 59.20109939575195
+offset_left = -2.40993
+offset_top = 59.2011
+offset_right = -2.40993
+offset_bottom = 59.2011
 
 [node name="Highlighter" parent="Hotspots/GunSpot/Indicators" index="0"]
 modulate = Color(0.430603, 0.833638, 0.791505, 1)
 position = Vector2(12.0193, -9.03064)
-frame_progress = 0.9386410117149353
+frame_progress = 0.938641
 
 [node name="FocusIndicator" parent="Hotspots/GunSpot/Indicators" index="1"]
 position = Vector2(10.5016, -3.79426)
 
 [node name="GunPanel" parent="Hotspots/GunSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/gun_panel.tscn"]
 layout_mode = 0
-offset_left = 830.3330078125
-offset_top = 67.22840118408203
-offset_right = 1379.3299560546875
-offset_bottom = 326.2279968261719
+offset_left = 830.333
+offset_top = 67.2284
+offset_right = 1379.33
+offset_bottom = 326.228
 
 [node name="StatueSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -837,10 +837,10 @@ hotspot_id = "a-r"
 extra_items_unlocked = [SubResource("Resource_5qb58"), SubResource("Resource_bpirm")]
 
 [node name="Indicators" parent="Hotspots/StatueSpot" index="0"]
-offset_left = 15.620699882507324
-offset_top = 251.8560028076172
-offset_right = 15.620699882507324
-offset_bottom = 251.8560028076172
+offset_left = 15.6207
+offset_top = 251.856
+offset_right = 15.6207
+offset_bottom = 251.856
 
 [node name="Highlighter" parent="Hotspots/StatueSpot/Indicators" index="0"]
 modulate = Color(1, 0.709804, 0.976471, 1)
@@ -859,15 +859,15 @@ texture = ExtResource("89")
 
 [node name="Node2D" type="Node2D" parent="Hotspots/StatueSpot/StatuePanel"]
 position = Vector2(164.254, 61.2543)
-rotation = -0.26409900188446045
-skew = 0.5235990285873413
+rotation = -0.264099
+skew = 0.523599
 
 [node name="PlaqueLabel" type="Label" parent="Hotspots/StatueSpot/StatuePanel/Node2D"]
-offset_left = 166.25599670410156
-offset_top = 240.4949951171875
-offset_right = 669.2559814453125
-offset_bottom = 467.4949951171875
-rotation = -0.03850410133600235
+offset_left = 166.256
+offset_top = 240.495
+offset_right = 669.256
+offset_bottom = 467.495
+rotation = -0.0385041
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "MUSEUM_WARRIOR_TOOLTIP"
 horizontal_alignment = 1
@@ -885,25 +885,25 @@ hotspot_id = "elU"
 extra_items_unlocked = [SubResource("Resource_f7apy")]
 
 [node name="Indicators" parent="Hotspots/DisplayBrokenSpot" index="0"]
-offset_left = 9.236419677734375
-offset_top = 127.43299865722656
-offset_right = 9.236419677734375
-offset_bottom = 127.43299865722656
+offset_left = 9.23642
+offset_top = 127.433
+offset_right = 9.23642
+offset_bottom = 127.433
 
 [node name="Highlighter" parent="Hotspots/DisplayBrokenSpot/Indicators" index="0"]
 modulate = Color(0.0792074, 0.208312, 0.184385, 1)
 position = Vector2(-33.6061, -50.9409)
-frame_progress = 0.1082950010895729
+frame_progress = 0.108295
 
 [node name="FocusIndicator" parent="Hotspots/DisplayBrokenSpot/Indicators" index="1"]
 position = Vector2(-32.6061, -46.9409)
 
 [node name="DisplayBrokenPanel" parent="Hotspots/DisplayBrokenSpot" instance_placeholder="res://acts/full_game/conclusion_arc/museum/assets/closeups/display_broken_panel.tscn"]
 layout_mode = 0
-offset_left = 660.0599975585938
-offset_top = -318.08099365234375
-offset_right = 1570.06005859375
-offset_bottom = 192.91900634765625
+offset_left = 660.06
+offset_top = -318.081
+offset_right = 1570.06
+offset_bottom = 192.919
 
 [node name="TankSpot" parent="Hotspots" instance=ExtResource("82")]
 layout_mode = 1
@@ -916,10 +916,10 @@ hotspot_id = "abJ"
 unlocked_item_ref_id = 1061
 
 [node name="Indicators" parent="Hotspots/TankSpot" index="0"]
-offset_left = -13.885700225830078
-offset_top = 105.35800170898438
-offset_right = -13.885700225830078
-offset_bottom = 105.35800170898438
+offset_left = -13.8857
+offset_top = 105.358
+offset_right = -13.8857
+offset_bottom = 105.358
 
 [node name="Highlighter" parent="Hotspots/TankSpot/Indicators" index="0"]
 modulate = Color(1, 0.319974, 0.293297, 1)
@@ -946,7 +946,7 @@ offset_left = 218.0
 offset_top = 145.0
 offset_right = 816.0
 offset_bottom = 455.0
-rotation = 0.0771510973572731
+rotation = 0.0771511
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "MUSEUM_TANK_TOOLTIP"
 horizontal_alignment = 1

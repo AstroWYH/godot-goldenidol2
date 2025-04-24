@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://dmuuj8tbpnsdv"]
+[gd_scene load_steps=2 format=3 uid="uid://dmuuj8tbpnsdv"]
 
 [ext_resource type="Texture2D" uid="uid://b6fqrdvrojuqp" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/burka-export.png" id="1"]
 

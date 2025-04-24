@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://d2f3jyyi7a23f"]
+[gd_scene load_steps=4 format=3 uid="uid://d2f3jyyi7a23f"]
 
 [ext_resource type="Texture2D" uid="uid://dkjls38ersabv" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/cabin03.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=113 format=4 uid="uid://diem1oabl5kgs"]
+[gd_scene load_steps=113 format=3 uid="uid://diem1oabl5kgs"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://0r62namxi2mt" path="res://acts/full_game/conclusion_arc/finale/locations/harmony_location.tres" id="2"]
 [ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="3"]
 [ext_resource type="Texture2D" uid="uid://dnugplo1vuqlw" path="res://shared/assets/textures/snow_particle.png" id="4"]
@@ -455,13 +455,13 @@ texture = ExtResource("5")
 position = Vector2(181, 555)
 sprite_frames = SubResource("SpriteFrames_gssvb")
 autoplay = "default"
-frame_progress = 0.2504560053348541
+frame_progress = 0.250456
 
 [node name="AnimatedGuardSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(77, 544)
 sprite_frames = SubResource("SpriteFrames_acju3")
 autoplay = "default"
-frame_progress = 0.25383201241493225
+frame_progress = 0.253832
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -472,7 +472,7 @@ offset_bottom = 40.0
 [node name="ToMap" parent="Hotspots" instance=ExtResource("106")]
 layout_mode = 1
 offset_left = 19.0
-offset_top = 9.000029563903809
+offset_top = 9.00003
 offset_right = 1669.0
 offset_bottom = 188.0
 scale = Vector2(0.998394, 0.996602)
@@ -481,15 +481,15 @@ hotspot_type = 2
 target_location_meta = ExtResource("107")
 
 [node name="Indicators" parent="Hotspots/ToMap" index="0"]
-offset_left = -13.8149995803833
-offset_top = 40.13639831542969
-offset_right = -13.8149995803833
-offset_bottom = 40.13639831542969
+offset_left = -13.815
+offset_top = 40.1364
+offset_right = -13.815
+offset_bottom = 40.1364
 
 [node name="Highlighter" parent="Hotspots/ToMap/Indicators" index="0"]
 modulate = Color(0.345946, 0.345946, 0.345946, 1)
 position = Vector2(13.508, 70.4716)
-frame_progress = 0.016017699614167213
+frame_progress = 0.0160177
 
 [node name="FocusIndicator" parent="Hotspots/ToMap/Indicators" index="1"]
 visible = false
@@ -505,15 +505,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "_jT"
 
 [node name="Indicators" parent="Hotspots/Garden" index="0"]
-offset_left = -13.8149995803833
-offset_top = 40.13639831542969
-offset_right = -13.8149995803833
-offset_bottom = 40.13639831542969
+offset_left = -13.815
+offset_top = 40.1364
+offset_right = -13.815
+offset_bottom = 40.1364
 
 [node name="Highlighter" parent="Hotspots/Garden/Indicators" index="0"]
 modulate = Color(0.345946, 0.345946, 0.345946, 1)
 position = Vector2(13.508, 70.4716)
-frame_progress = 0.016017699614167213
+frame_progress = 0.0160177
 
 [node name="FocusIndicator" parent="Hotspots/Garden/Indicators" index="1"]
 visible = false
@@ -536,15 +536,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "2pt"
 
 [node name="Indicators" parent="Hotspots/TimSpenderCloseupSpot" index="0"]
-offset_left = 3.601370096206665
-offset_top = 64.21820068359375
-offset_right = 3.601370096206665
-offset_bottom = 64.21820068359375
+offset_left = 3.60137
+offset_top = 64.2182
+offset_right = 3.60137
+offset_bottom = 64.2182
 
 [node name="Highlighter" parent="Hotspots/TimSpenderCloseupSpot/Indicators" index="0"]
 modulate = Color(0.851769, 0.851769, 0.851769, 1)
 position = Vector2(24.5257, -10.8046)
-frame_progress = 0.07622110098600388
+frame_progress = 0.0762211
 
 [node name="FocusIndicator" parent="Hotspots/TimSpenderCloseupSpot/Indicators" index="1"]
 position = Vector2(25.5257, -6.80458)
@@ -552,9 +552,9 @@ position = Vector2(25.5257, -6.80458)
 [node name="SpenderCloseupPanel" parent="Hotspots/TimSpenderCloseupSpot" instance=ExtResource("109")]
 layout_mode = 0
 offset_left = 0.0
-offset_top = -1240.2099609375
+offset_top = -1240.21
 offset_right = 827.0
-offset_bottom = -625.2139892578125
+offset_bottom = -625.214
 
 [node name="IdolRoomSpot" parent="Hotspots" instance=ExtResource("106")]
 layout_mode = 1
@@ -566,10 +566,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "LzJ"
 
 [node name="Indicators" parent="Hotspots/IdolRoomSpot" index="0"]
-offset_left = 22.208999633789063
-offset_top = 72.24549865722656
-offset_right = 22.208999633789063
-offset_bottom = 72.24549865722656
+offset_left = 22.209
+offset_top = 72.2455
+offset_right = 22.209
+offset_bottom = 72.2455
 
 [node name="Highlighter" parent="Hotspots/IdolRoomSpot/Indicators" index="0"]
 modulate = Color(0.85098, 0.85098, 0.85098, 1)

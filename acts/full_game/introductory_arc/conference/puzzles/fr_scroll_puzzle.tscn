@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://dql58cnn728j7"]
+[gd_scene load_steps=6 format=3 uid="uid://dql58cnn728j7"]
 
 [ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="1"]
 [ext_resource type="Resource" uid="uid://cjsi71jbbttp2" path="res://acts/full_game/introductory_arc/conference/puzzles/conference_interview_puzzle_meta.tres" id="2"]

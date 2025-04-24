@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://cfltvxkkpk61t"]
+[gd_scene load_steps=5 format=3 uid="uid://cfltvxkkpk61t"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dwu7nei8ics1d" path="res://acts/full_game/conclusion_arc/hub/assets/moodboard.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://d0r5ly7sn32tw" path="res://shared/assets/papers/Noradijumlapina.png" id="3"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="4"]
@@ -83,7 +83,7 @@ offset_left = 758.0
 offset_top = 93.0
 offset_right = 1048.0
 offset_bottom = 707.0
-rotation = 0.16472700238227844
+rotation = 0.164727
 
 [node name="Title1" type="RichTextLabel" parent="NotesPanel/VBoxContainer2"]
 custom_minimum_size = Vector2(0, 60)

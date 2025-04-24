@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://qw1plpa6xn6m"]
+[gd_scene load_steps=16 format=3 uid="uid://qw1plpa6xn6m"]
 
 [ext_resource type="Texture2D" uid="uid://dc5a0a7rjk127" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/money.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dyh3l2652kmu2" path="res://acts/full_game/reconstruction_arc/burning_man/assets/portraits/professor/professor_000.png" id="2"]
@@ -69,7 +69,7 @@ texture = ExtResource("1")
 position = Vector2(178, 279)
 sprite_frames = SubResource("SpriteFrames_edl55")
 autoplay = "default"
-frame_progress = 0.5303469896316528
+frame_progress = 0.530347
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

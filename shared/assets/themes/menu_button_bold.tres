@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=9 format=4 uid="uid://by4437cp123f0"]
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://by4437cp123f0"]
 
 [ext_resource type="FontFile" uid="uid://b2rnn5x45vpmp" path="res://shared/assets/fonts/WC_RoughTrad.ttf" id="1"]
 [ext_resource type="Texture2D" uid="uid://ywkwqktgq5e3" path="res://shared/assets/frames/frame_panel_grey.png" id="2"]

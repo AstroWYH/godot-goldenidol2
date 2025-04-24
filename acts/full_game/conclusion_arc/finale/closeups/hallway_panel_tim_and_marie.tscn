@@ -1,4 +1,4 @@
-[gd_scene load_steps=123 format=4 uid="uid://bkx4gwmepeyrt"]
+[gd_scene load_steps=123 format=3 uid="uid://bkx4gwmepeyrt"]
 
 [ext_resource type="Texture2D" uid="uid://dbqx0th88nlx3" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/tvcoridor.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://51wlwkrqqko6" path="res://acts/full_game/conclusion_arc/finale/assets/animations/TimMarieCloseup/CloseUp_TVStation_00000.png" id="2"]
@@ -483,7 +483,7 @@ position = Vector2(74.1189, 67.2285)
 sprite_frames = SubResource("SpriteFrames_q4ats")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.6868699789047241
+frame_progress = 0.68687
 
 [node name="WestlakeSpot" parent="." instance=ExtResource("38")]
 layout_mode = 1
@@ -495,15 +495,15 @@ scale = Vector2(1, 0.999)
 hotspot_id = "If7"
 
 [node name="Indicators" parent="WestlakeSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="WestlakeSpot/Indicators" index="0"]
 modulate = Color(0.93192, 0.703114, 0.378749, 1)
 position = Vector2(-106.044, 188.877)
-frame_progress = 0.47025400400161743
+frame_progress = 0.470254
 
 [node name="FocusIndicator" parent="WestlakeSpot/Indicators" index="1"]
 visible = false
@@ -512,14 +512,14 @@ position = Vector2(-105.044, 192.877)
 [node name="WestlakePanel" type="Panel" parent="WestlakeSpot"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = -0.2029999941587448
-anchor_top = 0.1979999989271164
-anchor_right = -0.2029999941587448
-anchor_bottom = 0.1979999989271164
-offset_left = -199.09300231933594
-offset_top = -768.1400146484375
-offset_right = 433.9070129394531
-offset_bottom = -302.1400146484375
+anchor_left = -0.203
+anchor_top = 0.198
+anchor_right = -0.203
+anchor_bottom = 0.198
+offset_left = -199.093
+offset_top = -768.14
+offset_right = 433.907
+offset_bottom = -302.14
 
 [node name="WestlakeSpeech" type="Label" parent="WestlakeSpot/WestlakePanel"]
 layout_mode = 0
@@ -539,7 +539,7 @@ sprite_frames = SubResource("SpriteFrames_7raeu")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame = 33
-frame_progress = 0.5508440136909485
+frame_progress = 0.550844
 flip_h = true
 
 [node name="A4LaminatedIco" type="Sprite2D" parent="WestlakeSpot/WestlakePanel"]
@@ -557,10 +557,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "EwL"
 
 [node name="Indicators" parent="WestlakeSpot/WestlakePanel/MovementProtocol" index="0"]
-offset_left = 0.3666920065879822
-offset_top = 11.073699951171875
-offset_right = 0.3666920065879822
-offset_bottom = 11.073699951171875
+offset_left = 0.366692
+offset_top = 11.0737
+offset_right = 0.366692
+offset_bottom = 11.0737
 
 [node name="Highlighter" parent="WestlakeSpot/WestlakePanel/MovementProtocol/Indicators" index="0"]
 modulate = Color(0.795151, 0.778354, 0.690493, 1)
@@ -571,10 +571,10 @@ position = Vector2(-16.0579, 3.14111)
 
 [node name="MovementProtocolPanel2" type="Panel" parent="WestlakeSpot/WestlakePanel/MovementProtocol"]
 layout_mode = 0
-offset_left = -36.11600112915039
-offset_top = -1227.3299560546875
-offset_right = 661.8839721679688
-offset_bottom = -313.3280029296875
+offset_left = -36.116
+offset_top = -1227.33
+offset_right = 661.884
+offset_bottom = -313.328
 
 [node name="ProtocolSprite" type="TextureRect" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2"]
 modulate = Color(0.921569, 0.94902, 0.741176, 1)
@@ -594,7 +594,7 @@ stretch_mode = 1
 [node name="TextureRect" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(475.562, 218.54)
-rotation = 0.12974399328231812
+rotation = 0.129744
 texture = ExtResource("78")
 region_enabled = true
 region_rect = Rect2(211.421, 0, 388.579, 230.024)
@@ -602,7 +602,7 @@ region_rect = Rect2(211.421, 0, 388.579, 230.024)
 [node name="TextureRect2" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(240.808, 420.913)
-rotation = 3.162869930267334
+rotation = 3.16287
 texture = ExtResource("78")
 region_enabled = true
 region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
@@ -610,7 +610,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect3" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(445.465, 469.241)
-rotation = 0.048663098365068436
+rotation = 0.0486631
 texture = ExtResource("78")
 region_enabled = true
 region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
@@ -618,7 +618,7 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect4" type="Sprite2D" parent="WestlakeSpot/WestlakePanel/MovementProtocol/MovementProtocolPanel2/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(233.786, 788.406)
-rotation = 3.144789934158325
+rotation = 3.14479
 scale = Vector2(1.23265, 1)
 texture = ExtResource("78")
 region_enabled = true
@@ -901,15 +901,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "cNY"
 
 [node name="Indicators" parent="SpenderSpot" index="0"]
-offset_left = 9.48643970489502
-offset_top = 5.825439929962158
-offset_right = 9.48643970489502
-offset_bottom = 5.825439929962158
+offset_left = 9.48644
+offset_top = 5.82544
+offset_right = 9.48644
+offset_bottom = 5.82544
 
 [node name="Highlighter" parent="SpenderSpot/Indicators" index="0"]
 modulate = Color(0.82, 0.76465, 0.451, 1)
 position = Vector2(65.1882, 143.19)
-frame_progress = 0.5492619872093201
+frame_progress = 0.549262
 
 [node name="FocusIndicator" parent="SpenderSpot/Indicators" index="1"]
 visible = false
@@ -917,10 +917,10 @@ position = Vector2(66.1882, 147.19)
 
 [node name="SpenderPanel" type="Panel" parent="SpenderSpot"]
 layout_mode = 0
-offset_left = 290.9939880371094
-offset_top = -648.6099853515625
-offset_right = 927.9929809570313
-offset_bottom = -203.61000061035156
+offset_left = 290.994
+offset_top = -648.61
+offset_right = 927.993
+offset_bottom = -203.61
 
 [node name="SpenderSpeech" type="Label" parent="SpenderSpot/SpenderPanel"]
 layout_mode = 0
@@ -940,19 +940,19 @@ texture = ExtResource("83")
 
 [node name="BottleSpot" parent="SpenderSpot/SpenderPanel" instance=ExtResource("38")]
 layout_mode = 1
-offset_left = 87.60150146484375
-offset_top = 204.14599609375
-offset_right = -402.39801025390625
-offset_bottom = -58.854698181152344
+offset_left = 87.6015
+offset_top = 204.146
+offset_right = -402.398
+offset_bottom = -58.8547
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "ZRN"
 text = "FINALE_PERFUME_TOOLTIP"
 
 [node name="Indicators" parent="SpenderSpot/SpenderPanel/BottleSpot" index="0"]
-offset_left = 0.3666920065879822
-offset_top = 11.073699951171875
-offset_right = 0.3666920065879822
-offset_bottom = 11.073699951171875
+offset_left = 0.366692
+offset_top = 11.0737
+offset_right = 0.366692
+offset_bottom = 11.0737
 
 [node name="Highlighter" parent="SpenderSpot/SpenderPanel/BottleSpot/Indicators" index="0"]
 modulate = Color(0.792157, 0.368627, 0.784314, 1)
@@ -969,7 +969,7 @@ sprite_frames = SubResource("SpriteFrames_mnbup")
 animation = &"JacketLoop"
 autoplay = "JacketLoop"
 frame = 18
-frame_progress = 0.10275500267744064
+frame_progress = 0.102755
 
 [editable path="WestlakeSpot"]
 [editable path="WestlakeSpot/WestlakePanel/MovementProtocol"]

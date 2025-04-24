@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=4 uid="uid://cs5ofb635llli"]
+[gd_scene load_steps=44 format=3 uid="uid://cs5ofb635llli"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://co57vjwlfpfhr" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/tickettstub.png" id="2"]
@@ -38,7 +38,7 @@
 [ext_resource type="Texture2D" uid="uid://cskhp8ya73v75" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_031.png" id="36"]
 [ext_resource type="Texture2D" uid="uid://cyaqyypwqtu5i" path="res://acts/full_game/colecting_parts_arc/drivein/assets/portraits/jenny_chenn/jenny_chen_032.png" id="37"]
 [ext_resource type="Texture2D" uid="uid://bnx48ah7xftmt" path="res://acts/full_game/colecting_parts_arc/drivein/assets/notetojenny_small.png" id="38"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="39"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="39"]
 [ext_resource type="Texture2D" uid="uid://bxwo6iigfd6v4" path="res://acts/full_game/colecting_parts_arc/drivein/assets/notetojenny.png" id="40"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_elsfc"]
@@ -174,13 +174,13 @@ autowrap_mode = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(179, 203)
-rotation = -0.09557080268859863
+rotation = -0.0955708
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="Sprite2D"]
-offset_left = -46.237098693847656
+offset_left = -46.2371
 offset_top = -11.25
-offset_right = -6.237060070037842
+offset_right = -6.23706
 offset_bottom = 21.75
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.332031, 0.246094, 0.125, 1)
@@ -207,11 +207,11 @@ position = Vector2(-112.5, 43.25)
 position = Vector2(486, 344)
 sprite_frames = SubResource("SpriteFrames_elsfc")
 autoplay = "default"
-frame_progress = 0.3450010120868683
+frame_progress = 0.345001
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 position = Vector2(178, 357)
-rotation = 0.06014209985733032
+rotation = 0.0601421
 texture = ExtResource("38")
 
 [node name="Spot" parent="." instance=ExtResource("4")]
@@ -233,7 +233,7 @@ offset_bottom = 9.0
 [node name="Highlighter" parent="Spot/Indicators" index="0"]
 modulate = Color(0.87014, 0.795245, 0.668595, 1)
 position = Vector2(15, 63.25)
-frame_progress = 0.792165994644165
+frame_progress = 0.792166
 
 [node name="FocusIndicator" parent="Spot/Indicators" index="1"]
 position = Vector2(16, 67.25)

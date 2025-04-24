@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://b3kqdvh2kk41u"]
+[gd_scene load_steps=3 format=3 uid="uid://b3kqdvh2kk41u"]
 
 [ext_resource type="PackedScene" uid="uid://bacg6tfi1o0ej" path="res://shared/ui/hints/hint_template.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://e2w65qle1mlb" path="res://shared/ui/hints/hint_library/finale_05.png" id="2"]

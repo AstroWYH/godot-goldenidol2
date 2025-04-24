@@ -1,4 +1,4 @@
-[gd_scene load_steps=49 format=4 uid="uid://wi6bvdy5t3u4"]
+[gd_scene load_steps=49 format=3 uid="uid://wi6bvdy5t3u4"]
 
 [ext_resource type="Texture2D" uid="uid://bijhnst6e8biy" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b7ekei8feasyw" path="res://shared/assets/portraits/mary_shirt/mary_shirt_00001.png" id="2"]
@@ -39,7 +39,7 @@
 [ext_resource type="Texture2D" uid="uid://b43287j1fidhs" path="res://shared/assets/papers/SmallNote_V2_ICO.png" id="37"]
 [ext_resource type="Texture2D" uid="uid://du87mipqsgb4s" path="res://shared/assets/papers/nametag_clean.png" id="38"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="39"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="40"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="40"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="41"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="42"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="43"]
@@ -181,10 +181,10 @@ offset_bottom = -573.0
 
 [node name="WestlakeSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 58.84000015258789
-offset_top = 34.91999816894531
-offset_right = 734.8400268554688
-offset_bottom = 151.9199981689453
+offset_left = 58.84
+offset_top = 34.92
+offset_right = 734.84
+offset_bottom = 151.92
 text = "BOARDROOM_MARIE_SPEECH"
 autowrap_mode = 3
 
@@ -193,7 +193,7 @@ position = Vector2(557.895, 341.92)
 sprite_frames = SubResource("SpriteFrames_jyjvf")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.371722012758255
+frame_progress = 0.371722
 
 [node name="NDASprite" type="Sprite2D" parent="."]
 position = Vector2(312.5, 450.53)
@@ -259,7 +259,7 @@ stretch_mode = 1
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(393.84, 102.92)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("42")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -267,7 +267,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="NDASpot/NDAPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(157.84, 630.92)
-rotation = 6.353240013122559
+rotation = 6.35324
 scale = Vector2(0.807298, 1)
 texture = ExtResource("42")
 region_enabled = true
@@ -275,10 +275,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="NDASpot/NDAPanel"]
 layout_mode = 0
-offset_left = 27.84000015258789
-offset_top = 24.920000076293945
-offset_right = 562.8400268554688
-offset_bottom = 749.9199829101563
+offset_left = 27.84
+offset_top = 24.92
+offset_right = 562.84
+offset_bottom = 749.92
 alignment = 1
 
 [node name="Body" type="Label" parent="NDASpot/NDAPanel/VBoxContainer"]

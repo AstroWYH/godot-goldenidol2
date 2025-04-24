@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://dnmbnoowmyt4p"]
+[gd_scene load_steps=6 format=3 uid="uid://dnmbnoowmyt4p"]
 
-[ext_resource type="Script" path="res://autoload/dev_tools/dev_tools.gd" id="1"]
+[ext_resource type="Script" uid="uid://c2fioncp0nwwh" path="res://autoload/dev_tools/dev_tools.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://bwojit06v682u" path="res://autoload/dev_tools/debug_label.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://dwe8nkax3alhx" path="res://autoload/dev_tools/collect_button.tscn" id="3"]
 [ext_resource type="PackedScene" uid="uid://bp3wpcjckn7i5" path="res://shared/ui/debug_language_switcher/debug_language_switcher.tscn" id="4"]

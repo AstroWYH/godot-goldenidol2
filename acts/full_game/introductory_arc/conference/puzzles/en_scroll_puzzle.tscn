@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=4 uid="uid://7sucfbuc5w0t"]
+[gd_scene load_steps=6 format=3 uid="uid://7sucfbuc5w0t"]
 
 [ext_resource type="PackedScene" uid="uid://bs2vanofl16u6" path="res://shared/ui/scroll_text/scroll_text.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://njuxxhce8e54" path="res://shared/puzzle/scroll_text_puzzle_component/scroll_text_puzzle_component.tscn" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=122 format=4 uid="uid://dig4kp0n4d7kk"]
+[gd_scene load_steps=122 format=3 uid="uid://dig4kp0n4d7kk"]
 
 [ext_resource type="Texture2D" uid="uid://ybj0lu2srsst" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dkxdbfsswigsa" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bathroom/bathroom_001.png" id="2"]
@@ -493,47 +493,47 @@ animations = [{
 }]
 
 [node name="JackPanel" type="Panel"]
-offset_left = -1416.27001953125
-offset_top = 1017.4600219726563
-offset_right = -859.2750244140625
-offset_bottom = 1539.4599609375
+offset_left = -1416.27
+offset_top = 1017.46
+offset_right = -859.275
+offset_bottom = 1539.46
 
 [node name="JackSprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(279.63, 254.71)
 sprite_frames = SubResource("SpriteFrames_mlg45")
 autoplay = "default"
 frame = 29
-frame_progress = 0.7542139887809753
+frame_progress = 0.754214
 
 [node name="MirrorSpot2" parent="." instance=ExtResource("40")]
 layout_mode = 1
-offset_left = 110.88300323486328
-offset_top = 40.2234001159668
-offset_right = -46.1171989440918
-offset_bottom = -221.77699279785156
+offset_left = 110.883
+offset_top = 40.2234
+offset_right = -46.1172
+offset_bottom = -221.777
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "eXE"
 
 [node name="Indicators" parent="MirrorSpot2" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="MirrorSpot2/Indicators" index="0"]
 modulate = Color(0.308216, 0.20637, 0.134066, 1)
 position = Vector2(41.4721, 29.5771)
-frame_progress = 0.8014460206031799
+frame_progress = 0.801446
 
 [node name="FocusIndicator" parent="MirrorSpot2/Indicators" index="1"]
 position = Vector2(42.4721, 33.5771)
 
 [node name="JackCloseupPanel" type="Panel" parent="MirrorSpot2"]
 layout_mode = 0
-offset_left = -1180.31005859375
-offset_top = 209.177001953125
-offset_right = -556.31298828125
-offset_bottom = 685.177001953125
+offset_left = -1180.31
+offset_top = 209.177
+offset_right = -556.313
+offset_bottom = 685.177
 
 [node name="JackSpeech" type="Label" parent="MirrorSpot2/JackCloseupPanel"]
 layout_mode = 0
@@ -551,6 +551,6 @@ position = Vector2(398.09, 234.745)
 sprite_frames = SubResource("SpriteFrames_opj2l")
 animation = &"JackLoop"
 autoplay = "JackLoop"
-frame_progress = 0.24837200343608856
+frame_progress = 0.248372
 
 [editable path="MirrorSpot2"]

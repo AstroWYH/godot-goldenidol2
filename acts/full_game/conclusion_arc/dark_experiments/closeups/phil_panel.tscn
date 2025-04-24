@@ -1,4 +1,4 @@
-[gd_scene load_steps=80 format=4 uid="uid://djukgi20qvkm2"]
+[gd_scene load_steps=80 format=3 uid="uid://djukgi20qvkm2"]
 
 [ext_resource type="Texture2D" uid="uid://su30kogjf0vj" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/newbe/newbe_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://spwq0thin704" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/newbe/newbe_001.png" id="2"]
@@ -322,10 +322,10 @@ animations = [{
 }]
 
 [node name="PhilPanel" type="Panel"]
-offset_left = -763.0040283203125
-offset_top = 1467.030029296875
-offset_right = 37.99209976196289
-offset_bottom = 2080.030029296875
+offset_left = -763.004
+offset_top = 1467.03
+offset_right = 37.9921
+offset_bottom = 2080.03
 
 [node name="Speech" type="Label" parent="."]
 layout_mode = 0
@@ -340,4 +340,4 @@ autowrap_mode = 3
 position = Vector2(244.275, 369.121)
 sprite_frames = SubResource("SpriteFrames_3hu6h")
 autoplay = "default"
-frame_progress = 0.8245429992675781
+frame_progress = 0.824543

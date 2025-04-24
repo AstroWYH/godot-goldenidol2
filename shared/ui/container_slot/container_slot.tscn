@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://fc07ol537geu"]
+[gd_scene load_steps=3 format=3 uid="uid://fc07ol537geu"]
 
-[ext_resource type="Script" path="res://shared/ui/container_slot/container_slot.gd" id="1"]
+[ext_resource type="Script" uid="uid://erasy6npfqk4" path="res://shared/ui/container_slot/container_slot.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="2"]
 
 [node name="ContainerSlot" type="ColorRect"]

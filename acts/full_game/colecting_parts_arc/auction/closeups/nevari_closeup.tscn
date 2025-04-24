@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://gdbl21qy0m1y"]
+[gd_scene load_steps=24 format=3 uid="uid://gdbl21qy0m1y"]
 
 [ext_resource type="Texture2D" uid="uid://dc5a0a7rjk127" path="res://acts/full_game/colecting_parts_arc/auction/assets/painted/money.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dvmg4mivvnwtr" path="res://acts/full_game/reconstruction_arc/eviction/assets/portraits/collector/collector_000.png" id="2"]

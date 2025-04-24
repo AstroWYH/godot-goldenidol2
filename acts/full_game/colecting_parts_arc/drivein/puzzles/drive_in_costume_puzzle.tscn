@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://dj6r275mvum14"]
+[gd_scene load_steps=8 format=3 uid="uid://dj6r275mvum14"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://bj80tlvfptai6" path="res://acts/full_game/colecting_parts_arc/drivein/assets/costumepuzzle.png" id="2"]

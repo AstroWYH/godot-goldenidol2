@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://d0qas18qkvtam"]
+[gd_scene load_steps=3 format=3 uid="uid://d0qas18qkvtam"]
 
 [ext_resource type="Texture2D" uid="uid://bc8kpb3rtsibq" path="res://acts/full_game/reconstruction_arc/eviction/assets/closeups/blackboard2.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -32,7 +32,7 @@ offset_left = 242.0
 offset_top = 377.0
 offset_right = 366.0
 offset_bottom = 416.0
-rotation = -0.5235990285873413
+rotation = -0.523599
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.87451, 0.87451, 0.87451, 1)
 text = "EVICTION_BLACKBOARD_UNIVERSALISM_BODY1"
@@ -46,7 +46,7 @@ offset_left = 448.0
 offset_top = 264.0
 offset_right = 572.0
 offset_bottom = 303.0
-rotation = -0.5235990285873413
+rotation = -0.523599
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.870588, 0.870588, 0.870588, 1)
 text = "EVICTION_BLACKBOARD_UNIVERSALISM_BODY2"
@@ -59,7 +59,7 @@ offset_left = 390.0
 offset_top = 466.0
 offset_right = 514.0
 offset_bottom = 505.0
-rotation = 4.712389945983887
+rotation = 4.71239
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.909804, 0.909804, 0.909804, 1)
 text = "EVICTION_BLACKBOARD_UNIVERSALISM_BODY3"
@@ -73,7 +73,7 @@ offset_left = 434.0
 offset_top = 131.0
 offset_right = 558.0
 offset_bottom = 170.0
-rotation = 1.5707999467849731
+rotation = 1.5708
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.937255, 0.937255, 0.937255, 1)
 text = "EVICTION_BLACKBOARD_UNIVERSALISM_BODY4"
@@ -87,7 +87,7 @@ offset_left = 504.0
 offset_top = 248.0
 offset_right = 628.0
 offset_bottom = 446.0
-rotation = 0.5235990285873413
+rotation = 0.523599
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.937255, 0.937255, 0.937255, 1)
 text = "EVICTION_BLACKBOARD_UNIVERSALISM_BODY5"
@@ -100,7 +100,7 @@ offset_left = 307.0
 offset_top = 147.0
 offset_right = 431.0
 offset_bottom = 345.0
-rotation = 0.5235990285873413
+rotation = 0.523599
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.964706, 0.964706, 0.964706, 1)
 text = "EVICTION_BLACKBOARD_UNIVERSALISM_BODY6"

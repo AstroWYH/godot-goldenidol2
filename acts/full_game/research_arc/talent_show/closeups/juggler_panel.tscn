@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://dc1ciem130tpt"]
+[gd_scene load_steps=33 format=3 uid="uid://dc1ciem130tpt"]
 
 [ext_resource type="Theme" uid="uid://siu8tfnu1den" path="res://shared/ui/themes/default.theme" id="1"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="2"]
@@ -149,4 +149,4 @@ autowrap_mode = 3
 position = Vector2(244, 311)
 sprite_frames = SubResource("SpriteFrames_i56bw")
 autoplay = "default"
-frame_progress = 0.095871202647686
+frame_progress = 0.0958712

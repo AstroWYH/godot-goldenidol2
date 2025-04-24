@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=4 uid="uid://d4f5qr1nnxf10"]
+[gd_scene load_steps=3 format=3 uid="uid://d4f5qr1nnxf10"]
 
 [ext_resource type="Texture2D" uid="uid://dwqjcdy3it50v" path="res://acts/full_game/introductory_arc/hub/assets/victory1.png" id="1"]
-[ext_resource type="Script" path="res://shared/ui/hub/victory_dialog_button.gd" id="2"]
+[ext_resource type="Script" uid="uid://bj8m2a6s8qq56" path="res://shared/ui/hub/victory_dialog_button.gd" id="2"]
 
 [node name="TextureButton" type="TextureButton"]
 offset_right = 150.0

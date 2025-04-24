@@ -1,6 +1,6 @@
-[gd_scene load_steps=11 format=4 uid="uid://drykddrsaldyn"]
+[gd_scene load_steps=11 format=3 uid="uid://drykddrsaldyn"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_victory/scenario_victory.gd" id="1"]
+[ext_resource type="Script" uid="uid://v3qmnim56oij" path="res://shared/ui/scenario_victory/scenario_victory.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dtyysjyd67h01" path="res://shared/assets/frames/frame_transparent_blue.png" id="2"]
 [ext_resource type="Theme" uid="uid://cch6senrqoe8t" path="res://shared/ui/themes/ui_button_normal.tres" id="3"]
 [ext_resource type="Texture2D" uid="uid://bjuynef5taie7" path="res://acts/full_game/conclusion_arc/finale/assets/victoryscreen2.png" id="4"]

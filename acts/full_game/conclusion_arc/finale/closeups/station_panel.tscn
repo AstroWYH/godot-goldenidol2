@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://50mbo3oksoo5"]
+[gd_scene load_steps=43 format=3 uid="uid://50mbo3oksoo5"]
 
 [ext_resource type="Texture2D" uid="uid://dg3d877evr48l" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/tvbuilding.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://gmhot58y3jok" path="res://acts/full_game/conclusion_arc/finale/assets/animations/guards/tvbuildingguards_000.png" id="2"]
@@ -178,22 +178,22 @@ position = Vector2(98.4999, 724)
 scale = Vector2(0.998, 1)
 sprite_frames = SubResource("SpriteFrames_42vga")
 autoplay = "default"
-frame_progress = 0.8637880086898804
+frame_progress = 0.863788
 
 [node name="IdolSpot" parent="." instance=ExtResource("40")]
 layout_mode = 1
-offset_left = 568.7899780273438
-offset_top = 741.1749877929688
-offset_right = -364.2099914550781
-offset_bottom = -82.82520294189453
+offset_left = 568.79
+offset_top = 741.175
+offset_right = -364.21
+offset_bottom = -82.8252
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "bnx"
 
 [node name="Indicators" parent="IdolSpot" index="0"]
-offset_left = -7.3166399002075195
-offset_top = 54.368900299072266
-offset_right = -7.3166399002075195
-offset_bottom = 54.368900299072266
+offset_left = -7.31664
+offset_top = 54.3689
+offset_right = -7.31664
+offset_bottom = 54.3689
 
 [node name="Highlighter" parent="IdolSpot/Indicators" index="0"]
 modulate = Color(0.973783, 0.546938, 0.467446, 1)
@@ -204,10 +204,10 @@ position = Vector2(0.470678, -7.8664)
 
 [node name="IdolPanel" type="Panel" parent="IdolSpot"]
 layout_mode = 0
-offset_left = 34.56779861450195
-offset_top = 847.1019897460938
-offset_right = 794.5679931640625
-offset_bottom = 1651.0999755859375
+offset_left = 34.5678
+offset_top = 847.102
+offset_right = 794.568
+offset_bottom = 1651.1
 
 [node name="IdolSprite" type="Sprite2D" parent="IdolSpot/IdolPanel"]
 position = Vector2(378.095, 394.115)

@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=4 uid="uid://br01dn5ykralp"]
+[gd_scene load_steps=4 format=3 uid="uid://br01dn5ykralp"]
 
 [ext_resource type="Theme" uid="uid://lmlstub87nmg" path="res://shared/themes/phrases_and_slots.tres" id="1"]
-[ext_resource type="Script" path="res://shared/ui/inventory/phrase_grid_slot/phrase_grid_slot.gd" id="2"]
+[ext_resource type="Script" uid="uid://s3piief7bs2n" path="res://shared/ui/inventory/phrase_grid_slot/phrase_grid_slot.gd" id="2"]
 [ext_resource type="PackedScene" uid="uid://lwdbcitgc5qu" path="res://shared/ui/drop_receiver/drop_receiver.tscn" id="3"]
 
 [node name="PhraseGridSlot" type="Button"]

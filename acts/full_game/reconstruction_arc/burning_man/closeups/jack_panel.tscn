@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=4 uid="uid://2rm1ngm4hbl2"]
+[gd_scene load_steps=44 format=3 uid="uid://2rm1ngm4hbl2"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://d0x7s5xqxcfua" path="res://shared/assets/portraits/jack_lab_coat/jack_labcoat_00000.png" id="2"]
@@ -180,7 +180,7 @@ position = Vector2(232, 367)
 sprite_frames = SubResource("SpriteFrames_2vycj")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.41252899169921875
+frame_progress = 0.412529
 
 [node name="CardJackSprite" type="Sprite2D" parent="."]
 position = Vector2(600, 444)

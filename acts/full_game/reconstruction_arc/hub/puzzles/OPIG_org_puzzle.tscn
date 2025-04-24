@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://cjatombey71ce"]
+[gd_scene load_steps=25 format=3 uid="uid://cjatombey71ce"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://co3k2pdxv077j" path="res://acts/full_game/reconstruction_arc/hub/assets/orgchart/Orgchart.png" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://cv6p3ulaid3nx"]
+[gd_scene load_steps=5 format=3 uid="uid://cv6p3ulaid3nx"]
 
 [ext_resource type="Texture2D" uid="uid://db3sglg0ddn2a" path="res://acts/full_game/colecting_parts_arc/jail/assets/closeups/middlecell.png" id="1"]
 [ext_resource type="Material" uid="uid://bbw7p7f37py04" path="res://shared/assets/particle_materials/snow.material" id="2"]

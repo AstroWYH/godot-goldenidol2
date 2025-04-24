@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://xovejanu84h5"]
+[gd_scene load_steps=9 format=3 uid="uid://xovejanu84h5"]
 
 [ext_resource type="PackedScene" uid="uid://cub7nn7w62gki" path="res://shared/ui/thinking_layer/thinking_layer.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://ybiflye6g481" path="res://acts/full_game/colecting_parts_arc/auction/puzzles/portrait_puzzle_auction.tscn" id="2"]

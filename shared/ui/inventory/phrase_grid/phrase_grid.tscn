@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://bxx7k2udxieem"]
+[gd_scene load_steps=5 format=3 uid="uid://bxx7k2udxieem"]
 
-[ext_resource type="Script" path="res://shared/ui/inventory/phrase_grid/phrase_grid.gd" id="1"]
+[ext_resource type="Script" uid="uid://xe2ex6s2vsnl" path="res://shared/ui/inventory/phrase_grid/phrase_grid.gd" id="1"]
 [ext_resource type="PackedScene" uid="uid://cesq2443g64c4" path="res://shared/puzzle/puzzle_segment/assets/segment_block.tscn" id="2"]
 
 [sub_resource type="Animation" id="Animation_ajmf7"]
@@ -20,7 +20,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ddlra"]
 _data = {
-"reveal": SubResource("Animation_ajmf7")
+&"reveal": SubResource("Animation_ajmf7")
 }
 
 [node name="ItemGrid" type="ColorRect"]

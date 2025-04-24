@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://biv3thvyushkl"]
+[gd_scene load_steps=2 format=3 uid="uid://biv3thvyushkl"]
 
 [ext_resource type="Texture2D" uid="uid://bl2rqj2us1g1" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/imprint.png" id="1"]
 

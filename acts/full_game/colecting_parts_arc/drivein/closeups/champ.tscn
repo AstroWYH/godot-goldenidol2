@@ -1,4 +1,4 @@
-[gd_scene load_steps=82 format=4 uid="uid://b7yhkw1wd33ey"]
+[gd_scene load_steps=82 format=3 uid="uid://b7yhkw1wd33ey"]
 
 [ext_resource type="Texture2D" uid="uid://dmxlxi1vycer3" path="res://acts/full_game/colecting_parts_arc/drivein/assets/champ_v1.2.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b4h0x8c7fu4md" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/Mute/Champ/Champ_Vincent_mute_00000.png" id="2"]
@@ -76,7 +76,7 @@
 [ext_resource type="Texture2D" uid="uid://k6ygg2tfd7tj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/closeups/champ_car_FG.png" id="74"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="75"]
 [ext_resource type="PackedScene" uid="uid://bwqwuw0lg3hvb" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/tamine.tscn" id="76"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="77"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="77"]
 [ext_resource type="PackedScene" uid="uid://cljavpqgq6tws" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/driver.tscn" id="78"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_t8mfr"]
@@ -330,14 +330,14 @@ centered = false
 position = Vector2(246, 217)
 sprite_frames = SubResource("SpriteFrames_t8mfr")
 autoplay = "default"
-frame_progress = 0.9117180109024048
+frame_progress = 0.911718
 
 [node name="Tamine" type="AnimatedSprite2D" parent="Sprite2D"]
 position = Vector2(492, 220)
 sprite_frames = SubResource("SpriteFrames_skwst")
 autoplay = "default"
 frame = 17
-frame_progress = 0.8843209743499756
+frame_progress = 0.884321
 
 [node name="ChampCarFg" type="Sprite2D" parent="Sprite2D"]
 texture = ExtResource("74")
@@ -355,7 +355,7 @@ unlocked_character_ref_id = 49
 [node name="Highlighter" parent="AugieTamineSpot2/Indicators" index="0"]
 modulate = Color(0.391625, 0.639385, 0.192704, 1)
 position = Vector2(10, 3)
-frame_progress = 0.463142991065979
+frame_progress = 0.463143
 
 [node name="FocusIndicator" parent="AugieTamineSpot2/Indicators" index="1"]
 position = Vector2(11, 7)
@@ -381,7 +381,7 @@ extra_items_unlocked = [SubResource("Resource_uumeg")]
 [node name="Highlighter" parent="ChampSpot2/Indicators" index="0"]
 modulate = Color(0.440904, 0.648941, 0.960456, 1)
 position = Vector2(57, 61)
-frame_progress = 0.011242499575018883
+frame_progress = 0.0112425
 
 [node name="FocusIndicator" parent="ChampSpot2/Indicators" index="1"]
 position = Vector2(58, 65)

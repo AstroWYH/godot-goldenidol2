@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://ch2snkc2mnkou"]
+[gd_scene load_steps=3 format=3 uid="uid://ch2snkc2mnkou"]
 
 [ext_resource type="Texture2D" uid="uid://dboj6e8fvr1r3" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/filmingroom.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://caiubknf0vnvw" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/camera.png" id="2"]

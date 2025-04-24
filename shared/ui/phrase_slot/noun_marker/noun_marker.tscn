@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://cp7ox51a1oc67"]
+[gd_scene load_steps=2 format=3 uid="uid://cp7ox51a1oc67"]
 
-[ext_resource type="Script" path="res://shared/ui/phrase_slot/noun_marker/noun_marker.gd" id="1"]
+[ext_resource type="Script" uid="uid://bh2bmr0piq8ed" path="res://shared/ui/phrase_slot/noun_marker/noun_marker.gd" id="1"]
 
 [node name="NounMarker" type="Label"]
 modulate = Color(1, 0.286275, 0.662745, 1)

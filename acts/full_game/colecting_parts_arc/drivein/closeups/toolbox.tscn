@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=4 uid="uid://cmeocmn3hw1a1"]
+[gd_scene load_steps=6 format=3 uid="uid://cmeocmn3hw1a1"]
 
 [ext_resource type="Texture2D" uid="uid://dy2k8oa4shnu" path="res://acts/full_game/colecting_parts_arc/drivein/assets/projectionbooth_toolbox.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 
 [sub_resource type="Resource" id="Resource_kwlhi"]
 script = ExtResource("3")
@@ -35,7 +35,7 @@ extra_items_unlocked = [SubResource("Resource_kwlhi"), SubResource("Resource_0nc
 [node name="Highlighter" parent="WireSpot2/Indicators" index="0"]
 modulate = Color(0.92549, 0.290196, 0.180392, 1)
 position = Vector2(-15, 3)
-frame_progress = 0.5466520190238953
+frame_progress = 0.546652
 
 [node name="FocusIndicator" parent="WireSpot2/Indicators" index="1"]
 position = Vector2(-14, 7)
@@ -52,7 +52,7 @@ text = "cinema_spool_tooltip"
 [node name="Highlighter" parent="SpoolSpot2/Indicators" index="0"]
 modulate = Color(0.405978, 0.724119, 0.288453, 1)
 position = Vector2(4, 33)
-frame_progress = 0.16490299999713898
+frame_progress = 0.164903
 
 [node name="FocusIndicator" parent="SpoolSpot2/Indicators" index="1"]
 position = Vector2(5, 37)
@@ -71,7 +71,7 @@ text = "cinema_screwdriver_tooltip"
 [node name="Highlighter" parent="ScreewSpot/Indicators" index="0"]
 modulate = Color(0.610258, 0.683929, 0.815979, 1)
 position = Vector2(3, -23)
-frame_progress = 0.632498025894165
+frame_progress = 0.632498
 
 [node name="FocusIndicator" parent="ScreewSpot/Indicators" index="1"]
 position = Vector2(4, -19)
@@ -91,7 +91,7 @@ text = "cinema_hammer_tooltip"
 [node name="Highlighter" parent="HammerSpot2/Indicators" index="0"]
 modulate = Color(0.549938, 0.598818, 0.6853, 1)
 position = Vector2(-22, 29.25)
-frame_progress = 0.5254529714584351
+frame_progress = 0.525453
 
 [node name="FocusIndicator" parent="HammerSpot2/Indicators" index="1"]
 position = Vector2(-21, 33.25)
@@ -111,7 +111,7 @@ text = "cinema_wire_cutters_tooltip"
 [node name="Highlighter" parent="WirecutterSpot2/Indicators" index="0"]
 modulate = Color(0.835294, 0.717647, 0.286275, 1)
 position = Vector2(-47, 7)
-frame_progress = 0.5093250274658203
+frame_progress = 0.509325
 
 [node name="FocusIndicator" parent="WirecutterSpot2/Indicators" index="1"]
 position = Vector2(-46, 11)

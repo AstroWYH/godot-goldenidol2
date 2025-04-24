@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=4 uid="uid://0gfw0tjv8cfg"]
+[gd_scene load_steps=6 format=3 uid="uid://0gfw0tjv8cfg"]
 
-[ext_resource type="Script" path="res://autoload/sequence_manager/sequence_manager.gd" id="1"]
-[ext_resource type="Script" path="res://autoload/sequence_manager/sequence.gd" id="2"]
+[ext_resource type="Script" uid="uid://d4bo7chpxd1dr" path="res://autoload/sequence_manager/sequence_manager.gd" id="1"]
+[ext_resource type="Script" uid="uid://dlyihxavskvcd" path="res://autoload/sequence_manager/sequence.gd" id="2"]
 [ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="3"]
 [ext_resource type="Resource" uid="uid://c5k4y6tooqhhe" path="res://acts/full_game/introductory_arc/construction_yard/construction_yard_meta.tres" id="4"]
 [ext_resource type="Resource" uid="uid://bsxn2rt6ks3hy" path="res://acts/full_game/introductory_arc/conference/conference_scenario_meta.tres" id="5"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=73 format=4 uid="uid://dut4e5n2ig2mw"]
+[gd_scene load_steps=73 format=3 uid="uid://dut4e5n2ig2mw"]
 
 [ext_resource type="Texture2D" uid="uid://dymwjtd1ilvoj" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://b2vu5ksym11k2" path="res://acts/full_game/colecting_parts_arc/auction/assets/portraits/lemurian/lemurian_00001.png" id="2"]
@@ -284,7 +284,7 @@ position = Vector2(162, 371)
 sprite_frames = SubResource("SpriteFrames_5pf87")
 autoplay = "default"
 frame = 11
-frame_progress = 0.23322999477386475
+frame_progress = 0.23323
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

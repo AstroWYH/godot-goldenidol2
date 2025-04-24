@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://eny73an3xjyi"]
+[gd_scene load_steps=2 format=3 uid="uid://eny73an3xjyi"]
 
 [ext_resource type="Texture2D" uid="uid://cmaa3xc6aee8o" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/bushes.png" id="1"]
 

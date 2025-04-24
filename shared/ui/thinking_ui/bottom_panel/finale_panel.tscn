@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://xlu3q0mym0xq"]
+[gd_scene load_steps=10 format=3 uid="uid://xlu3q0mym0xq"]
 
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/finale_panel.gd" id="1"]
+[ext_resource type="Script" uid="uid://cw4bn2cumbaqm" path="res://shared/ui/thinking_ui/bottom_panel/finale_panel.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dyid5cvbfke20" path="res://shared/assets/frames/frame_panel.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://dbmqwqe16k8ud" path="res://shared/assets/placeholder_ui/split_ui_experiments/texture.png" id="3"]
-[ext_resource type="Script" path="res://shared/ui/thinking_ui/bottom_panel/finale_switcher_button.gd" id="4"]
+[ext_resource type="Script" uid="uid://dabd2mdacnvmr" path="res://shared/ui/thinking_ui/bottom_panel/finale_switcher_button.gd" id="4"]
 [ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="5"]
 [ext_resource type="Resource" uid="uid://safg0mxorxap" path="res://acts/full_game/introductory_arc/bridge/bridge_scenario_meta.tres" id="6"]
 [ext_resource type="Resource" uid="uid://2bv3xcj1ya46" path="res://acts/full_game/introductory_arc/asylum/puzzles/asylum_portrait_puzzle_duplicate_meta.tres" id="7"]

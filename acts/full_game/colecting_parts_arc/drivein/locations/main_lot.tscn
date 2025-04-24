@@ -1,6 +1,6 @@
-[gd_scene load_steps=279 format=4 uid="uid://c5jq3d3whbbi"]
+[gd_scene load_steps=279 format=3 uid="uid://c5jq3d3whbbi"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cpd8of1qkc638" path="res://acts/full_game/colecting_parts_arc/drivein/locations/main_lot.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://cuxtgn4q14hmv" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dga7lpdxa18yj" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/backgroundleft 2/screenright_001.png" id="4"]
@@ -142,7 +142,7 @@
 [ext_resource type="Texture2D" uid="uid://bgg45lp5on241" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/beck/beck_idle_015.png" id="140"]
 [ext_resource type="Texture2D" uid="uid://dukuvn3cck15n" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/beck/beck_idle_016.png" id="141"]
 [ext_resource type="Texture2D" uid="uid://btwkwn24farei" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/beck/beck_idle_017.png" id="142"]
-[ext_resource type="Shader" path="res://shared/shaders/shadow.gdshader" id="143"]
+[ext_resource type="Shader" uid="uid://djb6172xddbey" path="res://shared/shaders/shadow.gdshader" id="143"]
 [ext_resource type="Texture2D" uid="uid://bxylgi1t6os4f" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/doug/doug_idle_000.png" id="144"]
 [ext_resource type="Texture2D" uid="uid://p8uqnga1sex7" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/doug/doug_idle_001.png" id="145"]
 [ext_resource type="Texture2D" uid="uid://ciwx8h4os0shb" path="res://acts/full_game/colecting_parts_arc/drivein/assets/animations/doug/doug_idle_002.png" id="146"]
@@ -238,7 +238,7 @@
 [ext_resource type="PackedScene" uid="uid://ckrpks1x7qeak" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/projectionist_closeup.tscn" id="236"]
 [ext_resource type="Resource" uid="uid://cwhb8usxxp3ak" path="res://acts/full_game/colecting_parts_arc/drivein/locations/office.tres" id="237"]
 [ext_resource type="PackedScene" uid="uid://crlalvqndj2g1" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/robot.tscn" id="238"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="239"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="239"]
 [ext_resource type="PackedScene" uid="uid://di1m3fv8owiaa" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/princess01.tscn" id="240"]
 [ext_resource type="PackedScene" uid="uid://tu8dw086xgor" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/burning_car.tscn" id="241"]
 [ext_resource type="PackedScene" uid="uid://bedmm3l2b3eh5" path="res://acts/full_game/colecting_parts_arc/drivein/closeups/powerbox_closed.tscn" id="242"]
@@ -564,7 +564,7 @@ colors = PackedColorArray(1, 1, 0, 0, 0.0509804, 0.0509804, 0, 0.603922, 1, 0.42
 gradient = SubResource("Gradient_rhxw3")
 
 [sub_resource type="Curve" id="Curve_xw22s"]
-_data = [Vector2(0.00215983, 0.968421), 0.0, 1.949470043182373, 0, 0, Vector2(1, 0), -0.48736798763275146, 0.0, 0, 0]
+_data = [Vector2(0.00215983, 0.968421), 0.0, 1.94947, 0, 0, Vector2(1, 0), -0.487368, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_06256"]
@@ -580,7 +580,7 @@ initial_velocity_max = 100.0
 angular_velocity_min = 100.0
 angular_velocity_max = 100.0
 gravity = Vector3(0, 0, 0)
-scale_min = 0.6000000238418579
+scale_min = 0.6
 scale_curve = SubResource("CurveTexture_06256")
 color_ramp = SubResource("GradientTexture1D_8xa1w")
 
@@ -594,7 +594,7 @@ colors = PackedColorArray(1, 1, 0, 0, 0.137255, 0.223529, 0.188235, 0.247059, 0.
 gradient = SubResource("Gradient_bvuq7")
 
 [sub_resource type="Curve" id="Curve_3ubtq"]
-_data = [Vector2(0.0107991, 0.326316), 0.0, 1.949470043182373, 0, 0, Vector2(0.7473, 0.852632), -0.7995889782905579, -0.7995889782905579, 0, 0, Vector2(1, 0.526316), -1.8830100297927856, 0.0, 0, 0]
+_data = [Vector2(0.0107991, 0.326316), 0.0, 1.94947, 0, 0, Vector2(0.7473, 0.852632), -0.799589, -0.799589, 0, 0, Vector2(1, 0.526316), -1.88301, 0.0, 0, 0]
 point_count = 3
 
 [sub_resource type="CurveTexture" id="CurveTexture_imslw"]
@@ -605,12 +605,12 @@ particle_flag_disable_z = true
 angle_max = 360.0
 direction = Vector3(0, -1, 0)
 spread = 15.0
-initial_velocity_min = 218.72999572753906
-initial_velocity_max = 354.2300109863281
+initial_velocity_min = 218.73
+initial_velocity_max = 354.23
 angular_velocity_min = 100.0
-angular_velocity_max = 384.44000244140625
+angular_velocity_max = 384.44
 gravity = Vector3(0, 0, 0)
-scale_min = 0.6000000238418579
+scale_min = 0.6
 scale_curve = SubResource("CurveTexture_imslw")
 color_ramp = SubResource("GradientTexture1D_g5il2")
 
@@ -622,13 +622,13 @@ lifetime_randomness = 0.1
 particle_flag_disable_z = true
 direction = Vector3(0, -1, 0)
 spread = 30.0
-initial_velocity_min = 69.95999908447266
-initial_velocity_max = 123.45999908447266
+initial_velocity_min = 69.96
+initial_velocity_max = 123.46
 gravity = Vector3(0, 98, 0)
-damping_max = 5.349999904632568
+damping_max = 5.35
 scale_max = 2.0
 color = Color(1, 0.776471, 0.356863, 1)
-turbulence_noise_scale = 1.5099999904632568
+turbulence_noise_scale = 1.51
 
 [sub_resource type="Gradient" id="Gradient_cdvom"]
 offsets = PackedFloat32Array(0.0115741, 0.0509259, 0.159722, 0.493056, 1)
@@ -638,7 +638,7 @@ colors = PackedColorArray(1, 1, 0, 0, 0.0509804, 0.0509804, 0, 0.603922, 1, 0.42
 gradient = SubResource("Gradient_cdvom")
 
 [sub_resource type="Curve" id="Curve_tqtox"]
-_data = [Vector2(0.00215983, 0.968421), 0.0, 1.949470043182373, 0, 0, Vector2(1, 0), -0.48736798763275146, 0.0, 0, 0]
+_data = [Vector2(0.00215983, 0.968421), 0.0, 1.94947, 0, 0, Vector2(1, 0), -0.487368, 0.0, 0, 0]
 point_count = 2
 
 [sub_resource type="CurveTexture" id="CurveTexture_xo3ah"]
@@ -656,7 +656,7 @@ initial_velocity_max = 100.0
 angular_velocity_min = 100.0
 angular_velocity_max = 100.0
 gravity = Vector3(0, 0, 0)
-scale_min = 0.6000000238418579
+scale_min = 0.6
 scale_curve = SubResource("CurveTexture_xo3ah")
 color_ramp = SubResource("GradientTexture1D_ici4t")
 
@@ -1189,7 +1189,7 @@ autoplay = "default"
 position = Vector2(1575, 577)
 sprite_frames = SubResource("SpriteFrames_necsa")
 autoplay = "default"
-frame_progress = 0.8790150284767151
+frame_progress = 0.879015
 
 [node name="Flame" type="GPUParticles2D" parent="."]
 material = SubResource("CanvasItemMaterial_c23e4")
@@ -1197,7 +1197,7 @@ position = Vector2(552, 694)
 amount = 32
 process_material = SubResource("ParticleProcessMaterial_i3k4r")
 texture = ExtResource("99")
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="smoke" type="GPUParticles2D" parent="Flame"]
@@ -1208,7 +1208,7 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_51m2l")
 texture = ExtResource("100")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Flame"]
@@ -1216,7 +1216,7 @@ material = SubResource("CanvasItemMaterial_a1oyt")
 position = Vector2(-2, -19)
 amount = 24
 process_material = SubResource("ParticleProcessMaterial_h2by8")
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="Flame2" type="GPUParticles2D" parent="."]
 material = SubResource("CanvasItemMaterial_c23e4")
@@ -1224,7 +1224,7 @@ position = Vector2(516, 690)
 amount = 32
 process_material = SubResource("ParticleProcessMaterial_i3k4r")
 texture = ExtResource("99")
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="smoke" type="GPUParticles2D" parent="Flame2"]
@@ -1235,7 +1235,7 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_51m2l")
 texture = ExtResource("100")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Flame2"]
@@ -1243,7 +1243,7 @@ material = SubResource("CanvasItemMaterial_a1oyt")
 position = Vector2(-2, -19)
 amount = 24
 process_material = SubResource("ParticleProcessMaterial_h2by8")
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="Flame3" type="GPUParticles2D" parent="."]
 material = SubResource("CanvasItemMaterial_c23e4")
@@ -1252,7 +1252,7 @@ amount = 256
 process_material = SubResource("ParticleProcessMaterial_ude2k")
 texture = ExtResource("99")
 lifetime = 2.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="smoke" type="GPUParticles2D" parent="Flame3"]
@@ -1263,7 +1263,7 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_51m2l")
 texture = ExtResource("100")
 lifetime = 3.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="sparcles" type="GPUParticles2D" parent="Flame3"]
@@ -1271,30 +1271,30 @@ material = SubResource("CanvasItemMaterial_a1oyt")
 position = Vector2(-2, -19)
 amount = 24
 process_material = SubResource("ParticleProcessMaterial_h2by8")
-explosiveness = 0.20000000298023224
+explosiveness = 0.2
 
 [node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="."]
 position = Vector2(1676, 716)
 sprite_frames = SubResource("SpriteFrames_mnm8l")
 autoplay = "default"
-frame_progress = 0.43134498596191406
+frame_progress = 0.431345
 
 [node name="AnimatedSprite2D4" type="AnimatedSprite2D" parent="."]
 position = Vector2(263.75, 829)
 sprite_frames = SubResource("SpriteFrames_orw2h")
 autoplay = "default"
-frame_progress = 0.09565679728984833
+frame_progress = 0.0956568
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="AnimatedSprite2D4"]
 modulate = Color(0, 0, 0, 0.545098)
 material = SubResource("ShaderMaterial_l3lc1")
 position = Vector2(-57.75, 177)
-rotation = 3.141590118408203
+rotation = 3.14159
 scale = Vector2(-1, 0.782883)
-skew = 0.7103490233421326
+skew = 0.710349
 sprite_frames = SubResource("SpriteFrames_4li71")
 autoplay = "default"
-frame_progress = 0.9725030064582825
+frame_progress = 0.972503
 
 [node name="AnimatedSprite2D5" type="AnimatedSprite2D" parent="."]
 position = Vector2(150.5, 832.429)
@@ -1305,31 +1305,31 @@ autoplay = "default"
 modulate = Color(0, 0, 0, 0.541176)
 material = SubResource("ShaderMaterial_l3lc1")
 position = Vector2(-71.851, 166.331)
-rotation = 3.2532899379730225
+rotation = 3.25329
 scale = Vector2(-1, 0.933181)
-skew = 0.7103490233421326
+skew = 0.710349
 sprite_frames = SubResource("SpriteFrames_swwv2")
 autoplay = "default"
-frame_progress = 0.6937909722328186
+frame_progress = 0.693791
 
 [node name="AnimatedSprite2D6" type="AnimatedSprite2D" parent="."]
 position = Vector2(1231.13, 793.427)
 sprite_frames = SubResource("SpriteFrames_vgohp")
 autoplay = "default"
-frame_progress = 0.16506999731063843
+frame_progress = 0.16507
 
 [node name="AnimatedSprite2D7" type="AnimatedSprite2D" parent="."]
 position = Vector2(1128.25, 803.964)
 sprite_frames = SubResource("SpriteFrames_cymty")
 autoplay = "default"
-frame_progress = 0.023550499230623245
+frame_progress = 0.0235505
 
 [node name="AnimatedSprite2D8" type="AnimatedSprite2D" parent="."]
 position = Vector2(1732, 707.833)
 sprite_frames = SubResource("SpriteFrames_mmj1d")
 autoplay = "default"
 frame = 10
-frame_progress = 0.7300080060958862
+frame_progress = 0.730008
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(1169, 898)
@@ -1358,7 +1358,7 @@ offset_right = 0.5
 [node name="Highlighter" parent="Hotspots/ProjectionBoothSpot/Indicators" index="0"]
 modulate = Color(0.407843, 0.133333, 0.0784314, 1)
 position = Vector2(-49, 40)
-frame_progress = 0.26687300205230713
+frame_progress = 0.266873
 
 [node name="FocusIndicator" parent="Hotspots/ProjectionBoothSpot/Indicators" index="1"]
 position = Vector2(-48, 44)
@@ -1388,12 +1388,12 @@ offset_left = 10.5
 offset_top = 194.0
 offset_right = 10.5
 offset_bottom = 194.0
-rotation = 4.712389945983887
+rotation = 4.71239
 
 [node name="Highlighter" parent="Hotspots/ToTheRightSpot/Indicators" index="0"]
 modulate = Color(1, 0.685, 0.37, 1)
 animation = &"location"
-frame_progress = 0.3354269862174988
+frame_progress = 0.335427
 
 [node name="DougSpot" parent="Hotspots" instance=ExtResource("235")]
 layout_mode = 1
@@ -1411,7 +1411,7 @@ offset_right = 7.0
 [node name="Highlighter" parent="Hotspots/DougSpot/Indicators" index="0"]
 modulate = Color(0, 0.313726, 0.180392, 1)
 position = Vector2(31, 18)
-frame_progress = 0.9483199715614319
+frame_progress = 0.94832
 
 [node name="FocusIndicator" parent="Hotspots/DougSpot/Indicators" index="1"]
 position = Vector2(32, 22)
@@ -1437,7 +1437,7 @@ extra_items_unlocked = [SubResource("Resource_kogsu")]
 [node name="Highlighter" parent="Hotspots/BeckSpot/Indicators" index="0"]
 modulate = Color(0.4, 0.0666667, 0, 1)
 position = Vector2(38.5, 50.25)
-frame_progress = 0.971094012260437
+frame_progress = 0.971094
 
 [node name="FocusIndicator" parent="Hotspots/BeckSpot/Indicators" index="1"]
 position = Vector2(39.5, 54.25)
@@ -1460,7 +1460,7 @@ hotspot_id = "ecm"
 [node name="Highlighter" parent="Hotspots/FireCarSpot/Indicators" index="0"]
 modulate = Color(0.94582, 0.373247, 0, 1)
 position = Vector2(27, 20)
-frame_progress = 0.8657490015029907
+frame_progress = 0.865749
 
 [node name="FocusIndicator" parent="Hotspots/FireCarSpot/Indicators" index="1"]
 visible = false
@@ -1508,7 +1508,7 @@ unlocked_item_ref_id = 150
 [node name="Highlighter" parent="Hotspots/MikeSpot/Indicators" index="0"]
 modulate = Color(0.621379, 0.746493, 0.978851, 1)
 position = Vector2(-6, 75.25)
-frame_progress = 0.7019580006599426
+frame_progress = 0.701958
 
 [node name="FocusIndicator" parent="Hotspots/MikeSpot/Indicators" index="1"]
 position = Vector2(-5, 79.25)
@@ -1533,7 +1533,7 @@ unlocked_item_ref_id = 566
 [node name="Highlighter" parent="Hotspots/JennySpot/Indicators" index="0"]
 modulate = Color(0.85098, 0.0313726, 0.027451, 1)
 position = Vector2(-26, 40.25)
-frame_progress = 0.839352011680603
+frame_progress = 0.839352
 
 [node name="FocusIndicator" parent="Hotspots/JennySpot/Indicators" index="1"]
 position = Vector2(-25, 44.25)
@@ -1556,7 +1556,7 @@ hotspot_id = "xKa"
 [node name="Highlighter" parent="Hotspots/AgentChampCarSpot/Indicators" index="0"]
 modulate = Color(0.862745, 0.443137, 0.0509804, 1)
 position = Vector2(11, 8)
-frame_progress = 0.4560199975967407
+frame_progress = 0.45602
 
 [node name="FocusIndicator" parent="Hotspots/AgentChampCarSpot/Indicators" index="1"]
 position = Vector2(12, 12)
@@ -1620,7 +1620,7 @@ hotspot_id = "xKa"
 [node name="Highlighter" parent="Hotspots/LeavingCarSpot/Indicators" index="0"]
 modulate = Color(1, 0.611615, 0.176929, 1)
 position = Vector2(10, 3)
-frame_progress = 0.5877040028572083
+frame_progress = 0.587704
 
 [node name="FocusIndicator" parent="Hotspots/LeavingCarSpot/Indicators" index="1"]
 position = Vector2(11, 7)

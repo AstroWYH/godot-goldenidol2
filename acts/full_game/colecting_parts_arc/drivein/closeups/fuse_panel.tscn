@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://cp24sc67llsk0"]
+[gd_scene load_steps=3 format=3 uid="uid://cp24sc67llsk0"]
 
 [ext_resource type="Texture2D" uid="uid://bx8ims7sjxpr0" path="res://acts/full_game/colecting_parts_arc/drivein/assets/switches.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -18,7 +18,7 @@ offset_left = -185.0
 offset_top = -113.0
 offset_right = -123.0
 offset_bottom = -34.0
-rotation = -0.04845060035586357
+rotation = -0.0484506
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
@@ -32,7 +32,7 @@ offset_left = -94.0
 offset_top = -90.0
 offset_right = -32.0
 offset_bottom = -52.0
-rotation = 0.428710013628006
+rotation = 0.42871
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_constants/line_spacing = -3
@@ -47,7 +47,7 @@ offset_left = -31.0
 offset_top = -125.0
 offset_right = 33.0
 offset_bottom = -33.0
-rotation = -0.051979999989271164
+rotation = -0.05198
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
@@ -61,7 +61,7 @@ offset_left = 54.0
 offset_top = -128.0
 offset_right = 117.0
 offset_bottom = -40.0
-rotation = 0.07565149664878845
+rotation = 0.0756515
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
@@ -75,7 +75,7 @@ offset_left = 126.0
 offset_top = -91.0
 offset_right = 213.0
 offset_bottom = -47.0
-rotation = -0.07372470200061798
+rotation = -0.0737247
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22

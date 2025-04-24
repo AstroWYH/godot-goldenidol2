@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://cjbxckx5hvnqi"]
+[gd_scene load_steps=9 format=3 uid="uid://cjbxckx5hvnqi"]
 
 [ext_resource type="Texture2D" uid="uid://mfrkgnaa6br5" path="res://acts/full_game/colecting_parts_arc/drivein/assets/robot_head_v2.0.png" id="1"]
 [ext_resource type="Material" uid="uid://bgjphkoj4187e" path="res://shared/assets/particle_materials/smokesmall.material" id="2"]
@@ -28,7 +28,7 @@ amount = 20
 process_material = ExtResource("2")
 texture = ExtResource("3")
 lifetime = 2.0
-randomness = 0.1599999964237213
+randomness = 0.16
 trail_lifetime = 0.5
 
 [node name="Suitspot2" parent="Sprite2D" instance=ExtResource("4")]
@@ -41,7 +41,7 @@ hotspot_id = "n6y"
 [node name="Highlighter" parent="Sprite2D/Suitspot2/Indicators" index="0"]
 modulate = Color(0.953391, 0.802805, 0.344507, 1)
 position = Vector2(-14, -20)
-frame_progress = 0.15901599824428558
+frame_progress = 0.159016
 
 [node name="FocusIndicator" parent="Sprite2D/Suitspot2/Indicators" index="1"]
 position = Vector2(-13, -16)

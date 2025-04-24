@@ -1,6 +1,6 @@
-[gd_scene load_steps=36 format=4]
+[gd_scene load_steps=36 format=3 uid="uid://cm5bd2hqwn2up"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://d23ag4ed71cjd" path="res://acts/full_game/introductory_arc/asylum/locations/asylum_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dyfltj8dur07n" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://2o4xuub0oukm" path="res://acts/full_game/introductory_arc/asylum/assets/animations/asylumanimation 4/asylumanimation 4_001.png" id="4"]
@@ -29,7 +29,7 @@
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="27"]
 [ext_resource type="PackedScene" uid="uid://dxj0qgomnnwb6" path="res://acts/full_game/introductory_arc/asylum/closeups/guard_panel.tscn" id="28"]
 [ext_resource type="PackedScene" uid="uid://dex52et7d5lls" path="res://acts/full_game/introductory_arc/asylum/closeups/oriel_panel.tscn" id="29"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="30"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="30"]
 [ext_resource type="PackedScene" uid="uid://bde8nogay7obd" path="res://acts/full_game/introductory_arc/asylum/closeups/jacket_panel.tscn" id="31"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_mf3b8"]
@@ -132,7 +132,7 @@ location_meta = ExtResource("2")
 position = Vector2(1092, 637)
 sprite_frames = SubResource("SpriteFrames_mf3b8")
 autoplay = "default"
-frame_progress = 0.4959949851036072
+frame_progress = 0.495995
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -152,10 +152,10 @@ text = "ASYLUM_BATON_TOOLTIP"
 unlocked_item_ref_id = 178
 
 [node name="Indicators" parent="Hotspots/BatonSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/BatonSpot/Indicators" index="0"]
 modulate = Color(0.611765, 0.517647, 0.305882, 1)
@@ -171,20 +171,20 @@ hotspot_id = "RsR"
 unlocked_character_ref_id = 26
 
 [node name="Indicators" parent="Hotspots/GuardSpot" index="0"]
-offset_left = -287.968994140625
-offset_top = 140.4770050048828
-offset_right = -287.968994140625
-offset_bottom = 140.4770050048828
+offset_left = -287.969
+offset_top = 140.477
+offset_right = -287.969
+offset_bottom = 140.477
 
 [node name="Highlighter" parent="Hotspots/GuardSpot/Indicators" index="0"]
 modulate = Color(0.662745, 0.568627, 0.345098, 1)
 
 [node name="GuardPanel" parent="Hotspots/GuardSpot" instance=ExtResource("28")]
 layout_mode = 0
-offset_left = -2083.35009765625
-offset_top = -589.0009765625
-offset_right = -1229.3499755859375
-offset_bottom = 149.99899291992188
+offset_left = -2083.35
+offset_top = -589.001
+offset_right = -1229.35
+offset_bottom = 149.999
 
 [node name="ProffesorSpot" parent="Hotspots" instance=ExtResource("27")]
 layout_mode = 1

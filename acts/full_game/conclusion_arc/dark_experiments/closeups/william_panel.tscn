@@ -1,4 +1,4 @@
-[gd_scene load_steps=83 format=4 uid="uid://c71emkupdkpgt"]
+[gd_scene load_steps=83 format=3 uid="uid://c71emkupdkpgt"]
 
 [ext_resource type="Texture2D" uid="uid://olabj1ov71bb" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/homeless2/homeles2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cib3u14mx0ur5" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/homeless2/homeles2_001.png" id="2"]
@@ -343,23 +343,23 @@ autowrap_mode = 3
 position = Vector2(244.828, 430.801)
 sprite_frames = SubResource("SpriteFrames_5023g")
 autoplay = "default"
-frame_progress = 0.7444549798965454
+frame_progress = 0.744455
 
 [node name="KeyRingSpot" parent="." instance=ExtResource("79")]
 layout_mode = 1
-offset_left = 585.4290161132813
-offset_top = 497.0329895019531
-offset_right = -32.57099914550781
-offset_bottom = -45.96689987182617
+offset_left = 585.429
+offset_top = 497.033
+offset_right = -32.571
+offset_bottom = -45.9669
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "MeW"
 text = "WAREHOUSE_KEYS_TOOLTIP"
 
 [node name="Indicators" parent="KeyRingSpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 14.730500221252441
-offset_right = -12.726300239562988
-offset_bottom = 14.730500221252441
+offset_left = -12.7263
+offset_top = 14.7305
+offset_right = -12.7263
+offset_bottom = 14.7305
 
 [node name="Highlighter" parent="KeyRingSpot/Indicators" index="0"]
 modulate = Color(0.565546, 0.581836, 0.309642, 1)
@@ -375,19 +375,19 @@ texture = ExtResource("80")
 
 [node name="VoodooDollSpot" parent="." instance=ExtResource("79")]
 layout_mode = 1
-offset_left = 526.333984375
-offset_top = 229.1230010986328
-offset_right = -26.6658992767334
-offset_bottom = -206.8769989013672
+offset_left = 526.334
+offset_top = 229.123
+offset_right = -26.6659
+offset_bottom = -206.877
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "zT-"
 text = "WAREHOUSE_WILLIAM_DOLL_TOOLTIP"
 
 [node name="Indicators" parent="VoodooDollSpot" index="0"]
-offset_left = -3.721440076828003
-offset_top = 1.1175600290298462
-offset_right = -3.721440076828003
-offset_bottom = 1.1175600290298462
+offset_left = -3.72144
+offset_top = 1.11756
+offset_right = -3.72144
+offset_bottom = 1.11756
 
 [node name="Highlighter" parent="VoodooDollSpot/Indicators" index="0"]
 modulate = Color(0.673963, 0.679938, 0.505103, 1)

@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=4 uid="uid://c25584tymciqq"]
+[gd_scene load_steps=5 format=3 uid="uid://c25584tymciqq"]
 
-[ext_resource type="Script" path="res://shared/ui/puzzle_status_indicator/puzzle_state_indicator.gd" id="1"]
+[ext_resource type="Script" uid="uid://dfuuue3ktujt6" path="res://shared/ui/puzzle_status_indicator/puzzle_state_indicator.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://dpnamm3ws35ej" path="res://shared/assets/placeholder_ui/frameempty.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://bmq5a7ylfmmwc" path="res://shared/assets/placeholder_ui/buttons/solved.png" id="3"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="4"]

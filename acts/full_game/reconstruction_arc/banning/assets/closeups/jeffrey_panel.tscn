@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://bu3cqux25gwk3"]
+[gd_scene load_steps=33 format=3 uid="uid://bu3cqux25gwk3"]
 
 [ext_resource type="Texture2D" uid="uid://buvblocyhebpc" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dipsudcsi5kyh" path="res://acts/full_game/reconstruction_arc/banning/assets/portraits/boy/boy_001.png" id="2"]
@@ -140,7 +140,7 @@ offset_bottom = 484.0
 position = Vector2(161, 306)
 sprite_frames = SubResource("SpriteFrames_1qxxd")
 autoplay = "default"
-frame_progress = 0.5671709775924683
+frame_progress = 0.567171
 
 [node name="JeffreySpeechLabel" type="Label" parent="."]
 layout_mode = 0

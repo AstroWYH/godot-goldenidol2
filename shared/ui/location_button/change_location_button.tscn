@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=4 uid="uid://b6tnh80aut1bi"]
+[gd_scene load_steps=6 format=3 uid="uid://b6tnh80aut1bi"]
 
 [ext_resource type="Texture2D" uid="uid://bayalf4t1qr0o" path="res://shared/ui/top_bar/btn_clock_01_idle.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://clkkc8b2co23q" path="res://shared/ui/top_bar/btn_clock_01_over.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://ldqkv7eb1lfr" path="res://shared/ui/top_bar/btn_clock_01_active.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dfw4eoghwy4lw" path="res://shared/ui/top_bar/clock_focus.png" id="4"]
-[ext_resource type="Script" path="res://shared/ui/location_button/location_change_button.gd" id="5"]
+[ext_resource type="Script" uid="uid://shrexk88un3p" path="res://shared/ui/location_button/location_change_button.gd" id="5"]
 
 [node name="TextureButton" type="TextureButton"]
 offset_right = 40.0

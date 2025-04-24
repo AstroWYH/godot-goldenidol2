@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=4 uid="uid://c3g886yelvmie"]
+[gd_scene load_steps=8 format=3 uid="uid://c3g886yelvmie"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Theme" uid="uid://cpniv7k7o1m13" path="res://shared/themes/panel_theme.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cxlv8cdy027ub" path="res://acts/full_game/introductory_arc/hub/assets/benny_crystal.png" id="4"]

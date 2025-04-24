@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=4 uid="uid://cy1eci4sgjvls"]
+[gd_scene load_steps=9 format=3 uid="uid://cy1eci4sgjvls"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://cc77p243kx3ui" path="res://acts/full_game/reconstruction_arc/eviction/assets/sketch/custom_puzzle_backgrounds/symbols_puzzle_bg.png" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://cc1c8xhtkh3ca"]
+[gd_scene load_steps=2 format=3 uid="uid://cc1c8xhtkh3ca"]
 
 [ext_resource type="Texture2D" uid="uid://8lttch42ojm7" path="res://acts/full_game/colecting_parts_arc/auction/assets/closeups/totem.png" id="1"]
 

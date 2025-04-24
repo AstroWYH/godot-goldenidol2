@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://budo4adgfg10r"]
+[gd_scene load_steps=33 format=3 uid="uid://budo4adgfg10r"]
 
 [ext_resource type="Texture2D" uid="uid://bui1qsmedbrkd" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://ctpyn5jt3cfop" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/suspect01/suspect01__001.png" id="2"]
@@ -140,7 +140,7 @@ offset_bottom = 1290.5
 position = Vector2(20, 131)
 sprite_frames = SubResource("SpriteFrames_1xawx")
 autoplay = "default"
-frame_progress = 0.5413309931755066
+frame_progress = 0.541331
 centered = false
 
 [node name="Label" type="Label" parent="."]

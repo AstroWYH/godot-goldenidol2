@@ -1,4 +1,4 @@
-[gd_scene load_steps=65 format=4 uid="uid://dcaoxus21r8pm"]
+[gd_scene load_steps=65 format=3 uid="uid://dcaoxus21r8pm"]
 
 [ext_resource type="Texture2D" uid="uid://mkej03mo0fuj" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/woman1/woman1.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dkbmn2cl2b2rf" path="res://acts/full_game/conclusion_arc/boardroom/assets/portraits/woman1/woman2.png" id="2"]
@@ -260,10 +260,10 @@ offset_bottom = 585.0
 
 [node name="JasmineSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 41.97100067138672
-offset_top = 28.25909996032715
-offset_right = 620.9710083007813
-offset_bottom = 145.25900268554688
+offset_left = 41.971
+offset_top = 28.2591
+offset_right = 620.971
+offset_bottom = 145.259
 text = "BOARDROOM_BLONDE_SPEECH"
 autowrap_mode = 3
 
@@ -271,7 +271,7 @@ autowrap_mode = 3
 position = Vector2(541.048, 321.596)
 sprite_frames = SubResource("SpriteFrames_3imod")
 autoplay = "default"
-frame_progress = 0.8509719967842102
+frame_progress = 0.850972
 
 [node name="CigarettesSprite" type="Sprite2D" parent="."]
 position = Vector2(250.582, 181.118)

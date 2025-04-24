@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://rls2ssydj3kr"]
+[gd_scene load_steps=2 format=3 uid="uid://rls2ssydj3kr"]
 
-[ext_resource type="Script" path="res://shared/prototypes/dynamic_survey_solver/dynamic_survey_solver.gd" id="1"]
+[ext_resource type="Script" uid="uid://cpwrp0l28ml3g" path="res://shared/prototypes/dynamic_survey_solver/dynamic_survey_solver.gd" id="1"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

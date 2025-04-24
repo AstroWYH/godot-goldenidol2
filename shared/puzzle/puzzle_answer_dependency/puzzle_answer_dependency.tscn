@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://bgut2rk8w5sb6"]
+[gd_scene load_steps=2 format=3 uid="uid://bgut2rk8w5sb6"]
 
-[ext_resource type="Script" path="res://shared/puzzle/puzzle_answer_dependency/puzzle_answer_dependency.gd" id="1"]
+[ext_resource type="Script" uid="uid://cax4buxtrn5n2" path="res://shared/puzzle/puzzle_answer_dependency/puzzle_answer_dependency.gd" id="1"]
 
 [node name="PuzzleAnswerDependency" type="Node"]
 script = ExtResource("1")

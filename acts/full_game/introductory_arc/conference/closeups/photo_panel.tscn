@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=4 uid="uid://c5fp67pw8ycjj"]
+[gd_scene load_steps=2 format=3 uid="uid://c5fp67pw8ycjj"]
 
 [ext_resource type="Texture2D" uid="uid://csouejd4tmeaf" path="res://acts/full_game/introductory_arc/conference/assets/portraits/uncle/redaye2.png" id="1"]
 

@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://dgrag2yll8nvw"]
+[gd_scene load_steps=2 format=3 uid="uid://dgrag2yll8nvw"]
 
-[ext_resource type="Script" path="res://shared/ui/unlock_summary/unlock_summary.gd" id="1"]
+[ext_resource type="Script" uid="uid://cjkr5k3j18ckj" path="res://shared/ui/unlock_summary/unlock_summary.gd" id="1"]
 
 [node name="DialogUnlockSummary" type="Control"]
 layout_mode = 3

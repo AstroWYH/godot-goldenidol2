@@ -1,10 +1,10 @@
-[gd_scene load_steps=14 format=4 uid="uid://k6oho53kiae5"]
+[gd_scene load_steps=14 format=3 uid="uid://k6oho53kiae5"]
 
 [ext_resource type="Texture2D" uid="uid://dbfssm6rknxbv" path="res://acts/full_game/introductory_arc/construction_yard/assets/portraits/deadbody01/deadman.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://3c3nkutc706e" path="res://acts/full_game/introductory_arc/construction_yard/assets/closeups/dogtag.png" id="2"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="Texture2D" uid="uid://bt63ask6jipw1" path="res://shared/assets/papers/CrumbledNote_ICO.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://bt0d6fmh7m472" path="res://shared/assets/papers/CrumbledNote.png" id="7"]
 
@@ -33,10 +33,10 @@ script = ExtResource("5")
 linked_item_ref_id = 455
 
 [node name="DeadBodyPanel" type="Panel"]
-offset_left = -452.50299072265625
-offset_top = 541.5369873046875
-offset_right = 274.49700927734375
-offset_bottom = 1045.5400390625
+offset_left = -452.503
+offset_top = 541.537
+offset_right = 274.497
+offset_bottom = 1045.54
 
 [node name="VictimSprite" type="Sprite2D" parent="."]
 position = Vector2(428.503, 236.463)
@@ -47,10 +47,10 @@ position = Vector2(134.533, 97.4296)
 texture = ExtResource("2")
 
 [node name="Label" type="Label" parent="DogTagSprite"]
-offset_left = -66.42479705810547
-offset_top = -44.24959945678711
-offset_right = 416.57501220703125
-offset_bottom = 54.75040054321289
+offset_left = -66.4248
+offset_top = -44.2496
+offset_right = 416.575
+offset_bottom = 54.7504
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.164706, 0.301961, 0.27451, 1)
 theme_override_constants/line_spacing = -3
@@ -59,10 +59,10 @@ text = "CONSTRUCTION_LUKE_DOGTAG_CONTENT"
 
 [node name="DogTagSpot" parent="." instance=ExtResource("4")]
 layout_mode = 1
-offset_left = 41.06589889526367
-offset_top = 13.044300079345703
-offset_right = -508.9339904785156
-offset_bottom = -359.95599365234375
+offset_left = 41.0659
+offset_top = 13.0443
+offset_right = -508.934
+offset_bottom = -359.956
 hotspot_id = "Vop"
 text = "CONSTRUCTION_LUKE_DOGTAG_TOOLTIP"
 
@@ -80,15 +80,15 @@ layout_mode = 1
 offset_left = 21.0
 offset_top = 283.0
 offset_right = -557.0
-offset_bottom = -29.00309944152832
+offset_bottom = -29.0031
 hotspot_id = "_Kv"
 extra_items_unlocked = [SubResource("Resource_mp3rh"), SubResource("Resource_j1tov"), SubResource("Resource_4w1rt"), SubResource("Resource_lv2vt"), SubResource("Resource_6h1au"), SubResource("Resource_0ytx7")]
 
 [node name="Indicators" parent="NoteSpot" index="0"]
 offset_left = -4.5
-offset_top = 23.46299934387207
+offset_top = 23.463
 offset_right = -4.5
-offset_bottom = 23.46299934387207
+offset_bottom = 23.463
 
 [node name="Highlighter" parent="NoteSpot/Indicators" index="0"]
 modulate = Color(0.827451, 0.823529, 0.768627, 1)
@@ -110,10 +110,10 @@ texture = ExtResource("7")
 
 [node name="Label" type="Label" parent="NoteSpot/LukeNotePanel"]
 layout_mode = 0
-offset_left = 143.16900634765625
-offset_top = 197.78500366210938
-offset_right = 470.16900634765625
-offset_bottom = 408.7850036621094
+offset_left = 143.169
+offset_top = 197.785
+offset_right = 470.169
+offset_bottom = 408.785
 theme = ExtResource("3")
 theme_override_colors/font_color = Color(0.133333, 0.12549, 0.203922, 1)
 text = "CONSTRUCTION_LUKE_NOTE"
@@ -126,7 +126,7 @@ layout_mode = 1
 offset_left = 187.0
 offset_top = 185.0
 offset_right = -45.0
-offset_bottom = -25.00309944152832
+offset_bottom = -25.0031
 hotspot_id = "VyY"
 text = "CONSTRUCTION_LUKE_TOOLTIP"
 

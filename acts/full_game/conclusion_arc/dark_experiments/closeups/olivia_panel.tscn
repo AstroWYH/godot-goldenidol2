@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=4 uid="uid://d0ssd024te15i"]
+[gd_scene load_steps=44 format=3 uid="uid://d0ssd024te15i"]
 
 [ext_resource type="Texture2D" uid="uid://cdwjv7kk76w63" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/wife/wife_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bxbq6qdq08s6e" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/portraits/wife/wife_001.png" id="2"]
@@ -176,10 +176,10 @@ offset_bottom = -479.0
 
 [node name="OliviaSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 25.8966007232666
-offset_top = 40.080299377441406
-offset_right = 365.8970031738281
-offset_bottom = 157.0800018310547
+offset_left = 25.8966
+offset_top = 40.0803
+offset_right = 365.897
+offset_bottom = 157.08
 text = "WAREHOUSE_OLIVIA_SPEECH"
 autowrap_mode = 3
 
@@ -187,7 +187,7 @@ autowrap_mode = 3
 position = Vector2(557.424, 277.473)
 sprite_frames = SubResource("SpriteFrames_e725t")
 autoplay = "default"
-frame_progress = 0.7521259784698486
+frame_progress = 0.752126
 
 [node name="RingSprite" type="Sprite2D" parent="."]
 position = Vector2(239.914, 234.327)
@@ -214,9 +214,9 @@ position = Vector2(210.775, 362.025)
 texture = ExtResource("42")
 
 [node name="Page1Label2" type="Label" parent="PaperSprite"]
-offset_left = -207.77499389648438
+offset_left = -207.775
 offset_top = -58.0
-offset_right = 203.22500610351563
+offset_right = 203.225
 offset_bottom = 58.0
 mouse_filter = 1
 theme_override_colors/font_color = Color(0.39, 0.286, 0.2652, 1)

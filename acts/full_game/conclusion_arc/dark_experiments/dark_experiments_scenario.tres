@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=17 format=4 uid="uid://dnu37hprpqhw1"]
+[gd_resource type="Resource" script_class="ScenarioMeta" load_steps=22 format=3 uid="uid://dnu37hprpqhw1"]
 
 [ext_resource type="Resource" uid="uid://bylqfn1vow1bd" path="res://acts/full_game/conclusion_arc/hub/conclusion_arc_meta.tres" id="1"]
 [ext_resource type="Resource" uid="uid://dusrv05bkmwhj" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_1.tres" id="2"]
+[ext_resource type="Script" uid="uid://brh3anmxvxox1" path="res://shared/ui/hints/hint_meta.gd" id="2_0mf5s"]
 [ext_resource type="Resource" uid="uid://nw8sx0iro3vg" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_12.tres" id="3"]
 [ext_resource type="Resource" uid="uid://cj6j38sxuhtwa" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_3.tres" id="4"]
 [ext_resource type="Resource" uid="uid://b5wtatrytwa53" path="res://shared/ui/hints/hint_library/5_pinnacle/4_warehouse_4.tres" id="5"]
 [ext_resource type="Resource" uid="uid://dvd78q1dq2kfc" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/docks_location_meta.tres" id="6"]
 [ext_resource type="Resource" uid="uid://c46amcsry23tq" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/warehouse_location_meta.tres" id="7"]
+[ext_resource type="Script" uid="uid://b3r4t2fo836c7" path="res://shared/resources/location_meta.gd" id="7_8h8cx"]
 [ext_resource type="Resource" uid="uid://dmt5c8hslp3xa" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/yacht_location_meta.tres" id="8"]
 [ext_resource type="Resource" uid="uid://bpkqfqli57fmw" path="res://acts/full_game/conclusion_arc/dark_experiments/locations/deck_location_meta.tres" id="9"]
 [ext_resource type="AudioStream" uid="uid://cehgve63vcyck" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/music/dark_experiments_base_loop.ogg" id="10"]
@@ -15,7 +17,10 @@
 [ext_resource type="Texture2D" uid="uid://djooqynwcfwsb" path="res://shared/ui/hints/hint_illustrations/steelside_warehouse.png" id="13"]
 [ext_resource type="Resource" uid="uid://bjuc6dsnafnor" path="res://acts/full_game/conclusion_arc/museum/puzzles/museum_scroll_puzzle1_meta.tres" id="14"]
 [ext_resource type="Resource" uid="uid://b7s5p5unkh54i" path="res://acts/full_game/conclusion_arc/museum/puzzles/museum_scroll_puzzle2_meta.tres" id="15"]
-[ext_resource type="Script" path="res://shared/resources/scenario_meta.gd" id="16"]
+[ext_resource type="Script" uid="uid://c63e7p0jmjvqf" path="res://shared/resources/scenario_meta.gd" id="16"]
+[ext_resource type="Script" uid="uid://ba4ywiy0oos8k" path="res://shared/resources/puzzle_meta.gd" id="16_1y3dy"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="20_u55ns"]
+[ext_resource type="Script" uid="uid://c77nnqmqqaacl" path="res://shared/resources/puzzle_segment_unlock.gd" id="21_4k8b6"]
 
 [resource]
 script = ExtResource("16")
@@ -24,8 +29,8 @@ id = 54
 name = "WAREHOUSE_SCENARIO_NAME"
 description = "WAREHOUSE_SCENARIO_DESCRIPTION"
 path = "res://acts/full_game/conclusion_arc/dark_experiments/dark_experiments_scenario.tscn"
-locations = [ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")]
-required_puzzles = [ExtResource("14"), ExtResource("15")]
+locations = Array[ExtResource("7_8h8cx")]([ExtResource("6"), ExtResource("7"), ExtResource("8"), ExtResource("9")])
+required_puzzles = Array[ExtResource("16_1y3dy")]([ExtResource("14"), ExtResource("15")])
 max_spots = 55
 phrases_name = 28
 phrases_object = 14
@@ -35,16 +40,19 @@ phrases_numeral = 0
 phrases_local = 0
 victory_screen_text = "WAREHOUSE_SCENARIO_VICTORY"
 victory_picture_path = "res://acts/full_game/conclusion_arc/dark_experiments/assets/victoryscreen.png"
-victory_unlocks_segments = []
-victory_unlocks_arc_phrases = []
+custom_victory_dialog_path = ""
+custom_hub_victory_dialog_path = ""
+victory_unlocks_segments = Array[ExtResource("21_4k8b6")]([])
+victory_unlocks_arc_phrases = Array[ExtResource("20_u55ns")]([])
 achievement_id = 23
 intermission_path_on_victory = ""
-intro_music = []
-loop_music = [ExtResource("10"), ExtResource("11"), ExtResource("12")]
-ambience = []
-escalation_layer_ids = []
+intro_music = Array[AudioStream]([])
+loop_music = Array[AudioStream]([ExtResource("10"), ExtResource("11"), ExtResource("12")])
+ambience = Array[AudioStream]([])
+escalation_layer_ids = Array[int]([])
 stop_existing_music_on_escalation = false
-oneshot_layer_ids = []
+oneshot_layer_ids = Array[int]([])
 sfx_transposition = 2
 picture = ExtResource("13")
-hint_meta_list = [ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")]
+hint_meta_list = Array[ExtResource("2_0mf5s")]([ExtResource("2"), ExtResource("3"), ExtResource("4"), ExtResource("5")])
+no_inventory = false

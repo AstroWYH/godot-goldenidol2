@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://cx1mnij4f8d4c"]
+[gd_scene load_steps=37 format=3 uid="uid://cx1mnij4f8d4c"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://y1mw6l84hot3" path="res://acts/full_game/colecting_parts_arc/jail/assets/portraits/snitch/snitch_000.png" id="2"]
@@ -114,7 +114,7 @@ colors = PackedColorArray(0.913725, 0.976471, 0.945098, 0.137255, 0.945098, 0.93
 gradient = SubResource("Gradient_o4o8d")
 
 [sub_resource type="Curve" id="Curve_rhdc1"]
-_data = [Vector2(0.0107991, 0.326316), 0.0, 1.949470043182373, 0, 0, Vector2(0.7473, 0.852632), -0.7995889782905579, -0.7995889782905579, 0, 0, Vector2(1, 0.526316), -1.8830100297927856, 0.0, 0, 0]
+_data = [Vector2(0.0107991, 0.326316), 0.0, 1.94947, 0, 0, Vector2(0.7473, 0.852632), -0.799589, -0.799589, 0, 0, Vector2(1, 0.526316), -1.88301, 0.0, 0, 0]
 point_count = 3
 
 [sub_resource type="CurveTexture" id="CurveTexture_mu045"]
@@ -129,7 +129,7 @@ spread = 10.0
 initial_velocity_min = 900.0
 initial_velocity_max = 900.0
 angular_velocity_min = 100.0
-angular_velocity_max = 384.44000244140625
+angular_velocity_max = 384.44
 gravity = Vector3(0, 0, 0)
 scale_min = 0.5
 scale_max = 2.0
@@ -158,7 +158,7 @@ autowrap_mode = 3
 position = Vector2(226, 306)
 sprite_frames = SubResource("SpriteFrames_hg8fq")
 autoplay = "default"
-frame_progress = 0.9009870290756226
+frame_progress = 0.900987
 
 [node name="dvasa7" type="GPUParticles2D" parent="SnitchSprite"]
 material = SubResource("CanvasItemMaterial_mtfrj")
@@ -168,8 +168,8 @@ amount = 32
 process_material = SubResource("ParticleProcessMaterial_gbx0h")
 texture = ExtResource("24")
 lifetime = 2.0
-explosiveness = 0.7200000286102295
-randomness = 0.8399999737739563
+explosiveness = 0.72
+randomness = 0.84
 trail_lifetime = 0.5
 
 [node name="NoteSprite" type="Sprite2D" parent="."]
@@ -209,7 +209,7 @@ stretch_mode = 1
 [node name="Sprite2D6" type="Sprite2D" parent="BribeNoteSpot/BribeNotePanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(199.078, 250.486)
-rotation = 1.570039987564087
+rotation = 1.57004
 scale = Vector2(0.828338, 0.828338)
 texture = ExtResource("28")
 region_enabled = true
@@ -217,7 +217,7 @@ region_rect = Rect2(232.306, 4.84601, 367.356, 222.943)
 
 [node name="Sprite2D6" type="Sprite2D" parent="BribeNoteSpot/BribeNotePanel/ClipboardSprite/Sprite2D6"]
 position = Vector2(-127.445, 130.379)
-rotation = 3.142359972000122
+rotation = 3.14236
 scale = Vector2(0.91322, 0.91322)
 texture = ExtResource("28")
 region_enabled = true

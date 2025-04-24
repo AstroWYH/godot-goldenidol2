@@ -1,8 +1,8 @@
-[gd_scene load_steps=20 format=4 uid="uid://btw40kov0hhrm"]
+[gd_scene load_steps=20 format=3 uid="uid://btw40kov0hhrm"]
 
 [ext_resource type="Texture2D" uid="uid://dc322vnfml5w" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf01.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 [ext_resource type="Texture2D" uid="uid://r6nydcua72uw" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/leadership.png" id="4"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="5"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="6"]
@@ -87,7 +87,7 @@ offset_left = 41.0
 offset_top = 79.0
 offset_right = 380.0
 offset_bottom = 158.0
-rotation = -0.034906599670648575
+rotation = -0.0349066
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.752941, 0.698039, 0.341176, 1)
 theme_override_font_sizes/font_size = 30
@@ -102,7 +102,7 @@ offset_left = 45.0
 offset_top = 186.0
 offset_right = 380.0
 offset_bottom = 297.0
-rotation = -0.034906599670648575
+rotation = -0.0349066
 theme = ExtResource("6")
 theme_override_colors/font_color = Color(0.694118, 0.780392, 0.788235, 1)
 theme_override_font_sizes/font_size = 23
@@ -117,7 +117,7 @@ offset_left = 83.0
 offset_top = 412.0
 offset_right = 357.0
 offset_bottom = 593.0
-rotation = -0.05915429815649986
+rotation = -0.0591543
 theme = ExtResource("5")
 theme_override_colors/font_color = Color(0.34902, 0.0862745, 0.458824, 1)
 theme_override_font_sizes/font_size = 32
@@ -157,7 +157,7 @@ stretch_mode = 1
 [node name="Sprite2D8" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(345, 222)
-rotation = -1.582759976387024
+rotation = -1.58276
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -165,7 +165,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D19" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(440, 78)
-rotation = 1.353219985961914
+rotation = 1.35322
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 253.68, 159)
@@ -173,7 +173,7 @@ region_rect = Rect2(116.5, 226, 253.68, 159)
 [node name="Sprite2D11" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(161, 313)
-rotation = -0.2186170071363449
+rotation = -0.218617
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -181,7 +181,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D9" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(491, 220)
-rotation = -0.35234299302101135
+rotation = -0.352343
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -189,7 +189,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D10" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(492, 614.588)
-rotation = 0.32805100083351135
+rotation = 0.328051
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -197,7 +197,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D12" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(159, 502.588)
-rotation = 0.32805100083351135
+rotation = 0.328051
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -205,7 +205,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D13" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(102, 140)
-rotation = 4.051420211791992
+rotation = 4.05142
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(197.629, 372.314, 387.987, 212.294)
@@ -213,7 +213,7 @@ region_rect = Rect2(197.629, 372.314, 387.987, 212.294)
 [node name="Sprite2D14" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.384314)
 position = Vector2(599.318, 129.403)
-rotation = 1.9484399557113647
+rotation = 1.94844
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -221,7 +221,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D15" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.384314)
 position = Vector2(593, 598)
-rotation = 2.3744900226593018
+rotation = 2.37449
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -229,7 +229,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D16" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(296, 509)
-rotation = -4.6615400314331055
+rotation = -4.66154
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -237,7 +237,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D17" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.384314)
 position = Vector2(481.318, 439.403)
-rotation = 1.9074599742889404
+rotation = 1.90746
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(116.5, 226, 480, 159)
@@ -245,7 +245,7 @@ region_rect = Rect2(116.5, 226, 480, 159)
 [node name="Sprite2D18" type="Sprite2D" parent="FaxSpot/FaxPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(716, 361)
-rotation = 4.808300018310547
+rotation = 4.8083
 texture = ExtResource("8")
 region_enabled = true
 region_rect = Rect2(197.629, 372.314, 387.987, 212.294)
@@ -304,7 +304,7 @@ stretch_mode = 1
 [node name="Sprite2D6" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(385, 221)
-rotation = 0.012844599783420563
+rotation = 0.0128446
 scale = Vector2(0.752184, 0.752184)
 texture = ExtResource("8")
 region_enabled = true
@@ -313,7 +313,7 @@ region_rect = Rect2(171, 2, 427, 232)
 [node name="Sprite2D2" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(0.917647, 0.890196, 0.537255, 1)
 position = Vector2(100, 4.00001)
-rotation = -1.0997899770736694
+rotation = -1.09979
 scale = Vector2(0.365901, 0.527625)
 texture = ExtResource("9")
 region_enabled = true
@@ -322,7 +322,7 @@ region_rect = Rect2(52, -0.5, 183.5, 77.5)
 [node name="Sprite2D" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(0.917647, 0.890196, 0.537255, 1)
 position = Vector2(535, 378)
-rotation = 0.6260030269622803
+rotation = 0.626003
 scale = Vector2(0.545134, 0.545134)
 texture = ExtResource("9")
 region_enabled = true
@@ -331,7 +331,7 @@ region_rect = Rect2(52, -0.5, 183.5, 77.5)
 [node name="Sprite2D3" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(0.917647, 0.890196, 0.537255, 1)
 position = Vector2(16, 97)
-rotation = 0.012844599783420563
+rotation = 0.0128446
 scale = Vector2(0.48144, 0.419387)
 texture = ExtResource("9")
 region_enabled = true
@@ -340,7 +340,7 @@ region_rect = Rect2(0.5, 82.75, 78, 97)
 [node name="Sprite2D4" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(0.917647, 0.890196, 0.537255, 1)
 position = Vector2(529, 56)
-rotation = -0.07603590190410614
+rotation = -0.0760359
 scale = Vector2(0.65518, 0.426485)
 texture = ExtResource("9")
 region_enabled = true
@@ -349,7 +349,7 @@ region_rect = Rect2(196.5, 88.75, 58.5, 93.5)
 [node name="Sprite2D5" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(0.917647, 0.890196, 0.537255, 1)
 position = Vector2(85.0001, 407)
-rotation = 1.5303699970245361
+rotation = 1.53037
 scale = Vector2(0.65518, 0.426485)
 texture = ExtResource("9")
 region_enabled = true
@@ -358,7 +358,7 @@ region_rect = Rect2(196.5, 88.75, 58.5, 93.5)
 [node name="Sprite2D7" type="Sprite2D" parent="SheduleSpot/SchedulePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.662745)
 position = Vector2(147, 232)
-rotation = -3.1319799423217773
+rotation = -3.13198
 scale = Vector2(0.752184, 0.752184)
 texture = ExtResource("8")
 region_enabled = true

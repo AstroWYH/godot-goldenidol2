@@ -1,6 +1,6 @@
-[gd_scene load_steps=3 format=4 uid="uid://dc5prcrpvup3o"]
+[gd_scene load_steps=3 format=3 uid="uid://dc5prcrpvup3o"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://5klspf754cra" path="res://shared/assets/papers/SmallNote_V2.png" id="2"]
 
 [node name="Control" type="ColorRect"]

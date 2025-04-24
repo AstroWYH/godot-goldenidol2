@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=4 uid="uid://4s8gvwkdwi4l"]
+[gd_scene load_steps=29 format=3 uid="uid://4s8gvwkdwi4l"]
 
 [ext_resource type="Texture2D" uid="uid://dckfdfm170e5d" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/sleeping_room_container_updated.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dqcu04wyanuv4" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/BoxOfButtons.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bfc8wbrbp0ywt" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/EmptyBottlesFew.png" id="6"]
 [ext_resource type="Texture2D" uid="uid://je7jxh457u71" path="res://shared/assets/papers/BigBook_Icon.png" id="7"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="8"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="8"]
 [ext_resource type="Texture2D" uid="uid://fdri7s825jil" path="res://shared/assets/papers/BigBook_Open.png" id="9"]
 [ext_resource type="Texture2D" uid="uid://clfcigj6yxtwm" path="res://shared/assets/papers/A4_V2_ICO.png" id="10"]
 [ext_resource type="Texture2D" uid="uid://dwfo61w75xcnn" path="res://shared/assets/papers/SmallNotebook_Icon.png" id="11"]
@@ -90,10 +90,10 @@ pivot_offset = Vector2(-1410.96, -558.726)
 hotspot_id = "-43"
 
 [node name="Indicators" parent="OrionStashSpot" index="0"]
-offset_left = -2.630079984664917
-offset_top = 93.31710052490234
-offset_right = -2.630079984664917
-offset_bottom = 93.31710052490234
+offset_left = -2.63008
+offset_top = 93.3171
+offset_right = -2.63008
+offset_bottom = 93.3171
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="OrionStashSpot/Indicators" index="0"]
@@ -150,10 +150,10 @@ hotspot_id = "YOH"
 extra_items_unlocked = [SubResource("Resource_d4ywv"), SubResource("Resource_myeqx"), SubResource("Resource_aanmr"), SubResource("Resource_my2m1"), SubResource("Resource_0s7ld"), SubResource("Resource_0re3g")]
 
 [node name="Indicators" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 14.730500221252441
-offset_right = -12.726300239562988
-offset_bottom = 14.730500221252441
+offset_left = -12.7263
+offset_top = 14.7305
+offset_right = -12.7263
+offset_bottom = 14.7305
 
 [node name="Highlighter" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/Indicators" index="0"]
 modulate = Color(0.564962, 0.564962, 0.564962, 1)
@@ -175,9 +175,9 @@ texture = ExtResource("9")
 
 [node name="Page1Label" type="RichTextLabel" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/OrionStashPanel"]
 layout_mode = 0
-offset_left = 80.97109985351563
+offset_left = 80.9711
 offset_top = 48.0
-offset_right = 456.97100830078125
+offset_right = 456.971
 offset_bottom = 516.0
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
@@ -190,9 +190,9 @@ autowrap_mode = 2
 
 [node name="Page1Label2" type="RichTextLabel" parent="OrionStashSpot/OrionStashPanel/OrionDiarySpot/OrionStashPanel"]
 layout_mode = 0
-offset_left = 499.97100830078125
+offset_left = 499.971
 offset_top = 51.0
-offset_right = 862.9710083007813
+offset_right = 862.971
 offset_bottom = 525.0
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
@@ -214,10 +214,10 @@ pivot_offset = Vector2(-1410.96, -558.726)
 hotspot_id = "vxw"
 
 [node name="Indicators" parent="WilliamStashSpot2" index="0"]
-offset_left = -2.630079984664917
-offset_top = 93.31710052490234
-offset_right = -2.630079984664917
-offset_bottom = 93.31710052490234
+offset_left = -2.63008
+offset_top = 93.3171
+offset_right = -2.63008
+offset_bottom = 93.3171
 pivot_offset = Vector2(38.2621, 52.1773)
 
 [node name="Highlighter" parent="WilliamStashSpot2/Indicators" index="0"]
@@ -229,10 +229,10 @@ position = Vector2(-15.6195, -64.5523)
 
 [node name="WilliamStashPanel" type="Panel" parent="WilliamStashSpot2"]
 layout_mode = 0
-offset_left = 273.07501220703125
-offset_top = -321.8009948730469
-offset_right = 1015.0700073242188
-offset_bottom = 204.19900512695313
+offset_left = 273.075
+offset_top = -321.801
+offset_right = 1015.07
+offset_bottom = 204.199
 
 [node name="WilliamPeopleNotesSprite" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel"]
 position = Vector2(139.064, 238.943)
@@ -246,16 +246,16 @@ texture = ExtResource("11")
 layout_mode = 1
 offset_left = 473.0
 offset_top = 82.0
-offset_right = -70.99500274658203
+offset_right = -70.995
 offset_bottom = -136.0
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Oeb"
 
 [node name="Indicators" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 28.075199127197266
-offset_right = -12.726300239562988
-offset_bottom = 28.075199127197266
+offset_left = -12.7263
+offset_top = 28.0752
+offset_right = -12.7263
+offset_bottom = 28.0752
 
 [node name="Highlighter" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/Indicators" index="0"]
 modulate = Color(0.561527, 0.677534, 0.437671, 1)
@@ -267,10 +267,10 @@ position = Vector2(11.033, -8.83544)
 
 [node name="WilliamNotesPanel" type="Panel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot"]
 layout_mode = 0
-offset_left = 469.5509948730469
-offset_top = -91.26390075683594
-offset_right = 1084.550048828125
-offset_bottom = 371.7359924316406
+offset_left = 469.551
+offset_top = -91.2639
+offset_right = 1084.55
+offset_bottom = 371.736
 
 [node name="Sprite2D" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamNotesSpot/WilliamNotesPanel"]
 position = Vector2(310.787, 225.959)
@@ -308,17 +308,17 @@ scroll_active = false
 layout_mode = 1
 offset_left = 68.0
 offset_top = 141.0
-offset_right = -531.9949951171875
+offset_right = -531.995
 offset_bottom = -216.0
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "lnW"
 extra_items_unlocked = [SubResource("Resource_xhxv3"), SubResource("Resource_ohh44"), SubResource("Resource_uaspl"), SubResource("Resource_1smwg"), SubResource("Resource_350in"), SubResource("Resource_outbp"), SubResource("Resource_ylls4")]
 
 [node name="Indicators" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes" index="0"]
-offset_left = -12.726300239562988
-offset_top = 22.236099243164063
-offset_right = -12.726300239562988
-offset_bottom = 22.236099243164063
+offset_left = -12.7263
+offset_top = 22.2361
+offset_right = -12.7263
+offset_bottom = 22.2361
 
 [node name="Highlighter" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/Indicators" index="0"]
 modulate = Color(0.771186, 0.775051, 0.715267, 1)
@@ -348,9 +348,9 @@ stretch_mode = 1
 [node name="Sprite2D10" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.623529)
 position = Vector2(149.477, 146.045)
-rotation = -2.966059923171997
+rotation = -2.96606
 scale = Vector2(0.651742, 0.651743)
-skew = -0.008641719818115234
+skew = -0.00864172
 texture = ExtResource("14")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -358,9 +358,9 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D8" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(210.392, 253.608)
-rotation = 0.14331099390983582
+rotation = 0.143311
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("14")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -368,7 +368,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(228.731, 477.292)
-rotation = 6.302949905395508
+rotation = 6.30295
 scale = Vector2(0.807298, 1)
 texture = ExtResource("14")
 region_enabled = true
@@ -376,10 +376,10 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 
 [node name="Page1Label" type="RichTextLabel" parent="WilliamStashSpot2/WilliamStashPanel/WilliamPeopleNotes/WilliamPeopleNotesPanel"]
 layout_mode = 0
-offset_left = 31.057899475097656
-offset_top = 28.191200256347656
-offset_right = 383.0580139160156
-offset_bottom = 564.1909790039063
+offset_left = 31.0579
+offset_top = 28.1912
+offset_right = 383.058
+offset_bottom = 564.191
 mouse_filter = 1
 theme_override_colors/default_color = Color(0.20922, 0.22, 0.1276, 1)
 theme_override_font_sizes/normal_font_size = 22
@@ -392,17 +392,17 @@ scroll_active = false
 layout_mode = 1
 offset_left = 262.0
 offset_top = 147.0
-offset_right = -334.9949951171875
+offset_right = -334.995
 offset_bottom = -196.0
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "yHl"
 text = "WAREHOUSE_NEEDLE_TOOLTIP"
 
 [node name="Indicators" parent="WilliamStashSpot2/WilliamStashPanel/NeedleSpot" index="0"]
-offset_left = -12.726300239562988
-offset_top = 36.35219955444336
-offset_right = -12.726300239562988
-offset_bottom = 36.35219955444336
+offset_left = -12.7263
+offset_top = 36.3522
+offset_right = -12.7263
+offset_bottom = 36.3522
 
 [node name="Highlighter" parent="WilliamStashSpot2/WilliamStashPanel/NeedleSpot/Indicators" index="0"]
 modulate = Color(0.276749, 0.467335, 0.323681, 1)

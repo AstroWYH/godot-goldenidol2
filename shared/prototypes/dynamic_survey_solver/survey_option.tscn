@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://b8kl3roj3q8ld"]
+[gd_scene load_steps=2 format=3 uid="uid://b8kl3roj3q8ld"]
 
-[ext_resource type="Script" path="res://shared/prototypes/dynamic_survey_solver/survey_option.gd" id="1"]
+[ext_resource type="Script" uid="uid://dmrg0h3unrwbu" path="res://shared/prototypes/dynamic_survey_solver/survey_option.gd" id="1"]
 
 [node name="OptionButton" type="OptionButton"]
 script = ExtResource("1")

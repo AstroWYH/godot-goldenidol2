@@ -1,6 +1,6 @@
-[gd_scene load_steps=88 format=4 uid="uid://dj8rrs8uoopct"]
+[gd_scene load_steps=88 format=3 uid="uid://dj8rrs8uoopct"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://c11r00m4pj8d8" path="res://acts/full_game/conclusion_arc/finale/locations/map_location3_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://vbwcvtmxbbtw" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://nw2x3grs1wi1" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00001.png" id="4"]
@@ -50,9 +50,9 @@
 [ext_resource type="Texture2D" uid="uid://c76mmsxaf2fe1" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00045.png" id="48"]
 [ext_resource type="Texture2D" uid="uid://dlalpm6j3h2db" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00046.png" id="49"]
 [ext_resource type="Texture2D" uid="uid://d0fteabdx4qco" path="res://acts/full_game/conclusion_arc/finale/assets/animations/CityReflections/CityReflections_00047.png" id="50"]
-[ext_resource type="Shader" path="res://shared/ui/TrafficOtherDirection.gdshader" id="51"]
+[ext_resource type="Shader" uid="uid://mifgkx6afgue" path="res://shared/ui/TrafficOtherDirection.gdshader" id="51"]
 [ext_resource type="Texture2D" uid="uid://8niia1k6iwsb" path="res://shared/ui/Cars.png" id="52"]
-[ext_resource type="Shader" path="res://shared/ui/FinaleTrafficTest.gdshader" id="53"]
+[ext_resource type="Shader" uid="uid://bixi6tjciawko" path="res://shared/ui/FinaleTrafficTest.gdshader" id="53"]
 [ext_resource type="Texture2D" uid="uid://q642kj7ev8c6" path="res://acts/full_game/conclusion_arc/finale/assets/city3_mask.png" id="54"]
 [ext_resource type="Texture2D" uid="uid://c7bb7iidk554l" path="res://acts/full_game/conclusion_arc/finale/assets/train.png" id="55"]
 [ext_resource type="Texture2D" uid="uid://j6mlex5qemm" path="res://acts/full_game/conclusion_arc/finale/assets/rails1.png" id="56"]
@@ -273,7 +273,7 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_xxo2i"]
 _data = {
-"new_animation": SubResource("Animation_5pd3p")
+&"new_animation": SubResource("Animation_5pd3p")
 }
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_h0n8v"]
@@ -360,7 +360,7 @@ sprite_frames = SubResource("SpriteFrames_3kpcn")
 animation = &"ReflectionLoop"
 autoplay = "ReflectionLoop"
 frame = 2
-frame_progress = 0.715283989906311
+frame_progress = 0.715284
 
 [node name="Traffic_regular" type="Node2D" parent="."]
 
@@ -502,7 +502,7 @@ texture = ExtResource("56")
 position = Vector2(784, 684)
 sprite_frames = SubResource("SpriteFrames_h0n8v")
 autoplay = "default"
-frame_progress = 0.9890300035476685
+frame_progress = 0.98903
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3
@@ -520,15 +520,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "SPn"
 
 [node name="Indicators" parent="Hotspots/ToTVSpot" index="0"]
-offset_left = 22.355499267578125
-offset_top = 158.53900146484375
-offset_right = 22.355499267578125
-offset_bottom = 158.53900146484375
+offset_left = 22.3555
+offset_top = 158.539
+offset_right = 22.3555
+offset_bottom = 158.539
 
 [node name="Highlighter" parent="Hotspots/ToTVSpot/Indicators" index="0"]
 modulate = Color(1, 0.452333, 0.38, 1)
 position = Vector2(8.01123, 1.06818)
-frame_progress = 0.9037410020828247
+frame_progress = 0.903741
 
 [node name="FocusIndicator" parent="Hotspots/ToTVSpot/Indicators" index="1"]
 position = Vector2(9.01123, 5.06818)

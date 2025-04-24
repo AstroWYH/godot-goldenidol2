@@ -1,6 +1,6 @@
-[gd_scene load_steps=42 format=4 uid="uid://cbsjdj0dml1y8"]
+[gd_scene load_steps=42 format=3 uid="uid://cbsjdj0dml1y8"]
 
-[ext_resource type="Script" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
+[ext_resource type="Script" uid="uid://dx8gan8gf58m5" path="res://shared/ui/scenario_select/scenario_select.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://c4frb7mp0wd41" path="res://shared/assets/music/menu_bloom.ogg" id="2"]
 [ext_resource type="AudioStream" uid="uid://b755t8j3balbr" path="res://shared/assets/sfx/ambiences/main_menu_ambience.ogg" id="3"]
 [ext_resource type="Texture2D" uid="uid://d2ds1p0evmhdp" path="res://shared/assets/demobackground.png" id="4"]
@@ -14,21 +14,21 @@
 [ext_resource type="Resource" uid="uid://brnk6pl3eqvd1" path="res://acts/full_game/colecting_parts_arc/hub/past_arc_meta.tres" id="12"]
 [ext_resource type="Resource" uid="uid://batbrd70tgo1f" path="res://acts/full_game/reconstruction_arc/hub/machine_arc_hub_meta.tres" id="13"]
 [ext_resource type="Theme" uid="uid://d2e4h7vpe74g6" path="res://shared/assets/themes/btn_default.tres" id="14"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/play_game_button.gd" id="15"]
+[ext_resource type="Script" uid="uid://b2cd78nyaubno" path="res://shared/ui/splash_screen/play_game_button.gd" id="15"]
 [ext_resource type="Resource" uid="uid://f0mst37kx53w" path="res://acts/full_game/introductory_arc/asylum/asylum_scenario_meta.tres" id="16"]
 [ext_resource type="Texture2D" uid="uid://dfnsmkmdw85og" path="res://shared/assets/small_splash_screen_icon.png" id="17"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_button.gd" id="18"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/exit_button.gd" id="19"]
+[ext_resource type="Script" uid="uid://c7ivef8gafdr2" path="res://shared/ui/splash_screen/web_link_button.gd" id="18"]
+[ext_resource type="Script" uid="uid://cxk3cs4wlvodh" path="res://shared/ui/splash_screen/exit_button.gd" id="19"]
 [ext_resource type="PackedScene" uid="uid://b0bm4cbqkel8n" path="res://shared/ui/confirmation_dialog/confirmation_dialog_caller.tscn" id="20"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/language_button.gd" id="21"]
+[ext_resource type="Script" uid="uid://br1wvvcdear7n" path="res://shared/ui/splash_screen/language_button.gd" id="21"]
 [ext_resource type="PackedScene" uid="uid://dx8itecq77gyt" path="res://shared/ui/splash_screen/language_popup/language_popup.tscn" id="22"]
 [ext_resource type="PackedScene" uid="uid://ec1trrkgsu4l" path="res://shared/ui/in_game_menu/in_game_menu.tscn" id="23"]
 [ext_resource type="Texture2D" uid="uid://cmvsr280n330c" path="res://shared/assets/icons/icon_bug_64x64.png" id="24"]
-[ext_resource type="Script" path="res://shared/ui/scenario_select/report_issue_button.gd" id="25"]
+[ext_resource type="Script" uid="uid://c0pr72atiff3x" path="res://shared/ui/scenario_select/report_issue_button.gd" id="25"]
 [ext_resource type="Texture2D" uid="uid://in73eq8d6acx" path="res://shared/ui/buttons/btn_0040_X_idle.png" id="26"]
 [ext_resource type="Texture2D" uid="uid://p2uqa4k4l2r8" path="res://shared/ui/buttons/btn_0042_X_pressed.png" id="27"]
 [ext_resource type="Texture2D" uid="uid://cemwggpo13ubc" path="res://shared/ui/buttons/btn_0041_X_mouseover.png" id="28"]
-[ext_resource type="Script" path="res://shared/ui/splash_screen/web_link_texturebutton.gd" id="29"]
+[ext_resource type="Script" uid="uid://crshdf4luaula" path="res://shared/ui/splash_screen/web_link_texturebutton.gd" id="29"]
 [ext_resource type="Texture2D" uid="uid://c4c1mu3gmmstf" path="res://shared/ui/buttons/btn_0037_discord_idle.png" id="30"]
 [ext_resource type="Texture2D" uid="uid://dnv8jmo06twv0" path="res://shared/ui/buttons/btn_0039_discord_pressed.png" id="31"]
 [ext_resource type="Texture2D" uid="uid://bak7fs5qdfwas" path="res://shared/ui/buttons/btn_0038_discord_mouseover.png" id="32"]
@@ -49,16 +49,16 @@ gradient = SubResource("Gradient_yrpf2")
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_s6hpv"]
 particle_flag_rotate_y = true
 particle_flag_disable_z = true
-angle_min = 1.0728799679782242e-05
-angle_max = 356.70001220703125
+angle_min = 1.07288e-05
+angle_max = 356.7
 direction = Vector3(1, 1, 0)
 gravity = Vector3(0, 3, 0)
-linear_accel_min = -2.2351700863509905e-06
-linear_accel_max = 16.510000228881836
-radial_accel_min = -2.2351700863509905e-06
-radial_accel_max = 40.369998931884766
-tangential_accel_min = -2.2351700863509905e-06
-tangential_accel_max = 69.72000122070313
+linear_accel_min = -2.23517e-06
+linear_accel_max = 16.51
+radial_accel_min = -2.23517e-06
+radial_accel_max = 40.37
+tangential_accel_min = -2.23517e-06
+tangential_accel_max = 69.72
 scale_max = 4.0
 color_ramp = SubResource("GradientTexture1D_ahi08")
 
@@ -66,7 +66,7 @@ color_ramp = SubResource("GradientTexture1D_ahi08")
 blend_mode = 1
 
 [sub_resource type="Animation" id="Animation_b3cy2"]
-length = 0.0010000000474974513
+length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -123,8 +123,8 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0d4um"]
 _data = {
-"RESET": SubResource("Animation_b3cy2"),
-"new_animation": SubResource("Animation_s20cp")
+&"RESET": SubResource("Animation_b3cy2"),
+&"new_animation": SubResource("Animation_s20cp")
 }
 
 [node name="ScenarioSelect" type="Node2D" groups=["i18n"]]

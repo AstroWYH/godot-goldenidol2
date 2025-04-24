@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://ent3g4gn1sqe"]
+[gd_scene load_steps=3 format=3 uid="uid://ent3g4gn1sqe"]
 
 [ext_resource type="Texture2D" uid="uid://ev3iul768vk3" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/bag.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -44,9 +44,9 @@ hotspot_id = "9us"
 text = "retreat_towel_tooltip"
 
 [node name="Indicators" parent="TowelSpot" index="0"]
-offset_left = 41.69620132446289
-offset_top = 26.088699340820313
-offset_right = 41.69620132446289
-offset_bottom = 26.088699340820313
+offset_left = 41.6962
+offset_top = 26.0887
+offset_right = 41.6962
+offset_bottom = 26.0887
 
 [editable path="TowelSpot"]

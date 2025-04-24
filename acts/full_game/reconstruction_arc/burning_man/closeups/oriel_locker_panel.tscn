@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://bqj1iqe37vd07"]
+[gd_scene load_steps=5 format=3 uid="uid://bqj1iqe37vd07"]
 
 [ext_resource type="Texture2D" uid="uid://6ywcpv06yy2p" path="res://acts/full_game/reconstruction_arc/burning_man/assets/closeups/shelf03.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=4 uid="uid://c68tlmp66j5wl"]
+[gd_scene load_steps=47 format=3 uid="uid://c68tlmp66j5wl"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://cwrordgtlfeti" path="res://acts/full_game/introductory_arc/conference/assets/portraits/cheef/cheef_1.png" id="2"]
@@ -172,17 +172,17 @@ animations = [{
 }]
 
 [node name="ChiefCloseup" type="Panel"]
-offset_left = -628.0089721679688
-offset_top = 730.4819946289063
-offset_right = 172.99099731445313
-offset_bottom = 1343.47998046875
+offset_left = -628.009
+offset_top = 730.482
+offset_right = 172.991
+offset_bottom = 1343.48
 
 [node name="CharacterTextLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 56.00899887084961
-offset_top = 78.51799774169922
-offset_right = 679.0089721679688
-offset_bottom = 195.51800537109375
+offset_left = 56.009
+offset_top = 78.518
+offset_right = 679.009
+offset_bottom = 195.518
 theme = ExtResource("1")
 text = "CONFERENCE_SEBASTIAN_SPEECH"
 autowrap_mode = 3
@@ -191,7 +191,7 @@ autowrap_mode = 3
 position = Vector2(534.859, 392.367)
 sprite_frames = SubResource("SpriteFrames_bhb1b")
 autoplay = "default"
-frame_progress = 0.4245629906654358
+frame_progress = 0.424563
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
 position = Vector2(135.009, 465.518)
@@ -202,14 +202,14 @@ layout_mode = 1
 offset_left = 66.0
 offset_top = 357.0
 offset_right = -598.0
-offset_bottom = -90.99800109863281
+offset_bottom = -90.998
 hotspot_id = "YvV"
 
 [node name="Indicators" parent="ChiefNoteSpot" index="0"]
 offset_left = -4.5
-offset_top = 37.51810073852539
+offset_top = 37.5181
 offset_right = -4.5
-offset_bottom = 37.51810073852539
+offset_bottom = 37.5181
 
 [node name="Highlighter" parent="ChiefNoteSpot/Indicators" index="0"]
 modulate = Color(0.901961, 0.972549, 0.996078, 1)
@@ -239,7 +239,7 @@ stretch_mode = 1
 [node name="Sprite2D7" type="Sprite2D" parent="ChiefNoteSpot/ClipboardPanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(117.009, 259.518)
-rotation = -1.5477299690246582
+rotation = -1.54773
 texture = ExtResource("44")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
@@ -247,7 +247,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D6" type="Sprite2D" parent="ChiefNoteSpot/ClipboardPanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(222.009, 117.518)
-rotation = 3.0961999893188477
+rotation = 3.0962
 texture = ExtResource("44")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)
@@ -255,7 +255,7 @@ region_rect = Rect2(142, 221.5, 454, 149.5)
 [node name="Sprite2D5" type="Sprite2D" parent="ChiefNoteSpot/ClipboardPanel/ClipboardSprite"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(230.009, 343.518)
-rotation = -3.0648000240325928
+rotation = -3.0648
 texture = ExtResource("44")
 region_enabled = true
 region_rect = Rect2(142, 221.5, 454, 149.5)

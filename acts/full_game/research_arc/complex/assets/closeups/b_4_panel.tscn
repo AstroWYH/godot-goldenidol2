@@ -1,4 +1,4 @@
-[gd_scene load_steps=221 format=4 uid="uid://n7uxy4knungw"]
+[gd_scene load_steps=221 format=3 uid="uid://n7uxy4knungw"]
 
 [ext_resource type="Texture2D" uid="uid://c0ruj5tw62gqd" path="res://acts/full_game/research_arc/complex/assets/closeups/05_b4_chen.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://cr8418di5n8d5" path="res://acts/full_game/research_arc/complex/assets/animations/CatTail/CatTail_00000.png" id="2"]
@@ -101,7 +101,7 @@
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="99"]
 [ext_resource type="Texture2D" uid="uid://bt0d6fmh7m472" path="res://shared/assets/papers/CrumbledNote.png" id="100"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="101"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="102"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="102"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="103"]
 [ext_resource type="Texture2D" uid="uid://06ltsa2ji1vh" path="res://acts/full_game/research_arc/complex/assets/portraits/taiyo/x_taiyo_000.png" id="104"]
 [ext_resource type="Texture2D" uid="uid://bw1mqigprvwku" path="res://acts/full_game/research_arc/complex/assets/portraits/taiyo/x_taiyo_001.png" id="105"]
@@ -877,13 +877,13 @@ centered = false
 position = Vector2(671, 289)
 sprite_frames = SubResource("SpriteFrames_jlwtg")
 autoplay = "default"
-frame_progress = 0.0895652025938034
+frame_progress = 0.0895652
 
 [node name="CardGamers" type="AnimatedSprite2D" parent="05B4Steensen"]
 position = Vector2(413, 330)
 sprite_frames = SubResource("SpriteFrames_tprxw")
 autoplay = "default"
-frame_progress = 0.7297239899635315
+frame_progress = 0.729724
 
 [node name="Table" type="Sprite2D" parent="05B4Steensen"]
 position = Vector2(410.25, 371)
@@ -957,7 +957,7 @@ autowrap_mode = 3
 position = Vector2(235, 295)
 sprite_frames = SubResource("SpriteFrames_sm6bw")
 autoplay = "default"
-frame_progress = 0.19619399309158325
+frame_progress = 0.196194
 
 [node name="YCardsBlue" type="Sprite2D" parent="SteensenSpot/SteensenPanel"]
 position = Vector2(526.5, 250.538)
@@ -966,7 +966,7 @@ texture = ExtResource("157")
 
 [node name="YCardsYellow" type="Sprite2D" parent="SteensenSpot/SteensenPanel"]
 position = Vector2(666, 337)
-rotation = 0.42335599660873413
+rotation = 0.423356
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("158")
 
@@ -1031,11 +1031,11 @@ autowrap_mode = 3
 position = Vector2(593, 267)
 sprite_frames = SubResource("SpriteFrames_qthh6")
 autoplay = "default"
-frame_progress = 0.9789999723434448
+frame_progress = 0.979
 
 [node name="YCardsRed" type="Sprite2D" parent="SpencerSpot/SpencerPanel"]
 position = Vector2(206, 279)
-rotation = -0.11418599635362625
+rotation = -0.114186
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("213")
 

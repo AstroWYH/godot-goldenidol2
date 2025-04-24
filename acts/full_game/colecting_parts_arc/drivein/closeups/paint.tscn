@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://bga8kk64v14ka"]
+[gd_scene load_steps=5 format=3 uid="uid://bga8kk64v14ka"]
 
 [ext_resource type="Texture2D" uid="uid://d3gal0h6x7yuc" path="res://acts/full_game/colecting_parts_arc/drivein/assets/painted/paint.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="3"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="3"]
 
 [sub_resource type="Resource" id="Resource_whgmo"]
 script = ExtResource("3")
@@ -34,7 +34,7 @@ extra_items_unlocked = [SubResource("Resource_whgmo")]
 [node name="Highlighter" parent="PaintcanTextSpot2/Indicators" index="0"]
 modulate = Color(0.433529, 0.742042, 0.747039, 1)
 position = Vector2(-11, -2.75)
-frame_progress = 0.0650240033864975
+frame_progress = 0.065024
 
 [node name="FocusIndicator" parent="PaintcanTextSpot2/Indicators" index="1"]
 position = Vector2(-10, 1.25)
@@ -54,7 +54,7 @@ unlocked_item_ref_id = 23
 [node name="Highlighter" parent="WireCutterSpot/Indicators" index="0"]
 modulate = Color(0.426119, 0.719799, 0.296312, 1)
 position = Vector2(-4, 10)
-frame_progress = 0.8847799897193909
+frame_progress = 0.88478
 
 [node name="FocusIndicator" parent="WireCutterSpot/Indicators" index="1"]
 position = Vector2(-3, 14)

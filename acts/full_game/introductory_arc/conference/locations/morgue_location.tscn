@@ -1,10 +1,10 @@
-[gd_scene load_steps=21 format=4 uid="uid://h8ypky850rfj"]
+[gd_scene load_steps=21 format=3 uid="uid://h8ypky850rfj"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://cc6s2mvytyvcb" path="res://acts/full_game/introductory_arc/conference/morgue_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ccooug4cq57qe" path="res://shared/assets/light.png" id="3"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="4"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="5"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="5"]
 [ext_resource type="PackedScene" uid="uid://b57tpewf0sm45" path="res://acts/full_game/introductory_arc/conference/closeups/clipboard_panel.tscn" id="6"]
 [ext_resource type="Texture2D" uid="uid://0d63aew4qssb" path="res://shared/assets/textures/morgue_tag.png" id="7"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="8"]
@@ -26,16 +26,16 @@ gradient = SubResource("Gradient_jnrlu")
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_lfmxf"]
 particle_flag_rotate_y = true
 particle_flag_disable_z = true
-angle_min = 1.0728799679782242e-05
-angle_max = 356.70001220703125
+angle_min = 1.07288e-05
+angle_max = 356.7
 direction = Vector3(1, 1, 0)
 gravity = Vector3(0, 3, 0)
-linear_accel_min = -2.2351700863509905e-06
-linear_accel_max = 16.510000228881836
-radial_accel_min = -2.2351700863509905e-06
-radial_accel_max = 40.369998931884766
-tangential_accel_min = -2.2351700863509905e-06
-tangential_accel_max = 69.72000122070313
+linear_accel_min = -2.23517e-06
+linear_accel_max = 16.51
+radial_accel_min = -2.23517e-06
+radial_accel_max = 40.37
+tangential_accel_min = -2.23517e-06
+tangential_accel_max = 69.72
 scale_max = 4.0
 color_ramp = SubResource("GradientTexture1D_kfbkc")
 
@@ -70,7 +70,7 @@ location_meta = ExtResource("2")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 material = SubResource("CanvasItemMaterial_y0x1h")
 position = Vector2(-299, 692)
-rotation = 0.9861130118370056
+rotation = 0.986113
 texture = ExtResource("3")
 
 [node name="ColorRect" type="ColorRect" parent="Sprite2D"]
@@ -79,13 +79,13 @@ offset_left = -1662.0
 offset_top = 433.0
 offset_right = 1478.0
 offset_bottom = 1115.0
-rotation = -0.4166010022163391
+rotation = -0.416601
 color = Color(0, 0, 0, 1)
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
 material = SubResource("CanvasItemMaterial_3xp8w")
 position = Vector2(2166.69, 393.755)
-rotation = 0.4166010022163391
+rotation = 0.416601
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_lfmxf")
 lifetime = 16.14
@@ -94,7 +94,7 @@ explosiveness = 0.25
 [node name="GPUParticles2D3" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
 material = SubResource("CanvasItemMaterial_3xp8w")
 position = Vector2(2056.16, -13.0845)
-rotation = 0.4166010022163391
+rotation = 0.416601
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_lfmxf")
 lifetime = 16.14
@@ -103,7 +103,7 @@ explosiveness = 0.25
 [node name="GPUParticles2D2" type="GPUParticles2D" parent="Sprite2D/ColorRect"]
 material = SubResource("CanvasItemMaterial_3xp8w")
 position = Vector2(2408.52, 7.37436)
-rotation = 0.4166010022163391
+rotation = 0.416601
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_lfmxf")
 lifetime = 16.14
@@ -126,10 +126,10 @@ hotspot_id = "NNk"
 extra_items_unlocked = [SubResource("Resource_6jqt5"), SubResource("Resource_c24s4"), SubResource("Resource_i7fb1"), SubResource("Resource_1wn8s"), SubResource("Resource_lm5e4"), SubResource("Resource_rq4hq")]
 
 [node name="Indicators" parent="Hotspots/ClipboardSpot" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/ClipboardSpot/Indicators" index="0"]
 modulate = Color(0.0196078, 0.0196078, 0.0196078, 1)
@@ -156,20 +156,20 @@ hotspot_id = "FEK"
 unlocked_item_ref_id = 584
 
 [node name="Indicators" parent="Hotspots/Tag1" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/Tag1/Indicators" index="0"]
 modulate = Color(0.00784314, 0.0117647, 0.00784314, 1)
 
 [node name="Tag1Panel" type="Panel" parent="Hotspots/Tag1"]
 layout_mode = 0
-offset_left = 313.50299072265625
-offset_top = 1261.2900390625
-offset_right = 636.5029907226563
-offset_bottom = 1441.2900390625
+offset_left = 313.503
+offset_top = 1261.29
+offset_right = 636.503
+offset_bottom = 1441.29
 
 [node name="MorgueTag" type="Sprite2D" parent="Hotspots/Tag1/Tag1Panel"]
 position = Vector2(161.551, 84.8947)
@@ -177,14 +177,14 @@ texture = ExtResource("7")
 
 [node name="Node2D" type="Node2D" parent="Hotspots/Tag1/Tag1Panel/MorgueTag"]
 position = Vector2(-33.0531, -53.1807)
-rotation = 0.10471999645233154
-skew = 0.39444398880004883
+rotation = 0.10472
+skew = 0.394444
 
 [node name="Text" type="Label" parent="Hotspots/Tag1/Tag1Panel/MorgueTag/Node2D"]
-offset_left = -27.103500366210938
-offset_top = -18.037500381469727
-offset_right = 175.89599609375
-offset_bottom = 133.96299743652344
+offset_left = -27.1035
+offset_top = -18.0375
+offset_right = 175.896
+offset_bottom = 133.963
 theme = ExtResource("8")
 theme_override_colors/font_color = Color(0.278988, 0.257491, 0.0561506, 1)
 theme_override_font_sizes/font_size = 30
@@ -204,20 +204,20 @@ hotspot_id = "Ssl"
 unlocked_item_ref_id = 582
 
 [node name="Indicators" parent="Hotspots/Tag2" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/Tag2/Indicators" index="0"]
 modulate = Color(0.0117647, 0.0117647, 0.0117647, 1)
 
 [node name="Tag2Panel" type="Panel" parent="Hotspots/Tag2"]
 layout_mode = 0
-offset_left = -749.2030029296875
-offset_top = 864.9390258789063
-offset_right = -427.2030029296875
-offset_bottom = 1044.93994140625
+offset_left = -749.203
+offset_top = 864.939
+offset_right = -427.203
+offset_bottom = 1044.94
 
 [node name="MorgueTag" type="Sprite2D" parent="Hotspots/Tag2/Tag2Panel"]
 position = Vector2(161.551, 84.8947)
@@ -225,14 +225,14 @@ texture = ExtResource("7")
 
 [node name="Node2D" type="Node2D" parent="Hotspots/Tag2/Tag2Panel/MorgueTag"]
 position = Vector2(-33.0531, -53.1807)
-rotation = 0.10471999645233154
-skew = 0.39444398880004883
+rotation = 0.10472
+skew = 0.394444
 
 [node name="Text" type="Label" parent="Hotspots/Tag2/Tag2Panel/MorgueTag/Node2D"]
-offset_left = -23.38129997253418
-offset_top = -20.766199111938477
-offset_right = 174.61900329589844
-offset_bottom = 130.23399353027344
+offset_left = -23.3813
+offset_top = -20.7662
+offset_right = 174.619
+offset_bottom = 130.234
 theme = ExtResource("8")
 theme_override_colors/font_color = Color(0.278988, 0.257491, 0.0561506, 1)
 theme_override_font_sizes/font_size = 30
@@ -252,20 +252,20 @@ hotspot_id = "GCk"
 unlocked_item_ref_id = 583
 
 [node name="Indicators" parent="Hotspots/Tag3" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/Tag3/Indicators" index="0"]
 modulate = Color(0.0235294, 0.0313726, 0.0156863, 1)
 
 [node name="Tag3Panel" type="Panel" parent="Hotspots/Tag3"]
 layout_mode = 0
-offset_left = -167.2689971923828
-offset_top = 1164.9599609375
-offset_right = 152.7310028076172
-offset_bottom = 1344.9599609375
+offset_left = -167.269
+offset_top = 1164.96
+offset_right = 152.731
+offset_bottom = 1344.96
 
 [node name="MorgueTag" type="Sprite2D" parent="Hotspots/Tag3/Tag3Panel"]
 position = Vector2(161.551, 84.8947)
@@ -273,14 +273,14 @@ texture = ExtResource("7")
 
 [node name="Node2D" type="Node2D" parent="Hotspots/Tag3/Tag3Panel/MorgueTag"]
 position = Vector2(-33.0531, -53.1807)
-rotation = 0.10471999645233154
-skew = 0.39444398880004883
+rotation = 0.10472
+skew = 0.394444
 
 [node name="Text" type="Label" parent="Hotspots/Tag3/Tag3Panel/MorgueTag/Node2D"]
-offset_left = -26.847299575805664
-offset_top = -23.78219985961914
-offset_right = 174.1529998779297
-offset_bottom = 132.21800231933594
+offset_left = -26.8473
+offset_top = -23.7822
+offset_right = 174.153
+offset_bottom = 132.218
 theme = ExtResource("8")
 theme_override_colors/font_color = Color(0.278988, 0.257491, 0.0561506, 1)
 theme_override_font_sizes/font_size = 30
@@ -300,10 +300,10 @@ hotspot_id = "YXf"
 unlocked_item_ref_id = 580
 
 [node name="Indicators" parent="Hotspots/Tag4" index="0"]
-offset_left = -16.901899337768555
-offset_top = 29.098899841308594
-offset_right = -16.901899337768555
-offset_bottom = 29.098899841308594
+offset_left = -16.9019
+offset_top = 29.0989
+offset_right = -16.9019
+offset_bottom = 29.0989
 
 [node name="Highlighter" parent="Hotspots/Tag4/Indicators" index="0"]
 modulate = Color(0.0117647, 0.0117647, 0.0117647, 1)
@@ -321,14 +321,14 @@ texture = ExtResource("7")
 
 [node name="Node2D" type="Node2D" parent="Hotspots/Tag4/Tag4Panel/MorgueTag"]
 position = Vector2(-33.0531, -53.1807)
-rotation = 0.10471999645233154
-skew = 0.39444398880004883
+rotation = 0.10472
+skew = 0.394444
 
 [node name="Text" type="Label" parent="Hotspots/Tag4/Tag4Panel/MorgueTag/Node2D"]
-offset_left = -28.04509925842285
-offset_top = -19.064800262451172
-offset_right = 174.9550018310547
-offset_bottom = 136.93499755859375
+offset_left = -28.0451
+offset_top = -19.0648
+offset_right = 174.955
+offset_bottom = 136.935
 theme = ExtResource("8")
 theme_override_colors/font_color = Color(0.278988, 0.257491, 0.0561506, 1)
 theme_override_font_sizes/font_size = 30

@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://dyyfueehw2nd4"]
+[gd_scene load_steps=39 format=3 uid="uid://dyyfueehw2nd4"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://dal60pwi6o3re" path="res://shared/assets/portraits/jack_conference/jack_conference_00000.png" id="2"]
@@ -155,10 +155,10 @@ animations = [{
 }]
 
 [node name="RationalistCloseup" type="Panel"]
-offset_left = 896.4390258789063
-offset_top = 720.447998046875
-offset_right = 1697.43994140625
-offset_bottom = 1333.449951171875
+offset_left = 896.439
+offset_top = 720.448
+offset_right = 1697.44
+offset_bottom = 1333.45
 
 [node name="CharacterTextLabel" type="Label" parent="."]
 layout_mode = 0
@@ -176,4 +176,4 @@ sprite_frames = SubResource("SpriteFrames_pbnw4")
 animation = &"new_animation"
 autoplay = "new_animation"
 frame = 8
-frame_progress = 0.550042986869812
+frame_progress = 0.550043

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://cabvfohil6js1"]
+[gd_scene load_steps=3 format=3 uid="uid://cabvfohil6js1"]
 
 [ext_resource type="Texture2D" uid="uid://clokntd0pywyc" path="res://shared/assets/frames/frame_transparent_blue_small.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dbmqwqe16k8ud" path="res://shared/assets/placeholder_ui/split_ui_experiments/texture.png" id="2"]

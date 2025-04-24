@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://b57tpewf0sm45"]
+[gd_scene load_steps=4 format=3 uid="uid://b57tpewf0sm45"]
 
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://btx6jtectusdd" path="res://shared/ui/closeup_deco.png" id="2"]
@@ -28,7 +28,7 @@ stretch_mode = 1
 [node name="Sprite2D3" type="Sprite2D" parent="ClipboardSprite"]
 modulate = Color(0.51, 0.2091, 0.254235, 0.533333)
 position = Vector2(842, 187)
-rotation = -3.141590118408203
+rotation = -3.14159
 texture = ExtResource("2")
 region_enabled = true
 region_rect = Rect2(2, 81.5, 63.5, 101.5)

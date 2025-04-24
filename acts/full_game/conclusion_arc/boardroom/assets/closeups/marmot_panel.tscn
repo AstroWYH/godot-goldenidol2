@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://bsuwaxpwlnw2c"]
+[gd_scene load_steps=53 format=3 uid="uid://bsuwaxpwlnw2c"]
 
 [ext_resource type="Texture2D" uid="uid://dca8ut2js8yrw" path="res://shared/assets/portraits/idiot/fool2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://35iedenhxbfg" path="res://shared/assets/portraits/idiot/fool2_001.png" id="2"]
@@ -229,7 +229,7 @@ autowrap_mode = 3
 position = Vector2(214.345, 351.849)
 sprite_frames = SubResource("SpriteFrames_g8i0h")
 autoplay = "default"
-frame_progress = 0.58713299036026
+frame_progress = 0.587133
 
 [node name="LanyardSprite" type="Sprite2D" parent="."]
 position = Vector2(578.462, 324.849)

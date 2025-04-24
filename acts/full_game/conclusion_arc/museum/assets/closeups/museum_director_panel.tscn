@@ -1,4 +1,4 @@
-[gd_scene load_steps=124 format=4 uid="uid://diqjqqdrk8gfn"]
+[gd_scene load_steps=124 format=3 uid="uid://diqjqqdrk8gfn"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://p687omtk5uog" path="res://shared/assets/portraits/curatorface/curatorface_000.png" id="2"]
@@ -48,7 +48,7 @@
 [ext_resource type="Texture2D" uid="uid://vyhibar4ascx" path="res://shared/ui/voice_message_light/message_light_00021.png" id="46"]
 [ext_resource type="Texture2D" uid="uid://cwieyw4j5hp2p" path="res://shared/ui/voice_message_light/message_light_00022.png" id="47"]
 [ext_resource type="Texture2D" uid="uid://du4r3rngw20e0" path="res://shared/ui/voice_message_light/message_light_00023.png" id="48"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="49"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="49"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="50"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="51"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="52"]
@@ -486,10 +486,10 @@ offset_bottom = -906.0
 
 [node name="MuseumDirectorSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 34.959800720214844
-offset_top = 30.928300857543945
-offset_right = 698.9600219726563
-offset_bottom = 147.92799377441406
+offset_left = 34.9598
+offset_top = 30.9283
+offset_right = 698.96
+offset_bottom = 147.928
 theme = ExtResource("1")
 text = "MUSEUM_CURATOR_SPEECH"
 autowrap_mode = 3
@@ -510,7 +510,7 @@ position = Vector2(640, 346)
 scale = Vector2(-1, 1)
 sprite_frames = SubResource("SpriteFrames_dy1sb")
 autoplay = "default"
-frame_progress = 0.5524500012397766
+frame_progress = 0.55245
 
 [node name="LetterSprite" type="Sprite2D" parent="."]
 position = Vector2(93, 358)
@@ -529,9 +529,9 @@ offset_bottom = -83.0
 hotspot_id = "JAo"
 
 [node name="Indicators" parent="DictaphoneSpot" index="0"]
-offset_left = -2.012399911880493
+offset_left = -2.0124
 offset_top = 128.0
-offset_right = -2.012399911880493
+offset_right = -2.0124
 offset_bottom = 128.0
 
 [node name="Highlighter" parent="DictaphoneSpot/Indicators" index="0"]
@@ -554,25 +554,25 @@ scale = Vector2(0.564935, 0.564935)
 texture = ExtResource("24")
 
 [node name="LightA" type="Node2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite"]
-rotation = 0.560250997543335
-skew = 0.42935100197792053
+rotation = 0.560251
+skew = 0.429351
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite/LightA"]
 position = Vector2(-87.2316, -34.8608)
 sprite_frames = SubResource("SpriteFrames_4mqm0")
 autoplay = "default"
-frame_progress = 0.19333699345588684
+frame_progress = 0.193337
 
 [node name="LightB" type="Node2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite"]
 position = Vector2(222.529, -15.931)
-rotation = 0.560250997543335
-skew = 0.42935100197792053
+rotation = 0.560251
+skew = 0.429351
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite/LightB"]
 position = Vector2(-87.2316, -34.8608)
 sprite_frames = SubResource("SpriteFrames_4mqm0")
 autoplay = "default"
-frame_progress = 0.9300330281257629
+frame_progress = 0.930033
 
 [node name="SideASpot" parent="DictaphoneSpot/DictaphonePanel" instance=ExtResource("23")]
 layout_mode = 1
@@ -585,10 +585,10 @@ hotspot_id = "6D1"
 extra_items_unlocked = [SubResource("Resource_35ixl"), SubResource("Resource_yagnu"), SubResource("Resource_wxot3"), SubResource("Resource_6gfxo"), SubResource("Resource_k5xkp")]
 
 [node name="Indicators" parent="DictaphoneSpot/DictaphonePanel/SideASpot" index="0"]
-offset_left = 0.07244490087032318
-offset_top = 37.1260986328125
-offset_right = 0.07244490087032318
-offset_bottom = 37.1260986328125
+offset_left = 0.0724449
+offset_top = 37.1261
+offset_right = 0.0724449
+offset_bottom = 37.1261
 
 [node name="SideAPanel" type="Panel" parent="DictaphoneSpot/DictaphonePanel/SideASpot"]
 layout_mode = 0
@@ -603,12 +603,12 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 13.0
-offset_top = 7.000239849090576
+offset_top = 7.00024
 offset_right = -10.0
-offset_bottom = -16.999799728393555
+offset_bottom = -16.9998
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("50")
 expand_mode = 1
 stretch_mode = 1
@@ -621,7 +621,7 @@ autoplay = "default"
 
 [node name="DiaphoneSprite" type="Sprite2D" parent="DictaphoneSpot/DictaphonePanel/SideASpot/SideAPanel/MessageBG"]
 position = Vector2(569.366, 619.876)
-rotation = 0.18682700395584106
+rotation = 0.186827
 scale = Vector2(0.694874, 0.694874)
 texture = ExtResource("22")
 
@@ -651,17 +651,17 @@ hotspot_id = "ya_"
 extra_items_unlocked = [SubResource("Resource_xr4bj"), SubResource("Resource_gwnh0"), SubResource("Resource_57g26"), SubResource("Resource_qdl72")]
 
 [node name="Indicators" parent="DictaphoneSpot/DictaphonePanel/SideBSpot" index="0"]
-offset_left = -1.930780053138733
-offset_top = 46.156898498535156
-offset_right = -1.930780053138733
-offset_bottom = 46.156898498535156
+offset_left = -1.93078
+offset_top = 46.1569
+offset_right = -1.93078
+offset_bottom = 46.1569
 
 [node name="SideBPanel" type="Panel" parent="DictaphoneSpot/DictaphonePanel/SideBSpot"]
 layout_mode = 0
-offset_left = 178.17300415039063
-offset_top = -1063.5899658203125
-offset_right = 849.176025390625
-offset_bottom = -183.593994140625
+offset_left = 178.173
+offset_top = -1063.59
+offset_right = 849.176
+offset_bottom = -183.594
 
 [node name="MessageBG" type="TextureRect" parent="DictaphoneSpot/DictaphonePanel/SideBSpot/SideBPanel"]
 layout_mode = 1
@@ -669,12 +669,12 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 13.0
-offset_top = 7.000490188598633
+offset_top = 7.00049
 offset_right = -10.0
-offset_bottom = -16.999500274658203
+offset_bottom = -16.9995
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("50")
 expand_mode = 1
 stretch_mode = 1
@@ -687,7 +687,7 @@ autoplay = "default"
 
 [node name="DiaphoneSprite" type="Sprite2D" parent="DictaphoneSpot/DictaphonePanel/SideBSpot/SideBPanel/MessageBG"]
 position = Vector2(569.618, 771.109)
-rotation = 0.18682700395584106
+rotation = 0.186827
 scale = Vector2(0.694874, 0.694874)
 texture = ExtResource("22")
 
@@ -717,9 +717,9 @@ extra_items_unlocked = [SubResource("Resource_5hctl"), SubResource("Resource_ty0
 
 [node name="Indicators" parent="LetterSpot" index="0"]
 offset_left = -11.5
-offset_top = 1.999940037727356
+offset_top = 1.99994
 offset_right = -11.5
-offset_bottom = 1.999940037727356
+offset_bottom = 1.99994
 
 [node name="Highlighter" parent="LetterSpot/Indicators" index="0"]
 modulate = Color(0.771748, 0.762855, 0.683438, 1)
@@ -730,9 +730,9 @@ position = Vector2(11.3337, 28.8689)
 
 [node name="LetterPanel" type="Panel" parent="LetterSpot"]
 layout_mode = 0
-offset_left = -96.60199737548828
+offset_left = -96.602
 offset_top = -1071.0
-offset_right = 405.39801025390625
+offset_right = 405.398
 offset_bottom = -342.0
 
 [node name="TextureRect" type="TextureRect" parent="LetterSpot/LetterPanel"]
@@ -748,8 +748,8 @@ stretch_mode = 1
 
 [node name="Sprite2D9" type="Sprite2D" parent="LetterSpot/LetterPanel/TextureRect"]
 position = Vector2(210.602, 557)
-rotation = 3.118259906768799
-skew = -0.008633850142359734
+rotation = 3.11826
+skew = -0.00863385
 texture = ExtResource("106")
 region_enabled = true
 region_rect = Rect2(142, 384.149, 454, 213.473)
@@ -758,7 +758,7 @@ region_rect = Rect2(142, 384.149, 454, 213.473)
 modulate = Color(1, 1, 1, 0.447059)
 position = Vector2(295.602, 209)
 scale = Vector2(0.807284, 0.80732)
-skew = -0.004320859909057617
+skew = -0.00432086
 texture = ExtResource("106")
 region_enabled = true
 region_rect = Rect2(142, 6.51494, 454, 222.943)
@@ -766,7 +766,7 @@ region_rect = Rect2(142, 6.51494, 454, 222.943)
 [node name="Sprite2D7" type="Sprite2D" parent="LetterSpot/LetterPanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(222.602, 361)
-rotation = 6.295479774475098
+rotation = 6.29548
 scale = Vector2(0.807298, 1)
 texture = ExtResource("106")
 region_enabled = true

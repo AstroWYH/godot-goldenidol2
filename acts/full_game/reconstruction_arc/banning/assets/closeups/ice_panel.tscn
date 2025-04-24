@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=4 uid="uid://c3ggkyr128fb6"]
+[gd_scene load_steps=33 format=3 uid="uid://c3ggkyr128fb6"]
 
 [ext_resource type="Texture2D" uid="uid://c4c3wi5rhmyx8" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://dlxb3cq83d68g" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/iceblock/ice_001.png" id="2"]
@@ -140,7 +140,7 @@ offset_bottom = 1097.0
 position = Vector2(369, 257)
 sprite_frames = SubResource("SpriteFrames_tjeg8")
 autoplay = "default"
-frame_progress = 0.5404670238494873
+frame_progress = 0.540467
 
 [node name="LegSpot" parent="." instance=ExtResource("31")]
 layout_mode = 1

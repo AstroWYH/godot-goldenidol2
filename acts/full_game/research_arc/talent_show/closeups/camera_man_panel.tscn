@@ -1,7 +1,7 @@
-[gd_scene load_steps=64 format=4 uid="uid://b3mcnl116e6sg"]
+[gd_scene load_steps=64 format=3 uid="uid://b3mcnl116e6sg"]
 
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="1"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="2"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="2"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://bjtdagnucnk27" path="res://shared/ui/closeup_deco_2.png" id="4"]
 [ext_resource type="FontFile" uid="uid://djelmt7jkgvdr" path="res://shared/assets/fonts/IM_FELL_DW_Pica_Roman_UPSILON_3.ttf" id="5"]
@@ -269,9 +269,9 @@ stretch_mode = 1
 [node name="Sprite2D9" type="Sprite2D" parent="BlooperNoteSpot/BlooperNotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.956863)
 position = Vector2(115, 190)
-rotation = -0.20996099710464478
+rotation = -0.209961
 scale = Vector2(1.05484, 1.05489)
-skew = 0.006075140088796616
+skew = 0.00607514
 texture = ExtResource("4")
 offset = Vector2(45.6914, 6.36548)
 region_enabled = true
@@ -280,7 +280,7 @@ region_rect = Rect2(142, 382.5, 454, 222.2)
 [node name="Sprite2D8" type="Sprite2D" parent="BlooperNoteSpot/BlooperNotePanel/TextureRect"]
 modulate = Color(1, 1, 1, 0.647059)
 position = Vector2(359, 337)
-rotation = 1.577839970588684
+rotation = 1.57784
 scale = Vector2(0.833055, 1.26625)
 texture = ExtResource("4")
 offset = Vector2(45.6914, 6.36548)
@@ -317,7 +317,7 @@ autowrap_mode = 3
 position = Vector2(213, 272)
 sprite_frames = SubResource("SpriteFrames_mtpux")
 autoplay = "default"
-frame_progress = 0.46493101119995117
+frame_progress = 0.464931
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 modulate = Color(0.741176, 0.690196, 0.552941, 1)

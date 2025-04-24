@@ -1,4 +1,4 @@
-[gd_scene load_steps=148 format=4 uid="uid://wndmjcec6267"]
+[gd_scene load_steps=148 format=3 uid="uid://wndmjcec6267"]
 
 [ext_resource type="Texture2D" uid="uid://bdjdfyck0dth3" path="res://shared/assets/portraits/jack_new/rationalyst_Jack_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bc3g70gr34a02" path="res://shared/assets/portraits/jack_new/rationalyst_Jack_00001.png" id="2"]
@@ -66,7 +66,7 @@
 [ext_resource type="Texture2D" uid="uid://vyhibar4ascx" path="res://shared/ui/voice_message_light/message_light_00021.png" id="64"]
 [ext_resource type="Texture2D" uid="uid://cwieyw4j5hp2p" path="res://shared/ui/voice_message_light/message_light_00022.png" id="65"]
 [ext_resource type="Texture2D" uid="uid://du4r3rngw20e0" path="res://shared/ui/voice_message_light/message_light_00023.png" id="66"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="67"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="67"]
 [ext_resource type="Texture2D" uid="uid://bg6r10775dy6v" path="res://shared/assets/textures/voice_memo_bg.png" id="68"]
 [ext_resource type="Texture2D" uid="uid://88c3d4n5eai5" path="res://shared/ui/voice_message_anim/voice_message_anim_00000.png" id="69"]
 [ext_resource type="Texture2D" uid="uid://bl41m7jd206sg" path="res://shared/ui/voice_message_anim/voice_message_anim_00001.png" id="70"]
@@ -567,10 +567,10 @@ offset_bottom = -796.0
 
 [node name="JackSpeech" type="Label" parent="."]
 layout_mode = 0
-offset_left = 37.07160186767578
-offset_top = 35.12229919433594
-offset_right = 590.072021484375
-offset_bottom = 152.1219940185547
+offset_left = 37.0716
+offset_top = 35.1223
+offset_right = 590.072
+offset_bottom = 152.122
 text = "MUSEUM_JACK_SPEECH"
 autowrap_mode = 3
 
@@ -592,7 +592,7 @@ sprite_frames = SubResource("SpriteFrames_eqj6s")
 animation = &"loop"
 autoplay = "loop"
 frame = 28
-frame_progress = 0.34666600823402405
+frame_progress = 0.346666
 
 [node name="BookSprite" type="Sprite2D" parent="."]
 position = Vector2(655.064, 458.561)
@@ -619,15 +619,15 @@ offset_bottom = -298.0
 hotspot_id = "xd3"
 
 [node name="Indicators" parent="DictaphoneSpot" index="0"]
-offset_left = -1.90693998336792
-offset_top = 116.68099975585938
-offset_right = -1.90693998336792
-offset_bottom = 116.68099975585938
+offset_left = -1.90694
+offset_top = 116.681
+offset_right = -1.90694
+offset_bottom = 116.681
 
 [node name="Highlighter" parent="DictaphoneSpot/Indicators" index="0"]
 modulate = Color(0.75768, 0.357591, 0.21529, 1)
 position = Vector2(2.69891, -89.8839)
-frame_progress = 0.8553460240364075
+frame_progress = 0.855346
 
 [node name="FocusIndicator" parent="DictaphoneSpot/Indicators" index="1"]
 position = Vector2(0.694077, -83.8771)
@@ -645,8 +645,8 @@ scale = Vector2(0.564935, 0.564935)
 texture = ExtResource("42")
 
 [node name="LightA" type="Node2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite"]
-rotation = 0.560250997543335
-skew = 0.42935100197792053
+rotation = 0.560251
+skew = 0.429351
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite/LightA"]
 position = Vector2(-87.2316, -34.8608)
@@ -655,8 +655,8 @@ autoplay = "default"
 
 [node name="LightB" type="Node2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite"]
 position = Vector2(222.529, -15.931)
-rotation = 0.560250997543335
-skew = 0.42935100197792053
+rotation = 0.560251
+skew = 0.429351
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="DictaphoneSpot/DictaphonePanel/DictaphoneSprite/LightB"]
 position = Vector2(-87.2316, -34.8608)
@@ -674,33 +674,33 @@ hotspot_id = "IKS"
 extra_items_unlocked = [SubResource("Resource_i7352"), SubResource("Resource_qwkgx"), SubResource("Resource_t224e"), SubResource("Resource_qdyug"), SubResource("Resource_rxs3y"), SubResource("Resource_ciml5")]
 
 [node name="Indicators" parent="DictaphoneSpot/DictaphonePanel/SideASpot" index="0"]
-offset_left = -4.435649871826172
-offset_top = 51.17399978637695
-offset_right = -4.435649871826172
-offset_bottom = 51.17399978637695
+offset_left = -4.43565
+offset_top = 51.174
+offset_right = -4.43565
+offset_bottom = 51.174
 
 [node name="Highlighter" parent="DictaphoneSpot/DictaphonePanel/SideASpot/Indicators" index="0"]
 position = Vector2(1.72526, -15.9594)
 
 [node name="SideAPanel" type="Panel" parent="DictaphoneSpot/DictaphonePanel/SideASpot"]
 layout_mode = 0
-offset_left = -505.22198486328125
-offset_top = -856.7410278320313
-offset_right = 108.77799987792969
-offset_bottom = -178.74099731445313
+offset_left = -505.222
+offset_top = -856.741
+offset_right = 108.778
+offset_bottom = -178.741
 
 [node name="MessageBG" type="TextureRect" parent="DictaphoneSpot/DictaphonePanel/SideASpot/SideAPanel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 12.622400283813477
-offset_top = 7.023759841918945
-offset_right = -10.377599716186523
-offset_bottom = -16.976299285888672
+offset_left = 12.6224
+offset_top = 7.02376
+offset_right = -10.3776
+offset_bottom = -16.9763
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("68")
 expand_mode = 1
 stretch_mode = 1
@@ -710,11 +710,11 @@ modulate = Color(0.53, 0.475145, 0.4081, 1)
 position = Vector2(289.511, 588.761)
 sprite_frames = SubResource("SpriteFrames_jgxc3")
 autoplay = "default"
-frame_progress = 0.9703580141067505
+frame_progress = 0.970358
 
 [node name="DiaphoneSprite" type="Sprite2D" parent="DictaphoneSpot/DictaphonePanel/SideASpot/SideAPanel/MessageBG"]
 position = Vector2(532.686, 579.212)
-rotation = 0.18849599361419678
+rotation = 0.188496
 scale = Vector2(0.694874, 0.694874)
 texture = ExtResource("40")
 
@@ -742,34 +742,34 @@ hotspot_id = "O5H"
 extra_items_unlocked = [SubResource("Resource_1sgah"), SubResource("Resource_4gep3"), SubResource("Resource_xjhmn")]
 
 [node name="Indicators" parent="DictaphoneSpot/DictaphonePanel/SideBSpot" index="0"]
-offset_left = -4.435649871826172
-offset_top = 56.191001892089844
-offset_right = -4.435649871826172
-offset_bottom = 56.191001892089844
+offset_left = -4.43565
+offset_top = 56.191
+offset_right = -4.43565
+offset_bottom = 56.191
 
 [node name="Highlighter" parent="DictaphoneSpot/DictaphonePanel/SideBSpot/Indicators" index="0"]
 position = Vector2(2.45887, -19.9696)
-frame_progress = 0.1955070048570633
+frame_progress = 0.195507
 
 [node name="SideBPanel" type="Panel" parent="DictaphoneSpot/DictaphonePanel/SideBSpot"]
 layout_mode = 0
-offset_left = 5.008029937744141
-offset_top = -791.6900024414063
-offset_right = 619.0079956054688
-offset_bottom = -174.69000244140625
+offset_left = 5.00803
+offset_top = -791.69
+offset_right = 619.008
+offset_bottom = -174.69
 
 [node name="MessageBG" type="TextureRect" parent="DictaphoneSpot/DictaphonePanel/SideBSpot/SideBPanel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 12.622400283813477
-offset_top = 7.023930072784424
-offset_right = -10.377599716186523
-offset_bottom = -16.97610092163086
+offset_left = 12.6224
+offset_top = 7.02393
+offset_right = -10.3776
+offset_bottom = -16.9761
 grow_horizontal = 2
 grow_vertical = 2
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("68")
 expand_mode = 1
 stretch_mode = 1
@@ -779,11 +779,11 @@ modulate = Color(0.53, 0.475145, 0.4081, 1)
 position = Vector2(291.409, 525.543)
 sprite_frames = SubResource("SpriteFrames_jgxc3")
 autoplay = "default"
-frame_progress = 0.5819460153579712
+frame_progress = 0.581946
 
 [node name="DiaphoneSprite" type="Sprite2D" parent="DictaphoneSpot/DictaphonePanel/SideBSpot/SideBPanel/MessageBG"]
 position = Vector2(530.539, 516.007)
-rotation = 0.18849599361419678
+rotation = 0.188496
 scale = Vector2(0.694874, 0.694874)
 texture = ExtResource("40")
 
@@ -810,48 +810,48 @@ hotspot_id = "xny"
 text = "MUSEUM_TAPE_TOOLTIP"
 
 [node name="Indicators" parent="TapeSpot" index="0"]
-offset_left = 10.835700035095215
-offset_top = 68.71900177001953
-offset_right = 10.835700035095215
-offset_bottom = 68.71900177001953
+offset_left = 10.8357
+offset_top = 68.719
+offset_right = 10.8357
+offset_bottom = 68.719
 
 [node name="Highlighter" parent="TapeSpot/Indicators" index="0"]
 modulate = Color(0.816791, 0.876577, 0.386452, 1)
 position = Vector2(-7.01288, -22.0102)
-frame_progress = 0.25819000601768494
+frame_progress = 0.25819
 
 [node name="FocusIndicator" parent="TapeSpot/Indicators" index="1"]
 position = Vector2(-6.01288, -18.0102)
 
 [node name="CalculatorSpot" parent="." instance=ExtResource("41")]
 layout_mode = 1
-offset_left = 390.16900634765625
-offset_top = 181.8300018310547
-offset_right = -382.83099365234375
-offset_bottom = -171.1699981689453
+offset_left = 390.169
+offset_top = 181.83
+offset_right = -382.831
+offset_bottom = -171.17
 hotspot_id = "urG"
 extra_items_unlocked = [SubResource("Resource_k5jgh"), SubResource("Resource_2m842"), SubResource("Resource_kbjl0"), SubResource("Resource_8pll1")]
 
 [node name="Indicators" parent="CalculatorSpot" index="0"]
-offset_left = 0.6102290153503418
-offset_top = 51.17390060424805
-offset_right = 0.6102290153503418
-offset_bottom = 51.17390060424805
+offset_left = 0.610229
+offset_top = 51.1739
+offset_right = 0.610229
+offset_bottom = 51.1739
 
 [node name="Highlighter" parent="CalculatorSpot/Indicators" index="0"]
 modulate = Color(0.377745, 0.792883, 0.569502, 1)
 position = Vector2(3.00323, 25.15)
-frame_progress = 0.889627993106842
+frame_progress = 0.889628
 
 [node name="FocusIndicator" parent="CalculatorSpot/Indicators" index="1"]
 position = Vector2(4.00323, 29.15)
 
 [node name="CalculatorPanel" type="Panel" parent="CalculatorSpot"]
 layout_mode = 0
-offset_left = -378.6080017089844
-offset_top = -904.072021484375
-offset_right = -2.6075398921966553
-offset_bottom = -282.0719909667969
+offset_left = -378.608
+offset_top = -904.072
+offset_right = -2.60754
+offset_bottom = -282.072
 
 [node name="CalculatorSprite" type="Sprite2D" parent="CalculatorSpot/CalculatorPanel"]
 position = Vector2(185.733, 301.801)
@@ -859,11 +859,11 @@ texture = ExtResource("123")
 
 [node name="CalculatorLabel" type="RichTextLabel" parent="CalculatorSpot/CalculatorPanel"]
 layout_mode = 0
-offset_left = 89.57949829101563
-offset_top = 88.07430267333984
-offset_right = 337.5799865722656
-offset_bottom = 157.0749969482422
-rotation = 0.04440069943666458
+offset_left = 89.5795
+offset_top = 88.0743
+offset_right = 337.58
+offset_bottom = 157.075
+rotation = 0.0444007
 mouse_filter = 1
 theme_override_colors/default_color = Color(1, 0.262745, 0.305882, 1)
 bbcode_enabled = true
@@ -879,15 +879,15 @@ hotspot_id = "IKc"
 extra_items_unlocked = [SubResource("Resource_g412f"), SubResource("Resource_ftss2"), SubResource("Resource_0omra")]
 
 [node name="Indicators" parent="BookSpot" index="0"]
-offset_left = -9.94713020324707
-offset_top = 73.42130279541016
-offset_right = -9.94713020324707
-offset_bottom = 73.42130279541016
+offset_left = -9.94713
+offset_top = 73.4213
+offset_right = -9.94713
+offset_bottom = 73.4213
 
 [node name="Highlighter" parent="BookSpot/Indicators" index="0"]
 modulate = Color(0.796797, 0.629091, 0.380794, 1)
 position = Vector2(1.0123, -54.7446)
-frame_progress = 0.7316060066223145
+frame_progress = 0.731606
 
 [node name="FocusIndicator" parent="BookSpot/Indicators" index="1"]
 position = Vector2(0.00908613, -48.7377)

@@ -1,12 +1,12 @@
-[gd_scene load_steps=2 format=4 uid="uid://drns1o3n4vk74"]
+[gd_scene load_steps=2 format=3 uid="uid://drns1o3n4vk74"]
 
 [ext_resource type="Texture2D" uid="uid://bubyalkplutr7" path="res://acts/full_game/conclusion_arc/boardroom/assets/closeups/phone.png" id="1"]
 
 [node name="PhonePanel" type="Panel"]
-offset_left = -62.09980010986328
-offset_top = -1437.8900146484375
-offset_right = 328.8999938964844
-offset_bottom = -1050.8900146484375
+offset_left = -62.0998
+offset_top = -1437.89
+offset_right = 328.9
+offset_bottom = -1050.89
 
 [node name="PhoneSprite" type="Sprite2D" parent="."]
 position = Vector2(194.312, 186.634)

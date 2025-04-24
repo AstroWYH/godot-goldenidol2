@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=4 uid="uid://hca8djie82r2"]
+[gd_scene load_steps=3 format=3 uid="uid://hca8djie82r2"]
 
 [ext_resource type="Texture2D" uid="uid://ciwm4kqibpdhp" path="res://acts/full_game/colecting_parts_arc/retreat/assets/sketches/closeups/calendar2.png" id="1"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="2"]
@@ -11,7 +11,7 @@ offset_bottom = 1319.0
 
 [node name="CalendarSprite" type="Sprite2D" parent="."]
 position = Vector2(12.335, 11)
-rotation = 0.0016687499592080712
+rotation = 0.00166875
 texture = ExtResource("1")
 centered = false
 
@@ -151,9 +151,9 @@ text = "04"
 
 [node name="CalendarLabel6" type="Label" parent="."]
 layout_mode = 0
-offset_left = 49.000099182128906
+offset_left = 49.0001
 offset_top = 541.0
-offset_right = 95.0000991821289
+offset_right = 95.0001
 offset_bottom = 579.0
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
@@ -171,9 +171,9 @@ text = "06"
 
 [node name="CalendarLabel8" type="Label" parent="."]
 layout_mode = 0
-offset_left = 212.6649932861328
+offset_left = 212.665
 offset_top = 543.0
-offset_right = 258.6650085449219
+offset_right = 258.665
 offset_bottom = 581.0
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
@@ -221,9 +221,9 @@ text = "11"
 
 [node name="CalendarLabel13" type="Label" parent="."]
 layout_mode = 0
-offset_left = 50.000099182128906
+offset_left = 50.0001
 offset_top = 596.0
-offset_right = 96.0000991821289
+offset_right = 96.0001
 offset_bottom = 634.0
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
@@ -291,9 +291,9 @@ text = "18"
 
 [node name="CalendarLabel20" type="Label" parent="."]
 layout_mode = 0
-offset_left = 50.000099182128906
+offset_left = 50.0001
 offset_top = 650.0
-offset_right = 96.0000991821289
+offset_right = 96.0001
 offset_bottom = 688.0
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
@@ -361,9 +361,9 @@ text = "25"
 
 [node name="CalendarLabel27" type="Label" parent="."]
 layout_mode = 0
-offset_left = 53.000099182128906
+offset_left = 53.0001
 offset_top = 704.0
-offset_right = 99.0000991821289
+offset_right = 99.0001
 offset_bottom = 742.0
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)
@@ -381,9 +381,9 @@ text = "27"
 
 [node name="CalendarLabel29" type="Label" parent="."]
 layout_mode = 0
-offset_left = 207.6649932861328
+offset_left = 207.665
 offset_top = 701.0
-offset_right = 253.6649932861328
+offset_right = 253.665
 offset_bottom = 739.0
 theme = ExtResource("2")
 theme_override_colors/font_color = Color(0.443137, 0.207843, 0.54902, 1)

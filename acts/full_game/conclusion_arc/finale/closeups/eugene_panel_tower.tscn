@@ -1,4 +1,4 @@
-[gd_scene load_steps=101 format=4 uid="uid://umhchoonosfj"]
+[gd_scene load_steps=101 format=3 uid="uid://umhchoonosfj"]
 
 [ext_resource type="Texture2D" uid="uid://27ijglyn4rot" path="res://acts/full_game/conclusion_arc/finale/assets/closeups/foolhanging.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://rv20wklkn37r" path="res://acts/full_game/conclusion_arc/finale/assets/animations/foolhanging/foolhanging_000.png" id="2"]
@@ -371,10 +371,10 @@ animations = [{
 }]
 
 [node name="EugenePanel" type="Panel"]
-offset_left = -1986.18994140625
-offset_top = 235.80099487304688
-offset_right = -1375.18994140625
-offset_bottom = 1152.800048828125
+offset_left = -1986.19
+offset_top = 235.801
+offset_right = -1375.19
+offset_bottom = 1152.8
 
 [node name="EugeneSprite" type="Sprite2D" parent="."]
 position = Vector2(306.492, 453.541)
@@ -384,27 +384,27 @@ texture = ExtResource("1")
 position = Vector2(128.206, 136.464)
 sprite_frames = SubResource("SpriteFrames_nnitf")
 autoplay = "default"
-frame_progress = 0.3394849896430969
+frame_progress = 0.339485
 
 [node name="EugeneSpot" parent="." instance=ExtResource("37")]
 layout_mode = 1
 offset_left = 279.0
 offset_top = 471.0
 offset_right = -145.0
-offset_bottom = -74.9990005493164
+offset_bottom = -74.999
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Dw5"
 
 [node name="Indicators" parent="EugeneSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="EugeneSpot/Indicators" index="0"]
 modulate = Color(0.884975, 0.91, 0.6097, 1)
 position = Vector2(-47.1546, 88.7309)
-frame_progress = 0.28365200757980347
+frame_progress = 0.283652
 
 [node name="FocusIndicator" parent="EugeneSpot/Indicators" index="1"]
 position = Vector2(-46.1546, 92.7309)
@@ -433,7 +433,7 @@ scale = Vector2(0.840926, 0.840926)
 sprite_frames = SubResource("SpriteFrames_exhg4")
 autoplay = "default"
 frame = 6
-frame_progress = 0.23022300004959106
+frame_progress = 0.230223
 
 [node name="SealSprite" type="Sprite2D" parent="EugeneSpot/EugeneCloseupPanel"]
 position = Vector2(397.101, 333.912)
@@ -451,18 +451,18 @@ texture = ExtResource("91")
 
 [node name="FilmingSpot2" parent="EugeneSpot/EugeneCloseupPanel" instance=ExtResource("37")]
 layout_mode = 1
-offset_left = 524.3049926757813
-offset_top = 88.07689666748047
-offset_right = -24.694599151611328
-offset_bottom = -212.92300415039063
+offset_left = 524.305
+offset_top = 88.0769
+offset_right = -24.6946
+offset_bottom = -212.923
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "jRI"
 
 [node name="Indicators" parent="EugeneSpot/EugeneCloseupPanel/FilmingSpot2" index="0"]
-offset_left = -0.5261610150337219
-offset_top = 14.143699645996094
-offset_right = -0.5261610150337219
-offset_bottom = 14.143699645996094
+offset_left = -0.526161
+offset_top = 14.1437
+offset_right = -0.526161
+offset_bottom = 14.1437
 
 [node name="Highlighter" parent="EugeneSpot/EugeneCloseupPanel/FilmingSpot2/Indicators" index="0"]
 modulate = Color(0.905994, 0.865095, 0.703505, 1)
@@ -496,7 +496,7 @@ stretch_mode = 1
 [node name="TextureRect" type="Sprite2D" parent="EugeneSpot/EugeneCloseupPanel/FilmingSpot2/FilmingPanel/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(192.653, 609.362)
-rotation = 3.147469997406006
+rotation = 3.14747
 texture = ExtResource("93")
 region_enabled = true
 region_rect = Rect2(211.421, 0, 388.579, 230.024)
@@ -504,7 +504,7 @@ region_rect = Rect2(211.421, 0, 388.579, 230.024)
 [node name="TextureRect2" type="Sprite2D" parent="EugeneSpot/EugeneCloseupPanel/FilmingSpot2/FilmingPanel/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(239.604, 355.641)
-rotation = 3.162869930267334
+rotation = 3.16287
 texture = ExtResource("93")
 region_enabled = true
 region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
@@ -512,16 +512,16 @@ region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 [node name="TextureRect3" type="Sprite2D" parent="EugeneSpot/EugeneCloseupPanel/FilmingSpot2/FilmingPanel/ProtocolSprite"]
 modulate = Color(1, 1, 1, 0.611765)
 position = Vector2(354.974, 398.935)
-rotation = 0.048663098365068436
+rotation = 0.0486631
 texture = ExtResource("93")
 region_enabled = true
 region_rect = Rect2(107.785, 224.709, 492.215, 160.326)
 
 [node name="Names" type="RichTextLabel" parent="EugeneSpot/EugeneCloseupPanel/FilmingSpot2/FilmingPanel"]
 layout_mode = 0
-offset_left = 30.02910041809082
+offset_left = 30.0291
 offset_top = 16.0
-offset_right = 574.0289916992188
+offset_right = 574.029
 offset_bottom = 747.0
 theme = ExtResource("94")
 theme_override_colors/default_color = Color(0.2162, 0.21712, 0.23, 1)
@@ -531,18 +531,18 @@ text = "FINALE_EUGENE_TODO_LIST"
 
 [node name="LoveNoteSpot" parent="EugeneSpot/EugeneCloseupPanel" instance=ExtResource("37")]
 layout_mode = 1
-offset_left = 478.2309875488281
-offset_top = 268.6910095214844
-offset_right = -4.768680095672607
-offset_bottom = -5.309020042419434
+offset_left = 478.231
+offset_top = 268.691
+offset_right = -4.76868
+offset_bottom = -5.30902
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "l8E"
 
 [node name="Indicators" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot" index="0"]
-offset_left = -0.5261539816856384
-offset_top = 25.25659942626953
-offset_right = -0.5261539816856384
-offset_bottom = 25.25659942626953
+offset_left = -0.526154
+offset_top = 25.2566
+offset_right = -0.526154
+offset_bottom = 25.2566
 
 [node name="LoveNotePanel" type="Panel" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot"]
 layout_mode = 0
@@ -561,10 +561,10 @@ texture = ExtResource("96")
 
 [node name="LoveNote" type="Label" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot/LoveNotePanel"]
 layout_mode = 0
-offset_left = 101.19999694824219
-offset_top = 107.37000274658203
-offset_right = 543.2000122070313
-offset_bottom = 526.3699951171875
+offset_left = 101.2
+offset_top = 107.37
+offset_right = 543.2
+offset_bottom = 526.37
 theme = ExtResource("97")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 22
@@ -574,22 +574,22 @@ autowrap_mode = 2
 [node name="FragranceSpot" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot/LoveNotePanel" instance=ExtResource("37")]
 layout_mode = 1
 offset_left = 345.375
-offset_top = 384.1820068359375
-offset_right = -99.62550354003906
-offset_bottom = -98.81790161132813
+offset_top = 384.182
+offset_right = -99.6255
+offset_bottom = -98.8179
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "i5x"
 text = "FINALE_FRAGRANCED_LETTER_TOOLTIP"
 
 [node name="Indicators" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot/LoveNotePanel/FragranceSpot" index="0"]
-offset_left = -8.037960052490234
-offset_top = 65.93820190429688
-offset_right = -8.037960052490234
-offset_bottom = 65.93820190429688
+offset_left = -8.03796
+offset_top = 65.9382
+offset_right = -8.03796
+offset_bottom = 65.9382
 
 [node name="Highlighter" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot/LoveNotePanel/FragranceSpot/Indicators" index="0"]
 position = Vector2(12.0891, -25.276)
-frame_progress = 0.37302300333976746
+frame_progress = 0.373023
 
 [node name="FocusIndicator" parent="EugeneSpot/EugeneCloseupPanel/LoveNoteSpot/LoveNotePanel/FragranceSpot/Indicators" index="1"]
 position = Vector2(10.5182, -19.0671)
@@ -599,20 +599,20 @@ layout_mode = 1
 offset_left = 247.0
 offset_top = 231.0
 offset_right = -200.0
-offset_bottom = -590.9990234375
+offset_bottom = -590.999
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "VTK"
 
 [node name="Indicators" parent="TowerSpot2" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="TowerSpot2/Indicators" index="0"]
 modulate = Color(0.5751, 0.71, 0.694262, 1)
 position = Vector2(-74.1742, -22.9044)
-frame_progress = 0.3896239995956421
+frame_progress = 0.389624
 
 [node name="FocusIndicator" parent="TowerSpot2/Indicators" index="1"]
 visible = false
@@ -631,11 +631,11 @@ texture = ExtResource("98")
 
 [node name="VideoInSpeech" type="Label" parent="TowerSpot2/TowerPanel"]
 layout_mode = 0
-offset_left = 326.8630065917969
-offset_top = 275.3590087890625
-offset_right = 427.8630065917969
-offset_bottom = 359.3590087890625
-rotation = 0.02173450030386448
+offset_left = 326.863
+offset_top = 275.359
+offset_right = 427.863
+offset_bottom = 359.359
+rotation = 0.0217345
 theme_override_colors/font_color = Color(0.682353, 0.662745, 0.54902, 1)
 theme_override_constants/line_spacing = -9
 theme_override_fonts/font = ExtResource("38")
@@ -651,7 +651,7 @@ offset_left = 217.0
 offset_top = 289.0
 offset_right = 319.0
 offset_bottom = 373.0
-rotation = 0.02173450030386448
+rotation = 0.0217345
 theme_override_colors/font_color = Color(0.682353, 0.662745, 0.54902, 1)
 theme_override_constants/line_spacing = -9
 theme_override_fonts/font = ExtResource("38")
@@ -667,7 +667,7 @@ offset_left = 312.0
 offset_top = 386.0
 offset_right = 417.0
 offset_bottom = 470.0
-rotation = -0.05907750129699707
+rotation = -0.0590775
 theme_override_colors/font_color = Color(0.682353, 0.662745, 0.54902, 1)
 theme_override_constants/line_spacing = -9
 theme_override_fonts/font = ExtResource("38")
@@ -679,11 +679,11 @@ autowrap_mode = 3
 
 [node name="AudioOutSpeech4" type="Label" parent="TowerSpot2/TowerPanel"]
 layout_mode = 0
-offset_left = 212.67999267578125
-offset_top = 385.7340087890625
-offset_right = 310.67999267578125
-offset_bottom = 469.7340087890625
-rotation = 0.02173450030386448
+offset_left = 212.68
+offset_top = 385.734
+offset_right = 310.68
+offset_bottom = 469.734
+rotation = 0.0217345
 theme_override_colors/font_color = Color(0.682353, 0.662745, 0.54902, 1)
 theme_override_constants/line_spacing = -9
 theme_override_fonts/font = ExtResource("38")

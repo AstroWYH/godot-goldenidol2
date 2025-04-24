@@ -1,11 +1,11 @@
-[gd_scene load_steps=17 format=4 uid="uid://ciglw07argaj2"]
+[gd_scene load_steps=17 format=3 uid="uid://ciglw07argaj2"]
 
 [ext_resource type="Texture2D" uid="uid://iyf53d3au3qk" path="res://acts/full_game/conclusion_arc/museum/assets/closeups/bodyroom.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
 [ext_resource type="Texture2D" uid="uid://bqxqjlgjicysq" path="res://acts/full_game/introductory_arc/asylum/assets/closeups/cigarettes.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://b0x1vq1iq80im" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/ammo_box.png" id="4"]
 [ext_resource type="Texture2D" uid="uid://cwsubnh4apwj4" path="res://shared/assets/papers/BrownBook_Icon.png" id="5"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="6"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="6"]
 [ext_resource type="Texture2D" uid="uid://j6c5t77iy67a" path="res://shared/assets/papers/BrownBook_Open.png" id="7"]
 
 [sub_resource type="Resource" id="Resource_oevhh"]
@@ -57,18 +57,18 @@ centered = false
 
 [node name="LockerSpot" parent="." instance=ExtResource("2")]
 layout_mode = 1
-offset_left = 536.4539794921875
-offset_top = 312.8840026855469
-offset_right = -160.54600524902344
-offset_bottom = -118.11599731445313
+offset_left = 536.454
+offset_top = 312.884
+offset_right = -160.546
+offset_bottom = -118.116
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "Vws"
 
 [node name="Indicators" parent="LockerSpot" index="0"]
-offset_left = 22.44529914855957
-offset_top = 46.36819839477539
-offset_right = 22.44529914855957
-offset_bottom = 46.36819839477539
+offset_left = 22.4453
+offset_top = 46.3682
+offset_right = 22.4453
+offset_bottom = 46.3682
 
 [node name="Highlighter" parent="LockerSpot/Indicators" index="0"]
 modulate = Color(0.753984, 0.753984, 0.753984, 1)
@@ -125,10 +125,10 @@ hotspot_id = "MDT"
 extra_items_unlocked = [SubResource("Resource_oevhh"), SubResource("Resource_pvm2h"), SubResource("Resource_tb803"), SubResource("Resource_o7q3g"), SubResource("Resource_0l872"), SubResource("Resource_0qp5w"), SubResource("Resource_a5c7h"), SubResource("Resource_jijn8"), SubResource("Resource_higwc")]
 
 [node name="Indicators" parent="LockerSpot/LockerPanel/NoteBookSpot" index="0"]
-offset_left = -13.949399948120117
-offset_top = 39.47710037231445
-offset_right = -13.949399948120117
-offset_bottom = 39.47710037231445
+offset_left = -13.9494
+offset_top = 39.4771
+offset_right = -13.9494
+offset_bottom = 39.4771
 
 [node name="Highlighter" parent="LockerSpot/LockerPanel/NoteBookSpot/Indicators" index="0"]
 modulate = Color(0.803303, 0.610919, 0.352101, 1)

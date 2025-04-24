@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=4 uid="uid://rmuv1ngnhhuh"]
+[gd_scene load_steps=52 format=3 uid="uid://rmuv1ngnhhuh"]
 
 [ext_resource type="Texture2D" uid="uid://dca8ut2js8yrw" path="res://shared/assets/portraits/idiot/fool2_000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://35iedenhxbfg" path="res://shared/assets/portraits/idiot/fool2_001.png" id="2"]
@@ -210,18 +210,18 @@ animations = [{
 }]
 
 [node name="MarmotCloseup" type="Panel"]
-offset_left = -753.2100219726563
-offset_top = 935.177978515625
-offset_right = 47.7849006652832
-offset_bottom = 1548.1800537109375
+offset_left = -753.21
+offset_top = 935.178
+offset_right = 47.7849
+offset_bottom = 1548.18
 
 [node name="Label" type="Label" parent="."]
 visible = false
 layout_mode = 0
-offset_left = 52.08399963378906
-offset_top = 48.16350173950195
-offset_right = 727.083984375
-offset_bottom = 243.16299438476563
+offset_left = 52.084
+offset_top = 48.1635
+offset_right = 727.084
+offset_bottom = 243.163
 theme_override_font_sizes/font_size = 24
 text = "Bloody youngsters almost ruined the shoot. Sandra should have given us better models.
  

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://ckf351ftf5dqu"]
+[gd_scene load_steps=8 format=3 uid="uid://ckf351ftf5dqu"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://d0ph0cb0supq1" path="res://shared/puzzle/puzzle_group/puzzle_group.tscn" id="2"]
@@ -31,11 +31,11 @@ unique_name_in_owner = true
 layout_direction = 2
 layout_mode = 1
 anchors_preset = -1
-anchor_bottom = 1.0390000343322754
+anchor_bottom = 1.039
 offset_left = 19.0
 offset_top = 45.0
 offset_right = -20.0
-offset_bottom = -42.54199981689453
+offset_bottom = -42.542
 theme = ExtResource("4")
 puzzle_meta = ExtResource("5")
 text = "COMPLEX_SCROLL_PUZZLE_CONTENT"

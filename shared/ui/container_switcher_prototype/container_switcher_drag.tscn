@@ -1,9 +1,9 @@
-[gd_scene load_steps=12 format=4 uid="uid://bq2cgglste5jc"]
+[gd_scene load_steps=12 format=3 uid="uid://bq2cgglste5jc"]
 
-[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_switcher_drag.gd" id="1"]
+[ext_resource type="Script" uid="uid://ce076fgr5pk78" path="res://shared/ui/container_switcher_prototype/container_switcher_drag.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://bvqmaexxkqscp" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel_2xsmaller.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://cfjtaev77tctm" path="res://shared/assets/placeholder_ui/split_ui_experiments/panel.png" id="3"]
-[ext_resource type="Script" path="res://shared/ui/container_switcher_prototype/container_button_drag.gd" id="4"]
+[ext_resource type="Script" uid="uid://ds4xxld1xo83f" path="res://shared/ui/container_switcher_prototype/container_button_drag.gd" id="4"]
 [ext_resource type="Texture2D" uid="uid://cguma5pp5dbsf" path="res://shared/assets/placeholder_ui/buttons/phrases.png" id="5"]
 [ext_resource type="Texture2D" uid="uid://bonku6ovsl8cb" path="res://shared/assets/placeholder_ui/buttons/cells.png" id="6"]
 [ext_resource type="PackedScene" uid="uid://b8peo4cxrve12" path="res://shared/ui/thinking_ui/mini_indicator/mini_indicator.tscn" id="7"]

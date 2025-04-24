@@ -1,6 +1,6 @@
-[gd_scene load_steps=136 format=4]
+[gd_scene load_steps=136 format=3 uid="uid://dkuq3347x4gbc"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://o0awu3lutq3q" path="res://acts/full_game/conclusion_arc/finale/locations/isaac_replacement_location_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://brh3166woybvt" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bridgefigures/bridgefigures_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://lpvoxuy4pruo" path="res://acts/full_game/conclusion_arc/finale/assets/animations/bridgefigures/bridgefigures_001.png" id="4"]
@@ -535,13 +535,13 @@ location_meta = ExtResource("2")
 position = Vector2(1406, 425)
 sprite_frames = SubResource("SpriteFrames_aje6c")
 autoplay = "default"
-frame_progress = 0.3585929870605469
+frame_progress = 0.358593
 
 [node name="Rag" type="AnimatedSprite2D" parent="."]
 position = Vector2(1379, 545)
 sprite_frames = SubResource("SpriteFrames_jhc0j")
 autoplay = "default"
-frame_progress = 0.8251559734344482
+frame_progress = 0.825156
 
 [node name="Snow3" type="GPUParticles2D" parent="."]
 position = Vector2(640, 77)
@@ -567,10 +567,10 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "LEp"
 
 [node name="Indicators" parent="Hotspots/VanSpot" index="0"]
-offset_left = -60.28450012207031
-offset_top = 67.22840118408203
-offset_right = -60.28450012207031
-offset_bottom = 67.22840118408203
+offset_left = -60.2845
+offset_top = 67.2284
+offset_right = -60.2845
+offset_bottom = 67.2284
 
 [node name="Highlighter" parent="Hotspots/VanSpot/Indicators" index="0"]
 modulate = Color(0.192821, 0.152386, 0.133164, 1)
@@ -601,25 +601,25 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "gD-"
 
 [node name="Indicators" parent="Hotspots/VanSpot/VanPanel/NotebookSpot" index="0"]
-offset_left = 158.9969940185547
-offset_top = -44.95840072631836
-offset_right = 158.9969940185547
-offset_bottom = -44.95840072631836
+offset_left = 158.997
+offset_top = -44.9584
+offset_right = 158.997
+offset_bottom = -44.9584
 
 [node name="Highlighter" parent="Hotspots/VanSpot/VanPanel/NotebookSpot/Indicators" index="0"]
 modulate = Color(0.24938, 0.0313636, 0, 1)
 position = Vector2(-129.124, 76.3878)
-frame_progress = 0.6508269906044006
+frame_progress = 0.650827
 
 [node name="FocusIndicator" parent="Hotspots/VanSpot/VanPanel/NotebookSpot/Indicators" index="1"]
 position = Vector2(-128.124, 80.388)
 
 [node name="NotebookPanel" type="Panel" parent="Hotspots/VanSpot/VanPanel/NotebookSpot"]
 layout_mode = 0
-offset_left = 814.614990234375
-offset_top = -307.0830078125
-offset_right = 1777.6099853515625
-offset_bottom = 351.9169921875
+offset_left = 814.615
+offset_top = -307.083
+offset_right = 1777.61
+offset_bottom = 351.917
 
 [node name="SubmissionsSprite" type="Sprite2D" parent="Hotspots/VanSpot/VanPanel/NotebookSpot/NotebookPanel"]
 position = Vector2(485, 321)
@@ -644,10 +644,10 @@ scroll_active = false
 
 [node name="Page1Label3" type="RichTextLabel" parent="Hotspots/VanSpot/VanPanel/NotebookSpot/NotebookPanel"]
 layout_mode = 0
-offset_left = 512.64501953125
-offset_top = 56.38420104980469
-offset_right = 886.64501953125
-offset_bottom = 544.3839721679688
+offset_left = 512.645
+offset_top = 56.3842
+offset_right = 886.645
+offset_bottom = 544.384
 mouse_filter = 1
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("54")
@@ -669,15 +669,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "82H"
 
 [node name="Indicators" parent="Hotspots/GuardSpot2" index="0"]
-offset_left = -17.406700134277344
-offset_top = 14.047699928283691
-offset_right = -17.406700134277344
-offset_bottom = 14.047699928283691
+offset_left = -17.4067
+offset_top = 14.0477
+offset_right = -17.4067
+offset_bottom = 14.0477
 
 [node name="Highlighter" parent="Hotspots/GuardSpot2/Indicators" index="0"]
 modulate = Color(1, 0.427451, 0.270588, 1)
 position = Vector2(39.5498, 92.5466)
-frame_progress = 0.18622499704360962
+frame_progress = 0.186225
 
 [node name="FocusIndicator" parent="Hotspots/GuardSpot2/Indicators" index="1"]
 position = Vector2(40.5498, 96.5466)
@@ -703,7 +703,7 @@ autowrap_mode = 3
 position = Vector2(223.752, 373.481)
 sprite_frames = SubResource("SpriteFrames_54fst")
 autoplay = "default"
-frame_progress = 0.33615198731422424
+frame_progress = 0.336152
 
 [node name="HunterSpot" parent="Hotspots" instance=ExtResource("51")]
 layout_mode = 1
@@ -715,15 +715,15 @@ scale = Vector2(0.998394, 0.996602)
 hotspot_id = "RM7"
 
 [node name="Indicators" parent="Hotspots/HunterSpot" index="0"]
-offset_left = -1.9276000261306763
-offset_top = 10.034099578857422
-offset_right = -1.9276000261306763
-offset_bottom = 10.034099578857422
+offset_left = -1.9276
+offset_top = 10.0341
+offset_right = -1.9276
+offset_bottom = 10.0341
 
 [node name="Highlighter" parent="Hotspots/HunterSpot/Indicators" index="0"]
 modulate = Color(1, 0.428167, 0.27, 1)
 position = Vector2(13.0209, 59.2012)
-frame_progress = 0.38646200299263
+frame_progress = 0.386462
 
 [node name="FocusIndicator" parent="Hotspots/HunterSpot/Indicators" index="1"]
 position = Vector2(13.5064, 61.4273)
@@ -749,7 +749,7 @@ autowrap_mode = 3
 position = Vector2(680.723, 301.363)
 sprite_frames = SubResource("SpriteFrames_c5cju")
 autoplay = "default"
-frame_progress = 0.5816400051116943
+frame_progress = 0.58164
 
 [editable path="Hotspots/VanSpot"]
 [editable path="Hotspots/VanSpot/VanPanel/NotebookSpot"]

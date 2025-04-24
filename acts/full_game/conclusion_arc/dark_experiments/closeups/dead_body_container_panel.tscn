@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=4 uid="uid://0dqg544xswo7"]
+[gd_scene load_steps=4 format=3 uid="uid://0dqg544xswo7"]
 
 [ext_resource type="Texture2D" uid="uid://dgxwvomhedyap" path="res://acts/full_game/conclusion_arc/dark_experiments/assets/closeups/holdingcell.png" id="1"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="2"]
@@ -16,18 +16,18 @@ texture = ExtResource("1")
 
 [node name="DeadBodySpot" parent="." instance=ExtResource("2")]
 layout_mode = 1
-offset_left = 170.73599243164063
-offset_top = 248.3800048828125
-offset_right = -467.2640075683594
-offset_bottom = -109.62000274658203
+offset_left = 170.736
+offset_top = 248.38
+offset_right = -467.264
+offset_bottom = -109.62
 scale = Vector2(0.998394, 0.996602)
 hotspot_id = "dGK"
 
 [node name="Indicators" parent="DeadBodySpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="DeadBodySpot/Indicators" index="0"]
 modulate = Color(0.561681, 0.574877, 0.346287, 1)
@@ -58,10 +58,10 @@ hotspot_id = "qjq"
 text = "WAREHOUSE_HARRY_BODY_TOOLTIP"
 
 [node name="Indicators" parent="DeadBodySpot/PhilPanel/PhilSpot" index="0"]
-offset_left = 65.2782974243164
-offset_top = 74.2522964477539
-offset_right = 65.2782974243164
-offset_bottom = 74.2522964477539
+offset_left = 65.2783
+offset_top = 74.2523
+offset_right = 65.2783
+offset_bottom = 74.2523
 
 [node name="Highlighter" parent="DeadBodySpot/PhilPanel/PhilSpot/Indicators" index="0"]
 modulate = Color(0.560784, 0.576471, 0.345098, 1)

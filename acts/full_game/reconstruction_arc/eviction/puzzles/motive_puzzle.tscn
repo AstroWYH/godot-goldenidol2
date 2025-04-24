@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://lmspiqvgad8r"]
+[gd_scene load_steps=24 format=3 uid="uid://lmspiqvgad8r"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://c7rn3gtqn2e7e" path="res://acts/full_game/reconstruction_arc/eviction/assets/sketch/custom_puzzle_backgrounds/motive_puzzle_bg.png" id="2"]

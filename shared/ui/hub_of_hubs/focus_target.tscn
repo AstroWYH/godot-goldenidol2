@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=4 uid="uid://crb7rwujbjw7u"]
+[gd_scene load_steps=2 format=3 uid="uid://crb7rwujbjw7u"]
 
-[ext_resource type="Script" path="res://shared/ui/hub_of_hubs/focus_target.gd" id="1"]
+[ext_resource type="Script" uid="uid://bq626f0dvhrpv" path="res://shared/ui/hub_of_hubs/focus_target.gd" id="1"]
 
 [node name="FocusTarget" type="Control"]
 layout_mode = 3

@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=4 uid="uid://dilns6qi26fl8"]
+[gd_scene load_steps=3 format=3 uid="uid://dilns6qi26fl8"]
 
-[ext_resource type="Script" path="res://autoload/platform/platform.gd" id="1"]
-[ext_resource type="Script" path="res://autoload/platform/steam.gd" id="2"]
+[ext_resource type="Script" uid="uid://dfofjuryyy12" path="res://autoload/platform/platform.gd" id="1"]
+[ext_resource type="Script" uid="uid://ci4poe7uuv4u1" path="res://autoload/platform/steam.gd" id="2"]
 
 [node name="Platform" type="Node"]
 script = ExtResource("1")

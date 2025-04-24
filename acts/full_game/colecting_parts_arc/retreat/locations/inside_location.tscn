@@ -1,6 +1,6 @@
-[gd_scene load_steps=73 format=4 uid="uid://4it5s7ouli4d"]
+[gd_scene load_steps=73 format=3 uid="uid://4it5s7ouli4d"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://dvpoe83y5xwup" path="res://acts/full_game/colecting_parts_arc/retreat/locations/inside_location.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://ddnei8palh664" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://cyq8tgbv48qxe" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_001.png" id="4"]
@@ -47,7 +47,7 @@
 [ext_resource type="Texture2D" uid="uid://cxtgk8djx1hqt" path="res://acts/full_game/colecting_parts_arc/retreat/assets/animations/fabrick/fabrick_042.png" id="45"]
 [ext_resource type="Texture2D" uid="uid://bod2nfedodgoj" path="res://acts/full_game/colecting_parts_arc/retreat/assets/inside6.png" id="46"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="47"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="48"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="48"]
 [ext_resource type="PackedScene" uid="uid://xspvegygdnu0" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/picture_panel.tscn" id="49"]
 [ext_resource type="PackedScene" uid="uid://bstiiqy2hge8y" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/safe_panel.tscn" id="50"]
 [ext_resource type="PackedScene" uid="uid://ent3g4gn1sqe" path="res://acts/full_game/colecting_parts_arc/retreat/closeups/suitcase_panel.tscn" id="51"]
@@ -262,7 +262,7 @@ location_meta = ExtResource("2")
 position = Vector2(267, 217)
 sprite_frames = SubResource("SpriteFrames_wef3s")
 autoplay = "default"
-frame_progress = 0.6463090181350708
+frame_progress = 0.646309
 
 [node name="Background" type="Sprite2D" parent="."]
 visible = false
@@ -400,7 +400,7 @@ offset_bottom = 790.0
 
 [node name="Highlighter" parent="Hotspots/ToGardenSpot/Indicators" index="0"]
 position = Vector2(6.5, -58.5)
-rotation = 1.5707999467849731
+rotation = 1.5708
 
 [node name="FocusIndicator" parent="Hotspots/ToGardenSpot/Indicators" index="1"]
 position = Vector2(7.5, -58.5)

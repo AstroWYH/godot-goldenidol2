@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://dy7gt5t6k3cw2"]
+[gd_scene load_steps=24 format=3 uid="uid://dy7gt5t6k3cw2"]
 
 [ext_resource type="Texture2D" uid="uid://dqhuxccjuiv7f" path="res://acts/full_game/introductory_arc/bridge/assets/portraits/uncle/uncle.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://du8ukevpm6qqs" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/cigarettes.png" id="2"]
@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://dx45rb3lul765" path="res://shared/assets/papers/A4_V3_ICO.png" id="6"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="7"]
 [ext_resource type="Texture2D" uid="uid://n4mkcwufm05d" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/pen.png" id="8"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="9"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="9"]
 [ext_resource type="Texture2D" uid="uid://cnth7w24b3j5r" path="res://shared/assets/textures/paper_random.png" id="10"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="11"]
 [ext_resource type="Texture2D" uid="uid://blm0mgu2jgc4v" path="res://acts/full_game/introductory_arc/bridge/assets/closeups/circle_marked_sentence.png" id="12"]
@@ -186,7 +186,7 @@ offset_left = 79.625
 offset_top = 264.5
 offset_right = 467.625
 offset_bottom = 542.5
-rotation = -3.16931982524693e-05
+rotation = -3.16932e-05
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.745098, 0.12549, 0.203922, 1)
 text = "BRIDGE_ISAAC_NOTE_BODY3"
@@ -198,7 +198,7 @@ offset_left = 78.625
 offset_top = 526.5
 offset_right = 420.625
 offset_bottom = 592.5
-rotation = -3.16931982524693e-05
+rotation = -3.16932e-05
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.745098, 0.12549, 0.203922, 1)
 text = "BRIDGE_ISAAC_NOTE_BODY4"
@@ -292,7 +292,7 @@ offset_left = -255.0
 offset_top = -165.0
 offset_right = -37.0
 offset_bottom = -130.0
-rotation = 0.19479900598526
+rotation = 0.194799
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.341176, 0.333333, 0.247059, 1)
 theme_override_font_sizes/font_size = 21
@@ -304,7 +304,7 @@ offset_left = -256.0
 offset_top = -157.0
 offset_right = -36.0
 offset_bottom = -69.0
-rotation = 0.19479900598526
+rotation = 0.194799
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.341176, 0.333333, 0.247059, 1)
 theme_override_font_sizes/font_size = 21
@@ -313,10 +313,10 @@ autowrap_mode = 2
 
 [node name="Label5" type="Label" parent="WalletSpot/WalletPanel/Wallet"]
 offset_left = -80.0
-offset_top = -215.91400146484375
+offset_top = -215.914
 offset_right = 131.0
-offset_bottom = -180.91400146484375
-rotation = -0.12394700199365616
+offset_bottom = -180.914
+rotation = -0.123947
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.341176, 0.333333, 0.247059, 1)
 theme_override_font_sizes/font_size = 21
@@ -327,7 +327,7 @@ offset_left = -75.0
 offset_top = -182.0
 offset_right = 111.0
 offset_bottom = -101.0
-rotation = -0.12394700199365616
+rotation = -0.123947
 theme = ExtResource("11")
 theme_override_colors/font_color = Color(0.341176, 0.333333, 0.247059, 1)
 theme_override_font_sizes/font_size = 21

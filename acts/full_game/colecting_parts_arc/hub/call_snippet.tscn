@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://ccl52npsfga52"]
+[gd_scene load_steps=6 format=3 uid="uid://ccl52npsfga52"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://cbty3vgi7rpti" path="res://acts/full_game/colecting_parts_arc/hub/assets/snippet_call.png" id="2"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="3"]
 [ext_resource type="Texture2D" uid="uid://dom3hvpj4vy82" path="res://shared/assets/frames/frame_spech_blue.png" id="4"]

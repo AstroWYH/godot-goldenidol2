@@ -1,6 +1,6 @@
-[gd_scene load_steps=178 format=4 uid="uid://7ky5datakj43"]
+[gd_scene load_steps=178 format=3 uid="uid://7ky5datakj43"]
 
-[ext_resource type="Script" path="res://shared/world/location/location.gd" id="1"]
+[ext_resource type="Script" uid="uid://bidsnn002rsjp" path="res://shared/world/location/location.gd" id="1"]
 [ext_resource type="Resource" uid="uid://d3q5uxljty8o7" path="res://acts/full_game/reconstruction_arc/banning/locations/banning_overview_meta.tres" id="2"]
 [ext_resource type="Texture2D" uid="uid://dqcse8vjwtwje" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girlsmall/girl 2_000.png" id="3"]
 [ext_resource type="Texture2D" uid="uid://dmehkujfaf57h" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/girlsmall/girl 2_001.png" id="4"]
@@ -153,7 +153,7 @@
 [ext_resource type="Texture2D" uid="uid://dvgwjt0suvwnf" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/hipiessmall/hipies_048.png" id="151"]
 [ext_resource type="Texture2D" uid="uid://ci7740xw1mcwu" path="res://acts/full_game/reconstruction_arc/banning/assets/animations/hipiessmall/hipies_049.png" id="152"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="153"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="154"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="154"]
 [ext_resource type="PackedScene" uid="uid://ch3lc3ndkf7l2" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/protest_panel.tscn" id="155"]
 [ext_resource type="Resource" uid="uid://dvlhqchfcdpva" path="res://acts/full_game/reconstruction_arc/banning/locations/banning_location_meta.tres" id="156"]
 [ext_resource type="PackedScene" uid="uid://cfpshhm3lx3hh" path="res://acts/full_game/reconstruction_arc/banning/assets/closeups/conversion_panel.tscn" id="157"]
@@ -183,7 +183,7 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_2hhhr"]
 _data = {
-"new_animation": SubResource("Animation_rbofa")
+&"new_animation": SubResource("Animation_rbofa")
 }
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5mrt0"]
@@ -710,19 +710,19 @@ autoplay = "new_animation"
 position = Vector2(1786, 780)
 sprite_frames = SubResource("SpriteFrames_5mrt0")
 autoplay = "default"
-frame_progress = 0.6700599789619446
+frame_progress = 0.67006
 
 [node name="HipiesAnimation2" type="AnimatedSprite2D" parent="."]
 position = Vector2(526, 428)
 sprite_frames = SubResource("SpriteFrames_tyef7")
 autoplay = "default"
-frame_progress = 0.3900209963321686
+frame_progress = 0.390021
 
 [node name="HipiesAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(259, 542)
 sprite_frames = SubResource("SpriteFrames_2g0ov")
 autoplay = "default"
-frame_progress = 0.9421960115432739
+frame_progress = 0.942196
 
 [node name="Hotspots" type="Control" parent="."]
 layout_mode = 3

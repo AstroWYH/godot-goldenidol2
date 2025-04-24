@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=4 uid="uid://b7u0rrqkspyj4"]
+[gd_scene load_steps=10 format=3 uid="uid://b7u0rrqkspyj4"]
 
 [ext_resource type="PackedScene" uid="uid://gyp8ev1jfcdr" path="res://shared/ui/containers/puzzle_container.tscn" id="1"]
 [ext_resource type="Texture2D" uid="uid://dbl2lr3xxjj72" path="res://acts/full_game/colecting_parts_arc/drivein/assets/mikenote.png" id="2"]

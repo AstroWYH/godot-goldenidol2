@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=4 uid="uid://dv8b88yg2ls5p"]
+[gd_scene load_steps=36 format=3 uid="uid://dv8b88yg2ls5p"]
 
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="1"]
 [ext_resource type="Texture2D" uid="uid://bad2j54ylu042" path="res://acts/full_game/research_arc/aviary/assets/portraits/woman/girl_000.png" id="2"]
@@ -143,10 +143,10 @@ mouse_filter = 2
 [node name="AstorSpeechLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.03743299841880798
-anchor_top = 0.005725190043449402
-anchor_right = 0.03743299841880798
-anchor_bottom = 0.005725190043449402
+anchor_left = 0.037433
+anchor_top = 0.00572519
+anchor_right = 0.037433
+anchor_bottom = 0.00572519
 offset_left = 20.0
 offset_top = 23.0
 offset_right = 620.0
@@ -160,7 +160,7 @@ metadata/_edit_use_anchors_ = true
 position = Vector2(384, 283)
 sprite_frames = SubResource("SpriteFrames_1ersw")
 autoplay = "default"
-frame_progress = 0.0711354985833168
+frame_progress = 0.0711355
 
 [node name="AstorSeedsSprite2D" type="Sprite2D" parent="."]
 position = Vector2(826, 111)
@@ -175,7 +175,7 @@ offset_left = -57.0
 offset_top = 37.0
 offset_right = 201.0
 offset_bottom = 78.0
-rotation = -0.08039569854736328
+rotation = -0.0803957
 theme = ExtResource("34")
 theme_override_font_sizes/font_size = 20
 text = "AVIARY_KEY_LABEL"

@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=4 uid="uid://c3rpotae8ybnm"]
+[gd_scene load_steps=37 format=3 uid="uid://c3rpotae8ybnm"]
 
 [ext_resource type="Texture2D" uid="uid://c7b8yuqxhfdpw" path="res://acts/full_game/colecting_parts_arc/retreat/assets/portraits/colector2/collector2_00000.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bbi28niwcstlx" path="res://acts/full_game/colecting_parts_arc/retreat/assets/portraits/colector2/collector2_00001.png" id="2"]
@@ -22,7 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://cddn0ri1qd72b" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/credit_card_icon.png" id="20"]
 [ext_resource type="Theme" uid="uid://dhhfdgr1gdgrb" path="res://shared/assets/themes/character_speech_text.theme" id="21"]
 [ext_resource type="PackedScene" uid="uid://owv6rqfstnd2" path="res://shared/ui/hotspot/hotspot.tscn" id="22"]
-[ext_resource type="Script" path="res://shared/resources/phrase_grid_item.gd" id="23"]
+[ext_resource type="Script" uid="uid://0abm3cotv48m" path="res://shared/resources/phrase_grid_item.gd" id="23"]
 [ext_resource type="Texture2D" uid="uid://ecahjnbhq8jl" path="res://acts/full_game/colecting_parts_arc/retreat/assets/closeups/credit_card.png" id="24"]
 [ext_resource type="Theme" uid="uid://ckt6x6a311d6p" path="res://shared/assets/themes/body_text.theme" id="25"]
 [ext_resource type="Theme" uid="uid://dc65itxrsnhls" path="res://shared/assets/themes/head_line_text.theme" id="26"]
@@ -140,7 +140,7 @@ position = Vector2(213, 354)
 scale = Vector2(-1, 1)
 sprite_frames = SubResource("SpriteFrames_qllpo")
 autoplay = "default"
-frame_progress = 0.5619540214538574
+frame_progress = 0.561954
 
 [node name="CardSprite" type="Sprite2D" parent="."]
 position = Vector2(568, 274)
@@ -218,10 +218,10 @@ text = "retreat_tesa_tooltip"
 extra_hypothetical_items_unlocked = [SubResource("Resource_8mv5j"), SubResource("Resource_mis0b"), SubResource("Resource_rogjv"), SubResource("Resource_eqo1v"), SubResource("Resource_mr7xc"), SubResource("Resource_ft0i5"), SubResource("Resource_aty6v"), SubResource("Resource_glqwc")]
 
 [node name="Indicators" parent="PhraseSpot" index="0"]
-offset_left = -20.729799270629883
-offset_top = 33.11249923706055
-offset_right = -20.729799270629883
-offset_bottom = 33.11249923706055
+offset_left = -20.7298
+offset_top = 33.1125
+offset_right = -20.7298
+offset_bottom = 33.1125
 
 [node name="Highlighter" parent="PhraseSpot/Indicators" index="0"]
 modulate = Color(0.937255, 0.627451, 0.517647, 1)

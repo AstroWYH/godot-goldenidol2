@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=4 uid="uid://clg6slwknnrsv"]
+[gd_scene load_steps=6 format=3 uid="uid://clg6slwknnrsv"]
 
-[ext_resource type="Script" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
+[ext_resource type="Script" uid="uid://bglj5ar77x0cr" path="res://shared/ui/hub/snippet_dialog.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://qbhkqydxipeb" path="res://shared/assets/papers/A4_V2.png" id="2"]
 [ext_resource type="Texture2D" uid="uid://rvj67aufhyba" path="res://acts/full_game/conclusion_arc/hub/assets/napkin.png" id="3"]
 [ext_resource type="FontFile" uid="uid://barxjidpea0de" path="res://shared/assets/fonts/WC_RoughTrad.otf" id="4"]

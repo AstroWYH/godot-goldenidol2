@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=4 uid="uid://dg7gki8kq7271"]
+[gd_scene load_steps=8 format=3 uid="uid://dg7gki8kq7271"]
 
-[ext_resource type="Script" path="res://acts/full_game/conclusion_arc/hub/ending_snippet.gd" id="1"]
+[ext_resource type="Script" uid="uid://bcvtkd0qnw5jn" path="res://acts/full_game/conclusion_arc/hub/ending_snippet.gd" id="1"]
 [ext_resource type="AudioStream" uid="uid://ursdj6axuw5v" path="res://acts/full_game/conclusion_arc/hub/assets/music/ending_snippet_music_loop.ogg" id="2"]
 [ext_resource type="AudioStream" uid="uid://ct88wd1i6gnkr" path="res://shared/assets/sfx/ambiences/ending_snippet_ambience.ogg" id="3"]
 [ext_resource type="Texture2D" uid="uid://6ie8ma5vf2sb" path="res://acts/full_game/conclusion_arc/hub/assets/endscreen.png" id="4"]
