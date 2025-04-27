@@ -703,8 +703,9 @@ func change_screen(context: Variant) -> void :
 	for child in dialog_layer.get_children():
 		child.queue_free()
 
-
+	print("Before await: ", Engine.get_frames_drawn())
 	await get_tree().process_frame
+	print("After await: ", Engine.get_frames_drawn())
 
 
 	var new_screen: Node
